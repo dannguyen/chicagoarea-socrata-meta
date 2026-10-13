@@ -3,47 +3,119 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Socrata Datasets</title>
+<title>Chicago-area Public Data Explorer</title>
+  <meta property="og:title" content="Chicago-area Public Data Explorer"/>
+  <meta name="description" content="A filterable list of Socrata public datasets for Chicago, Cook County, and the state of Illinois" />
+  <meta property="og:description" content="A filterable list of Socrata public datasets for Chicago, Cook County, and the state of Illinois" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
-  body { font: 14px/1.4 -apple-system, system-ui, sans-serif; margin: 16px; color: #222; }
-  h1 { font-size: 18px; margin: 0 0 4px; }
-  #status { color: #666; margin-bottom: 6px; }
-  #reset { font-size: 13px; margin-bottom: 12px; }
-  /* Filter control changed from its default. The box-shadow also shows on native
-     selects, which some browsers render without the background color. */
-  .active { background: #fff3a0; box-shadow: 0 0 0 2px #f2d200; }
+  :root {
+    --ink: #1c2b39;
+    --muted: #5a6876;
+    --faint: #7d8a96;
+    --rule: #dde3e8;
+    --panel: #f3f6f8;
+    --head: #e9eef2;
+    --field-border: #bfc9d2;
+    --link: #1b5e9e;
+    --chicago: #41b6e6;   /* Chicago flag blue */
+    --cook-county: #2f7d4e;
+    --illinois: #13294b;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 24px 24px 48px; background: #fff; color: var(--ink);
+    font: 14px/1.45 "Public Sans", system-ui, sans-serif;
+  }
+  h1 { font-size: 24px; line-height: 1.2; font-weight: 700; margin: 0 0 4px; letter-spacing: -0.01em; }
+  .intro { color: var(--muted); margin: 0 0 16px; }
+  a { color: var(--link); }
+  :focus-visible { outline: 2px solid var(--link); outline-offset: 1px; }
+
+  /* Filter controls */
+  #controls {
+    display: flex; flex-wrap: wrap; align-items: flex-end; gap: 12px 16px;
+    padding: 14px 16px; margin-bottom: 14px; background: var(--panel); border-radius: 6px;
+  }
+  #filters { display: contents; }
+  #controls label, #tagpicker { display: flex; flex-direction: column; gap: 4px; font-size: 12px; font-weight: 600; color: var(--muted); }
+  input, select, button { font: inherit; color: inherit; }
+  #controls input[type=search], #controls select, #tags-btn, tr.min-row input {
+    height: 32px; padding: 0 8px; font-size: 13px; font-weight: 400; color: var(--ink);
+    background-color: #fff; border: 1px solid var(--field-border); border-radius: 4px;
+  }
+  /* Same chevron on native selects and the tag picker button, so they read as one family. */
+  #controls select, #tags-btn {
+    appearance: none; padding-right: 26px; cursor: pointer;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%235a6876' stroke-width='1.5'/%3E%3C/svg%3E");
+    background-repeat: no-repeat; background-position: right 9px center;
+  }
+  #controls select { max-width: 300px; }
+  #search { width: 240px; }
+  #tagpicker { position: relative; }
+  #tags-btn { width: 220px; text-align: left; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  #tags-panel {
+    position: absolute; top: 100%; left: 0; right: 0; z-index: 10; margin-top: 4px; padding: 8px;
+    background: #fff; border: 1px solid var(--field-border); border-radius: 4px;
+    box-shadow: 0 6px 16px rgba(28, 43, 57, 0.12);
+  }
+  #tags-panel input[type=search] { width: 100%; }
+  #tag-list { max-height: 320px; overflow-y: auto; margin-top: 6px; }
+  #controls #tag-list label { flex-direction: row; align-items: center; gap: 6px; font-size: 13px; font-weight: 400; color: var(--ink); padding: 2px 0; }
+
+  /* Filter control changed from its default. */
+  #controls .active, tr.min-row input.active { background-color: #fff3b0; border-color: #d4b106; box-shadow: 0 0 0 1px #d4b106; }
+
+  #status { margin-bottom: 8px; }
+  #status .count { font-weight: 600; }
+  #status .fetched { color: var(--faint); font-size: 13px; margin-left: 10px; }
+  #reset {
+    margin-bottom: 16px; height: 30px; padding: 0 14px; font-size: 13px; cursor: pointer;
+    background: #fff; border: 1px solid var(--field-border); border-radius: 4px;
+  }
+  #reset:hover { background: var(--panel); }
+
+  /* Table */
   table { border-collapse: collapse; width: 100%; }
-  th, td { padding: 6px 8px; border-bottom: 1px solid #e3e3e3; vertical-align: top; text-align: left; }
+  th, td { padding: 10px 10px; border-bottom: 1px solid var(--rule); vertical-align: top; text-align: left; }
   thead { position: sticky; top: 0; z-index: 1; }
-  th { background: #f6f6f6; white-space: nowrap; }
-  tr.min-row th { padding-top: 0; font-weight: normal; }
-  tr.min-row input { width: 100%; min-width: 70px; box-sizing: border-box; font-size: 12px; }
-  tr.min-row th.num input { text-align: right; }
+  th { background: var(--head); white-space: nowrap; font-size: 13px; font-weight: 600; }
+  thead tr:first-child th { padding-bottom: 6px; border-bottom: 0; }
   th.sortable { cursor: pointer; user-select: none; }
-  th.sortable:hover { background: #ececec; }
+  th.sortable:hover { color: var(--link); }
+  th.sorted { color: var(--link); }
+  tr.min-row th { padding-top: 0; padding-bottom: 8px; border-bottom: 1px solid var(--field-border); }
+  tr.min-row input { width: 100%; min-width: 70px; height: 28px; font-size: 12px; }
+  tr.min-row th.num input { text-align: right; }
   td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
   td.date { white-space: nowrap; font-variant-numeric: tabular-nums; }
-  td.domain { white-space: nowrap; font-size: 13px; color: #555; }
-  td.name a { font-weight: 600; }
-  td.name .desc { color: #555; font-size: 13px; }
-  td.name .freq { color: #888; font-size: 12px; margin-top: 2px; }
-  tbody tr:hover { background: #fafafa; }
-  #controls { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 8px 16px; margin-bottom: 12px; }
-  #filters { display: contents; }
-  #controls label { display: flex; flex-direction: column; font-size: 12px; color: #555; gap: 2px; }
-  #controls select { max-width: 300px; font-size: 13px; }
-  #search { width: 240px; font-size: 13px; }
-  #tagpicker { position: relative; display: flex; flex-direction: column; font-size: 12px; color: #555; gap: 2px; }
-  #tags-btn { width: 220px; font-size: 13px; text-align: left; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  #tags-panel { position: absolute; top: 100%; left: 0; right: 0; z-index: 10; padding: 6px;
-    background: #fff; border: 1px solid #ccc; box-shadow: 0 4px 12px rgba(0,0,0,.15); }
-  #tags-panel input[type=search] { width: 100%; box-sizing: border-box; font-size: 13px; }
-  #tag-list { max-height: 320px; overflow-y: auto; margin-top: 6px; }
-  #controls #tag-list label { flex-direction: row; align-items: center; gap: 6px; font-size: 13px; color: #222; padding: 1px 0; }
+  td.domain { white-space: nowrap; font-size: 13px; }
+  td.domain .dot { display: inline-block; width: 8px; height: 8px; margin-right: 6px; border-radius: 2px; vertical-align: 1px; }
+  .dot.chicago { background: var(--chicago); }
+  .dot.cook-county { background: var(--cook-county); }
+  .dot.illinois { background: var(--illinois); }
+  td.name { max-width: 34em; }
+  td.name > a { font-weight: 600; text-decoration: none; }
+  td.name > a:hover { text-decoration: underline; }
+  td.name .desc { color: var(--muted); font-size: 13px; margin-top: 3px; }
+  td.name .more { border: 0; padding: 0; background: none; color: var(--link); font-size: inherit; cursor: pointer; text-decoration: underline; }
+  td.name .freq { color: var(--faint); font-size: 12px; margin-top: 4px; }
+  tbody tr:hover { background: #f8fafb; }
+
+  /* Narrow screens: let the table scroll sideways instead of the page. */
+  @media (max-width: 800px) {
+    body { padding: 16px 16px 32px; }
+    table { display: block; overflow-x: auto; }
+    #search, #tags-btn, #controls select { width: 100%; max-width: none; }
+    #controls label, #tagpicker { flex: 1 1 100%; }
+  }
 </style>
 </head>
 <body>
 <h1>Chicago, Cook County &amp; Illinois datasets</h1>
+<p class="intro">Every dataset on the three Socrata open data portals, loaded live from the Socrata catalog.</p>
 <div id="controls">
   <label>Search name &amp; description<input id="search" type="search" placeholder="e.g. permits"></label>
   <!-- Rebuilt on every filter change; kept separate so the search box keeps focus. -->
@@ -314,12 +386,36 @@ const stripHtml = s =>
   (new DOMParser().parseFromString(s, 'text/html').body.textContent || '').replace(/\s+/g, ' ').trim();
 const fmtDate = s => s ? s.slice(0, 10) : '';
 const fmtNum = n => n.toLocaleString();
-const snippet = s => s.length > 100 ? s.slice(0, 100) + '…' : s;
+const EXCERPT_LEN = 240;
+const expanded = new Set(); // links of rows showing their full description; survives re-renders
+
+function renderDescription(el, r) {
+  if (r.description.length <= EXCERPT_LEN) {
+    el.textContent = r.description;
+    return;
+  }
+  const open = expanded.has(r.link);
+  const toggle = document.createElement('button');
+  toggle.type = 'button';
+  toggle.className = 'more';
+  toggle.textContent = open ? 'Less' : 'More';
+  toggle.addEventListener('click', () => {
+    if (open) expanded.delete(r.link); else expanded.add(r.link);
+    renderDescription(el, r);
+  });
+  el.replaceChildren(
+    open ? `${r.description} ` : `${r.description.slice(0, EXCERPT_LEN)}… `, toggle);
+}
 
 function render() {
   const filtered = rows.filter(r => matches(r));
-  document.getElementById('status').textContent =
-    `${filtered.length} of ${rows.length} datasets · fetched ${fetchedAt}`;
+  const count = document.createElement('span');
+  count.className = 'count';
+  count.textContent = `${fmtNum(filtered.length)} of ${fmtNum(rows.length)} datasets`;
+  const fetched = document.createElement('span');
+  fetched.className = 'fetched';
+  fetched.textContent = `Fetched ${fetchedAt}`;
+  document.getElementById('status').replaceChildren(count, fetched);
 
   const sorted = filtered.sort((a, b) =>
     (a[sortKey] < b[sortKey] ? -1 : a[sortKey] > b[sortKey] ? 1 : 0) * sortDir);
@@ -337,7 +433,7 @@ function render() {
     a.textContent = r.name;
     const desc = document.createElement('div');
     desc.className = 'desc';
-    desc.textContent = snippet(r.description);
+    renderDescription(desc, r);
     nameTd.append(a, desc);
     if (r.frequencyRaw) {
       const freq = document.createElement('div');
@@ -352,9 +448,14 @@ function render() {
       td.textContent = text;
       return td;
     };
+    const domainTd = cell('', 'domain');
+    const dot = document.createElement('span');
+    dot.className = `dot ${r.domain.toLowerCase().replace(/\s+/g, '-')}`;
+    domainTd.append(dot, r.domain);
+
     tr.append(
       nameTd,
-      cell(r.domain, 'domain'),
+      domainTd,
       cell(fmtDate(r.createdAt), 'date'),
       cell(fmtDate(r.updatedAt), 'date'),
       cell(fmtNum(r.viewsLastMonth), 'num'),
@@ -368,6 +469,7 @@ function render() {
   document.querySelectorAll('th.sortable').forEach(th => {
     const label = th.textContent.replace(/ [▲▼]$/, '');
     th.textContent = th.dataset.key === sortKey ? `${label} ${sortDir < 0 ? '▼' : '▲'}` : label;
+    th.classList.toggle('sorted', th.dataset.key === sortKey);
   });
 
   highlightActiveControls();
