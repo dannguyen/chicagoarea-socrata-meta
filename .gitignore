@@ -1,0 +1,27 @@
+# Secrets
+.env
+.playwright-mcp/
+# Data artifacts
+*.duckdb
+*.duckdb.wal
+*.parquet
+cache/
+data/*
+# ...except vendored source data checked into the repo (not a fetched artifact)
+!data/r_cpi_u_rs.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# macOS
+.DS_Store
+
+# SDD workspace
+.superpowers/
+
+# CSV exports
+exports/
