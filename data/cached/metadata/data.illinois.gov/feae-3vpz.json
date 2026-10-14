@@ -1,0 +1,102 @@
+{
+  "id": "feae-3vpz",
+  "name": "Lobbyist Non-Compliance Data Daily",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 591,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1736802994,
+  "publicationDate": 1736803133,
+  "rowsUpdatedAt": 1791981703,
+  "viewLastModified": 1736803412,
+  "viewCount": 419,
+  "downloadCount": 121,
+  "category": "Government and Public Employees",
+  "tags": [],
+  "attribution": "Illinois Secretary of State",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Illinois Secretary of State"
+    },
+    "Data Management": {
+      "Maintainer": "Illinois Secretary of State",
+      "Maintainer Email": "publicdata@ilsos.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "LOBBYIST_ID",
+      "fieldName": "lobbyist_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 591
+    },
+    {
+      "name": "ENT_REG_YEAR",
+      "fieldName": "ent_reg_year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 591
+    },
+    {
+      "name": "LOBBYIST_FNAME",
+      "fieldName": "lobbyist_fname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 591
+    },
+    {
+      "name": "LOBBYIST_MNAME",
+      "fieldName": "lobbyist_mname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 432,
+      "cardinality": 591
+    },
+    {
+      "name": "LOBBYIST_LNAME",
+      "fieldName": "lobbyist_lname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 591
+    },
+    {
+      "name": "ETHICS",
+      "fieldName": "ethics",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 591
+    },
+    {
+      "name": "HARASSMENT",
+      "fieldName": "harassment",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 591
+    },
+    {
+      "name": "AFFIRMATION",
+      "fieldName": "affirmation",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 591
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:33.313Z"
+}

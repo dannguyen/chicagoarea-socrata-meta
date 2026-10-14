@@ -1,0 +1,142 @@
+{
+  "id": "59ym-mb5j",
+  "name": "IDPH Births to Teen Mothers, by County, by Age, 2008-2009",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 105,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709064697,
+  "publicationDate": 1709146319,
+  "rowsUpdatedAt": 1709146313,
+  "viewLastModified": 1736793982,
+  "viewCount": 31,
+  "downloadCount": 84,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "ages_15_17_2008",
+      "fieldName": "ages_15_17_2008",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 46
+    },
+    {
+      "name": "ages_15_17_2009",
+      "fieldName": "ages_15_17_2009",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 43
+    },
+    {
+      "name": "ages_18_19_2008",
+      "fieldName": "ages_18_19_2008",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 69
+    },
+    {
+      "name": "ages_18_19_2009",
+      "fieldName": "ages_18_19_2009",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 59
+    },
+    {
+      "name": "births_2008",
+      "fieldName": "births_2008",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 97
+    },
+    {
+      "name": "births_2009",
+      "fieldName": "births_2009",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 97
+    },
+    {
+      "name": "county",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 105
+    },
+    {
+      "name": "teen_mothers_rate_2008",
+      "fieldName": "teen_mothers_rate_2008",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 72
+    },
+    {
+      "name": "teen_mothers_rate_2009",
+      "fieldName": "teen_mothers_rate_2009",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 68
+    },
+    {
+      "name": "teens_2008",
+      "fieldName": "teens_2008",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 73
+    },
+    {
+      "name": "teens_2009",
+      "fieldName": "teens_2009",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 71
+    },
+    {
+      "name": "under_15_2008_",
+      "fieldName": "under_15_2008_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 13
+    },
+    {
+      "name": "under_15_2009_",
+      "fieldName": "under_15_2009_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 13
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:41.492Z"
+}

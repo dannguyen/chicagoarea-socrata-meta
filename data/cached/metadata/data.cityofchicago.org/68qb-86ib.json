@@ -1,0 +1,98 @@
+{
+  "id": "68qb-86ib",
+  "name": "CPS_Charter_School_Preference_Boundaries_SY1415",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 14,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1407528963,
+  "publicationDate": null,
+  "rowsUpdatedAt": 1407528963,
+  "viewLastModified": 1712775950,
+  "viewCount": 417,
+  "downloadCount": 2338,
+  "category": "Education",
+  "tags": [
+    "attendance",
+    "boundaries",
+    "cps",
+    "charter",
+    "preference",
+    "schools",
+    "map_layer",
+    "gis",
+    "2014",
+    "2015",
+    "kml",
+    "kmz",
+    "shapefiles"
+  ],
+  "attribution": "Chicago Public Schools",
+  "attributionLink": "http://cps.edu",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "July 2014 - July 2015",
+      "Frequency": "Updated as needed",
+      "Data Owner": "Chicago Public Schools"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "GRADES",
+      "fieldName": "grades",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "SCHOOL_ID",
+      "fieldName": "school_id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 14
+    },
+    {
+      "name": "SchoolName",
+      "fieldName": "schoolname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 14
+    },
+    {
+      "name": "SchoolAddr",
+      "fieldName": "schooladdr",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 14
+    },
+    {
+      "name": "Governance",
+      "fieldName": "governance",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:24.851Z"
+}

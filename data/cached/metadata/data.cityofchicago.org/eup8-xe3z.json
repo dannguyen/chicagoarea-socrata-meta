@@ -1,0 +1,58 @@
+{
+  "id": "eup8-xe3z",
+  "name": "Dockless Bicycle Pilot Zones - Summer 2018 - New Format",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 4,
+  "rowCountSource": "cached",
+  "rowLabel": "Quadrant",
+  "hasRowIdentifier": false,
+  "createdAt": 1535033681,
+  "publicationDate": 1535033995,
+  "rowsUpdatedAt": 1535033995,
+  "viewLastModified": 1574290752,
+  "viewCount": 1031,
+  "downloadCount": 1875,
+  "category": "Transportation",
+  "tags": [
+    "transportation",
+    "bicycling",
+    "boundaries",
+    "gis",
+    "geo_layer"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://data.cityofchicago.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "May 2018 - ",
+      "Frequency": "Data are updated monthly",
+      "Data Owner": "Chicago Department of Transportation"
+    }
+  },
+  "columns": [
+    {
+      "name": "polygon",
+      "fieldName": "polygon",
+      "dataTypeName": "polygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "quadrant",
+      "fieldName": "quadrant",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:20.625Z"
+}

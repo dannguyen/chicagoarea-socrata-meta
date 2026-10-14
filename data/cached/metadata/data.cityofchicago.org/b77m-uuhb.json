@@ -1,0 +1,414 @@
+{
+  "id": "b77m-uuhb",
+  "name": "Lending Equity - Residential Lending",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 100937,
+  "rowCountSource": "cached",
+  "rowLabel": "Loan",
+  "hasRowIdentifier": false,
+  "createdAt": 1638222752,
+  "publicationDate": 1670437587,
+  "rowsUpdatedAt": 1765815714,
+  "viewLastModified": 1765815713,
+  "viewCount": 2595,
+  "downloadCount": 2333,
+  "category": "Administration & Finance",
+  "tags": [
+    "lending",
+    "equity",
+    "2021",
+    "lending equity",
+    "2022",
+    "2020",
+    "2023",
+    "2024",
+    "2025"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2020-2024",
+      "Frequency": "Data are updated annually.",
+      "Data Owner": "Department of Finance"
+    }
+  },
+  "columns": [
+    {
+      "name": "Reporting Year",
+      "fieldName": "reporting_year",
+      "dataTypeName": "number",
+      "description": "The year in which the record was reported, covering bank operations in the previous year.",
+      "nullCount": 0,
+      "cardinality": 100937
+    },
+    {
+      "name": "Bank",
+      "fieldName": "bank",
+      "dataTypeName": "text",
+      "description": "Name of bank submitting data for municipal depository RFP",
+      "nullCount": 0,
+      "cardinality": 100937
+    },
+    {
+      "name": "RFP Source",
+      "fieldName": "rfp_source",
+      "dataTypeName": "text",
+      "description": "RFP submission item data were drawn from.",
+      "nullCount": 0,
+      "cardinality": 100937
+    },
+    {
+      "name": "Data Description",
+      "fieldName": "data_description",
+      "dataTypeName": "text",
+      "description": "The specific data that the bank were required to submit.",
+      "nullCount": 0,
+      "cardinality": 100937
+    },
+    {
+      "name": "Census Tract",
+      "fieldName": "census_tract",
+      "dataTypeName": "text",
+      "description": "The Census Tract of the property whose loan application is described by the record.",
+      "nullCount": 3,
+      "cardinality": 100937
+    },
+    {
+      "name": "Action Taken",
+      "fieldName": "action_taken",
+      "dataTypeName": "text",
+      "description": "Indicates action taken on the  loan application by bank. See the dataset description for a link to the codes used.",
+      "nullCount": 1491,
+      "cardinality": 100937
+    },
+    {
+      "name": "Total Units",
+      "fieldName": "total_units",
+      "dataTypeName": "number",
+      "description": "Number of individual dwelling units related to the property secured by the  loan application.",
+      "nullCount": 7042,
+      "cardinality": 100937
+    },
+    {
+      "name": "Open End Line of Credit",
+      "fieldName": "open_end_line_of_credit",
+      "dataTypeName": "text",
+      "description": "Indicate whether loan application is for an open line of credit. See the dataset description for a link to the codes used.",
+      "nullCount": 24583,
+      "cardinality": 100937
+    },
+    {
+      "name": "Loan Type",
+      "fieldName": "loan_type",
+      "dataTypeName": "text",
+      "description": "Wheter the loan or application is insured by the FHA,VA, RSA, or FSA.  See the dataset description for a link to the codes used.",
+      "nullCount": 9602,
+      "cardinality": 100937
+    },
+    {
+      "name": "Loan Purpose",
+      "fieldName": "loan_purpose",
+      "dataTypeName": "text",
+      "description": "Purpose of  loan application. See the dataset description for a link to the codes used.",
+      "nullCount": 20038,
+      "cardinality": 100937
+    },
+    {
+      "name": "Loan Amount",
+      "fieldName": "loan_amount",
+      "dataTypeName": "number",
+      "description": "Amount of loan or amount applied for.",
+      "nullCount": 5362,
+      "cardinality": 100937
+    },
+    {
+      "name": "Application Date",
+      "fieldName": "application_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date of the loan application.",
+      "nullCount": 64918,
+      "cardinality": 100937
+    },
+    {
+      "name": "Interest Rate",
+      "fieldName": "interest_rate",
+      "dataTypeName": "number",
+      "description": "Interest rate on the approved application or loan.",
+      "nullCount": 23392,
+      "cardinality": 100937
+    },
+    {
+      "name": "Loan Term (Months)",
+      "fieldName": "loan_term_months",
+      "dataTypeName": "number",
+      "description": "Number of months after which the legal obligation will mature or terminate.",
+      "nullCount": 8592,
+      "cardinality": 100937
+    },
+    {
+      "name": "Total Points and Fees",
+      "fieldName": "total_points_and_fees",
+      "dataTypeName": "number",
+      "description": "Total points and fees charges in connection with the loan.",
+      "nullCount": 85050,
+      "cardinality": 100937
+    },
+    {
+      "name": "Lien Status",
+      "fieldName": "lien_status",
+      "dataTypeName": "text",
+      "description": "Whether the property is a first or subordinate lien. See the dataset description for a link to the codes used.",
+      "nullCount": 11060,
+      "cardinality": 100937
+    },
+    {
+      "name": "Property Value",
+      "fieldName": "property_value",
+      "dataTypeName": "number",
+      "description": "Value of property relied on that secured the loan.",
+      "nullCount": 25428,
+      "cardinality": 100937
+    },
+    {
+      "name": "Combined-Loan-value Ratio",
+      "fieldName": "combined_loan_value_ratio",
+      "dataTypeName": "number",
+      "description": "Ratio of the total amount of debt that is secured by the property to value that was relied on.",
+      "nullCount": 42205,
+      "cardinality": 100937
+    },
+    {
+      "name": "Purchase Price",
+      "fieldName": "purchase_price",
+      "dataTypeName": "number",
+      "description": "Purchase price of the property.",
+      "nullCount": 96391,
+      "cardinality": 100937
+    },
+    {
+      "name": "Down Payment Amount",
+      "fieldName": "down_payment_amount",
+      "dataTypeName": "number",
+      "description": "Indicates the down payment amount of the property.",
+      "nullCount": 98519,
+      "cardinality": 100937
+    },
+    {
+      "name": "Reason for Denial (1)",
+      "fieldName": "reason_for_denial_1",
+      "dataTypeName": "text",
+      "description": "Reason for denial of the application. There may be up to four reasons. See the dataset description for a link to the codes used.",
+      "nullCount": 21094,
+      "cardinality": 100937
+    },
+    {
+      "name": "Reason for Denial (2)",
+      "fieldName": "reason_for_denial_2",
+      "dataTypeName": "text",
+      "description": "Reason for denial of the application. There may be up to four reasons. See the dataset description for a link to the codes used.",
+      "nullCount": 71514,
+      "cardinality": 100937
+    },
+    {
+      "name": "Reason for Denial (3)",
+      "fieldName": "reason_for_denial_3",
+      "dataTypeName": "text",
+      "description": "Reason for denial of the application. There may be up to four reasons. See the dataset description for a link to the codes used.",
+      "nullCount": 74704,
+      "cardinality": 100937
+    },
+    {
+      "name": "Reason for Denial (4)",
+      "fieldName": "reason_for_denial_4",
+      "dataTypeName": "text",
+      "description": "Reason for denial of the application. There may be up to four reasons. See the dataset description for a link to the codes used.",
+      "nullCount": 75751,
+      "cardinality": 100937
+    },
+    {
+      "name": "Race of Applicant or Borrower (1)",
+      "fieldName": "race_of_applicant_or_borrower_1",
+      "dataTypeName": "text",
+      "description": "Race of applicant or borrower. The person may list up to five values. See the dataset description for a link to the codes used.",
+      "nullCount": 23612,
+      "cardinality": 100937
+    },
+    {
+      "name": "Race of Applicant or Borrower (2)",
+      "fieldName": "race_of_applicant_or_borrower_2",
+      "dataTypeName": "text",
+      "description": "Race of applicant or borrower. The person may list up to five values. See the dataset description for a link to the codes used.",
+      "nullCount": 73496,
+      "cardinality": 100937
+    },
+    {
+      "name": "Race of Applicant or Borrower (3)",
+      "fieldName": "race_of_applicant_or_borrower_3",
+      "dataTypeName": "text",
+      "description": "Race of applicant or borrower. The person may list up to five values. See the dataset description for a link to the codes used.",
+      "nullCount": 75723,
+      "cardinality": 100937
+    },
+    {
+      "name": "Race of Applicant or Borrower (4)",
+      "fieldName": "race_of_applicant_or_borrower_4",
+      "dataTypeName": "text",
+      "description": "Race of applicant or borrower. The person may list up to five values. See the dataset description for a link to the codes used.",
+      "nullCount": 75892,
+      "cardinality": 100937
+    },
+    {
+      "name": "Race of Applicant or Borrower (5)",
+      "fieldName": "race_of_applicant_or_borrower_5",
+      "dataTypeName": "text",
+      "description": "Race of applicant or borrower. The person may list up to five values. See the dataset description for a link to the codes used.",
+      "nullCount": 75903,
+      "cardinality": 100937
+    },
+    {
+      "name": "Race of Co-Applicant or Borrower (1)",
+      "fieldName": "race_of_co_applicant_or_borrower_1",
+      "dataTypeName": "text",
+      "description": "Race of co-applicant or borrower. The person may list up to five values. See the dataset description for a link to the codes used.",
+      "nullCount": 23591,
+      "cardinality": 100937
+    },
+    {
+      "name": "Race of Co-Applicant or Borrower (2)",
+      "fieldName": "race_of_co_applicant_or_borrower_2",
+      "dataTypeName": "text",
+      "description": "Race of co-applicant or borrower. The person may list up to five values. See the dataset description for a link to the codes used.",
+      "nullCount": 75048,
+      "cardinality": 100937
+    },
+    {
+      "name": "Race of Co-Applicant or Borrower (3)",
+      "fieldName": "race_of_co_applicant_or_borrower_3",
+      "dataTypeName": "text",
+      "description": "Race of co-applicant or borrower. The person may list up to five values. See the dataset description for a link to the codes used.",
+      "nullCount": 75828,
+      "cardinality": 100937
+    },
+    {
+      "name": "Race of Co-Applicant or Borrower (4)",
+      "fieldName": "race_of_co_applicant_or_borrower_4",
+      "dataTypeName": "text",
+      "description": "Race of co-applicant or borrower. The person may list up to five values. See the dataset description for a link to the codes used.",
+      "nullCount": 75902,
+      "cardinality": 100937
+    },
+    {
+      "name": "Race of Co-Applicant or Borrower (5)",
+      "fieldName": "race_of_co_applicant_or_borrower_5",
+      "dataTypeName": "text",
+      "description": "Race of co-applicant or borrower. The person may list up to five values. See the dataset description for a link to the codes used.",
+      "nullCount": 72214,
+      "cardinality": 100937
+    },
+    {
+      "name": "Ethnicity of Applicant or Borrower (1)",
+      "fieldName": "ethnicity_of_applicant_or_borrower_1",
+      "dataTypeName": "text",
+      "description": "Ethnicity of applicant or borrower. The person may list up to five values. See the dataset description for a link to the codes used.",
+      "nullCount": 32570,
+      "cardinality": 100937
+    },
+    {
+      "name": "Ethnicity of Applicant or Borrower (2)",
+      "fieldName": "ethnicity_of_applicant_or_borrower_2",
+      "dataTypeName": "text",
+      "description": "Ethnicity of applicant or borrower. The person may list up to five values. See the dataset description for a link to the codes used.",
+      "nullCount": 71361,
+      "cardinality": 100937
+    },
+    {
+      "name": "Ethnicity of Applicant or Borrower (3)",
+      "fieldName": "ethnicity_of_applicant_or_borrower_3",
+      "dataTypeName": "text",
+      "description": "Ethnicity of applicant or borrower. The person may list up to five values. See the dataset description for a link to the codes used.",
+      "nullCount": 75711,
+      "cardinality": 100937
+    },
+    {
+      "name": "Ethnicity of Applicant or Borrower (4)",
+      "fieldName": "ethnicity_of_applicant_or_borrower_4",
+      "dataTypeName": "text",
+      "description": "Ethnicity of applicant or borrower. The person may list up to five values. See the dataset description for a link to the codes used.",
+      "nullCount": 75863,
+      "cardinality": 100937
+    },
+    {
+      "name": "Ethnicity of Applicant or Borrower (5)",
+      "fieldName": "ethnicity_of_applicant_or_borrower_5",
+      "dataTypeName": "text",
+      "description": "Ethnicity of applicant or borrower. The person may list up to five values. See the dataset description for a link to the codes used.",
+      "nullCount": 75870,
+      "cardinality": 100937
+    },
+    {
+      "name": "Ethnicity of Co-Applicant or Borrower (1)",
+      "fieldName": "ethnicity_of_co_applicant_or_borrower_1",
+      "dataTypeName": "text",
+      "description": "Ethnicity of co-applicant or borrower. The person may list up to five values. See the dataset description for a link to the codes used.",
+      "nullCount": 32526,
+      "cardinality": 100937
+    },
+    {
+      "name": "Ethnicity of Co-Applicant or Borrower (2)",
+      "fieldName": "ethnicity_of_co_applicant_or_borrower_2",
+      "dataTypeName": "text",
+      "description": "Ethnicity of co-applicant or borrower. The person may list up to five values. See the dataset description for a link to the codes used.",
+      "nullCount": 74745,
+      "cardinality": 100937
+    },
+    {
+      "name": "Ethnicity of Co-Applicant or Borrower (3)",
+      "fieldName": "ethnicity_of_co_applicant_or_borrower_3",
+      "dataTypeName": "text",
+      "description": "Ethnicity of co-applicant or borrower. The person may list up to five values. See the dataset description for a link to the codes used.",
+      "nullCount": 75833,
+      "cardinality": 100937
+    },
+    {
+      "name": "Ethnicity of Co-Applicant or Borrower (4)",
+      "fieldName": "ethnicity_of_co_applicant_or_borrower_4",
+      "dataTypeName": "text",
+      "description": "Ethnicity of co-applicant or borrower. The person may list up to five values. See the dataset description for a link to the codes used.",
+      "nullCount": 75870,
+      "cardinality": 100937
+    },
+    {
+      "name": "Ethnicity of Co-Applicant or Borrower (5)",
+      "fieldName": "ethnicity_of_co_applicant_or_borrower_5",
+      "dataTypeName": "text",
+      "description": "Ethnicity of co-applicant or borrower. The person may list up to five values. See the dataset description for a link to the codes used.",
+      "nullCount": 79987,
+      "cardinality": 100937
+    },
+    {
+      "name": "Sex of Applicant or Borrower",
+      "fieldName": "sex_of_applicant_or_borrower",
+      "dataTypeName": "text",
+      "description": "Sex of applicant or borrower. See the dataset description for a link to the codes used.",
+      "nullCount": 27351,
+      "cardinality": 100937
+    },
+    {
+      "name": "Sex of Co-Applicant or Borrower",
+      "fieldName": "sex_of_co_applicant_or_borrower",
+      "dataTypeName": "text",
+      "description": "Sex of co-applicant or borrower. See the dataset description for a link to the codes used.",
+      "nullCount": 27359,
+      "cardinality": 100937
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:10.589Z"
+}

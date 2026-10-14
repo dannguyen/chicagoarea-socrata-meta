@@ -1,0 +1,147 @@
+{
+  "id": "jeet-jzwp",
+  "name": "IEPA Groundwater Ordinance Reviews",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 665,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709065199,
+  "publicationDate": 1709134892,
+  "rowsUpdatedAt": 1709134886,
+  "viewLastModified": 1727117469,
+  "viewCount": 60,
+  "downloadCount": 108,
+  "category": "Natural and Cultural Resources",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "bolregion",
+      "fieldName": "bolregion",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 181,
+      "cardinality": 7
+    },
+    {
+      "name": "citation",
+      "fieldName": "citation",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 516,
+      "cardinality": 129
+    },
+    {
+      "name": "cityfips",
+      "fieldName": "cityfips",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 56,
+      "cardinality": 120
+    },
+    {
+      "name": "comments",
+      "fieldName": "comments",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 339
+    },
+    {
+      "name": "county",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 8,
+      "cardinality": 91
+    },
+    {
+      "name": "countycityfips",
+      "fieldName": "countycityfips",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 10,
+      "cardinality": 322
+    },
+    {
+      "name": "countyfips",
+      "fieldName": "countyfips",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 38,
+      "cardinality": 86
+    },
+    {
+      "name": "date_dlc_complete",
+      "fieldName": "date_dlc_complete",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 537
+    },
+    {
+      "name": "id",
+      "fieldName": "id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 665
+    },
+    {
+      "name": "internaldocid",
+      "fieldName": "internaldocid",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 627
+    },
+    {
+      "name": "lpc",
+      "fieldName": "lpc",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 153,
+      "cardinality": 390
+    },
+    {
+      "name": "municipality",
+      "fieldName": "municipality",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 8,
+      "cardinality": 319
+    },
+    {
+      "name": "ordinance",
+      "fieldName": "ordinance",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 71,
+      "cardinality": 526
+    },
+    {
+      "name": "review_date",
+      "fieldName": "review_date",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 527,
+      "cardinality": 2
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:36.773Z"
+}

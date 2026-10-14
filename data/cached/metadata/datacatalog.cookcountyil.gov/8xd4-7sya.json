@@ -1,0 +1,193 @@
+{
+  "id": "8xd4-7sya",
+  "name": "Election Precincts - 2011",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1673,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1468598515,
+  "publicationDate": null,
+  "rowsUpdatedAt": 1468598533,
+  "viewLastModified": 1769547946,
+  "viewCount": 492,
+  "downloadCount": 1854,
+  "category": "Boundaries & Districts",
+  "tags": [
+    "cook county",
+    "gis",
+    "precinct",
+    "election",
+    "clerk",
+    "boundaries and districts",
+    "inactive"
+  ],
+  "attribution": "Cook County Clerk / Map Department",
+  "attributionLink": "http://www.cookcountyclerk.com/tsd/maps/Pages/default.aspx",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County GIS"
+    },
+    "Metadata": {
+      "Update Frequency": "As Needed"
+    },
+    "Publishing Details": {
+      "Data change frequency": "As needed",
+      "Publishing frequency": "Not updated (historical only)"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "OBJECTID",
+      "fieldName": "objectid",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1673
+    },
+    {
+      "name": "NAME",
+      "fieldName": "name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 10,
+      "cardinality": 30
+    },
+    {
+      "name": "JOB_NO",
+      "fieldName": "job_no",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "NAME_TMP",
+      "fieldName": "name_tmp",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 162,
+      "cardinality": 30
+    },
+    {
+      "name": "Num",
+      "fieldName": "num",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 179
+    },
+    {
+      "name": "Idpct",
+      "fieldName": "idpct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1673
+    },
+    {
+      "name": "Planim_GIS",
+      "fieldName": "planim_gis",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "PERIMETER",
+      "fieldName": "perimeter",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "PLSSTWP_",
+      "fieldName": "plsstwp",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "PLSSTWP_ID",
+      "fieldName": "plsstwp_id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Shape_Leng",
+      "fieldName": "shape_leng",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1673
+    },
+    {
+      "name": "created_us",
+      "fieldName": "created_us",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1673,
+      "cardinality": 0
+    },
+    {
+      "name": "created_da",
+      "fieldName": "created_da",
+      "dataTypeName": "date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "last_edite",
+      "fieldName": "last_edite",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1673,
+      "cardinality": 0
+    },
+    {
+      "name": "last_edi_1",
+      "fieldName": "last_edi_1",
+      "dataTypeName": "date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Shape_area",
+      "fieldName": "shape_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1673
+    },
+    {
+      "name": "Shape_len",
+      "fieldName": "shape_len",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1673
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:09.835Z"
+}

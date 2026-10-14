@@ -1,0 +1,1041 @@
+{
+  "id": "nj4t-kc8j",
+  "name": "Assessor - Parcel Universe",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 50672111,
+  "rowCountSource": "query",
+  "rowLabel": "Parcel",
+  "hasRowIdentifier": true,
+  "createdAt": 1682952413,
+  "publicationDate": 1756451136,
+  "rowsUpdatedAt": 1790869726,
+  "viewLastModified": 1783621420,
+  "viewCount": 29479,
+  "downloadCount": 8007,
+  "category": "Property & Taxation",
+  "tags": [
+    "cook county assessor",
+    "property tax"
+  ],
+  "attribution": "Cook County Assessor's Office",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Data Department"
+    },
+    "Source Details": {
+      "Source System": "iasWorld, Various County and 3rd-Party Data"
+    },
+    "Detailed Descriptive": {
+      "Temporal coverage": "1999-Present",
+      "Geographic coverage": "Countywide",
+      "Geographic unit": "Parcel"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Bi-weekly",
+      "Publishing frequency": "Bi-weekly"
+    }
+  },
+  "columns": [
+    {
+      "name": "pin",
+      "fieldName": "pin",
+      "dataTypeName": "text",
+      "description": "Parcel Identification Number (PIN)",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "pin10",
+      "fieldName": "pin10",
+      "dataTypeName": "text",
+      "description": "Parcel Identification Number (10-digit)",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "tax_year",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": "Tax year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "class",
+      "fieldName": "class",
+      "dataTypeName": "text",
+      "description": "Property class",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "triad_name",
+      "fieldName": "triad_name",
+      "dataTypeName": "text",
+      "description": "Triad name. Reassessment of property in Cook County is done within a triennial cycle, meaning it occurs every three years. The Cook County Assessor's Office alternates reassessments between triads: the north and west suburbs, the south and west suburbs and the City of Chicago.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "triad_code",
+      "fieldName": "triad_code",
+      "dataTypeName": "text",
+      "description": "Triad code. Reassessment of property in Cook County is done within a triennial cycle, meaning it occurs every three years. The Cook County Assessor's Office alternates reassessments between triads: the north and west suburbs, the south and west suburbs and the City of Chicago.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "township_name",
+      "fieldName": "township_name",
+      "dataTypeName": "text",
+      "description": "Township name",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "township_code",
+      "fieldName": "township_code",
+      "dataTypeName": "text",
+      "description": "Township code",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "neighborhood_code",
+      "fieldName": "nbhd_code",
+      "dataTypeName": "text",
+      "description": "Assessor neighborhood code, first two digits are township, last three are neighborhood",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "tax_district_code",
+      "fieldName": "tax_code",
+      "dataTypeName": "text",
+      "description": "Tax district code, as seen on individual property tax bills (Not currently up-to-date)",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "zip_code",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": "Property zip code",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "longitude",
+      "fieldName": "lon",
+      "dataTypeName": "number",
+      "description": "Parcel centroid longitude",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "latitude",
+      "fieldName": "lat",
+      "dataTypeName": "number",
+      "description": "Parcel centroid latitude",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "centroid_x_crs_3435",
+      "fieldName": "x_3435",
+      "dataTypeName": "number",
+      "description": "Parcel centroid X coordinate (CRS 3435)",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "centroid_y_crs_3435",
+      "fieldName": "y_3435",
+      "dataTypeName": "number",
+      "description": "Parcel centroid Y coordinate (CRS 3435)",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_block_group_geoid",
+      "fieldName": "census_block_group_geoid",
+      "dataTypeName": "text",
+      "description": "Census block group GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_block_geoid",
+      "fieldName": "census_block_geoid",
+      "dataTypeName": "text",
+      "description": "Census block GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_congressional_district_geoid",
+      "fieldName": "census_congressional_district_geoid",
+      "dataTypeName": "text",
+      "description": "Census congressional district GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_congressional_district_num",
+      "fieldName": "census_congressional_district_num",
+      "dataTypeName": "text",
+      "description": "Census congressional district number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_county_subdivision_geoid",
+      "fieldName": "census_county_subdivision_geoid",
+      "dataTypeName": "text",
+      "description": "Census county subdivision GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_place_geoid",
+      "fieldName": "census_place_geoid",
+      "dataTypeName": "text",
+      "description": "Census place GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_puma_geoid",
+      "fieldName": "census_puma_geoid",
+      "dataTypeName": "text",
+      "description": "Census PUMA GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_school_district_elementary_geoid",
+      "fieldName": "census_school_district_elementary_geoid",
+      "dataTypeName": "text",
+      "description": "Census school district (elementary) GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_school_district_secondary_geoid",
+      "fieldName": "census_school_district_secondary_geoid",
+      "dataTypeName": "text",
+      "description": "Census school district (secondary) GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_school_district_unified_geoid",
+      "fieldName": "census_school_district_unified_geoid",
+      "dataTypeName": "text",
+      "description": "Census school district (unified) GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_state_representative_geoid",
+      "fieldName": "census_state_representative_geoid",
+      "dataTypeName": "text",
+      "description": "Census state representative GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_state_representative_num",
+      "fieldName": "census_state_representative_num",
+      "dataTypeName": "text",
+      "description": "Census state representative number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_state_senate_geoid",
+      "fieldName": "census_state_senate_geoid",
+      "dataTypeName": "text",
+      "description": "Census state senate GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_state_senate_num",
+      "fieldName": "census_state_senate_num",
+      "dataTypeName": "text",
+      "description": "Census state senate number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_tract_geoid",
+      "fieldName": "census_tract_geoid",
+      "dataTypeName": "text",
+      "description": "Census tract GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_zcta_geoid",
+      "fieldName": "census_zcta_geoid",
+      "dataTypeName": "text",
+      "description": "Census ZCTA GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_data_year",
+      "fieldName": "census_data_year",
+      "dataTypeName": "number",
+      "description": "Census data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_acs5_congressional_district_geoid",
+      "fieldName": "census_acs5_congressional_district_geoid",
+      "dataTypeName": "text",
+      "description": "Census ACS5 congressional district GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_acs5_congressional_district_num",
+      "fieldName": "census_acs5_congressional_district_num",
+      "dataTypeName": "text",
+      "description": "Census ACS5 congressional district number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_acs5_county_subdivision_geoid",
+      "fieldName": "census_acs5_county_subdivision_geoid",
+      "dataTypeName": "text",
+      "description": "Census ACS5 county subdivision GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_acs5_place_geoid",
+      "fieldName": "census_acs5_place_geoid",
+      "dataTypeName": "text",
+      "description": "Census ACS5 place GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_acs5_puma_geoid",
+      "fieldName": "census_acs5_puma_geoid",
+      "dataTypeName": "text",
+      "description": "Census ACS5 PUMA GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_acs5_school_district_elementary_geoid",
+      "fieldName": "census_acs5_school_district_elementary_geoid",
+      "dataTypeName": "text",
+      "description": "Census ACS5 school district (elementary) GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_acs5_school_district_secondary_geoid",
+      "fieldName": "census_acs5_school_district_secondary_geoid",
+      "dataTypeName": "text",
+      "description": "Census ACS5 school district (secondary) GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_acs5_school_district_unified_geoid",
+      "fieldName": "census_acs5_school_district_unified_geoid",
+      "dataTypeName": "text",
+      "description": "Census ACS5 school district (unified) GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_acs5_state_representative_geoid",
+      "fieldName": "census_acs5_state_representative_geoid",
+      "dataTypeName": "text",
+      "description": "Census ACS5 state representative GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_acs5_state_representative_num",
+      "fieldName": "census_acs5_state_representative_num",
+      "dataTypeName": "text",
+      "description": "Census ACS5 state representative number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_acs5_state_senate_geoid",
+      "fieldName": "census_acs5_state_senate_geoid",
+      "dataTypeName": "text",
+      "description": "Census ACS5 state senate GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_acs5_state_senate_num",
+      "fieldName": "census_acs5_state_senate_num",
+      "dataTypeName": "text",
+      "description": "Census ACS5 state senate number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_acs5_tract_geoid",
+      "fieldName": "census_acs5_tract_geoid",
+      "dataTypeName": "text",
+      "description": "Census ACS5 tract GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_acs5_data_year",
+      "fieldName": "census_acs5_data_year",
+      "dataTypeName": "number",
+      "description": "Census ACS5 data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "board_of_review_district_num",
+      "fieldName": "cook_board_of_review_district_num",
+      "dataTypeName": "text",
+      "description": "Board of Review district number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "board_of_review_district_data_year",
+      "fieldName": "cook_board_of_review_district_data_year",
+      "dataTypeName": "number",
+      "description": "Board of Review district data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "commissioner_district_num",
+      "fieldName": "cook_commissioner_district_num",
+      "dataTypeName": "text",
+      "description": "Commissioner district number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "commissioner_district_data_year",
+      "fieldName": "cook_commissioner_district_data_year",
+      "dataTypeName": "number",
+      "description": "Commissioner district data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "judicial_district_num",
+      "fieldName": "cook_judicial_district_num",
+      "dataTypeName": "text",
+      "description": "Judicial district number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "judicial_district_data_year",
+      "fieldName": "cook_judicial_district_data_year",
+      "dataTypeName": "number",
+      "description": "Judicial district data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "municipality_num",
+      "fieldName": "cook_municipality_num",
+      "dataTypeName": "text",
+      "description": "Municipality number per Cook County spatial records",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "municipality_name",
+      "fieldName": "cook_municipality_name",
+      "dataTypeName": "text",
+      "description": "Municipality name per Cook County spatial records",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "municipality_data_year",
+      "fieldName": "cook_municipality_data_year",
+      "dataTypeName": "number",
+      "description": "Municipality data year per Cook County spatial records",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "ward_num",
+      "fieldName": "ward_num",
+      "dataTypeName": "text",
+      "description": "Ward number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "ward_chicago_data_year",
+      "fieldName": "ward_chicago_data_year",
+      "dataTypeName": "number",
+      "description": "Chicago ward data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "ward_evanston_data_year",
+      "fieldName": "ward_evanston_data_year",
+      "dataTypeName": "number",
+      "description": "Evanston ward data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "chicago_community_area_num",
+      "fieldName": "chicago_community_area_num",
+      "dataTypeName": "text",
+      "description": "Chicago community area number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "chicago_community_area_name",
+      "fieldName": "chicago_community_area_name",
+      "dataTypeName": "text",
+      "description": "Chicago community area name",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "chicago_community_area_data_year",
+      "fieldName": "chicago_community_area_data_year",
+      "dataTypeName": "number",
+      "description": "Chicago community area data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "chicago_industrial_corridor_num",
+      "fieldName": "chicago_industrial_corridor_num",
+      "dataTypeName": "text",
+      "description": "Chicago industrial corridor number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "chicago_industrial_corridor_name",
+      "fieldName": "chicago_industrial_corridor_name",
+      "dataTypeName": "text",
+      "description": "Chicago industrial corridor name",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "chicago_industrial_corridor_data_year",
+      "fieldName": "chicago_industrial_corridor_data_year",
+      "dataTypeName": "number",
+      "description": "Chicago industrial corridor data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "chicago_police_district_num",
+      "fieldName": "chicago_police_district_num",
+      "dataTypeName": "text",
+      "description": "Chicago police district number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "chicago_police_district_data_year",
+      "fieldName": "chicago_police_district_data_year",
+      "dataTypeName": "number",
+      "description": "Chicago police district data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "coordinated_care_area_num",
+      "fieldName": "econ_coordinated_care_area_num",
+      "dataTypeName": "text",
+      "description": "Coordinated Care Area number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "coordinated_care_area_data_year",
+      "fieldName": "econ_coordinated_care_area_data_year",
+      "dataTypeName": "number",
+      "description": "Coordinated Care Area data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "enterprise_zone_num",
+      "fieldName": "econ_enterprise_zone_num",
+      "dataTypeName": "text",
+      "description": "Enterprise Zone number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "enterprise_zone_data_year",
+      "fieldName": "econ_enterprise_zone_data_year",
+      "dataTypeName": "number",
+      "description": "Enterprise Zone data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "industrial_growth_zone_num",
+      "fieldName": "econ_industrial_growth_zone_num",
+      "dataTypeName": "text",
+      "description": "Industrial Growth Zone number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "industrial_growth_zone_data_year",
+      "fieldName": "econ_industrial_growth_zone_data_year",
+      "dataTypeName": "number",
+      "description": "Industrial Growth Zone data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "qualified_opportunity_zone_num",
+      "fieldName": "econ_qualified_opportunity_zone_num",
+      "dataTypeName": "text",
+      "description": "Qualified Opportunity Zone number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "qualified_opportunity_zone_data_year",
+      "fieldName": "econ_qualified_opportunity_zone_data_year",
+      "dataTypeName": "number",
+      "description": "Qualified Opportunity Zone data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "central_business_district_num",
+      "fieldName": "econ_central_business_district_num",
+      "dataTypeName": "text",
+      "description": "Chicago central business district number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "central_business_district_data_year",
+      "fieldName": "econ_central_business_district_data_year",
+      "dataTypeName": "number",
+      "description": "Chicago central business district data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "flood_fema_sfha",
+      "fieldName": "env_flood_fema_sfha",
+      "dataTypeName": "checkbox",
+      "description": "FEMA Special Flood Hazard Area (SFHA) indicator",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "flood_fema_data_year",
+      "fieldName": "env_flood_fema_data_year",
+      "dataTypeName": "number",
+      "description": "FEMA Special Flood Hazard Area (SFHA) data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "flood_fs_factor",
+      "fieldName": "env_flood_fs_factor",
+      "dataTypeName": "number",
+      "description": "First Street Flood Factor",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "flood_fs_risk_direction",
+      "fieldName": "env_flood_fs_risk_direction",
+      "dataTypeName": "number",
+      "description": "First Street flood risk direction",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "flood_fs_data_year",
+      "fieldName": "env_flood_fs_data_year",
+      "dataTypeName": "number",
+      "description": "First Street data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "ohare_noise_contour_no_buffer_bool",
+      "fieldName": "env_ohare_noise_contour_no_buffer_bool",
+      "dataTypeName": "checkbox",
+      "description": "O'Hare noise contour indicator (no buffer). Indicates whether or not a parcel's centroid is within O'Hare's 65 DNL noise contour",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "ohare_noise_contour_half_mile_buffer_bool",
+      "fieldName": "env_ohare_noise_contour_half_mile_buffer_bool",
+      "dataTypeName": "checkbox",
+      "description": "O'Hare noise contour indicator (1/2 mile buffer). Indicates whether or not a parcel's centroid is within O'Hare's 65 DNL noise contour, buffered by 1/2 mile",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "ohare_noise_contour_data_year",
+      "fieldName": "env_ohare_noise_contour_data_year",
+      "dataTypeName": "number",
+      "description": "O'Hare noise contour data year. The \"omp\" value corresponds to the projected noise contour upon completion of the O'Hare Modernization Project",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "airport_noise_dnl",
+      "fieldName": "env_airport_noise_dnl",
+      "dataTypeName": "number",
+      "description": "Airport continuous noise surface estimated DNL",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "airport_noise_data_year",
+      "fieldName": "env_airport_noise_data_year",
+      "dataTypeName": "text",
+      "description": "Airport continuous noise surface estimated data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "school_elementary_district_geoid",
+      "fieldName": "school_elementary_district_geoid",
+      "dataTypeName": "text",
+      "description": "School district (elementary) GEOID, derived from Cook County and City of Chicago shapefiles. Chicago Public Schools are associated with attendance areas where suburban schools are associated with districts.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "school_elementary_district_name",
+      "fieldName": "school_elementary_district_name",
+      "dataTypeName": "text",
+      "description": "School district (elementary) name, derived from Cook County and City of Chicago shapefiles. Chicago Public Schools are associated with attendance areas where suburban schools are associated with districts.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "school_secondary_district_geoid",
+      "fieldName": "school_secondary_district_geoid",
+      "dataTypeName": "text",
+      "description": "School district (secondary) GEOID, derived from Cook County and City of Chicago shapefiles. Chicago Public Schools are associated with attendance areas where suburban schools are associated with districts.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "school_secondary_district_name",
+      "fieldName": "school_secondary_district_name",
+      "dataTypeName": "text",
+      "description": "School district (secondary) name, derived from Cook County and City of Chicago shapefiles. Chicago Public Schools are associated with attendance areas where suburban schools are associated with districts.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "school_unified_district_geoid",
+      "fieldName": "school_unified_district_geoid",
+      "dataTypeName": "text",
+      "description": "School district (unified) GEOID, derived from Cook County and City of Chicago shapefiles. Chicago Public Schools are associated with attendance areas where suburban schools are associated with districts.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "school_unified_district_name",
+      "fieldName": "school_unified_district_name",
+      "dataTypeName": "text",
+      "description": "School district (unified) name, derived from Cook County and City of Chicago shapefiles. Chicago Public Schools are associated with attendance areas where suburban schools are associated with districts.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "school_year",
+      "fieldName": "school_school_year",
+      "dataTypeName": "text",
+      "description": "School year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "school_data_year",
+      "fieldName": "school_data_year",
+      "dataTypeName": "number",
+      "description": "School data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "tax_municipality_num",
+      "fieldName": "tax_municipality_num",
+      "dataTypeName": "text",
+      "description": "Municipality number per Cook County tax records",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "tax_municipality_name",
+      "fieldName": "tax_municipality_name",
+      "dataTypeName": "text",
+      "description": "Municipality name per Cook County tax records",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "tax_school_elementary_district_num",
+      "fieldName": "tax_school_elementary_district_num",
+      "dataTypeName": "text",
+      "description": "School district (elementary) number, derived from tax district. Chicago Public Schools are associated with attendance areas where suburban schools are associated with districts.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "tax_school_elementary_district_name",
+      "fieldName": "tax_school_elementary_district_name",
+      "dataTypeName": "text",
+      "description": "School district (elementary) name, derived from tax district. Chicago Public Schools are associated with attendance areas where suburban schools are associated with districts.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "tax_school_secondary_district_num",
+      "fieldName": "tax_school_secondary_district_num",
+      "dataTypeName": "text",
+      "description": "School district (secondary) number, derived from tax district. Chicago Public Schools are associated with attendance areas where suburban schools are associated with districts.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "tax_school_secondary_district_name",
+      "fieldName": "tax_school_secondary_district_name",
+      "dataTypeName": "text",
+      "description": "School district (secondary) name, derived from tax district. Chicago Public Schools are associated with attendance areas where suburban schools are associated with districts.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "tax_school_unified_district_num",
+      "fieldName": "tax_school_unified_district_num",
+      "dataTypeName": "text",
+      "description": "School district (unified) number, derived from tax district. Chicago Public Schools are associated with attendance areas where suburban schools are associated with districts.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "tax_school_unified_district_name",
+      "fieldName": "tax_school_unified_district_name",
+      "dataTypeName": "text",
+      "description": "School district (unified) name, derived from tax district. Chicago Public Schools are associated with attendance areas where suburban schools are associated with districts.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "tax_community_college_district_num",
+      "fieldName": "tax_community_college_district_num",
+      "dataTypeName": "text",
+      "description": "Community college district number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "tax_community_college_district_name",
+      "fieldName": "tax_community_college_district_name",
+      "dataTypeName": "text",
+      "description": "Community college district name",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "tax_fire_protection_district_num",
+      "fieldName": "tax_fire_protection_district_num",
+      "dataTypeName": "text",
+      "description": "Fire protection district number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "tax_fire_protection_district_name",
+      "fieldName": "tax_fire_protection_district_name",
+      "dataTypeName": "text",
+      "description": "Fire protection district name",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "tax_library_district_num",
+      "fieldName": "tax_library_district_num",
+      "dataTypeName": "text",
+      "description": "Library district number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "tax_library_district_name",
+      "fieldName": "tax_library_district_name",
+      "dataTypeName": "text",
+      "description": "Library district name",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "tax_park_district_num",
+      "fieldName": "tax_park_district_num",
+      "dataTypeName": "text",
+      "description": "Park district number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "tax_park_district_name",
+      "fieldName": "tax_park_district_name",
+      "dataTypeName": "text",
+      "description": "Park district name",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "tax_sanitation_district_num",
+      "fieldName": "tax_sanitation_district_num",
+      "dataTypeName": "text",
+      "description": "Sanitation district number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "tax_sanitation_district_name",
+      "fieldName": "tax_sanitation_district_name",
+      "dataTypeName": "text",
+      "description": "Sanitation district name",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "tax_special_service_area_num",
+      "fieldName": "tax_special_service_area_num",
+      "dataTypeName": "text",
+      "description": "Special Service Area number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "tax_special_service_area_name",
+      "fieldName": "tax_special_service_area_name",
+      "dataTypeName": "text",
+      "description": "Special Service Area name",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "tax_tif_district_num",
+      "fieldName": "tax_tif_district_num",
+      "dataTypeName": "text",
+      "description": "TIF district number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "tax_tif_district_name",
+      "fieldName": "tax_tif_district_name",
+      "dataTypeName": "text",
+      "description": "TIF district name",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "tax_districts_data_year",
+      "fieldName": "tax_data_year",
+      "dataTypeName": "number",
+      "description": "Data year for municipality, school, community college, fire, library, park, sanitary, special service area, and tax increment financing tax districts.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "cmap_walkability_grid_id",
+      "fieldName": "access_cmap_walk_id",
+      "dataTypeName": "text",
+      "description": "CMAP walkability grid ID. From CMAP's ON TO 2050 spatial data files",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "cmap_walkability_no_transit_score",
+      "fieldName": "access_cmap_walk_nta_score",
+      "dataTypeName": "number",
+      "description": "CMAP walkability score (no transit). From CMAP's ON TO 2050 spatial data files",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "cmap_walkability_total_score",
+      "fieldName": "access_cmap_walk_total_score",
+      "dataTypeName": "number",
+      "description": "CMAP walkability total score. From CMAP's ON TO 2050 spatial data files",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "cmap_walkability_data_year",
+      "fieldName": "access_cmap_walk_data_year",
+      "dataTypeName": "number",
+      "description": "CMAP walkability data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "subdivision_id",
+      "fieldName": "misc_subdivision_id",
+      "dataTypeName": "text",
+      "description": "Subdivision ID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "subdivision_data_year",
+      "fieldName": "misc_subdivision_data_year",
+      "dataTypeName": "number",
+      "description": "Subdivision data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "row_id",
+      "fieldName": "row_id",
+      "dataTypeName": "text",
+      "description": "Unique row key for API",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:47.041Z"
+}

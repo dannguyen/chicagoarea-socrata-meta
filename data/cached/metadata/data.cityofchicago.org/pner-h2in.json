@@ -1,0 +1,87 @@
+{
+  "id": "pner-h2in",
+  "name": "TIF Funding Sources and Uses by TIF, Fiscal Year, and Type - 1998-2014",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 9815,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1340293189,
+  "publicationDate": 1443544576,
+  "rowsUpdatedAt": 1443544454,
+  "viewLastModified": 1565806561,
+  "viewCount": 14888,
+  "downloadCount": 2956,
+  "category": "Community & Economic Development",
+  "tags": [
+    "tif",
+    "revenues",
+    "expenditures"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "1998-2014",
+      "Data Owner": " Office of Budget and Management"
+    }
+  },
+  "columns": [
+    {
+      "name": "Fiscal Year",
+      "fieldName": "fy",
+      "dataTypeName": "number",
+      "description": "Fiscal Year",
+      "nullCount": 0,
+      "cardinality": 17
+    },
+    {
+      "name": "TIF Number",
+      "fieldName": "tif_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 173
+    },
+    {
+      "name": "TIF District",
+      "fieldName": "tifnamel",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 173
+    },
+    {
+      "name": "Type",
+      "fieldName": "type",
+      "dataTypeName": "text",
+      "description": "Revenue, Expenditure, Transfer, Other Financing",
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Activity",
+      "fieldName": "afa_group",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 14
+    },
+    {
+      "name": "Amount",
+      "fieldName": "amount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9129
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:37:49.392Z"
+}

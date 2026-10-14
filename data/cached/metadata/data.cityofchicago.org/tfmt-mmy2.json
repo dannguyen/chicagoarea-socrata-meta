@@ -1,0 +1,177 @@
+{
+  "id": "tfmt-mmy2",
+  "name": "Libraries - 2011 Circulation by Location",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 83,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1316125021,
+  "publicationDate": 1340371825,
+  "rowsUpdatedAt": 1340371820,
+  "viewLastModified": 1340371825,
+  "viewCount": 2680,
+  "downloadCount": 3102,
+  "category": "Education",
+  "tags": [
+    "performance metrics",
+    "libraries",
+    "circulation"
+  ],
+  "attribution": "Chicago Public Library",
+  "attributionLink": "http://chipublib.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "2012",
+      "Frequency": "Data is updated monthly",
+      "Data Owner": "Chicago Public Library"
+    }
+  },
+  "columns": [
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 83
+    },
+    {
+      "name": "ADDRESS",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 80
+    },
+    {
+      "name": "CITY",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 1
+    },
+    {
+      "name": "ZIP CODE",
+      "fieldName": "zip_code",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 49
+    },
+    {
+      "name": "JANUARY",
+      "fieldName": "january",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 80
+    },
+    {
+      "name": "FEBRUARY",
+      "fieldName": "february",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 81
+    },
+    {
+      "name": "MARCH",
+      "fieldName": "march",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 82
+    },
+    {
+      "name": "APRIL",
+      "fieldName": "april",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 82
+    },
+    {
+      "name": "MAY",
+      "fieldName": "may",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 83
+    },
+    {
+      "name": "JUNE",
+      "fieldName": "june",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 82
+    },
+    {
+      "name": "JULY",
+      "fieldName": "july",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 83
+    },
+    {
+      "name": "AUGUST",
+      "fieldName": "august",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 83
+    },
+    {
+      "name": "SEPTEMBER",
+      "fieldName": "september",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 83
+    },
+    {
+      "name": "OCTOBER",
+      "fieldName": "october",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 82
+    },
+    {
+      "name": "NOVEMBER",
+      "fieldName": "november",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 83
+    },
+    {
+      "name": "DECEMBER",
+      "fieldName": "december",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 82
+    },
+    {
+      "name": "YTD",
+      "fieldName": "ytd",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 83
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:10.030Z"
+}

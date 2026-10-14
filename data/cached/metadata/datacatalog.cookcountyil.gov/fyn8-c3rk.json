@@ -1,0 +1,118 @@
+{
+  "id": "fyn8-c3rk",
+  "name": "Suburban Cook County - Births (Birth Related Outcomes & Characteristics)",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 162656,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1482261889,
+  "publicationDate": 1502134891,
+  "rowsUpdatedAt": 1502134763,
+  "viewLastModified": 1769543596,
+  "viewCount": 8712,
+  "downloadCount": 3150,
+  "category": "Health & Human Services",
+  "tags": [
+    "birth",
+    "vital statistics",
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Public Health",
+  "attributionLink": "http://cookcountypublichealth.org/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Detailed Descriptive": {
+      "Program link": "http://www.cookcountypublichealth.org/data-reports/vital-statistics",
+      "Temporal coverage": "2000-2014",
+      "Data notes": "When birth events are  between 1 and 4, the data is suppressed and notated with a '*' symbol.  Rates are suppressed when counts are below 20 and symbolized with a '-'.",
+      "Geographic coverage": "Cook County without City of Chicago",
+      "Geographic unit": "City"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Annually",
+      "Publishing frequency": "Annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": "Year of Birth",
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "Section",
+      "fieldName": "section",
+      "dataTypeName": "text",
+      "description": "Characteristics of Birth categorized into 7 main sections",
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Sub-Section",
+      "fieldName": "sub_section",
+      "dataTypeName": "text",
+      "description": "Sub-Sections of birth topics",
+      "nullCount": 0,
+      "cardinality": 35
+    },
+    {
+      "name": "Place",
+      "fieldName": "district_or_place_of_residence",
+      "dataTypeName": "text",
+      "description": "Mother's Place of Residence (see SCC District Map)",
+      "nullCount": 0,
+      "cardinality": 131
+    },
+    {
+      "name": "Age Group",
+      "fieldName": "age_group_of_mother",
+      "dataTypeName": "text",
+      "description": "Age Group of Mother",
+      "nullCount": 0,
+      "cardinality": 13
+    },
+    {
+      "name": "Race/Ethnicity",
+      "fieldName": "race_ethnicity",
+      "dataTypeName": "text",
+      "description": "Race/Ethnicity of Mother",
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Number",
+      "fieldName": "number",
+      "dataTypeName": "number",
+      "description": "Number of Event/Birth",
+      "nullCount": 27172,
+      "cardinality": 4247
+    },
+    {
+      "name": "Population",
+      "fieldName": "population",
+      "dataTypeName": "number",
+      "description": "Number of Individuals in the specific category ",
+      "nullCount": 10104,
+      "cardinality": 6143
+    },
+    {
+      "name": "Rate",
+      "fieldName": "rate",
+      "dataTypeName": "number",
+      "description": "Number of events divided by the specific population",
+      "nullCount": 87649,
+      "cardinality": 1080
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:51.071Z"
+}

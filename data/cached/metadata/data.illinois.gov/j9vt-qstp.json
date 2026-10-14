@@ -1,0 +1,118 @@
+{
+  "id": "j9vt-qstp",
+  "name": "IDVA -  Field Offices and Locations",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 92,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709065159,
+  "publicationDate": 1709140880,
+  "rowsUpdatedAt": 1709140874,
+  "viewLastModified": 1726858046,
+  "viewCount": 30,
+  "downloadCount": 76,
+  "category": null,
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "address_1",
+      "fieldName": "address_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 66
+    },
+    {
+      "name": "address_2",
+      "fieldName": "address_2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 24,
+      "cardinality": 67
+    },
+    {
+      "name": "city",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": "county_location",
+      "fieldName": "county_location",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 92
+    },
+    {
+      "name": "ext",
+      "fieldName": "ext",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 87,
+      "cardinality": 5
+    },
+    {
+      "name": "fax",
+      "fieldName": "fax",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 41,
+      "cardinality": 51
+    },
+    {
+      "name": "primary_contact",
+      "fieldName": "primary_contact",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 24,
+      "cardinality": 57
+    },
+    {
+      "name": "primary_phone",
+      "fieldName": "primary_phone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 25,
+      "cardinality": 67
+    },
+    {
+      "name": "region",
+      "fieldName": "region",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "secondary_contact",
+      "fieldName": "secondary_contact",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 72,
+      "cardinality": 20
+    },
+    {
+      "name": "zip_code",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 84
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:42.014Z"
+}

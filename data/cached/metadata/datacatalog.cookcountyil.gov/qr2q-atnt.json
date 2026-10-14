@@ -1,0 +1,242 @@
+{
+  "id": "qr2q-atnt",
+  "name": "Initiation [Archived from February 13, 2018]",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 732589,
+  "rowCountSource": "cached",
+  "rowLabel": "Case Participant",
+  "hasRowIdentifier": false,
+  "createdAt": 1538602498,
+  "publicationDate": 1538604462,
+  "rowsUpdatedAt": 1538604461,
+  "viewLastModified": 1769543554,
+  "viewCount": 930,
+  "downloadCount": 2622,
+  "category": "Legal & Judicial",
+  "tags": [
+    "state's attorney",
+    "state's attorney case-level",
+    "archived",
+    "inactive"
+  ],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County State's Attorney's Office"
+    },
+    "Metadata": {
+      "Update Frequency": "No updates"
+    },
+    "Detailed Descriptive": {
+      "Geographic coverage": "Countywide",
+      "Geographic unit": "Other"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Not updated (historical only)",
+      "Publishing frequency": "Not updated (historical only)"
+    }
+  },
+  "columns": [
+    {
+      "name": "CASE_ID",
+      "fieldName": "case_id",
+      "dataTypeName": "number",
+      "description": "Internal unique identifier for each case",
+      "nullCount": 0,
+      "cardinality": 252352
+    },
+    {
+      "name": "CASE_PARTICIPANT_ID",
+      "fieldName": "case_participant_id",
+      "dataTypeName": "number",
+      "description": "Internal unique identifier for each person associated with a case",
+      "nullCount": 0,
+      "cardinality": 273010
+    },
+    {
+      "name": "PRIMARY_CHARGE",
+      "fieldName": "primary_charge",
+      "dataTypeName": "checkbox",
+      "description": "A flag for the top charge, usually the way the case is referred to",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "CHARGE_ID",
+      "fieldName": "charge_id",
+      "dataTypeName": "number",
+      "description": "Internal unique identifier for each charge filed",
+      "nullCount": 0,
+      "cardinality": 683058
+    },
+    {
+      "name": "CHARGE_VERSION_ID",
+      "fieldName": "charge_version_id",
+      "dataTypeName": "number",
+      "description": "Internal unique identifier for each version of a charge associated with charges filed",
+      "nullCount": 0,
+      "cardinality": 44014
+    },
+    {
+      "name": "OFFENSE_TITLE",
+      "fieldName": "offense_title",
+      "dataTypeName": "text",
+      "description": "The specific title of the charge offense",
+      "nullCount": 0,
+      "cardinality": 1318
+    },
+    {
+      "name": "CHAPTER",
+      "fieldName": "chapter",
+      "dataTypeName": "text",
+      "description": "The legal chapter for the charge",
+      "nullCount": 0,
+      "cardinality": 32
+    },
+    {
+      "name": "ACT",
+      "fieldName": "act",
+      "dataTypeName": "text",
+      "description": "The legal act for the charge",
+      "nullCount": 6,
+      "cardinality": 48
+    },
+    {
+      "name": "SECTION",
+      "fieldName": "section",
+      "dataTypeName": "text",
+      "description": "The legal section for the charge",
+      "nullCount": 6,
+      "cardinality": 1340
+    },
+    {
+      "name": "CLASS",
+      "fieldName": "class",
+      "dataTypeName": "text",
+      "description": "The legal class of the charge",
+      "nullCount": 0,
+      "cardinality": 13
+    },
+    {
+      "name": "AOIC",
+      "fieldName": "aoic",
+      "dataTypeName": "text",
+      "description": "Administrative Office of the Illinois Courts ID for law of the charge",
+      "nullCount": 0,
+      "cardinality": 2206
+    },
+    {
+      "name": "EVENT",
+      "fieldName": "event",
+      "dataTypeName": "text",
+      "description": "The way the charge was brought about",
+      "nullCount": 13293,
+      "cardinality": 5
+    },
+    {
+      "name": "EVENT_DATE",
+      "fieldName": "event_date",
+      "dataTypeName": "calendar_date",
+      "description": "The date the charges were brought about",
+      "nullCount": 13293,
+      "cardinality": 1834
+    },
+    {
+      "name": "AGE_AT_INCIDENT",
+      "fieldName": "age_at_incident",
+      "dataTypeName": "number",
+      "description": "Recorded age at the time of the incident",
+      "nullCount": 16951,
+      "cardinality": 73
+    },
+    {
+      "name": "GENDER",
+      "fieldName": "gender",
+      "dataTypeName": "text",
+      "description": "Recorded gender of the defendant",
+      "nullCount": 3473,
+      "cardinality": 5
+    },
+    {
+      "name": "RACE",
+      "fieldName": "race",
+      "dataTypeName": "text",
+      "description": "Recorded race of the defendant",
+      "nullCount": 4738,
+      "cardinality": 12
+    },
+    {
+      "name": "INCIDENT_BEGIN_DATE",
+      "fieldName": "incident_begin_date",
+      "dataTypeName": "text",
+      "description": "Date of when the incident began",
+      "nullCount": 9002,
+      "cardinality": 3724
+    },
+    {
+      "name": "INCIDENT_END_DATE",
+      "fieldName": "incident_end_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date of when the incident ended (this will be blank for incidents that did not go more than one day)",
+      "nullCount": 647289,
+      "cardinality": 3074
+    },
+    {
+      "name": "ARREST_DATE",
+      "fieldName": "arrest_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date and time of arrest",
+      "nullCount": 22690,
+      "cardinality": 218689
+    },
+    {
+      "name": "LAW_ENFORCEMENT_AGENCY",
+      "fieldName": "law_enforcement_agency",
+      "dataTypeName": "text",
+      "description": "Law enforcement agency associated with the arrest",
+      "nullCount": 2980,
+      "cardinality": 288
+    },
+    {
+      "name": "UNIT",
+      "fieldName": "unit",
+      "dataTypeName": "text",
+      "description": "The law enforcement unit associated with the arrest",
+      "nullCount": 504691,
+      "cardinality": 97
+    },
+    {
+      "name": "INCIDENT_CITY",
+      "fieldName": "incident_city",
+      "dataTypeName": "text",
+      "description": "The city where the incident took place",
+      "nullCount": 26997,
+      "cardinality": 253
+    },
+    {
+      "name": "RECEIVED_DATE",
+      "fieldName": "received_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date when felony review received the case",
+      "nullCount": 0,
+      "cardinality": 2557
+    },
+    {
+      "name": "ARRAIGNMENT_DATE",
+      "fieldName": "arraignment_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date of the arraignment",
+      "nullCount": 99098,
+      "cardinality": 1812
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:04.464Z"
+}

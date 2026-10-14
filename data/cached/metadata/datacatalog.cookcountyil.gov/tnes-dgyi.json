@@ -1,0 +1,169 @@
+{
+  "id": "tnes-dgyi",
+  "name": "Assessor [Archived 05-11-2022] - Cook County Property Assessments",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 20532457,
+  "rowCountSource": "cached",
+  "rowLabel": "Property Index Number (PIN) by Year",
+  "hasRowIdentifier": false,
+  "createdAt": 1612301273,
+  "publicationDate": 1612376081,
+  "rowsUpdatedAt": 1631123420,
+  "viewLastModified": 1769544832,
+  "viewCount": 9285,
+  "downloadCount": 3521,
+  "category": "Property & Taxation",
+  "tags": [
+    "cook county assessor",
+    "property tax",
+    "archive"
+  ],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Data Science"
+    },
+    "Metadata": {
+      "Update Frequency": "No updates"
+    },
+    "Detailed Descriptive": {
+      "Geographic coverage": "Countywide",
+      "Geographic unit": "Parcel"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Not updated (historical only)",
+      "Publishing frequency": "Annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "PIN",
+      "fieldName": "pin",
+      "dataTypeName": "text",
+      "description": "14-character property index number",
+      "nullCount": 0,
+      "cardinality": 1928017
+    },
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": "Year",
+      "nullCount": 0,
+      "cardinality": 11
+    },
+    {
+      "name": "Class",
+      "fieldName": "class",
+      "dataTypeName": "number",
+      "description": "This property's class code",
+      "nullCount": 0,
+      "cardinality": 151
+    },
+    {
+      "name": "Township name",
+      "fieldName": "town_name",
+      "dataTypeName": "text",
+      "description": "Township name. For assessment administration, Cook County is divided into 38 townships.",
+      "nullCount": 0,
+      "cardinality": 38
+    },
+    {
+      "name": "Township code",
+      "fieldName": "town",
+      "dataTypeName": "number",
+      "description": "Township code",
+      "nullCount": 0,
+      "cardinality": 38
+    },
+    {
+      "name": "CCAO Neighborhood",
+      "fieldName": "nbhd",
+      "dataTypeName": "number",
+      "description": "CCAO Neighborhood Code",
+      "nullCount": 0,
+      "cardinality": 204
+    },
+    {
+      "name": "Tax code",
+      "fieldName": "tax_code",
+      "dataTypeName": "number",
+      "description": "Tax codes identify unique combinations of taxing jurisdiction.",
+      "nullCount": 0,
+      "cardinality": 3980
+    },
+    {
+      "name": "CCAO mailed AV",
+      "fieldName": "first_pass",
+      "dataTypeName": "number",
+      "description": "Assessed value initially mailed to taxpayer (if the AV changed from the prior year). This is the first stage in the assessment cycle.",
+      "nullCount": 0,
+      "cardinality": 329439
+    },
+    {
+      "name": "CCAO certified AV",
+      "fieldName": "ccao_certified",
+      "dataTypeName": "number",
+      "description": "Assessed value after CCAO appeals. This is the second stage in the assessment cycle.",
+      "nullCount": 0,
+      "cardinality": 307206
+    },
+    {
+      "name": "BOR certified AV (final)",
+      "fieldName": "bor_result",
+      "dataTypeName": "number",
+      "description": "Assessed value after appeals filed with the Board of Review (BOR). This is the final stage in the annual assessment cycle.",
+      "nullCount": 0,
+      "cardinality": 276038
+    },
+    {
+      "name": "Appeal filed with CCAO",
+      "fieldName": "ccao_appealed",
+      "dataTypeName": "checkbox",
+      "description": "Indicator that an appeal for this property was filed with the CCAO",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "CCAO reviews",
+      "fieldName": "ccao_num_reviewed",
+      "dataTypeName": "number",
+      "description": "Number of CCAO reviews",
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "CCAO adjustment indicator",
+      "fieldName": "ccao_changed",
+      "dataTypeName": "checkbox",
+      "description": "Indicator for change on CCAO appeal",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Appeal filed with BOR",
+      "fieldName": "bor_appealed",
+      "dataTypeName": "checkbox",
+      "description": "Indicator that an appeal for this property was filed with the BOR",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "BOR adjustment indicator",
+      "fieldName": "bor_changed",
+      "dataTypeName": "checkbox",
+      "description": "Indicator for changed on BOR appeal",
+      "nullCount": 0,
+      "cardinality": 2
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:50.951Z"
+}

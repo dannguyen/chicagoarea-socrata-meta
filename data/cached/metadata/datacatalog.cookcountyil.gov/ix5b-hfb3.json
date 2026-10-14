@@ -1,0 +1,112 @@
+{
+  "id": "ix5b-hfb3",
+  "name": "Chief Judge--Directory Of Judges",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 416,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1318328635,
+  "publicationDate": 1685491287,
+  "rowsUpdatedAt": 1414428280,
+  "viewLastModified": 1769544880,
+  "viewCount": 5758,
+  "downloadCount": 4087,
+  "category": "Legal & Judicial",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Timothy Evans, Chief Judge of the Cook County Court System",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Last Name",
+      "fieldName": "last_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 368
+    },
+    {
+      "name": "First Name",
+      "fieldName": "first_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 228
+    },
+    {
+      "name": "Position",
+      "fieldName": "position",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Location ",
+      "fieldName": "location_1",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Room #",
+      "fieldName": "room_",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 21,
+      "cardinality": 287
+    },
+    {
+      "name": "Area",
+      "fieldName": "area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Work Phone",
+      "fieldName": "work_phone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 218
+    },
+    {
+      "name": "Division",
+      "fieldName": "division",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 12
+    },
+    {
+      "name": "Section",
+      "fieldName": "section",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 188,
+      "cardinality": 12
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:52.250Z"
+}

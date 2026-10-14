@@ -1,0 +1,75 @@
+{
+  "id": "46gd-zban",
+  "name": "Budget - FY19 Preliminary Expense",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 85,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1529600429,
+  "publicationDate": 1539726982,
+  "rowsUpdatedAt": 1539725485,
+  "viewLastModified": 1769543379,
+  "viewCount": 802,
+  "downloadCount": 1090,
+  "category": "Finance & Operations",
+  "tags": [
+    "budget",
+    "2019 budget",
+    "fy2019",
+    "inactive"
+  ],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Department",
+      "fieldName": "department",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 85
+    },
+    {
+      "name": "2018 Approved & Adopted",
+      "fieldName": "_2018_approved_adopted",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 70
+    },
+    {
+      "name": "Total 2018 Estimated Expenditures",
+      "fieldName": "total_2018_estimated_expenditures",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 85
+    },
+    {
+      "name": "Department Estimated 2019",
+      "fieldName": "department_estimated_2019",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 69
+    },
+    {
+      "name": "Executive 2019 Estimate",
+      "fieldName": "executive_2019_estimate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 69
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:06.329Z"
+}

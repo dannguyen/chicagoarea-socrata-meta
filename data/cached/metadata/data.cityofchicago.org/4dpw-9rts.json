@@ -1,0 +1,327 @@
+{
+  "id": "4dpw-9rts",
+  "name": "Micro-Market Recovery Program - Permits",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 43551,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1369253901,
+  "publicationDate": 1382738990,
+  "rowsUpdatedAt": 1791954394,
+  "viewLastModified": 1414164838,
+  "viewCount": 8550,
+  "downloadCount": 13586,
+  "category": "Community & Economic Development",
+  "tags": [
+    "buildings",
+    "inspections"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2001-",
+      "Frequency": "Daily",
+      "Data Owner": "Department of Housing and Economic Development"
+    }
+  },
+  "columns": [
+    {
+      "name": "Add By",
+      "fieldName": "add_by",
+      "dataTypeName": "text",
+      "description": "Employee ID who added the record to the database",
+      "nullCount": 0,
+      "cardinality": 43551
+    },
+    {
+      "name": "Add Date/Time",
+      "fieldName": "add_date_time",
+      "dataTypeName": "calendar_date",
+      "description": "Date and Time stamp when record was added to the database",
+      "nullCount": 0,
+      "cardinality": 43551
+    },
+    {
+      "name": "Modified Date/Time",
+      "fieldName": "modified_date_time",
+      "dataTypeName": "calendar_date",
+      "description": "Date and Time stamp when record was last updated in the database",
+      "nullCount": 17496,
+      "cardinality": 43551
+    },
+    {
+      "name": "Permit Type Code",
+      "fieldName": "permit_type_code",
+      "dataTypeName": "text",
+      "description": "Code of Permit Type",
+      "nullCount": 0,
+      "cardinality": 43551
+    },
+    {
+      "name": "Permit Type Description",
+      "fieldName": "permit_type_description",
+      "dataTypeName": "text",
+      "description": "Description of Permit Type",
+      "nullCount": 0,
+      "cardinality": 43551
+    },
+    {
+      "name": "Permit Primary Key",
+      "fieldName": "permit_primary_key",
+      "dataTypeName": "number",
+      "description": "Permit Primary Key (unique) Use this key to link to violations and inspections dataset - PERMITORCASEKEY.",
+      "nullCount": 0,
+      "cardinality": 43551
+    },
+    {
+      "name": "Additional Permit Description",
+      "fieldName": "additional_permit_description",
+      "dataTypeName": "text",
+      "description": "Additional Permit Description",
+      "nullCount": 36200,
+      "cardinality": 43549
+    },
+    {
+      "name": "Permit Number",
+      "fieldName": "permit_number",
+      "dataTypeName": "text",
+      "description": "Permit Number",
+      "nullCount": 0,
+      "cardinality": 43549
+    },
+    {
+      "name": "Permit Work Description",
+      "fieldName": "permit_work_description",
+      "dataTypeName": "text",
+      "description": "Permit Work Description",
+      "nullCount": 5644,
+      "cardinality": 43549
+    },
+    {
+      "name": "Additional Permit Location",
+      "fieldName": "additional_permit_location",
+      "dataTypeName": "text",
+      "description": "Additional Permit Location Information",
+      "nullCount": 37845,
+      "cardinality": 43549
+    },
+    {
+      "name": "Permit Issued Date/Time",
+      "fieldName": "permit_issued_date_time",
+      "dataTypeName": "calendar_date",
+      "description": "Permit Issued Date and Time",
+      "nullCount": 7348,
+      "cardinality": 43549
+    },
+    {
+      "name": "Last Permit Activity Date/Time",
+      "fieldName": "last_permit_activity_date_time",
+      "dataTypeName": "calendar_date",
+      "description": "Last date and time Permit record updated in database",
+      "nullCount": 266,
+      "cardinality": 43549
+    },
+    {
+      "name": "Permit Status",
+      "fieldName": "permit_status",
+      "dataTypeName": "text",
+      "description": "Status of Permit - O = Open; C = Complete; V = Void",
+      "nullCount": 0,
+      "cardinality": 43549
+    },
+    {
+      "name": "Permit Work Type",
+      "fieldName": "permit_work_type",
+      "dataTypeName": "text",
+      "description": "Permit Work Type",
+      "nullCount": 34989,
+      "cardinality": 43549
+    },
+    {
+      "name": "MMRP Zone",
+      "fieldName": "mmrp_zone",
+      "dataTypeName": "text",
+      "description": "Name of MMRP Zone",
+      "nullCount": 0,
+      "cardinality": 43549
+    },
+    {
+      "name": "Street Number",
+      "fieldName": "street_number",
+      "dataTypeName": "number",
+      "description": "Address Street Number",
+      "nullCount": 0,
+      "cardinality": 43549
+    },
+    {
+      "name": "Pre-Direction",
+      "fieldName": "pre_direction",
+      "dataTypeName": "text",
+      "description": "Address Pre-Direction",
+      "nullCount": 0,
+      "cardinality": 43549
+    },
+    {
+      "name": "Street Name",
+      "fieldName": "street_name",
+      "dataTypeName": "text",
+      "description": "Address Street Name",
+      "nullCount": 0,
+      "cardinality": 43549
+    },
+    {
+      "name": "Suffix",
+      "fieldName": "suffix",
+      "dataTypeName": "text",
+      "description": "Address Suffix",
+      "nullCount": 0,
+      "cardinality": 43549
+    },
+    {
+      "name": "Post Direction",
+      "fieldName": "post_direction",
+      "dataTypeName": "number",
+      "description": "Address Post Direction",
+      "nullCount": 43549,
+      "cardinality": 43549
+    },
+    {
+      "name": "Zip Code",
+      "fieldName": "zip_code",
+      "dataTypeName": "number",
+      "description": "Address Zip Code",
+      "nullCount": 1,
+      "cardinality": 43549
+    },
+    {
+      "name": "Community Area",
+      "fieldName": "community_area",
+      "dataTypeName": "number",
+      "description": "Geography - Community Area",
+      "nullCount": 0,
+      "cardinality": 43549
+    },
+    {
+      "name": "Ward",
+      "fieldName": "ward",
+      "dataTypeName": "number",
+      "description": "Geography - Ward",
+      "nullCount": 0,
+      "cardinality": 43549
+    },
+    {
+      "name": "X Coord",
+      "fieldName": "x_coord",
+      "dataTypeName": "number",
+      "description": "X Coord - State Plane Eastern IL 1983",
+      "nullCount": 465,
+      "cardinality": 43549
+    },
+    {
+      "name": "Y Coord",
+      "fieldName": "y_coord",
+      "dataTypeName": "number",
+      "description": "Y Coord - State Plane Eastern IL 1983",
+      "nullCount": 465,
+      "cardinality": 43549
+    },
+    {
+      "name": "Latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": "Latitude",
+      "nullCount": 491,
+      "cardinality": 43551
+    },
+    {
+      "name": "Longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": "Longitude",
+      "nullCount": 491,
+      "cardinality": 43551
+    },
+    {
+      "name": "Central Business District",
+      "fieldName": "central_business_district",
+      "dataTypeName": "text",
+      "description": "Central Business District as described by Ordinance - \"Central Business District\" means the district consisting of those streets or parts of streets within the area bounded by a line as follows: beginning at the easternmost point of Division Street extended to Lake Michigan; then west on Division Street to LaSalle Street; then south on LaSalle Street to Chicago Avenue; then west on Chicago Avenue to Halsted Street; then south on Halsted Street to Roosevelt Road; then east on Roosevelt Road to its easternmost point extended to Lake Michigan; including parking spaces on both sides of the above-mentioned streets.",
+      "nullCount": 43269,
+      "cardinality": 43551
+    },
+    {
+      "name": "Address Key",
+      "fieldName": "address_key",
+      "dataTypeName": "number",
+      "description": "Address Unique Key (use this column to link permits to MMRP Geographies data set - ADDRKEY)",
+      "nullCount": 0,
+      "cardinality": 43551
+    },
+    {
+      "name": "Address Grouping Key",
+      "fieldName": "address_grouping_key",
+      "dataTypeName": "number",
+      "description": "Address Group Unique Key (use this column to link permits to MMRP Geographies data set - ADDRGRPKEY).   An Address Group is a grouping of point addresses (ADDRKEY's) at the same property; example: the Daley Center is located on 4 bounding streets (Washington, Dearborn, Randolph and Clark) and each street has many point addresses for the Daley Center.  All point addresses on all four bounding streets are grouped using the same ADDRGRPKEY.  This field allows for ALL activity at a building to be grouped into one dataset.",
+      "nullCount": 1,
+      "cardinality": 43551
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": "Geocoded Location based on Latitude/Longitude",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:00.698Z"
+}

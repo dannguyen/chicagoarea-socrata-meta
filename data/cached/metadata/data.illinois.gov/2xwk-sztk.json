@@ -1,0 +1,107 @@
+{
+  "id": "2xwk-sztk",
+  "name": "IDPH STD Illinois By Race Ethnicity",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 136,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709058345,
+  "publicationDate": 1709064449,
+  "rowsUpdatedAt": 1709064443,
+  "viewLastModified": 1727117290,
+  "viewCount": 60,
+  "downloadCount": 120,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "chlamydia_count",
+      "fieldName": "chlamydia_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 132
+    },
+    {
+      "name": "chlamydia_rate",
+      "fieldName": "chlamydia_rate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 17,
+      "cardinality": 114
+    },
+    {
+      "name": "early_syphilis_count",
+      "fieldName": "early_syphilis_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 103
+    },
+    {
+      "name": "early_syphilis_rate",
+      "fieldName": "early_syphilis_rate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 17,
+      "cardinality": 85
+    },
+    {
+      "name": "gonorrhea_count",
+      "fieldName": "gonorrhea_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 128
+    },
+    {
+      "name": "gonorrhea_rate",
+      "fieldName": "gonorrhea_rate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 17,
+      "cardinality": 111
+    },
+    {
+      "name": "race_ethnicity",
+      "fieldName": "race_ethnicity",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "sort",
+      "fieldName": "sort",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "year",
+      "fieldName": "year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 17
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:36.772Z"
+}

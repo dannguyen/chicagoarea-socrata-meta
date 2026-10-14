@@ -1,0 +1,100 @@
+{
+  "id": "pb6d-zzuh",
+  "name": "Chicago Public Schools - School Locations SY2526",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 645,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1756853394,
+  "publicationDate": 1756853397,
+  "rowsUpdatedAt": 1757448444,
+  "viewLastModified": 1759181313,
+  "viewCount": 1511,
+  "downloadCount": 1970,
+  "category": "Education",
+  "tags": [
+    "attendance",
+    "cps",
+    "schools",
+    "gis",
+    "geo_layer",
+    "2025",
+    "2026"
+  ],
+  "attribution": "Chicago Public Schools",
+  "attributionLink": "https://www.cps.edu/",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "July 2025 - June 2026",
+      "Frequency": "Annual",
+      "Data Owner": "Chicago Public Schools"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "point",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 645
+    },
+    {
+      "name": "School_ID",
+      "fieldName": "school_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 645
+    },
+    {
+      "name": "Short_Name",
+      "fieldName": "short_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 645
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 623
+    },
+    {
+      "name": "Grade_Cat",
+      "fieldName": "grade_cat",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Lat",
+      "fieldName": "lat",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 645
+    },
+    {
+      "name": "Long",
+      "fieldName": "long",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 645
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:16.888Z"
+}

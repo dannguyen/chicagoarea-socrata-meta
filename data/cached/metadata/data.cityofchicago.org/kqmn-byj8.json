@@ -1,0 +1,196 @@
+{
+  "id": "kqmn-byj8",
+  "name": "Schools (deprecated 2012)",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1021,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1295448723,
+  "publicationDate": 1302998589,
+  "rowsUpdatedAt": 1313894853,
+  "viewLastModified": 1484148842,
+  "viewCount": 17866,
+  "downloadCount": 8034,
+  "category": "Education",
+  "tags": [
+    "facilities",
+    "gis",
+    "deprecated",
+    "cps",
+    "schools"
+  ],
+  "attribution": "Chicago Public Schools",
+  "attributionLink": "http://www.cps.edu",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "SCHOOL NAME",
+      "fieldName": "school_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1015
+    },
+    {
+      "name": "DEFINITION",
+      "fieldName": "definition",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 13,
+      "cardinality": 27
+    },
+    {
+      "name": "PRIMARY ADDRESS",
+      "fieldName": "primary_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 1019
+    },
+    {
+      "name": "SECOND ADDRESS",
+      "fieldName": "second_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1015,
+      "cardinality": 6
+    },
+    {
+      "name": "GRADES",
+      "fieldName": "grades",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 30,
+      "cardinality": 11
+    },
+    {
+      "name": "SCHOOL2 NAME",
+      "fieldName": "school2_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 984,
+      "cardinality": 37
+    },
+    {
+      "name": "SCHOOL2 PRIMARY ADDRESS",
+      "fieldName": "school2_primary_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 986,
+      "cardinality": 35
+    },
+    {
+      "name": "SCHOOL2 SECONDARY ADDRESS",
+      "fieldName": "school2_secondary_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1021,
+      "cardinality": 0
+    },
+    {
+      "name": "SCHOOL2 GRADES",
+      "fieldName": "school2_grades",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 987,
+      "cardinality": 5
+    },
+    {
+      "name": "SCHOOL2 DEFINITION",
+      "fieldName": "school2_definition",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 985,
+      "cardinality": 4
+    },
+    {
+      "name": "SCHOOL3 NAME",
+      "fieldName": "school3_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1014,
+      "cardinality": 7
+    },
+    {
+      "name": "SCHOOL3 PRIMARY ADDRESS",
+      "fieldName": "school3_primary_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1014,
+      "cardinality": 7
+    },
+    {
+      "name": "SCHOOL3 SECONDARY ADDRESS",
+      "fieldName": "school3_secondary_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1021,
+      "cardinality": 0
+    },
+    {
+      "name": "SCHOOL3 GRADES",
+      "fieldName": "school3_grades",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1014,
+      "cardinality": 2
+    },
+    {
+      "name": "SCHOOL3 DEFINITION",
+      "fieldName": "school3_definition",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1014,
+      "cardinality": 1
+    },
+    {
+      "name": "SCHOOL4 NAME",
+      "fieldName": "school4_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1018,
+      "cardinality": 3
+    },
+    {
+      "name": "SCHOOL4 PRIMARY ADDRESS",
+      "fieldName": "school4_primary_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1018,
+      "cardinality": 3
+    },
+    {
+      "name": "SCHOOL4 SECONDARY ADDRESS",
+      "fieldName": "school4_secondary_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1021,
+      "cardinality": 0
+    },
+    {
+      "name": "SCHOOL4 GRADES",
+      "fieldName": "school4_grades",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1018,
+      "cardinality": 2
+    },
+    {
+      "name": "SCHOOL4 DEFINITION",
+      "fieldName": "school4_definition",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1018,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:37:48.703Z"
+}

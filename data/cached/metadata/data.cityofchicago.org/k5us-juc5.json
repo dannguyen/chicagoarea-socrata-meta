@@ -1,0 +1,144 @@
+{
+  "id": "k5us-juc5",
+  "name": "Halloweek On the Block Events",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 10,
+  "rowCountSource": "cached",
+  "rowLabel": "Event",
+  "hasRowIdentifier": false,
+  "createdAt": 1663685175,
+  "publicationDate": 1663794853,
+  "rowsUpdatedAt": 1696026312,
+  "viewLastModified": 1696282654,
+  "viewCount": 1550,
+  "downloadCount": 1127,
+  "category": "Events",
+  "tags": [
+    "halloween",
+    "events",
+    "my chi my future",
+    "seasonal"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicagohalloweek.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "October 23-27, 2023",
+      "Data Owner": "My CHI. My Future."
+    }
+  },
+  "columns": [
+    {
+      "name": "Date",
+      "fieldName": "date",
+      "dataTypeName": "calendar_date",
+      "description": "Day of the event",
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Event Title",
+      "fieldName": "event_title",
+      "dataTypeName": "text",
+      "description": "Name of the Event",
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "Start Time",
+      "fieldName": "start_time",
+      "dataTypeName": "text",
+      "description": "When the event begins",
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "End time",
+      "fieldName": "end_time",
+      "dataTypeName": "text",
+      "description": "When the event concludes",
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Location Name",
+      "fieldName": "location_name",
+      "dataTypeName": "text",
+      "description": "The title of the school, park, or building that the event takes place near.",
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": "The street address",
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "ZIP",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": "ZIP Code",
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": "The location of the Address column in a format that allows for mapping and other geographic analysis on this portal.",
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Boundaries - ZIP Codes' (rpca-8um6) the point in column 'location_otb' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Community Areas' (vrxf-vc4k) the point in column 'location_otb' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Zip Codes' (6mkv-f3dw) the point in column 'location_otb' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Census Tracts' (bdys-3d7i) the point in column 'location_otb' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Wards' (43wa-7qmu) the point in column 'location_otb' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:16.525Z"
+}

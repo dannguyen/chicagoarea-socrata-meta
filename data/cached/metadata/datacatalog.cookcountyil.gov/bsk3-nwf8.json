@@ -1,0 +1,54 @@
+{
+  "id": "bsk3-nwf8",
+  "name": "Human Resources - Compliance Officer’s Semi-Annual Reports",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 27,
+  "rowCountSource": "cached",
+  "rowLabel": "Report",
+  "hasRowIdentifier": false,
+  "createdAt": 1463622374,
+  "publicationDate": 1552933331,
+  "rowsUpdatedAt": 1790866475,
+  "viewLastModified": 1790866474,
+  "viewCount": 19412,
+  "downloadCount": 2526,
+  "category": "Finance & Operations",
+  "tags": [],
+  "attribution": "Cook County Bureau of Human Resources",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Bureau of Human Resources"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Bi-annually",
+      "Publishing frequency": "Bi-annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "Link",
+      "fieldName": "link",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": "Date",
+      "fieldName": "date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 27
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:49.281Z"
+}

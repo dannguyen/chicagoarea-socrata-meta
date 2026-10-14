@@ -1,0 +1,132 @@
+{
+  "id": "cjg8-dbka",
+  "name": "Public Health Services- Chicago Primary Care Community Health Centers",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 120,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1397488148,
+  "publicationDate": 1404786818,
+  "rowsUpdatedAt": 1398198613,
+  "viewLastModified": 1555611973,
+  "viewCount": 8723,
+  "downloadCount": 9677,
+  "category": "Health & Human Services",
+  "tags": [
+    "health",
+    "services",
+    "clinics",
+    "care",
+    "primary",
+    "fqhc",
+    "community"
+  ],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2014",
+      "Frequency": "Updated as needed",
+      "Data Owner": "Chicago Department of Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "Facility",
+      "fieldName": "facility",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 120
+    },
+    {
+      "name": "Community Area (#)",
+      "fieldName": "community_area",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 49
+    },
+    {
+      "name": "Phone",
+      "fieldName": "phone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 74
+    },
+    {
+      "name": "FQHC, Look-alike, or Neither; Special Notes",
+      "fieldName": "fqhc_look_alike_or_neither_special_notes",
+      "dataTypeName": "text",
+      "description": "+ Federally Qualified Health Center (FQHC): any organization that received specific federal \nfunding to provide comprehensive primary care to an underserved area or population, has an \nongoing quality assurance program, and a governing board of directors which includes members \nof the community. Please see http://www.hrsa.gov/healthit/toolbox/RuralHealthITtoolbox/Introduction/qualified.html for more \ninformation.\n\n+ FQHC “look-alike”: a clinic that is similar to an FQHC in every way except that it does not \nreceive federal funding. \n\n+ School-based health center (SBHC): a health clinic that is co-located with a school. Some \nSBHCs only serve the students at that school, while others serve the students and the surrounding \ncommunity. For the purposes of this list, only SBHCs that serve the broader community are \nincluded. Please see http://www.bphc.hrsa.gov/about/schoolbased/index.html for more \ninformation.\n\n+ Underserved populations: refer to groups of individuals and families that are \nuninsured/underinsured, lacking a medical home, low-income, and have other barriers to seeking \nand linking into regular primary care services. ",
+      "nullCount": 0,
+      "cardinality": 18
+    },
+    {
+      "name": "Address",
+      "fieldName": "location_1",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Boundaries - ZIP Codes' (rpca-8um6) the point in column 'location_1' is located. This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Community Areas' (vrxf-vc4k) the point in column 'location_1' is located. This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Zip Codes' (6mkv-f3dw) the point in column 'location_1' is located. This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Census Tracts' (bdys-3d7i) the point in column 'location_1' is located. This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Wards' (43wa-7qmu) the point in column 'location_1' is located. This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Historical Wards 2003-2015' (awaf-s7ux) the point in column 'location_1' is located. This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:00.592Z"
+}

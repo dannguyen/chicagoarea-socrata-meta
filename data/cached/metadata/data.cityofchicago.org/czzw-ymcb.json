@@ -1,0 +1,264 @@
+{
+  "id": "czzw-ymcb",
+  "name": "Veteran Owned Businesses",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 55,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1468443559,
+  "publicationDate": 1470085957,
+  "rowsUpdatedAt": 1541530202,
+  "viewLastModified": 1493825496,
+  "viewCount": 6321,
+  "downloadCount": 5495,
+  "category": "Administration & Finance",
+  "tags": [
+    "business",
+    "vendors",
+    "procurement"
+  ],
+  "attribution": "Cook County Certification",
+  "attributionLink": "https://www.cookcountyil.gov/service/mbewbevbe-certification",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Current",
+      "Frequency": "Updated Monthly",
+      "Data Owner": "Department of Procurement Services"
+    }
+  },
+  "columns": [
+    {
+      "name": "Business Name",
+      "fieldName": "business_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 51
+    },
+    {
+      "name": "DBA Name",
+      "fieldName": "dba_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 43,
+      "cardinality": 11
+    },
+    {
+      "name": "Phone",
+      "fieldName": "phone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 51
+    },
+    {
+      "name": "Fax",
+      "fieldName": "fax",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 10,
+      "cardinality": 41
+    },
+    {
+      "name": "Email",
+      "fieldName": "email",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 51
+    },
+    {
+      "name": "Address 1",
+      "fieldName": "address_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 51
+    },
+    {
+      "name": "Address 2",
+      "fieldName": "address_2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 44,
+      "cardinality": 9
+    },
+    {
+      "name": "Address 3",
+      "fieldName": "address_3",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 55,
+      "cardinality": 0
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 25
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Zip",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 41
+    },
+    {
+      "name": "Zip4",
+      "fieldName": "zip4",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 44,
+      "cardinality": 10
+    },
+    {
+      "name": "Business Description",
+      "fieldName": "business_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 44
+    },
+    {
+      "name": "Primary Owner Salutation",
+      "fieldName": "primary_owner_salutation",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 14,
+      "cardinality": 6
+    },
+    {
+      "name": "Primary Owner First Name",
+      "fieldName": "primary_owner_first_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 48
+    },
+    {
+      "name": "Primary Owner Last Name",
+      "fieldName": "primary_owner_last_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "Primary Owner Suffix",
+      "fieldName": "primary_owner_suffix",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 52,
+      "cardinality": 2
+    },
+    {
+      "name": "Certification Date",
+      "fieldName": "certification_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 48
+    },
+    {
+      "name": "Renewal Date",
+      "fieldName": "renewal_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 48
+    },
+    {
+      "name": "Expiration Date",
+      "fieldName": "expiration_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "Certified Description",
+      "fieldName": "certified_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 51
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:02.689Z"
+}

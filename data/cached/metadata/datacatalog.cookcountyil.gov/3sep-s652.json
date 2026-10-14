@@ -1,0 +1,128 @@
+{
+  "id": "3sep-s652",
+  "name": "Budget Management - Department Special Purpose Funds 2012 Year End Expenses And 2013 Preliminary Estimates",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 36,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1346781669,
+  "publicationDate": 1412893659,
+  "rowsUpdatedAt": 1412893652,
+  "viewLastModified": 1769547387,
+  "viewCount": 603,
+  "downloadCount": 1968,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Budget and Management Services",
+  "attributionLink": "http://home.cookcountyil.gov/budget/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Department No.",
+      "fieldName": "department_no",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 34
+    },
+    {
+      "name": "Description",
+      "fieldName": "description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 34
+    },
+    {
+      "name": "Approved & Adopted Appropriation",
+      "fieldName": "approved_adopted_appropriation",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 33
+    },
+    {
+      "name": " Total 2012 Projected YE Expenditures",
+      "fieldName": "total_2012_projected_ye_expenditures",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 34
+    },
+    {
+      "name": " Department 2013 Expenditure Estimate",
+      "fieldName": "department_2013_expenditure_estimate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 34
+    },
+    {
+      "name": "Executive 2013 Expenditure Estimate",
+      "fieldName": "executive_2013_expenditure_estimate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 34
+    },
+    {
+      "name": "2012  Revenue Estimate",
+      "fieldName": "revenue_estimate_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 32
+    },
+    {
+      "name": "2012 Fund Balance Used",
+      "fieldName": "fund_balance_used",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 18
+    },
+    {
+      "name": "2012 YE Revenue Revised Estimate",
+      "fieldName": "ye_revenue_revised_estimate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 34
+    },
+    {
+      "name": "2013 Revenue Estimate",
+      "fieldName": "revenue_estimate_2",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 33
+    },
+    {
+      "name": "Available Fund Balance",
+      "fieldName": "available_fund_balance",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 28
+    },
+    {
+      "name": "Projected Total 2013 Surplus (Deficit)*",
+      "fieldName": "projected_total_2013_surplus_deficit",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 32
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:09.288Z"
+}

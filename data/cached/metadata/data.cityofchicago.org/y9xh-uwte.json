@@ -1,0 +1,96 @@
+{
+  "id": "y9xh-uwte",
+  "name": "Boundaries - Enterprise Zones (Deprecated October 2021)",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 6,
+  "rowCountSource": "cached",
+  "rowLabel": "Enterprise Zone",
+  "hasRowIdentifier": false,
+  "createdAt": 1633123482,
+  "publicationDate": 1633123989,
+  "rowsUpdatedAt": 1633123983,
+  "viewLastModified": 1633123989,
+  "viewCount": 1394,
+  "downloadCount": 997,
+  "category": "Community & Economic Development",
+  "tags": [
+    "boundaries",
+    "gis",
+    "shapefiles",
+    "geo_layer"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "January 2018",
+      "Data Owner": "Department of Planning & Development"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "OBJECTID",
+      "fieldName": "objectid",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "ENTERPRISE",
+      "fieldName": "enterprise",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "DISPLAY_CO",
+      "fieldName": "display_co",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "NAME",
+      "fieldName": "name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "SHAPE_Leng",
+      "fieldName": "shape_leng",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "SHAPE_Area",
+      "fieldName": "shape_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:17.898Z"
+}

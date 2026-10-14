@@ -1,0 +1,112 @@
+{
+  "id": "t2qc-9pjd",
+  "name": "Chicago Traffic Tracker - Congestion Estimates by Regions - Deprecated",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 29,
+  "rowCountSource": "cached",
+  "rowLabel": "Traffic Region",
+  "hasRowIdentifier": false,
+  "createdAt": 1321760607,
+  "publicationDate": 1410552527,
+  "rowsUpdatedAt": 1777530810,
+  "viewLastModified": 1786035355,
+  "viewCount": 90466,
+  "downloadCount": 298179,
+  "category": "Transportation",
+  "tags": [
+    "traffic",
+    "sustainability",
+    "deprecated",
+    "link to article present"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"t2qc-9pjd\"",
+      "Data Owner": "Transportation"
+    }
+  },
+  "columns": [
+    {
+      "name": "REGION",
+      "fieldName": "region",
+      "dataTypeName": "text",
+      "description": "Name of the region.",
+      "nullCount": 0,
+      "cardinality": 29
+    },
+    {
+      "name": " REGION_ID",
+      "fieldName": "_region_id",
+      "dataTypeName": "number",
+      "description": "Unique arbitrary number to represent each region.",
+      "nullCount": 0,
+      "cardinality": 29
+    },
+    {
+      "name": " WEST",
+      "fieldName": "_west",
+      "dataTypeName": "number",
+      "description": "Approximate longitude of the west edge of the region.",
+      "nullCount": 0,
+      "cardinality": 29
+    },
+    {
+      "name": " EAST",
+      "fieldName": "_east",
+      "dataTypeName": "number",
+      "description": "Approximate longitude of the east edge of the region.",
+      "nullCount": 0,
+      "cardinality": 29
+    },
+    {
+      "name": " SOUTH",
+      "fieldName": "_south",
+      "dataTypeName": "number",
+      "description": "Approximate latitude of the south edge of the region.",
+      "nullCount": 0,
+      "cardinality": 29
+    },
+    {
+      "name": " NORTH",
+      "fieldName": "_north",
+      "dataTypeName": "number",
+      "description": "Approximate latitude of the north edge of the region.",
+      "nullCount": 0,
+      "cardinality": 29
+    },
+    {
+      "name": " DESCRIPTION",
+      "fieldName": "_description",
+      "dataTypeName": "text",
+      "description": "Description of the region.",
+      "nullCount": 0,
+      "cardinality": 29
+    },
+    {
+      "name": " CURRENT_SPEED",
+      "fieldName": "current_speed",
+      "dataTypeName": "number",
+      "description": "Estimated congestion level. Although expressed in miles per hour, this value is more a reflection of the congestion level in the region than it is indicative of the average raw speed vehicles are travelling within the region.",
+      "nullCount": 0,
+      "cardinality": 29
+    },
+    {
+      "name": " LAST_UPDATED",
+      "fieldName": "_last_updt",
+      "dataTypeName": "text",
+      "description": "Timestamp of the last update.",
+      "nullCount": 0,
+      "cardinality": 29
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:04.924Z"
+}

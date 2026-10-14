@@ -1,0 +1,78 @@
+{
+  "id": "s7ek-ru5b",
+  "name": "FOIA Request Log - Environment - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1751,
+  "rowCountSource": "cached",
+  "rowLabel": "Request",
+  "hasRowIdentifier": false,
+  "createdAt": 1271435341,
+  "publicationDate": 1302998589,
+  "rowsUpdatedAt": 1313894846,
+  "viewLastModified": 1486070465,
+  "viewCount": 4366,
+  "downloadCount": 9664,
+  "category": "FOIA",
+  "tags": [
+    "historical"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "May 2010 - present",
+      "Frequency": "Data is updated as needed",
+      "Data Owner": "Environment"
+    }
+  },
+  "columns": [
+    {
+      "name": "REQUESTOR NAME",
+      "fieldName": "requestor_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 379
+    },
+    {
+      "name": "ORGANIZATION",
+      "fieldName": "organization",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 51,
+      "cardinality": 237
+    },
+    {
+      "name": "DESCRIPTION OF REQUEST",
+      "fieldName": "description_of_request",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1740
+    },
+    {
+      "name": "DATE RECEIVED",
+      "fieldName": "date_received",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 287
+    },
+    {
+      "name": "DUE DATE",
+      "fieldName": "due_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 281
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:05.645Z"
+}

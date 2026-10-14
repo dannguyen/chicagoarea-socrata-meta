@@ -1,0 +1,48 @@
+{
+  "id": "mvis-57fp",
+  "name": "Risk Management - Workmen's Compensation Claims - April 2012",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 94,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1337620156,
+  "publicationDate": 1412892285,
+  "rowsUpdatedAt": 1412892282,
+  "viewLastModified": 1769543302,
+  "viewCount": 977,
+  "downloadCount": 2625,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Risk Management",
+  "attributionLink": "http://www.cookcountyrisk.com/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Department/Office",
+      "fieldName": "department_office",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 49
+    },
+    {
+      "name": "Amount",
+      "fieldName": "amount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 48,
+      "cardinality": 20
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:03.925Z"
+}

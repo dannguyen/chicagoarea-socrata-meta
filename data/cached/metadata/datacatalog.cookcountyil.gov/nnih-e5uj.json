@@ -1,0 +1,56 @@
+{
+  "id": "nnih-e5uj",
+  "name": "Medical Examiner--2009 Decedents, by Race",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 3,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1316707166,
+  "publicationDate": 1414425842,
+  "rowsUpdatedAt": 1414425837,
+  "viewLastModified": 1769545162,
+  "viewCount": 950,
+  "downloadCount": 1803,
+  "category": "Health & Human Services",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Medical Examiner",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "RACE           ",
+      "fieldName": "race_",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "COUNT   ",
+      "fieldName": "count_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "PERCENT             ",
+      "fieldName": "percent_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:04.247Z"
+}

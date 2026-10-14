@@ -1,0 +1,76 @@
+{
+  "id": "ay2h-5hx3",
+  "name": "PTAX-203 Additional PINs",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 631164,
+  "rowCountSource": "cached",
+  "rowLabel": "Additional PIN",
+  "hasRowIdentifier": false,
+  "createdAt": 1744128199,
+  "publicationDate": 1747956960,
+  "rowsUpdatedAt": 1791716411,
+  "viewLastModified": 1789611867,
+  "viewCount": 593,
+  "downloadCount": 192,
+  "category": "Government and Public Employees",
+  "tags": [
+    "property tax"
+  ],
+  "attribution": "Illinois Department of Revenue",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Revenue"
+    }
+  },
+  "columns": [
+    {
+      "name": "Declaration ID",
+      "fieldName": "declaration_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 631164
+    },
+    {
+      "name": "PIN",
+      "fieldName": "pin",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 631164
+    },
+    {
+      "name": "Lot Size or Acreage",
+      "fieldName": "lot_size_or_acreage",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 37006,
+      "cardinality": 631164
+    },
+    {
+      "name": "Lot Size Units",
+      "fieldName": "lot_size_units",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 34458,
+      "cardinality": 631164
+    },
+    {
+      "name": "Split Parcel",
+      "fieldName": "split_parcel",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 631164
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:33.102Z"
+}

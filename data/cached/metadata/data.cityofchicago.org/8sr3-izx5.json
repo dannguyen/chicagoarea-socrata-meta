@@ -1,0 +1,61 @@
+{
+  "id": "8sr3-izx5",
+  "name": "layer_0",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 4,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1535034981,
+  "publicationDate": 1535034983,
+  "rowsUpdatedAt": 1535034982,
+  "viewLastModified": 1712775999,
+  "viewCount": 568,
+  "downloadCount": 1109,
+  "category": "Transportation",
+  "tags": [
+    "bicycling",
+    "map_layer",
+    "transportation",
+    "gis",
+    "shapefiles",
+    "boundaries",
+    "kml",
+    "kmz"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.cityofchicago.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "May 2018 - ",
+      "Frequency": "Data are updated monthly",
+      "Data Owner": "Chicago Department of Transportation"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "polygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "quadrant",
+      "fieldName": "quadrant",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:23.564Z"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "ina9-6kq2",
+  "name": "Lobbyist Data - Historical - Lobbyist Compensation Report - 2010",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1972,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1307466067,
+  "publicationDate": 1307466067,
+  "rowsUpdatedAt": 1314741826,
+  "viewLastModified": 1445633988,
+  "viewCount": 4314,
+  "downloadCount": 5798,
+  "category": "Ethics",
+  "tags": [
+    "lobbyists",
+    "historical"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2010",
+      "Data Owner": "Ethics"
+    }
+  },
+  "columns": [
+    {
+      "name": "LOBBYIST LAST NAME",
+      "fieldName": "lobbyist_last_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 345
+    },
+    {
+      "name": "LOBBYIST FIRST NAME",
+      "fieldName": "lobbyist_first_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 192
+    },
+    {
+      "name": "LOBBYIST MIDDLE INITIAL",
+      "fieldName": "lobbyist_middle_initial",
+      "dataTypeName": "text",
+      "description": "Full name of Lobbyist",
+      "nullCount": 586,
+      "cardinality": 22
+    },
+    {
+      "name": "CLIENT",
+      "fieldName": "client",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 833
+    },
+    {
+      "name": "COMPENSATION",
+      "fieldName": "compensation",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 159
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:05.646Z"
+}

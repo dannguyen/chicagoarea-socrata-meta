@@ -1,0 +1,297 @@
+{
+  "id": "w3hg-pyhz",
+  "name": "Flu Shot Locations - 2014 - Present",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2444,
+  "rowCountSource": "cached",
+  "rowLabel": "Flu Shot Clinic Location",
+  "hasRowIdentifier": true,
+  "createdAt": 1536699688,
+  "publicationDate": 1537458501,
+  "rowsUpdatedAt": 1632935340,
+  "viewLastModified": 1632935338,
+  "viewCount": 3494,
+  "downloadCount": 9115,
+  "category": "Health & Human Services",
+  "tags": [
+    "flu",
+    "health",
+    "immunization",
+    "vaccination"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.cityofchicago.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2014-2015 to Present",
+      "Frequency": "Data are updated annually or as changes occur.",
+      "Data Owner": "Department of Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "Season",
+      "fieldName": "season",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "Facility ID",
+      "fieldName": "facility_id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 342
+    },
+    {
+      "name": "Latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1210
+    },
+    {
+      "name": "Longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1213
+    },
+    {
+      "name": "Street1",
+      "fieldName": "street1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 678
+    },
+    {
+      "name": "Street2",
+      "fieldName": "street2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2420,
+      "cardinality": 6
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Postal Code",
+      "fieldName": "postal_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 58
+    },
+    {
+      "name": "Country",
+      "fieldName": "country",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Facility Name",
+      "fieldName": "facility_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 570
+    },
+    {
+      "name": "URL",
+      "fieldName": "url",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 796,
+      "cardinality": 15
+    },
+    {
+      "name": "Phone",
+      "fieldName": "phone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 392,
+      "cardinality": 453
+    },
+    {
+      "name": "Contact",
+      "fieldName": "contact",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1267,
+      "cardinality": 90
+    },
+    {
+      "name": "Begin Date",
+      "fieldName": "begin_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 321
+    },
+    {
+      "name": "End Date",
+      "fieldName": "end_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 323
+    },
+    {
+      "name": "Begin Time",
+      "fieldName": "begin_time",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1904,
+      "cardinality": 16
+    },
+    {
+      "name": "End Time",
+      "fieldName": "end_time",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1904,
+      "cardinality": 15
+    },
+    {
+      "name": "Begin DateTime",
+      "fieldName": "begin_datetime",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 1904,
+      "cardinality": 391
+    },
+    {
+      "name": "End DateTime",
+      "fieldName": "end_datetime",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 1904,
+      "cardinality": 401
+    },
+    {
+      "name": "Recurrence Days",
+      "fieldName": "recurrence_days",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 258,
+      "cardinality": 15
+    },
+    {
+      "name": "Hours",
+      "fieldName": "hours",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 797,
+      "cardinality": 89
+    },
+    {
+      "name": "Eligibility",
+      "fieldName": "eligibility",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2380,
+      "cardinality": 1
+    },
+    {
+      "name": "Cost",
+      "fieldName": "cost",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 410,
+      "cardinality": 6
+    },
+    {
+      "name": "Notes",
+      "fieldName": "notes",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1663,
+      "cardinality": 36
+    },
+    {
+      "name": "Record ID",
+      "fieldName": "record_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2444
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:07.587Z"
+}

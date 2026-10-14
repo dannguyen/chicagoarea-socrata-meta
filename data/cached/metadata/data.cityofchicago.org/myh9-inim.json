@@ -1,0 +1,88 @@
+{
+  "id": "myh9-inim",
+  "name": "Performance Metrics - Ethics - Lobbyists Registrations and Activity Reports Received, Reviewed and Made Available for Public Inspection",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 32,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1316640984,
+  "publicationDate": 1334606341,
+  "rowsUpdatedAt": 1334606335,
+  "viewLastModified": 1707240141,
+  "viewCount": 1012,
+  "downloadCount": 2854,
+  "category": "Administration & Finance",
+  "tags": [
+    "performance metrics",
+    "ethics",
+    "lobbyists"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org/performance",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "May 2011 - present",
+      "Frequency": "Data is updated weekly",
+      "Data Owner": "Ethics"
+    }
+  },
+  "columns": [
+    {
+      "name": "Week",
+      "fieldName": "week",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 32
+    },
+    {
+      "name": "Registration Year",
+      "fieldName": "registration_year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Number of lobbyist registrations and activity reports",
+      "fieldName": "number_of_lobbyist_registrations_and_activity_reports",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 13
+    },
+    {
+      "name": "Total Number of Registered Lobbyists (Target: 600 by Dec 31)",
+      "fieldName": "total_number_of_registered_lobbyists_target_600_by_dec_31_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 32
+    },
+    {
+      "name": "Total Fees Collected",
+      "fieldName": "total_fees_collected",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 27
+    },
+    {
+      "name": "Target Registration",
+      "fieldName": "target_registration",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:20.742Z"
+}

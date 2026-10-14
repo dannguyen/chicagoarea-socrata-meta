@@ -1,0 +1,140 @@
+{
+  "id": "wirw-pp52",
+  "name": "ETSB 911 Monthly Call Volume",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 63,
+  "rowCountSource": "cached",
+  "rowLabel": "Month",
+  "hasRowIdentifier": false,
+  "createdAt": 1485462668,
+  "publicationDate": 1551807670,
+  "rowsUpdatedAt": 1617821098,
+  "viewLastModified": 1769543513,
+  "viewCount": 3406,
+  "downloadCount": 6577,
+  "category": "Health & Human Services",
+  "tags": [
+    "e-911",
+    "e911",
+    "emergency telephone systems board"
+  ],
+  "attribution": "Cook County Emergency Telephone System Board",
+  "attributionLink": "http://www.cookcounty911.com/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Detailed Descriptive": {
+      "Temporal coverage": "January 2016 - Present",
+      "Geographic coverage": "Countywide",
+      "Geographic unit": "Not applicable"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Monthly",
+      "Publishing frequency": "Monthly"
+    }
+  },
+  "columns": [
+    {
+      "name": "Month",
+      "fieldName": "month",
+      "dataTypeName": "calendar_date",
+      "description": "Calendar Month",
+      "nullCount": 0,
+      "cardinality": 63
+    },
+    {
+      "name": "Total Volume",
+      "fieldName": "total_volume",
+      "dataTypeName": "number",
+      "description": "Total number of E911 calls received",
+      "nullCount": 0,
+      "cardinality": 56
+    },
+    {
+      "name": "Wireless",
+      "fieldName": "wireless",
+      "dataTypeName": "number",
+      "description": "Number of E911 calls from a wireless phone",
+      "nullCount": 0,
+      "cardinality": 61
+    },
+    {
+      "name": "Land Line",
+      "fieldName": "land_line",
+      "dataTypeName": "number",
+      "description": "Number of E911 calls from a landline phone",
+      "nullCount": 0,
+      "cardinality": 55
+    },
+    {
+      "name": "VOIP",
+      "fieldName": "voip",
+      "dataTypeName": "number",
+      "description": "Number of E911 calls from a VOIP (oice over Internet Protocol) phone",
+      "nullCount": 0,
+      "cardinality": 58
+    },
+    {
+      "name": "Remote Site Volume - Northlake",
+      "fieldName": "remote_site_volume_northlake",
+      "dataTypeName": "number",
+      "description": "Number of E911 calls received on behalf of Northlake",
+      "nullCount": 0,
+      "cardinality": 59
+    },
+    {
+      "name": "Remote Site Volume - Ford Heights",
+      "fieldName": "remote_site_volume_ford_heights",
+      "dataTypeName": "number",
+      "description": "Number of E911 calls received on behalf of Ford Heights",
+      "nullCount": 0,
+      "cardinality": 53
+    },
+    {
+      "name": "Remote Site Volume - Robbins",
+      "fieldName": "remote_site_volume_robbins",
+      "dataTypeName": "number",
+      "description": "Number of E911 calls received on behalf of Robbins",
+      "nullCount": 0,
+      "cardinality": 40
+    },
+    {
+      "name": "Remote Site Volume - Phoenix",
+      "fieldName": "remote_site_volume_phoenix",
+      "dataTypeName": "number",
+      "description": "Number of E911 calls received on behalf of Phoenix",
+      "nullCount": 0,
+      "cardinality": 22
+    },
+    {
+      "name": "Remote Site Volume - Dixmoor",
+      "fieldName": "remote_site_volume_dixmoor",
+      "dataTypeName": "number",
+      "description": "Number of E911 calls received on behalf of Dixmoor",
+      "nullCount": 0,
+      "cardinality": 41
+    },
+    {
+      "name": "Remote Site Volume - Stone Park",
+      "fieldName": "remote_site_volume_stone_park",
+      "dataTypeName": "number",
+      "description": "Number of E911 calls received on behalf of Stone Park",
+      "nullCount": 0,
+      "cardinality": 42
+    },
+    {
+      "name": "Remote Site Volume - Golf",
+      "fieldName": "remote_site_volume_golf",
+      "dataTypeName": "number",
+      "description": "Number of E911 calls received on behalf of Golf",
+      "nullCount": 0,
+      "cardinality": 7
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:54.255Z"
+}

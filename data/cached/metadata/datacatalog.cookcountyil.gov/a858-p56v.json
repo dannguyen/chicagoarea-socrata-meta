@@ -1,0 +1,144 @@
+{
+  "id": "a858-p56v",
+  "name": "Office of the President -- 2011 Monthly Statistics on Human Rights Statistics",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 7,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1320096116,
+  "publicationDate": 1412896286,
+  "rowsUpdatedAt": 1412896274,
+  "viewLastModified": 1769547900,
+  "viewCount": 588,
+  "downloadCount": 1780,
+  "category": "Legal & Judicial",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Office of the President - Human Rights",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "HUMAN RIGHTS STATISTICS",
+      "fieldName": "human_rights_statistics",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "DEC",
+      "fieldName": "dec",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 5
+    },
+    {
+      "name": "JAN",
+      "fieldName": "jan",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "FEB",
+      "fieldName": "feb",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "MAR",
+      "fieldName": "mar",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "APR",
+      "fieldName": "apr",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "MAY",
+      "fieldName": "may",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "JUN",
+      "fieldName": "jun",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "JUL",
+      "fieldName": "jul",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "AUG",
+      "fieldName": "aug",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "SEP",
+      "fieldName": "sep",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "OCT",
+      "fieldName": "oct",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "NOV",
+      "fieldName": "nov",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "YTD Totals",
+      "fieldName": "ytd_totals",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:09.259Z"
+}

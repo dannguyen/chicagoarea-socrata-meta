@@ -1,0 +1,269 @@
+{
+  "id": "iqnk-2tcu",
+  "name": "Public Health Statistics - Selected public health indicators by Chicago community area - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 77,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1337365532,
+  "publicationDate": 1370370222,
+  "rowsUpdatedAt": 1369922937,
+  "viewLastModified": 1788212671,
+  "viewCount": 83345,
+  "downloadCount": 18862,
+  "category": "Health & Human Services",
+  "tags": [
+    "historical"
+  ],
+  "attribution": "Illinois Department of Public Health (IDPH) and U.S. Census Bureau",
+  "attributionLink": null,
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2005 – 2011",
+      "Data Owner": "Epidemiology and Public Health Informatics, Chicago Department of Public Health (CDPH)"
+    }
+  },
+  "columns": [
+    {
+      "name": "Community Area",
+      "fieldName": "community_area",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": "Community Area Name",
+      "fieldName": "community_area_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": "Birth Rate",
+      "fieldName": "birth_rate",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 58
+    },
+    {
+      "name": "General Fertility Rate",
+      "fieldName": "general_fertility_rate",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 71
+    },
+    {
+      "name": "Low Birth Weight",
+      "fieldName": "low_birth_weight",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 59
+    },
+    {
+      "name": "Prenatal Care Beginning in First Trimester",
+      "fieldName": "prenatal_care_beginning_in_first_trimester",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 61
+    },
+    {
+      "name": "Preterm Births",
+      "fieldName": "preterm_births",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 58
+    },
+    {
+      "name": "Teen Birth Rate",
+      "fieldName": "teen_birth_rate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 76
+    },
+    {
+      "name": "Assault (Homicide)",
+      "fieldName": "assault_homicide",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 65
+    },
+    {
+      "name": "Breast cancer in females",
+      "fieldName": "breast_cancer_in_females",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 62
+    },
+    {
+      "name": "Cancer (All Sites)",
+      "fieldName": "cancer_all_sites",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": "Colorectal Cancer",
+      "fieldName": "colorectal_cancer",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 68
+    },
+    {
+      "name": "Diabetes-related",
+      "fieldName": "diabetes_related",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 70
+    },
+    {
+      "name": "Firearm-related",
+      "fieldName": "firearm_related",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 71
+    },
+    {
+      "name": "Infant Mortality Rate",
+      "fieldName": "infant_mortality_rate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 64
+    },
+    {
+      "name": "Lung Cancer",
+      "fieldName": "lung_cancer",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 70
+    },
+    {
+      "name": "Prostate Cancer in Males",
+      "fieldName": "prostate_cancer_in_males",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 71
+    },
+    {
+      "name": "Stroke (Cerebrovascular Disease)",
+      "fieldName": "stroke_cerebrovascular_disease",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 72
+    },
+    {
+      "name": "Childhood Blood Lead Level Screening",
+      "fieldName": "childhood_blood_lead_level_screening",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 74
+    },
+    {
+      "name": "Childhood Lead Poisoning",
+      "fieldName": "childhood_lead_poisoning",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 24
+    },
+    {
+      "name": "Gonorrhea in Females",
+      "fieldName": "gonorrhea_in_females",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 12,
+      "cardinality": 65
+    },
+    {
+      "name": "Gonorrhea in Males",
+      "fieldName": "gonorrhea_in_males",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 65
+    },
+    {
+      "name": "Tuberculosis",
+      "fieldName": "tuberculosis",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 60
+    },
+    {
+      "name": "Below Poverty Level",
+      "fieldName": "below_poverty_level",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 69
+    },
+    {
+      "name": "Crowded Housing",
+      "fieldName": "crowded_housing",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 58
+    },
+    {
+      "name": "Dependency",
+      "fieldName": "dependency",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 62
+    },
+    {
+      "name": "No High School Diploma",
+      "fieldName": "no_high_school_diploma",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 68
+    },
+    {
+      "name": "Per Capita Income",
+      "fieldName": "per_capita_income",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": "Unemployment",
+      "fieldName": "unemployment",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 63
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:05.104Z"
+}

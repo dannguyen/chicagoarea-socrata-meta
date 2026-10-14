@@ -1,0 +1,101 @@
+{
+  "id": "cbbs-wtjq",
+  "name": "ESRISuburbanCookBuildingFootprints2008",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 899327,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1508428972,
+  "publicationDate": 1508429815,
+  "rowsUpdatedAt": 1508429815,
+  "viewLastModified": 1769546578,
+  "viewCount": 1210,
+  "downloadCount": 1545,
+  "category": "Economic Development",
+  "tags": [
+    "esri",
+    "cook county",
+    "chicago",
+    "building footprints",
+    "2008 cook county lidar",
+    "property and land records"
+  ],
+  "attribution": "Cook County GIS Department",
+  "attributionLink": "https://www.cookcountyil.gov/service/maps-and-geospatial-data",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Update Frequency": "No updates"
+    },
+    "Publishing Details": {
+      "Data change frequency": "As needed",
+      "Publishing frequency": "As needed"
+    }
+  },
+  "columns": [
+    {
+      "name": "Source",
+      "fieldName": "source",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 31,
+      "cardinality": 3
+    },
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Type",
+      "fieldName": "type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 898565,
+      "cardinality": 3
+    },
+    {
+      "name": "LengthWidt",
+      "fieldName": "length_widt",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 362546
+    },
+    {
+      "name": "Field",
+      "fieldName": "field",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Shape_STAr",
+      "fieldName": "shape_star",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 328248
+    },
+    {
+      "name": "Shape_STLe",
+      "fieldName": "shape_stle",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 629876
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:01.826Z"
+}

@@ -1,0 +1,197 @@
+{
+  "id": "cyqk-tzjs",
+  "name": "Chicago Park District: Movies in the Parks 2014",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 260,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1400188425,
+  "publicationDate": 1400188855,
+  "rowsUpdatedAt": 1400188841,
+  "viewLastModified": 1746114316,
+  "viewCount": 2000,
+  "downloadCount": 5340,
+  "category": "Parks & Recreation",
+  "tags": [
+    "movies",
+    "movie",
+    "park",
+    "parks",
+    "movies in the park",
+    "movies in the parks",
+    "chicago park district"
+  ],
+  "attribution": "Chicago Park District",
+  "attributionLink": "http://www.chicagoparkdistrict.com/events/movies",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "Summer 2014",
+      "Frequency": "",
+      "Data Owner": "Chicago Park District"
+    }
+  },
+  "columns": [
+    {
+      "name": "EventName",
+      "fieldName": "eventname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 192
+    },
+    {
+      "name": " MovieName",
+      "fieldName": "moviename",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 121
+    },
+    {
+      "name": " Location ",
+      "fieldName": "location",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 168
+    },
+    {
+      "name": " ZipCode",
+      "fieldName": "zipcode",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 50
+    },
+    {
+      "name": " Phone",
+      "fieldName": "phone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 164
+    },
+    {
+      "name": " StartDate",
+      "fieldName": "startdate",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 116
+    },
+    {
+      "name": " EndDate",
+      "fieldName": "enddate",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 240
+    },
+    {
+      "name": " EventUrl",
+      "fieldName": "eventurl",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": " ParkUrl",
+      "fieldName": "parkurl",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": " Community",
+      "fieldName": "community",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 75
+    },
+    {
+      "name": " MovieClosedCaption",
+      "fieldName": "movieclosedcaption",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 3
+    },
+    {
+      "name": " MovieRating",
+      "fieldName": "movierating",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 6
+    },
+    {
+      "name": "Location 1",
+      "fieldName": "location_1",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Boundaries - ZIP Codes' (rpca-8um6) the point in column 'location_1' is located. This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Community Areas' (vrxf-vc4k) the point in column 'location_1' is located. This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Zip Codes' (6mkv-f3dw) the point in column 'location_1' is located. This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Census Tracts' (bdys-3d7i) the point in column 'location_1' is located. This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Wards' (43wa-7qmu) the point in column 'location_1' is located. This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Historical Wards 2003-2015' (awaf-s7ux) the point in column 'location_1' is located. This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:13.514Z"
+}

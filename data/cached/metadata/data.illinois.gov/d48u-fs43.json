@@ -1,0 +1,106 @@
+{
+  "id": "d48u-fs43",
+  "name": "FY22 CFHR Premiums Ag Extension or 4H.xlsx",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1718209676,
+  "publicationDate": 1718211475,
+  "rowsUpdatedAt": 1718211469,
+  "viewLastModified": 1736796078,
+  "viewCount": 27,
+  "downloadCount": 81,
+  "category": "Natural and Cultural Resources",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Work Groups": {
+      "Group": "",
+      "Supplemental Group": ""
+    },
+    "Organizations": {
+      "Organization": "Department of Agriculture"
+    },
+    "Data Management": {
+      "Maintainer": "Melanie Dodd",
+      "Maintainer Email": "melanie.dodd@illinois.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "Grantor",
+      "fieldName": "grantor",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Grantee",
+      "fieldName": "grantee",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Postal Code",
+      "fieldName": "postal_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Audit Text",
+      "fieldName": "audit_text",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Award Amount",
+      "fieldName": "award_amount",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Date of Award",
+      "fieldName": "date_of_award",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Service Date From",
+      "fieldName": "service_date_from",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Service Date To",
+      "fieldName": "service_date_to",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:42.200Z"
+}

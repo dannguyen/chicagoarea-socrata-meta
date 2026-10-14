@@ -1,0 +1,73 @@
+{
+  "id": "th3p-us5u",
+  "name": "Board of Ethics - Notices of Determination",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 38,
+  "rowCountSource": "cached",
+  "rowLabel": "Notice",
+  "hasRowIdentifier": false,
+  "createdAt": 1466618479,
+  "publicationDate": 1651447804,
+  "rowsUpdatedAt": 1751034118,
+  "viewLastModified": 1769542790,
+  "viewCount": 3701,
+  "downloadCount": 2479,
+  "category": "Legal & Judicial",
+  "tags": [],
+  "attribution": "Cook County Board of Ethics",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Board of Ethics"
+    },
+    "Metadata": {
+      "Update Frequency": "As Needed"
+    },
+    "Publishing Details": {
+      "Data change frequency": "As needed",
+      "Publishing frequency": "As needed"
+    }
+  },
+  "columns": [
+    {
+      "name": "Link",
+      "fieldName": "link",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Case Number",
+      "fieldName": "case_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 31
+    },
+    {
+      "name": "Type",
+      "fieldName": "type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Date Entered",
+      "fieldName": "date_entered",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 27
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:53.806Z"
+}

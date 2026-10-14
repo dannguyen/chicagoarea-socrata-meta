@@ -1,0 +1,175 @@
+{
+  "id": "mb74-gx3g",
+  "name": "CPS_School_Locations_SY1516",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 679,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1441314448,
+  "publicationDate": 1459887842,
+  "rowsUpdatedAt": 1459887842,
+  "viewLastModified": 1733171619,
+  "viewCount": 619,
+  "downloadCount": 4060,
+  "category": "Education",
+  "tags": [
+    "attendance",
+    "cps",
+    "schools",
+    "map_layer",
+    "gis",
+    "2015",
+    "2016",
+    "kml",
+    "kmz",
+    "shapefiles"
+  ],
+  "attribution": "Chicago Public Schools",
+  "attributionLink": "http://cps.edu",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "July 2015 - July 2016",
+      "Frequency": "Annually",
+      "Data Owner": "Chicago Public Schools"
+    }
+  },
+  "columns": [
+    {
+      "name": "Short_Name",
+      "fieldName": "short_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 679
+    },
+    {
+      "name": "School_ID",
+      "fieldName": "school_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 679
+    },
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "point",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 679
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 644
+    },
+    {
+      "name": "Zip",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 56
+    },
+    {
+      "name": "Lat",
+      "fieldName": "lat",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 677
+    },
+    {
+      "name": "Long",
+      "fieldName": "long",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 673
+    },
+    {
+      "name": "Network",
+      "fieldName": "network",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "Governance",
+      "fieldName": "governance",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Grade_Cat",
+      "fieldName": "grade_cat",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Grades",
+      "fieldName": "grades",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 40
+    },
+    {
+      "name": "Phone",
+      "fieldName": "phone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 672
+    },
+    {
+      "name": "GeoNetwork",
+      "fieldName": "geo_network",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 13
+    },
+    {
+      "name": "COMMAREA",
+      "fieldName": "commarea",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": "WARD_15",
+      "fieldName": "ward_15",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "ALD_15",
+      "fieldName": "ald_15",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:23.252Z"
+}

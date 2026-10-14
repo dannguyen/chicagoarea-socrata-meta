@@ -1,0 +1,208 @@
+{
+  "id": "v2a6-nxhe",
+  "name": "Chicago Park District: Movies in the Parks 2015",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 237,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1432156817,
+  "publicationDate": 1432157626,
+  "rowsUpdatedAt": 1432157585,
+  "viewLastModified": 1746114308,
+  "viewCount": 1696,
+  "downloadCount": 5514,
+  "category": "Parks & Recreation",
+  "tags": [
+    "movies",
+    "parks"
+  ],
+  "attribution": "Chicago Park District",
+  "attributionLink": "http://www.chicagoparkdistrict.com/events/movies",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "Summer 2015",
+      "Frequency": "One-time upload",
+      "Data Owner": "Chicago Park District"
+    }
+  },
+  "columns": [
+    {
+      "name": " EventName ",
+      "fieldName": "eventname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 165
+    },
+    {
+      "name": " MovieName",
+      "fieldName": "moviename",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 123
+    },
+    {
+      "name": "ParkName",
+      "fieldName": "parkname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 162
+    },
+    {
+      "name": " ZipCode",
+      "fieldName": "zipcode",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 49
+    },
+    {
+      "name": " Phone",
+      "fieldName": "phone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 159
+    },
+    {
+      "name": " StartDate",
+      "fieldName": "startdate",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 103
+    },
+    {
+      "name": " EndDate",
+      "fieldName": "enddate",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 230
+    },
+    {
+      "name": " ContactName",
+      "fieldName": "contactname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 159
+    },
+    {
+      "name": " ContactEmail",
+      "fieldName": "contactemail",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 56,
+      "cardinality": 123
+    },
+    {
+      "name": " EventUrl",
+      "fieldName": "eventurl",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": " ParkUrl",
+      "fieldName": "parkurl",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": " Community",
+      "fieldName": "community",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 70
+    },
+    {
+      "name": " MovieClosedCaption",
+      "fieldName": "movieclosedcaption",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 9,
+      "cardinality": 3
+    },
+    {
+      "name": " MovieRating",
+      "fieldName": "movierating",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 9,
+      "cardinality": 6
+    },
+    {
+      "name": "Location 1",
+      "fieldName": "location_1",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:15.500Z"
+}

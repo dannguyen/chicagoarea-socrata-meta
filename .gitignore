@@ -6,9 +6,10 @@
 *.duckdb.wal
 *.parquet
 cache/
-data/*
 # ...except vendored source data checked into the repo (not a fetched artifact)
 !data/r_cpi_u_rs.csv
+# ...and the built site data (output of `npm run build`)
+!data/datasets.json
 
 # Python
 __pycache__/

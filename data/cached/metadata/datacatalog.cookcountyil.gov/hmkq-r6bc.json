@@ -1,0 +1,61 @@
+{
+  "id": "hmkq-r6bc",
+  "name": "Cook County Public Health Flu Vaccination Partners - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 17,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1351806096,
+  "publicationDate": 1686672837,
+  "rowsUpdatedAt": 1414427939,
+  "viewLastModified": 1769545884,
+  "viewCount": 1201,
+  "downloadCount": 3043,
+  "category": "Health & Human Services",
+  "tags": [
+    "health",
+    "inactive"
+  ],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Update Frequency": "No updates"
+    }
+  },
+  "columns": [
+    {
+      "name": "Site/Location",
+      "fieldName": "site_location",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 17
+    },
+    {
+      "name": "Contact information and Schedule",
+      "fieldName": "contact_information_and_schedule",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 17
+    },
+    {
+      "name": "Location 1",
+      "fieldName": "location_1",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:01.960Z"
+}

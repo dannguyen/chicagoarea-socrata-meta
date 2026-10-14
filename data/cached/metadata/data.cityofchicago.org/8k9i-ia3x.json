@@ -1,0 +1,103 @@
+{
+  "id": "8k9i-ia3x",
+  "name": "Water Exemptions",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 7274,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1338580785,
+  "publicationDate": 1338910973,
+  "rowsUpdatedAt": 1338910957,
+  "viewLastModified": 1338911029,
+  "viewCount": 4045,
+  "downloadCount": 31362,
+  "category": "Administration & Finance",
+  "tags": [
+    "water"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "Data is current as of May 2012",
+      "Frequency": "Data is updated as needed",
+      "Data Owner": "Water Management"
+    }
+  },
+  "columns": [
+    {
+      "name": "Customer",
+      "fieldName": "customer_last_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 4607
+    },
+    {
+      "name": "Street Number",
+      "fieldName": "premises_street_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 114,
+      "cardinality": 4317
+    },
+    {
+      "name": "Street Prefix",
+      "fieldName": "pdir_pre",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 4
+    },
+    {
+      "name": "Street Name",
+      "fieldName": "premise_street_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 826
+    },
+    {
+      "name": "Street Suffix",
+      "fieldName": "ssfx",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 339,
+      "cardinality": 12
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 1
+    },
+    {
+      "name": "ST",
+      "fieldName": "st",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 1
+    },
+    {
+      "name": "Zip",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 106,
+      "cardinality": 4630
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:06.071Z"
+}

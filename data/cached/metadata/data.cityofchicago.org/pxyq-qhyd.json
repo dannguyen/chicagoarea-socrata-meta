@@ -1,0 +1,130 @@
+{
+  "id": "pxyq-qhyd",
+  "name": "CPD_Park_Art",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 346,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1478272644,
+  "publicationDate": 1652889233,
+  "rowsUpdatedAt": 1652889227,
+  "viewLastModified": 1731519924,
+  "viewCount": 1620,
+  "downloadCount": 3860,
+  "category": "Parks & Recreation",
+  "tags": [
+    "parks",
+    "public art",
+    "monuments",
+    "chicago",
+    "chicago park district",
+    "chicago parks",
+    "2015"
+  ],
+  "attribution": "Chicago Park District",
+  "attributionLink": "http://www.chicagoparkdistrict.com/facilities/fountains-monuments-sculptures/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "November 2016 to present"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "point",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 346
+    },
+    {
+      "name": "OBJECTID",
+      "fieldName": "objectid",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 346
+    },
+    {
+      "name": "PARK",
+      "fieldName": "park",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 119
+    },
+    {
+      "name": "PARK_NO",
+      "fieldName": "park_no",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 117
+    },
+    {
+      "name": "NAME",
+      "fieldName": "name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 325
+    },
+    {
+      "name": "X_COORD",
+      "fieldName": "x_coord",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 346
+    },
+    {
+      "name": "Y_COORD",
+      "fieldName": "y_coord",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 346
+    },
+    {
+      "name": "ARTIST",
+      "fieldName": "artist",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 15,
+      "cardinality": 263
+    },
+    {
+      "name": "OWNER",
+      "fieldName": "owner",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 53,
+      "cardinality": 24
+    },
+    {
+      "name": "GISOBJID",
+      "fieldName": "gisobjid",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 309
+    },
+    {
+      "name": "OFFICIAL_N",
+      "fieldName": "official_n",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 164,
+      "cardinality": 179
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:16.151Z"
+}

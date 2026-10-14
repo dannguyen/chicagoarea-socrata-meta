@@ -1,0 +1,389 @@
+{
+  "id": "5k62-ja39",
+  "name": "ESRIChicagoBldgFootprints2008",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 820605,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1508425584,
+  "publicationDate": 1508426917,
+  "rowsUpdatedAt": 1508426916,
+  "viewLastModified": 1769544123,
+  "viewCount": 746,
+  "downloadCount": 1769,
+  "category": "Economic Development",
+  "tags": [
+    "esri",
+    "cook county",
+    "chicago",
+    "building footprints",
+    "2008 cook county lidar",
+    "property and land records"
+  ],
+  "attribution": "Cook County GIS Department",
+  "attributionLink": "https://www.cookcountyil.gov/service/maps-and-geospatial-data",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Update Frequency": "No updates"
+    },
+    "Publishing Details": {
+      "Data change frequency": "As needed",
+      "Publishing frequency": "As needed"
+    }
+  },
+  "columns": [
+    {
+      "name": "CDB_CITY_I",
+      "fieldName": "cdb_city_i",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 820605,
+      "cardinality": 0
+    },
+    {
+      "name": "BLDG_ID",
+      "fieldName": "bldg_id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 820597
+    },
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "BLDG_STATU",
+      "fieldName": "bldg_statu",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 9,
+      "cardinality": 2
+    },
+    {
+      "name": "F_ADD1",
+      "fieldName": "f_add1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11308
+    },
+    {
+      "name": "T_ADD1",
+      "fieldName": "t_add1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11429
+    },
+    {
+      "name": "PRE_DIR1",
+      "fieldName": "pre_dir1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 331894,
+      "cardinality": 4
+    },
+    {
+      "name": "ST_NAME1",
+      "fieldName": "st_name1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 331885,
+      "cardinality": 1233
+    },
+    {
+      "name": "ST_TYPE1",
+      "fieldName": "st_type1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 337642,
+      "cardinality": 17
+    },
+    {
+      "name": "UNIT_NAME",
+      "fieldName": "unit_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 812303,
+      "cardinality": 704
+    },
+    {
+      "name": "NON_STANDA",
+      "fieldName": "non_standa",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 806902,
+      "cardinality": 6
+    },
+    {
+      "name": "BLDG_NAME1",
+      "fieldName": "bldg_name1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 816696,
+      "cardinality": 2812
+    },
+    {
+      "name": "BLDG_NAME2",
+      "fieldName": "bldg_name2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 819565,
+      "cardinality": 272
+    },
+    {
+      "name": "COMMENTS",
+      "fieldName": "comments",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 813358,
+      "cardinality": 1779
+    },
+    {
+      "name": "STORIES",
+      "fieldName": "stories",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 70
+    },
+    {
+      "name": "ORIG_BLDG_",
+      "fieldName": "orig_bldg",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 798848
+    },
+    {
+      "name": "FOOTPRINT_",
+      "fieldName": "footprint",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1848,
+      "cardinality": 7
+    },
+    {
+      "name": "CREATE_USE",
+      "fieldName": "create_use",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 757931,
+      "cardinality": 21
+    },
+    {
+      "name": "BLDG_CREAT",
+      "fieldName": "bldg_creat",
+      "dataTypeName": "date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1046
+    },
+    {
+      "name": "BLDG_ACTIV",
+      "fieldName": "bldg_activ",
+      "dataTypeName": "date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1038
+    },
+    {
+      "name": "BLDG_END_D",
+      "fieldName": "bldg_end_d",
+      "dataTypeName": "date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "DEMOLISHED",
+      "fieldName": "demolished",
+      "dataTypeName": "date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "EDIT_DATE",
+      "fieldName": "edit_date",
+      "dataTypeName": "date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1207
+    },
+    {
+      "name": "EDIT_USERI",
+      "fieldName": "edit_useri",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 708171,
+      "cardinality": 54
+    },
+    {
+      "name": "EDIT_SOURC",
+      "fieldName": "edit_sourc",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 747181,
+      "cardinality": 13
+    },
+    {
+      "name": "QC_DATE",
+      "fieldName": "qc_date",
+      "dataTypeName": "date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 954
+    },
+    {
+      "name": "QC_USERID",
+      "fieldName": "qc_userid",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 372162,
+      "cardinality": 12
+    },
+    {
+      "name": "QC_SOURCE",
+      "fieldName": "qc_source",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 432781,
+      "cardinality": 2
+    },
+    {
+      "name": "X_COORD",
+      "fieldName": "x_coord",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 808174
+    },
+    {
+      "name": "Y_COORD",
+      "fieldName": "y_coord",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 786753
+    },
+    {
+      "name": "Z_COORD",
+      "fieldName": "z_coord",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "HARRIS_STR",
+      "fieldName": "harris_str",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 396252,
+      "cardinality": 423227
+    },
+    {
+      "name": "NO_OF_UNIT",
+      "fieldName": "no_of_unit",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 291
+    },
+    {
+      "name": "NO_STORIES",
+      "fieldName": "no_stories",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "YEAR_BUILT",
+      "fieldName": "year_built",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 165
+    },
+    {
+      "name": "BLDG_SQ_FO",
+      "fieldName": "bldg_sq_fo",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7893
+    },
+    {
+      "name": "BLDG_CONDI",
+      "fieldName": "bldg_condi",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 367559,
+      "cardinality": 5
+    },
+    {
+      "name": "CONDITION_",
+      "fieldName": "condition",
+      "dataTypeName": "date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 835
+    },
+    {
+      "name": "VACANCY_ST",
+      "fieldName": "vacancy_st",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 806585,
+      "cardinality": 7
+    },
+    {
+      "name": "LABEL_HOUS",
+      "fieldName": "label_hous",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 16265,
+      "cardinality": 11348
+    },
+    {
+      "name": "SUF_DIR1",
+      "fieldName": "suf_dir1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 820545,
+      "cardinality": 3
+    },
+    {
+      "name": "Shape_STAr",
+      "fieldName": "shape_star",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 376653
+    },
+    {
+      "name": "Shape_STLe",
+      "fieldName": "shape_stle",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 604006
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:07.035Z"
+}

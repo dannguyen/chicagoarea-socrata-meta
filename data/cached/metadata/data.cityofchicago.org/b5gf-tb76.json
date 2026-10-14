@@ -1,0 +1,65 @@
+{
+  "id": "b5gf-tb76",
+  "name": "Libraries - 2020 Wi Fi Usage",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 12,
+  "rowCountSource": "cached",
+  "rowLabel": "Month",
+  "hasRowIdentifier": false,
+  "createdAt": 1582667116,
+  "publicationDate": 1590515826,
+  "rowsUpdatedAt": 1611685940,
+  "viewLastModified": 1782944606,
+  "viewCount": 1141,
+  "downloadCount": 1226,
+  "category": "Education",
+  "tags": [
+    "libraries",
+    "technology",
+    "wi-fi",
+    "2020"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chipublib.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2020",
+      "Frequency": "Monthly",
+      "Data Owner": "Chicago Public Libraries"
+    }
+  },
+  "columns": [
+    {
+      "name": "MONTH",
+      "fieldName": "month",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "NUMBER OF SESSIONS",
+      "fieldName": "number_of_sessions",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "YTD",
+      "fieldName": "ytd",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:19.697Z"
+}

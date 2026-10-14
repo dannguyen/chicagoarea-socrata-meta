@@ -1,0 +1,81 @@
+{
+  "id": "ybvh-5bzv",
+  "name": "Cook County Municipalities with City Hall Addresses and URLs",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 134,
+  "rowCountSource": "cached",
+  "rowLabel": "municipality",
+  "hasRowIdentifier": true,
+  "createdAt": 1370963182,
+  "publicationDate": 1685650995,
+  "rowsUpdatedAt": 1755017137,
+  "viewLastModified": 1769544323,
+  "viewCount": 9473,
+  "downloadCount": 4838,
+  "category": "Finance & Operations",
+  "tags": [],
+  "attribution": "Bureau of Economic Development",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Update Frequency": "As Needed"
+    },
+    "Detailed Descriptive": {
+      "Geographic coverage": "Countywide"
+    },
+    "Publishing Details": {
+      "Data change frequency": "As needed",
+      "Publishing frequency": "As needed"
+    }
+  },
+  "columns": [
+    {
+      "name": "Municipality",
+      "fieldName": "municipality",
+      "dataTypeName": "text",
+      "description": "name of local governing body",
+      "nullCount": 0,
+      "cardinality": 134
+    },
+    {
+      "name": "City Hall Street Address",
+      "fieldName": "street_address",
+      "dataTypeName": "text",
+      "description": "address where municipality's city hall building is located",
+      "nullCount": 0,
+      "cardinality": 134
+    },
+    {
+      "name": "Zip Code",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": "zip code of address where city hall building is located",
+      "nullCount": 0,
+      "cardinality": 109
+    },
+    {
+      "name": "URL",
+      "fieldName": "url",
+      "dataTypeName": "url",
+      "description": "main homepage for municipality's website",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "City Hall Location",
+      "fieldName": "location_1",
+      "dataTypeName": "location",
+      "description": "geospatial location (latitude/longitude) of municipality's city hall building",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:50.969Z"
+}

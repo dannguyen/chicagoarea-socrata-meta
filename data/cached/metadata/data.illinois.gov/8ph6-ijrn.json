@@ -1,0 +1,90 @@
+{
+  "id": "8ph6-ijrn",
+  "name": "2026 Clean Energy Jobs Report - IL vs Non-IL",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 35,
+  "rowCountSource": "cached",
+  "rowLabel": "Number of employees who worked on a Clean Energy Project during the previous year within the specified demographic.",
+  "hasRowIdentifier": false,
+  "createdAt": 1776372531,
+  "publicationDate": 1776374527,
+  "rowsUpdatedAt": 1776374516,
+  "viewLastModified": 1776376411,
+  "viewCount": 18,
+  "downloadCount": 76,
+  "category": "Business and Workforce",
+  "tags": [
+    "clean energy jobs report",
+    "clean energy",
+    "public act 102-662"
+  ],
+  "attribution": "Illinois Department of Labor",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Labor"
+    },
+    "Data Management": {
+      "Maintainer": "IDOL",
+      "Maintainer Email": "DOL.Questions@Illinois.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "State of Residence",
+      "fieldName": "state_of_residence",
+      "dataTypeName": "text",
+      "description": "Combines employees by their state of residence, either within Illinois or outside of Illinois",
+      "nullCount": 0,
+      "cardinality": 35
+    },
+    {
+      "name": "Gender",
+      "fieldName": "gender",
+      "dataTypeName": "text",
+      "description": "Gender of employee Male or Female",
+      "nullCount": 0,
+      "cardinality": 35
+    },
+    {
+      "name": "Race",
+      "fieldName": "race",
+      "dataTypeName": "text",
+      "description": "Race of employee",
+      "nullCount": 0,
+      "cardinality": 35
+    },
+    {
+      "name": "Ethnicity*",
+      "fieldName": "ethnicity",
+      "dataTypeName": "checkbox",
+      "description": "Ethnicity of employee.  This can either be Tru for Hispanic/Latino/a/ex or False for Non-Hispanic",
+      "nullCount": 0,
+      "cardinality": 35
+    },
+    {
+      "name": "Count",
+      "fieldName": "total",
+      "dataTypeName": "number",
+      "description": "Number of employees who worked on clean energy projects in the specified demographic.",
+      "nullCount": 0,
+      "cardinality": 35
+    },
+    {
+      "name": "Percent",
+      "fieldName": "percent",
+      "dataTypeName": "number",
+      "description": "Percent of employees who worked on clean energy projects in the specified demographic.",
+      "nullCount": 0,
+      "cardinality": 35
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:42.023Z"
+}

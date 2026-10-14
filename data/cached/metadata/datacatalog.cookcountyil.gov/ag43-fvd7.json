@@ -1,0 +1,136 @@
+{
+  "id": "ag43-fvd7",
+  "name": "Procurement - Intent to Execute",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 564,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1464718974,
+  "publicationDate": 1495231470,
+  "rowsUpdatedAt": 1790462709,
+  "viewLastModified": 1790872001,
+  "viewCount": 16532,
+  "downloadCount": 6157,
+  "category": "Finance & Operations",
+  "tags": [
+    "purchase",
+    "contract",
+    "bid",
+    "rfp",
+    "rfi",
+    "award",
+    "ocpo"
+  ],
+  "attribution": "Office of the Chief Procurement Officer",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Bureau of Technology Data Services"
+    },
+    "Metadata": {
+      "Update Frequency": "As Needed"
+    },
+    "Detailed Descriptive": {
+      "Temporal coverage": "Jun 2016-present",
+      "Ordinance Link": "https://library.municode.com/il/cook_county/codes/code_of_ordinances?nodeId=PTIGEOR_CH34FI_ARTIVPRCO_DIV1GEPR_S34-123NOPOACPREX200000.00MO",
+      "Ordinance": "Sec. 34-123",
+      "Data notes": "Detailed MBE/WBE Codes: African American = 6 or AA; Caucasian Female = 7 or CF; Asian (or Asian American/Pacific Islander) = 8 or AAPI; Hispanic = 9 or HA; Native American = 4",
+      "Geographic unit": "Not applicable"
+    },
+    "Publishing Details": {
+      "Data change frequency": "As needed",
+      "Publishing frequency": "As needed"
+    }
+  },
+  "columns": [
+    {
+      "name": "Posting Date",
+      "fieldName": "posting_date",
+      "dataTypeName": "calendar_date",
+      "description": "date that the contract opportunity was made publicly available",
+      "nullCount": 1,
+      "cardinality": 564
+    },
+    {
+      "name": "Contract Number",
+      "fieldName": "contract_number",
+      "dataTypeName": "text",
+      "description": "unique contract identifier issued by the Office of the Chief Procurement Officer",
+      "nullCount": 0,
+      "cardinality": 564
+    },
+    {
+      "name": "Department",
+      "fieldName": "department",
+      "dataTypeName": "text",
+      "description": "Cook County department or agency receiving supplies or services outlined by contract",
+      "nullCount": 16,
+      "cardinality": 564
+    },
+    {
+      "name": "Description",
+      "fieldName": "description",
+      "dataTypeName": "text",
+      "description": "description of goods, supplies, and/or services provided by the contract",
+      "nullCount": 14,
+      "cardinality": 564
+    },
+    {
+      "name": "Contract Amount",
+      "fieldName": "contract_amount",
+      "dataTypeName": "number",
+      "description": "amount agreed to be paid by the County for the contract",
+      "nullCount": 28,
+      "cardinality": 564
+    },
+    {
+      "name": "Recommended Vendor",
+      "fieldName": "recommended_vendor",
+      "dataTypeName": "text",
+      "description": "vendor to be awarded the contract; for competitive bids, this is the vendor with the lowest responsive and responsible bid as selected by the Chief Procurement Officer",
+      "nullCount": 15,
+      "cardinality": 564
+    },
+    {
+      "name": "MBE/WBE/DBE Participation",
+      "fieldName": "mbe_wbe_dbe_participation",
+      "dataTypeName": "text",
+      "description": "indicates whether the vendor is a participating minority business (MBE), women's business (WBE), and/or (economically) disadvantaged business (DBE) enterprise; values may be \"0\" or \"waived\" for vendors that are not participating or for projects without contractual participation of a MBE, WBE, or VBE; in some instances where the recommended vendor is using a MBE/WBE/DBE subcontractor, the subcontractor name may be populated",
+      "nullCount": 193,
+      "cardinality": 564
+    },
+    {
+      "name": "MBE/WBE/DBE type",
+      "fieldName": "mbe_wbe_dbe_type",
+      "dataTypeName": "text",
+      "description": "specifies how the enterprise qualifies as an MBE, WBE, or DBE in greater detail; see Data notes for more information",
+      "nullCount": 109,
+      "cardinality": 564
+    },
+    {
+      "name": "Direct Participation",
+      "fieldName": "direct_participation",
+      "dataTypeName": "number",
+      "description": "percentage of contract amount that is allocated to work performed in direct relation to the scope of the contract",
+      "nullCount": 413,
+      "cardinality": 564
+    },
+    {
+      "name": "Indirect Participation",
+      "fieldName": "indirect_participation",
+      "dataTypeName": "number",
+      "description": "percentage of contract amount that is allocated to work performed that indirectly supports the scope of the contract",
+      "nullCount": 471,
+      "cardinality": 564
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:49.687Z"
+}

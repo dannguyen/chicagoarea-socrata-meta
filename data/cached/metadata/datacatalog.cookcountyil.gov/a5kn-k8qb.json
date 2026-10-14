@@ -1,0 +1,104 @@
+{
+  "id": "a5kn-k8qb",
+  "name": "Risk Management - Payments to Healthcare Providers for Inmate Care, by Payment Year, by Vendor",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 839,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1315489661,
+  "publicationDate": 1412889535,
+  "rowsUpdatedAt": 1412889511,
+  "viewLastModified": 1769544623,
+  "viewCount": 1242,
+  "downloadCount": 3051,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Risk Management",
+  "attributionLink": "http://www.cookcountyrisk.com/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "HOSPITAL ",
+      "fieldName": "hospital",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 90
+    },
+    {
+      "name": "ORIGINAL BILLED AMOUNT",
+      "fieldName": "original_billed_amount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 567
+    },
+    {
+      "name": "IDHFS DISCOUNT",
+      "fieldName": "idhfs_discount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 245
+    },
+    {
+      "name": "UNRELATED",
+      "fieldName": "unrelated",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 139
+    },
+    {
+      "name": "PROVIDER DISCOUNT",
+      "fieldName": "provider_discount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 272
+    },
+    {
+      "name": " AMOUNT PAYABLE ",
+      "fieldName": "amount_payable",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 658
+    },
+    {
+      "name": "BOARD MEETING DATE",
+      "fieldName": "board_meeting_date",
+      "dataTypeName": "date",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 20
+    },
+    {
+      "name": "FISCAL YEAR OF PAYMENT",
+      "fieldName": "fiscal_year_of_payment",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 2
+    },
+    {
+      "name": "FISCAL YEAR OF TREATMENT",
+      "fieldName": "fiscal_year_of_treatment",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 9
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:01.738Z"
+}

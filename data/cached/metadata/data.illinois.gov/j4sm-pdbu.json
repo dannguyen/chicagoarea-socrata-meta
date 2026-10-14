@@ -1,0 +1,122 @@
+{
+  "id": "j4sm-pdbu",
+  "name": "FY22 CFHR Thoroughbred Premiums&Awards.xlsx",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 29,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1718209691,
+  "publicationDate": 1718210949,
+  "rowsUpdatedAt": 1718210944,
+  "viewLastModified": 1736796069,
+  "viewCount": 28,
+  "downloadCount": 78,
+  "category": "Natural and Cultural Resources",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Work Groups": {
+      "Group": "",
+      "Supplemental Group": ""
+    },
+    "Organizations": {
+      "Organization": "Department of Agriculture"
+    },
+    "Data Management": {
+      "Maintainer": "Melanie Dodd",
+      "Maintainer Email": "melanie.dodd@illinois.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "GRANTOR",
+      "fieldName": "grantor",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "GRANTEE",
+      "fieldName": "grantee",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 14
+    },
+    {
+      "name": "POSTAL CODE",
+      "fieldName": "postal_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "AUDIT TEXT",
+      "fieldName": "audit_text",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 29
+    },
+    {
+      "name": "AWARD AMOUNT",
+      "fieldName": "award_amount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 29
+    },
+    {
+      "name": "DATE OF AWARD",
+      "fieldName": "date_of_award",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 13
+    },
+    {
+      "name": "SERVICE DATE FROM",
+      "fieldName": "service_date_from",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 13
+    },
+    {
+      "name": "SERVICE DATE TO",
+      "fieldName": "service_date_to",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "COST CENTER",
+      "fieldName": "cost_center",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "FUNDED PROGRAM",
+      "fieldName": "funded_program",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:40.772Z"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "wsmt-5pai",
+  "name": "Treasurer - 2009 Scavenger Sale Sold PINS",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2749,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1319578856,
+  "publicationDate": 1412895425,
+  "rowsUpdatedAt": 1412895418,
+  "viewLastModified": 1769546866,
+  "viewCount": 1635,
+  "downloadCount": 2855,
+  "category": "Property & Taxation",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Treasurer's Office",
+  "attributionLink": "http://www.cookcountytreasurer.com/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "PIN",
+      "fieldName": "pin",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 564
+    },
+    {
+      "name": "Tax Type",
+      "fieldName": "tax_type",
+      "dataTypeName": "number",
+      "description": "0 = General Tax\n1 = Back Tax\n3 = Air Pollution\n4 = Arrerage Tax\n5 = Circulator\n6 = Special Assessment\n",
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Tax Year",
+      "fieldName": "tax_year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 19
+    },
+    {
+      "name": "Zip Code",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 113
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:58.107Z"
+}

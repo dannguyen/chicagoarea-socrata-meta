@@ -1,0 +1,202 @@
+{
+  "id": "2kfw-zvte",
+  "name": "E-Scooter Trips - 2019 Pilot",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 710839,
+  "rowCountSource": "cached",
+  "rowLabel": "Trip",
+  "hasRowIdentifier": true,
+  "createdAt": 1579300571,
+  "publicationDate": 1580857564,
+  "rowsUpdatedAt": 1583432858,
+  "viewLastModified": 1774455250,
+  "viewCount": 15856,
+  "downloadCount": 5913,
+  "category": "Transportation",
+  "tags": [
+    "scooter",
+    "transportation",
+    "2019",
+    "e-scooter",
+    "link to article present"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2019",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"2kfw-zvte\"",
+      "Data Owner": "Department of Business Affairs & Consumer Protection"
+    }
+  },
+  "columns": [
+    {
+      "name": "Trip ID",
+      "fieldName": "trip_id",
+      "dataTypeName": "text",
+      "description": "A unique ID for each trip.",
+      "nullCount": 0,
+      "cardinality": 710839
+    },
+    {
+      "name": "Start Time",
+      "fieldName": "start_time",
+      "dataTypeName": "calendar_date",
+      "description": "When the trip started, rounded to the nearest hour.",
+      "nullCount": 0,
+      "cardinality": 2399
+    },
+    {
+      "name": "End Time",
+      "fieldName": "end_time",
+      "dataTypeName": "calendar_date",
+      "description": "When the trip ended, rounded to the nearest hour.",
+      "nullCount": 0,
+      "cardinality": 2442
+    },
+    {
+      "name": "Trip Distance",
+      "fieldName": "trip_distance",
+      "dataTypeName": "number",
+      "description": "Trip distance in meters. (Divide by 1609 for miles.)",
+      "nullCount": 0,
+      "cardinality": 15594
+    },
+    {
+      "name": "Trip Duration",
+      "fieldName": "trip_duration",
+      "dataTypeName": "number",
+      "description": "Trip time in seconds.",
+      "nullCount": 0,
+      "cardinality": 9473
+    },
+    {
+      "name": "Accuracy",
+      "fieldName": "accuracy",
+      "dataTypeName": "number",
+      "description": "The approximate level of accuracy, in meters, of the GPS measurements reported by the provider.",
+      "nullCount": 0,
+      "cardinality": 186
+    },
+    {
+      "name": "Start Census Tract",
+      "fieldName": "start_census_tract",
+      "dataTypeName": "number",
+      "description": "The Census Tract where the trip started. For privacy, this Census Tract is not shown for some trips.",
+      "nullCount": 328202,
+      "cardinality": 245
+    },
+    {
+      "name": "End Census Tract",
+      "fieldName": "end_census_tract",
+      "dataTypeName": "number",
+      "description": "The Census Tract where the trip ended. For privacy, this Census Tract is not shown for some trips.",
+      "nullCount": 328364,
+      "cardinality": 253
+    },
+    {
+      "name": "Start Community Area Number",
+      "fieldName": "start_community_area_number",
+      "dataTypeName": "number",
+      "description": "The Community Area number where the trip started.",
+      "nullCount": 97389,
+      "cardinality": 30
+    },
+    {
+      "name": "End Community Area Number",
+      "fieldName": "end_community_area_number",
+      "dataTypeName": "number",
+      "description": "The Community Area number where the trip ended.",
+      "nullCount": 97916,
+      "cardinality": 40
+    },
+    {
+      "name": "Start Community Area Name",
+      "fieldName": "start_community_area_name",
+      "dataTypeName": "text",
+      "description": "The Community Area name where the trip started.",
+      "nullCount": 97389,
+      "cardinality": 30
+    },
+    {
+      "name": "End Community Area Name",
+      "fieldName": "end_community_area_name",
+      "dataTypeName": "text",
+      "description": "The Community Area name where the trip ended.",
+      "nullCount": 97916,
+      "cardinality": 40
+    },
+    {
+      "name": "Start Centroid Latitude",
+      "fieldName": "start_centroid_latitude",
+      "dataTypeName": "number",
+      "description": "The latitude of the center of the trip start census tract or the community area if the census tract has been hidden for privacy. This column will be blank for locations outside Chicago.",
+      "nullCount": 97388,
+      "cardinality": 275
+    },
+    {
+      "name": "Start Centroid Longitude",
+      "fieldName": "start_centroid_longitude",
+      "dataTypeName": "number",
+      "description": "The longitude of the center of the trip start census tract or the community area if the census tract has been hidden for privacy. This column will be blank for locations outside Chicago.",
+      "nullCount": 97388,
+      "cardinality": 275
+    },
+    {
+      "name": "Start Centroid Location",
+      "fieldName": "start_centroid_location",
+      "dataTypeName": "point",
+      "description": "The location of the center of the trip start census tract or the community area if the census tract has been hidden for privacy. This column will be blank for locations outside Chicago.",
+      "nullCount": 97388,
+      "cardinality": 275
+    },
+    {
+      "name": "End Centroid Latitude",
+      "fieldName": "end_centroid_latitude",
+      "dataTypeName": "number",
+      "description": "The latitude of the center of the trip end census tract or the community area if the census tract has been hidden for privacy. This column will be blank for locations outside Chicago.",
+      "nullCount": 97916,
+      "cardinality": 293
+    },
+    {
+      "name": "End Centroid Longitude",
+      "fieldName": "end_centroid_longitude",
+      "dataTypeName": "number",
+      "description": "The longitude of the center of the trip end census tract or the community area if the census tract has been hidden for privacy. This column will be blank for locations outside Chicago.",
+      "nullCount": 97916,
+      "cardinality": 293
+    },
+    {
+      "name": "End Centroid Location",
+      "fieldName": "end_centroid_location",
+      "dataTypeName": "point",
+      "description": "The location of the center of the trip end census tract or the community area if the census tract has been hidden for privacy. This column will be blank for locations outside Chicago.",
+      "nullCount": 97916,
+      "cardinality": 293
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:37:49.062Z"
+}

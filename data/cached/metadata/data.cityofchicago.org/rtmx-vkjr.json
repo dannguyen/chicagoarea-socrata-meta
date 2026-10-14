@@ -1,0 +1,454 @@
+{
+  "id": "rtmx-vkjr",
+  "name": "Open Air Chicago Day Aggregations",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 117606,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": true,
+  "createdAt": 1768592713,
+  "publicationDate": 1769186891,
+  "rowsUpdatedAt": 1791993754,
+  "viewLastModified": 1791993732,
+  "viewCount": 1679,
+  "downloadCount": 1242,
+  "category": "Health & Human Services",
+  "tags": [
+    "health",
+    "public health",
+    "sensors",
+    "air quality",
+    "air quality index",
+    "aqi",
+    "particulate matter",
+    "nitrogen dioxide",
+    "weather"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "September 1, 2025 - Current",
+      "Frequency": "Data are updated daily",
+      "Data Owner": "Department of Public Health and University of Illinois at Chicago School of Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "datasourceid",
+      "fieldName": "datasourceid",
+      "dataTypeName": "text",
+      "description": "Sensor identification number",
+      "nullCount": 0,
+      "cardinality": 117606
+    },
+    {
+      "name": "outputfrequency",
+      "fieldName": "outputfrequency",
+      "dataTypeName": "text",
+      "description": "Time period length",
+      "nullCount": 0,
+      "cardinality": 117606
+    },
+    {
+      "name": "startofperiod",
+      "fieldName": "startofperiod",
+      "dataTypeName": "calendar_date",
+      "description": "Start of time period, in UTC (not Chicago time)",
+      "nullCount": 0,
+      "cardinality": 117606
+    },
+    {
+      "name": "sensor_name",
+      "fieldName": "sensor_name",
+      "dataTypeName": "text",
+      "description": "Community area name and number of sensor in community area",
+      "nullCount": 0,
+      "cardinality": 117606
+    },
+    {
+      "name": "atmPressure24HourMean.raw",
+      "fieldName": "atmpressure24hourmean_raw",
+      "dataTypeName": "number",
+      "description": "Atmospheric pressure, 24-hour mean (atm), raw",
+      "nullCount": 116679,
+      "cardinality": 117606
+    },
+    {
+      "name": "atmPressure24HourMean.value",
+      "fieldName": "atmpressure24hourmean_value",
+      "dataTypeName": "number",
+      "description": "Atmospheric pressure, 24-hour mean (atm), value",
+      "nullCount": 116679,
+      "cardinality": 117606
+    },
+    {
+      "name": "bcAllSources24HourMean.raw",
+      "fieldName": "bcallsources24hourmean_raw",
+      "dataTypeName": "number",
+      "description": "Black carbon All sources mass concentration, 24-hour mean (ng/m³), raw",
+      "nullCount": 117606,
+      "cardinality": 117606
+    },
+    {
+      "name": "bcAllSources24HourMean.value",
+      "fieldName": "bcallsources24hourmean_value",
+      "dataTypeName": "number",
+      "description": "Black carbon All sources mass concentration, 24-hour mean (ng/m³), value",
+      "nullCount": 117606,
+      "cardinality": 117606
+    },
+    {
+      "name": "bcBiomass24HourMean.raw",
+      "fieldName": "bcbiomass24hourmean_raw",
+      "dataTypeName": "number",
+      "description": "Black carbon Biomass mass concentration, 24-hour mean (ng/m³), raw",
+      "nullCount": 117606,
+      "cardinality": 117606
+    },
+    {
+      "name": "bcBiomass24HourMean.value",
+      "fieldName": "bcbiomass24hourmean_value",
+      "dataTypeName": "number",
+      "description": "Black carbon Biomass mass concentration, 24-hour mean (ng/m³), value",
+      "nullCount": 117606,
+      "cardinality": 117606
+    },
+    {
+      "name": "bcFossilFuel24HourMean.raw",
+      "fieldName": "bcfossilfuel24hourmean_raw",
+      "dataTypeName": "number",
+      "description": "Black carbon Fossil fuel mass concentration, 24-hour mean (ng/m³), raw",
+      "nullCount": 117606,
+      "cardinality": 117606
+    },
+    {
+      "name": "bcFossilFuel24HourMean.value",
+      "fieldName": "bcfossilfuel24hourmean_value",
+      "dataTypeName": "number",
+      "description": "Black carbon Fossil fuel mass concentration, 24-hour mean (ng/m³), value",
+      "nullCount": 117606,
+      "cardinality": 117606
+    },
+    {
+      "name": "bcSpectralB24HourMean.raw",
+      "fieldName": "bcspectralb24hourmean_raw",
+      "dataTypeName": "number",
+      "description": "Black carbon Spectral B mass concentration, 24-hour mean (ng/m³), raw",
+      "nullCount": 117606,
+      "cardinality": 117606
+    },
+    {
+      "name": "bcSpectralB24HourMean.value",
+      "fieldName": "bcspectralb24hourmean_value",
+      "dataTypeName": "number",
+      "description": "Black carbon Spectral B mass concentration, 24-hour mean (ng/m³), value",
+      "nullCount": 117606,
+      "cardinality": 117606
+    },
+    {
+      "name": "bcSpectralG24HourMean.raw",
+      "fieldName": "bcspectralg24hourmean_raw",
+      "dataTypeName": "number",
+      "description": "Black carbon Spectral G mass concentration, 24-hour mean (ng/m³), raw",
+      "nullCount": 117606,
+      "cardinality": 117606
+    },
+    {
+      "name": "bcSpectralG24HourMean.value",
+      "fieldName": "bcspectralg24hourmean_value",
+      "dataTypeName": "number",
+      "description": "Black carbon Spectral G mass concentration, 24-hour mean (ng/m³), value",
+      "nullCount": 117606,
+      "cardinality": 117606
+    },
+    {
+      "name": "bcSpectralIR24HourMean.raw",
+      "fieldName": "bcspectralir24hourmean_raw",
+      "dataTypeName": "number",
+      "description": "Black carbon Spectral IR mass concentration, 24-hour mean (ng/m³), raw",
+      "nullCount": 117606,
+      "cardinality": 117606
+    },
+    {
+      "name": "bcSpectralIR24HourMean.value",
+      "fieldName": "bcspectralir24hourmean_value",
+      "dataTypeName": "number",
+      "description": "Black carbon Spectral IR mass concentration, 24-hour mean (ng/m³), value",
+      "nullCount": 117606,
+      "cardinality": 117606
+    },
+    {
+      "name": "bcSpectralR24HourMean.raw",
+      "fieldName": "bcspectralr24hourmean_raw",
+      "dataTypeName": "number",
+      "description": "Black carbon Spectral R mass concentration, 24-hour mean (ng/m³), raw",
+      "nullCount": 117606,
+      "cardinality": 117606
+    },
+    {
+      "name": "bcSpectralR24HourMean.value",
+      "fieldName": "bcspectralr24hourmean_value",
+      "dataTypeName": "number",
+      "description": "Black carbon Spectral R mass concentration, 24-hour mean (ng/m³), value",
+      "nullCount": 117606,
+      "cardinality": 117606
+    },
+    {
+      "name": "bcSpectralUV24HourMean.raw",
+      "fieldName": "bcspectraluv24hourmean_raw",
+      "dataTypeName": "number",
+      "description": "Black carbon Spectral UV mass concentration, 24-hour mean (ng/m³), raw",
+      "nullCount": 117606,
+      "cardinality": 117606
+    },
+    {
+      "name": "bcSpectralUV24HourMean.value",
+      "fieldName": "bcspectraluv24hourmean_value",
+      "dataTypeName": "number",
+      "description": "Black carbon Spectral UV mass concentration, 24-hour mean (ng/m³), value",
+      "nullCount": 117606,
+      "cardinality": 117606
+    },
+    {
+      "name": "no2Conc24HourMean.raw",
+      "fieldName": "no2conc24hourmean_raw",
+      "dataTypeName": "number",
+      "description": "NO2 concentration, 24-hour mean (ppb), raw",
+      "nullCount": 335,
+      "cardinality": 117606
+    },
+    {
+      "name": "no2Conc24HourMean.value",
+      "fieldName": "no2conc24hourmean_value",
+      "dataTypeName": "number",
+      "description": "NO2 concentration, 24-hour mean (ppb), value",
+      "nullCount": 335,
+      "cardinality": 117606
+    },
+    {
+      "name": "pm2_5ConcMass24HourMean.raw",
+      "fieldName": "pm2_5concmass24hourmean_raw",
+      "dataTypeName": "number",
+      "description": "PM2.5 mass concentration, 24-hour mean (μg/m³), raw",
+      "nullCount": 1341,
+      "cardinality": 117606
+    },
+    {
+      "name": "pm2_5ConcMass24HourMean.value",
+      "fieldName": "pm2_5concmass24hourmean_value",
+      "dataTypeName": "number",
+      "description": "PM2.5 mass concentration, 24-hour mean (μg/m³), value",
+      "nullCount": 1341,
+      "cardinality": 117606
+    },
+    {
+      "name": "pm2_5ConcMass24HourMeanUsEpaAqi.raw",
+      "fieldName": "pm2_5concmass24hourmeanu",
+      "dataTypeName": "number",
+      "description": "PM2.5 mass concentration, 24-hour mean, UsEpaAqi, raw",
+      "nullCount": 1341,
+      "cardinality": 117606
+    },
+    {
+      "name": "pm2_5ConcMass24HourMeanUsEpaAqi.value",
+      "fieldName": "pm2_5concmass24hourmeanu_1",
+      "dataTypeName": "number",
+      "description": "PM2.5 mass concentration, 24-hour mean, UsEpaAqi, value",
+      "nullCount": 1341,
+      "cardinality": 117606
+    },
+    {
+      "name": "pm2_5ConcNum24HourMean.raw",
+      "fieldName": "pm2_5concnum24hourmean_raw",
+      "dataTypeName": "number",
+      "description": "PM2.5 number concentration, 24-hour mean (#/cm³), raw",
+      "nullCount": 1340,
+      "cardinality": 117606
+    },
+    {
+      "name": "pm2_5ConcNum24HourMean.value",
+      "fieldName": "pm2_5concnum24hourmean_value",
+      "dataTypeName": "number",
+      "description": "PM2.5 number concentration, 24-hour mean (#/cm³), value",
+      "nullCount": 1340,
+      "cardinality": 117606
+    },
+    {
+      "name": "relHumidAmbient24HourMean.raw",
+      "fieldName": "relhumidambient24hourmean",
+      "dataTypeName": "number",
+      "description": "Relative humidity ambient, 24-hour mean (%), raw",
+      "nullCount": 116679,
+      "cardinality": 117606
+    },
+    {
+      "name": "relHumidAmbient24HourMean.value",
+      "fieldName": "relhumidambient24hourmean_1",
+      "dataTypeName": "number",
+      "description": "Relative humidity ambient, 24-hour mean (%), value",
+      "nullCount": 116679,
+      "cardinality": 117606
+    },
+    {
+      "name": "relHumidInternal24HourMean.raw",
+      "fieldName": "relhumidinternal24hourmean",
+      "dataTypeName": "number",
+      "description": "Relative humidity internal, 24-hour mean (%), raw",
+      "nullCount": 0,
+      "cardinality": 117606
+    },
+    {
+      "name": "relHumidInternal24HourMean.value",
+      "fieldName": "relhumidinternal24hourmean_1",
+      "dataTypeName": "number",
+      "description": "Relative humidity internal, 24-hour mean (%), value",
+      "nullCount": 0,
+      "cardinality": 117606
+    },
+    {
+      "name": "temperatureAmbient24HourMean.raw",
+      "fieldName": "temperatureambient24hourmean",
+      "dataTypeName": "number",
+      "description": "Temperature ambient, 24-hour mean (°C), raw",
+      "nullCount": 116680,
+      "cardinality": 117606
+    },
+    {
+      "name": "temperatureAmbient24HourMean.value",
+      "fieldName": "temperatureambient24hourmean_1",
+      "dataTypeName": "number",
+      "description": "Temperature ambient, 24-hour mean (°C), value",
+      "nullCount": 116680,
+      "cardinality": 117606
+    },
+    {
+      "name": "temperatureInternal24HourMean.raw",
+      "fieldName": "temperatureinternal24hourmean",
+      "dataTypeName": "number",
+      "description": "Temperature internal, 24-hour mean (°C), raw",
+      "nullCount": 0,
+      "cardinality": 117606
+    },
+    {
+      "name": "temperatureInternal24HourMean.value",
+      "fieldName": "temperatureinternal24hourmean_1",
+      "dataTypeName": "number",
+      "description": "Temperature internal, 24-hour mean (°C), value",
+      "nullCount": 0,
+      "cardinality": 117606
+    },
+    {
+      "name": "windDirection24HourMean.raw",
+      "fieldName": "winddirection24hourmean_raw",
+      "dataTypeName": "number",
+      "description": "Wind direction, 24-hour mean (°), raw",
+      "nullCount": 116679,
+      "cardinality": 117606
+    },
+    {
+      "name": "windDirection24HourMean.value",
+      "fieldName": "winddirection24hourmean_value",
+      "dataTypeName": "number",
+      "description": "Wind direction, 24-hour mean (°), value",
+      "nullCount": 116679,
+      "cardinality": 117606
+    },
+    {
+      "name": "windSpeed24HourMean.raw",
+      "fieldName": "windspeed24hourmean_raw",
+      "dataTypeName": "number",
+      "description": "Wind speed, 24-hour mean (m/sec), raw",
+      "nullCount": 116679,
+      "cardinality": 117606
+    },
+    {
+      "name": "windSpeed24HourMean.value",
+      "fieldName": "windspeed24hourmean_value",
+      "dataTypeName": "number",
+      "description": "Wind speed, 24-hour mean (m/sec), value",
+      "nullCount": 116679,
+      "cardinality": 117606
+    },
+    {
+      "name": "latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": "Latitude of the sensor location",
+      "nullCount": 0,
+      "cardinality": 117606
+    },
+    {
+      "name": "longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": "Longitude of the sensor location",
+      "nullCount": 0,
+      "cardinality": 117606
+    },
+    {
+      "name": "location",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": "Location of the sensor in a format that allows for creation of maps and other geographic operations on this data portal",
+      "nullCount": 0,
+      "cardinality": 117606
+    },
+    {
+      "name": "record_id",
+      "fieldName": "record_id",
+      "dataTypeName": "text",
+      "description": "A unique ID for the record.",
+      "nullCount": 0,
+      "cardinality": 117606
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Boundaries - ZIP Codes' (rpca-8um6) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Community Areas' (vrxf-vc4k) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Zip Codes' (6mkv-f3dw) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Census Tracts' (bdys-3d7i) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards 2023-",
+      "fieldName": ":@computed_region_8hcu_yrd4",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Wards 2023-' (8hcu-yrd4) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:15.607Z"
+}

@@ -1,0 +1,92 @@
+{
+  "id": "jmub-3h99",
+  "name": "Medical Examiner - Unclaimed Persons",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 21,
+  "rowCountSource": "cached",
+  "rowLabel": "decedent",
+  "hasRowIdentifier": false,
+  "createdAt": 1466696165,
+  "publicationDate": 1552590600,
+  "rowsUpdatedAt": 1791291315,
+  "viewLastModified": 1791291315,
+  "viewCount": 103975,
+  "downloadCount": 9563,
+  "category": "Health & Human Services",
+  "tags": [
+    "meo",
+    "indigent"
+  ],
+  "attribution": "Cook County Medical Examiner",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Medical Examiner"
+    },
+    "Metadata": {
+      "Update Frequency": "As Needed"
+    },
+    "Publishing Details": {
+      "Data change frequency": "As needed",
+      "Publishing frequency": "As needed"
+    }
+  },
+  "columns": [
+    {
+      "name": "Case Number",
+      "fieldName": "case",
+      "dataTypeName": "text",
+      "description": "unique ID assigned by Cook County Medical Examiner's Office",
+      "nullCount": 0,
+      "cardinality": 21
+    },
+    {
+      "name": "Name",
+      "fieldName": "name",
+      "dataTypeName": "text",
+      "description": "name of decedent",
+      "nullCount": 0,
+      "cardinality": 21
+    },
+    {
+      "name": "Age",
+      "fieldName": "age_sex_race",
+      "dataTypeName": "text",
+      "description": "age of decedent",
+      "nullCount": 0,
+      "cardinality": 21
+    },
+    {
+      "name": "Gender",
+      "fieldName": "gender",
+      "dataTypeName": "text",
+      "description": "gender of decedent, as determined by the Medical Examiner",
+      "nullCount": 0,
+      "cardinality": 21
+    },
+    {
+      "name": "Race",
+      "fieldName": "race",
+      "dataTypeName": "text",
+      "description": "race of decedent, as determined by the Medical Examiner",
+      "nullCount": 0,
+      "cardinality": 21
+    },
+    {
+      "name": "Date of Arrival",
+      "fieldName": "date_of_arrival",
+      "dataTypeName": "calendar_date",
+      "description": "date the decedent arrived at Medical Examiner facility",
+      "nullCount": 0,
+      "cardinality": 21
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:44.866Z"
+}

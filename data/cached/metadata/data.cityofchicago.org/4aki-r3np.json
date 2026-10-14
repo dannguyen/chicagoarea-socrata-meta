@@ -1,0 +1,463 @@
+{
+  "id": "4aki-r3np",
+  "name": "Strategic Subject List - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 398684,
+  "rowCountSource": "cached",
+  "rowLabel": "Person",
+  "hasRowIdentifier": false,
+  "createdAt": 1493302413,
+  "publicationDate": 1493654534,
+  "rowsUpdatedAt": 1493654338,
+  "viewLastModified": 1601071046,
+  "viewCount": 46626,
+  "downloadCount": 9648,
+  "category": "Public Safety",
+  "tags": [
+    "crime",
+    "police",
+    "historical"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.cityofchicago.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "8/1/2012 - 7/31/2016",
+      "Data Owner": "Chicago Police Department"
+    }
+  },
+  "columns": [
+    {
+      "name": "SSL SCORE",
+      "fieldName": "ssl_score",
+      "dataTypeName": "number",
+      "description": "Strategic Subject List Score.",
+      "nullCount": 0,
+      "cardinality": 473
+    },
+    {
+      "name": "PREDICTOR RAT AGE AT LATEST ARREST",
+      "fieldName": "predictor_rat_age_at_latest_arrest",
+      "dataTypeName": "text",
+      "description": "Attribute RAW Score; The raw score calculated by the model; The individual's age at the time of their most recent arrest.",
+      "nullCount": 102,
+      "cardinality": 7
+    },
+    {
+      "name": "PREDICTOR RAT VICTIM SHOOTING INCIDENTS",
+      "fieldName": "predictor_rat_victim_shooting_incidents",
+      "dataTypeName": "number",
+      "description": "Attribute RAW Score; The raw score calculated by the model; The number of times an individual has been the victim of a shooting.",
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "PREDICTOR RAT VICTIM BATTERY OR ASSAULT",
+      "fieldName": "predictor_rat_victim_battery_or_assault",
+      "dataTypeName": "number",
+      "description": "Attribute RAW Score; The raw score calculated by the model; The number of times an individual has been the victim of an aggravated battery or aggravated assault; .",
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "PREDICTOR RAT ARRESTS VIOLENT OFFENSES",
+      "fieldName": "predictor_rat_arrests_violent_offenses",
+      "dataTypeName": "number",
+      "description": "Attribute RAW Score; The raw score calculated by the model; The number of times the individual has been arrested for a violent offense.",
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "PREDICTOR RAT GANG AFFILIATION",
+      "fieldName": "predictor_rat_gang_affiliation",
+      "dataTypeName": "number",
+      "description": "Attribute RAW Score; The raw score calculated by the model; Indicator if an individual has been confirmed to be a member of a criminal street gang. 1=Yes; 0=No",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "PREDICTOR RAT NARCOTIC ARRESTS",
+      "fieldName": "predictor_rat_narcotic_arrests",
+      "dataTypeName": "number",
+      "description": "Attribute RAW Score; The raw score calculated by the model; The number of times the individual has been arrested for a narcotics offense.",
+      "nullCount": 0,
+      "cardinality": 27
+    },
+    {
+      "name": "PREDICTOR RAT TREND IN CRIMINAL ACTIVITY",
+      "fieldName": "predictor_rat_trend_in_criminal_activity",
+      "dataTypeName": "number",
+      "description": "Attribute RAW Score; The raw score calculated by the model; The trend of an individual's recent criminal activity.",
+      "nullCount": 0,
+      "cardinality": 122
+    },
+    {
+      "name": "PREDICTOR RAT UUW ARRESTS",
+      "fieldName": "predictor_rat_uuw_arrests",
+      "dataTypeName": "number",
+      "description": "Attribute RAW Score; The raw score calculated by the model; The number of times the individual has been arrested for Unlawful Use of Weapons.",
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "SEX CODE CD",
+      "fieldName": "sex_code_cd",
+      "dataTypeName": "text",
+      "description": "Subject's Sex as of their latest arrest record.",
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "RACE CODE CD",
+      "fieldName": "race_code_cd",
+      "dataTypeName": "text",
+      "description": "Subject's Race/Ethnicity as of their latest arrest record:\nBLK - Black;\nWHI - White;\nAPI - Asian/Pacific Islander;\nWBH - Black Hispanic;\nWWH - White Hispanic;\nI - American Indian/Alaskan Native;\nU - Unknown",
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "WEAPON I",
+      "fieldName": "weapon_i",
+      "dataTypeName": "text",
+      "description": "Is 'Y' if at least one Weapon (UUW) Arrest in past 10 years.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "DRUG I",
+      "fieldName": "drug_i",
+      "dataTypeName": "text",
+      "description": "Is 'Y' if at least one Drug Arrest in past 10 years.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "AGE GROUP",
+      "fieldName": "age_group",
+      "dataTypeName": "text",
+      "description": "Subject's Age as of their latest arrest record.",
+      "nullCount": 153,
+      "cardinality": 7
+    },
+    {
+      "name": "AGE TO",
+      "fieldName": "age_to",
+      "dataTypeName": "text",
+      "description": "If Age is an estimated range, this is the upper end of that range",
+      "nullCount": 153,
+      "cardinality": 7
+    },
+    {
+      "name": "STOP ORDER NO",
+      "fieldName": "stop_order_no",
+      "dataTypeName": "number",
+      "description": "If an outstanding investigative alert exists for this subject, this is the Investigative Alert (previously known as Stop Order) number.",
+      "nullCount": 397027,
+      "cardinality": 1657
+    },
+    {
+      "name": "PAROLEE I",
+      "fieldName": "parolee_i",
+      "dataTypeName": "text",
+      "description": "Is 'Y' if the subject is matched with a recent Illinois Department of Corrections Record indicating the subject is currently on Parole.",
+      "nullCount": 385600,
+      "cardinality": 1
+    },
+    {
+      "name": "LATEST DATE",
+      "fieldName": "latest_date",
+      "dataTypeName": "number",
+      "description": "Latest date of police contact.",
+      "nullCount": 0,
+      "cardinality": 11
+    },
+    {
+      "name": "LATEST DIST",
+      "fieldName": "latest_dist",
+      "dataTypeName": "number",
+      "description": "Police District in which latest contact occurred.",
+      "nullCount": 0,
+      "cardinality": 23
+    },
+    {
+      "name": "MAJORITY DIST",
+      "fieldName": "majority_dist",
+      "dataTypeName": "number",
+      "description": "Police District in which the largest number of contacts occurred.",
+      "nullCount": 146014,
+      "cardinality": 23
+    },
+    {
+      "name": "DLST",
+      "fieldName": "dlst",
+      "dataTypeName": "text",
+      "description": "State of issue for Latest of entry of Subject's Drivers License Number (if any) found in any arrest record.",
+      "nullCount": 339724,
+      "cardinality": 71
+    },
+    {
+      "name": "LATEST DIST RES",
+      "fieldName": "latest_dist_res",
+      "dataTypeName": "number",
+      "description": "District of Residence as of the subject's latest arrest record.",
+      "nullCount": 0,
+      "cardinality": 23
+    },
+    {
+      "name": "WEAPONS ARR CNT",
+      "fieldName": "weapons_arr_cnt",
+      "dataTypeName": "number",
+      "description": "Count of Weapons (UUW) Arrests in last 10 years.",
+      "nullCount": 379537,
+      "cardinality": 6
+    },
+    {
+      "name": "LATEST WEAPON ARR DATE",
+      "fieldName": "latest_weapon_arr_date",
+      "dataTypeName": "number",
+      "description": "Date of Latest Weapons (UUW) Arrest .",
+      "nullCount": 379537,
+      "cardinality": 11
+    },
+    {
+      "name": "NARCOTICS ARR CNT",
+      "fieldName": "narcotics_arr_cnt",
+      "dataTypeName": "number",
+      "description": "Count of Drug Arrests in last 10 years.",
+      "nullCount": 305877,
+      "cardinality": 21
+    },
+    {
+      "name": "LATEST NARCOTIC ARR DATE",
+      "fieldName": "latest_narcotic_arr_date",
+      "dataTypeName": "number",
+      "description": "Date of Latest Drug Arrest .",
+      "nullCount": 305877,
+      "cardinality": 11
+    },
+    {
+      "name": "IDOC RES CITY",
+      "fieldName": "idoc_res_city",
+      "dataTypeName": "text",
+      "description": "Subject's City of Residence as entered on a matching Illinois Department of Corrections Record.",
+      "nullCount": 339741,
+      "cardinality": 800
+    },
+    {
+      "name": "IDOC RES STATE CODE",
+      "fieldName": "idoc_res_state_code",
+      "dataTypeName": "text",
+      "description": "Subject's State of Residence as entered on a matching Illinois Department of Corrections Record.",
+      "nullCount": 339739,
+      "cardinality": 41
+    },
+    {
+      "name": "IDOC RES ZIP CODE",
+      "fieldName": "idoc_res_zip_code",
+      "dataTypeName": "text",
+      "description": "Subject's Zip Code of Residence as entered on a matching Illinois Department of Corrections Record.",
+      "nullCount": 340417,
+      "cardinality": 1304
+    },
+    {
+      "name": "IDOC CPD DIST",
+      "fieldName": "idoc_cpd_dist",
+      "dataTypeName": "text",
+      "description": "Police District associated with Subject's Address of Residence as entered on a matching Illinois Department of Corrections Record.",
+      "nullCount": 387462,
+      "cardinality": 26
+    },
+    {
+      "name": "CPD ARREST I",
+      "fieldName": "cpd_arrest_i",
+      "dataTypeName": "text",
+      "description": "Is 'Y' if most recent arrest is a Chicago Police arrest and not a surrounding County arrest.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "DOMESTIC ARR CNT",
+      "fieldName": "domestic_arr_cnt",
+      "dataTypeName": "number",
+      "description": "Count of Domestic Violence Arrests in last 10 years.",
+      "nullCount": 330558,
+      "cardinality": 19
+    },
+    {
+      "name": "LATEST DOMESTIC ARR DATE",
+      "fieldName": "latest_domestic_arr_date",
+      "dataTypeName": "number",
+      "description": "Date of Latest Domestic Violence Arrest .",
+      "nullCount": 330558,
+      "cardinality": 11
+    },
+    {
+      "name": "AGE CURR",
+      "fieldName": "age_curr",
+      "dataTypeName": "text",
+      "description": "Subject's Current Age.",
+      "nullCount": 241,
+      "cardinality": 7
+    },
+    {
+      "name": "SSL LAST PTV DATE",
+      "fieldName": "ssl_last_ptv_date",
+      "dataTypeName": "number",
+      "description": "Most recent date that the subject was matched with a victim or arrest record making the subject a 'Party to Violence'",
+      "nullCount": 384490,
+      "cardinality": 29
+    },
+    {
+      "name": "TRAP STATUS",
+      "fieldName": "trap_status",
+      "dataTypeName": "text",
+      "description": "Severity category using the old (Pre-2015) Targeted Repeat Offender Program.(TRAP) criteria.",
+      "nullCount": 395566,
+      "cardinality": 2
+    },
+    {
+      "name": "RAW SSL SCORE",
+      "fieldName": "raw_ssl_score",
+      "dataTypeName": "number",
+      "description": "An intermediate version of the SSL score prior to being normalized that was a byproduct of earlier predictive models.",
+      "nullCount": 0,
+      "cardinality": 6672
+    },
+    {
+      "name": "HEAT SCORE",
+      "fieldName": "heat_score",
+      "dataTypeName": "number",
+      "description": "Same as SSL_SCORE.",
+      "nullCount": 0,
+      "cardinality": 473
+    },
+    {
+      "name": "RAW_HEAT_SCORE",
+      "fieldName": "raw_heat_score",
+      "dataTypeName": "number",
+      "description": "Same as RAW_SSL_SCORE.",
+      "nullCount": 0,
+      "cardinality": 6672
+    },
+    {
+      "name": "STATUS I",
+      "fieldName": "status_i",
+      "dataTypeName": "text",
+      "description": "Is 'Y' if SSL_SCORE is the latest version of the score for this subject.",
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "PRE RAW HEAT SCORE",
+      "fieldName": "pre_raw_heat_score",
+      "dataTypeName": "number",
+      "description": "An integer-scaled version of the RAW_SSL_SCORE.",
+      "nullCount": 0,
+      "cardinality": 6672
+    },
+    {
+      "name": "TRAP FLAGS",
+      "fieldName": "trap_flags",
+      "dataTypeName": "text",
+      "description": "One or more police units flagged as associated with the subject for purposes of the Targeted Repeat Offender program.",
+      "nullCount": 398579,
+      "cardinality": 21
+    },
+    {
+      "name": "SSL FLAGS",
+      "fieldName": "ssl_flags",
+      "dataTypeName": "text",
+      "description": "One or more police units flagged as associated with the subject for purposes of the Strategic Subjects List program.",
+      "nullCount": 398236,
+      "cardinality": 22
+    },
+    {
+      "name": "LATITUDE",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": "Latitude of Centroid of Census Tract of Arrest for the Subject's latest arrest record.",
+      "nullCount": 174449,
+      "cardinality": 801
+    },
+    {
+      "name": "LONGITUDE",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": "Longitude of Centroid of Census Tract of Arrest for the Subject's latest arrest record.",
+      "nullCount": 174449,
+      "cardinality": 801
+    },
+    {
+      "name": "CENSUS TRACT",
+      "fieldName": "census_tract",
+      "dataTypeName": "number",
+      "description": "Census Tract of Arrest for the Subject's latest arrest record.",
+      "nullCount": 170921,
+      "cardinality": 812
+    },
+    {
+      "name": "COMMUNITY AREA",
+      "fieldName": "community_area",
+      "dataTypeName": "text",
+      "description": "Community Area of Arrest for the Subject's latest arrest record.",
+      "nullCount": 0,
+      "cardinality": 78
+    },
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": "Centroid of Census Tract of Arrest for the Subject's latest arrest record.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:06.297Z"
+}

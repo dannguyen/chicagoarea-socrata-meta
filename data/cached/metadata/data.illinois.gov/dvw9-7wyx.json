@@ -1,0 +1,166 @@
+{
+  "id": "dvw9-7wyx",
+  "name": "City of Urbana: Community Development Permits Issued",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 49382,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1731000040,
+  "publicationDate": 1757620891,
+  "rowsUpdatedAt": 1790200099,
+  "viewLastModified": 1790200094,
+  "viewCount": 860,
+  "downloadCount": 234,
+  "category": "Local Government",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "City of Urbana"
+    },
+    "Data Management": {
+      "Maintainer": "Mayank Patel",
+      "Maintainer Email": "mac.patel@urbanail.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "Permit Number",
+      "fieldName": "permit_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 49382
+    },
+    {
+      "name": "Permit Type",
+      "fieldName": "permit_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 49382
+    },
+    {
+      "name": "Issue Date",
+      "fieldName": "issue_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 49382
+    },
+    {
+      "name": "Issue Month",
+      "fieldName": "issue_month",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 49382
+    },
+    {
+      "name": "Issue Year",
+      "fieldName": "issue_year",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 49382
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 32,
+      "cardinality": 49382
+    },
+    {
+      "name": "Parcel Number",
+      "fieldName": "parcel_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 52,
+      "cardinality": 49382
+    },
+    {
+      "name": "Improvement Type",
+      "fieldName": "improvement_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 49382
+    },
+    {
+      "name": "Building Type",
+      "fieldName": "building_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 34781,
+      "cardinality": 49382
+    },
+    {
+      "name": "Estimated Cost",
+      "fieldName": "estimated_cost",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 33514,
+      "cardinality": 49382
+    },
+    {
+      "name": "Fee Amount",
+      "fieldName": "fee_amount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 49382
+    },
+    {
+      "name": "Square Feet",
+      "fieldName": "square_feet",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 44726,
+      "cardinality": 49382
+    },
+    {
+      "name": "Applicant",
+      "fieldName": "applicant",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 49382
+    },
+    {
+      "name": "Permit Status",
+      "fieldName": "permit_status",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 49382
+    },
+    {
+      "name": "Permit Address - Mapped",
+      "fieldName": "permit_address_mapped",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 49382
+    },
+    {
+      "name": "georeference",
+      "fieldName": "georeference",
+      "dataTypeName": "point",
+      "description": null,
+      "nullCount": 63,
+      "cardinality": 49382
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:32.250Z"
+}

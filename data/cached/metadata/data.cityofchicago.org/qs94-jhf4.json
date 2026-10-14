@@ -1,0 +1,179 @@
+{
+  "id": "qs94-jhf4",
+  "name": "Boundaries - Tax Increment Financing Districts (Deprecated October 2022)",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 132,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1666389676,
+  "publicationDate": 1666390060,
+  "rowsUpdatedAt": 1666390054,
+  "viewLastModified": 1740608432,
+  "viewCount": 1226,
+  "downloadCount": 989,
+  "category": "Community & Economic Development",
+  "tags": [
+    "deprecated",
+    "boundaries",
+    "geo_layer",
+    "gis",
+    "shapefiles",
+    "tif"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "January 2021",
+      "Frequency": " Data are updated as needed.",
+      "Data Owner": "Housing & Economic Development"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "OBJECTID",
+      "fieldName": "objectid",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 132
+    },
+    {
+      "name": "NAME",
+      "fieldName": "name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 132
+    },
+    {
+      "name": "REF",
+      "fieldName": "ref",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 132
+    },
+    {
+      "name": "IND",
+      "fieldName": "ind",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "TYPE",
+      "fieldName": "type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "USE",
+      "fieldName": "use",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 34
+    },
+    {
+      "name": "SHOW",
+      "fieldName": "show",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "NAME_TRIM",
+      "fieldName": "name_trim",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 132
+    },
+    {
+      "name": "SBIF",
+      "fieldName": "sbif",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "COMM_AREA",
+      "fieldName": "comm_area",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 113
+    },
+    {
+      "name": "WARDS",
+      "fieldName": "wards",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 109
+    },
+    {
+      "name": "REPEALED_D",
+      "fieldName": "repealed_d",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 132,
+      "cardinality": 0
+    },
+    {
+      "name": "APPROVAL_D",
+      "fieldName": "approval_d",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 83
+    },
+    {
+      "name": "EXPIRATION",
+      "fieldName": "expiration",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 33
+    },
+    {
+      "name": "SHAPE_AREA",
+      "fieldName": "shape_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 132
+    },
+    {
+      "name": "SHAPE_LEN",
+      "fieldName": "shape_len",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 132
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:19.045Z"
+}

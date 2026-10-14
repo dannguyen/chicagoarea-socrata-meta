@@ -1,0 +1,80 @@
+{
+  "id": "qcfn-tiw7",
+  "name": "Performance Metrics - Streets & Sanitation - Graffiti Removal",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 67,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1316701106,
+  "publicationDate": 1342450715,
+  "rowsUpdatedAt": 1342450711,
+  "viewLastModified": 1707240115,
+  "viewCount": 215023,
+  "downloadCount": 3614,
+  "category": "Administration & Finance",
+  "tags": [
+    "performance metrics",
+    "service delivery",
+    "graffiti"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org/performance",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "April 2011 - present",
+      "Frequency": "Data is updated weekly",
+      "Data Owner": "Streets & Sanitation"
+    }
+  },
+  "columns": [
+    {
+      "name": "Week",
+      "fieldName": "week",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 67
+    },
+    {
+      "name": "Average Days to Complete Graffiti Removal",
+      "fieldName": "average_days_to_complete_graffiti_removal",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 62
+    },
+    {
+      "name": "Total Completed Requests",
+      "fieldName": "total_completed_requests",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 67
+    },
+    {
+      "name": "Median Days to Complete Graffiti Removal Request",
+      "fieldName": "median_days_to_complete_graffiti_removal_request",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 5
+    },
+    {
+      "name": "Target Response Time (Days)",
+      "fieldName": "target_response_time_days_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 26,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:26:20.944Z"
+}

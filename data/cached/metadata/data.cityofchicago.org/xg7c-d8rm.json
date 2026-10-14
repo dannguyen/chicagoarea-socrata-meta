@@ -1,0 +1,93 @@
+{
+  "id": "xg7c-d8rm",
+  "name": "Chicago Public Schools - High School Attendance Boundaries SY2526",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 49,
+  "rowCountSource": "cached",
+  "rowLabel": "Attendance Boundary",
+  "hasRowIdentifier": false,
+  "createdAt": 1756853785,
+  "publicationDate": 1756853788,
+  "rowsUpdatedAt": 1757451282,
+  "viewLastModified": 1759181729,
+  "viewCount": 1668,
+  "downloadCount": 1341,
+  "category": "Education",
+  "tags": [
+    "attendance",
+    "boundaries",
+    "cps",
+    "schools",
+    "gis",
+    "geo_layer",
+    "2025",
+    "2026"
+  ],
+  "attribution": "Chicago Public Schools",
+  "attributionLink": "https://www.cps.edu/",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "July 2025 - June 2026",
+      "Frequency": "Annual",
+      "Data Owner": "Chicago Public Schools"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "SCHOOL_ID",
+      "fieldName": "school_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 45
+    },
+    {
+      "name": "SCHOOL_ADD",
+      "fieldName": "school_add",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 45
+    },
+    {
+      "name": "GRADE_CAT",
+      "fieldName": "grade_cat",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "BOUNDARYGR",
+      "fieldName": "boundarygr",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "SCHOOL_NAM",
+      "fieldName": "school_nam",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 45
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:15.800Z"
+}

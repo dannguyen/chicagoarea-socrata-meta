@@ -1,0 +1,102 @@
+{
+  "id": "7bca-ytm9",
+  "name": "IDPH Births to Teen Mothers, State Total, by Age, 1959-2009",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 51,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709064692,
+  "publicationDate": 1709146323,
+  "rowsUpdatedAt": 1709146318,
+  "viewLastModified": 1736793962,
+  "viewCount": 27,
+  "downloadCount": 82,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "births_to_all_ages",
+      "fieldName": "births_to_all_ages",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 51
+    },
+    {
+      "name": "births_to_teens_mothers_rate",
+      "fieldName": "births_to_teens_mothers_rate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 36
+    },
+    {
+      "name": "maternal_ages_10_14",
+      "fieldName": "maternal_ages_10_14",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 48
+    },
+    {
+      "name": "maternal_ages_15_17_",
+      "fieldName": "maternal_ages_15_17_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 21,
+      "cardinality": 30
+    },
+    {
+      "name": "maternal_ages_15_19",
+      "fieldName": "maternal_ages_15_19",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 51
+    },
+    {
+      "name": "maternal_ages_18_19_",
+      "fieldName": "maternal_ages_18_19_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 21,
+      "cardinality": 30
+    },
+    {
+      "name": "teen_births",
+      "fieldName": "teen_births",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 51
+    },
+    {
+      "name": "year",
+      "fieldName": "year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 51
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:42.218Z"
+}

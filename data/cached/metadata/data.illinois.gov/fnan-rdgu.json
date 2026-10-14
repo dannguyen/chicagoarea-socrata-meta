@@ -1,0 +1,54 @@
+{
+  "id": "fnan-rdgu",
+  "name": "DOI Insurance Company Type Descriptions",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 29,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1708036065,
+  "publicationDate": 1708098892,
+  "rowsUpdatedAt": 1708098887,
+  "viewLastModified": 1736793940,
+  "viewCount": 93,
+  "downloadCount": 83,
+  "category": "Business and Workforce",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Insurance"
+    },
+    "Data Management": {
+      "Maintainer": "DOI",
+      "Maintainer Email": "DOI.FOIA@illinois.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "1ST DIGIT",
+      "fieldName": "_1st_digit",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 21,
+      "cardinality": 8
+    },
+    {
+      "name": "2ND DIGIT",
+      "fieldName": "_2nd_digit",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 29
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:35.531Z"
+}

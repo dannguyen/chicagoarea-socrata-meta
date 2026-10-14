@@ -1,0 +1,148 @@
+{
+  "id": "xvsz-3xcj",
+  "name": "Beach E. coli Predictions",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 11385,
+  "rowCountSource": "cached",
+  "rowLabel": "Prediction",
+  "hasRowIdentifier": true,
+  "createdAt": 1489530571,
+  "publicationDate": 1500918799,
+  "rowsUpdatedAt": 1756788907,
+  "viewLastModified": 1531410023,
+  "viewCount": 44506,
+  "downloadCount": 5379,
+  "category": "Parks & Recreation",
+  "tags": [
+    "beaches",
+    "parks",
+    "chicago park district",
+    "open spaces",
+    "parks & recreation",
+    "recreation",
+    "water"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2017 - Current",
+      "Frequency": "Daily (in season)",
+      "Data Owner": "Chicago Park District"
+    }
+  },
+  "columns": [
+    {
+      "name": "Beach Name",
+      "fieldName": "beach_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "Date",
+      "fieldName": "date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 759
+    },
+    {
+      "name": "Prediction Source",
+      "fieldName": "prediction_source",
+      "dataTypeName": "text",
+      "description": "Which model or source created the prediction",
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Predicted Level",
+      "fieldName": "predicted_level",
+      "dataTypeName": "number",
+      "description": "Predicted E. coli level in Colony Forming Units (CFU) per 100 ml of water",
+      "nullCount": 0,
+      "cardinality": 2670
+    },
+    {
+      "name": "RecordID",
+      "fieldName": "recordid",
+      "dataTypeName": "text",
+      "description": "A unique identifier of each record in this dataset.",
+      "nullCount": 0,
+      "cardinality": 11385
+    },
+    {
+      "name": "Latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "Longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:06.415Z"
+}

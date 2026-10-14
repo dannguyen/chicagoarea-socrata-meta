@@ -1,0 +1,96 @@
+{
+  "id": "y2ck-afbz",
+  "name": "RightOfWay",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 24578,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1450128436,
+  "publicationDate": null,
+  "rowsUpdatedAt": 1450128436,
+  "viewLastModified": 1769545862,
+  "viewCount": 478,
+  "downloadCount": 1764,
+  "category": "Property & Taxation",
+  "tags": [
+    "cadastral",
+    "tax map",
+    "property",
+    "lot",
+    "cook",
+    "gis",
+    "clerk",
+    "transportation",
+    "inactive"
+  ],
+  "attribution": "Cook County Clerk / Map Department",
+  "attributionLink": "http://www.cookcountyclerk.com/tsd/maps/Pages/default.aspx",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "ROWREC_DAT",
+      "fieldName": "rowrec_dat",
+      "dataTypeName": "date",
+      "description": null,
+      "nullCount": 20654,
+      "cardinality": 2331
+    },
+    {
+      "name": "ROWTYPE",
+      "fieldName": "rowtype",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "JOB_NO",
+      "fieldName": "job_no",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3223
+    },
+    {
+      "name": "ROWDOC_NO",
+      "fieldName": "rowdoc_no",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5123
+    },
+    {
+      "name": "Shape_area",
+      "fieldName": "shape_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24569
+    },
+    {
+      "name": "Shape_len",
+      "fieldName": "shape_len",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24569
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:09.880Z"
+}

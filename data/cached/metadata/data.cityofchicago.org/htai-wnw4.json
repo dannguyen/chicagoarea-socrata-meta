@@ -1,0 +1,225 @@
+{
+  "id": "htai-wnw4",
+  "name": "Ward Offices",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 50,
+  "rowCountSource": "cached",
+  "rowLabel": "Ward",
+  "hasRowIdentifier": true,
+  "createdAt": 1292979052,
+  "publicationDate": 1692125330,
+  "rowsUpdatedAt": 1791342744,
+  "viewLastModified": 1692125330,
+  "viewCount": 34984,
+  "downloadCount": 12553,
+  "category": "Facilities & Geographic Boundaries",
+  "tags": [
+    "ward",
+    "gis",
+    "facilities",
+    "city council"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://chicityclerkelms.chicago.gov/Legislative-Members",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Current list",
+      "Frequency": "Data are updated daily",
+      "Data Owner": "Office of the City Clerk"
+    }
+  },
+  "columns": [
+    {
+      "name": "WARD",
+      "fieldName": "ward",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "ALDERMAN",
+      "fieldName": "alderman",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "ADDRESS",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "CITY",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "STATE",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "ZIPCODE",
+      "fieldName": "zipcode",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "WARD PHONE",
+      "fieldName": "ward_phone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "WARD FAX",
+      "fieldName": "ward_fax",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 28,
+      "cardinality": 50
+    },
+    {
+      "name": "EMAIL",
+      "fieldName": "email",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "WEBSITE",
+      "fieldName": "website",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "CITY HALL ADDRESS",
+      "fieldName": "city_hall_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 50
+    },
+    {
+      "name": "CITY HALL CITY",
+      "fieldName": "city_hall_city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 50
+    },
+    {
+      "name": "CITY HALL STATE",
+      "fieldName": "city_hall_state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 50
+    },
+    {
+      "name": "CITY HALL ZIPCODE",
+      "fieldName": "city_hall_zipcode",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 50
+    },
+    {
+      "name": "CITY HALL PHONE",
+      "fieldName": "city_hall_phone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 50
+    },
+    {
+      "name": "PHOTO LINK",
+      "fieldName": "photo_link",
+      "dataTypeName": "url",
+      "description": "A link to a photo of the City Council member.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:06.788Z"
+}

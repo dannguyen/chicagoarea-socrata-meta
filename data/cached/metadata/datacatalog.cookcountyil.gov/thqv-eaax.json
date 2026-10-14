@@ -1,0 +1,809 @@
+{
+  "id": "thqv-eaax",
+  "name": "AP_AREA_10",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 49265,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1462992215,
+  "publicationDate": null,
+  "rowsUpdatedAt": 1462992282,
+  "viewLastModified": 1769546844,
+  "viewCount": 342,
+  "downloadCount": 2275,
+  "category": "Boundaries & Districts",
+  "tags": [
+    "address",
+    "pin",
+    "cook county",
+    "gis",
+    "survey township 10",
+    "property and land records",
+    "inactive"
+  ],
+  "attribution": "Cook County GIS Department",
+  "attributionLink": "http://www.cookcountyil.gov/portal/server.pt/community/geographic_information_systems/315",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County GIS Department"
+    },
+    "Metadata": {
+      "Update Frequency": "As Needed"
+    },
+    "Publishing Details": {
+      "Data change frequency": "As needed",
+      "Publishing frequency": "Annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "point",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 49264
+    },
+    {
+      "name": "ADDRNO",
+      "fieldName": "addrno",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6527
+    },
+    {
+      "name": "ADDRNOPREF",
+      "fieldName": "addrnopref",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "ADDRNOSUFF",
+      "fieldName": "addrnosuff",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 48652,
+      "cardinality": 9
+    },
+    {
+      "name": "ADDRNOSEP",
+      "fieldName": "addrnosep",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "ADDRNOCOM",
+      "fieldName": "addrnocom",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 20,
+      "cardinality": 7124
+    },
+    {
+      "name": "STNAMEPRM",
+      "fieldName": "stnameprm",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "STNAMEPRD",
+      "fieldName": "stnameprd",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 35361,
+      "cardinality": 2
+    },
+    {
+      "name": "STNAMEPRT",
+      "fieldName": "stnameprt",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "STNAME",
+      "fieldName": "stname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 8,
+      "cardinality": 396
+    },
+    {
+      "name": "STNAMEPOT",
+      "fieldName": "stnamepot",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 8,
+      "cardinality": 14
+    },
+    {
+      "name": "STNAMEPOD",
+      "fieldName": "stnamepod",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "STNAMEPOM",
+      "fieldName": "stnamepom",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "STNAMECOM",
+      "fieldName": "stnamecom",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 8,
+      "cardinality": 542
+    },
+    {
+      "name": "SUBADDTYPE",
+      "fieldName": "subaddtype",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "SUBADDID",
+      "fieldName": "subaddid",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "SUBADDELEM",
+      "fieldName": "subaddelem",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "SUBADDCOM",
+      "fieldName": "subaddcom",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "LNDMRKNAME",
+      "fieldName": "lndmrkname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "PLACENAME",
+      "fieldName": "placename",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "USPSPN",
+      "fieldName": "uspspn",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "USPSPNGNIS",
+      "fieldName": "uspspngnis",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "USPSST",
+      "fieldName": "uspsst",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "ZIP5",
+      "fieldName": "zip5",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 15,
+      "cardinality": 14
+    },
+    {
+      "name": "ZIP4",
+      "fieldName": "zip4",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "COUNTRY",
+      "fieldName": "country",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "GNISMUNI",
+      "fieldName": "gnismuni",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "GNISTWP",
+      "fieldName": "gnistwp",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "GNISCNTY",
+      "fieldName": "gniscnty",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "GNISSTATE",
+      "fieldName": "gnisstate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "USPSBOXTYP",
+      "fieldName": "uspsboxtyp",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "USPSBOXID",
+      "fieldName": "uspsboxid",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "USPSBOX",
+      "fieldName": "uspsbox",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "USPSGRPTYP",
+      "fieldName": "uspsgrptyp",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "USPSGRPID",
+      "fieldName": "uspsgrpid",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "USPSROUTE",
+      "fieldName": "uspsroute",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "USPSADD",
+      "fieldName": "uspsadd",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "USPSGNDYPT",
+      "fieldName": "uspsgndypt",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "ADDRDELIV",
+      "fieldName": "addrdeliv",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 20,
+      "cardinality": 49241
+    },
+    {
+      "name": "CMPADDABRV",
+      "fieldName": "cmpaddabrv",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 20,
+      "cardinality": 49241
+    },
+    {
+      "name": "ADDRLASTLI",
+      "fieldName": "addrlastli",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 12,
+      "cardinality": 15
+    },
+    {
+      "name": "ADDRESSID",
+      "fieldName": "addressid",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 27,
+      "cardinality": 49234
+    },
+    {
+      "name": "AAUTHORITY",
+      "fieldName": "aauthority",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "RELADDID",
+      "fieldName": "reladdid",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "ADDRELTYPE",
+      "fieldName": "addreltype",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "XPOSITION",
+      "fieldName": "xposition",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 45316
+    },
+    {
+      "name": "YPOSITION",
+      "fieldName": "yposition",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 44685
+    },
+    {
+      "name": "LONGITUDE",
+      "fieldName": "longitude",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 27,
+      "cardinality": 47878
+    },
+    {
+      "name": "LATITUDE",
+      "fieldName": "latitude",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 27,
+      "cardinality": 47150
+    },
+    {
+      "name": "USGRIDCORD",
+      "fieldName": "usgridcord",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 27,
+      "cardinality": 49233
+    },
+    {
+      "name": "ADDRELEV",
+      "fieldName": "addrelev",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "PINSOURCE",
+      "fieldName": "pinsource",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "PIN",
+      "fieldName": "pin",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 27,
+      "cardinality": 45965
+    },
+    {
+      "name": "ADDRNGTYP",
+      "fieldName": "addrngtyp",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "ADDRNGPRTY",
+      "fieldName": "addrngprty",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "ADDRNGSIDE",
+      "fieldName": "addrngside",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "ADDRNGDIRC",
+      "fieldName": "addrngdirc",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "ADDRNGSPAN",
+      "fieldName": "addrngspan",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "ADDRCLASS",
+      "fieldName": "addrclass",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "ADDRFETYPE",
+      "fieldName": "addrfetype",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "OFFSTATUS",
+      "fieldName": "offstatus",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "ANOMALY",
+      "fieldName": "anomaly",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 46908,
+      "cardinality": 8
+    },
+    {
+      "name": "ADDRSOS",
+      "fieldName": "addrsos",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "ADDRZLEV",
+      "fieldName": "addrzlev",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "LOCDESC",
+      "fieldName": "locdesc",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "MAILADDR",
+      "fieldName": "mailaddr",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "OPSTATUS",
+      "fieldName": "opstatus",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "SAUSTATUS",
+      "fieldName": "saustatus",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "COORDACCU",
+      "fieldName": "coordaccu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "ADDRNOPAR",
+      "fieldName": "addrnopar",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "ATTACHELE",
+      "fieldName": "attachele",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "SUBADDORD",
+      "fieldName": "subaddord",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "ELEMSEQNUM",
+      "fieldName": "elemseqnum",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "PNTYPE",
+      "fieldName": "pntype",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "LNDMRKGNIS",
+      "fieldName": "lndmrkgnis",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "DELADDTYPE",
+      "fieldName": "deladdtype",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "ADDSRTDATE",
+      "fieldName": "addsrtdate",
+      "dataTypeName": "date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "ADDENDDATE",
+      "fieldName": "addenddate",
+      "dataTypeName": "date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "DATASETID",
+      "fieldName": "datasetid",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "UNIVRSLDT",
+      "fieldName": "univrsldt",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 27,
+      "cardinality": 2
+    },
+    {
+      "name": "EDITOR",
+      "fieldName": "editor",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49246,
+      "cardinality": 1
+    },
+    {
+      "name": "EDITTIME",
+      "fieldName": "edittime",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49246,
+      "cardinality": 6
+    },
+    {
+      "name": "EDITTYPE",
+      "fieldName": "edittype",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49246,
+      "cardinality": 1
+    },
+    {
+      "name": "PWAEDITOR",
+      "fieldName": "pwaeditor",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 8431,
+      "cardinality": 7
+    },
+    {
+      "name": "PWAEDTDATE",
+      "fieldName": "pwaedtdate",
+      "dataTypeName": "date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 57
+    },
+    {
+      "name": "PWA_COMMEN",
+      "fieldName": "pwa_commen",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49065,
+      "cardinality": 26
+    },
+    {
+      "name": "PWA_STATUS",
+      "fieldName": "pwa_status",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49233,
+      "cardinality": 3
+    },
+    {
+      "name": "geocode_mu",
+      "fieldName": "geocode_mu",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "Document_L",
+      "fieldName": "document_l",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "Document_S",
+      "fieldName": "document_s",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "Comment",
+      "fieldName": "comment",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49265,
+      "cardinality": 0
+    },
+    {
+      "name": "created_us",
+      "fieldName": "created_us",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49253,
+      "cardinality": 1
+    },
+    {
+      "name": "created_da",
+      "fieldName": "created_da",
+      "dataTypeName": "date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "last_edite",
+      "fieldName": "last_edite",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49253,
+      "cardinality": 1
+    },
+    {
+      "name": "last_edi_1",
+      "fieldName": "last_edi_1",
+      "dataTypeName": "date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:11.812Z"
+}

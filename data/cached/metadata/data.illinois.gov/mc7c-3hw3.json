@@ -1,0 +1,144 @@
+{
+  "id": "mc7c-3hw3",
+  "name": "Continuing Education for Private Sewage Disposal Courses",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 10,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1734623505,
+  "publicationDate": 1734625734,
+  "rowsUpdatedAt": 1784840409,
+  "viewLastModified": 1784840408,
+  "viewCount": 3052,
+  "downloadCount": 230,
+  "category": "Health and Human Services",
+  "tags": [
+    "sewage",
+    "private sewage"
+  ],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer Email": "dph.privatesewage@illinois.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "Course Date",
+      "fieldName": "course_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "Time",
+      "fieldName": "time",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "Contact Person",
+      "fieldName": "contact_person",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "Phone Number",
+      "fieldName": "phone_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "Sponsor/Association",
+      "fieldName": "sponsor_association",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "Sponsor E-Mail",
+      "fieldName": "sponsor_e_mail",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "Street Address",
+      "fieldName": "street_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "ZIP Code",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "License type",
+      "fieldName": "license_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "Contact hours",
+      "fieldName": "contact_hours",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "Location1",
+      "fieldName": "location1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 10,
+      "cardinality": 10
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:31.760Z"
+}

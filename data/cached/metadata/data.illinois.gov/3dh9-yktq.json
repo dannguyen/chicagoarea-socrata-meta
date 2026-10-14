@@ -1,0 +1,133 @@
+{
+  "id": "3dh9-yktq",
+  "name": "CDB Registered Vendors",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2847,
+  "rowCountSource": "cached",
+  "rowLabel": "Vendor",
+  "hasRowIdentifier": false,
+  "createdAt": 1737477752,
+  "publicationDate": 1739295091,
+  "rowsUpdatedAt": 1791977447,
+  "viewLastModified": 1791977446,
+  "viewCount": 854,
+  "downloadCount": 204,
+  "category": "Government and Public Employees",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Capital Development Board"
+    },
+    "Data Management": {
+      "Maintainer": "Capital Development Board"
+    }
+  },
+  "columns": [
+    {
+      "name": "Vendor ID",
+      "fieldName": "vendor_id",
+      "dataTypeName": "text",
+      "description": "Sequential number assigned to each Vendor by business location",
+      "nullCount": 0,
+      "cardinality": 2847
+    },
+    {
+      "name": "Vendor Name",
+      "fieldName": "vendor_name",
+      "dataTypeName": "text",
+      "description": "Name of the vendor as registered with the CDB ",
+      "nullCount": 0,
+      "cardinality": 2847
+    },
+    {
+      "name": "Expiration Date",
+      "fieldName": "expiration_date",
+      "dataTypeName": "calendar_date",
+      "description": "Expiration date of the vendor's registration/prequalification",
+      "nullCount": 0,
+      "cardinality": 2847
+    },
+    {
+      "name": "County",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": "County where the vendor's business is located",
+      "nullCount": 4,
+      "cardinality": 2847
+    },
+    {
+      "name": "Street Address",
+      "fieldName": "street_address",
+      "dataTypeName": "text",
+      "description": "Street address of the vendor",
+      "nullCount": 0,
+      "cardinality": 2847
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": "City of the address",
+      "nullCount": 0,
+      "cardinality": 2847
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": "State of the address",
+      "nullCount": 0,
+      "cardinality": 2847
+    },
+    {
+      "name": "Zip Code",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": "Zip code of the address",
+      "nullCount": 23,
+      "cardinality": 2847
+    },
+    {
+      "name": "Phone Number",
+      "fieldName": "phone_number",
+      "dataTypeName": "text",
+      "description": "Phone number of the vendor",
+      "nullCount": 0,
+      "cardinality": 2847
+    },
+    {
+      "name": "Types",
+      "fieldName": "types",
+      "dataTypeName": "text",
+      "description": "Type of work vendor is registered or prequalified to preform for the CDB",
+      "nullCount": 1,
+      "cardinality": 2847
+    },
+    {
+      "name": "Trades",
+      "fieldName": "trades",
+      "dataTypeName": "text",
+      "description": "Trades the vendor has experience to perform",
+      "nullCount": 258,
+      "cardinality": 2847
+    },
+    {
+      "name": "Certifications",
+      "fieldName": "certifications",
+      "dataTypeName": "text",
+      "description": "BEP certifications known to the CDB. Search the CEI database for more information and to validate.",
+      "nullCount": 2495,
+      "cardinality": 2847
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:32.578Z"
+}

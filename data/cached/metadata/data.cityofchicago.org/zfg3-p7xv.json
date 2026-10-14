@@ -1,0 +1,72 @@
+{
+  "id": "zfg3-p7xv",
+  "name": "Performance Metrics - Innovation & Technology - Site Availability",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 674,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1317246818,
+  "publicationDate": 1318010864,
+  "rowsUpdatedAt": 1426503718,
+  "viewLastModified": 1426503718,
+  "viewCount": 4021,
+  "downloadCount": 3665,
+  "category": "Administration & Finance",
+  "tags": [
+    "performance metrics",
+    "technology"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org/performance",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "September 2011 - present",
+      "Frequency": "Data is updated weekly",
+      "Data Owner": "Innovation & Technology"
+    }
+  },
+  "columns": [
+    {
+      "name": "Week",
+      "fieldName": "week",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 114
+    },
+    {
+      "name": "Site Name",
+      "fieldName": "site_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Total Downtime (Minutes)",
+      "fieldName": "total_downtime_minutes_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 73
+    },
+    {
+      "name": "Site Uptime (%)",
+      "fieldName": "site_uptime_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 73
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:06.364Z"
+}

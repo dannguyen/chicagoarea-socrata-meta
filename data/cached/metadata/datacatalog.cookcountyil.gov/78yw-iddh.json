@@ -1,0 +1,407 @@
+{
+  "id": "78yw-iddh",
+  "name": "Cook County Address Points",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1376187,
+  "rowCountSource": "query",
+  "rowLabel": "address point",
+  "hasRowIdentifier": false,
+  "createdAt": 1650653672,
+  "publicationDate": 1686674037,
+  "rowsUpdatedAt": 1712564349,
+  "viewLastModified": 1769548166,
+  "viewCount": 5506,
+  "downloadCount": 5104,
+  "category": "Boundaries & Districts",
+  "tags": [
+    "ccgisdata"
+  ],
+  "attribution": "Cook County GIS",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County GIS"
+    },
+    "Metadata": {
+      "Update Frequency": "As Needed"
+    },
+    "Detailed Descriptive": {
+      "Geographic coverage": "Countywide",
+      "Geographic unit": "Street Address"
+    },
+    "Publishing Details": {
+      "Data change frequency": "As needed",
+      "Publishing frequency": "Weekly"
+    }
+  },
+  "columns": [
+    {
+      "name": "AddNum_Pre",
+      "fieldName": "addnum_pre",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Add_Number",
+      "fieldName": "add_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "AddNum_Suf",
+      "fieldName": "addnum_suf",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "ADDRNOCOM",
+      "fieldName": "addrnocom",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "St_PreMod",
+      "fieldName": "st_premod",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "St_PreDir",
+      "fieldName": "st_predir",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "LSt_PreDir",
+      "fieldName": "lst_predir",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "St_PreTyp",
+      "fieldName": "st_pretyp",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "St_Name",
+      "fieldName": "st_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "LSt_Type",
+      "fieldName": "lst_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "St_PosTyp",
+      "fieldName": "st_postyp",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "St_PosDir",
+      "fieldName": "st_posdir",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "St_PosMod",
+      "fieldName": "st_posmod",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "STNAMECOM",
+      "fieldName": "stnamecom",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "PLACENAME",
+      "fieldName": "placename",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Post_Comm",
+      "fieldName": "post_comm",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Post_Code",
+      "fieldName": "post_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Post_Code4",
+      "fieldName": "post_code4",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "ADDRDELIV",
+      "fieldName": "addrdeliv",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "CMPADDABRV",
+      "fieldName": "cmpaddabrv",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Placement",
+      "fieldName": "placement",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Floor",
+      "fieldName": "floor",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "point",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Lat",
+      "fieldName": "lat",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Long",
+      "fieldName": "long",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "County",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "TWP_NAME",
+      "fieldName": "twp_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Structure",
+      "fieldName": "structure",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Uninc_Comm",
+      "fieldName": "uninc_comm",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Seat",
+      "fieldName": "seat",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Unit",
+      "fieldName": "unit",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "created_date",
+      "fieldName": "created_date",
+      "dataTypeName": "date",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Room",
+      "fieldName": "room",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Inc_Muni",
+      "fieldName": "inc_muni",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "geocode_muni",
+      "fieldName": "geocode_muni",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Building",
+      "fieldName": "building",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "PIN",
+      "fieldName": "pin",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "ESN",
+      "fieldName": "esn",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "last_edited_date",
+      "fieldName": "last_edited_date",
+      "dataTypeName": "date",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "OBJECTID",
+      "fieldName": "objectid",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Subaddress Type",
+      "fieldName": "subaddtype",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Subaddress Id",
+      "fieldName": "subaddid",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "subaddelem",
+      "fieldName": "subaddelem",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "subaddcom",
+      "fieldName": "subaddcom",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:52.471Z"
+}

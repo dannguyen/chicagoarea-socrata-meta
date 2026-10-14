@@ -1,0 +1,113 @@
+{
+  "id": "vc9r-bqvy",
+  "name": "Sex Offenders",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 4000,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1317376804,
+  "publicationDate": 1623435364,
+  "rowsUpdatedAt": 1791972165,
+  "viewLastModified": 1623435364,
+  "viewCount": 124204,
+  "downloadCount": 42287,
+  "category": "Public Safety",
+  "tags": [
+    "crime",
+    "police",
+    "link to article present"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://portal.chicagopolice.org/portal/page/portal/ClearPath",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Current",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "http://dev.cityofchicago.org/open%20data/data%20portal/2021/05/10/sex-offenders-age-column.html",
+      "Frequency": "Data are updated daily.",
+      "Data Owner": "Police"
+    }
+  },
+  "columns": [
+    {
+      "name": "LAST",
+      "fieldName": "last",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4000
+    },
+    {
+      "name": "FIRST",
+      "fieldName": "first",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4000
+    },
+    {
+      "name": "BLOCK",
+      "fieldName": "block",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 17,
+      "cardinality": 4000
+    },
+    {
+      "name": "GENDER",
+      "fieldName": "gender",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4000
+    },
+    {
+      "name": "RACE",
+      "fieldName": "race",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4000
+    },
+    {
+      "name": "BIRTH DATE",
+      "fieldName": "birth_date",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4000
+    },
+    {
+      "name": "HEIGHT",
+      "fieldName": "height",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4000
+    },
+    {
+      "name": "WEIGHT",
+      "fieldName": "weight",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4000
+    },
+    {
+      "name": "VICTIM MINOR",
+      "fieldName": "victim_minor",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4000
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:26:21.913Z"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "67eq-fye9",
+  "name": "IDPH Infant Mortality, State Totals, 1907-2008",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 102,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709064610,
+  "publicationDate": 1709144208,
+  "rowsUpdatedAt": 1709144202,
+  "viewLastModified": 1736793979,
+  "viewCount": 62,
+  "downloadCount": 87,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "number",
+      "fieldName": "number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 100
+    },
+    {
+      "name": "rate",
+      "fieldName": "rate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 88
+    },
+    {
+      "name": "year",
+      "fieldName": "year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 102
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:36.579Z"
+}

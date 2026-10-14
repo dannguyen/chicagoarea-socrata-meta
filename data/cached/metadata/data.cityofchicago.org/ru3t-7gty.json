@@ -1,0 +1,71 @@
+{
+  "id": "ru3t-7gty",
+  "name": "Lobbyist Data - Historical - Lobbyist Termination Report",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 144,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1317369701,
+  "publicationDate": 1346141371,
+  "rowsUpdatedAt": 1346141369,
+  "viewLastModified": 1445633878,
+  "viewCount": 1674,
+  "downloadCount": 3077,
+  "category": "Ethics",
+  "tags": [
+    "lobbyists",
+    "historical"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2011 to present",
+      "Frequency": "Data is updated daily",
+      "Data Owner": "Ethics"
+    }
+  },
+  "columns": [
+    {
+      "name": "FILING YEAR",
+      "fieldName": "filing_year",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "LOBBYIST LAST NAME",
+      "fieldName": "lobbyist_last_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 131
+    },
+    {
+      "name": "LOBBYIST FIRST NAME",
+      "fieldName": "lobbyist_first_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 104
+    },
+    {
+      "name": "LOBBYIST MIDDLE INITIAL",
+      "fieldName": "lobbyist_middle_initial",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 59,
+      "cardinality": 22
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:15.607Z"
+}

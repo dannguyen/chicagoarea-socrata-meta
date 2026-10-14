@@ -1,0 +1,376 @@
+{
+  "id": "r5kz-chrr",
+  "name": "Business Licenses",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1208966,
+  "rowCountSource": "cached",
+  "rowLabel": "Business Licenses",
+  "hasRowIdentifier": false,
+  "createdAt": 1317139414,
+  "publicationDate": 1740104151,
+  "rowsUpdatedAt": 1791973345,
+  "viewLastModified": 1774994751,
+  "viewCount": 402897,
+  "downloadCount": 265028,
+  "category": "Community & Economic Development",
+  "tags": [
+    "business",
+    "licenses"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2002 to present",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"r5kz-chrr\"",
+      "Frequency": "Data is updated daily",
+      "Data Owner": "Business Affairs & Consumer Protection"
+    }
+  },
+  "columns": [
+    {
+      "name": "ID",
+      "fieldName": "id",
+      "dataTypeName": "text",
+      "description": "A calculated ID for each record.",
+      "nullCount": 0,
+      "cardinality": 1208966
+    },
+    {
+      "name": "LICENSE ID",
+      "fieldName": "license_id",
+      "dataTypeName": "number",
+      "description": "An internal database ID for each record.  Each license can have multiple records as it goes through renewals and other transactions.  See the LICENSE NUMBER field for the number generally known to the public and used in most other data sources that refer to the license.",
+      "nullCount": 0,
+      "cardinality": 1208966
+    },
+    {
+      "name": "ACCOUNT NUMBER",
+      "fieldName": "account_number",
+      "dataTypeName": "number",
+      "description": "The account number of the business owner, which will stay consistent across that owner's licenses and can be used to find the owner in the Business Owners dataset.",
+      "nullCount": 0,
+      "cardinality": 1208966
+    },
+    {
+      "name": "SITE NUMBER",
+      "fieldName": "site_number",
+      "dataTypeName": "number",
+      "description": "An internal database ID indicating the location of this licensed business to account for business owners with more than one location.",
+      "nullCount": 0,
+      "cardinality": 1208966
+    },
+    {
+      "name": "LEGAL NAME",
+      "fieldName": "legal_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1208966
+    },
+    {
+      "name": "DOING BUSINESS AS NAME",
+      "fieldName": "doing_business_as_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1208966
+    },
+    {
+      "name": "ADDRESS",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1208966
+    },
+    {
+      "name": "CITY",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1208966
+    },
+    {
+      "name": "STATE",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 12,
+      "cardinality": 1208966
+    },
+    {
+      "name": "ZIP CODE",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 329,
+      "cardinality": 1208966
+    },
+    {
+      "name": "WARD",
+      "fieldName": "ward",
+      "dataTypeName": "number",
+      "description": "The ward where the business is located.",
+      "nullCount": 91672,
+      "cardinality": 1208966
+    },
+    {
+      "name": "PRECINCT",
+      "fieldName": "precinct",
+      "dataTypeName": "number",
+      "description": "The precinct within the ward where the business is located. Note the the same precinct numbers exist in multiple wards.",
+      "nullCount": 93725,
+      "cardinality": 1208966
+    },
+    {
+      "name": "WARD PRECINCT",
+      "fieldName": "ward_precinct",
+      "dataTypeName": "text",
+      "description": "The ward and precinct where the business is located. This column can be used to filter by precinct more easily across multiple wards. ",
+      "nullCount": 91073,
+      "cardinality": 1208966
+    },
+    {
+      "name": "POLICE DISTRICT",
+      "fieldName": "police_district",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 92045,
+      "cardinality": 1208966
+    },
+    {
+      "name": "COMMUNITY AREA",
+      "fieldName": "community_area",
+      "dataTypeName": "number",
+      "description": "Community Area Number",
+      "nullCount": 99424,
+      "cardinality": 1208966
+    },
+    {
+      "name": "COMMUNITY AREA NAME",
+      "fieldName": "community_area_name",
+      "dataTypeName": "text",
+      "description": "Community Area Name",
+      "nullCount": 99490,
+      "cardinality": 1208966
+    },
+    {
+      "name": "NEIGHBORHOOD",
+      "fieldName": "neighborhood",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 100467,
+      "cardinality": 1208966
+    },
+    {
+      "name": "LICENSE CODE",
+      "fieldName": "license_code",
+      "dataTypeName": "number",
+      "description": "A code for the type of license. Each code value corresponds to a specific LICENSE DESCRIPTION value.",
+      "nullCount": 0,
+      "cardinality": 1208966
+    },
+    {
+      "name": "LICENSE DESCRIPTION",
+      "fieldName": "license_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1208966
+    },
+    {
+      "name": "BUSINESS ACTIVITY ID",
+      "fieldName": "business_activity_id",
+      "dataTypeName": "text",
+      "description": "A code for the business activity. Each ID value corresponds to a specific BUSINESS ACTIVITY value.",
+      "nullCount": 548936,
+      "cardinality": 1208966
+    },
+    {
+      "name": "BUSINESS ACTIVITY",
+      "fieldName": "business_activity",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 548936,
+      "cardinality": 1208966
+    },
+    {
+      "name": "LICENSE NUMBER",
+      "fieldName": "license_number",
+      "dataTypeName": "number",
+      "description": "The license number known to the public and generally used in other data sources that refer to the license. This is the field most users will want for most purposes. Each license has a single license number that stays consistent throughout the lifetime of the license. By contrast, the LICENSE ID field is an internal database ID and not generally useful to external users.",
+      "nullCount": 1,
+      "cardinality": 1208966
+    },
+    {
+      "name": "APPLICATION TYPE",
+      "fieldName": "application_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1208966
+    },
+    {
+      "name": "APPLICATION CREATED DATE",
+      "fieldName": "application_created_date",
+      "dataTypeName": "calendar_date",
+      "description": "The date the business license application was created.  RENEW type records do not have an application.",
+      "nullCount": 926838,
+      "cardinality": 1208966
+    },
+    {
+      "name": "APPLICATION REQUIREMENTS COMPLETE",
+      "fieldName": "application_requirements_complete",
+      "dataTypeName": "calendar_date",
+      "description": "For all application types except RENEW, this is the date all required application documents were received.  For RENEW type records, this is the date the record was created.",
+      "nullCount": 18414,
+      "cardinality": 1208966
+    },
+    {
+      "name": "PAYMENT DATE",
+      "fieldName": "payment_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 22666,
+      "cardinality": 1208966
+    },
+    {
+      "name": "CONDITIONAL APPROVAL",
+      "fieldName": "conditional_approval",
+      "dataTypeName": "text",
+      "description": "This pertains to applications that contain liquor licenses. Customers may request a conditional approval prior to building out the space.",
+      "nullCount": 0,
+      "cardinality": 1208966
+    },
+    {
+      "name": "LICENSE TERM START DATE",
+      "fieldName": "license_start_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 2719,
+      "cardinality": 1208966
+    },
+    {
+      "name": "LICENSE TERM EXPIRATION DATE",
+      "fieldName": "expiration_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 168,
+      "cardinality": 1208966
+    },
+    {
+      "name": "LICENSE APPROVED FOR ISSUANCE",
+      "fieldName": "license_approved_for_issuance",
+      "dataTypeName": "calendar_date",
+      "description": "This is the date the license was ready for issuance. Licenses may not be issued if the customer owes debt to the City. ",
+      "nullCount": 56165,
+      "cardinality": 1208966
+    },
+    {
+      "name": "DATE ISSUED",
+      "fieldName": "date_issued",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1208966
+    },
+    {
+      "name": "LICENSE STATUS",
+      "fieldName": "license_status",
+      "dataTypeName": "text",
+      "description": "See the dataset description for the codes used.",
+      "nullCount": 0,
+      "cardinality": 1208966
+    },
+    {
+      "name": "LICENSE STATUS CHANGE DATE",
+      "fieldName": "license_status_change_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 1128532,
+      "cardinality": 1208966
+    },
+    {
+      "name": "SSA",
+      "fieldName": "ssa",
+      "dataTypeName": "text",
+      "description": "Special Service Areas  are local tax districts that fund expanded services and programs, to foster commercial and economic development, through a localized property tax. In other cities these areas are sometimes called Business Improvement Districts (BIDs). This portal contains a map of all Chicago SSAs",
+      "nullCount": 894172,
+      "cardinality": 1208966
+    },
+    {
+      "name": "LATITUDE",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 93281,
+      "cardinality": 1208966
+    },
+    {
+      "name": "LONGITUDE",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 93281,
+      "cardinality": 1208966
+    },
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:26:19.693Z"
+}

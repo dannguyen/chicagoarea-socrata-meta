@@ -1,0 +1,76 @@
+{
+  "id": "un3c-ixb7",
+  "name": "FOIA Request Log - Fire",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 103660,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1316709034,
+  "publicationDate": 1533334143,
+  "rowsUpdatedAt": 1626797982,
+  "viewLastModified": 1626797957,
+  "viewCount": 50237,
+  "downloadCount": 23822,
+  "category": "FOIA",
+  "tags": [],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "May 2010 - present",
+      "Frequency": "Data is updated as needed",
+      "Data Owner": "Fire"
+    }
+  },
+  "columns": [
+    {
+      "name": "REQUESTOR NAME",
+      "fieldName": "requestor_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 20,
+      "cardinality": 23231
+    },
+    {
+      "name": "ORGANIZATION",
+      "fieldName": "organization",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 24,
+      "cardinality": 21306
+    },
+    {
+      "name": "DESCRIPTION OF REQUEST",
+      "fieldName": "description_of_request",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 38,
+      "cardinality": 812
+    },
+    {
+      "name": "DATE RECEIVED",
+      "fieldName": "date_received",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2810
+    },
+    {
+      "name": "DUE DATE",
+      "fieldName": "due_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:06.170Z"
+}

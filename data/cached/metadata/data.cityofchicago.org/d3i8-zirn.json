@@ -1,0 +1,110 @@
+{
+  "id": "d3i8-zirn",
+  "name": "MMRP_AREAS_OCT2013",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 13,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1381336886,
+  "publicationDate": null,
+  "rowsUpdatedAt": 1381336886,
+  "viewLastModified": 1712776003,
+  "viewCount": 478,
+  "downloadCount": 1827,
+  "category": "Community & Economic Development",
+  "tags": [
+    "buildings",
+    "inspections",
+    "boundaries",
+    "gis",
+    "kml",
+    "kmz",
+    "shapefiles",
+    "map_layer"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "October 2013",
+      "Frequency": "As Needed",
+      "Data Owner": "Department of Housing and Economic Development"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "OBJECTID_1",
+      "fieldName": "objectid_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 13
+    },
+    {
+      "name": "OBJECTID",
+      "fieldName": "objectid",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "SHAPE_Leng",
+      "fieldName": "shape_leng",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 13
+    },
+    {
+      "name": "NAME",
+      "fieldName": "name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 13
+    },
+    {
+      "name": "Shape_Le_1",
+      "fieldName": "shape_le_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 13
+    },
+    {
+      "name": "Shape_Area",
+      "fieldName": "shape_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 13
+    },
+    {
+      "name": "TYPE",
+      "fieldName": "type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:24.519Z"
+}

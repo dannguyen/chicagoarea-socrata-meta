@@ -1,0 +1,430 @@
+{
+  "id": "xfya-dxtq",
+  "name": "Open Air Chicago Individual Measurements",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 16817921,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": true,
+  "createdAt": 1769018729,
+  "publicationDate": 1769461154,
+  "rowsUpdatedAt": 1791918094,
+  "viewLastModified": 1792001650,
+  "viewCount": 11877,
+  "downloadCount": 1432,
+  "category": "Health & Human Services",
+  "tags": [
+    "health",
+    "public health",
+    "sensors",
+    "air quality",
+    "air quality index",
+    "aqi",
+    "particulate matter",
+    "nitrogen dioxide",
+    "weather"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "September 1, 2025 -Current",
+      "Frequency": "Data are updated daily",
+      "Data Owner": "Department of Public Health and University of Illinois at Chicago School of Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "datasourceid",
+      "fieldName": "datasourceid",
+      "dataTypeName": "text",
+      "description": "Sensor identification number",
+      "nullCount": 0,
+      "cardinality": 16817921
+    },
+    {
+      "name": "time",
+      "fieldName": "time",
+      "dataTypeName": "calendar_date",
+      "description": "Date and time of sample, in UTC (not Chicago time)",
+      "nullCount": 0,
+      "cardinality": 16817921
+    },
+    {
+      "name": "sensor_name",
+      "fieldName": "sensor_name",
+      "dataTypeName": "text",
+      "description": "Community area name and number of sensor in community area",
+      "nullCount": 0,
+      "cardinality": 16817921
+    },
+    {
+      "name": "atmPressureIndividual.raw",
+      "fieldName": "atmpressureindividual_raw",
+      "dataTypeName": "number",
+      "description": "Atmospheric pressure, Individual sample (atm), raw",
+      "nullCount": 16482654,
+      "cardinality": 16817921
+    },
+    {
+      "name": "atmPressureIndividual.value",
+      "fieldName": "atmpressureindividual_value",
+      "dataTypeName": "number",
+      "description": "Atmospheric pressure, Individual sample (atm), value",
+      "nullCount": 16482654,
+      "cardinality": 16817921
+    },
+    {
+      "name": "bcAllSourcesIndividual.raw",
+      "fieldName": "bcallsourcesindividual_raw",
+      "dataTypeName": "number",
+      "description": "Black carbon All sources mass concentration, Individual sample (ng/m³), raw",
+      "nullCount": 16817921,
+      "cardinality": 16817921
+    },
+    {
+      "name": "bcAllSourcesIndividual.value",
+      "fieldName": "bcallsourcesindividual_value",
+      "dataTypeName": "number",
+      "description": "Black carbon All sources mass concentration, Individual sample (ng/m³), value",
+      "nullCount": 16817921,
+      "cardinality": 16817921
+    },
+    {
+      "name": "bcBiomassIndividual.raw",
+      "fieldName": "bcbiomassindividual_raw",
+      "dataTypeName": "number",
+      "description": "Black carbon Biomass mass concentration, Individual sample (ng/m³), raw",
+      "nullCount": 16817921,
+      "cardinality": 16817921
+    },
+    {
+      "name": "bcBiomassIndividual.value",
+      "fieldName": "bcbiomassindividual_value",
+      "dataTypeName": "number",
+      "description": "Black carbon Biomass mass concentration, Individual sample (ng/m³), value",
+      "nullCount": 16817921,
+      "cardinality": 16817921
+    },
+    {
+      "name": "bcFossilFuelIndividual.raw",
+      "fieldName": "bcfossilfuelindividual_raw",
+      "dataTypeName": "number",
+      "description": "Black carbon Fossil fuel mass concentration, Individual sample (ng/m³), raw",
+      "nullCount": 16817921,
+      "cardinality": 16817921
+    },
+    {
+      "name": "bcFossilFuelIndividual.value",
+      "fieldName": "bcfossilfuelindividual_value",
+      "dataTypeName": "number",
+      "description": "Black carbon Fossil fuel mass concentration, Individual sample (ng/m³), value",
+      "nullCount": 16817921,
+      "cardinality": 16817921
+    },
+    {
+      "name": "bcSpectralBIndividual.raw",
+      "fieldName": "bcspectralbindividual_raw",
+      "dataTypeName": "number",
+      "description": "Black carbon Spectral B mass concentration, Individual sample (ng/m³), raw",
+      "nullCount": 16817921,
+      "cardinality": 16817921
+    },
+    {
+      "name": "bcSpectralBIndividual.value",
+      "fieldName": "bcspectralbindividual_value",
+      "dataTypeName": "number",
+      "description": "Black carbon Spectral B mass concentration, Individual sample (ng/m³), value",
+      "nullCount": 16817921,
+      "cardinality": 16817921
+    },
+    {
+      "name": "bcSpectralGIndividual.raw",
+      "fieldName": "bcspectralgindividual_raw",
+      "dataTypeName": "number",
+      "description": "Black carbon Spectral G mass concentration, Individual sample (ng/m³), raw",
+      "nullCount": 16817921,
+      "cardinality": 16817921
+    },
+    {
+      "name": "bcSpectralGIndividual.value",
+      "fieldName": "bcspectralgindividual_value",
+      "dataTypeName": "number",
+      "description": "Black carbon Spectral G mass concentration, Individual sample (ng/m³), value",
+      "nullCount": 16817921,
+      "cardinality": 16817921
+    },
+    {
+      "name": "bcSpectralIRIndividual.raw",
+      "fieldName": "bcspectralirindividual_raw",
+      "dataTypeName": "number",
+      "description": "Black carbon Spectral IR mass concentration, Individual sample (ng/m³), raw",
+      "nullCount": 16817921,
+      "cardinality": 16817921
+    },
+    {
+      "name": "bcSpectralIRIndividual.value",
+      "fieldName": "bcspectralirindividual_value",
+      "dataTypeName": "number",
+      "description": "Black carbon Spectral IR mass concentration, Individual sample (ng/m³), value",
+      "nullCount": 16817921,
+      "cardinality": 16817921
+    },
+    {
+      "name": "bcSpectralRIndividual.raw",
+      "fieldName": "bcspectralrindividual_raw",
+      "dataTypeName": "number",
+      "description": "Black carbon Spectral R mass concentration, Individual sample (ng/m³), raw",
+      "nullCount": 16817921,
+      "cardinality": 16817921
+    },
+    {
+      "name": "bcSpectralRIndividual.value",
+      "fieldName": "bcspectralrindividual_value",
+      "dataTypeName": "number",
+      "description": "Black carbon Spectral R mass concentration, Individual sample (ng/m³), value",
+      "nullCount": 16817921,
+      "cardinality": 16817921
+    },
+    {
+      "name": "bcSpectralUVIndividual.raw",
+      "fieldName": "bcspectraluvindividual_raw",
+      "dataTypeName": "number",
+      "description": "Black carbon Spectral UV mass concentration, Individual sample (ng/m³), raw",
+      "nullCount": 16817921,
+      "cardinality": 16817921
+    },
+    {
+      "name": "bcSpectralUVIndividual.value",
+      "fieldName": "bcspectraluvindividual_value",
+      "dataTypeName": "number",
+      "description": "Black carbon Spectral UV mass concentration, Individual sample (ng/m³), value",
+      "nullCount": 16817921,
+      "cardinality": 16817921
+    },
+    {
+      "name": "no2ConcIndividual.raw",
+      "fieldName": "no2concindividual_raw",
+      "dataTypeName": "number",
+      "description": "NO2 concentration, Individual sample (ppb), raw",
+      "nullCount": 2649,
+      "cardinality": 16817921
+    },
+    {
+      "name": "no2ConcIndividual.value",
+      "fieldName": "no2concindividual_value",
+      "dataTypeName": "number",
+      "description": "NO2 concentration, Individual sample (ppb), value",
+      "nullCount": 2649,
+      "cardinality": 16817921
+    },
+    {
+      "name": "pm2_5ConcMassIndividual.raw",
+      "fieldName": "pm2_5concmassindividual_raw",
+      "dataTypeName": "number",
+      "description": "PM2.5 mass concentration, Individual sample (μg/m³), raw",
+      "nullCount": 153290,
+      "cardinality": 16817921
+    },
+    {
+      "name": "pm2_5ConcMassIndividual.value",
+      "fieldName": "pm2_5concmassindividual_value",
+      "dataTypeName": "number",
+      "description": "PM2.5 mass concentration, Individual sample (μg/m³), value",
+      "nullCount": 153290,
+      "cardinality": 16817921
+    },
+    {
+      "name": "pm2_5ConcNumIndividual.raw",
+      "fieldName": "pm2_5concnumindividual_raw",
+      "dataTypeName": "number",
+      "description": "PM2.5 number concentration, Individual sample (#/cm³), raw",
+      "nullCount": 153283,
+      "cardinality": 16817921
+    },
+    {
+      "name": "pm2_5ConcNumIndividual.value",
+      "fieldName": "pm2_5concnumindividual_value",
+      "dataTypeName": "number",
+      "description": "PM2.5 number concentration, Individual sample (#/cm³), value",
+      "nullCount": 153283,
+      "cardinality": 16817921
+    },
+    {
+      "name": "relHumidAmbientIndividual.raw",
+      "fieldName": "relhumidambientindividual",
+      "dataTypeName": "number",
+      "description": "Relative humidity ambient, Individual sample (%), raw",
+      "nullCount": 16482654,
+      "cardinality": 16817921
+    },
+    {
+      "name": "relHumidAmbientIndividual.value",
+      "fieldName": "relhumidambientindividual_1",
+      "dataTypeName": "number",
+      "description": "Relative humidity ambient, Individual sample (%), value",
+      "nullCount": 16482654,
+      "cardinality": 16817921
+    },
+    {
+      "name": "relHumidInternalIndividual.raw",
+      "fieldName": "relhumidinternalindividual",
+      "dataTypeName": "number",
+      "description": "Relative humidity internal, Individual sample (%), raw",
+      "nullCount": 7,
+      "cardinality": 16817921
+    },
+    {
+      "name": "relHumidInternalIndividual.value",
+      "fieldName": "relhumidinternalindividual_1",
+      "dataTypeName": "number",
+      "description": "Relative humidity internal, Individual sample (%), value",
+      "nullCount": 7,
+      "cardinality": 16817921
+    },
+    {
+      "name": "temperatureAmbientIndividual.raw",
+      "fieldName": "temperatureambientindividual",
+      "dataTypeName": "number",
+      "description": "Temperature ambient, Individual sample (°C), raw",
+      "nullCount": 16482655,
+      "cardinality": 16817921
+    },
+    {
+      "name": "temperatureAmbientIndividual.value",
+      "fieldName": "temperatureambientindividual_1",
+      "dataTypeName": "number",
+      "description": "Temperature ambient, Individual sample (°C), value",
+      "nullCount": 16482655,
+      "cardinality": 16817921
+    },
+    {
+      "name": "temperatureInternalIndividual.raw",
+      "fieldName": "temperatureinternalindividual",
+      "dataTypeName": "number",
+      "description": "Temperature internal, Individual sample (°C), raw",
+      "nullCount": 7,
+      "cardinality": 16817921
+    },
+    {
+      "name": "temperatureInternalIndividual.value",
+      "fieldName": "temperatureinternalindividual_1",
+      "dataTypeName": "number",
+      "description": "Temperature internal, Individual sample (°C), value",
+      "nullCount": 7,
+      "cardinality": 16817921
+    },
+    {
+      "name": "windDirectionIndividual.raw",
+      "fieldName": "winddirectionindividual_raw",
+      "dataTypeName": "number",
+      "description": "Wind direction, Individual sample (°), raw",
+      "nullCount": 16482654,
+      "cardinality": 16817921
+    },
+    {
+      "name": "windDirectionIndividual.value",
+      "fieldName": "winddirectionindividual_value",
+      "dataTypeName": "number",
+      "description": "Wind direction, Individual sample (°), value",
+      "nullCount": 16482654,
+      "cardinality": 16817921
+    },
+    {
+      "name": "windSpeedIndividual.raw",
+      "fieldName": "windspeedindividual_raw",
+      "dataTypeName": "number",
+      "description": "Wind speed, Individual sample (m/sec), raw",
+      "nullCount": 16482654,
+      "cardinality": 16817921
+    },
+    {
+      "name": "windSpeedIndividual.value",
+      "fieldName": "windspeedindividual_value",
+      "dataTypeName": "number",
+      "description": "Wind speed, Individual sample (m/sec), value",
+      "nullCount": 16482654,
+      "cardinality": 16817921
+    },
+    {
+      "name": "latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": "Latitude of the sensor location",
+      "nullCount": 0,
+      "cardinality": 16817921
+    },
+    {
+      "name": "longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": "Longitude of the sensor location",
+      "nullCount": 0,
+      "cardinality": 16817921
+    },
+    {
+      "name": "location",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": "Location of the sensor in a format that allows for creation of maps and other geographic operations on this data portal",
+      "nullCount": 0,
+      "cardinality": 16817921
+    },
+    {
+      "name": "record_id",
+      "fieldName": "record_id",
+      "dataTypeName": "text",
+      "description": "A unique ID for the record.",
+      "nullCount": 0,
+      "cardinality": 16817921
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Boundaries - ZIP Codes' (rpca-8um6) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Community Areas' (vrxf-vc4k) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Zip Codes' (6mkv-f3dw) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Census Tracts' (bdys-3d7i) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards 2023-",
+      "fieldName": ":@computed_region_8hcu_yrd4",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Wards 2023-' (8hcu-yrd4) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:38:04.969Z"
+}

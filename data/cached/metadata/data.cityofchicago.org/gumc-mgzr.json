@@ -1,0 +1,387 @@
+{
+  "id": "gumc-mgzr",
+  "name": "Violence Reduction - Victims of Homicides and Non-Fatal Shootings",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 64381,
+  "rowCountSource": "cached",
+  "rowLabel": "Victimization",
+  "hasRowIdentifier": true,
+  "createdAt": 1620245060,
+  "publicationDate": 1637175091,
+  "rowsUpdatedAt": 1791981484,
+  "viewLastModified": 1783013648,
+  "viewCount": 138455,
+  "downloadCount": 51830,
+  "category": "Public Safety",
+  "tags": [
+    "crime",
+    "violence",
+    "violence reduction",
+    "homicide",
+    "shooting"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Homicide data from 1991 to the present. Non-fatal shooting data from 2010 to the present. (2010 is the earliest available year for shooting data.) The most recent complete day is excluded.",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"gumc-mgzr\"",
+      "Frequency": "Updated Daily",
+      "Data Owner": "Chicago Police Department"
+    }
+  },
+  "columns": [
+    {
+      "name": "CASE_NUMBER",
+      "fieldName": "case_number",
+      "dataTypeName": "text",
+      "description": "The Chicago Police Department RD Number (Records Division Number), which is a unique ID assigned to each incident. Due to an incident sometimes involving multiple victimizations, this number is repeated in this dataset for some incidents.",
+      "nullCount": 0,
+      "cardinality": 64381
+    },
+    {
+      "name": "DATE",
+      "fieldName": "date",
+      "dataTypeName": "calendar_date",
+      "description": "Date when the victimization occurred. This is sometimes a best estimate.",
+      "nullCount": 0,
+      "cardinality": 64381
+    },
+    {
+      "name": "BLOCK",
+      "fieldName": "block",
+      "dataTypeName": "text",
+      "description": "The partially redacted address where the victimization occurred, placing it on the same block as the actual address.",
+      "nullCount": 0,
+      "cardinality": 64381
+    },
+    {
+      "name": "VICTIMIZATION_PRIMARY",
+      "fieldName": "victimization_primary",
+      "dataTypeName": "text",
+      "description": "Text description of the IUCR Code that describes the major crime category it falls into. VICTIMIZATION_PRIMARY represents only the crime that this specific victim within the incident experienced. In rare instances when we were not able to establish whether a non-fatal shooting victimization was an aggravated battery, robbery, or criminal sexual assault, we set this field equal to “NON-FATAL.”",
+      "nullCount": 0,
+      "cardinality": 64381
+    },
+    {
+      "name": "INCIDENT_PRIMARY",
+      "fieldName": "incident_primary",
+      "dataTypeName": "text",
+      "description": "Text description of the IUCR Code that describes the major crime category it falls into. INCIDENT_PRIMARY represents the incident as a whole by conveying the most serious victimization according to IUCR hierarchy guidelines. In rare instances when we were not able to establish whether a non-fatal shooting victimization was an aggravated battery, robbery, or criminal sexual assault, we set this field equal to “NON-FATAL.”",
+      "nullCount": 0,
+      "cardinality": 64381
+    },
+    {
+      "name": "GUNSHOT_INJURY_I",
+      "fieldName": "gunshot_injury_i",
+      "dataTypeName": "text",
+      "description": "Indicator field describing whether or not a victim was injured by gunfire. Non-fatal shooting data is not available before 2010 so all non-homicide victimizations will be recorded as “UNKNOWN.”",
+      "nullCount": 0,
+      "cardinality": 64381
+    },
+    {
+      "name": "UNIQUE_ID",
+      "fieldName": "unique_id",
+      "dataTypeName": "text",
+      "description": "ID unique to each victimization.",
+      "nullCount": 0,
+      "cardinality": 64381
+    },
+    {
+      "name": "ZIP_CODE",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": "ZIP code where the victimization occurred, using the boundaries in place as of 11/1/2021.",
+      "nullCount": 4,
+      "cardinality": 64381
+    },
+    {
+      "name": "WARD",
+      "fieldName": "ward",
+      "dataTypeName": "number",
+      "description": "The City Council district in which the victimization occurred, using the boundaries in place as of 11/1/2021. Please refer to the city of Chicago’s Data Portal for a map of the 50 wards.",
+      "nullCount": 4,
+      "cardinality": 64381
+    },
+    {
+      "name": "COMMUNITY_AREA",
+      "fieldName": "community_area",
+      "dataTypeName": "text",
+      "description": "The community area where the victimization occurred. Chicago has 77 community areas. See the full list of Chicago’s community areas at https://data.cityofchicago.org/d/cauq-8yn6.",
+      "nullCount": 4,
+      "cardinality": 64381
+    },
+    {
+      "name": "STREET_OUTREACH_ORGANIZATION",
+      "fieldName": "street_outreach_organization",
+      "dataTypeName": "text",
+      "description": "Street outreach organization refers to organizations that actively work in “the streets” to engage individuals who are at immediate or high risk of being either victims or perpetrators of violence. Each organization has specific geographic boundaries where they focus their activities. This indicates which organization(s) is (are) currently active in the location where the victimization occurred, using the boundaries in place as of 11/1/2021, and may contain more than one organization as several outreach organizations’ boundaries overlap.",
+      "nullCount": 0,
+      "cardinality": 64381
+    },
+    {
+      "name": "AREA",
+      "fieldName": "area",
+      "dataTypeName": "number",
+      "description": "The CPD area where the victimization occurred, using the boundaries in place as of 11/1/2021. There are 5 CPD areas. Each area includes 3-4 police districts.",
+      "nullCount": 4,
+      "cardinality": 64381
+    },
+    {
+      "name": "DISTRICT",
+      "fieldName": "district",
+      "dataTypeName": "number",
+      "description": "The current CPD district where the victimization occurred, using the boundaries in place as of 11/1/2021. Please refer to the City of Chicago’s Data Portal for a map of districts.",
+      "nullCount": 4,
+      "cardinality": 64381
+    },
+    {
+      "name": "BEAT",
+      "fieldName": "beat",
+      "dataTypeName": "text",
+      "description": "The CPD beat where the victimization occurred, using the boundaries in place as of 11/1/2021. A beat is the smallest CPD geographic area. Each beat has a dedicated police beat car. Three to five beats make up a police sector, and three sectors make up a police district. The Chicago Police Department has 22 police districts. Please refer to the City of Chicago’s Data Portal for a map of beats.",
+      "nullCount": 4,
+      "cardinality": 64381
+    },
+    {
+      "name": "AGE",
+      "fieldName": "age",
+      "dataTypeName": "text",
+      "description": "Age of the victims grouped by decade. ",
+      "nullCount": 0,
+      "cardinality": 64381
+    },
+    {
+      "name": "SEX",
+      "fieldName": "sex",
+      "dataTypeName": "text",
+      "description": "Sex of the victims. Victimization demographic data shown here are captured by CPD and limited to information included in the police report, which may not often be supported by individual self-identification including for sex/gender. In particular, CPD has historically recorded a victim’s sex rather than gender although has added a field for collecting gender as of January 2021. ",
+      "nullCount": 0,
+      "cardinality": 64381
+    },
+    {
+      "name": "RACE",
+      "fieldName": "race",
+      "dataTypeName": "text",
+      "description": "Crime classification as outlined in the FBI's Uniform Crime Reporting (UCR). See the Chicago Police Department listing of these classifications at http://gis.chicagopolice.org/clearmap_crime_sums/crime_type.",
+      "nullCount": 0,
+      "cardinality": 64381
+    },
+    {
+      "name": "VICTIMIZATION_FBI_CD",
+      "fieldName": "victimization_fbi_cd",
+      "dataTypeName": "text",
+      "description": "Crime classification as outlined in the FBI's Uniform Crime Reporting (UCR). See the Chicago Police Department listing of these classifications at http://gis.chicagopolice.org/clearmap_crime_sums/crime_type.",
+      "nullCount": 346,
+      "cardinality": 64381
+    },
+    {
+      "name": "INCIDENT_FBI_CD",
+      "fieldName": "incident_fbi_cd",
+      "dataTypeName": "text",
+      "description": "Crime classification as outlined in the FBI's Uniform Crime Reporting (UCR), but only pertains to the most serious victimization in the incident. See the Chicago Police Department listing of these classifications at http://gis.chicagopolice.org/clearmap_crime_sums/crime_type.",
+      "nullCount": 5,
+      "cardinality": 64381
+    },
+    {
+      "name": "VICTIMIZATION_FBI_DESCR",
+      "fieldName": "victimization_fbi_descr",
+      "dataTypeName": "text",
+      "description": "FBI Description connects a text description of the category to FBI Code.",
+      "nullCount": 351,
+      "cardinality": 64381
+    },
+    {
+      "name": "INCIDENT_FBI_DESCR",
+      "fieldName": "incident_fbi_descr",
+      "dataTypeName": "text",
+      "description": "FBI Description connects a text description of the category to FBI Code, but only pertains to the most serious victimization in the incident.",
+      "nullCount": 5,
+      "cardinality": 64381
+    },
+    {
+      "name": "VICTIMIZATION_IUCR_CD",
+      "fieldName": "victimization_iucr_cd",
+      "dataTypeName": "text",
+      "description": "Based on the Illinois Uniform Crime Reporting code. This is directly linked to the Primary Type and Description. See the list of IUCR codes at https://data.cityofchicago.org/d/c7ck-438e.",
+      "nullCount": 0,
+      "cardinality": 64381
+    },
+    {
+      "name": "INCIDENT_IUCR_CD",
+      "fieldName": "incident_iucr_cd",
+      "dataTypeName": "text",
+      "description": "The IUCR code that represents the most serious victimization experienced in this incident according to IUCR hierarchy guidelines. When we were not able to establish whether a homicide victimization was in the first or second degree, we set this field to “01XX.” When we were not able to establish whether a non-fatal shooting victimization was an aggravated battery, robbery, or criminal sexual assault, we set this field equal to “UNK.”",
+      "nullCount": 0,
+      "cardinality": 64377
+    },
+    {
+      "name": "VICTIMIZATION_IUCR_SECONDARY",
+      "fieldName": "victimization_iucr_secondary",
+      "dataTypeName": "text",
+      "description": "IUCR Secondary adds more description to the Primary category.",
+      "nullCount": 8454,
+      "cardinality": 64377
+    },
+    {
+      "name": "INCIDENT_IUCR_SECONDARY",
+      "fieldName": "incident_iucr_secondary",
+      "dataTypeName": "text",
+      "description": "Text description of the IUCR code that describes the sub category of the primary category. The column represents the incident as whole by conveying the most serious victimization according to IUCR hierarchy guidelines.",
+      "nullCount": 8121,
+      "cardinality": 64377
+    },
+    {
+      "name": "HOMICIDE_VICTIM_FIRST_NAME",
+      "fieldName": "homicide_victim_first_name",
+      "dataTypeName": "text",
+      "description": "(For homicide victims only) Victim's first name.",
+      "nullCount": 42128,
+      "cardinality": 64381
+    },
+    {
+      "name": "HOMICIDE_VICTIM_MI",
+      "fieldName": "homicide_victim_mi",
+      "dataTypeName": "text",
+      "description": "(For homicide victims only) Victim's middle initial.",
+      "nullCount": 56215,
+      "cardinality": 64381
+    },
+    {
+      "name": "HOMICIDE_VICTIM_LAST_NAME",
+      "fieldName": "homicide_victim_last_name",
+      "dataTypeName": "text",
+      "description": "(For homicide victims only) Victim's last name.",
+      "nullCount": 42144,
+      "cardinality": 64381
+    },
+    {
+      "name": "MONTH",
+      "fieldName": "month",
+      "dataTypeName": "number",
+      "description": "Month when the victimization occurred.",
+      "nullCount": 0,
+      "cardinality": 64381
+    },
+    {
+      "name": "DAY_OF_WEEK",
+      "fieldName": "day_of_week",
+      "dataTypeName": "number",
+      "description": "Day of the week when the victimization occurred. Sunday=1",
+      "nullCount": 0,
+      "cardinality": 64381
+    },
+    {
+      "name": "HOUR",
+      "fieldName": "hour",
+      "dataTypeName": "number",
+      "description": "Hour of the day when the victimization occurred.",
+      "nullCount": 0,
+      "cardinality": 64381
+    },
+    {
+      "name": "LOCATION_DESCRIPTION",
+      "fieldName": "location_description",
+      "dataTypeName": "text",
+      "description": "Describes the location where a crime occurred, such as alley, sidewalk, etc.",
+      "nullCount": 0,
+      "cardinality": 64381
+    },
+    {
+      "name": "STATE_HOUSE_DISTRICT",
+      "fieldName": "state_house_district",
+      "dataTypeName": "text",
+      "description": "Illinois House of Representatives Legislative District where the victimization occurred, using the boundaries in place as of 11/1/2021, represented by members elected to the Illinois House of Representatives.",
+      "nullCount": 6,
+      "cardinality": 64381
+    },
+    {
+      "name": "STATE_SENATE_DISTRICT",
+      "fieldName": "state_senate_district",
+      "dataTypeName": "text",
+      "description": "Illinois State Senate Legislative Districts (SLDs) where the victimization occurred, using the boundaries in place as of 11/1/2021, represented by members elected to the Illinois State Senate.",
+      "nullCount": 6,
+      "cardinality": 64381
+    },
+    {
+      "name": "UPDATED",
+      "fieldName": "updated",
+      "dataTypeName": "calendar_date",
+      "description": "Records the most recent date the source table was updated.",
+      "nullCount": 1,
+      "cardinality": 64381
+    },
+    {
+      "name": "LATITUDE",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": "The latitude of the victimization location. In order to preserve anonymity, the given coordinates are not the actual location of the crime. To produce slightly altered coordinates, a circle roughly the size of an average city block was drawn around the original point location, and a new location was picked randomly from a spot around the circumference of that circle.",
+      "nullCount": 4,
+      "cardinality": 64381
+    },
+    {
+      "name": "LONGITUDE",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": "The longitude of the victimization location. This has been slightly altered to preserve anonymity. (see details under LATITUDE).",
+      "nullCount": 4,
+      "cardinality": 64381
+    },
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": "A slightly altered location of the victimization in a form that allows for mapping and other geographic analysis on this data portal.",
+      "nullCount": 4,
+      "cardinality": 64381
+    },
+    {
+      "name": "Police Beats",
+      "fieldName": ":@computed_region_d3ds_rm58",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Police Districts",
+      "fieldName": ":@computed_region_d9mm_jgwp",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:04.727Z"
+}

@@ -1,0 +1,96 @@
+{
+  "id": "qkzq-fgkt",
+  "name": "Environmental Control - Asbestos Demolition Permits - 2012 Q3",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 472,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1355889115,
+  "publicationDate": 1685652425,
+  "rowsUpdatedAt": 1412891892,
+  "viewLastModified": 1769543355,
+  "viewCount": 1668,
+  "downloadCount": 4743,
+  "category": "Environment",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Bureau of Environmental Control",
+  "attributionLink": "http://www.cookcountygov.com/portal/server.pt/community/environmental_control/291",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Demolition Permit Number",
+      "fieldName": "demolition_permit_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 472
+    },
+    {
+      "name": "Permit Issue Date",
+      "fieldName": "permit_issue_date",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 42
+    },
+    {
+      "name": "Permit Fees",
+      "fieldName": "permit_fees",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 5
+    },
+    {
+      "name": "Abatement Start Date",
+      "fieldName": "abatement_start_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 73
+    },
+    {
+      "name": "Abatement End Date",
+      "fieldName": "abatement_end_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 80
+    },
+    {
+      "name": "Type of Building",
+      "fieldName": "type_of_building",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 67
+    },
+    {
+      "name": "Demolition  Contractor",
+      "fieldName": "demolition_contractor",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 191
+    },
+    {
+      "name": "Location 1",
+      "fieldName": "location_1",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:57.992Z"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "3htt-kyiu",
+  "name": "Illinois Tuberculosis Cases By County, 2010",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 107,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709058300,
+  "publicationDate": 1709144470,
+  "rowsUpdatedAt": 1709144464,
+  "viewLastModified": 1736793995,
+  "viewCount": 78,
+  "downloadCount": 94,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "_2010",
+      "fieldName": "_2010",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 14
+    },
+    {
+      "name": "county",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 107
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:36.053Z"
+}

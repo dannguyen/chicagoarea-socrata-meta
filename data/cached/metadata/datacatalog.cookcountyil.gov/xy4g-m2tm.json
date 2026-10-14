@@ -1,0 +1,104 @@
+{
+  "id": "xy4g-m2tm",
+  "name": "Board of Ethics - Summary of Activity, by Month - Fiscal Year 2011 Incomplete",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 7,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1315413445,
+  "publicationDate": 1412888191,
+  "rowsUpdatedAt": 1412888180,
+  "viewLastModified": 1769543899,
+  "viewCount": 1343,
+  "downloadCount": 2725,
+  "category": "Legal & Judicial",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Board of Ethics",
+  "attributionLink": "http://www.cookcountygov.com/portal/server.pt/community/board_of_ethics/293",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Month",
+      "fieldName": "month",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Training Seminars",
+      "fieldName": "training_seminars",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Employees Trained",
+      "fieldName": "employees_trained",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Inquiries (Pre-Bid Mtgs included)",
+      "fieldName": "inquiries_pre_bid_mtgs_included",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "New Investigations Opened ",
+      "fieldName": "new_investigations_opened",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Advisory Opinions Issued",
+      "fieldName": "advisory_opinions_issued",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Vendor Compliance Audit",
+      "fieldName": "vendor_compliance_audit",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Lobbyist Expense Audit",
+      "fieldName": "lobbyist_expense_audit",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Political Contributions Audit",
+      "fieldName": "political_contributions_audit",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:00.518Z"
+}

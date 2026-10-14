@@ -1,0 +1,157 @@
+{
+  "id": "4w4k-aek3",
+  "name": "Cook County Officials Dual Employment Disclosure Form",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 22,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1646249050,
+  "publicationDate": 1646261042,
+  "rowsUpdatedAt": 1757100993,
+  "viewLastModified": 1769546552,
+  "viewCount": 2752,
+  "downloadCount": 2299,
+  "category": "Finance & Operations",
+  "tags": [
+    "board of ethics",
+    "dual employment"
+  ],
+  "attribution": "Cook County Board of Ethics",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Update Frequency": "Weekly"
+    }
+  },
+  "columns": [
+    {
+      "name": "Name of Elected Official:",
+      "fieldName": "name_of_elected_official",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 22
+    },
+    {
+      "name": "Office/Department/Unit of Cook County Government:",
+      "fieldName": "office_department_unit_of",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "Is this an amendment?",
+      "fieldName": "is_this_an_amendment",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Previous Outside Employment conclude?",
+      "fieldName": "previous_outside_employment_conclude_",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 22,
+      "cardinality": 0
+    },
+    {
+      "name": "New Outside Employment begin?",
+      "fieldName": "new_outside_employment_begin_",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 22,
+      "cardinality": 0
+    },
+    {
+      "name": "Name of outside Employer #1:",
+      "fieldName": "name_of_outside_employer",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "Job title Employer #1",
+      "fieldName": "job_title_employer_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 21
+    },
+    {
+      "name": "Name of outside Employer #2:",
+      "fieldName": "name_of_outside_employer_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 15,
+      "cardinality": 6
+    },
+    {
+      "name": "Job title Employer #2",
+      "fieldName": "job_title_employer_2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 15,
+      "cardinality": 6
+    },
+    {
+      "name": "Name of outside Employer #3",
+      "fieldName": "name_of_outside_employer_3",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 17,
+      "cardinality": 4
+    },
+    {
+      "name": "Job title Employer #3",
+      "fieldName": "job_title_employer_3",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 17,
+      "cardinality": 4
+    },
+    {
+      "name": "Affirmation - independent judgment/abilities",
+      "fieldName": "affirmation_independent_judgment_abilities",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 1
+    },
+    {
+      "name": "Affirmation - not lobbying",
+      "fieldName": "affirmation_not_lobbying",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 1
+    },
+    {
+      "name": "Signature",
+      "fieldName": "signature",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 22
+    },
+    {
+      "name": "Signature date",
+      "fieldName": "signature_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 15
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:55.150Z"
+}

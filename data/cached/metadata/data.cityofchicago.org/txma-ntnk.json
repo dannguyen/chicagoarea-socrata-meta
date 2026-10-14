@@ -1,0 +1,128 @@
+{
+  "id": "txma-ntnk",
+  "name": "Lobbyist Data - Lobbyist Major Expenditures Report (Deprecated October 2015)",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 347,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1317369664,
+  "publicationDate": 1481020231,
+  "rowsUpdatedAt": 1481020230,
+  "viewLastModified": 1481020231,
+  "viewCount": 2517,
+  "downloadCount": 4113,
+  "category": "Ethics",
+  "tags": [
+    "lobbyists",
+    "ethics",
+    "deprecated"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2011 to present",
+      "Frequency": "Data is updated daily",
+      "Data Owner": "Ethics"
+    }
+  },
+  "columns": [
+    {
+      "name": "FILING YEAR",
+      "fieldName": "filing_year",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "LOBBYIST LAST NAME",
+      "fieldName": "lobbyist_last_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 49
+    },
+    {
+      "name": "LOBBYIST FIRST NAME",
+      "fieldName": "lobbyist_first_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 42
+    },
+    {
+      "name": "LOBBYIST MIDDLE INITIAL",
+      "fieldName": "lobbyist_middle_initial",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 221,
+      "cardinality": 14
+    },
+    {
+      "name": "EXPENSE DATE",
+      "fieldName": "expense_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 149
+    },
+    {
+      "name": "RECIPIENT NAME",
+      "fieldName": "recipient_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 75
+    },
+    {
+      "name": "PURPOSE",
+      "fieldName": "purpose",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 72
+    },
+    {
+      "name": "AMOUNT",
+      "fieldName": "amount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 134
+    },
+    {
+      "name": "ACTION",
+      "fieldName": "action",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 70
+    },
+    {
+      "name": "CLIENT",
+      "fieldName": "client",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 93
+    },
+    {
+      "name": "FILING PERIOD",
+      "fieldName": "filing_period",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:10.797Z"
+}

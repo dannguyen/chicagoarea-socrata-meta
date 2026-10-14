@@ -1,0 +1,61 @@
+{
+  "id": "tcj9-8qd8",
+  "name": "Bureau of Sanitation - Unscheduled Absences by Day of Week for Refuse Truck Drivers",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 5,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1317160271,
+  "publicationDate": 1317160332,
+  "rowsUpdatedAt": 1317160281,
+  "viewLastModified": 1374781240,
+  "viewCount": 1337,
+  "downloadCount": 2361,
+  "category": "Sanitation",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "",
+      "Frequency": "",
+      "Data Owner": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "Day of the Week",
+      "fieldName": "day_of_the_week",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Average Unscheduled Absences by Day of Week for Refuse Truck Drivers ",
+      "fieldName": "average_unscheduled_absences_by_day_of_week_for_refuse_truck_drivers_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Unscheduled Absences (Yearly Total)",
+      "fieldName": "unscheduled_absence",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:18.230Z"
+}

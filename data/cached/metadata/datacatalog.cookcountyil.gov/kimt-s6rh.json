@@ -1,0 +1,128 @@
+{
+  "id": "kimt-s6rh",
+  "name": "IEPA Facilities Table",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 74,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1323973064,
+  "publicationDate": 1686672102,
+  "rowsUpdatedAt": 1412891406,
+  "viewLastModified": 1769542712,
+  "viewCount": 1243,
+  "downloadCount": 3053,
+  "category": "Environment",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "IEPA",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Facility",
+      "fieldName": "facility",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 74
+    },
+    {
+      "name": "Municipality",
+      "fieldName": "municipality",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "County",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Tons in 2008",
+      "fieldName": "tons_in_2008",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 46
+    },
+    {
+      "name": "Type of Waste Accepted",
+      "fieldName": "type_of_waste_accepted",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 28
+    },
+    {
+      "name": "Recycling?",
+      "fieldName": "recycling_",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49,
+      "cardinality": 2
+    },
+    {
+      "name": "C&D?",
+      "fieldName": "c_d_",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 56,
+      "cardinality": 4
+    },
+    {
+      "name": "LW?",
+      "fieldName": "lw_",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 35,
+      "cardinality": 2
+    },
+    {
+      "name": "Owner",
+      "fieldName": "owner",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 49
+    },
+    {
+      "name": "Operator",
+      "fieldName": "operator",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 41
+    },
+    {
+      "name": "Truck Tip Fee",
+      "fieldName": "truck_tip_fee",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 10
+    },
+    {
+      "name": "Location 1",
+      "fieldName": "location_1",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:01.659Z"
+}

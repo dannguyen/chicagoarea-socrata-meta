@@ -1,0 +1,102 @@
+{
+  "id": "xzkq-xp2w",
+  "name": "Current Employee Names, Salaries, and Position Titles",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 31744,
+  "rowCountSource": "cached",
+  "rowLabel": "Employee",
+  "hasRowIdentifier": false,
+  "createdAt": 1317154735,
+  "publicationDate": 1517334321,
+  "rowsUpdatedAt": 1791953301,
+  "viewLastModified": 1758831523,
+  "viewCount": 2272643,
+  "downloadCount": 14245232,
+  "category": "Administration & Finance",
+  "tags": [
+    "personnel"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Current",
+      "Frequency": "Data are updated daily",
+      "Data Owner": "Human Resources"
+    }
+  },
+  "columns": [
+    {
+      "name": "Name",
+      "fieldName": "name",
+      "dataTypeName": "text",
+      "description": "Name of employee",
+      "nullCount": 0,
+      "cardinality": 31744
+    },
+    {
+      "name": "Job Titles",
+      "fieldName": "job_titles",
+      "dataTypeName": "text",
+      "description": "Title of employee at the time when the data were updated.",
+      "nullCount": 0,
+      "cardinality": 31744
+    },
+    {
+      "name": "Department",
+      "fieldName": "department",
+      "dataTypeName": "text",
+      "description": "Department where employee worked.",
+      "nullCount": 0,
+      "cardinality": 31744
+    },
+    {
+      "name": "Full or Part-Time",
+      "fieldName": "full_or_part_time",
+      "dataTypeName": "text",
+      "description": "Whether the employee was employed full- (F) or part-time (P).",
+      "nullCount": 0,
+      "cardinality": 31744
+    },
+    {
+      "name": "Salary or Hourly",
+      "fieldName": "salary_or_hourly",
+      "dataTypeName": "text",
+      "description": "Defines whether an employee is paid on an hourly basis or salary basis. Hourly employees are further defined by the number of hours they work in a week. See the \"Frequency Description\" column.",
+      "nullCount": 0,
+      "cardinality": 31744
+    },
+    {
+      "name": "Typical Hours",
+      "fieldName": "typical_hours",
+      "dataTypeName": "number",
+      "description": "Describes the typical amount of work for hourly employees. This data does not apply to salary employees.\n\n40 - Employee paid on an hourly basis; works an 8 hour day; can be either full-time permanent (FT/P) or full-time temporary (FT-T) which is a seasonal employee; 35 - Employee paid on an hourly basis; works a 7 hour day; can be either full-time permanent (FT/P) or full-time temporary (FT-T) which is a seasonal employee; 20 - Employee paid on a part-time, hourly basis; typically works a 4 hour day, 5 days a week; 10 - Employee paid on a part-time, hourly basis; works 10 hours or less in a week.",
+      "nullCount": 24869,
+      "cardinality": 31744
+    },
+    {
+      "name": "Annual Salary",
+      "fieldName": "annual_salary",
+      "dataTypeName": "number",
+      "description": "Annual salary rates. Only applies for employees whose pay frequency is \"Salary\". Hourly employees rates are only shown in \"Hourly Rates\" column.",
+      "nullCount": 6875,
+      "cardinality": 31744
+    },
+    {
+      "name": "Hourly Rate",
+      "fieldName": "hourly_rate",
+      "dataTypeName": "number",
+      "description": "The hourly salary rates for individuals whose pay frequency is \"hourly\". Hourly employees have varying hours worked throughout the week, which is described in the \"Frequency Description\" column.",
+      "nullCount": 24869,
+      "cardinality": 31744
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:26:23.466Z"
+}

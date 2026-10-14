@@ -1,0 +1,48 @@
+{
+  "id": "hfg5-6mz7",
+  "name": "Treasurer - 2009 Annual Tax Sale Registered Buyers",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 113,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1319479300,
+  "publicationDate": 1412895436,
+  "rowsUpdatedAt": 1412895431,
+  "viewLastModified": 1769544276,
+  "viewCount": 1398,
+  "downloadCount": 2945,
+  "category": "Property & Taxation",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Treasurer's Office",
+  "attributionLink": "http://www.cookcountytreasurer.com/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Buyer ID ",
+      "fieldName": "buyer_id_",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 113
+    },
+    {
+      "name": "Buyer  Name",
+      "fieldName": "buyer_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 113
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:59.794Z"
+}

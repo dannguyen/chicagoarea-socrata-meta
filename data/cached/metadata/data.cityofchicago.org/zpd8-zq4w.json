@@ -1,0 +1,76 @@
+{
+  "id": "zpd8-zq4w",
+  "name": "FOIA Request Log - Streets & Sanitation",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 9742,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1317075051,
+  "publicationDate": 1511907992,
+  "rowsUpdatedAt": 1511907958,
+  "viewLastModified": 1511907992,
+  "viewCount": 18614,
+  "downloadCount": 73763,
+  "category": "FOIA",
+  "tags": [],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "May 2010 - present",
+      "Frequency": "Data is updated as needed",
+      "Data Owner": "Streets & Sanitation"
+    }
+  },
+  "columns": [
+    {
+      "name": "REQUESTOR NAME",
+      "fieldName": "requestor_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 1879
+    },
+    {
+      "name": "ORGANIZATION",
+      "fieldName": "organization",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 929,
+      "cardinality": 715
+    },
+    {
+      "name": "DESCRIPTION OF REQUEST",
+      "fieldName": "description_of_request",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 9661
+    },
+    {
+      "name": "DATE RECEIVED",
+      "fieldName": "date_received",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 13,
+      "cardinality": 1660
+    },
+    {
+      "name": "DUE DATE",
+      "fieldName": "due_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 16,
+      "cardinality": 1645
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:37:48.471Z"
+}

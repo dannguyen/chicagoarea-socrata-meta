@@ -1,0 +1,94 @@
+{
+  "id": "cqxi-vg97",
+  "name": "Residential Meth Labs in Illinois: 2001 to 2015",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2768,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1718288781,
+  "publicationDate": 1718288986,
+  "rowsUpdatedAt": 1718288980,
+  "viewLastModified": 1736793965,
+  "viewCount": 96,
+  "downloadCount": 92,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "Toxicology Program",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "ID#",
+      "fieldName": "id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2754
+    },
+    {
+      "name": "INVESTIGATION DATE",
+      "fieldName": "investigation_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1864
+    },
+    {
+      "name": "ADDRESS",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 2622
+    },
+    {
+      "name": "CITY",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 538
+    },
+    {
+      "name": "ZIP",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2009
+    },
+    {
+      "name": "COUNTY",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 100
+    },
+    {
+      "name": "REMEDIATION DATE, IF KNOWN",
+      "fieldName": "remediation_date_if_known",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 2741,
+      "cardinality": 24
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:35.425Z"
+}

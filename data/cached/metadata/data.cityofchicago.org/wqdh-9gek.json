@@ -1,0 +1,136 @@
+{
+  "id": "wqdh-9gek",
+  "name": "Potholes Patched",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 236089,
+  "rowCountSource": "cached",
+  "rowLabel": "Pothole Patched",
+  "hasRowIdentifier": false,
+  "createdAt": 1549920310,
+  "publicationDate": 1549921077,
+  "rowsUpdatedAt": 1791781432,
+  "viewLastModified": 1550081249,
+  "viewCount": 5743,
+  "downloadCount": 32277,
+  "category": "Transportation",
+  "tags": [
+    "pothole",
+    "pavement",
+    "streets"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "July 2018 - Present",
+      "Frequency": "Data are updated daily",
+      "Data Owner": "Department of Transportation"
+    }
+  },
+  "columns": [
+    {
+      "name": "ADDRESS",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 236089
+    },
+    {
+      "name": "REQUEST DATE",
+      "fieldName": "request_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 236089
+    },
+    {
+      "name": "COMPLETION DATE",
+      "fieldName": "completion_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 236089
+    },
+    {
+      "name": "NUMBER OF POTHOLES FILLED ON BLOCK",
+      "fieldName": "number_of_potholes_filled_on_block",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 236089
+    },
+    {
+      "name": "LATITUDE",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 597,
+      "cardinality": 236089
+    },
+    {
+      "name": "LONGITUDE",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 597,
+      "cardinality": 236089
+    },
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": null,
+      "nullCount": 597,
+      "cardinality": 236089
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:03.548Z"
+}

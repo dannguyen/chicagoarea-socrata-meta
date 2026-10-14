@@ -1,0 +1,101 @@
+{
+  "id": "cwk8-zv7t",
+  "name": "Enterprise_Zones",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 6,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1454618039,
+  "publicationDate": null,
+  "rowsUpdatedAt": 1454618044,
+  "viewLastModified": 1712775996,
+  "viewCount": 394,
+  "downloadCount": 1847,
+  "category": "Community & Economic Development",
+  "tags": [
+    "boundaries",
+    "gis",
+    "shapefiles",
+    "kml",
+    "kmz",
+    "map_layer",
+    "deprecated"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "October 2013",
+      "Frequency": "",
+      "Data Owner": "Department of Planning & Development"
+    }
+  },
+  "columns": [
+    {
+      "name": "OBJECTID",
+      "fieldName": "objectid",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "ENTERPRISE",
+      "fieldName": "enterprise",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "DISPLAY_CO",
+      "fieldName": "display_co",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "NAME",
+      "fieldName": "name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "SHAPE_AREA",
+      "fieldName": "shape_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "SHAPE_LEN",
+      "fieldName": "shape_len",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:25.045Z"
+}

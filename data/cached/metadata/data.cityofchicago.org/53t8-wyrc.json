@@ -1,0 +1,223 @@
+{
+  "id": "53t8-wyrc",
+  "name": "Grocery Stores - 2013",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 506,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1377231967,
+  "publicationDate": 1377549555,
+  "rowsUpdatedAt": 1377548956,
+  "viewLastModified": 1591629600,
+  "viewCount": 15689,
+  "downloadCount": 16978,
+  "category": "Community & Economic Development",
+  "tags": [
+    "food",
+    "food desert",
+    "grocery stores"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2013",
+      "Data Owner": "Housing and Economic Development"
+    }
+  },
+  "columns": [
+    {
+      "name": "STORE NAME",
+      "fieldName": "store_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 480
+    },
+    {
+      "name": "LICENSE ID",
+      "fieldName": "license_id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 504
+    },
+    {
+      "name": "ACCOUNT NUMBER",
+      "fieldName": "account_number",
+      "dataTypeName": "number",
+      "description": "Account Number is the same as the \"Account Number\" field in the business license dataset (http://bit.ly/sMFZdN)",
+      "nullCount": 1,
+      "cardinality": 383
+    },
+    {
+      "name": "SQUARE FEET",
+      "fieldName": "square_feet",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 15,
+      "cardinality": 204
+    },
+    {
+      "name": "BUFFER SIZE",
+      "fieldName": "buffer_size",
+      "dataTypeName": "text",
+      "description": "A binary variable representing the size-of-store. A: 1-mile buffer. B: 0.5 mile buffer",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "ADDRESS",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 502
+    },
+    {
+      "name": "ZIP CODE",
+      "fieldName": "zip_code",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 53
+    },
+    {
+      "name": "COMMUNITY AREA NAME",
+      "fieldName": "community_area_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 75
+    },
+    {
+      "name": "COMMUNITY AREA",
+      "fieldName": "community_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 75
+    },
+    {
+      "name": "WARD",
+      "fieldName": "ward",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "CENSUS TRACT",
+      "fieldName": "census_tract",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 352
+    },
+    {
+      "name": "CENSUS BLOCK",
+      "fieldName": "census_block",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 486
+    },
+    {
+      "name": "X COORDINATE",
+      "fieldName": "x_coordinate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 503
+    },
+    {
+      "name": "Y COORDINATE",
+      "fieldName": "y_coordinate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 503
+    },
+    {
+      "name": "LATITUDE",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 503
+    },
+    {
+      "name": "LONGITUDE",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 503
+    },
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:37:49.069Z"
+}

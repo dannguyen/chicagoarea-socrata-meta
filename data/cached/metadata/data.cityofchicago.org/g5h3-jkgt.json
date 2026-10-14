@@ -1,0 +1,87 @@
+{
+  "id": "g5h3-jkgt",
+  "name": "Employee Reimbursements",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 6082,
+  "rowCountSource": "cached",
+  "rowLabel": "Reimbursement",
+  "hasRowIdentifier": false,
+  "createdAt": 1319774225,
+  "publicationDate": 1450472479,
+  "rowsUpdatedAt": 1791997215,
+  "viewLastModified": 1454365934,
+  "viewCount": 21036,
+  "downloadCount": 28868,
+  "category": "Administration & Finance",
+  "tags": [
+    "personnel",
+    "reimbursements"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "January 2011 to present",
+      "Frequency": "Data is updated daily, Monday through Friday",
+      "Data Owner": "Finance"
+    }
+  },
+  "columns": [
+    {
+      "name": "VOUCHER NUMBER",
+      "fieldName": "voucher_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6082
+    },
+    {
+      "name": "AMOUNT",
+      "fieldName": "amount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6082
+    },
+    {
+      "name": "PAYMENT DATE",
+      "fieldName": "payment_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6082
+    },
+    {
+      "name": "VENDOR NAME",
+      "fieldName": "vendor_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6082
+    },
+    {
+      "name": "DESCRIPTION",
+      "fieldName": "description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6082
+    },
+    {
+      "name": "DEPARTMENT",
+      "fieldName": "department",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6082
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:35:21.580Z"
+}

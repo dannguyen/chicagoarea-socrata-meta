@@ -1,0 +1,178 @@
+{
+  "id": "dawh-m56b",
+  "name": "Employee Payroll Data (FMPS Payroll Costing)",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 4858943,
+  "rowCountSource": "cached",
+  "rowLabel": "Employee Pay Element in a Payroll Period",
+  "hasRowIdentifier": true,
+  "createdAt": 1713185998,
+  "publicationDate": 1752160515,
+  "rowsUpdatedAt": 1779120603,
+  "viewLastModified": 1779120111,
+  "viewCount": 10113,
+  "downloadCount": 11687,
+  "category": "Administration & Finance",
+  "tags": [
+    "payroll",
+    "personnel",
+    "overtime",
+    "supplemental earnings"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2023 - Current",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"dawh-m56b\"",
+      "Frequency": "Updated multiple times per year, as data is available. Typically 4 times per year (every 6 Pay Periods).  See \"tutorial\" link to learn how to set up notifications for when this dataset is updated. ",
+      "Data Owner": "Budget & Management"
+    }
+  },
+  "columns": [
+    {
+      "name": "AMOUNT",
+      "fieldName": "amount",
+      "dataTypeName": "number",
+      "description": "Amounts include Debits and Credits, and may include negative dollar amounts.",
+      "nullCount": 0,
+      "cardinality": 4858943
+    },
+    {
+      "name": "FUND TYPE",
+      "fieldName": "fund_type",
+      "dataTypeName": "text",
+      "description": "Fund Type is associated with the Fund Code, as designated in the Budget Ordinance (specifically Summary E) and aligning with the City's financial management systems. ",
+      "nullCount": 0,
+      "cardinality": 4858943
+    },
+    {
+      "name": "FUND",
+      "fieldName": "fund",
+      "dataTypeName": "text",
+      "description": "Code and description associated with the Fund as designated in the Budget Ordinance and aligning with the City's financial management systems. ",
+      "nullCount": 0,
+      "cardinality": 4858943
+    },
+    {
+      "name": "DEPARTMENT FUNCTION",
+      "fieldName": "department_function",
+      "dataTypeName": "text",
+      "description": "Department Function is defined by Department (Code) and aligns with the Budget Ordinance (specifically Summary E). ",
+      "nullCount": 0,
+      "cardinality": 4858943
+    },
+    {
+      "name": "DEPARTMENT",
+      "fieldName": "department",
+      "dataTypeName": "text",
+      "description": "Code and description associated with the City department as designated in the Budget Ordinance and aligning with the City's financial management systems. ",
+      "nullCount": 0,
+      "cardinality": 4858943
+    },
+    {
+      "name": "APPROPRIATION",
+      "fieldName": "appropriation",
+      "dataTypeName": "text",
+      "description": "Code and description associated with the Appropriation as designated in the Budget Ordinance and aligning with the City's financial management systems. ",
+      "nullCount": 0,
+      "cardinality": 4858943
+    },
+    {
+      "name": "TITLE",
+      "fieldName": "title",
+      "dataTypeName": "text",
+      "description": "Code and description associated with employee's job title as designated in the Budget Ordinance and aligning with the City's financial management system.",
+      "nullCount": 0,
+      "cardinality": 4858943
+    },
+    {
+      "name": "EMPLOYEE DATASET ID",
+      "fieldName": "employee_dataset_id",
+      "dataTypeName": "text",
+      "description": "This Employee Dataset identifier has been created exclusively for this dataset.  This Employee ID does not match any official city system (such as FMPS, CHIPPS).  ",
+      "nullCount": 0,
+      "cardinality": 4858943
+    },
+    {
+      "name": "EMPLOYEE",
+      "fieldName": "employee",
+      "dataTypeName": "text",
+      "description": "This field combines Employee Dataset ID (CODE) and Employee (Name) to enhance usability of this dataset. ",
+      "nullCount": 0,
+      "cardinality": 4858943
+    },
+    {
+      "name": "PAY ELEMENT",
+      "fieldName": "pay_element",
+      "dataTypeName": "text",
+      "description": "Pay Element is a function of the CIty's FMPS Payroll Costing module and a part of the financial process.  This object is not defined in the City's Budget Ordinance.",
+      "nullCount": 0,
+      "cardinality": 4858943
+    },
+    {
+      "name": "PAYROLL YEAR",
+      "fieldName": "payroll_year",
+      "dataTypeName": "number",
+      "description": "This is the year associated with the Payroll Period.  This is in alignment with the Payroll Costing module of FMPS.",
+      "nullCount": 0,
+      "cardinality": 4858943
+    },
+    {
+      "name": "PAYROLL PERIOD",
+      "fieldName": "payroll_period",
+      "dataTypeName": "number",
+      "description": "Payroll Period as a Number (1-24) for improved dataset usability. ",
+      "nullCount": 0,
+      "cardinality": 4858943
+    },
+    {
+      "name": "DEPARTMENT CODE",
+      "fieldName": "department_code",
+      "dataTypeName": "text",
+      "description": "Code associated with the City department as designated in the Budget Ordinance and aligning with the City's financial management systems. ",
+      "nullCount": 0,
+      "cardinality": 4858943
+    },
+    {
+      "name": "FUND CODE",
+      "fieldName": "fund_code",
+      "dataTypeName": "text",
+      "description": "Code associated with the Fund as designated in the Budget Ordinance and aligning with the City's financial management systems. ",
+      "nullCount": 0,
+      "cardinality": 4858943
+    },
+    {
+      "name": "APPROPRIATION CODE",
+      "fieldName": "appropriation_code",
+      "dataTypeName": "text",
+      "description": "Code associated with the Appropriation as designated in the Budget Ordinance and aligning with the City's financial management systems. ",
+      "nullCount": 0,
+      "cardinality": 4858943
+    },
+    {
+      "name": "TITLE CODE",
+      "fieldName": "title_code",
+      "dataTypeName": "text",
+      "description": "Code associated with the job title as designated in the Budget Ordinance and aligning with the City's financial management systems. ",
+      "nullCount": 0,
+      "cardinality": 4858943
+    },
+    {
+      "name": "RECORD ID",
+      "fieldName": "record_id",
+      "dataTypeName": "text",
+      "description": "\t A unique identifier for the record. This column is primarily used for purposes of maintaining this dataset. It will be unique at any given time but users should not rely on any other aspects remaining stable.",
+      "nullCount": 0,
+      "cardinality": 4858943
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:38:05.651Z"
+}

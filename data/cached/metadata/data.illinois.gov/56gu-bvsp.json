@@ -1,0 +1,86 @@
+{
+  "id": "56gu-bvsp",
+  "name": "IDPH: STDs Nationally Ranked By County, By Case Count Chlamydia 2006-2016",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 689,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1708036787,
+  "publicationDate": 1708095142,
+  "rowsUpdatedAt": 1708095136,
+  "viewLastModified": 1736793986,
+  "viewCount": 37,
+  "downloadCount": 87,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "Rank By Count",
+      "fieldName": "rank_by_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": "County/Independent City",
+      "fieldName": "county_independent_city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": "Count",
+      "fieldName": "count",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": "Rate",
+      "fieldName": "rate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": "Cumulative Percentage",
+      "fieldName": "cumulative_percentage",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:39.529Z"
+}

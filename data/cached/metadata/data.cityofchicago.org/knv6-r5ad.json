@@ -1,0 +1,95 @@
+{
+  "id": "knv6-r5ad",
+  "name": "Public Building Commission - Event Permits",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 551,
+  "rowCountSource": "cached",
+  "rowLabel": "Permit Application",
+  "hasRowIdentifier": false,
+  "createdAt": 1326509783,
+  "publicationDate": 1492634876,
+  "rowsUpdatedAt": 1492634807,
+  "viewLastModified": 1753222489,
+  "viewCount": 3629,
+  "downloadCount": 3411,
+  "category": "Events",
+  "tags": [
+    "permits",
+    "events"
+  ],
+  "attribution": "Public Building Commission",
+  "attributionLink": "http://www.thedaleycenter.com/events.asp",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "January 2012 to present ",
+      "Frequency": "Data is updated as needed",
+      "Data Owner": "Public Building Commission"
+    }
+  },
+  "columns": [
+    {
+      "name": "Date Received",
+      "fieldName": "date_received",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 380
+    },
+    {
+      "name": "Requestor",
+      "fieldName": "requestor",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 397
+    },
+    {
+      "name": "Event Location",
+      "fieldName": "event_location",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Event Start Date",
+      "fieldName": "event_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 467
+    },
+    {
+      "name": "Event End Date",
+      "fieldName": "event_end_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 472
+    },
+    {
+      "name": "Permit Status",
+      "fieldName": "permit_status",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 513,
+      "cardinality": 2
+    },
+    {
+      "name": "Approved or Denied",
+      "fieldName": "approved_or_denied",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 35,
+      "cardinality": 6
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:07.050Z"
+}

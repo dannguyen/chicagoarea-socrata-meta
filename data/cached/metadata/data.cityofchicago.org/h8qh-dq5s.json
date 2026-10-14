@@ -1,0 +1,136 @@
+{
+  "id": "h8qh-dq5s",
+  "name": "Elementary_Attendance_1213",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 403,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1471966186,
+  "publicationDate": null,
+  "rowsUpdatedAt": 1471966201,
+  "viewLastModified": 1712775989,
+  "viewCount": 300,
+  "downloadCount": 1523,
+  "category": "Education",
+  "tags": [
+    "attendance",
+    "boundaries",
+    "cps",
+    "schools",
+    "map_layer",
+    "gis",
+    "2012",
+    "2013",
+    "kml",
+    "kmz",
+    "shapefiles"
+  ],
+  "attribution": "Chicago Public Schools",
+  "attributionLink": "http://cps.edu",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "July 2012 - July 2013",
+      "Frequency": "Annually",
+      "Data Owner": "Chicago Public Schools"
+    }
+  },
+  "columns": [
+    {
+      "name": "SCHOOL_NM",
+      "fieldName": "school_nm",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 394
+    },
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "UNIT_ID",
+      "fieldName": "unit_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 394
+    },
+    {
+      "name": "SCHOOL_ID",
+      "fieldName": "school_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 394
+    },
+    {
+      "name": "SCHOOL_ADD",
+      "fieldName": "school_add",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 394
+    },
+    {
+      "name": "GRADE_CAT",
+      "fieldName": "grade_cat",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "BOUNDARYGR",
+      "fieldName": "boundarygr",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11
+    },
+    {
+      "name": "SCH_TYPE",
+      "fieldName": "sch_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "BRD_RPT",
+      "fieldName": "brd_rpt",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 57,
+      "cardinality": 236
+    },
+    {
+      "name": "Shape_Leng",
+      "fieldName": "shape_leng",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 402
+    },
+    {
+      "name": "Shape_Area",
+      "fieldName": "shape_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 402
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:26.619Z"
+}

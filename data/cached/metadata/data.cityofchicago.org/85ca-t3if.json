@@ -1,0 +1,442 @@
+{
+  "id": "85ca-t3if",
+  "name": "Traffic Crashes - Crashes",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1103625,
+  "rowCountSource": "query",
+  "rowLabel": "Traffic Crash",
+  "hasRowIdentifier": true,
+  "createdAt": 1508450576,
+  "publicationDate": 1779309086,
+  "rowsUpdatedAt": 1791992270,
+  "viewLastModified": 1779317693,
+  "viewCount": 885476,
+  "downloadCount": 90362,
+  "category": "Transportation",
+  "tags": [
+    "transportation",
+    "public safety",
+    "vision zero",
+    "traffic crashes"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2015 to present (All police districts September 2017 - present)",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"85ca-t3if\"",
+      "Frequency": "Daily",
+      "Data Owner": "Chicago Police Department"
+    }
+  },
+  "columns": [
+    {
+      "name": "CRASH_RECORD_ID",
+      "fieldName": "crash_record_id",
+      "dataTypeName": "text",
+      "description": "This number can be used to link to the same crash in the Vehicles and People datasets. This number also serves as a unique ID in this dataset.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "CRASH_DATE_EST_I",
+      "fieldName": "crash_date_est_i",
+      "dataTypeName": "text",
+      "description": "Crash date estimated by desk officer or reporting party (only used in cases where crash is reported at police station days after the crash)",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "CRASH_DATE",
+      "fieldName": "crash_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date and time of crash as entered by the reporting officer",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "POSTED_SPEED_LIMIT",
+      "fieldName": "posted_speed_limit",
+      "dataTypeName": "number",
+      "description": "Posted speed limit, as determined by reporting officer",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "TRAFFIC_CONTROL_DEVICE",
+      "fieldName": "traffic_control_device",
+      "dataTypeName": "text",
+      "description": "Traffic control device present at crash location, as determined by reporting officer",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "DEVICE_CONDITION",
+      "fieldName": "device_condition",
+      "dataTypeName": "text",
+      "description": "Condition of traffic control device, as determined by reporting officer",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "WEATHER_CONDITION",
+      "fieldName": "weather_condition",
+      "dataTypeName": "text",
+      "description": "Weather condition at time of crash, as determined by reporting officer",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "LIGHTING_CONDITION",
+      "fieldName": "lighting_condition",
+      "dataTypeName": "text",
+      "description": "Light condition at time of crash, as determined by reporting officer",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "FIRST_CRASH_TYPE",
+      "fieldName": "first_crash_type",
+      "dataTypeName": "text",
+      "description": "Type of first collision in crash",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "TRAFFICWAY_TYPE",
+      "fieldName": "trafficway_type",
+      "dataTypeName": "text",
+      "description": "Trafficway type, as determined by reporting officer",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "LANE_CNT",
+      "fieldName": "lane_cnt",
+      "dataTypeName": "number",
+      "description": "Total number of through lanes in either direction, excluding turn lanes, as determined by reporting officer (0 = intersection)",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "ALIGNMENT",
+      "fieldName": "alignment",
+      "dataTypeName": "text",
+      "description": "Street alignment at crash location, as determined by reporting officer",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "ROADWAY_SURFACE_COND",
+      "fieldName": "roadway_surface_cond",
+      "dataTypeName": "text",
+      "description": "Road surface condition, as determined by reporting officer",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "ROAD_DEFECT",
+      "fieldName": "road_defect",
+      "dataTypeName": "text",
+      "description": "Road defects, as determined by reporting officer",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "REPORT_TYPE",
+      "fieldName": "report_type",
+      "dataTypeName": "text",
+      "description": "Administrative report type (at scene, at desk, amended)",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "CRASH_TYPE",
+      "fieldName": "crash_type",
+      "dataTypeName": "text",
+      "description": "A general severity classification for the crash. Can be either Injury and/or Tow Due to Crash or No Injury / Drive Away ",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "INTERSECTION_RELATED_I",
+      "fieldName": "intersection_related_i",
+      "dataTypeName": "text",
+      "description": "A field observation by the police officer whether an intersection played a role in the crash. Does not represent whether or not the crash occurred within the intersection.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "NOT_RIGHT_OF_WAY_I",
+      "fieldName": "private_property_i",
+      "dataTypeName": "text",
+      "description": "Whether the crash begun or first contact was made outside of the public right-of-way.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "HIT_AND_RUN_I",
+      "fieldName": "hit_and_run_i",
+      "dataTypeName": "text",
+      "description": "Crash did/did not involve a driver who caused the crash and fled the scene without exchanging information and/or rendering aid",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "DAMAGE",
+      "fieldName": "damage",
+      "dataTypeName": "text",
+      "description": "A field observation of estimated damage.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "DATE_POLICE_NOTIFIED",
+      "fieldName": "date_police_notified",
+      "dataTypeName": "calendar_date",
+      "description": "Calendar date on which police were notified of the crash",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "PRIM_CONTRIBUTORY_CAUSE",
+      "fieldName": "prim_contributory_cause",
+      "dataTypeName": "text",
+      "description": "The factor which was most significant in causing the crash, as determined by officer judgment",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "SEC_CONTRIBUTORY_CAUSE",
+      "fieldName": "sec_contributory_cause",
+      "dataTypeName": "text",
+      "description": "The factor which was second most significant in causing the crash, as determined by officer judgment",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "STREET_NO",
+      "fieldName": "street_no",
+      "dataTypeName": "number",
+      "description": "Street address number of crash location, as determined by reporting officer",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "STREET_DIRECTION",
+      "fieldName": "street_direction",
+      "dataTypeName": "text",
+      "description": "Street address direction (N,E,S,W) of crash location, as determined by reporting officer",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "STREET_NAME",
+      "fieldName": "street_name",
+      "dataTypeName": "text",
+      "description": "Street address name of crash location, as determined by reporting officer",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "BEAT_OF_OCCURRENCE",
+      "fieldName": "beat_of_occurrence",
+      "dataTypeName": "number",
+      "description": "Chicago Police Department Beat ID. Boundaries available at https://data.cityofchicago.org/d/aerh-rz74",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "PHOTOS_TAKEN_I",
+      "fieldName": "photos_taken_i",
+      "dataTypeName": "text",
+      "description": "Whether the Chicago Police Department took photos at the location of the crash",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "STATEMENTS_TAKEN_I",
+      "fieldName": "statements_taken_i",
+      "dataTypeName": "text",
+      "description": "Whether statements were taken from unit(s) involved in crash",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "DOORING_I",
+      "fieldName": "dooring_i",
+      "dataTypeName": "text",
+      "description": "Whether crash involved a motor vehicle occupant opening a door into the travel path of a bicyclist, causing a crash",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "WORK_ZONE_I",
+      "fieldName": "work_zone_i",
+      "dataTypeName": "text",
+      "description": "Whether the crash occurred in an active work zone",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "WORK_ZONE_TYPE",
+      "fieldName": "work_zone_type",
+      "dataTypeName": "text",
+      "description": "The type of work zone, if any",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "WORKERS_PRESENT_I",
+      "fieldName": "workers_present_i",
+      "dataTypeName": "text",
+      "description": "Whether construction workers were present in an active work zone at crash location",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "NUM_UNITS",
+      "fieldName": "num_units",
+      "dataTypeName": "number",
+      "description": "Number of units involved in the crash. A unit can be a motor vehicle, a pedestrian, a bicyclist, or another non-passenger roadway user. Each unit represents a mode of traffic with an independent trajectory. ",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "CRASH_MONTH",
+      "fieldName": "crash_month",
+      "dataTypeName": "number",
+      "description": "The month component of CRASH_DATE.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "MOST_SEVERE_INJURY",
+      "fieldName": "most_severe_injury",
+      "dataTypeName": "text",
+      "description": "Most severe injury sustained by any person involved in the crash",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "INJURIES_TOTAL",
+      "fieldName": "injuries_total",
+      "dataTypeName": "number",
+      "description": "Total persons sustaining fatal, incapacitating, non-incapacitating, and possible injuries as determined by the reporting officer",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "INJURIES_FATAL",
+      "fieldName": "injuries_fatal",
+      "dataTypeName": "number",
+      "description": "Total persons sustaining fatal injuries in the crash",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "INJURIES_INCAPACITATING",
+      "fieldName": "injuries_incapacitating",
+      "dataTypeName": "number",
+      "description": "Total persons sustaining incapacitating/serious injuries in the crash as determined by the reporting officer. Any injury other than fatal injury, which prevents the injured person from walking, driving, or normally continuing the activities they were capable of performing before the injury occurred. Includes severe lacerations, broken limbs, skull or chest injuries, and abdominal injuries.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "INJURIES_NON_INCAPACITATING",
+      "fieldName": "injuries_non_incapacitating",
+      "dataTypeName": "number",
+      "description": "Total persons sustaining non-incapacitating injuries in the crash as determined by the reporting officer. Any injury, other than fatal or incapacitating injury, which is evident to observers at the scene of the crash. Includes lump on head, abrasions, bruises, and minor lacerations.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "INJURIES_REPORTED_NOT_EVIDENT",
+      "fieldName": "injuries_reported_not_evident",
+      "dataTypeName": "number",
+      "description": "Total persons sustaining possible injuries in the crash as determined by the reporting officer. Includes momentary unconsciousness, claims of injuries not evident, limping, complaint of pain, nausea, and hysteria.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "INJURIES_NO_INDICATION",
+      "fieldName": "injuries_no_indication",
+      "dataTypeName": "number",
+      "description": "Total persons sustaining no injuries in the crash as determined by the reporting officer",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "INJURIES_UNKNOWN",
+      "fieldName": "injuries_unknown",
+      "dataTypeName": "number",
+      "description": "Total persons for whom injuries sustained, if any, are unknown",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "CRASH_HOUR",
+      "fieldName": "crash_hour",
+      "dataTypeName": "number",
+      "description": "The hour of the day component of CRASH_DATE.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "CRASH_DAY_OF_WEEK",
+      "fieldName": "crash_day_of_week",
+      "dataTypeName": "number",
+      "description": "The day of the week component of CRASH_DATE. Sunday=1\n\n",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "IDOT_CONTROL_NO",
+      "fieldName": "idot_control_no",
+      "dataTypeName": "text",
+      "description": "A unique 10-digit number for each crash report, assigned by the Illinois Department of Transportation. Amended reports and additional pages for the same crash report will have the same IDOT Control Number.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "LATITUDE",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": "The latitude of the crash location, as determined by reporting officer, as derived from the reported address of crash",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "LONGITUDE",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": "The longitude of the crash location, as determined by reporting officer, as derived from the reported address of crash",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": "The crash location, as determined by reporting officer, as derived from the reported address of crash, in a column type that allows for mapping and other geographic analysis in the data portal software",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Boundaries - ZIP Codes' (rpca-8um6) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:26:23.519Z"
+}

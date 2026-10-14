@@ -1,0 +1,106 @@
+{
+  "id": "jhsg-26yw",
+  "name": "FY22 CFHR Horseracing Purse Equity Fund Payments to Race Tracks.xlsx",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 3,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1718209671,
+  "publicationDate": 1718211382,
+  "rowsUpdatedAt": 1718211377,
+  "viewLastModified": 1736796078,
+  "viewCount": 28,
+  "downloadCount": 77,
+  "category": "Natural and Cultural Resources",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Work Groups": {
+      "Group": "",
+      "Supplemental Group": ""
+    },
+    "Organizations": {
+      "Organization": "Department of Agriculture"
+    },
+    "Data Management": {
+      "Maintainer": "Melanie Dodd",
+      "Maintainer Email": "melanie.dodd@illinois.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "Granto",
+      "fieldName": "granto",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Grantee",
+      "fieldName": "grantee",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Postal Code",
+      "fieldName": "postal_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Audit Text",
+      "fieldName": "audit_text",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Award Amount",
+      "fieldName": "award_amount",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Date of Award",
+      "fieldName": "date_of_award",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Service Date From",
+      "fieldName": "service_date_from",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Service Date To",
+      "fieldName": "service_date_to",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:41.919Z"
+}

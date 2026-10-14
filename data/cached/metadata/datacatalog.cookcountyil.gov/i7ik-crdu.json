@@ -1,0 +1,128 @@
+{
+  "id": "i7ik-crdu",
+  "name": "HospitalPoint",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 93,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1393610740,
+  "publicationDate": null,
+  "rowsUpdatedAt": 1393610740,
+  "viewLastModified": 1769542706,
+  "viewCount": 892,
+  "downloadCount": 2631,
+  "category": "Health & Human Services",
+  "tags": [
+    "northeastern illinois",
+    "hospital",
+    "illinois",
+    "cook county",
+    "hospitals",
+    "facilities and structures",
+    "offline data",
+    "places of interest",
+    "inactive"
+  ],
+  "attribution": "Cook County GIS Department",
+  "attributionLink": "http://www.co.cook.il.us/portal/server.pt/community/geographic_information_systems/315/geographic_information_systems/463",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "point",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 93
+    },
+    {
+      "name": "CFNAME",
+      "fieldName": "cfname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 91
+    },
+    {
+      "name": "CFTYPE",
+      "fieldName": "cftype",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "CFSUBTYPE",
+      "fieldName": "cfsubtype",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "ADDRESS",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 93
+    },
+    {
+      "name": "GNISCODE",
+      "fieldName": "gniscode",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 69
+    },
+    {
+      "name": "COMMENT",
+      "fieldName": "comment",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "SOURCE",
+      "fieldName": "source",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 23
+    },
+    {
+      "name": "Jurisdicti",
+      "fieldName": "jurisdicti",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Community",
+      "fieldName": "community",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 40
+    },
+    {
+      "name": "MERGEID",
+      "fieldName": "mergeid",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 93
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:04.912Z"
+}

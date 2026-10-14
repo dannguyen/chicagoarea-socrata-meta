@@ -1,0 +1,86 @@
+{
+  "id": "i8fp-uykr",
+  "name": "IDPH 1990-2016 STD Illinois by County Gonorrhea",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2862,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1708439779,
+  "publicationDate": 1708440317,
+  "rowsUpdatedAt": 1708440311,
+  "viewLastModified": 1736793955,
+  "viewCount": 36,
+  "downloadCount": 83,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "Sort",
+      "fieldName": "sort",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": "County/Jurisdiction",
+      "fieldName": "county_jurisdiction",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": "CountyFIPS",
+      "fieldName": "countyfips",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 108,
+      "cardinality": null
+    },
+    {
+      "name": "Count",
+      "fieldName": "count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": "Rate",
+      "fieldName": "rate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:39.729Z"
+}

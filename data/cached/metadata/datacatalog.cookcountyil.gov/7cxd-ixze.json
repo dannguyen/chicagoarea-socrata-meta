@@ -1,0 +1,86 @@
+{
+  "id": "7cxd-ixze",
+  "name": "PoliticalTownship",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 45,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1450128252,
+  "publicationDate": null,
+  "rowsUpdatedAt": 1450128252,
+  "viewLastModified": 1769547412,
+  "viewCount": 431,
+  "downloadCount": 1747,
+  "category": "Boundaries & Districts",
+  "tags": [
+    "township",
+    "tax district",
+    "cook county",
+    "gis",
+    "map",
+    "boundaries and districts",
+    "inactive"
+  ],
+  "attribution": "Cook County Clerk / Map Department",
+  "attributionLink": "http://www.cookcountyclerk.com/tsd/maps/Pages/default.aspx",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "NAME",
+      "fieldName": "name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 38
+    },
+    {
+      "name": "JOB_NO",
+      "fieldName": "job_no",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "NAME_TMP",
+      "fieldName": "name_tmp",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 38
+    },
+    {
+      "name": "Shape_area",
+      "fieldName": "shape_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 45
+    },
+    {
+      "name": "Shape_len",
+      "fieldName": "shape_len",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 45
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:10.652Z"
+}

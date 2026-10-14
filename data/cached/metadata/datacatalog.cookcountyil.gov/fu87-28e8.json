@@ -1,0 +1,203 @@
+{
+  "id": "fu87-28e8",
+  "name": "Budget - FY2015 Appropriations And Expenditures with FY2016 Adopted Appropriation",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 5028,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1461963473,
+  "publicationDate": 1461963929,
+  "rowsUpdatedAt": 1461963507,
+  "viewLastModified": 1769542700,
+  "viewCount": 1395,
+  "downloadCount": 2831,
+  "category": "Finance & Operations",
+  "tags": [
+    "budget",
+    "expenses",
+    "expenditures",
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Budget and Management Services",
+  "attributionLink": "http://www.cookcountyil.gov/budget-and-management-services-department-of/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Department of Budget and Management Services"
+    },
+    "Metadata": {
+      "Update Frequency": "Yearly"
+    },
+    "Detailed Descriptive": {
+      "Ordinance Link": "http://www.cookcountyil.gov/wp-content/uploads/2014/05/16-Resolution-Adopted.pdf",
+      "Ordinance": "Budget Resolution Section 20",
+      "Ordinance Text": "When all accounts and books for Fiscal Year 2015 are closed and final amounts determined, the Comptroller shall report back to the County Board with the revised revenues, fund balances and balance sheets in the Annual Comprehensive Annual Financial Report (CAFR). All appropriated amounts for Fiscal Year 2015 shall be reported as adopted by the County Board in the Annual Appropriation Bill for Fiscal Year 2014 and as subsequently adjusted by transfers of funds. Said information will be made available to the County Board and to the public via the Final Appropriation Trial Balance for 2015. The Final Appropriation Trail Balance for 2015 will be posted alongside the 2016 line item budget in a single document on the County’s website by April 30, 2016, and shall be made concurrently available on the County’s Open Data website in a format compatible with the County’s Open Government Ordinance.",
+      "Geographic unit": "Not applicable"
+    },
+    "Publishing Details": {
+      "Publishing frequency": "Annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "Office",
+      "fieldName": "office",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Control Officer",
+      "fieldName": "control_officer",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 29
+    },
+    {
+      "name": "Fund",
+      "fieldName": "fund",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 41
+    },
+    {
+      "name": "Fund Type",
+      "fieldName": "fund_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "General Fund Type",
+      "fieldName": "general_fund_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Bureau",
+      "fieldName": "bureau",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 56
+    },
+    {
+      "name": "TabCode",
+      "fieldName": "tabcode",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 30
+    },
+    {
+      "name": "Tab",
+      "fieldName": "tab",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 30
+    },
+    {
+      "name": "Department Number",
+      "fieldName": "department_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 242
+    },
+    {
+      "name": "Department Name",
+      "fieldName": "department_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 242
+    },
+    {
+      "name": "Object Class",
+      "fieldName": "object_class",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Object Class Title",
+      "fieldName": "object_class_title",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Account",
+      "fieldName": "account",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 150
+    },
+    {
+      "name": "Object Account",
+      "fieldName": "object_account",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 158
+    },
+    {
+      "name": "Object Account Description",
+      "fieldName": "object_account_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 158
+    },
+    {
+      "name": "  FY2015 Adopted ",
+      "fieldName": "fy2015_adopted",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 756,
+      "cardinality": 2867
+    },
+    {
+      "name": "  FY2015 Adjusted  ",
+      "fieldName": "fy2015_adjusted",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 492,
+      "cardinality": 3453
+    },
+    {
+      "name": "  FY2015 Expenditures  ",
+      "fieldName": "fy2015_expenditures",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1092,
+      "cardinality": 3441
+    },
+    {
+      "name": "  FY2016 Adopted  ",
+      "fieldName": "fy2016_adopted",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1957,
+      "cardinality": 1936
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:59.941Z"
+}

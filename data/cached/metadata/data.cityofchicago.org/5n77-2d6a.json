@@ -1,0 +1,120 @@
+{
+  "id": "5n77-2d6a",
+  "name": "12th Ward Aldermanic Selection Survey - 2022",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 25,
+  "rowCountSource": "cached",
+  "rowLabel": "Survey Response",
+  "hasRowIdentifier": false,
+  "createdAt": 1669049096,
+  "publicationDate": 1669050998,
+  "rowsUpdatedAt": 1669051159,
+  "viewLastModified": 1669061775,
+  "viewCount": 2224,
+  "downloadCount": 955,
+  "category": "Administration & Finance",
+  "tags": [
+    "elections",
+    "city council",
+    "alderman",
+    "survey"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "November 2022",
+      "Data Owner": "Mayor's Office"
+    }
+  },
+  "columns": [
+    {
+      "name": "Date",
+      "fieldName": "date",
+      "dataTypeName": "calendar_date",
+      "description": "Date that the survey response was submitted.",
+      "nullCount": 0,
+      "cardinality": 25
+    },
+    {
+      "name": "Issue 1",
+      "fieldName": "issue_1",
+      "dataTypeName": "text",
+      "description": "The issue selected as most urgent",
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Issue 2",
+      "fieldName": "issue_2",
+      "dataTypeName": "text",
+      "description": "The issue selected as 2nd most urgent",
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Issue 3",
+      "fieldName": "issue_3",
+      "dataTypeName": "text",
+      "description": "The issue selected as 3rd most urgent",
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Issue 4",
+      "fieldName": "issue_4",
+      "dataTypeName": "text",
+      "description": "The issue selected as 4th most urgent",
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Issue 5",
+      "fieldName": "issue_5",
+      "dataTypeName": "text",
+      "description": "The issue selected as 5th most urgent",
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Issue 6",
+      "fieldName": "issue_6",
+      "dataTypeName": "text",
+      "description": "The issue selected as 6th most urgent",
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Issue 7",
+      "fieldName": "issue_7",
+      "dataTypeName": "text",
+      "description": "The issue selected as 7th most urgent (least urgent)",
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Ranked Issues",
+      "fieldName": "ranked_issues",
+      "dataTypeName": "text",
+      "description": "The issues ranked from most-urgent to least urgent, separated by semicolons. These are the same as the issue number columns, just formatted as a single column.",
+      "nullCount": 0,
+      "cardinality": 23
+    },
+    {
+      "name": "Other Priorities",
+      "fieldName": "other_priorities",
+      "dataTypeName": "text",
+      "description": "A free-text column for the person to list other priority issues.",
+      "nullCount": 13,
+      "cardinality": 12
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:12.271Z"
+}

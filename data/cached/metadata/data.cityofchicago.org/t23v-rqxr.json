@@ -1,0 +1,181 @@
+{
+  "id": "t23v-rqxr",
+  "name": "tifs",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 147,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1481912142,
+  "publicationDate": 1481912156,
+  "rowsUpdatedAt": 1481912156,
+  "viewLastModified": 1712775950,
+  "viewCount": 709,
+  "downloadCount": 1526,
+  "category": "Community & Economic Development",
+  "tags": [
+    "boundaries",
+    "gis",
+    "kml",
+    "shapefiles",
+    "tif",
+    "map_layer",
+    "deprecated"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "2015-2016",
+      "Frequency": "",
+      "Data Owner": "Housing & Economic Development"
+    }
+  },
+  "columns": [
+    {
+      "name": "OBJECTID",
+      "fieldName": "objectid",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "REF",
+      "fieldName": "ref",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 147
+    },
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "NAME",
+      "fieldName": "name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 147
+    },
+    {
+      "name": "IND",
+      "fieldName": "ind",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "TYPE",
+      "fieldName": "type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "USE",
+      "fieldName": "use",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 33
+    },
+    {
+      "name": "SHOW",
+      "fieldName": "show",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "NAME_TRIM",
+      "fieldName": "name_trim",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 146
+    },
+    {
+      "name": "SBIF",
+      "fieldName": "sbif",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 3
+    },
+    {
+      "name": "COMM_AREA",
+      "fieldName": "comm_area",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 126
+    },
+    {
+      "name": "WARDS",
+      "fieldName": "wards",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 113
+    },
+    {
+      "name": "REPEALED_D",
+      "fieldName": "repealed_d",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 147,
+      "cardinality": 0
+    },
+    {
+      "name": "APPROVAL_D",
+      "fieldName": "approval_d",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 147,
+      "cardinality": 0
+    },
+    {
+      "name": "EXPIRATION",
+      "fieldName": "expiration",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 41
+    },
+    {
+      "name": "SHAPE_AREA",
+      "fieldName": "shape_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 147
+    },
+    {
+      "name": "SHAPE_LEN",
+      "fieldName": "shape_len",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 147
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:22.716Z"
+}

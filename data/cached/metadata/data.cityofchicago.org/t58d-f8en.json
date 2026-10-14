@@ -1,0 +1,56 @@
+{
+  "id": "t58d-f8en",
+  "name": "CTA - Performance - Bus Runs Held Due to Absenteeism (2011, Jan-Aug)",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 7,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1317673587,
+  "publicationDate": 1317788132,
+  "rowsUpdatedAt": 1317788119,
+  "viewLastModified": 1374781192,
+  "viewCount": 1509,
+  "downloadCount": 2592,
+  "category": "Transportation",
+  "tags": [
+    "cta",
+    "chicago transit authority"
+  ],
+  "attribution": "Chicago Transit Authority",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "",
+      "Frequency": "",
+      "Data Owner": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "Weekday Type",
+      "fieldName": "weekday_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Runs Held",
+      "fieldName": "runs_held",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:16.950Z"
+}

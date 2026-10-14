@@ -1,0 +1,84 @@
+{
+  "id": "hpi8-ui6q",
+  "name": "RailStation",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 310,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1408399672,
+  "publicationDate": null,
+  "rowsUpdatedAt": 1408399672,
+  "viewLastModified": 1769544600,
+  "viewCount": 436,
+  "downloadCount": 1938,
+  "category": "Economic Development",
+  "tags": [
+    "railroad",
+    "station",
+    "cook county",
+    "trains",
+    "places of interest"
+  ],
+  "attribution": "Cook County GIS Department",
+  "attributionLink": "http://www.cookcountyil.gov/geographic-information-systems-2",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "point",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 310
+    },
+    {
+      "name": "COMM_STATU",
+      "fieldName": "comm_statu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "NAME",
+      "fieldName": "name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 310
+    },
+    {
+      "name": "ANGLE",
+      "fieldName": "angle",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 269
+    },
+    {
+      "name": "Commute_Li",
+      "fieldName": "commute_li",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 32
+    },
+    {
+      "name": "OrthoYear",
+      "fieldName": "orthoyear",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:10.518Z"
+}

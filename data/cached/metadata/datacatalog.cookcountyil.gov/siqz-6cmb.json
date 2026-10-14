@@ -1,0 +1,87 @@
+{
+  "id": "siqz-6cmb",
+  "name": "CommCollTaxDist_2012",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 11,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1394476904,
+  "publicationDate": null,
+  "rowsUpdatedAt": 1394476904,
+  "viewLastModified": 1769546812,
+  "viewCount": 391,
+  "downloadCount": 2287,
+  "category": "Boundaries & Districts",
+  "tags": [
+    "taxing district",
+    "taxing agency",
+    "clerk",
+    "gis",
+    "cook",
+    "community",
+    "college",
+    "boundaries and districts"
+  ],
+  "attribution": "Cook County Clerk / Map Department",
+  "attributionLink": "http://www.cookcountyclerk.com/tsd/maps/Pages/default.aspx",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "AGENCY",
+      "fieldName": "agency",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11
+    },
+    {
+      "name": "MAX_AGENCY",
+      "fieldName": "max_agency",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11
+    },
+    {
+      "name": "AGENCYNUM",
+      "fieldName": "agencynum",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "SHAPE_area",
+      "fieldName": "shape_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11
+    },
+    {
+      "name": "SHAPE_len",
+      "fieldName": "shape_len",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:11.024Z"
+}

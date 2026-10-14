@@ -1,0 +1,82 @@
+{
+  "id": "gh3w-vkp5",
+  "name": "Procurement - Intent to Execute Archive",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 100,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1466653319,
+  "publicationDate": 1466653699,
+  "rowsUpdatedAt": 1466653329,
+  "viewLastModified": 1769543286,
+  "viewCount": 1041,
+  "downloadCount": 2866,
+  "category": "Finance & Operations",
+  "tags": [
+    "procurement",
+    "purchase",
+    "contract",
+    "bid",
+    "rfp",
+    "rfi",
+    "award",
+    "inactive"
+  ],
+  "attribution": "Office of the Chief Procurement Officer",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Office of the Chief Procurement Officer"
+    },
+    "Metadata": {
+      "Update Frequency": "No updates"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Not updated (historical only)",
+      "Publishing frequency": "Not updated (historical only)"
+    }
+  },
+  "columns": [
+    {
+      "name": "Posting Date",
+      "fieldName": "posting_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 100
+    },
+    {
+      "name": "Description",
+      "fieldName": "description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Notes",
+      "fieldName": "notes",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 99,
+      "cardinality": 1
+    },
+    {
+      "name": "Link",
+      "fieldName": "link",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:03.465Z"
+}

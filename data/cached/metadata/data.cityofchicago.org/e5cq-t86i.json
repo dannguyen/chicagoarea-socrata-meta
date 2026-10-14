@@ -1,0 +1,88 @@
+{
+  "id": "e5cq-t86i",
+  "name": "Budget - 2025 Budget Ordinance - Revenue",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 143,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1734732181,
+  "publicationDate": 1734732184,
+  "rowsUpdatedAt": 1734735535,
+  "viewLastModified": 1734735534,
+  "viewCount": 2096,
+  "downloadCount": 1539,
+  "category": "Administration & Finance",
+  "tags": [
+    "budget",
+    "revenue",
+    "2025"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.chicago.gov/budget",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2025",
+      "Frequency": "Data are updated annually",
+      "Data Owner": "Budget & Management"
+    }
+  },
+  "columns": [
+    {
+      "name": "FUND_CODE",
+      "fieldName": "fund_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 33
+    },
+    {
+      "name": "FUND_NAME",
+      "fieldName": "fund_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 33
+    },
+    {
+      "name": "REVENUE_GROUP_TYPE",
+      "fieldName": "revenue_group_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 93,
+      "cardinality": 4
+    },
+    {
+      "name": "REVENUE_CATEGORY",
+      "fieldName": "revenue_category",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 93,
+      "cardinality": 19
+    },
+    {
+      "name": "REVENUE_SOURCE",
+      "fieldName": "revenue_source",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 93
+    },
+    {
+      "name": "ESTIMATED_REVENUE",
+      "fieldName": "estimated_revenue",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 142
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:12.888Z"
+}

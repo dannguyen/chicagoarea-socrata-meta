@@ -1,0 +1,170 @@
+{
+  "id": "bbyy-e7gq",
+  "name": "Divvy Bicycle Stations",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1226,
+  "rowCountSource": "cached",
+  "rowLabel": "Station",
+  "hasRowIdentifier": false,
+  "createdAt": 1374184661,
+  "publicationDate": 1702572626,
+  "rowsUpdatedAt": 1791975752,
+  "viewLastModified": 1774468494,
+  "viewCount": 33332,
+  "downloadCount": 15151,
+  "category": "Transportation",
+  "tags": [
+    "bicycling",
+    "sustainability",
+    "transportation",
+    "divvy"
+  ],
+  "attribution": "Divvy",
+  "attributionLink": "https://gbfs.divvybikes.com/gbfs/2.3/gbfs.json",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Current",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"bbyy-e7gq\"",
+      "Frequency": "Daily",
+      "Data Owner": "City of Chicago"
+    }
+  },
+  "columns": [
+    {
+      "name": "ID",
+      "fieldName": "id",
+      "dataTypeName": "text",
+      "description": "A unique station identifier. NOTE: Extremely long IDs may not display correctly on this page but should be correct if this dataset is exported or accessed through the API.",
+      "nullCount": 0,
+      "cardinality": 1226
+    },
+    {
+      "name": "Station Name",
+      "fieldName": "station_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1226
+    },
+    {
+      "name": "Short Name",
+      "fieldName": "short_name",
+      "dataTypeName": "text",
+      "description": "An alternative identifier used for some purposes.",
+      "nullCount": 54,
+      "cardinality": 1226
+    },
+    {
+      "name": "Total Docks",
+      "fieldName": "total_docks",
+      "dataTypeName": "number",
+      "description": "Total docks in the station.  Each dock can accommodate one bicycle.",
+      "nullCount": 0,
+      "cardinality": 1226
+    },
+    {
+      "name": "Docks in Service",
+      "fieldName": "docks_in_service",
+      "dataTypeName": "number",
+      "description": "Excludes docks taken out of service.  Calculated as the number of docks reported as containing available bicycles or available to receive a returned bicycle, as of the time this dataset was refreshed.",
+      "nullCount": 0,
+      "cardinality": 1226
+    },
+    {
+      "name": "Status",
+      "fieldName": "status",
+      "dataTypeName": "text",
+      "description": "The status of the station.  Stations \"In Service\" are available for use.",
+      "nullCount": 0,
+      "cardinality": 1226
+    },
+    {
+      "name": "Latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1226
+    },
+    {
+      "name": "Longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1226
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1226
+    },
+    {
+      "name": "Historical Wards 2003-2015 2",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Historical Wards 2003-2015' (awaf-s7ux) the point in column 'location_1' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes 2",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Zip Codes' (6mkv-f3dw) the point in column 'location_1' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas 2",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Community Areas' (vrxf-vc4k) the point in column 'location_1' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts 2",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Census Tracts' (bdys-3d7i) the point in column 'location_1' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards 2",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Wards' (43wa-7qmu) the point in column 'location_1' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Boundaries - ZIP Codes' (rpca-8um6) the point in column 'location_1' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards 2023-",
+      "fieldName": ":@computed_region_8hcu_yrd4",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Wards 2023-' (8hcu-yrd4) the point in column 'location_1' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:07.085Z"
+}

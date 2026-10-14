@@ -1,0 +1,220 @@
+{
+  "id": "2ivx-z93u",
+  "name": "Beach Lab Data",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 34967,
+  "rowCountSource": "cached",
+  "rowLabel": "Water Sample",
+  "hasRowIdentifier": false,
+  "createdAt": 1462383240,
+  "publicationDate": 1496698849,
+  "rowsUpdatedAt": 1791495889,
+  "viewLastModified": 1791495881,
+  "viewCount": 25278,
+  "downloadCount": 12465,
+  "category": "Parks & Recreation",
+  "tags": [
+    "beaches",
+    "parks",
+    "chicago park district",
+    "open spaces",
+    "parks & recreation",
+    "recreation",
+    "water"
+  ],
+  "attribution": "Chicago Park District",
+  "attributionLink": "http://www.chicagoparkdistrict.com/",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2006 - current (in season)",
+      "Frequency": "Daily (in season)",
+      "Data Owner": "Chicago Park District"
+    }
+  },
+  "columns": [
+    {
+      "name": "DNA Test ID",
+      "fieldName": "dna_test_id",
+      "dataTypeName": "text",
+      "description": "Unique ID for a DNA test on one or two water samples taken from the same beach on the same day.",
+      "nullCount": 17373,
+      "cardinality": 34967
+    },
+    {
+      "name": "DNA Sample Timestamp",
+      "fieldName": "dna_sample_timestamp",
+      "dataTypeName": "calendar_date",
+      "description": "Date and time when the water sample for DNA testing was taken.",
+      "nullCount": 17373,
+      "cardinality": 34967
+    },
+    {
+      "name": "Beach",
+      "fieldName": "beach",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 34967
+    },
+    {
+      "name": "DNA Sample 1 Reading",
+      "fieldName": "dna_sample_1_reading",
+      "dataTypeName": "number",
+      "description": "Enterococci calibrator cell equivalents (CCE) per 100 ml of water",
+      "nullCount": 17373,
+      "cardinality": 34967
+    },
+    {
+      "name": "DNA Sample 2 Reading",
+      "fieldName": "dna_sample_2_reading",
+      "dataTypeName": "number",
+      "description": "Enterococci calibrator cell equivalents (CCE) per 100 ml of water",
+      "nullCount": 28104,
+      "cardinality": 34967
+    },
+    {
+      "name": "DNA Reading Mean",
+      "fieldName": "dna_reading_mean",
+      "dataTypeName": "number",
+      "description": "The geometric mean of the DNA Sample 1 Reading and the DNA Sample 2 Reading (if any).",
+      "nullCount": 17373,
+      "cardinality": 34967
+    },
+    {
+      "name": "Culture Test ID",
+      "fieldName": "culture_test_id",
+      "dataTypeName": "text",
+      "description": "Unique ID for a culture test on one or two water samples taken from the same beach on the same day.",
+      "nullCount": 16965,
+      "cardinality": 34967
+    },
+    {
+      "name": "Culture Sample 1 Timestamp",
+      "fieldName": "culture_sample_1_timestamp",
+      "dataTypeName": "calendar_date",
+      "description": "Date and time when the first water sample for culture was taken.  Prior to 2016, the time is not available.",
+      "nullCount": 16965,
+      "cardinality": 34967
+    },
+    {
+      "name": "Culture Sample 1 Reading",
+      "fieldName": "culture_sample_1_reading",
+      "dataTypeName": "number",
+      "description": "Colony Forming Units (CFU) per 100 ml of water",
+      "nullCount": 17062,
+      "cardinality": 34967
+    },
+    {
+      "name": "Culture Sample 2 Reading",
+      "fieldName": "culture_sample_2_reading",
+      "dataTypeName": "number",
+      "description": "Colony Forming Units (CFU) per 100 ml of water",
+      "nullCount": 17114,
+      "cardinality": 34967
+    },
+    {
+      "name": "Culture Reading Mean",
+      "fieldName": "culture_reading_mean",
+      "dataTypeName": "number",
+      "description": "The geometric mean of Culture Sample 1 Reading and Culture Sample 2 Reading (if any).",
+      "nullCount": 17004,
+      "cardinality": 34967
+    },
+    {
+      "name": "Culture Note",
+      "fieldName": "culture_note",
+      "dataTypeName": "text",
+      "description": "Notes on the culture tests.",
+      "nullCount": 34967,
+      "cardinality": 34967
+    },
+    {
+      "name": "Culture Sample Interval",
+      "fieldName": "culture_sample_interval",
+      "dataTypeName": "number",
+      "description": "Time in minutes between collection of the two samples for culture testing.",
+      "nullCount": 33452,
+      "cardinality": 34967
+    },
+    {
+      "name": "Culture Sample 2 Timestamp",
+      "fieldName": "culture_sample_2_timestamp",
+      "dataTypeName": "calendar_date",
+      "description": "Date and time when the second water sample for culture was taken.",
+      "nullCount": 33452,
+      "cardinality": 34967
+    },
+    {
+      "name": "Latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3017,
+      "cardinality": 34967
+    },
+    {
+      "name": "Longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3017,
+      "cardinality": 34967
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:07.868Z"
+}

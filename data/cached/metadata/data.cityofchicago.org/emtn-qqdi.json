@@ -1,0 +1,81 @@
+{
+  "id": "emtn-qqdi",
+  "name": "Chicago Traffic Tracker - Historical Congestion Estimates by Region - 2013-2018",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 7089311,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1363982974,
+  "publicationDate": 1525383543,
+  "rowsUpdatedAt": 1525378275,
+  "viewLastModified": 1774040706,
+  "viewCount": 13543,
+  "downloadCount": 7938,
+  "category": "Transportation",
+  "tags": [
+    "traffic",
+    "sustainability",
+    "historical",
+    "link to article present"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.chicagotraffictracker.com/",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "January 2013 - May 2018",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"emtn-qqdi\"",
+      "Data Owner": "Transportation"
+    }
+  },
+  "columns": [
+    {
+      "name": "TIME",
+      "fieldName": "time",
+      "dataTypeName": "calendar_date",
+      "description": "Date and time corresponding to congestion estimate.",
+      "nullCount": 0,
+      "cardinality": 155347
+    },
+    {
+      "name": "REGION_ID",
+      "fieldName": "region_id",
+      "dataTypeName": "number",
+      "description": "Unique arbitrary number to represent each region. See http://bit.ly/103beCf for the geographic location of each region.",
+      "nullCount": 0,
+      "cardinality": 29
+    },
+    {
+      "name": "BUS COUNT",
+      "fieldName": "bus_count",
+      "dataTypeName": "number",
+      "description": "The number of buses used to estimate traffic.",
+      "nullCount": 0,
+      "cardinality": 275
+    },
+    {
+      "name": "NUMBER OF READS                      ",
+      "fieldName": "number_of_reads",
+      "dataTypeName": "number",
+      "description": "Number of GPS probes received(or used) for estimating the speed for that segment.",
+      "nullCount": 0,
+      "cardinality": 4076
+    },
+    {
+      "name": "SPEED",
+      "fieldName": "speed",
+      "dataTypeName": "number",
+      "description": "Estimated congestion level. Although expressed in miles per hour, this value is more a reflection of the congestion level in the region than it is indicative of the average raw speed vehicles are travelling within the region.",
+      "nullCount": 0,
+      "cardinality": 3118
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:37:49.671Z"
+}

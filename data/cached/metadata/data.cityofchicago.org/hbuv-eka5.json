@@ -1,0 +1,64 @@
+{
+  "id": "hbuv-eka5",
+  "name": "Performance Metrics - Family & Support Services - Domestic Violence Service Help Line Monthly Utilization",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 69,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1312218117,
+  "publicationDate": 1409695591,
+  "rowsUpdatedAt": 1478715359,
+  "viewLastModified": 1692027271,
+  "viewCount": 2496,
+  "downloadCount": 3125,
+  "category": "Administration & Finance",
+  "tags": [
+    "performance metrics",
+    "service delivery",
+    "human services"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org/performance",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "January 2011 to present",
+      "Frequency": "Data is updated monthly",
+      "Data Owner": "Family & Support Services"
+    }
+  },
+  "columns": [
+    {
+      "name": "Month",
+      "fieldName": "month",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 69
+    },
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Number of Calls",
+      "fieldName": "number_of_calls",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 68
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:10.973Z"
+}

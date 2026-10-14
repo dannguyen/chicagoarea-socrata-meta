@@ -1,0 +1,104 @@
+{
+  "id": "98av-9vwe",
+  "name": "Budget Management - Department General Fund 2012 Year End Expenses And 2013 Preliminary Estimates",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 90,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1346780664,
+  "publicationDate": 1412889739,
+  "rowsUpdatedAt": 1412889733,
+  "viewLastModified": 1769544523,
+  "viewCount": 783,
+  "downloadCount": 1866,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Budget and Management Services",
+  "attributionLink": "http://home.cookcountyil.gov/budget/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Department No.",
+      "fieldName": "department_no",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 87
+    },
+    {
+      "name": "Description",
+      "fieldName": "description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 87
+    },
+    {
+      "name": " Approved & Adopted",
+      "fieldName": "approved_adopted",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 84
+    },
+    {
+      "name": "Projected Adjusted Appropriation*",
+      "fieldName": "projected_adjusted_appropriation",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 88
+    },
+    {
+      "name": "Expenditures and Encumbrances, Dec - May**",
+      "fieldName": "expenditures_and_encumbrances_dec_may",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 88
+    },
+    {
+      "name": "Estimated Expenditures Jun - Nov",
+      "fieldName": "estimated_expenditures_jun_nov",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 88
+    },
+    {
+      "name": " Total 2012 Projected Expenditures",
+      "fieldName": "total_2012_projected_expenditures",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 88
+    },
+    {
+      "name": "Department 2013 Preliminary Estimate",
+      "fieldName": "department_2013_preliminary_estimate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 73
+    },
+    {
+      "name": "Executive 2013 Preliminary Estimate",
+      "fieldName": "executive_2013_preliminary_estimate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 73
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:06.548Z"
+}

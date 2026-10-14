@@ -1,0 +1,137 @@
+{
+  "id": "uhab-t2hm",
+  "name": "Boundaries - Special Service Areas (deprecated January 2023)",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 56,
+  "rowCountSource": "cached",
+  "rowLabel": "Special Service Area",
+  "hasRowIdentifier": false,
+  "createdAt": 1676056784,
+  "publicationDate": 1676064133,
+  "rowsUpdatedAt": 1676064127,
+  "viewLastModified": 1676064133,
+  "viewCount": 1109,
+  "downloadCount": 866,
+  "category": "Community & Economic Development",
+  "tags": [
+    "boundaries",
+    "gis",
+    "shapefiles",
+    "geo_layer",
+    "deprecated"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "January 2022",
+      "Data Owner": "Planning & Development/Housing"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "OBJECTID_1",
+      "fieldName": "objectid_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 56
+    },
+    {
+      "name": "OBJECTID_2",
+      "fieldName": "objectid_2",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 53
+    },
+    {
+      "name": "OBJECTID",
+      "fieldName": "objectid",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 53
+    },
+    {
+      "name": "REF_NO",
+      "fieldName": "ref_no",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 56
+    },
+    {
+      "name": "NAME",
+      "fieldName": "name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 56
+    },
+    {
+      "name": "STATUS",
+      "fieldName": "status",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "WARD",
+      "fieldName": "ward",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 47
+    },
+    {
+      "name": "COMM_AREA",
+      "fieldName": "comm_area",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 47
+    },
+    {
+      "name": "Shape_Leng",
+      "fieldName": "shape_leng",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 56
+    },
+    {
+      "name": "Shape_Le_1",
+      "fieldName": "shape_le_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 56
+    },
+    {
+      "name": "Shape_Area",
+      "fieldName": "shape_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 56
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:19.993Z"
+}

@@ -1,0 +1,155 @@
+{
+  "id": "r52m-fyu3",
+  "name": "Polling Place Locations - 2016 March 15 Presidential Primary Election",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1045,
+  "rowCountSource": "cached",
+  "rowLabel": "location",
+  "hasRowIdentifier": false,
+  "createdAt": 1457125112,
+  "publicationDate": 1685661811,
+  "rowsUpdatedAt": 1457126004,
+  "viewLastModified": 1769543473,
+  "viewCount": 1561,
+  "downloadCount": 5391,
+  "category": "Boundaries & Districts",
+  "tags": [
+    "election",
+    "voting",
+    "precincts",
+    "polling place",
+    "inactive"
+  ],
+  "attribution": "Cook County Clerk",
+  "attributionLink": "http://www.cookcountyclerk.com",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Clerk"
+    },
+    "Metadata": {
+      "Update Frequency": "As Needed"
+    },
+    "Detailed Descriptive": {
+      "Geographic coverage": "Cook County without City of Chicago",
+      "Geographic unit": "Latitude/longitude"
+    },
+    "Publishing Details": {
+      "Data change frequency": "As needed",
+      "Publishing frequency": "As needed"
+    }
+  },
+  "columns": [
+    {
+      "name": "Location Name",
+      "fieldName": "location_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 982
+    },
+    {
+      "name": "Accessible",
+      "fieldName": "accessible",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 8,
+      "cardinality": 4
+    },
+    {
+      "name": "PRECINCT",
+      "fieldName": "precinct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1044
+    },
+    {
+      "name": "PRECINCT2",
+      "fieldName": "precinct2",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 624,
+      "cardinality": 421
+    },
+    {
+      "name": "PRECINCT3",
+      "fieldName": "precinct3",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 936,
+      "cardinality": 109
+    },
+    {
+      "name": "PRECINCT4",
+      "fieldName": "precinct4",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1024,
+      "cardinality": 21
+    },
+    {
+      "name": "PRECINCT5",
+      "fieldName": "precinct5",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1042,
+      "cardinality": 3
+    },
+    {
+      "name": "PRECINCT6",
+      "fieldName": "precinct6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1043,
+      "cardinality": 2
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1042
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 130
+    },
+    {
+      "name": "X",
+      "fieldName": "x",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1043
+    },
+    {
+      "name": "Y",
+      "fieldName": "y",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1043
+    },
+    {
+      "name": "Location 1",
+      "fieldName": "location_1",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:58.871Z"
+}

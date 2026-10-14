@@ -1,0 +1,158 @@
+{
+  "id": "64q4-57u5",
+  "name": "City Of Urbana: Nuisance Complaints",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 15129,
+  "rowCountSource": "cached",
+  "rowLabel": "Complaints",
+  "hasRowIdentifier": false,
+  "createdAt": 1731011335,
+  "publicationDate": 1757620638,
+  "rowsUpdatedAt": 1790196551,
+  "viewLastModified": 1790196549,
+  "viewCount": 455,
+  "downloadCount": 157,
+  "category": "Local Government",
+  "tags": [],
+  "attribution": "City of Urbana",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "City of Urbana"
+    },
+    "Data Management": {
+      "Maintainer": "Mayank Patel",
+      "Maintainer Email": "mac.patel@urbanail.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "File Number",
+      "fieldName": "file_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 15129
+    },
+    {
+      "name": "Date Reported",
+      "fieldName": "date_reported",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 15129
+    },
+    {
+      "name": "Year Reported",
+      "fieldName": "year_reported",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 15129
+    },
+    {
+      "name": "Month Reported",
+      "fieldName": "month_reported",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 15129
+    },
+    {
+      "name": "Housing Block",
+      "fieldName": "housing_block",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 15129
+    },
+    {
+      "name": "Street Name",
+      "fieldName": "street_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 15129
+    },
+    {
+      "name": "Date Notice Mailed or Given",
+      "fieldName": "date_notice_mailed_or_given",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 3981,
+      "cardinality": 15129
+    },
+    {
+      "name": "Type of Complaint",
+      "fieldName": "type_of_complaint",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 701,
+      "cardinality": 15129
+    },
+    {
+      "name": "Disposition",
+      "fieldName": "disposition",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 238,
+      "cardinality": 15129
+    },
+    {
+      "name": "File Close Date",
+      "fieldName": "file_close_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 3079,
+      "cardinality": 15129
+    },
+    {
+      "name": "Method Submitted",
+      "fieldName": "method_submitted",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 101,
+      "cardinality": 15129
+    },
+    {
+      "name": "Submitted Online?",
+      "fieldName": "submitted_online",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 15129
+    },
+    {
+      "name": "Total Fees",
+      "fieldName": "total_fees",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 15129
+    },
+    {
+      "name": "Mapped Location",
+      "fieldName": "mapped_location",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 15129
+    },
+    {
+      "name": "georeference",
+      "fieldName": "georeference",
+      "dataTypeName": "point",
+      "description": null,
+      "nullCount": 104,
+      "cardinality": 15129
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:33.109Z"
+}

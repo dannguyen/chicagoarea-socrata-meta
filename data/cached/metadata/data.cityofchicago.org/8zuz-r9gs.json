@@ -1,0 +1,71 @@
+{
+  "id": "8zuz-r9gs",
+  "name": "Tax Increment Financing (TIF) Annual Report - New Redevelopment Agreements",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 90,
+  "rowCountSource": "cached",
+  "rowLabel": "Redevelopment Agreement",
+  "hasRowIdentifier": false,
+  "createdAt": 1566510537,
+  "publicationDate": 1566510935,
+  "rowsUpdatedAt": 1788191260,
+  "viewLastModified": 1788191259,
+  "viewCount": 1353,
+  "downloadCount": 1444,
+  "category": "Community & Economic Development",
+  "tags": [
+    "tif",
+    "tif annual report"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2017-2025",
+      "Frequency": "Data are updated annually",
+      "Data Owner": "Department of Planning and Development"
+    }
+  },
+  "columns": [
+    {
+      "name": "TIF Number",
+      "fieldName": "tif_number",
+      "dataTypeName": "text",
+      "description": "The unique, numeric ID assigned to the TIF district",
+      "nullCount": 0,
+      "cardinality": 90
+    },
+    {
+      "name": "TIF District",
+      "fieldName": "tif_district",
+      "dataTypeName": "text",
+      "description": "Redevelopment project area",
+      "nullCount": 0,
+      "cardinality": 90
+    },
+    {
+      "name": "Report Year",
+      "fieldName": "report_year",
+      "dataTypeName": "number",
+      "description": "Calendar year to which the record applies",
+      "nullCount": 0,
+      "cardinality": 90
+    },
+    {
+      "name": "New Redevelopment Agreement",
+      "fieldName": "new_redevelopment_agreement",
+      "dataTypeName": "text",
+      "description": "Legal name of the agreement executed by the City of Chicago in the report year",
+      "nullCount": 0,
+      "cardinality": 90
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:18.098Z"
+}

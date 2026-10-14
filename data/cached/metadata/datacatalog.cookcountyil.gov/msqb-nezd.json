@@ -1,0 +1,146 @@
+{
+  "id": "msqb-nezd",
+  "name": "Public Health Birth Data: Birth and Fertility",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 41423,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1754513972,
+  "publicationDate": 1755282687,
+  "rowsUpdatedAt": 1764692112,
+  "viewLastModified": 1769547083,
+  "viewCount": 2920,
+  "downloadCount": 823,
+  "category": "Health & Human Services",
+  "tags": [
+    "ccdph",
+    "reproductive health",
+    "pregnancy"
+  ],
+  "attribution": "Cook County Department of Public Health",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Department of Public Health"
+    },
+    "Metadata": {
+      "Update Frequency": "Yearly"
+    },
+    "Detailed Descriptive": {
+      "Temporal coverage": "2015-2023",
+      "Data notes": "Source data does not differentiate between gender and sex assigned at birth. For clarity and brevity, metadata descriptions reflect gendered language with the understanding that these descriptions may not accurately reflect all cases.",
+      "Geographic coverage": "Cook County without City of Chicago"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Annually",
+      "Publishing frequency": "Annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "Year",
+      "fieldName": "event_year",
+      "dataTypeName": "number",
+      "description": "Year of the birth",
+      "nullCount": 0,
+      "cardinality": 41423
+    },
+    {
+      "name": "Place",
+      "fieldName": "place",
+      "dataTypeName": "text",
+      "description": "Municipality or area the birth took place. CCDPH jurisdiction refers to all Cook County municipalities except Chicago, Evanston, Skokie, Oak Park, Forest View, Burbank, and (incorporated) Stickney. See the attached district map for more information.",
+      "nullCount": 0,
+      "cardinality": 41423
+    },
+    {
+      "name": "Age Group",
+      "fieldName": "age_group",
+      "dataTypeName": "text",
+      "description": "Age group of mother",
+      "nullCount": 0,
+      "cardinality": 41423
+    },
+    {
+      "name": "Race and Ethnicity",
+      "fieldName": "race_eth",
+      "dataTypeName": "text",
+      "description": "Race and ethnicity of mother. \"NH\" refers to \"non-Hispanic\". ",
+      "nullCount": 0,
+      "cardinality": 41423
+    },
+    {
+      "name": "Count of Crude Birth",
+      "fieldName": "count_crude_birth",
+      "dataTypeName": "text",
+      "description": "Total number of births in the total population of a specified group. This data is only available for the \"All Ages\" age group. ",
+      "nullCount": 35226,
+      "cardinality": 41423
+    },
+    {
+      "name": "Rate of Crude Birth",
+      "fieldName": "rate_crude_birth",
+      "dataTypeName": "text",
+      "description": "Number of births per 1,000 population in specified group. This data is only available for the \"All Ages\" age group.",
+      "nullCount": 35226,
+      "cardinality": 41423
+    },
+    {
+      "name": "Count of Fertility",
+      "fieldName": "count_fertility",
+      "dataTypeName": "text",
+      "description": "Total number of births to women between the ages of 15 to 44 in a specified group. This data is only available for the \"15 to 44\" age group.",
+      "nullCount": 35226,
+      "cardinality": 41423
+    },
+    {
+      "name": "Rate of Fertility",
+      "fieldName": "rate_fertility",
+      "dataTypeName": "text",
+      "description": "Number of births per 1,000 reproductive women (between the ages of 15 to 44) in a specific group. This data is only available for the \"15 to 44\" age group.",
+      "nullCount": 35226,
+      "cardinality": 41423
+    },
+    {
+      "name": "Count of Multiple Births",
+      "fieldName": "count_multiples",
+      "dataTypeName": "text",
+      "description": "Total number of births to twins or higher order multiples",
+      "nullCount": 6197,
+      "cardinality": 41423
+    },
+    {
+      "name": "Rate of Multiple Births",
+      "fieldName": "rate_multiples",
+      "dataTypeName": "text",
+      "description": "Number of births to twins or higher order multiples per 100 live births",
+      "nullCount": 6197,
+      "cardinality": 41423
+    },
+    {
+      "name": "Count of First Birth",
+      "fieldName": "count_first",
+      "dataTypeName": "text",
+      "description": "Total number of women who gave birth for the first time. This data is only available for the \"All Ages\" age group.",
+      "nullCount": 35226,
+      "cardinality": 41423
+    },
+    {
+      "name": "Average Age of First-Time Mothers",
+      "fieldName": "rate_first",
+      "dataTypeName": "text",
+      "description": "Mean age of women who gave birth for the first time. This data is only available for the \"All Ages\" age group.",
+      "nullCount": 35226,
+      "cardinality": 41423
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:54.776Z"
+}

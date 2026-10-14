@@ -1,0 +1,169 @@
+{
+  "id": "njrn-3hws",
+  "name": "Employee Overtime and Supplemental Earnings 2022",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 26901,
+  "rowCountSource": "cached",
+  "rowLabel": "Employee",
+  "hasRowIdentifier": false,
+  "createdAt": 1662136046,
+  "publicationDate": 1662136050,
+  "rowsUpdatedAt": 1680300175,
+  "viewLastModified": 1714747694,
+  "viewCount": 9819,
+  "downloadCount": 3793,
+  "category": "Administration & Finance",
+  "tags": [
+    "overtime",
+    "budget",
+    "supplemental earnings",
+    "2022"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2022",
+      "Frequency": "Data are updated quarterly",
+      "Data Owner": "Budget & Management"
+    }
+  },
+  "columns": [
+    {
+      "name": "DEPARTMENT NAME",
+      "fieldName": "department_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 25
+    },
+    {
+      "name": "NAME",
+      "fieldName": "name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24194
+    },
+    {
+      "name": "TITLE",
+      "fieldName": "title",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 478
+    },
+    {
+      "name": "JANUARY",
+      "fieldName": "january",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 8956
+    },
+    {
+      "name": "FEBRUARY",
+      "fieldName": "february",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7479
+    },
+    {
+      "name": "MARCH",
+      "fieldName": "march",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7189
+    },
+    {
+      "name": "APRIL",
+      "fieldName": "april",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6972
+    },
+    {
+      "name": "MAY",
+      "fieldName": "may",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7326
+    },
+    {
+      "name": "JUNE",
+      "fieldName": "june",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12259
+    },
+    {
+      "name": "JULY",
+      "fieldName": "july",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11391
+    },
+    {
+      "name": "AUGUST",
+      "fieldName": "august",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 8792
+    },
+    {
+      "name": "SEPTEMBER",
+      "fieldName": "september",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 8990
+    },
+    {
+      "name": "OCTOBER",
+      "fieldName": "october",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9265
+    },
+    {
+      "name": "NOVEMBER",
+      "fieldName": "november",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9682
+    },
+    {
+      "name": "DECEMBER",
+      "fieldName": "december",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9965
+    },
+    {
+      "name": "TOTAL",
+      "fieldName": "total",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24053
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:38:05.782Z"
+}

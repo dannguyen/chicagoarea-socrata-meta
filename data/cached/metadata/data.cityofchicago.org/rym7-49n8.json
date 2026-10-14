@@ -1,0 +1,242 @@
+{
+  "id": "rym7-49n8",
+  "name": "Financial Incentive Projects - Neighborhood Opportunity Fund (NOF) Small",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 126,
+  "rowCountSource": "cached",
+  "rowLabel": "Project",
+  "hasRowIdentifier": false,
+  "createdAt": 1580848666,
+  "publicationDate": 1580849719,
+  "rowsUpdatedAt": 1770066388,
+  "viewLastModified": 1774468893,
+  "viewCount": 5142,
+  "downloadCount": 4858,
+  "category": "Community & Economic Development",
+  "tags": [
+    "financial",
+    "financial incentive",
+    "incentive",
+    "nof"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2017-Current",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"rym7-49n8\"",
+      "Frequency": "Data are updated quarterly",
+      "Data Owner": "Department of Planning and Development"
+    }
+  },
+  "columns": [
+    {
+      "name": "PROJECT NAME",
+      "fieldName": "project_name",
+      "dataTypeName": "text",
+      "description": "The name of the business that received the incentive.",
+      "nullCount": 0,
+      "cardinality": 126
+    },
+    {
+      "name": "APPLICANT NAME",
+      "fieldName": "applicant_name",
+      "dataTypeName": "text",
+      "description": "The individual, company or organization requesting the incentive.",
+      "nullCount": 0,
+      "cardinality": 126
+    },
+    {
+      "name": "ADDRESS NUMBER",
+      "fieldName": "address_number",
+      "dataTypeName": "number",
+      "description": "The address number of the project location.",
+      "nullCount": 0,
+      "cardinality": 126
+    },
+    {
+      "name": "ADDRESS NUMBER (HIGH)",
+      "fieldName": "address_number_high",
+      "dataTypeName": "number",
+      "description": "The high address number if the address is a range. For projects with a single address this field will be blank.",
+      "nullCount": 109,
+      "cardinality": 126
+    },
+    {
+      "name": "STREET DIRECTION",
+      "fieldName": "street_direction",
+      "dataTypeName": "text",
+      "description": "The cardinal direction of the project street address.",
+      "nullCount": 0,
+      "cardinality": 126
+    },
+    {
+      "name": "STREET NAME",
+      "fieldName": "street_name",
+      "dataTypeName": "text",
+      "description": "The name of the street in the project address.",
+      "nullCount": 0,
+      "cardinality": 126
+    },
+    {
+      "name": "STREET TYPE",
+      "fieldName": "street_type",
+      "dataTypeName": "text",
+      "description": "The type of street in the project address.",
+      "nullCount": 0,
+      "cardinality": 126
+    },
+    {
+      "name": "WARD",
+      "fieldName": "ward",
+      "dataTypeName": "number",
+      "description": "The Aldermanic Ward in which the project is located.",
+      "nullCount": 0,
+      "cardinality": 126
+    },
+    {
+      "name": "COMMUNITY AREA",
+      "fieldName": "community_area",
+      "dataTypeName": "text",
+      "description": "The Community Area, as defined by the City of Chicago, in which the project is located.",
+      "nullCount": 0,
+      "cardinality": 126
+    },
+    {
+      "name": "APPROVAL DATE",
+      "fieldName": "approval_date",
+      "dataTypeName": "calendar_date",
+      "description": "The date of the legislative action used to approve the project.",
+      "nullCount": 0,
+      "cardinality": 126
+    },
+    {
+      "name": "COMPLETION DATE",
+      "fieldName": "completion_date",
+      "dataTypeName": "calendar_date",
+      "description": "The date of the Certificate of Completion or other form of confirmation for project completion.",
+      "nullCount": 0,
+      "cardinality": 126
+    },
+    {
+      "name": "PROPERTY TYPE",
+      "fieldName": "property_type",
+      "dataTypeName": "text",
+      "description": "The land use of the subject property.",
+      "nullCount": 20,
+      "cardinality": 126
+    },
+    {
+      "name": "SQUARE FOOTAGE",
+      "fieldName": "square_footage",
+      "dataTypeName": "number",
+      "description": "The area of the portion of the property being affected by the project.",
+      "nullCount": 66,
+      "cardinality": 126
+    },
+    {
+      "name": "PROJECT DESCRIPTION",
+      "fieldName": "project_description",
+      "dataTypeName": "text",
+      "description": "A brief textual description of the project.",
+      "nullCount": 0,
+      "cardinality": 126
+    },
+    {
+      "name": "INCENTIVE AMOUNT",
+      "fieldName": "incentive_amount",
+      "dataTypeName": "number",
+      "description": "The dollar amount of the incentive paid to the applicant.",
+      "nullCount": 0,
+      "cardinality": 126
+    },
+    {
+      "name": "TOTAL PROJECT COST",
+      "fieldName": "total_project_cost",
+      "dataTypeName": "number",
+      "description": "The total value of the project, including the incentive received.",
+      "nullCount": 0,
+      "cardinality": 126
+    },
+    {
+      "name": "OTHER PUBLIC FUNDING",
+      "fieldName": "other_public_funding",
+      "dataTypeName": "number",
+      "description": "The total amount of funding the project received from other public subsidies.",
+      "nullCount": 125,
+      "cardinality": 126
+    },
+    {
+      "name": "JOBS CREATED: ASPIRATIONAL",
+      "fieldName": "jobs_created_aspirational",
+      "dataTypeName": "number",
+      "description": "The number of full-time equivalent (FTE) jobs created by the project, without requirement of a Redevelopment Agreement. Jobs Created data may be missing for projects that have not yet completed surveys.",
+      "nullCount": 110,
+      "cardinality": 126
+    },
+    {
+      "name": "JOBS RETAINED: ASPIRATIONAL",
+      "fieldName": "jobs_retained_aspirational",
+      "dataTypeName": "number",
+      "description": "The number of existing full-time equivalent (FTE) jobs retained by the project, without requirement of a Redevelopment Agreement. Jobs Retained data may be missing for projects that have not yet completed surveys.",
+      "nullCount": 119,
+      "cardinality": 126
+    },
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": "The location of the address columns, geocoded to a format that allows for mapping and other geographic analysis.",
+      "nullCount": 0,
+      "cardinality": 126
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:04.406Z"
+}

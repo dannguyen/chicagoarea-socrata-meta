@@ -1,0 +1,80 @@
+{
+  "id": "c5zu-3cbe",
+  "name": "Early Voting Locations - 2012",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 43,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1349898481,
+  "publicationDate": 1412890013,
+  "rowsUpdatedAt": 1412890008,
+  "viewLastModified": 1769547074,
+  "viewCount": 758,
+  "downloadCount": 2218,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Clerk",
+  "attributionLink": "http://cookcountyclerk.com",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Site",
+      "fieldName": "site",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 43
+    },
+    {
+      "name": "Hours",
+      "fieldName": "hours",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 43
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 41
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Zip",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 40
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:06.822Z"
+}

@@ -1,0 +1,89 @@
+{
+  "id": "k737-xg34",
+  "name": "Street Sweeping Schedule - 2019",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 4164,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1553187814,
+  "publicationDate": 1553187817,
+  "rowsUpdatedAt": 1566497126,
+  "viewLastModified": 1566497125,
+  "viewCount": 7464,
+  "downloadCount": 1796,
+  "category": "Sanitation",
+  "tags": [
+    "street cleaning",
+    "schedule",
+    "parking restrictions",
+    "2019"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org/city/en/depts/streets/provdrs/streets_san/svcs/street_sweeping.html",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "April 2019 to November 2019",
+      "Frequency": "Annual",
+      "Data Owner": "Streets & Sanitation"
+    }
+  },
+  "columns": [
+    {
+      "name": "WARD SECTION (CONCATENATED)",
+      "fieldName": "ward_section_concatenated",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 761
+    },
+    {
+      "name": "WARD",
+      "fieldName": "ward",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "SECTION",
+      "fieldName": "section",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 32
+    },
+    {
+      "name": "MONTH NAME",
+      "fieldName": "month_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "MONTH NUMBER",
+      "fieldName": "month_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 8
+    },
+    {
+      "name": "DATES",
+      "fieldName": "dates",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 222
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:01.846Z"
+}

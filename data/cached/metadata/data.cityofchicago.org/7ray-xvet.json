@@ -1,0 +1,72 @@
+{
+  "id": "7ray-xvet",
+  "name": "Performance Metrics - Buildings - Time to Issue Easy Permits",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 166,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1317130554,
+  "publicationDate": 1387368620,
+  "rowsUpdatedAt": 1407185142,
+  "viewLastModified": 1387381596,
+  "viewCount": 1958,
+  "downloadCount": 3451,
+  "category": "Administration & Finance",
+  "tags": [
+    "performance metrics",
+    "buildings",
+    "permits"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "June 2011 to present",
+      "Frequency": "Data is updated weekly",
+      "Data Owner": "Buildings"
+    }
+  },
+  "columns": [
+    {
+      "name": "Week",
+      "fieldName": "week",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 166
+    },
+    {
+      "name": "Week - Text",
+      "fieldName": "week_text",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 166
+    },
+    {
+      "name": "Average Days to Permit",
+      "fieldName": "average_days_to_permit",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 107
+    },
+    {
+      "name": "Target",
+      "fieldName": "target",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:14.034Z"
+}

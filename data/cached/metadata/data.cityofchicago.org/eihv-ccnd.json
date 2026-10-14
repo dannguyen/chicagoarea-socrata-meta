@@ -1,0 +1,61 @@
+{
+  "id": "eihv-ccnd",
+  "name": "Libraries - 2018 Wi Fi Usage",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 12,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1519854612,
+  "publicationDate": 1532704051,
+  "rowsUpdatedAt": 1548701718,
+  "viewLastModified": 1788276849,
+  "viewCount": 863,
+  "downloadCount": 1786,
+  "category": null,
+  "tags": [
+    "libraries",
+    "wi-fi"
+  ],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Data Owner": "Chicago Public Library"
+    }
+  },
+  "columns": [
+    {
+      "name": "MONTH",
+      "fieldName": "month",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "NUMBER OF SESSIONS",
+      "fieldName": "number_of_sessions",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "YTD",
+      "fieldName": "ytd",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:21.768Z"
+}

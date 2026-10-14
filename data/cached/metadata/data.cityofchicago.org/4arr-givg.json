@@ -1,0 +1,407 @@
+{
+  "id": "4arr-givg",
+  "name": "Public Health Statistics - Births and birth rates in Chicago, by year, 1999–2009 - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 78,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1325271832,
+  "publicationDate": 1350934437,
+  "rowsUpdatedAt": 1350934238,
+  "viewLastModified": 1788212397,
+  "viewCount": 20913,
+  "downloadCount": 11154,
+  "category": "Health & Human Services",
+  "tags": [
+    "birth",
+    "health",
+    "historical"
+  ],
+  "attribution": "Illinois Department of Public Health (IDPH)",
+  "attributionLink": null,
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "1999-2009",
+      "Data Owner": "Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "Community Area",
+      "fieldName": "community_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 78
+    },
+    {
+      "name": "Community Area Name",
+      "fieldName": "community_area_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 78
+    },
+    {
+      "name": "Births 1999",
+      "fieldName": "births_1999",
+      "dataTypeName": "number",
+      "description": "Number of births in 1999",
+      "nullCount": 0,
+      "cardinality": 75
+    },
+    {
+      "name": "Birth Rate 1999",
+      "fieldName": "birth_rate_1999",
+      "dataTypeName": "number",
+      "description": "Number of childbirths per 1000 people",
+      "nullCount": 0,
+      "cardinality": 65
+    },
+    {
+      "name": "Birth Rate 1999 Lower CI",
+      "fieldName": "birth_rate_1999_lower_ci",
+      "dataTypeName": "number",
+      "description": "Birth rate lower confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 69
+    },
+    {
+      "name": "Birth Rate 1999 Upper CI",
+      "fieldName": "birth_rate_1999_upper_ci",
+      "dataTypeName": "number",
+      "description": "Birth rate upper confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 63
+    },
+    {
+      "name": "Births 2000",
+      "fieldName": "births_2000",
+      "dataTypeName": "number",
+      "description": "Number of births in 2000",
+      "nullCount": 0,
+      "cardinality": 74
+    },
+    {
+      "name": "Birth Rate 2000",
+      "fieldName": "birth_rate_2000",
+      "dataTypeName": "number",
+      "description": "Number of childbirths per 1000 people",
+      "nullCount": 0,
+      "cardinality": 62
+    },
+    {
+      "name": "Birth Rate 2000 Lower CI",
+      "fieldName": "birth_rate_2000_lower_ci",
+      "dataTypeName": "number",
+      "description": "Birth rate lower confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 58
+    },
+    {
+      "name": "Birth Rate 2000 Upper CI",
+      "fieldName": "birth_rate_2000_upper_ci",
+      "dataTypeName": "number",
+      "description": "Birth rate upper confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 69
+    },
+    {
+      "name": "Births 2001",
+      "fieldName": "births_2001",
+      "dataTypeName": "number",
+      "description": "Number of births in 2001",
+      "nullCount": 0,
+      "cardinality": 75
+    },
+    {
+      "name": "Birth Rate 2001",
+      "fieldName": "birth_rate_2001",
+      "dataTypeName": "number",
+      "description": "Number of childbirths per 1000 people",
+      "nullCount": 0,
+      "cardinality": 62
+    },
+    {
+      "name": "Birth Rate 2001 Lower CI",
+      "fieldName": "birth_rate_2001_lower_ci",
+      "dataTypeName": "number",
+      "description": "Birth rate lower confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 55
+    },
+    {
+      "name": "Birth Rate 2001 Upper CI",
+      "fieldName": "birth_rate_2001_upper_ci",
+      "dataTypeName": "number",
+      "description": "Birth rate upper confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 61
+    },
+    {
+      "name": "Births 2002",
+      "fieldName": "births_2002",
+      "dataTypeName": "number",
+      "description": "Number of births in 2002",
+      "nullCount": 0,
+      "cardinality": 76
+    },
+    {
+      "name": "Birth Rate 2002",
+      "fieldName": "birth_rate_2002",
+      "dataTypeName": "number",
+      "description": "Number of childbirths per 1000 people",
+      "nullCount": 0,
+      "cardinality": 61
+    },
+    {
+      "name": "Birth Rate 2002 Lower CI",
+      "fieldName": "birth_rate_2002_lower_ci",
+      "dataTypeName": "number",
+      "description": "Birth rate lower confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 64
+    },
+    {
+      "name": "Birth Rate 2002 Upper CI",
+      "fieldName": "birth_rate_2002_upper_ci",
+      "dataTypeName": "number",
+      "description": "Birth rate upper confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 66
+    },
+    {
+      "name": "Births 2003",
+      "fieldName": "births_2003",
+      "dataTypeName": "number",
+      "description": "Number of births in 2003",
+      "nullCount": 0,
+      "cardinality": 76
+    },
+    {
+      "name": "Birth Rate 2003",
+      "fieldName": "birth_rate_2003",
+      "dataTypeName": "number",
+      "description": "Number of childbirths per 1000 people",
+      "nullCount": 0,
+      "cardinality": 59
+    },
+    {
+      "name": "Birth Rate 2003 Lower CI",
+      "fieldName": "birth_rate_2003_lower_ci",
+      "dataTypeName": "number",
+      "description": "Birth rate lower confidence interval (C)",
+      "nullCount": 0,
+      "cardinality": 57
+    },
+    {
+      "name": "Birth Rate 2003 Upper CI",
+      "fieldName": "birth_rate_2003_upper_ci",
+      "dataTypeName": "number",
+      "description": "Birth rate upper confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 63
+    },
+    {
+      "name": "Births 2004",
+      "fieldName": "births_2004",
+      "dataTypeName": "number",
+      "description": "Number of births in 2004",
+      "nullCount": 0,
+      "cardinality": 75
+    },
+    {
+      "name": "Birth Rate 2004",
+      "fieldName": "birth_rate_2004",
+      "dataTypeName": "number",
+      "description": "Number of childbirths per 1000 people",
+      "nullCount": 0,
+      "cardinality": 56
+    },
+    {
+      "name": "Birth Rate 2004 Lower CI",
+      "fieldName": "birth_rate_2004_lower_ci",
+      "dataTypeName": "number",
+      "description": "Birth rate lower confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 60
+    },
+    {
+      "name": "Birth Rate 2004 Upper CI",
+      "fieldName": "birth_rate_2004_upper_ci",
+      "dataTypeName": "number",
+      "description": "Birth rate upper confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 62
+    },
+    {
+      "name": "Births 2005",
+      "fieldName": "births_2005",
+      "dataTypeName": "number",
+      "description": "Number of births in 2005",
+      "nullCount": 0,
+      "cardinality": 74
+    },
+    {
+      "name": "Birth Rate 2005",
+      "fieldName": "birth_rate_2005",
+      "dataTypeName": "number",
+      "description": "Number of childbirths per 1000 people",
+      "nullCount": 0,
+      "cardinality": 58
+    },
+    {
+      "name": "Birth Rate 2005 Lower CI",
+      "fieldName": "birth_rate_2005_lower_ci",
+      "dataTypeName": "number",
+      "description": "Birth rate lower confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 62
+    },
+    {
+      "name": "Birth Rate 2005 Upper CI",
+      "fieldName": "birth_rate_2005_upper_ci",
+      "dataTypeName": "number",
+      "description": "Birth rate upper confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 62
+    },
+    {
+      "name": "Births 2006",
+      "fieldName": "births_2006",
+      "dataTypeName": "number",
+      "description": "Number of births in 2006",
+      "nullCount": 0,
+      "cardinality": 75
+    },
+    {
+      "name": "Birth Rate 2006",
+      "fieldName": "birth_rate_2006",
+      "dataTypeName": "number",
+      "description": "Number of childbirths per 1000 people",
+      "nullCount": 0,
+      "cardinality": 56
+    },
+    {
+      "name": "Birth Rate 2006 Lower CI",
+      "fieldName": "birth_rate_2006_lower_ci",
+      "dataTypeName": "number",
+      "description": "Birth rate lower confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 60
+    },
+    {
+      "name": "Birth Rate 2006 Upper CI",
+      "fieldName": "birth_rate_2006_upper_ci",
+      "dataTypeName": "number",
+      "description": "Birth rate upper confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 56
+    },
+    {
+      "name": "Births 2007",
+      "fieldName": "births_2007",
+      "dataTypeName": "number",
+      "description": "Number of births in 2007",
+      "nullCount": 0,
+      "cardinality": 76
+    },
+    {
+      "name": "Birth Rate 2007",
+      "fieldName": "birth_rate_2007",
+      "dataTypeName": "number",
+      "description": "Number of childbirths per 1000 people",
+      "nullCount": 0,
+      "cardinality": 62
+    },
+    {
+      "name": "Birth Rate 2007 Lower CI",
+      "fieldName": "birth_rate_2007_lower_ci",
+      "dataTypeName": "number",
+      "description": "Birth rate lower confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 63
+    },
+    {
+      "name": "Birth Rate 2007 Upper CI",
+      "fieldName": "birth_rate_2007_upper_ci",
+      "dataTypeName": "number",
+      "description": "Birth rate upper confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 67
+    },
+    {
+      "name": "Births 2008",
+      "fieldName": "births_2008",
+      "dataTypeName": "number",
+      "description": "Number of births in 2008",
+      "nullCount": 0,
+      "cardinality": 78
+    },
+    {
+      "name": "Birth Rate 2008",
+      "fieldName": "birth_rate_2008",
+      "dataTypeName": "number",
+      "description": "Number of childbirths per 1000 people",
+      "nullCount": 0,
+      "cardinality": 58
+    },
+    {
+      "name": "Birth Rate 2008 Lower CI",
+      "fieldName": "birth_rate_2008_lower_ci",
+      "dataTypeName": "number",
+      "description": "Birth rate lower confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 60
+    },
+    {
+      "name": "Birth Rate 2008 Upper CI",
+      "fieldName": "birth_rate_2008_upper_ci",
+      "dataTypeName": "number",
+      "description": "Birth rate upper confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 62
+    },
+    {
+      "name": "Births 2009",
+      "fieldName": "births_2009",
+      "dataTypeName": "number",
+      "description": "Number of births in 2009",
+      "nullCount": 0,
+      "cardinality": 73
+    },
+    {
+      "name": "Birth Rate 2009",
+      "fieldName": "birth_rate_2009",
+      "dataTypeName": "number",
+      "description": "Number of childbirths per 1000 people",
+      "nullCount": 0,
+      "cardinality": 58
+    },
+    {
+      "name": "Birth Rate 2009 Lower CI",
+      "fieldName": "birth_rate_2009_lower_ci",
+      "dataTypeName": "number",
+      "description": "Birth rate lower confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 65
+    },
+    {
+      "name": "Birth Rate 2009 Upper CI",
+      "fieldName": "birth_rate_2009_upper_ci",
+      "dataTypeName": "number",
+      "description": "Birth rate upper confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 58
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:35:21.551Z"
+}

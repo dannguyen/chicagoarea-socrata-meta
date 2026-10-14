@@ -1,0 +1,247 @@
+{
+  "id": "5k2z-suxx",
+  "name": "Relocated Vehicles",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 4012,
+  "rowCountSource": "cached",
+  "rowLabel": "Vehicle",
+  "hasRowIdentifier": false,
+  "createdAt": 1317369622,
+  "publicationDate": 1565286155,
+  "rowsUpdatedAt": 1791999167,
+  "viewLastModified": 1791496130,
+  "viewCount": 53568,
+  "downloadCount": 56267,
+  "category": "Transportation",
+  "tags": [
+    "vehicles",
+    "streets"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Last 90 days",
+      "Frequency": "Data are updated multiple times per hour",
+      "Data Owner": "Streets & Sanitation"
+    }
+  },
+  "columns": [
+    {
+      "name": "Relocated Date",
+      "fieldName": "relocated_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4012
+    },
+    {
+      "name": "Make",
+      "fieldName": "make",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4012
+    },
+    {
+      "name": "Color",
+      "fieldName": "color",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4012
+    },
+    {
+      "name": "Plate",
+      "fieldName": "plate",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4012
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 445,
+      "cardinality": 4012
+    },
+    {
+      "name": "Relocated From Address Number",
+      "fieldName": "relocated_from_address_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4012
+    },
+    {
+      "name": "Relocated From Street Direction",
+      "fieldName": "relocated_from_street_direction",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 214,
+      "cardinality": 4012
+    },
+    {
+      "name": "Relocated From Street Name",
+      "fieldName": "relocated_from_street_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4012
+    },
+    {
+      "name": "Relocated From Suffix",
+      "fieldName": "relocated_from_suffix",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 830,
+      "cardinality": 4012
+    },
+    {
+      "name": "Relocated To Address Number",
+      "fieldName": "relocated_to_address_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4012
+    },
+    {
+      "name": "Relocated To Direction",
+      "fieldName": "relocated_to_direction",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4012
+    },
+    {
+      "name": "Relocated To Street Name",
+      "fieldName": "relocated_to_street_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4012
+    },
+    {
+      "name": "Relocated To Suffix",
+      "fieldName": "relocated_to_suffix",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 4012,
+      "cardinality": 4012
+    },
+    {
+      "name": "Relocated Reason",
+      "fieldName": "relocated_reason",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4012
+    },
+    {
+      "name": "Service Request Number",
+      "fieldName": "service_request_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4012
+    },
+    {
+      "name": "Relocated From X Coordinate",
+      "fieldName": "relocated_from_x_coordinate",
+      "dataTypeName": "number",
+      "description": "The x coordinate of the location from which the vehicle was relocated, in State Plane Illinois East NAD 1983 projection.",
+      "nullCount": 0,
+      "cardinality": 4012
+    },
+    {
+      "name": "Relocated From Y Coordinate",
+      "fieldName": "relocated_from_y_coordinate",
+      "dataTypeName": "number",
+      "description": "The y coordinate of the location from which the vehicle was relocated, in State Plane Illinois East NAD 1983 projection.",
+      "nullCount": 0,
+      "cardinality": 4012
+    },
+    {
+      "name": "Relocated From Latitude",
+      "fieldName": "relocated_from_latitude",
+      "dataTypeName": "number",
+      "description": "The latitude of the location from which the vehicle was relocated.",
+      "nullCount": 0,
+      "cardinality": 4012
+    },
+    {
+      "name": "Relocated From Longitude",
+      "fieldName": "relocated_from_longitude",
+      "dataTypeName": "number",
+      "description": "The longitude of the location from which the vehicle was relocated",
+      "nullCount": 0,
+      "cardinality": 4012
+    },
+    {
+      "name": "Relocated From Location",
+      "fieldName": "relocated_from_location",
+      "dataTypeName": "location",
+      "description": "The location from which the vehicle was relocated in a special format that allows for mapping on this data portal.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:06.159Z"
+}

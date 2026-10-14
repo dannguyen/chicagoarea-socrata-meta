@@ -1,0 +1,121 @@
+{
+  "id": "yk5w-q6r6",
+  "name": "IDPH Rural Health Care Center Directory",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 277,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1737767270,
+  "publicationDate": 1737767415,
+  "rowsUpdatedAt": 1777396134,
+  "viewLastModified": 1777396133,
+  "viewCount": 2610,
+  "downloadCount": 524,
+  "category": "Health and Human Services",
+  "tags": [
+    "rural health clinic",
+    "rhc",
+    "rural healthcare",
+    "medicare certification",
+    "cms certification",
+    "ccn",
+    "primary care",
+    "hpsa",
+    "mua",
+    "health professional shortage area",
+    "medically underserved area",
+    "42 cfr 405",
+    "42 cfr 491",
+    "midlevel practitioner",
+    "nurse practitioner",
+    "physician assistant",
+    "healthcare directory",
+    "illinois rural health",
+    "idph state survey agency"
+  ],
+  "attribution": "IDPH",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "IDPH"
+    }
+  },
+  "columns": [
+    {
+      "name": "Facility Name",
+      "fieldName": "facility_name",
+      "dataTypeName": "text",
+      "description": "Legal name of the certified Rural Health Clinic. May include a \"DBA\" (doing business as) trade name where the clinic operates under a name different from its legal entity name. Many provider-based RHCs are listed under the legal name of the parent hospital or health system.",
+      "nullCount": 0,
+      "cardinality": 277
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": "Street address of the clinic's certified location. Suite or building numbers are included where applicable. Each certified location has its own CCN; multi-site organizations appear as multiple records.",
+      "nullCount": 0,
+      "cardinality": 277
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": "Municipality where the clinic is located. All locations are in non-urbanized areas as required for RHC certification.",
+      "nullCount": 0,
+      "cardinality": 277
+    },
+    {
+      "name": "County",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": "Illinois county where the clinic is located. Used for rural/shortage area analysis and Health Service Area (HSA) planning.",
+      "nullCount": 0,
+      "cardinality": 277
+    },
+    {
+      "name": "Zip",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": "Five-digit U.S. Postal Service ZIP code of the clinic's certified location.",
+      "nullCount": 0,
+      "cardinality": 277
+    },
+    {
+      "name": "Contact Name",
+      "fieldName": "contact_name",
+      "dataTypeName": "text",
+      "description": "Primary administrative contact at the clinic, designated for IDPH and CMS correspondence. May be the clinic administrator, parent hospital compliance officer, or licensee depending on organizational structure.",
+      "nullCount": 2,
+      "cardinality": 277
+    },
+    {
+      "name": "Phone",
+      "fieldName": "phone",
+      "dataTypeName": "text",
+      "description": "Main published telephone number for the clinic, including area code. Format: (XXX) XXX-XXXX.",
+      "nullCount": 0,
+      "cardinality": 277
+    },
+    {
+      "name": "Medicare Number",
+      "fieldName": "medicare_number",
+      "dataTypeName": "text",
+      "description": "Medicare number issued for facility",
+      "nullCount": 0,
+      "cardinality": 277
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:32.051Z"
+}

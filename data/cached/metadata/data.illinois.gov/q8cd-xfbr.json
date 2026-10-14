@@ -1,0 +1,106 @@
+{
+  "id": "q8cd-xfbr",
+  "name": "FY23 SWCD Land and Water",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 194,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1708036100,
+  "publicationDate": 1708098682,
+  "rowsUpdatedAt": 1708098676,
+  "viewLastModified": 1736796086,
+  "viewCount": 189,
+  "downloadCount": 35,
+  "category": "Natural and Cultural Resources",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Work Groups": {
+      "Group": "",
+      "Supplemental Group": ""
+    },
+    "Organizations": {
+      "Organization": "Department of Agriculture"
+    },
+    "Data Management": {
+      "Maintainer": "Melanie Dodd",
+      "Maintainer Email": "AGR_Grants@illinois.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "GRANTOR",
+      "fieldName": "grantor",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "GRANTEE",
+      "fieldName": "grantee",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 97
+    },
+    {
+      "name": "POSTAL CODE",
+      "fieldName": "postal_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 96
+    },
+    {
+      "name": "TEXT",
+      "fieldName": "text",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 194
+    },
+    {
+      "name": "AWARD AMOUNT",
+      "fieldName": "award_amount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 98
+    },
+    {
+      "name": "DATE OF AWARD",
+      "fieldName": "date_of_award",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "START DATE",
+      "fieldName": "start_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "END DATE",
+      "fieldName": "end_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:34.150Z"
+}

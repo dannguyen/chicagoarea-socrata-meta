@@ -1,0 +1,104 @@
+{
+  "id": "c3g3-4wyn",
+  "name": "Risk Management - Provider Payments - April 2012",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 131,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1337619899,
+  "publicationDate": 1412893647,
+  "rowsUpdatedAt": 1412893641,
+  "viewLastModified": 1769542755,
+  "viewCount": 815,
+  "downloadCount": 1803,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Risk Management",
+  "attributionLink": "http://www.cookcountyrisk.com/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "HOSPITAL (BILLING)",
+      "fieldName": "hospital_billing",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 35
+    },
+    {
+      "name": "TOTAL BILLED",
+      "fieldName": "total_billed",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 108
+    },
+    {
+      "name": "IDHFS DISCOUNT",
+      "fieldName": "idhfs_discount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 97
+    },
+    {
+      "name": "UNRELATED",
+      "fieldName": "unrelated",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "PROVIDER DISCOUNT",
+      "fieldName": "provider_discount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 14
+    },
+    {
+      "name": "AMOUNT PAYABLE",
+      "fieldName": "amount_payable",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 98
+    },
+    {
+      "name": "BOARD MEETING",
+      "fieldName": "board_meeting",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 2
+    },
+    {
+      "name": "FISCAL YEAR OF PAYMENT",
+      "fieldName": "fiscal_year_of_payment",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 1
+    },
+    {
+      "name": "FISCAL YEAR OF TREATMENT",
+      "fieldName": "fiscal_year_of_treatment",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 4
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:06.130Z"
+}

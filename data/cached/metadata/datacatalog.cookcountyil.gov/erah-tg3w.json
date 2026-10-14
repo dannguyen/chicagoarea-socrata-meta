@@ -1,0 +1,88 @@
+{
+  "id": "erah-tg3w",
+  "name": "Public Defender - Appointments and Dispositions, by Type - Fiscal Year 2011",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 14,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1316447532,
+  "publicationDate": 1412892409,
+  "rowsUpdatedAt": 1412892392,
+  "viewLastModified": 1769543936,
+  "viewCount": 968,
+  "downloadCount": 2507,
+  "category": "Legal & Judicial",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Public Defender",
+  "attributionLink": "http://www.cookcountygov.com/portal/server.pt/community/public_defender%2C_law_office_of/260",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Month and Totals",
+      "fieldName": "month_and_totals",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 14
+    },
+    {
+      "name": "Felony Appointments",
+      "fieldName": "felony_appointments",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "Felony Dispositions",
+      "fieldName": "felony_dispositions",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "Misdemeanor Appointments",
+      "fieldName": "misdemeanor_appointments",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "Misdemeanor Dispositions",
+      "fieldName": "misdemeanor_dispositions",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "Juvenile Appointments",
+      "fieldName": "juvenile_appointments",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "Juvenile Dispositions",
+      "fieldName": "juvenile_dispositions",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:04.156Z"
+}

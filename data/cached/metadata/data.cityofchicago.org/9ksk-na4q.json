@@ -1,0 +1,234 @@
+{
+  "id": "9ksk-na4q",
+  "name": "311 Service Requests - Garbage Carts - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 403791,
+  "rowCountSource": "cached",
+  "rowLabel": "Service Request",
+  "hasRowIdentifier": false,
+  "createdAt": 1317373725,
+  "publicationDate": 1551865771,
+  "rowsUpdatedAt": 1551865735,
+  "viewLastModified": 1774467200,
+  "viewCount": 50223,
+  "downloadCount": 72881,
+  "category": "Service Requests",
+  "tags": [
+    "garbage",
+    "historical",
+    "service requests",
+    "311"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "All open requests and all completed requests since January 1, 2011",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"9ksk-na4q\"",
+      "Frequency": "Data is updated daily",
+      "Data Owner": "Streets & Sanitation"
+    }
+  },
+  "columns": [
+    {
+      "name": "Creation Date",
+      "fieldName": "creation_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3117
+    },
+    {
+      "name": "Status",
+      "fieldName": "status",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Completion Date",
+      "fieldName": "completion_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 3333,
+      "cardinality": 2063
+    },
+    {
+      "name": "Service Request Number",
+      "fieldName": "service_request_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 401060
+    },
+    {
+      "name": "Type of Service Request",
+      "fieldName": "type_of_service_request",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Number of Black Carts Delivered",
+      "fieldName": "number_of_black_carts_delivered",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 88723,
+      "cardinality": 85
+    },
+    {
+      "name": "Current Activity",
+      "fieldName": "current_activity",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 74434,
+      "cardinality": 2
+    },
+    {
+      "name": "Most Recent Action",
+      "fieldName": "most_recent_action",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 74751,
+      "cardinality": 13
+    },
+    {
+      "name": "Street Address",
+      "fieldName": "street_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 213252
+    },
+    {
+      "name": "ZIP Code",
+      "fieldName": "zip_code",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 909,
+      "cardinality": 62
+    },
+    {
+      "name": "X Coordinate",
+      "fieldName": "x_coordinate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 198,
+      "cardinality": 211199
+    },
+    {
+      "name": "Y Coordinate",
+      "fieldName": "y_coordinate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 198,
+      "cardinality": 212495
+    },
+    {
+      "name": "Ward",
+      "fieldName": "ward",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 51
+    },
+    {
+      "name": "Police District",
+      "fieldName": "police_district",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 7,
+      "cardinality": 26
+    },
+    {
+      "name": "Community Area",
+      "fieldName": "community_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 7,
+      "cardinality": 78
+    },
+    {
+      "name": "SSA",
+      "fieldName": "ssa",
+      "dataTypeName": "text",
+      "description": "Special Service Areas are local tax districts that fund expanded services and programs, to foster commercial and economic development, through a localized property tax. In other cities these areas are sometimes called Business Improvement Districts (BIDs). This portal contains a map of all Chicago SSAs",
+      "nullCount": 354923,
+      "cardinality": 52
+    },
+    {
+      "name": "Latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 75,
+      "cardinality": 213027
+    },
+    {
+      "name": "Longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 75,
+      "cardinality": 213027
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:06.275Z"
+}

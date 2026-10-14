@@ -1,0 +1,63 @@
+{
+  "id": "7tg5-i782",
+  "name": "ARPA Road to Recovery Expenditure Report",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 50961,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1729542937,
+  "publicationDate": 1730138511,
+  "rowsUpdatedAt": 1785508886,
+  "viewLastModified": 1785508879,
+  "viewCount": 1009,
+  "downloadCount": 1070,
+  "category": "Administration & Finance",
+  "tags": [
+    "budget",
+    "arpa"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "3/3/2021 – Present",
+      "Frequency": "Data is updated quarterly",
+      "Data Owner": "Budget & Management"
+    }
+  },
+  "columns": [
+    {
+      "name": "Cost Center",
+      "fieldName": "cost_center",
+      "dataTypeName": "text",
+      "description": "A unique identifier to differentiate financial information by program.",
+      "nullCount": 0,
+      "cardinality": 50961
+    },
+    {
+      "name": "Expense Date",
+      "fieldName": "expense_date",
+      "dataTypeName": "calendar_date",
+      "description": "The date where an expense was incurred and documented for a given program.",
+      "nullCount": 0,
+      "cardinality": 50961
+    },
+    {
+      "name": "Amount Expended",
+      "fieldName": "amount_expended",
+      "dataTypeName": "number",
+      "description": "A dollar amount representing the total spent in an individual transaction for a given program on the associated date.",
+      "nullCount": 0,
+      "cardinality": 50961
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:20.852Z"
+}

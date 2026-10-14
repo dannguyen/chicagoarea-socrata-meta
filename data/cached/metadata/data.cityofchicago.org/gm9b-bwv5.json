@@ -1,0 +1,383 @@
+{
+  "id": "gm9b-bwv5",
+  "name": "Micro-Market Recovery Program - Cases",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 27046,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": true,
+  "createdAt": 1370365423,
+  "publicationDate": 1405549834,
+  "rowsUpdatedAt": 1791954162,
+  "viewLastModified": 1414164822,
+  "viewCount": 6061,
+  "downloadCount": 13946,
+  "category": "Community & Economic Development",
+  "tags": [
+    "buildings",
+    "inspections"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2001-",
+      "Frequency": "Daily",
+      "Data Owner": "Department of Housing and Economic Development"
+    }
+  },
+  "columns": [
+    {
+      "name": "Add Date/Time",
+      "fieldName": "add_date_time",
+      "dataTypeName": "calendar_date",
+      "description": "Date and Time stamp when record was added to the database",
+      "nullCount": 0,
+      "cardinality": 27046
+    },
+    {
+      "name": "Modified Date/Time",
+      "fieldName": "modified_date_time",
+      "dataTypeName": "calendar_date",
+      "description": "Date and Time stamp when record was last updated in the database",
+      "nullCount": 34,
+      "cardinality": 27046
+    },
+    {
+      "name": "Case Type Code",
+      "fieldName": "case_type_code",
+      "dataTypeName": "text",
+      "description": "Code of CaseType",
+      "nullCount": 0,
+      "cardinality": 27046
+    },
+    {
+      "name": "Case Type Description",
+      "fieldName": "case_type_description",
+      "dataTypeName": "text",
+      "description": "Description of CaseType",
+      "nullCount": 0,
+      "cardinality": 27046
+    },
+    {
+      "name": "Case Primary Key",
+      "fieldName": "case_primary_key",
+      "dataTypeName": "number",
+      "description": "Case Primary Key (unique). Use this key to link to violations and inspections dataset - PERMITORCASEKEY.",
+      "nullCount": 0,
+      "cardinality": 27046
+    },
+    {
+      "name": "Additional Case Description",
+      "fieldName": "additional_case_description",
+      "dataTypeName": "text",
+      "description": "Additional Case Description",
+      "nullCount": 16501,
+      "cardinality": 27046
+    },
+    {
+      "name": "Case Number",
+      "fieldName": "case_number",
+      "dataTypeName": "text",
+      "description": "Case Number",
+      "nullCount": 0,
+      "cardinality": 27046
+    },
+    {
+      "name": "Case Group",
+      "fieldName": "case_group",
+      "dataTypeName": "text",
+      "description": "Case Group - Additional Categorization",
+      "nullCount": 10623,
+      "cardinality": 27046
+    },
+    {
+      "name": "Case Comments",
+      "fieldName": "case_comments",
+      "dataTypeName": "text",
+      "description": "Case Comments",
+      "nullCount": 8509,
+      "cardinality": 27046
+    },
+    {
+      "name": "Additional Case Location",
+      "fieldName": "additional_case_location",
+      "dataTypeName": "text",
+      "description": "Additional Case Location Information",
+      "nullCount": 18696,
+      "cardinality": 27046
+    },
+    {
+      "name": "Last Case Activity Date/Time",
+      "fieldName": "last_case_activity_date_time",
+      "dataTypeName": "calendar_date",
+      "description": "Last date and time Case record updated in database",
+      "nullCount": 2859,
+      "cardinality": 27046
+    },
+    {
+      "name": "Resolution Code",
+      "fieldName": "resolution_code",
+      "dataTypeName": "text",
+      "description": "Case Resolution Code",
+      "nullCount": 25002,
+      "cardinality": 27044
+    },
+    {
+      "name": "Resolution Date/Time",
+      "fieldName": "resolution_date_time",
+      "dataTypeName": "calendar_date",
+      "description": "Case Resolution Date and Time",
+      "nullCount": 23544,
+      "cardinality": 27044
+    },
+    {
+      "name": "Case Status",
+      "fieldName": "case_status",
+      "dataTypeName": "text",
+      "description": "Status of Case - O = Open; C = Complete; V = Void",
+      "nullCount": 0,
+      "cardinality": 27046
+    },
+    {
+      "name": "Disposition Code",
+      "fieldName": "disposition_code",
+      "dataTypeName": "text",
+      "description": "Case Hearing/Court Disposition Code",
+      "nullCount": 16962,
+      "cardinality": 27046
+    },
+    {
+      "name": "Disposition Description",
+      "fieldName": "disposition_description",
+      "dataTypeName": "text",
+      "description": "Case Hearing/Court Disposition Description",
+      "nullCount": 17022,
+      "cardinality": 27046
+    },
+    {
+      "name": "Last Hearing/Court Date",
+      "fieldName": "last_hearing_court_date",
+      "dataTypeName": "calendar_date",
+      "description": "Last Hearing/Court Date",
+      "nullCount": 16969,
+      "cardinality": 27046
+    },
+    {
+      "name": "Next Hearing/Court Date",
+      "fieldName": "next_hearing_court_date",
+      "dataTypeName": "calendar_date",
+      "description": "Next Hearing/Court Date",
+      "nullCount": 26106,
+      "cardinality": 27046
+    },
+    {
+      "name": "Next Hearing/Court Time",
+      "fieldName": "next_hearing_court_time",
+      "dataTypeName": "text",
+      "description": "Next Hearing/Court Time",
+      "nullCount": 26241,
+      "cardinality": 27046
+    },
+    {
+      "name": "Next Hearing/Court Room",
+      "fieldName": "next_hearing_court_room",
+      "dataTypeName": "number",
+      "description": "Next Hearing/Court Room",
+      "nullCount": 26226,
+      "cardinality": 27046
+    },
+    {
+      "name": "MMRP Zone",
+      "fieldName": "mmrp_zone",
+      "dataTypeName": "text",
+      "description": "Name of MMRP Zone",
+      "nullCount": 0,
+      "cardinality": 27046
+    },
+    {
+      "name": "Street Number",
+      "fieldName": "street_number",
+      "dataTypeName": "number",
+      "description": "Address Street Number",
+      "nullCount": 0,
+      "cardinality": 27046
+    },
+    {
+      "name": "Pre-Direction",
+      "fieldName": "pre_direction",
+      "dataTypeName": "text",
+      "description": "Address Pre-Direction",
+      "nullCount": 0,
+      "cardinality": 27046
+    },
+    {
+      "name": "Street Name",
+      "fieldName": "street_name",
+      "dataTypeName": "text",
+      "description": "Address Street Name",
+      "nullCount": 0,
+      "cardinality": 27046
+    },
+    {
+      "name": "Suffix",
+      "fieldName": "suffix",
+      "dataTypeName": "text",
+      "description": "Address Suffix",
+      "nullCount": 0,
+      "cardinality": 27046
+    },
+    {
+      "name": "Post Direction",
+      "fieldName": "post_direction",
+      "dataTypeName": "number",
+      "description": "Address Post Direction",
+      "nullCount": 27046,
+      "cardinality": 27046
+    },
+    {
+      "name": "Zip Code",
+      "fieldName": "zip_code",
+      "dataTypeName": "number",
+      "description": "Address Zip Code",
+      "nullCount": 0,
+      "cardinality": 27046
+    },
+    {
+      "name": "Community Area",
+      "fieldName": "community_area",
+      "dataTypeName": "number",
+      "description": "Geography - Community Area",
+      "nullCount": 0,
+      "cardinality": 27046
+    },
+    {
+      "name": "Ward",
+      "fieldName": "ward",
+      "dataTypeName": "number",
+      "description": "Geography - Ward",
+      "nullCount": 0,
+      "cardinality": 27046
+    },
+    {
+      "name": "X Coord",
+      "fieldName": "x_coord",
+      "dataTypeName": "number",
+      "description": "X Coord - State Plane Eastern IL 1983",
+      "nullCount": 114,
+      "cardinality": 27046
+    },
+    {
+      "name": "Y Coord",
+      "fieldName": "y_coord",
+      "dataTypeName": "number",
+      "description": "Y Coord - State Plane Eastern IL 1983",
+      "nullCount": 114,
+      "cardinality": 27046
+    },
+    {
+      "name": "Latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": "Latitude",
+      "nullCount": 148,
+      "cardinality": 27046
+    },
+    {
+      "name": "Longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": "Longitude",
+      "nullCount": 148,
+      "cardinality": 27046
+    },
+    {
+      "name": "Central Business District",
+      "fieldName": "central_business_district",
+      "dataTypeName": "text",
+      "description": "Central Business District as described by Ordinance - \"Central Business District\" means the district consisting of those streets or parts of streets within the area bounded by a line as follows: beginning at the easternmost point of Division Street extended to Lake Michigan; then west on Division Street to LaSalle Street; then south on LaSalle Street to Chicago Avenue; then west on Chicago Avenue to Halsted Street; then south on Halsted Street to Roosevelt Road; then east on Roosevelt Road to its easternmost point extended to Lake Michigan; including parking spaces on both sides of the above-mentioned streets.",
+      "nullCount": 26501,
+      "cardinality": 27046
+    },
+    {
+      "name": "Address Key",
+      "fieldName": "address_key",
+      "dataTypeName": "number",
+      "description": "Address Unique Key (use this column to link cases to MMRP Geographies data set - ADDRKEY)",
+      "nullCount": 0,
+      "cardinality": 27046
+    },
+    {
+      "name": "Address Grouping Key",
+      "fieldName": "address_grouping_key",
+      "dataTypeName": "number",
+      "description": "Address Group Unique Key (use this column to link cases to MMRP Geographies data set - ADDRGRPKEY).  An Address Group is a grouping of point addresses (ADDRKEY's) at the same property; example: the Daley Center is located on 4 bounding streets (Washington, Dearborn, Randolph and Clark) and each street has many point addresses for the Daley Center.  All point addresses on all four bounding streets are grouped using the same ADDRGRPKEY.  This field allows for ALL activity at a building to be grouped into one dataset.",
+      "nullCount": 0,
+      "cardinality": 27046
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": "Geocoded Location based on Latitude/Longitude",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:03.214Z"
+}

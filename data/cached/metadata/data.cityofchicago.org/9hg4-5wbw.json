@@ -1,0 +1,79 @@
+{
+  "id": "9hg4-5wbw",
+  "name": "FOIA Request Log - Housing",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 355,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1715183597,
+  "publicationDate": 1715183599,
+  "rowsUpdatedAt": 1790797430,
+  "viewLastModified": 1790797429,
+  "viewCount": 946,
+  "downloadCount": 37308,
+  "category": "FOIA",
+  "tags": [
+    "foia",
+    "housing"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "March 2023 to present",
+      "Frequency": "Data is updated as needed",
+      "Data Owner": "Housing"
+    }
+  },
+  "columns": [
+    {
+      "name": "REQUESTOR NAME",
+      "fieldName": "requestor_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 355
+    },
+    {
+      "name": "ORGANIZATION",
+      "fieldName": "organization",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 168,
+      "cardinality": 355
+    },
+    {
+      "name": "DESCRIPTION OF REQUEST",
+      "fieldName": "description_of_request",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 355
+    },
+    {
+      "name": "DATE RECEIVED",
+      "fieldName": "date_received",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 355
+    },
+    {
+      "name": "DUE DATE",
+      "fieldName": "due_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 355
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:21.248Z"
+}

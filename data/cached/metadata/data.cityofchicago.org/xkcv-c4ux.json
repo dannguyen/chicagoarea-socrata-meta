@@ -1,0 +1,149 @@
+{
+  "id": "xkcv-c4ux",
+  "name": "Libraries - 2018 Holds Filled by Location",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 80,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1519854120,
+  "publicationDate": 1535123333,
+  "rowsUpdatedAt": 1706898466,
+  "viewLastModified": 1782944319,
+  "viewCount": 925,
+  "downloadCount": 1825,
+  "category": "Education",
+  "tags": [
+    "libraries",
+    "holds filled"
+  ],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Data Owner": "Chicago Public Library"
+    }
+  },
+  "columns": [
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 80
+    },
+    {
+      "name": "JANUARY",
+      "fieldName": "january",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 73
+    },
+    {
+      "name": "FEBRUARY",
+      "fieldName": "february",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 75
+    },
+    {
+      "name": "MARCH",
+      "fieldName": "march",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 76
+    },
+    {
+      "name": "APRIL",
+      "fieldName": "april",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 76
+    },
+    {
+      "name": "MAY",
+      "fieldName": "may",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 78
+    },
+    {
+      "name": "JUNE",
+      "fieldName": "june",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 76
+    },
+    {
+      "name": "JULY",
+      "fieldName": "july",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": "AUGUST",
+      "fieldName": "august",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 76
+    },
+    {
+      "name": "SEPTEMBER",
+      "fieldName": "september",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 76
+    },
+    {
+      "name": "OCTOBER",
+      "fieldName": "october",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 73
+    },
+    {
+      "name": "NOVEMBER",
+      "fieldName": "november",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 78
+    },
+    {
+      "name": "DECEMBER",
+      "fieldName": "december",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 76
+    },
+    {
+      "name": "YTD",
+      "fieldName": "ytd",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 80
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:21.403Z"
+}

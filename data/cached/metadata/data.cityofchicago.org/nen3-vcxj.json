@@ -1,0 +1,200 @@
+{
+  "id": "nen3-vcxj",
+  "name": "Public Technology Resources",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 250,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1302292812,
+  "publicationDate": 1360623833,
+  "rowsUpdatedAt": 1360618094,
+  "viewLastModified": 1360623833,
+  "viewCount": 5130,
+  "downloadCount": 5191,
+  "category": "Facilities & Geographic Boundaries",
+  "tags": [
+    "facilities",
+    "gis"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://locations.weconnectchicago.org/",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "",
+      "Frequency": "Data is updated as needed",
+      "Data Owner": "Innovation & Technology"
+    }
+  },
+  "columns": [
+    {
+      "name": "TYPE",
+      "fieldName": "type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "FACILITY",
+      "fieldName": "facility",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 243
+    },
+    {
+      "name": "STREET ADDRESS",
+      "fieldName": "street_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 247
+    },
+    {
+      "name": "CITY",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "STATE",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "ZIP",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 56
+    },
+    {
+      "name": "PHONE",
+      "fieldName": "phone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 231
+    },
+    {
+      "name": "WEBSITE",
+      "fieldName": "website",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": "HOURS",
+      "fieldName": "hours",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 82
+    },
+    {
+      "name": "APPOINTMENT",
+      "fieldName": "appointment",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 36,
+      "cardinality": 6
+    },
+    {
+      "name": "INTERNET",
+      "fieldName": "internet",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "WIFI",
+      "fieldName": "wifi",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "TRAINING",
+      "fieldName": "training",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:04.478Z"
+}

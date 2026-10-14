@@ -1,0 +1,63 @@
+{
+  "id": "9wf2-y3bn",
+  "name": "Ethics Pledge",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2040,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1316732139,
+  "publicationDate": 1501608347,
+  "rowsUpdatedAt": 1778526794,
+  "viewLastModified": 1778526793,
+  "viewCount": 8137,
+  "downloadCount": 8070,
+  "category": "Ethics",
+  "tags": [
+    "personnel"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org/content/city/en/depts/ethics/dataset/ethics_pledge.html",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "May 2011 to current",
+      "Frequency": "Data are updated as needed",
+      "Data Owner": "Ethics"
+    }
+  },
+  "columns": [
+    {
+      "name": "DEPARTMENT",
+      "fieldName": "department",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2040
+    },
+    {
+      "name": "NAME",
+      "fieldName": "name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2040
+    },
+    {
+      "name": "JOB TITLE",
+      "fieldName": "job_title",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1523,
+      "cardinality": 2040
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:01.115Z"
+}

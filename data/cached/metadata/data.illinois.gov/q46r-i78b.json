@@ -1,0 +1,112 @@
+{
+  "id": "q46r-i78b",
+  "name": "Grants to Illinois Artists and Arts Organizations",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 11286,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1718284932,
+  "publicationDate": 1737737027,
+  "rowsUpdatedAt": 1791574248,
+  "viewLastModified": 1791574247,
+  "viewCount": 45828,
+  "downloadCount": 65,
+  "category": "Natural and Cultural Resources",
+  "tags": [
+    "grants"
+  ],
+  "attribution": "Illinois Arts Council",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Illinois Arts Council"
+    },
+    "Data Management": {
+      "Maintainer": "Illinois Arts Council",
+      "Maintainer Email": "iac.info@illinois.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "Fiscal Year",
+      "fieldName": "fiscal_year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11286
+    },
+    {
+      "name": "Applicant: Applicant Name",
+      "fieldName": "applicant_applicant_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11286
+    },
+    {
+      "name": "Applicant: Zip",
+      "fieldName": "applicant_zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 11286
+    },
+    {
+      "name": "Application: Application Name",
+      "fieldName": "application_application_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11286
+    },
+    {
+      "name": "Grant Program",
+      "fieldName": "grant_program",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3270,
+      "cardinality": 11286
+    },
+    {
+      "name": "Awarded Amount",
+      "fieldName": "awarded_amount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 11286
+    },
+    {
+      "name": "Payment Authorization Date",
+      "fieldName": "payment_authorization_date",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11286
+    },
+    {
+      "name": "Term Start Date",
+      "fieldName": "term_start_date",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 342,
+      "cardinality": 11286
+    },
+    {
+      "name": "Term End Date",
+      "fieldName": "term_end_date",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 342,
+      "cardinality": 11286
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:33.103Z"
+}

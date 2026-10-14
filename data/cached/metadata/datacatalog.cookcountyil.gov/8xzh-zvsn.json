@@ -1,0 +1,72 @@
+{
+  "id": "8xzh-zvsn",
+  "name": "Industrial Engineers--Natural Gas Usage by Facility, by Month",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2733,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1315425672,
+  "publicationDate": 1414428081,
+  "rowsUpdatedAt": 1414428075,
+  "viewLastModified": 1769547508,
+  "viewCount": 1450,
+  "downloadCount": 1941,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Industrial Engineers",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Facility Address",
+      "fieldName": "facility_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 55
+    },
+    {
+      "name": "Month",
+      "fieldName": "month",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 37
+    },
+    {
+      "name": "Fiscal Year",
+      "fieldName": "fiscal_year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Gas Cost",
+      "fieldName": "gas_cost",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 23,
+      "cardinality": 2594
+    },
+    {
+      "name": "Usage",
+      "fieldName": "usage",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 2127
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:59.237Z"
+}

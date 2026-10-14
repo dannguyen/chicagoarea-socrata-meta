@@ -1,0 +1,423 @@
+{
+  "id": "ujwc-724r",
+  "name": "Micro-Market Recovery Program - Violations and Inspections",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 272372,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1371836339,
+  "publicationDate": 1390931842,
+  "rowsUpdatedAt": 1791954776,
+  "viewLastModified": 1414165395,
+  "viewCount": 17092,
+  "downloadCount": 12504,
+  "category": "Community & Economic Development",
+  "tags": [
+    "buildings",
+    "inspections"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2001-",
+      "Frequency": "Daily",
+      "Data Owner": "Department of Housing and Economic Development"
+    }
+  },
+  "columns": [
+    {
+      "name": "Template Type",
+      "fieldName": "template_type",
+      "dataTypeName": "text",
+      "description": "Template Type: BLDG = Permits; CASE = Case",
+      "nullCount": 0,
+      "cardinality": 272372
+    },
+    {
+      "name": "Permit or Case Type",
+      "fieldName": "permit_or_case_type",
+      "dataTypeName": "text",
+      "description": "Associated Permit or Case Type (Violations must be linked to an Inspection; Inspections must be linked to a Case or Permit)",
+      "nullCount": 0,
+      "cardinality": 272372
+    },
+    {
+      "name": "Permit or Case Description",
+      "fieldName": "permit_or_case_description",
+      "dataTypeName": "text",
+      "description": "Associated Permit or Case Description",
+      "nullCount": 0,
+      "cardinality": 272372
+    },
+    {
+      "name": "Permit or Case Primary Key",
+      "fieldName": "permit_or_case_primary_key",
+      "dataTypeName": "number",
+      "description": "Permit or Case Primary Key (use this key to link violations and inspections with Permit APKEY_PERMIT and Case APKEY_CASE datasets)",
+      "nullCount": 0,
+      "cardinality": 272372
+    },
+    {
+      "name": "Inspection Number",
+      "fieldName": "inspection_number",
+      "dataTypeName": "number",
+      "description": "Inspection Number",
+      "nullCount": 0,
+      "cardinality": 272372
+    },
+    {
+      "name": "Inspection Completed Date and Time",
+      "fieldName": "inspection_completed_date_and_time",
+      "dataTypeName": "calendar_date",
+      "description": "Inspection Completed Date and Time",
+      "nullCount": 15,
+      "cardinality": 272372
+    },
+    {
+      "name": "Inspected By",
+      "fieldName": "inspected_by",
+      "dataTypeName": "text",
+      "description": "Inspector ID who performed the on-site Inspection",
+      "nullCount": 3115,
+      "cardinality": 272372
+    },
+    {
+      "name": "Inspection Type",
+      "fieldName": "inspection_type",
+      "dataTypeName": "text",
+      "description": "Type of Inspection",
+      "nullCount": 0,
+      "cardinality": 272372
+    },
+    {
+      "name": "Partial Inspection",
+      "fieldName": "partial_inspection",
+      "dataTypeName": "text",
+      "description": "Partial Inspection Y/N",
+      "nullCount": 5,
+      "cardinality": 272372
+    },
+    {
+      "name": "Trip Number",
+      "fieldName": "trip_number",
+      "dataTypeName": "number",
+      "description": "Trip Number is the inspection number in the series of inspections at the same property (aka Reinspections)",
+      "nullCount": 0,
+      "cardinality": 272372
+    },
+    {
+      "name": "Inspection Waived",
+      "fieldName": "inspection_waived",
+      "dataTypeName": "text",
+      "description": "Inspection Waived Y/N",
+      "nullCount": 4054,
+      "cardinality": 272372
+    },
+    {
+      "name": "Inspection Waived Date and Time",
+      "fieldName": "inspection_waived_date_and_time",
+      "dataTypeName": "text",
+      "description": "Inspection Waived Date and Time",
+      "nullCount": 272202,
+      "cardinality": 272372
+    },
+    {
+      "name": "Inspection Status",
+      "fieldName": "inspection_status",
+      "dataTypeName": "text",
+      "description": "Status of Case - CANCELED; CLOSED; FAILED; HOLD; PASSED",
+      "nullCount": 0,
+      "cardinality": 272372
+    },
+    {
+      "name": "Violation Primary Key",
+      "fieldName": "violation_primary_key",
+      "dataTypeName": "number",
+      "description": "Violation Primary Key",
+      "nullCount": 52920,
+      "cardinality": 272372
+    },
+    {
+      "name": "Modified Date/Time",
+      "fieldName": "modified_date_time",
+      "dataTypeName": "calendar_date",
+      "description": "Date and Time stamp when record was last updated in the database",
+      "nullCount": 165161,
+      "cardinality": 272372
+    },
+    {
+      "name": "Violation Complied Date",
+      "fieldName": "violation_complied_date",
+      "dataTypeName": "calendar_date",
+      "description": "Violation Complied Date - null value = Uncomplied/Open Violation",
+      "nullCount": 163625,
+      "cardinality": 272372
+    },
+    {
+      "name": "Violation Comments",
+      "fieldName": "violation_comments",
+      "dataTypeName": "text",
+      "description": "Violation Inspector Comments",
+      "nullCount": 82707,
+      "cardinality": 272372
+    },
+    {
+      "name": "Violation Code",
+      "fieldName": "violation_code",
+      "dataTypeName": "text",
+      "description": "Predefined Violation Code",
+      "nullCount": 52920,
+      "cardinality": 272372
+    },
+    {
+      "name": "Violation Location",
+      "fieldName": "violation_location",
+      "dataTypeName": "text",
+      "description": "Location of Violation at Property",
+      "nullCount": 52938,
+      "cardinality": 272372
+    },
+    {
+      "name": "Violation Date",
+      "fieldName": "violation_date",
+      "dataTypeName": "calendar_date",
+      "description": "Violation Written Date",
+      "nullCount": 52920,
+      "cardinality": 272372
+    },
+    {
+      "name": "Violation Additional Comments",
+      "fieldName": "violation_additional_comments",
+      "dataTypeName": "text",
+      "description": "Violation Inspector Additional Comments",
+      "nullCount": 272352,
+      "cardinality": 272372
+    },
+    {
+      "name": "Violation Additional Comments2",
+      "fieldName": "violation_additional_comments2",
+      "dataTypeName": "text",
+      "description": "Violation Inspector Additional Comments2",
+      "nullCount": 272372,
+      "cardinality": 272372
+    },
+    {
+      "name": "Violation Sequence Number",
+      "fieldName": "violation_sequence_number",
+      "dataTypeName": "number",
+      "description": "Sequence of Violations on an Inspection - Order Violations Written",
+      "nullCount": 59964,
+      "cardinality": 272372
+    },
+    {
+      "name": "Violation Status",
+      "fieldName": "violation_status",
+      "dataTypeName": "text",
+      "description": "Violation Status - null value = Uncomplied/Open Violation",
+      "nullCount": 172751,
+      "cardinality": 272372
+    },
+    {
+      "name": "Violation Description",
+      "fieldName": "violation_description",
+      "dataTypeName": "text",
+      "description": "Predefined Description of Violation Code",
+      "nullCount": 54500,
+      "cardinality": 272372
+    },
+    {
+      "name": "Violation Code Book Text",
+      "fieldName": "violation_code_book_text",
+      "dataTypeName": "text",
+      "description": "Predefined Violation Code Book Text/Ordinance Text",
+      "nullCount": 58573,
+      "cardinality": 272372
+    },
+    {
+      "name": "MMRP Zone",
+      "fieldName": "mmrp_zone",
+      "dataTypeName": "text",
+      "description": "Name of MMRP Zone",
+      "nullCount": 0,
+      "cardinality": 272372
+    },
+    {
+      "name": "Street Number",
+      "fieldName": "street_number",
+      "dataTypeName": "number",
+      "description": "Address Street Number",
+      "nullCount": 0,
+      "cardinality": 272372
+    },
+    {
+      "name": "Pre-Direction",
+      "fieldName": "pre_direction",
+      "dataTypeName": "text",
+      "description": "Address Pre-Direction",
+      "nullCount": 0,
+      "cardinality": 272372
+    },
+    {
+      "name": "Street Name",
+      "fieldName": "street_name",
+      "dataTypeName": "text",
+      "description": "Address Street Name",
+      "nullCount": 0,
+      "cardinality": 272372
+    },
+    {
+      "name": "Suffix",
+      "fieldName": "suffix",
+      "dataTypeName": "text",
+      "description": "Address Suffix",
+      "nullCount": 0,
+      "cardinality": 272372
+    },
+    {
+      "name": "Post Direction",
+      "fieldName": "post_direction",
+      "dataTypeName": "number",
+      "description": "Address Post Direction",
+      "nullCount": 272372,
+      "cardinality": 272372
+    },
+    {
+      "name": "Zip Code",
+      "fieldName": "zip_code",
+      "dataTypeName": "number",
+      "description": "Address Zip Code",
+      "nullCount": 0,
+      "cardinality": 272372
+    },
+    {
+      "name": "Community Area",
+      "fieldName": "community_area",
+      "dataTypeName": "number",
+      "description": "Geography - Community Area",
+      "nullCount": 0,
+      "cardinality": 272372
+    },
+    {
+      "name": "Ward",
+      "fieldName": "ward",
+      "dataTypeName": "number",
+      "description": "Geography - Ward",
+      "nullCount": 0,
+      "cardinality": 272372
+    },
+    {
+      "name": "X Coord",
+      "fieldName": "x_coord",
+      "dataTypeName": "number",
+      "description": "X Coord - State Plane Eastern IL 1983",
+      "nullCount": 1832,
+      "cardinality": 272372
+    },
+    {
+      "name": "Y Coord",
+      "fieldName": "y_coord",
+      "dataTypeName": "number",
+      "description": "Y Coord - State Plane Eastern IL 1983",
+      "nullCount": 1832,
+      "cardinality": 272372
+    },
+    {
+      "name": "Latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": "Latitude",
+      "nullCount": 2072,
+      "cardinality": 272372
+    },
+    {
+      "name": "Longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": "Longitude",
+      "nullCount": 2072,
+      "cardinality": 272372
+    },
+    {
+      "name": "Central Business District",
+      "fieldName": "central_business_district",
+      "dataTypeName": "text",
+      "description": "Central Business District as described by Ordinance - \"Central Business District\" means the district consisting of those streets or parts of streets within the area bounded by a line as follows: beginning at the easternmost point of Division Street extended to Lake Michigan; then west on Division Street to LaSalle Street; then south on LaSalle Street to Chicago Avenue; then west on Chicago Avenue to Halsted Street; then south on Halsted Street to Roosevelt Road; then east on Roosevelt Road to its easternmost point extended to Lake Michigan; including parking spaces on both sides of the above-mentioned streets.",
+      "nullCount": 267984,
+      "cardinality": 272372
+    },
+    {
+      "name": "Address Key",
+      "fieldName": "address_key",
+      "dataTypeName": "number",
+      "description": "Address Unique Key (use this column to link violations and inspections to MMRP Geographies data set - ADDRKEY)",
+      "nullCount": 0,
+      "cardinality": 272372
+    },
+    {
+      "name": "Address Grouping Key",
+      "fieldName": "address_grouping_key",
+      "dataTypeName": "number",
+      "description": "Address Group Unique Key (use this column to link violations and inspections to MMRP Geographies data set - ADDRGRPKEY).  An Address Group is a grouping of point addresses (ADDRKEY's) at the same property; example: the Daley Center is located on 4 bounding streets (Washington, Dearborn, Randolph and Clark) and each street has many point addresses for the Daley Center.  All point addresses on all four bounding streets are grouped using the same ADDRGRPKEY.  This field allows for ALL activity at a building to be grouped into one dataset.",
+      "nullCount": 0,
+      "cardinality": 272372
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": "Geocoded Location based on Latitude/Longitude",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:37:48.897Z"
+}

@@ -1,0 +1,177 @@
+{
+  "id": "sm42-rtph",
+  "name": "Libraries - 2014 Computer Sessions by Location",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 81,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1396035246,
+  "publicationDate": 1427471466,
+  "rowsUpdatedAt": 1427471350,
+  "viewLastModified": 1427471466,
+  "viewCount": 1355,
+  "downloadCount": 3095,
+  "category": "Education",
+  "tags": [
+    "libraries",
+    "technology",
+    "computer sessions"
+  ],
+  "attribution": "Chicago Public Library",
+  "attributionLink": "http://chipublib.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "",
+      "Frequency": "",
+      "Data Owner": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 81
+    },
+    {
+      "name": "ADDRESS",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 80
+    },
+    {
+      "name": "CITY",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "ZIP",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 49
+    },
+    {
+      "name": "JANUARY",
+      "fieldName": "january",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": "FEBRUARY",
+      "fieldName": "february",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 79
+    },
+    {
+      "name": "MARCH",
+      "fieldName": "march",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 79
+    },
+    {
+      "name": "APRIL",
+      "fieldName": "april",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": "MAY",
+      "fieldName": "may",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 79
+    },
+    {
+      "name": "JUNE",
+      "fieldName": "june",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 79
+    },
+    {
+      "name": "JULY",
+      "fieldName": "july",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 79
+    },
+    {
+      "name": "AUGUST",
+      "fieldName": "august",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 78
+    },
+    {
+      "name": "SEPTEMBER",
+      "fieldName": "september",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 81
+    },
+    {
+      "name": "OCTOBER",
+      "fieldName": "october",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 80
+    },
+    {
+      "name": "NOVEMBER",
+      "fieldName": "november",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 80
+    },
+    {
+      "name": "DECEMBER",
+      "fieldName": "december",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 78
+    },
+    {
+      "name": "YTD",
+      "fieldName": "ytd",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 81
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:18.112Z"
+}

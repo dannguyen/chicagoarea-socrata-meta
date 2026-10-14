@@ -1,0 +1,451 @@
+{
+  "id": "vcv6-95ym",
+  "name": "CDPH Mental Health Resources (Deprecated November 2023)",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 171,
+  "rowCountSource": "query",
+  "rowLabel": "Clinic",
+  "hasRowIdentifier": false,
+  "createdAt": 1665781924,
+  "publicationDate": 1674235082,
+  "rowsUpdatedAt": 1674751044,
+  "viewLastModified": 1700089327,
+  "viewCount": 1711,
+  "downloadCount": 4506,
+  "category": "Health & Human Services",
+  "tags": [
+    "mental health",
+    "public health",
+    "health",
+    "clinics",
+    "facilities",
+    "deprecated"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "January 2023",
+      "Frequency": "No longer updated",
+      "Data Owner": "Department of Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "Organization",
+      "fieldName": "organization",
+      "dataTypeName": "text",
+      "description": "Organization or Agency",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Site Name",
+      "fieldName": "site_name",
+      "dataTypeName": "text",
+      "description": "Facility Name",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Site Type",
+      "fieldName": "site_type",
+      "dataTypeName": "text",
+      "description": "Type of Health Center",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": "Facility Address",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "ZIP",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": "Facility ZIP Code",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Main Phone",
+      "fieldName": "main_phone",
+      "dataTypeName": "text",
+      "description": "Primary Facility Phone #",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Service Request Phone",
+      "fieldName": "service_request_phone",
+      "dataTypeName": "text",
+      "description": "Service Request Phone # ",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Service Request Alternative - Availability",
+      "fieldName": "service_request_alternative_availability",
+      "dataTypeName": "checkbox",
+      "description": "Alternative Means to Request Services - Availability",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Service Request Alternative - Detail",
+      "fieldName": "service_request_alternative_detail",
+      "dataTypeName": "text",
+      "description": "Alternative Means to Request Services - Detail",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Hours",
+      "fieldName": "hours",
+      "dataTypeName": "text",
+      "description": "Facility Hours",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Evening Hours - Availability",
+      "fieldName": "evening_hours_availability",
+      "dataTypeName": "checkbox",
+      "description": "Availability of Evening Services",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Evening Hours - Detail",
+      "fieldName": "evening_hours_detail",
+      "dataTypeName": "text",
+      "description": "Detail of evening hours",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Weekend Hours - Availability",
+      "fieldName": "weekend_hours_availability",
+      "dataTypeName": "checkbox",
+      "description": "Availability of Weekend Services",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Weekend Hours - Detail",
+      "fieldName": "weekend_hours_detail",
+      "dataTypeName": "text",
+      "description": "Detail of weekend hours for facility",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "TICC Site",
+      "fieldName": "ticc_site",
+      "dataTypeName": "checkbox",
+      "description": "Is the site a Trauma-Informed Center of Care?",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "TICC Areas Served",
+      "fieldName": "ticc_areas_served",
+      "dataTypeName": "text",
+      "description": "Trauma-Informed Center of Care Service Area",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "All Community Areas Served",
+      "fieldName": "all_community_areas_served",
+      "dataTypeName": "text",
+      "description": "All Community Areas Served by Site",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards Served",
+      "fieldName": "wards_served",
+      "dataTypeName": "text",
+      "description": "Aldermanic Wards Served by Site",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Police Districts Served",
+      "fieldName": "police_districts_served",
+      "dataTypeName": "text",
+      "description": "Police Districts Served by Site",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Accepts Uninsured Patients",
+      "fieldName": "accepts_uninsured_patients",
+      "dataTypeName": "checkbox",
+      "description": "Availability of Services for Uninsured Patients",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Sliding Scale Fees",
+      "fieldName": "sliding_scale_fees",
+      "dataTypeName": "text",
+      "description": "Availability of Sliding-Scale Fees",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Insurance Accepted",
+      "fieldName": "insurance_accepted",
+      "dataTypeName": "text",
+      "description": "Types of Insurance Accepted",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Age Range Served",
+      "fieldName": "age_range_served",
+      "dataTypeName": "text",
+      "description": "Ages Served by Site/Facility",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Primary Care Availability",
+      "fieldName": "primary_care_availability",
+      "dataTypeName": "checkbox",
+      "description": "Availability of Primary Care Services",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "BHS Service Availability - PrimaryCare",
+      "fieldName": "bhs_service_availability_primary_care",
+      "dataTypeName": "checkbox",
+      "description": "Restriction of Behavioral Health Services For Primary Care Patients Only",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Telehealth Services Availability",
+      "fieldName": "telehealth_services_availability",
+      "dataTypeName": "checkbox",
+      "description": "Availability of Telehealth Services",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Other Languages",
+      "fieldName": "other_languages",
+      "dataTypeName": "text",
+      "description": "Availability of Non-English Languages for Offered Services",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Language Line Availability",
+      "fieldName": "language_line_availability",
+      "dataTypeName": "checkbox",
+      "description": "Availability of Language-Line Services for Non-English Speaking Patients",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Behavioral Services Types",
+      "fieldName": "behavioral_services_types",
+      "dataTypeName": "text",
+      "description": "Types of Behavioral Health Services Offered",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Crisis Services",
+      "fieldName": "crisis_services",
+      "dataTypeName": "checkbox",
+      "description": "Availability of Crisis Services",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Crisis Intake Phone",
+      "fieldName": "crisis_intake_phone",
+      "dataTypeName": "text",
+      "description": "Crisis Intake Phone #",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Crisis Services Hours",
+      "fieldName": "crisis_services_hours",
+      "dataTypeName": "text",
+      "description": "Hours for Crisis Services",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Crisis Services Types",
+      "fieldName": "crisis_services_types",
+      "dataTypeName": "text",
+      "description": "Types of Crisis Services Offered",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Mental Health Services Type - Special Needs - Availability",
+      "fieldName": "mental_health_services_type_special_needs_availability",
+      "dataTypeName": "text",
+      "description": "Availability of Mental Health Services for Special-Needs Populations",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Mental Health Services Type - Special Needs - Detail",
+      "fieldName": "mental_health_services_type_special_needs_detail",
+      "dataTypeName": "text",
+      "description": "Types of Mental Health Services Available for Special-Needs Populations",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "School-Based Services - Availability",
+      "fieldName": "school_based_services_availability",
+      "dataTypeName": "checkbox",
+      "description": "Availability of School-based Services",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Grief Services - Availability",
+      "fieldName": "grief_services_availability",
+      "dataTypeName": "checkbox",
+      "description": "Availability of Grief/Bereavement Services",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Grief/Bereavement Services Types",
+      "fieldName": "grief_bereavement_services_types",
+      "dataTypeName": "text",
+      "description": "Types of Grief/Bereavement Services",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "First Episode Psychosis Programming - Availability",
+      "fieldName": "first_episode_psychosis_programming_availability",
+      "dataTypeName": "checkbox",
+      "description": "Availability of First Episode Psychosis Programming ",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "First Episode Psychosis Programming - Detail",
+      "fieldName": "first_episode_psychosis_programming_detail",
+      "dataTypeName": "text",
+      "description": "First Episode Psychosis Programming - Detail",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Substance Use Services - Availability",
+      "fieldName": "substance_use_services_availability",
+      "dataTypeName": "checkbox",
+      "description": "Availability of Substance Use Services",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Substance Use Service - Type",
+      "fieldName": "substance_use_services_type",
+      "dataTypeName": "text",
+      "description": "Types of Substance Use Services Offered",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "MAR Medications - Opioid",
+      "fieldName": "mar_medications_opioid",
+      "dataTypeName": "text",
+      "description": "Types of Medication Administered for Medication-Assisted Recovery-Opioid",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "MAR Medications - Alcohol",
+      "fieldName": "mar_medications_alcohol",
+      "dataTypeName": "text",
+      "description": "Types of Medication Administered for Medication-Assisted Recovery-Alcohol",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Harm Reduction Services",
+      "fieldName": "harm_reduction_services",
+      "dataTypeName": "text",
+      "description": "Types of Harm Reduction Services Offered",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": "The location of the clinic in a format that allows for creation of maps and other geographic operations on this data portal.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Boundaries - ZIP Codes' (rpca-8um6) the point in column 'location_2' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Community Areas' (vrxf-vc4k) the point in column 'location_2' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Zip Codes' (6mkv-f3dw) the point in column 'location_2' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Census Tracts' (bdys-3d7i) the point in column 'location_2' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Wards' (43wa-7qmu) the point in column 'location_2' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:15.400Z"
+}

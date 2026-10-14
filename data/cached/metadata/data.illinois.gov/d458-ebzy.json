@@ -1,0 +1,150 @@
+{
+  "id": "d458-ebzy",
+  "name": "IDOT Rest Areas",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 56,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1708036670,
+  "publicationDate": 1708097282,
+  "rowsUpdatedAt": 1708097276,
+  "viewLastModified": 1736794036,
+  "viewCount": 109,
+  "downloadCount": 69,
+  "category": "Transportation",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Transportation"
+    },
+    "Data Management": {
+      "Maintainer": "Michael W Olson",
+      "Maintainer Email": "michael.olson@illinois.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "name",
+      "fieldName": "name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 31
+    },
+    {
+      "name": "route",
+      "fieldName": "route",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 19
+    },
+    {
+      "name": "location",
+      "fieldName": "location",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 31
+    },
+    {
+      "name": "status",
+      "fieldName": "status",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "district",
+      "fieldName": "district",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "id",
+      "fieldName": "id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 30
+    },
+    {
+      "name": "comments",
+      "fieldName": "comments",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 53,
+      "cardinality": 1
+    },
+    {
+      "name": "latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 54
+    },
+    {
+      "name": "longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 54
+    },
+    {
+      "name": "td_station",
+      "fieldName": "td_station",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "vending",
+      "fieldName": "vending",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "wthr_info",
+      "fieldName": "wthr_info",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "assist_rr",
+      "fieldName": "assist_rr",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "center",
+      "fieldName": "center",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:35.198Z"
+}

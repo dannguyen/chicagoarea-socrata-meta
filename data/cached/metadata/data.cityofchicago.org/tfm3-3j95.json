@@ -1,0 +1,179 @@
+{
+  "id": "tfm3-3j95",
+  "name": "Public Passenger Vehicle Licenses",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 15768,
+  "rowCountSource": "cached",
+  "rowLabel": "Public Passenger Vehicle License",
+  "hasRowIdentifier": true,
+  "createdAt": 1400695661,
+  "publicationDate": 1402007815,
+  "rowsUpdatedAt": 1791997329,
+  "viewLastModified": 1774468682,
+  "viewCount": 148816,
+  "downloadCount": 36554,
+  "category": "Community & Economic Development",
+  "tags": [
+    "licenses",
+    "transportation",
+    "vehicles",
+    "taxis",
+    "link to article present"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Current",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"tfm3-3j95\"",
+      "Frequency": "Every hour between 7:30 am and 7:30pm",
+      "Data Owner": "Business Affairs and Consumer Protection"
+    }
+  },
+  "columns": [
+    {
+      "name": "Vehicle Type",
+      "fieldName": "vehicle_type",
+      "dataTypeName": "text",
+      "description": "Type of Public Passenger Vehicle license issued",
+      "nullCount": 0,
+      "cardinality": 15768
+    },
+    {
+      "name": "Public Vehicle Number",
+      "fieldName": "public_vehicle_number",
+      "dataTypeName": "number",
+      "description": "Assigned License Number. For Taxi type licenses, this number is also the corresponding medallion number.",
+      "nullCount": 0,
+      "cardinality": 15768
+    },
+    {
+      "name": "Status",
+      "fieldName": "status",
+      "dataTypeName": "text",
+      "description": "Status of the license.",
+      "nullCount": 0,
+      "cardinality": 15768
+    },
+    {
+      "name": "Vehicle Make",
+      "fieldName": "vehicle_make",
+      "dataTypeName": "text",
+      "description": "Make of the vehicle associated with the license.\n",
+      "nullCount": 960,
+      "cardinality": 15768
+    },
+    {
+      "name": "Vehicle Model",
+      "fieldName": "vehicle_model",
+      "dataTypeName": "text",
+      "description": "Model of the vehicle associated with the license.",
+      "nullCount": 1003,
+      "cardinality": 15768
+    },
+    {
+      "name": "Vehicle Model Year",
+      "fieldName": "vehicle_model_year",
+      "dataTypeName": "number",
+      "description": "Model year of the vehicle associated with the license.",
+      "nullCount": 985,
+      "cardinality": 15768
+    },
+    {
+      "name": "Vehicle Color",
+      "fieldName": "vehicle_color",
+      "dataTypeName": "text",
+      "description": "Color of the vehicle associated with the license.",
+      "nullCount": 1027,
+      "cardinality": 15768
+    },
+    {
+      "name": "Vehicle Fuel Source",
+      "fieldName": "vehicle_fuel_source",
+      "dataTypeName": "text",
+      "description": "Type of fuel used by the vehicle associated with the license.",
+      "nullCount": 0,
+      "cardinality": 15768
+    },
+    {
+      "name": "Wheelchair Accessible",
+      "fieldName": "wheelchair_accessible",
+      "dataTypeName": "text",
+      "description": "Only applies to Taxi type licenses. Yes or No to indicate if the taxi vehicle is a wheelchair accessible vehicle (WAV) or not.  ",
+      "nullCount": 0,
+      "cardinality": 15768
+    },
+    {
+      "name": "Company Name",
+      "fieldName": "company_name",
+      "dataTypeName": "text",
+      "description": "The legal owner/holder of the license.",
+      "nullCount": 0,
+      "cardinality": 15768
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": "Company address",
+      "nullCount": 847,
+      "cardinality": 15768
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": "Company city",
+      "nullCount": 847,
+      "cardinality": 15768
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": "Company state",
+      "nullCount": 847,
+      "cardinality": 15768
+    },
+    {
+      "name": "ZIP Code",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": "Company ZIP Code",
+      "nullCount": 847,
+      "cardinality": 15768
+    },
+    {
+      "name": "Taxi Affiliation",
+      "fieldName": "taxi_affiliation",
+      "dataTypeName": "text",
+      "description": "Only applies to Taxi type licenses. The association the taxi vehicle is affiliated with.",
+      "nullCount": 8808,
+      "cardinality": 15768
+    },
+    {
+      "name": "Taxi Medallion License Management ",
+      "fieldName": "taxi_medallion_license_management",
+      "dataTypeName": "text",
+      "description": "Only applies to Taxi type licenses. Description of who manages the taxicab and medallion license. ",
+      "nullCount": 8844,
+      "cardinality": 15768
+    },
+    {
+      "name": "Record ID",
+      "fieldName": "record_id",
+      "dataTypeName": "text",
+      "description": "A unique ID for each license in this dataset.  It is a combination of the Public Vehicle Number and Vehicle Type.",
+      "nullCount": 0,
+      "cardinality": 15768
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:26:21.573Z"
+}

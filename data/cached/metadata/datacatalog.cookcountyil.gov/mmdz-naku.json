@@ -1,0 +1,64 @@
+{
+  "id": "mmdz-naku",
+  "name": "Risk Management - Department Enrollment Summary - April 2012",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 169,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1337618724,
+  "publicationDate": 1412893985,
+  "rowsUpdatedAt": 1412893981,
+  "viewLastModified": 1769543851,
+  "viewCount": 834,
+  "downloadCount": 2683,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Risk Management",
+  "attributionLink": "http://www.cookcountyrisk.com/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "County Department Number ",
+      "fieldName": "county_department_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 168
+    },
+    {
+      "name": "Enrollment Count",
+      "fieldName": "enrollment_count",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 78
+    },
+    {
+      "name": "Source Column",
+      "fieldName": "source_column",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 169,
+      "cardinality": 0
+    },
+    {
+      "name": "Cost",
+      "fieldName": "cost",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 153
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:05.693Z"
+}

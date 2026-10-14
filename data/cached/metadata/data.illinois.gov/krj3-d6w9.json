@@ -1,0 +1,86 @@
+{
+  "id": "krj3-d6w9",
+  "name": "Public Health Indicators",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 320,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1708036883,
+  "publicationDate": 1708094169,
+  "rowsUpdatedAt": 1708094163,
+  "viewLastModified": 1736797727,
+  "viewCount": 447,
+  "downloadCount": 177,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "Naini Naresh",
+      "Maintainer Email": "naini.narseh@illinois.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "Topic",
+      "fieldName": "topic",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "Category",
+      "fieldName": "category",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 44
+    },
+    {
+      "name": "Indicators",
+      "fieldName": "indicators",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 295
+    },
+    {
+      "name": "Geography Level",
+      "fieldName": "geography_level",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 38
+    },
+    {
+      "name": "Data source",
+      "fieldName": "data_source",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 16
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:33.309Z"
+}

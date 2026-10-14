@@ -1,0 +1,127 @@
+{
+  "id": "9miz-pbzm",
+  "name": "IDPH Home Services Agency Directory",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1029,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1737774365,
+  "publicationDate": 1738813080,
+  "rowsUpdatedAt": 1777390467,
+  "viewLastModified": 1777390466,
+  "viewCount": 14505,
+  "downloadCount": 3119,
+  "category": "Health and Human Services",
+  "tags": [
+    "home services",
+    "home services agency",
+    "hs",
+    "in-home care",
+    "personal care",
+    "companion care",
+    "activities of daily living",
+    "adl",
+    "housekeeping",
+    "non-medical home care",
+    "healthcare licensing",
+    "idph licensure",
+    "210 ilcs 55",
+    "77 ill adm code 245",
+    "healthcare directory",
+    "licensed agencies",
+    "illinois health"
+  ],
+  "attribution": "IDPH",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "IDPH"
+    }
+  },
+  "columns": [
+    {
+      "name": "Facility Name",
+      "fieldName": "facility_name",
+      "dataTypeName": "text",
+      "description": "Legal name of the licensed Home Services Agency as recorded by IDPH. May include a \"DBA\" (doing business as) trade name. The same legal entity may also hold other Part 245 licenses; each is tracked under a separate license number.",
+      "nullCount": 0,
+      "cardinality": 1029
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": "Street address of the agency's licensed parent location. Suite or building numbers are included where applicable. Branch offices and drop-sites are not separately listed.",
+      "nullCount": 0,
+      "cardinality": 1029
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": "Municipality of the agency's licensed parent location.",
+      "nullCount": 0,
+      "cardinality": 1029
+    },
+    {
+      "name": "County",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": "Illinois county of the agency's licensed parent location. The agency's approved geographic service area may extend beyond this county; consult IDPH for service area details.",
+      "nullCount": 0,
+      "cardinality": 1029
+    },
+    {
+      "name": "Zip",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": "Five-digit U.S. Postal Service ZIP code of the agency's licensed parent location.",
+      "nullCount": 0,
+      "cardinality": 1029
+    },
+    {
+      "name": "Contact Name",
+      "fieldName": "contact_name",
+      "dataTypeName": "text",
+      "description": "Primary administrative contact at the agency, designated for IDPH correspondence. Typically the agency manager or licensee.",
+      "nullCount": 0,
+      "cardinality": 1029
+    },
+    {
+      "name": "Phone",
+      "fieldName": "phone",
+      "dataTypeName": "text",
+      "description": "Main published telephone number for the agency, including area code. Format: (XXX) XXX-XXXX.",
+      "nullCount": 0,
+      "cardinality": 1029
+    },
+    {
+      "name": "License Number",
+      "fieldName": "license_number",
+      "dataTypeName": "text",
+      "description": "License number issued by the Illinois Department of Public Health authorizing the agency to operate as a Home Services Agency under 77 Ill. Adm. Code 245. This is the state license number; an entity holding multiple Part 245 license types will have a distinct license number for each.",
+      "nullCount": 0,
+      "cardinality": 1029
+    },
+    {
+      "name": "Exp. Date",
+      "fieldName": "exp_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date on which the agency's current IDPH license expires. Agencies must submit a renewal application prior to this date to maintain authority to operate. Format: YYYY-MM-DD.",
+      "nullCount": 0,
+      "cardinality": 1029
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:29.430Z"
+}

@@ -1,0 +1,106 @@
+{
+  "id": "se99-tpmz",
+  "name": "FY23 Soil & Water Conservation District disbursements",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 196,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1718209768,
+  "publicationDate": 1718210335,
+  "rowsUpdatedAt": 1718210330,
+  "viewLastModified": 1736796084,
+  "viewCount": 88,
+  "downloadCount": 26,
+  "category": "Natural and Cultural Resources",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Work Groups": {
+      "Group": "",
+      "Supplemental Group": ""
+    },
+    "Organizations": {
+      "Organization": "Department of Agriculture"
+    },
+    "Data Management": {
+      "Maintainer": "Melanie Dodd",
+      "Maintainer Email": "melanie.dodd@illinois.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "GRANTOR",
+      "fieldName": "grantor",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "GRANTEE",
+      "fieldName": "grantee",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 98
+    },
+    {
+      "name": "POSTAL CODE",
+      "fieldName": "postal_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 97
+    },
+    {
+      "name": "AUDIT TEXT",
+      "fieldName": "audit_text",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 196
+    },
+    {
+      "name": "AWARD AMOUNT",
+      "fieldName": "award_amount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 98
+    },
+    {
+      "name": "DATE OF AWARD",
+      "fieldName": "date_of_award",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "SERVICE FROM DATE",
+      "fieldName": "service_from_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "SERVICE TO DATE",
+      "fieldName": "service_to_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:35.626Z"
+}

@@ -1,0 +1,86 @@
+{
+  "id": "nwg9-gvig",
+  "name": "Childhood Lead Poisoning Surveillance Report By County, 1994",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 105,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709064787,
+  "publicationDate": 1709146300,
+  "rowsUpdatedAt": 1709146289,
+  "viewLastModified": 1736793950,
+  "viewCount": 38,
+  "downloadCount": 25,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "_15_19_mcg_dl",
+      "fieldName": "_15_19_mcg_dl",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 31
+    },
+    {
+      "name": "_20_44_mcg_dl",
+      "fieldName": "_20_44_mcg_dl",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 32
+    },
+    {
+      "name": "_45_mcg_dl",
+      "fieldName": "_45_mcg_dl",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "base_population_of_children_6_and_under",
+      "fieldName": "base_population_of_children",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 105
+    },
+    {
+      "name": "county",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 105
+    },
+    {
+      "name": "total_tested",
+      "fieldName": "total_tested",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 103
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:39.392Z"
+}

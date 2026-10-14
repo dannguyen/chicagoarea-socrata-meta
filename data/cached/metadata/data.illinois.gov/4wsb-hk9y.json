@@ -1,0 +1,86 @@
+{
+  "id": "4wsb-hk9y",
+  "name": "IDPH 1990-2016 STD Illinois by County Chlamydia",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2862,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1708439769,
+  "publicationDate": 1708440351,
+  "rowsUpdatedAt": 1708440345,
+  "viewLastModified": 1736793990,
+  "viewCount": 40,
+  "downloadCount": 93,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "Sort",
+      "fieldName": "sort",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": "County/Jurisdiction",
+      "fieldName": "county_jurisdiction",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": "CountyFIPS",
+      "fieldName": "countyfips",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 108,
+      "cardinality": null
+    },
+    {
+      "name": "Count",
+      "fieldName": "count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": "Rate",
+      "fieldName": "rate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:38.987Z"
+}

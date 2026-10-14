@@ -1,0 +1,111 @@
+{
+  "id": "nfhf-cbk5",
+  "name": "Performance Metrics - Procurement Services - Task Order Request (TOR)",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 811,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1316562401,
+  "publicationDate": 1791976225,
+  "rowsUpdatedAt": 1791976223,
+  "viewLastModified": 1791976225,
+  "viewCount": 3160,
+  "downloadCount": 4550,
+  "category": "Administration & Finance",
+  "tags": [
+    "performance metrics",
+    "procurement"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org/performance",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "April 2011 - present",
+      "Frequency": "Data is updated weekly",
+      "Data Owner": "Procurement Services"
+    }
+  },
+  "columns": [
+    {
+      "name": "Week",
+      "fieldName": "week",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 811
+    },
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 811
+    },
+    {
+      "name": "Average of Amount of Task Order",
+      "fieldName": "average_of_amount_of_task_order",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 811
+    },
+    {
+      "name": "Total Dollar Amount of Task Order Requests",
+      "fieldName": "total_dollar_amount_of_task_order_requests",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 811
+    },
+    {
+      "name": "Median Cost of Task Order Requests",
+      "fieldName": "median_cost_of_task_order_requests",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 811
+    },
+    {
+      "name": "Average Number of Days to Approve Task Order Request (TOR)",
+      "fieldName": "average_number_of_days_to_approve_task_order_request_tor_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 811
+    },
+    {
+      "name": "Median Number of Days Receipt to Approval",
+      "fieldName": "median_number_of_days_receipt_to_approval",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 811
+    },
+    {
+      "name": "Total Tasks Order Request",
+      "fieldName": "total_tasks_order_request",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 811
+    },
+    {
+      "name": "Target Response Time (Days)",
+      "fieldName": "target_response_time_days_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 811
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:08.270Z"
+}

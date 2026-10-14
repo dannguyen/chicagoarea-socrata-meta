@@ -1,0 +1,390 @@
+{
+  "id": "f7f2-ggz5",
+  "name": "Alternative Fuel Locations",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2046,
+  "rowCountSource": "cached",
+  "rowLabel": "Fuel Location",
+  "hasRowIdentifier": true,
+  "createdAt": 1366393683,
+  "publicationDate": 1445029697,
+  "rowsUpdatedAt": 1791975614,
+  "viewLastModified": 1699908736,
+  "viewCount": 15382,
+  "downloadCount": 22630,
+  "category": "Environment & Sustainable Development",
+  "tags": [
+    "sustainability",
+    "transportation"
+  ],
+  "attribution": "U.S. Department of Energy",
+  "attributionLink": "http://www.afdc.energy.gov/",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Current",
+      "Frequency": "Daily"
+    }
+  },
+  "columns": [
+    {
+      "name": "ID",
+      "fieldName": "id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2046
+    },
+    {
+      "name": "Fuel Type Code",
+      "fieldName": "fuel_type_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2046
+    },
+    {
+      "name": "Station Name",
+      "fieldName": "station_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2046
+    },
+    {
+      "name": "Street Address",
+      "fieldName": "street_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 2046
+    },
+    {
+      "name": "Intersection Directions",
+      "fieldName": "intersection_directions",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1649,
+      "cardinality": 2046
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2046
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2046
+    },
+    {
+      "name": "ZIP",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2046
+    },
+    {
+      "name": "Plus4",
+      "fieldName": "plus4",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2046,
+      "cardinality": 2046
+    },
+    {
+      "name": "Station Phone",
+      "fieldName": "station_phone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 117,
+      "cardinality": 2046
+    },
+    {
+      "name": "Status Code",
+      "fieldName": "status_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2046
+    },
+    {
+      "name": "Expected Date",
+      "fieldName": "expected_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 2006,
+      "cardinality": 2046
+    },
+    {
+      "name": "Groups With Access Code",
+      "fieldName": "groups_with_access_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2046
+    },
+    {
+      "name": "Access Days Time",
+      "fieldName": "access_days_time",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 228,
+      "cardinality": 2046
+    },
+    {
+      "name": "Cards Accepted",
+      "fieldName": "cards_accepted",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1465,
+      "cardinality": 2046
+    },
+    {
+      "name": "BD Blends",
+      "fieldName": "bd_blends",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1953,
+      "cardinality": 2046
+    },
+    {
+      "name": "NG Fill Type Code",
+      "fieldName": "ng_fill_type_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2015,
+      "cardinality": 2046
+    },
+    {
+      "name": "NG PSI",
+      "fieldName": "ng_psi",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2015,
+      "cardinality": 2046
+    },
+    {
+      "name": "EV Level1 EVSE Num",
+      "fieldName": "ev_level1_evse_num",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2040,
+      "cardinality": 2046
+    },
+    {
+      "name": "EV Level2 EVSE Num",
+      "fieldName": "ev_level2_evse_num",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 870,
+      "cardinality": 2046
+    },
+    {
+      "name": "EV DC Fast Count",
+      "fieldName": "ev_dc_fast_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1591,
+      "cardinality": 2046
+    },
+    {
+      "name": "EV Other Info",
+      "fieldName": "ev_other_info",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2046,
+      "cardinality": 2046
+    },
+    {
+      "name": "EV Network",
+      "fieldName": "ev_network",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 453,
+      "cardinality": 2046
+    },
+    {
+      "name": "EV Network Web",
+      "fieldName": "ev_network_web",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": 486,
+      "cardinality": null
+    },
+    {
+      "name": "Geocode Status",
+      "fieldName": "geocode_status",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2046
+    },
+    {
+      "name": "Latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2046
+    },
+    {
+      "name": "Longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2046
+    },
+    {
+      "name": "Date Last Confirmed",
+      "fieldName": "date_last_confirmed",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 2046
+    },
+    {
+      "name": "Updated At",
+      "fieldName": "updated_at",
+      "dataTypeName": "date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2046
+    },
+    {
+      "name": "Owner Type Code",
+      "fieldName": "owner_type_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1214,
+      "cardinality": 2046
+    },
+    {
+      "name": "Federal Agency ID",
+      "fieldName": "federal_agency_id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2002,
+      "cardinality": 2046
+    },
+    {
+      "name": "Federal Agency Name",
+      "fieldName": "federal_agency_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2002,
+      "cardinality": 2046
+    },
+    {
+      "name": "Open Date",
+      "fieldName": "open_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 14,
+      "cardinality": 2046
+    },
+    {
+      "name": "Hydrogen Status Link",
+      "fieldName": "hydrogen_status_link",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2046,
+      "cardinality": 2046
+    },
+    {
+      "name": "NG Vehicle Class",
+      "fieldName": "ng_vehicle_class",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2013,
+      "cardinality": 2046
+    },
+    {
+      "name": "LPG Primary",
+      "fieldName": "lpg_primary",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1999,
+      "cardinality": 2046
+    },
+    {
+      "name": "E85 Blender Pump",
+      "fieldName": "e85_blender_pump",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1769,
+      "cardinality": 2046
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:37:49.223Z"
+}

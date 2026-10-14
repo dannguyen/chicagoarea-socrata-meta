@@ -1,0 +1,119 @@
+{
+  "id": "3jp5-q965",
+  "name": "Early Voting Locations - 2016 November 8 Presidential General Election",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 52,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1478797268,
+  "publicationDate": 1686674236,
+  "rowsUpdatedAt": 1478806710,
+  "viewLastModified": 1769546419,
+  "viewCount": 583,
+  "downloadCount": 18450,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Clerk",
+  "attributionLink": "http://www.cookcountyclerk.com",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Clerk"
+    },
+    "Metadata": {
+      "Update Frequency": "No updates"
+    },
+    "Detailed Descriptive": {
+      "Geographic coverage": "Cook County without City of Chicago",
+      "Geographic unit": "Street Address"
+    },
+    "Publishing Details": {
+      "Data change frequency": "As needed",
+      "Publishing frequency": "Not updated (historical only)"
+    }
+  },
+  "columns": [
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 52
+    },
+    {
+      "name": "Hours - Weekday",
+      "fieldName": "hours_weekday",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Hours - Saturday",
+      "fieldName": "hours_saturday",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Hours - Sunday",
+      "fieldName": "hours_sunday",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 52
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Zip",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 49
+    },
+    {
+      "name": "Location 1",
+      "fieldName": "location_1",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:09.399Z"
+}

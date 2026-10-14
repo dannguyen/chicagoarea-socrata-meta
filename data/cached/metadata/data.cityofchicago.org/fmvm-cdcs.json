@@ -1,0 +1,215 @@
+{
+  "id": "fmvm-cdcs",
+  "name": "Budget - 2015 Budget Recommendations - Positions and Salaries",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 7709,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1413385530,
+  "publicationDate": 1413496541,
+  "rowsUpdatedAt": 1413496507,
+  "viewLastModified": 1413496541,
+  "viewCount": 5010,
+  "downloadCount": 4038,
+  "category": "Administration & Finance",
+  "tags": [
+    "budget",
+    "2015"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org/city/en/depts/obm.html",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2015",
+      "Frequency": "Data are updated annually",
+      "Data Owner": "Budget & Management"
+    }
+  },
+  "columns": [
+    {
+      "name": "FUND TYPE",
+      "fieldName": "fund_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "DEPARTMENT CODE",
+      "fieldName": "department_code",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 35
+    },
+    {
+      "name": "DEPARTMENT DESCRIPTION",
+      "fieldName": "department_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 35
+    },
+    {
+      "name": "FUND CODE",
+      "fieldName": "fund_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 89
+    },
+    {
+      "name": "FUND DESCRIPTION",
+      "fieldName": "fund_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 84
+    },
+    {
+      "name": "ORGANIZATION CODE",
+      "fieldName": "organization_code",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "ORGANIZATION DESCRIPTION",
+      "fieldName": "organization_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 54
+    },
+    {
+      "name": "DIVISION CODE",
+      "fieldName": "division_code",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 115
+    },
+    {
+      "name": "DIVISION DESCRIPTION",
+      "fieldName": "division_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 173
+    },
+    {
+      "name": "SECTION CODE",
+      "fieldName": "section_code",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 270
+    },
+    {
+      "name": "SECTION DESCRIPTION",
+      "fieldName": "section_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 382
+    },
+    {
+      "name": "SUBSECTION CODE",
+      "fieldName": "subsection_code",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 241
+    },
+    {
+      "name": "SUB-SECTION DESCRIPTION",
+      "fieldName": "sub_section_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3673,
+      "cardinality": 327
+    },
+    {
+      "name": "SCHEDULE / GRADE",
+      "fieldName": "schedule_grade",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 125
+    },
+    {
+      "name": "BARGAINING UNIT",
+      "fieldName": "bargaining_unit",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 55
+    },
+    {
+      "name": "TITLE CODE",
+      "fieldName": "title_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1211
+    },
+    {
+      "name": "TITLE DESCRIPTION",
+      "fieldName": "title_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1170
+    },
+    {
+      "name": "BUDGETED UNIT",
+      "fieldName": "budgeted_unit",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "TOTAL BUDGETED UNIT",
+      "fieldName": "total_budgeted_unit",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 174
+    },
+    {
+      "name": "POSITION CONTROL",
+      "fieldName": "position_control",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "BUDGETED PAY RATE",
+      "fieldName": "budgeted_pay_rate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2035
+    },
+    {
+      "name": "TOTAL BUDGETED AMOUNT",
+      "fieldName": "total_budgeted_amount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3137
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:04.942Z"
+}

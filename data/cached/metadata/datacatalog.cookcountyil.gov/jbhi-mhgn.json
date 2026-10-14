@@ -1,0 +1,104 @@
+{
+  "id": "jbhi-mhgn",
+  "name": "Directory Of Judges 9.19.11",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 417,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1318328370,
+  "publicationDate": 1685661428,
+  "rowsUpdatedAt": 1414428145,
+  "viewLastModified": 1769542695,
+  "viewCount": 1347,
+  "downloadCount": 2659,
+  "category": "Legal & Judicial",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "LAST",
+      "fieldName": "last",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 369
+    },
+    {
+      "name": "FIRST",
+      "fieldName": "first",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 228
+    },
+    {
+      "name": "TYPE",
+      "fieldName": "type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 7
+    },
+    {
+      "name": "Location 1",
+      "fieldName": "location_1",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "ST",
+      "fieldName": "st",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 1
+    },
+    {
+      "name": "AREA",
+      "fieldName": "area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 4
+    },
+    {
+      "name": "PHONE#",
+      "fieldName": "phone_",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 218
+    },
+    {
+      "name": "DIVISION",
+      "fieldName": "division",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 12
+    },
+    {
+      "name": "SECTION",
+      "fieldName": "section",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 191,
+      "cardinality": 12
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:00.381Z"
+}

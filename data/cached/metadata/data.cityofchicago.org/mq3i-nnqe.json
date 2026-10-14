@@ -1,0 +1,152 @@
+{
+  "id": "mq3i-nnqe",
+  "name": "CTA - Ridership - Avg. Weekday Bus Stop Boardings in October 2012",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 11593,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1313097751,
+  "publicationDate": 1356020740,
+  "rowsUpdatedAt": 1356020329,
+  "viewLastModified": 1468257569,
+  "viewCount": 20470,
+  "downloadCount": 12145,
+  "category": "Transportation",
+  "tags": [
+    "cta",
+    "public transit",
+    "ridership",
+    "sustainability",
+    "chicago transit authority"
+  ],
+  "attribution": "Chicago Transit Authority",
+  "attributionLink": "http://www.transitchicago.com",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Data Owner": "Chicago Transit Authority "
+    }
+  },
+  "columns": [
+    {
+      "name": "stop_id",
+      "fieldName": "stop_id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11593
+    },
+    {
+      "name": "on_street",
+      "fieldName": "on_street",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 365
+    },
+    {
+      "name": "cross_street",
+      "fieldName": "cross_street",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1886
+    },
+    {
+      "name": "routes",
+      "fieldName": "routes",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 592
+    },
+    {
+      "name": "boardings",
+      "fieldName": "boardings",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2855
+    },
+    {
+      "name": "alightings",
+      "fieldName": "alightings",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2844
+    },
+    {
+      "name": "month_beginning",
+      "fieldName": "month",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "daytype",
+      "fieldName": "daytype",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "location",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:35:21.546Z"
+}

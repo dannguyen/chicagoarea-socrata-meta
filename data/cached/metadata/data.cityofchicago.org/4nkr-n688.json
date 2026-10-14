@@ -1,0 +1,76 @@
+{
+  "id": "4nkr-n688",
+  "name": "FOIA Request Log - License Appeal Commission",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 36,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1317057254,
+  "publicationDate": 1522947547,
+  "rowsUpdatedAt": 1522947526,
+  "viewLastModified": 1615325147,
+  "viewCount": 3866,
+  "downloadCount": 6499,
+  "category": "FOIA",
+  "tags": [],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "May 2010 - present",
+      "Frequency": "Data is updated as needed",
+      "Data Owner": "License Appeal Commission"
+    }
+  },
+  "columns": [
+    {
+      "name": "REQUESTOR NAME",
+      "fieldName": "requestor_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 31
+    },
+    {
+      "name": "ORGANIZATION",
+      "fieldName": "organization",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 11,
+      "cardinality": 22
+    },
+    {
+      "name": "DESCRIPTION OF REQUEST",
+      "fieldName": "description_of_request",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 35
+    },
+    {
+      "name": "DATE RECEIVED",
+      "fieldName": "date_received",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 35
+    },
+    {
+      "name": "DUE DATE",
+      "fieldName": "due_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 35
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:06.580Z"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "82f8-mjdb",
+  "name": "Number Of Abortions In Illinois By Year, 1973-2012",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 40,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709058259,
+  "publicationDate": 1709145334,
+  "rowsUpdatedAt": 1709145328,
+  "viewLastModified": 1736797726,
+  "viewCount": 41,
+  "downloadCount": 83,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "number_of_abortions",
+      "fieldName": "number_of_abortions",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 39
+    },
+    {
+      "name": "year",
+      "fieldName": "year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 40
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:38.988Z"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "as8j-bewu",
+  "name": "Medical Examiner--2009 Manner of Death Autopsy Status",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 14,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1316712473,
+  "publicationDate": 1414428118,
+  "rowsUpdatedAt": 1414428113,
+  "viewLastModified": 1769548116,
+  "viewCount": 750,
+  "downloadCount": 1897,
+  "category": "Health & Human Services",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Medical Examiner",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "MANNER OF DEATH",
+      "fieldName": "manner_of_death",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": "AUTOPSY STATUS  ",
+      "fieldName": "autopsy_status_",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": "COUNT",
+      "fieldName": "count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:06.913Z"
+}

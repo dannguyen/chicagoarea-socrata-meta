@@ -1,0 +1,100 @@
+{
+  "id": "v6kn-gc9b",
+  "name": "zoning_pedstreet",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 47,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1368225585,
+  "publicationDate": 1584117389,
+  "rowsUpdatedAt": 1584117389,
+  "viewLastModified": 1712775948,
+  "viewCount": 1013,
+  "downloadCount": 3120,
+  "category": "Transportation",
+  "tags": [
+    "pedestrians",
+    "sustainability",
+    "gis",
+    "shapefiles",
+    "kml",
+    "kmz",
+    "map_layer",
+    "streets"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "February 2012",
+      "Frequency": "Updated as needed"
+    }
+  },
+  "columns": [
+    {
+      "name": "OBJECTID",
+      "fieldName": "objectid",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 47
+    },
+    {
+      "name": "NAME",
+      "fieldName": "name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "BUFFERDIST",
+      "fieldName": "bufferdist",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "GLOBALID",
+      "fieldName": "globalid",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 47
+    },
+    {
+      "name": "SHAPE_AREA",
+      "fieldName": "shape_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 47
+    },
+    {
+      "name": "SHAPE_LEN",
+      "fieldName": "shape_len",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 47
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:20.853Z"
+}

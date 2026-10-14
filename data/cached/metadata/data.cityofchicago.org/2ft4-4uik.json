@@ -1,0 +1,94 @@
+{
+  "id": "2ft4-4uik",
+  "name": "Lobbyist Data - Historical - Lobbyist Registry - 2010",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1537,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1307467857,
+  "publicationDate": 1307467857,
+  "rowsUpdatedAt": 1313894877,
+  "viewLastModified": 1445633861,
+  "viewCount": 372926,
+  "downloadCount": 9884,
+  "category": "Ethics",
+  "tags": [
+    "lobbyists",
+    "historical"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2010",
+      "Data Owner": "Ethics"
+    }
+  },
+  "columns": [
+    {
+      "name": "LOBBYIST LAST NAME",
+      "fieldName": "lobbyist_last_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 420
+    },
+    {
+      "name": "LOBBYIST FIRST NAME",
+      "fieldName": "lobbyist_first_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 234
+    },
+    {
+      "name": "LOBBYIST ADDRESS",
+      "fieldName": "lobbyist_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 320
+    },
+    {
+      "name": "LOBBYIST CITY",
+      "fieldName": "lobbyist_city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 51
+    },
+    {
+      "name": "LOBBYIST ZIP",
+      "fieldName": "lobbyist_zip",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 96
+    },
+    {
+      "name": "REGISTERED EMPLOYERS NAMES",
+      "fieldName": "registered_employers_names",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 244
+    },
+    {
+      "name": "LOBBYING CLIENTS NAMES",
+      "fieldName": "lobbying_clients_names",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1018
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:26:20.011Z"
+}

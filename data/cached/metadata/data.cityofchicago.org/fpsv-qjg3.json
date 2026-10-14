@@ -1,0 +1,174 @@
+{
+  "id": "fpsv-qjg3",
+  "name": "TIF Projections - 2025-2034",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2246,
+  "rowCountSource": "cached",
+  "rowLabel": "Financial line item in TIF Projection Report ",
+  "hasRowIdentifier": false,
+  "createdAt": 1761751858,
+  "publicationDate": 1761762097,
+  "rowsUpdatedAt": 1763491326,
+  "viewLastModified": 1763492395,
+  "viewCount": 2712,
+  "downloadCount": 4707,
+  "category": "Community & Economic Development",
+  "tags": [
+    "tif",
+    "tif projections"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov/city/en/depts/dcd/provdrs/tif.html",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2025 - 2034",
+      "Data Owner": "Office of Budget and Management"
+    }
+  },
+  "columns": [
+    {
+      "name": "TIF District ID",
+      "fieldName": "tif_district_id",
+      "dataTypeName": "text",
+      "description": "TIF District Identifier",
+      "nullCount": 0,
+      "cardinality": 2246
+    },
+    {
+      "name": "TIF District Name",
+      "fieldName": "tif_district_name",
+      "dataTypeName": "text",
+      "description": "Name of TIF District",
+      "nullCount": 0,
+      "cardinality": 2246
+    },
+    {
+      "name": "Year TIF Ends",
+      "fieldName": "year_tif_ends",
+      "dataTypeName": "number",
+      "description": "Expiration year of the TIF District",
+      "nullCount": 0,
+      "cardinality": 2246
+    },
+    {
+      "name": "Category Description",
+      "fieldName": "category_description",
+      "dataTypeName": "text",
+      "description": "Categories correspond to row sections in the published TIF Projection Report",
+      "nullCount": 0,
+      "cardinality": 2246
+    },
+    {
+      "name": "Line Item Description",
+      "fieldName": "line_item_description",
+      "dataTypeName": "text",
+      "description": "Each line item corresponds to items under row sections as defined in the TIF Projection Report",
+      "nullCount": 0,
+      "cardinality": 2246
+    },
+    {
+      "name": "Fund and Project Balances",
+      "fieldName": "fund_and_project_balances",
+      "dataTypeName": "number",
+      "description": "Funds carried over from previous years that were allocated to projects but have not been spent",
+      "nullCount": 0,
+      "cardinality": 2246
+    },
+    {
+      "name": "2025",
+      "fieldName": "_2025",
+      "dataTypeName": "number",
+      "description": "2025 projected spending activity within the TIF boundaries",
+      "nullCount": 0,
+      "cardinality": 2246
+    },
+    {
+      "name": "2026",
+      "fieldName": "_2026",
+      "dataTypeName": "number",
+      "description": "2026 projected spending activity within the TIF boundaries",
+      "nullCount": 0,
+      "cardinality": 2246
+    },
+    {
+      "name": "2027",
+      "fieldName": "_2027",
+      "dataTypeName": "number",
+      "description": "2027 projected spending activity within the TIF boundaries",
+      "nullCount": 0,
+      "cardinality": 2246
+    },
+    {
+      "name": "2028",
+      "fieldName": "_2028",
+      "dataTypeName": "number",
+      "description": "2028 projected spending activity within the TIF boundaries",
+      "nullCount": 0,
+      "cardinality": 2246
+    },
+    {
+      "name": "2029",
+      "fieldName": "_2029",
+      "dataTypeName": "number",
+      "description": "2029 projected spending activity within the TIF boundaries",
+      "nullCount": 0,
+      "cardinality": 2246
+    },
+    {
+      "name": "2030",
+      "fieldName": "_2030",
+      "dataTypeName": "number",
+      "description": "2030 projected spending activity within the TIF boundaries",
+      "nullCount": 0,
+      "cardinality": 2246
+    },
+    {
+      "name": "2031",
+      "fieldName": "_2031",
+      "dataTypeName": "number",
+      "description": "2031 projected spending activity within the TIF boundaries",
+      "nullCount": 0,
+      "cardinality": 2246
+    },
+    {
+      "name": "2032",
+      "fieldName": "_2032",
+      "dataTypeName": "number",
+      "description": "2032 projected spending activity within the TIF boundaries",
+      "nullCount": 0,
+      "cardinality": 2246
+    },
+    {
+      "name": "2033",
+      "fieldName": "_2033",
+      "dataTypeName": "number",
+      "description": "2033 projected spending activity within the TIF boundaries",
+      "nullCount": 0,
+      "cardinality": 2246
+    },
+    {
+      "name": "2034",
+      "fieldName": "_2034",
+      "dataTypeName": "number",
+      "description": "2034 projected spending activity within the TIF boundaries",
+      "nullCount": 0,
+      "cardinality": 2246
+    },
+    {
+      "name": "Through End Date",
+      "fieldName": "through_end_date",
+      "dataTypeName": "number",
+      "description": "Total cumulative projected spending activity through the anticipated expiration of the TIF",
+      "nullCount": 0,
+      "cardinality": 2246
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:09.653Z"
+}

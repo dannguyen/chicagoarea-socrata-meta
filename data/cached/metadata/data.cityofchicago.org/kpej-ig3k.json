@@ -1,0 +1,136 @@
+{
+  "id": "kpej-ig3k",
+  "name": "Budget - 2014 Budget Recommendations - Appropriations",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 4191,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1382467705,
+  "publicationDate": 1382539266,
+  "rowsUpdatedAt": 1382468197,
+  "viewLastModified": 1382544162,
+  "viewCount": 5616,
+  "downloadCount": 3731,
+  "category": "Administration & Finance",
+  "tags": [
+    "budget",
+    "2014"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org/budget",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "2014",
+      "Frequency": "Data is updated annually",
+      "Data Owner": "Budget & Management"
+    }
+  },
+  "columns": [
+    {
+      "name": "FUND TYPE",
+      "fieldName": "fund_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "FUND CODE",
+      "fieldName": "fund_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 278
+    },
+    {
+      "name": "FUND DESCRIPTION",
+      "fieldName": "fund_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 272
+    },
+    {
+      "name": "DEPARTMENT NUMBER",
+      "fieldName": "department_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 36
+    },
+    {
+      "name": "DEPARTMENT DESCRIPTION",
+      "fieldName": "department_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 36
+    },
+    {
+      "name": "APPROPRIATION AUTHORITY",
+      "fieldName": "appropriation_authority",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 245
+    },
+    {
+      "name": "APPROPRIATION AUTHORITY DESCRIPTION",
+      "fieldName": "appropriation_authority_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 455
+    },
+    {
+      "name": "APPROPRIATION ACCOUNT",
+      "fieldName": "appropriation_account",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 287
+    },
+    {
+      "name": "APPROPRIATION ACCOUNT DESCRIPTION",
+      "fieldName": "appropriation_account_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 277
+    },
+    {
+      "name": "2013 APPROPRATION",
+      "fieldName": "appropration",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2415
+    },
+    {
+      "name": "2013 REVISED APPROPRIATION",
+      "fieldName": "revised_appropriation",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2425
+    },
+    {
+      "name": "2014 RECOMMENDATION",
+      "fieldName": "recommendation",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2499
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:03.639Z"
+}

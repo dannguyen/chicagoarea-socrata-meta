@@ -1,0 +1,54 @@
+{
+  "id": "ggtn-fw3b",
+  "name": "IDPH Leading Causes of Death, Elderly - Ages of 64+, 2008",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 15,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709064585,
+  "publicationDate": 1709144256,
+  "rowsUpdatedAt": 1709144251,
+  "viewLastModified": 1736793974,
+  "viewCount": 39,
+  "downloadCount": 80,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "cause_of_death",
+      "fieldName": "cause_of_death",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": "count",
+      "fieldName": "count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:39.403Z"
+}

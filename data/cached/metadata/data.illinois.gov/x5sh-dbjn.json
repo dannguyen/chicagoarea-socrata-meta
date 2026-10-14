@@ -1,0 +1,310 @@
+{
+  "id": "x5sh-dbjn",
+  "name": "City Of Urbana: Police Incidents",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 489116,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1757558116,
+  "publicationDate": 1757627476,
+  "rowsUpdatedAt": 1757627379,
+  "viewLastModified": 1760121982,
+  "viewCount": 149,
+  "downloadCount": 32,
+  "category": "Local Government",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "City of Urbana"
+    },
+    "Data Management": {
+      "Maintainer": "Mac Patel",
+      "Maintainer Email": "mac.patel@urbanail.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "date_occurred",
+      "fieldName": "date_occurred",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 328,
+      "cardinality": 489116
+    },
+    {
+      "name": "time_occurred",
+      "fieldName": "time_occurred",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 489116
+    },
+    {
+      "name": "incident_key_formatted_with_dashes",
+      "fieldName": "incident_key_formatted_with",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 489116
+    },
+    {
+      "name": "incident_and_crime_sequence",
+      "fieldName": "incident_and_crime_sequence",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 489116
+    },
+    {
+      "name": "year_occurred",
+      "fieldName": "year_occurred",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 328,
+      "cardinality": 489116
+    },
+    {
+      "name": "month_occurred",
+      "fieldName": "month_occurred",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 328,
+      "cardinality": 489116
+    },
+    {
+      "name": "date_reported",
+      "fieldName": "date_reported",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 7855,
+      "cardinality": 489116
+    },
+    {
+      "name": "time_reported",
+      "fieldName": "time_reported",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 489116
+    },
+    {
+      "name": "date_arrived",
+      "fieldName": "date_arrived",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 10685,
+      "cardinality": 489116
+    },
+    {
+      "name": "time_arrived",
+      "fieldName": "time_arrived",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 489116
+    },
+    {
+      "name": "geo_code",
+      "fieldName": "geo_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 489116
+    },
+    {
+      "name": "house_number_with_block",
+      "fieldName": "house_number_with_block",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 11941,
+      "cardinality": 489116
+    },
+    {
+      "name": "address_street",
+      "fieldName": "address_street",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1694,
+      "cardinality": 489116
+    },
+    {
+      "name": "cross_street",
+      "fieldName": "cross_street",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 334583,
+      "cardinality": 489116
+    },
+    {
+      "name": "crime_code",
+      "fieldName": "crime_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 489116
+    },
+    {
+      "name": "crime_description",
+      "fieldName": "crime_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 489116
+    },
+    {
+      "name": "crime_category",
+      "fieldName": "crime_category",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 212,
+      "cardinality": 489116
+    },
+    {
+      "name": "crime_category_description",
+      "fieldName": "crime_category_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 212,
+      "cardinality": 489116
+    },
+    {
+      "name": "csa_description",
+      "fieldName": "csa_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 489116
+    },
+    {
+      "name": "place_code",
+      "fieldName": "place_code",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 489116
+    },
+    {
+      "name": "place_code_description",
+      "fieldName": "place_code_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 277,
+      "cardinality": 489116
+    },
+    {
+      "name": "weapons_code_1",
+      "fieldName": "weapons_code_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 407399,
+      "cardinality": 489116
+    },
+    {
+      "name": "weapon_1_description",
+      "fieldName": "weapon_1_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 408444,
+      "cardinality": 489116
+    },
+    {
+      "name": "weapons_code_2",
+      "fieldName": "weapons_code_2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 488492,
+      "cardinality": 489116
+    },
+    {
+      "name": "weapon_2_description",
+      "fieldName": "weapon_2_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 488556,
+      "cardinality": 489116
+    },
+    {
+      "name": "weapons_code_3",
+      "fieldName": "weapons_code_3",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 488825,
+      "cardinality": 489116
+    },
+    {
+      "name": "weapon_3_description",
+      "fieldName": "weapon_3_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 488831,
+      "cardinality": 489116
+    },
+    {
+      "name": "bias_code",
+      "fieldName": "bias_code",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 489116
+    },
+    {
+      "name": "bias_description",
+      "fieldName": "bias_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 128230,
+      "cardinality": 489116
+    },
+    {
+      "name": "status_code",
+      "fieldName": "status_code",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 75,
+      "cardinality": 489116
+    },
+    {
+      "name": "status_description",
+      "fieldName": "status_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 76,
+      "cardinality": 489116
+    },
+    {
+      "name": "counter",
+      "fieldName": "counter",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 489116
+    },
+    {
+      "name": "mapping_address",
+      "fieldName": "mapping_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 13635,
+      "cardinality": 489116
+    },
+    {
+      "name": "georeference",
+      "fieldName": "georeference",
+      "dataTypeName": "point",
+      "description": null,
+      "nullCount": 177310,
+      "cardinality": 489116
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:34.151Z"
+}

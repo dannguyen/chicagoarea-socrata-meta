@@ -1,0 +1,128 @@
+{
+  "id": "gj7a-742p",
+  "name": "Violence Reduction - Victim Demographics - Aggregated",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 47220,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1620247562,
+  "publicationDate": 1637164386,
+  "rowsUpdatedAt": 1791981544,
+  "viewLastModified": 1718991463,
+  "viewCount": 28190,
+  "downloadCount": 13044,
+  "category": "Public Safety",
+  "tags": [
+    "crime",
+    "violence",
+    "violence reduction"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Homicide data from 1991 to present. Non-fatal shooting data from 2010 to present. (2010 is the earliest available year for shooting data.) All other violent index victimization types from 2001-present. In all cases the most recent complete day is excluded.",
+      "Frequency": "Updated Daily",
+      "Data Owner": "Chicago Police Department"
+    }
+  },
+  "columns": [
+    {
+      "name": "TIME_PERIOD",
+      "fieldName": "time_period",
+      "dataTypeName": "text",
+      "description": "The time period aggregated.",
+      "nullCount": 0,
+      "cardinality": 125
+    },
+    {
+      "name": "TIME_PERIOD_START",
+      "fieldName": "time_period_start",
+      "dataTypeName": "calendar_date",
+      "description": "All victimizations have been aggregated to the quarter level. This time stamp reflects the start of the quarter.",
+      "nullCount": 0,
+      "cardinality": 124
+    },
+    {
+      "name": "TIME_PERIOD_END",
+      "fieldName": "time_period_end",
+      "dataTypeName": "calendar_date",
+      "description": "All victimizations have been aggregated to the quarter level. This time stamp reflects the end of the quarter.",
+      "nullCount": 0,
+      "cardinality": 124
+    },
+    {
+      "name": "PRIMARY_TYPE",
+      "fieldName": "primary_type",
+      "dataTypeName": "text",
+      "description": "Text description of the IUCR Code that describes the major crime category for the corresponding victimization it falls into. This column represents only the crime that this specific victim within the incident experienced.",
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "AGE",
+      "fieldName": "age",
+      "dataTypeName": "text",
+      "description": "The age of the victims grouped by decade.",
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "SEX",
+      "fieldName": "sex",
+      "dataTypeName": "text",
+      "description": "The sex of the victims. Victimization demographic data shown here are captured by CPD and limited to information included in the police report, which sometimes is not supported by individual self-identification including for sex/gender. In particular, CPD has historically recorded a victim’s sex rather than gender although has added an additional field for collecting gender as of January 2021.",
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "RACE",
+      "fieldName": "race",
+      "dataTypeName": "text",
+      "description": "The race of the victims. Victimization demographic data shown here are captured by CPD and limited to information included in the police report, which may not often be supported by individual self-identification including for race and ethnicity.",
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "JUVENILE_I",
+      "fieldName": "juvenile_i",
+      "dataTypeName": "checkbox",
+      "description": "Whether the victims were juveniles (under age 18). A blank value means Unknown.",
+      "nullCount": 2468,
+      "cardinality": 2
+    },
+    {
+      "name": "DOMESTIC_I",
+      "fieldName": "domestic_i",
+      "dataTypeName": "checkbox",
+      "description": "Indicates whether the aggregated number of victimizations were domestic-related as determined by the initial reporting officer or the investigating detective.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "GUNSHOT_INJURY_I",
+      "fieldName": "gunshot_injury_i",
+      "dataTypeName": "text",
+      "description": "Indicator field describing whether or not a victim was injured by gunfire. Shooting data is not available before 2010 so all non-homicide victimizations prior to 2010 will be recorded as “UNKNOWN.”",
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "NUMBER_OF_VICTIMS",
+      "fieldName": "number_of_victims",
+      "dataTypeName": "number",
+      "description": "The number of victims matching the unique combination of all other columns.",
+      "nullCount": 0,
+      "cardinality": 416
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:07.664Z"
+}

@@ -1,0 +1,105 @@
+{
+  "id": "uxj2-up34",
+  "name": "Performance Metrics - Business Affairs & Consumer Protection - Retail Food Licenses",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 28,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1316643669,
+  "publicationDate": 1319050460,
+  "rowsUpdatedAt": 1319050451,
+  "viewLastModified": 1707240150,
+  "viewCount": 2825,
+  "downloadCount": 3746,
+  "category": "Administration & Finance",
+  "tags": [
+    "performance metrics",
+    "service delivery",
+    "business",
+    "licenses"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org/performance",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "May 2011 - present",
+      "Frequency": "Data is updated weekly",
+      "Data Owner": "Business Affairs & Consumer Protection"
+    }
+  },
+  "columns": [
+    {
+      "name": "Week",
+      "fieldName": "week",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 28
+    },
+    {
+      "name": "Total Licenses Issued",
+      "fieldName": "total_licenses_issued",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "Average Days to Issue License",
+      "fieldName": "average_days_to_issue_license",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 28
+    },
+    {
+      "name": "Median Days to Issue License",
+      "fieldName": "median_days_to_issue_license",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "Target Days to Issue License",
+      "fieldName": "target_days_to_issue_license",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Quarter",
+      "fieldName": "quarter",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Weeks Target Was Achieved",
+      "fieldName": "weeks_target_was_achieved",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Weeks Target Was Not Achieved",
+      "fieldName": "weeks_target_was_not_achieved",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:09.186Z"
+}

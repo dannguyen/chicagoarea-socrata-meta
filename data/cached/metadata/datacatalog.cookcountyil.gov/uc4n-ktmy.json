@@ -1,0 +1,176 @@
+{
+  "id": "uc4n-ktmy",
+  "name": "Human Rights Commission--Bases For Claims For Complaints Filed In FY 2011",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 5,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1315513394,
+  "publicationDate": 1414428055,
+  "rowsUpdatedAt": 1414428039,
+  "viewLastModified": 1769545821,
+  "viewCount": 709,
+  "downloadCount": 1970,
+  "category": "Legal & Judicial",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Human Rights Commission",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Type of Claim",
+      "fieldName": "type_of_claim",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Race",
+      "fieldName": "race",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 4
+    },
+    {
+      "name": "Color",
+      "fieldName": "color",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 0
+    },
+    {
+      "name": "Sex",
+      "fieldName": "sex",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 1
+    },
+    {
+      "name": "Age",
+      "fieldName": "age",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 3
+    },
+    {
+      "name": "Religion",
+      "fieldName": "religion",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 1
+    },
+    {
+      "name": "Disability",
+      "fieldName": "disability",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 3
+    },
+    {
+      "name": "National Origin",
+      "fieldName": "national_origin",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 1
+    },
+    {
+      "name": "Ancestry",
+      "fieldName": "ancestry",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 1
+    },
+    {
+      "name": "Sexual Orientation",
+      "fieldName": "sexual_orientation",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 1
+    },
+    {
+      "name": "Sexual Harrassment",
+      "fieldName": "sexual_harrassment",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 1
+    },
+    {
+      "name": "Marital Status",
+      "fieldName": "marital_status",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 1
+    },
+    {
+      "name": "Parental Status",
+      "fieldName": "parental_status",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 1
+    },
+    {
+      "name": "Source of Income",
+      "fieldName": "source_of_income",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 1
+    },
+    {
+      "name": "Housing Status",
+      "fieldName": "housing_status",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 1
+    },
+    {
+      "name": "Aiding and Abetting",
+      "fieldName": "aiding_and_abetting",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 0
+    },
+    {
+      "name": "Gender Identity",
+      "fieldName": "gender_identity",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 0
+    },
+    {
+      "name": "Retaliation",
+      "fieldName": "retaliation",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:07.645Z"
+}

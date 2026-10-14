@@ -1,0 +1,243 @@
+{
+  "id": "75it-v4jy",
+  "name": "Winter Road Conditions",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 116,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709065039,
+  "publicationDate": 1709146207,
+  "rowsUpdatedAt": 1709146201,
+  "viewLastModified": 1736794037,
+  "viewCount": 61,
+  "downloadCount": 97,
+  "category": "Transportation",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "city_nam",
+      "fieldName": "city_nam",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 70,
+      "cardinality": 17
+    },
+    {
+      "name": "co_code",
+      "fieldName": "co_code",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 16,
+      "cardinality": 65
+    },
+    {
+      "name": "cond_id",
+      "fieldName": "cond_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 113
+    },
+    {
+      "name": "county",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 68
+    },
+    {
+      "name": "displayord",
+      "fieldName": "displayord",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 25,
+      "cardinality": 13
+    },
+    {
+      "name": "district",
+      "fieldName": "district",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 10
+    },
+    {
+      "name": "first_coun",
+      "fieldName": "first_coun",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 69
+    },
+    {
+      "name": "first_labe",
+      "fieldName": "first_labe",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 26
+    },
+    {
+      "name": "id",
+      "fieldName": "id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "id_1",
+      "fieldName": "id_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 111
+    },
+    {
+      "name": "location_c",
+      "fieldName": "location_c",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 110
+    },
+    {
+      "name": "multiline",
+      "fieldName": "multiline",
+      "dataTypeName": "multiline",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "objectid",
+      "fieldName": "objectid",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 107
+    },
+    {
+      "name": "objectid_1",
+      "fieldName": "objectid_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 116
+    },
+    {
+      "name": "objectid_2",
+      "fieldName": "objectid_2",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 115
+    },
+    {
+      "name": "objectid_3",
+      "fieldName": "objectid_3",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 115
+    },
+    {
+      "name": "rd_cond",
+      "fieldName": "rd_cond",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "rd_cond_1",
+      "fieldName": "rd_cond_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "route",
+      "fieldName": "route",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 26
+    },
+    {
+      "name": "rpt_desc",
+      "fieldName": "rpt_desc",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 56
+    },
+    {
+      "name": "rpt_list",
+      "fieldName": "rpt_list",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 18
+    },
+    {
+      "name": "time_date",
+      "fieldName": "time_date",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 1
+    },
+    {
+      "name": "tollway",
+      "fieldName": "tollway",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "tollway_1",
+      "fieldName": "tollway_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "yards",
+      "fieldName": "yards",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 105,
+      "cardinality": 11
+    },
+    {
+      "name": "yards_1",
+      "fieldName": "yards_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 107,
+      "cardinality": 9
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:36.774Z"
+}

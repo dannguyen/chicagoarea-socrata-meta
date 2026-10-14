@@ -1,0 +1,1370 @@
+{
+  "id": "cp7s-7gxg",
+  "name": "Chicago Public Schools - School Progress Reports SY1617",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 661,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1479851054,
+  "publicationDate": 1480980032,
+  "rowsUpdatedAt": 1505860246,
+  "viewLastModified": 1555545959,
+  "viewCount": 7837,
+  "downloadCount": 5196,
+  "category": "Education",
+  "tags": [
+    "cps",
+    "schools",
+    "metrics",
+    "report cards",
+    "2016",
+    "2017"
+  ],
+  "attribution": "Chicago Public Schools",
+  "attributionLink": "http://cps.edu",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "Daily Updates",
+      "Data Owner": "Chicago Public Schools"
+    }
+  },
+  "columns": [
+    {
+      "name": "School_ID",
+      "fieldName": "school_id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 661
+    },
+    {
+      "name": "Short_Name",
+      "fieldName": "short_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 661
+    },
+    {
+      "name": "Long_Name",
+      "fieldName": "long_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 661
+    },
+    {
+      "name": "School_Type",
+      "fieldName": "school_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "Primary_Category",
+      "fieldName": "primary_category",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 636
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Zip",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 53
+    },
+    {
+      "name": "Phone",
+      "fieldName": "phone",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 656
+    },
+    {
+      "name": "Fax",
+      "fieldName": "fax",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 655
+    },
+    {
+      "name": "CPS_School_Profile",
+      "fieldName": "cps_school_profile",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 661
+    },
+    {
+      "name": "Website",
+      "fieldName": "website",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 35,
+      "cardinality": 589
+    },
+    {
+      "name": "Progress_Report_Year",
+      "fieldName": "progress_report_year",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Blue_Ribbon_Award_Year",
+      "fieldName": "blue_ribbon_award_year",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 651,
+      "cardinality": 7
+    },
+    {
+      "name": "Excelerate_Award_Gold_Year",
+      "fieldName": "excelerate_award_gold_year",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 409,
+      "cardinality": 1
+    },
+    {
+      "name": "Spot_Light_Award_Year",
+      "fieldName": "spot_light_award_year",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 639,
+      "cardinality": 2
+    },
+    {
+      "name": "Improvement_Award_Year",
+      "fieldName": "improvement_award_year",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 598,
+      "cardinality": 2
+    },
+    {
+      "name": "Excellence_Award_Year",
+      "fieldName": "excellence_award_year",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 631,
+      "cardinality": 2
+    },
+    {
+      "name": "Student_Growth_Rating",
+      "fieldName": "student_growth_rating",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Student_Growth_Description",
+      "fieldName": "student_growth_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Growth_Reading_Grades_Tested_Pct_ES",
+      "fieldName": "growth_reading_grades_tested_pct_es",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 172,
+      "cardinality": 58
+    },
+    {
+      "name": "Growth_Reading_Grades_Tested_Label_ES",
+      "fieldName": "growth_reading_grades_tested_label_es",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 172,
+      "cardinality": 58
+    },
+    {
+      "name": "Growth_Math_Grades_Tested_Pct_ES",
+      "fieldName": "growth_math_grades_tested_pct_es",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 172,
+      "cardinality": 78
+    },
+    {
+      "name": "Growth_Math_Grades_Tested_Label_ES",
+      "fieldName": "growth_math_grades_tested_label_es",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 172,
+      "cardinality": 78
+    },
+    {
+      "name": "Student_Attainment_Rating",
+      "fieldName": "student_attainment_rating",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Student_Attainment_Description",
+      "fieldName": "student_attainment_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Attainment_Reading_Pct_ES",
+      "fieldName": "attainment_reading_pct_es",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 170,
+      "cardinality": 96
+    },
+    {
+      "name": "Attainment_Reading_Lbl_ES",
+      "fieldName": "attainment_reading_lbl_es",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 170,
+      "cardinality": 96
+    },
+    {
+      "name": "Attainment_Math_Pct_ES",
+      "fieldName": "attainment_math_pct_es",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 170,
+      "cardinality": 98
+    },
+    {
+      "name": "Attainment_Math_Lbl_ES",
+      "fieldName": "attainment_math_lbl_es",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 170,
+      "cardinality": 98
+    },
+    {
+      "name": "Culture_Climate_Rating",
+      "fieldName": "culture_climate_rating",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Culture_Climate_Description",
+      "fieldName": "culture_climate_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "School_Survey_Student_Response_Rate_Pct",
+      "fieldName": "school_survey_student_response_rate_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 296
+    },
+    {
+      "name": "School_Survey_Student_Response_Rate_Avg_Pct",
+      "fieldName": "school_survey_student_response_rate_avg_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 1
+    },
+    {
+      "name": "School_Survey_Teacher_Response_Rate_Pct",
+      "fieldName": "school_survey_teacher_response_rate_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 252
+    },
+    {
+      "name": "School_Survey_Teacher_Response_Rate_Avg_Pct",
+      "fieldName": "school_survey_teacher_response_rate_avg_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 1
+    },
+    {
+      "name": "Healthy_School_Certification",
+      "fieldName": "healthy_school_certification",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Healthy_School_Certification_Description",
+      "fieldName": "healthy_school_certification_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Creative_School_Certification",
+      "fieldName": "creative_school_certification",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Creative_School_Certification_Description",
+      "fieldName": "creative_school_certification_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "NWEA_Reading_Growth_Grade_3_Pct",
+      "fieldName": "nwea_reading_growth_grade_3_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 211,
+      "cardinality": 67
+    },
+    {
+      "name": "NWEA_Reading_Growth_Grade_3_Lbl",
+      "fieldName": "nwea_reading_growth_grade_3_lbl",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 211,
+      "cardinality": 67
+    },
+    {
+      "name": "NWEA_Reading_Growth_Grade_4_Pct",
+      "fieldName": "nwea_reading_growth_grade_4_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 209,
+      "cardinality": 61
+    },
+    {
+      "name": "NWEA_Reading_Growth_Grade_4_Lbl",
+      "fieldName": "nwea_reading_growth_grade_4_lbl",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 209,
+      "cardinality": 61
+    },
+    {
+      "name": "NWEA_Reading_Growth_Grade_5_Pct",
+      "fieldName": "nwea_reading_growth_grade_5_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 207,
+      "cardinality": 62
+    },
+    {
+      "name": "NWEA_Reading_Growth_Grade_5_Lbl",
+      "fieldName": "nwea_reading_growth_grade_5_lbl",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 207,
+      "cardinality": 62
+    },
+    {
+      "name": "NWEA_Reading_Growth_Grade_6_Pct",
+      "fieldName": "nwea_reading_growth_grade_6_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 209,
+      "cardinality": 63
+    },
+    {
+      "name": "NWEA_Reading_Growth_Grade_6_Lbl",
+      "fieldName": "nwea_reading_growth_grade_6_lbl",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 209,
+      "cardinality": 63
+    },
+    {
+      "name": "NWEA_Reading_Growth_Grade_7_Pct",
+      "fieldName": "nwea_reading_growth_grade_7_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 211,
+      "cardinality": 62
+    },
+    {
+      "name": "NWEA_Reading_Growth_Grade_7_Lbl",
+      "fieldName": "nwea_reading_growth_grade_7_lbl",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 211,
+      "cardinality": 62
+    },
+    {
+      "name": "NWEA_Reading_Growth_Grade_8_Pct",
+      "fieldName": "nwea_reading_growth_grade_8_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 215,
+      "cardinality": 67
+    },
+    {
+      "name": "NWEA_Reading_Growth_Grade_8_Lbl",
+      "fieldName": "nwea_reading_growth_grade_8_lbl",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 215,
+      "cardinality": 67
+    },
+    {
+      "name": "NWEA_Math_Growth_Grade_3_Pct",
+      "fieldName": "nwea_math_growth_grade_3_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 211,
+      "cardinality": 84
+    },
+    {
+      "name": "NWEA_Math_Growth_Grade_3_Lbl",
+      "fieldName": "nwea_math_growth_grade_3_lbl",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 211,
+      "cardinality": 84
+    },
+    {
+      "name": "NWEA_Math_Growth_Grade_4_Pct",
+      "fieldName": "nwea_math_growth_grade_4_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 209,
+      "cardinality": 79
+    },
+    {
+      "name": "NWEA_Math_Growth_Grade_4_Lbl",
+      "fieldName": "nwea_math_growth_grade_4_lbl",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 209,
+      "cardinality": 79
+    },
+    {
+      "name": "NWEA_Math_Growth_Grade_5_Pct",
+      "fieldName": "nwea_math_growth_grade_5_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 207,
+      "cardinality": 87
+    },
+    {
+      "name": "NWEA_Math_Growth_Grade_5_Lbl",
+      "fieldName": "nwea_math_growth_grade_5_lbl",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 207,
+      "cardinality": 87
+    },
+    {
+      "name": "NWEA_Math_Growth_Grade_6_Pct",
+      "fieldName": "nwea_math_growth_grade_6_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 209,
+      "cardinality": 80
+    },
+    {
+      "name": "NWEA_Math_Growth_Grade_6_Lbl",
+      "fieldName": "nwea_math_growth_grade_6_lbl",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 209,
+      "cardinality": 80
+    },
+    {
+      "name": "NWEA_Math_Growth_Grade_7_Pct",
+      "fieldName": "nwea_math_growth_grade_7_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 211,
+      "cardinality": 69
+    },
+    {
+      "name": "NWEA_Math_Growth_Grade_7_Lbl",
+      "fieldName": "nwea_math_growth_grade_7_lbl",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 211,
+      "cardinality": 69
+    },
+    {
+      "name": "NWEA_Math_Growth_Grade_8_Pct",
+      "fieldName": "nwea_math_growth_grade_8_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 215,
+      "cardinality": 68
+    },
+    {
+      "name": "NWEA_Math_Growth_Grade_8_Lbl",
+      "fieldName": "nwea_math_growth_grade_8_lbl",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 215,
+      "cardinality": 68
+    },
+    {
+      "name": "NWEA_Reading_Attainment_Grade_2_Pct",
+      "fieldName": "nwea_reading_attainment_grade_2_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 212,
+      "cardinality": 96
+    },
+    {
+      "name": "NWEA_Reading_Attainment_Grade_2_Lbl",
+      "fieldName": "nwea_reading_attainment_grade_2_lbl",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 212,
+      "cardinality": 96
+    },
+    {
+      "name": "NWEA_Reading_Attainment_Grade_3_Pct",
+      "fieldName": "nwea_reading_attainment_grade_3_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 209,
+      "cardinality": 97
+    },
+    {
+      "name": "NWEA_Reading_Attainment_Grade_3_Lbl",
+      "fieldName": "nwea_reading_attainment_grade_3_lbl",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 209,
+      "cardinality": 97
+    },
+    {
+      "name": "NWEA_Reading_Attainment_Grade_4_Pct",
+      "fieldName": "nwea_reading_attainment_grade_4_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 209,
+      "cardinality": 97
+    },
+    {
+      "name": "NWEA_Reading_Attainment_Grade_4_Lbl",
+      "fieldName": "nwea_reading_attainment_grade_4_lbl",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 209,
+      "cardinality": 97
+    },
+    {
+      "name": "NWEA_Reading_Attainment_Grade_5_Pct",
+      "fieldName": "nwea_reading_attainment_grade_5_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 207,
+      "cardinality": 98
+    },
+    {
+      "name": "NWEA_Reading_Attainment_Grade_5_Lbl",
+      "fieldName": "nwea_reading_attainment_grade_5_lbl",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 207,
+      "cardinality": 98
+    },
+    {
+      "name": "NWEA_Reading_Attainment_Grade_6_Pct",
+      "fieldName": "nwea_reading_attainment_grade_6_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 209,
+      "cardinality": 99
+    },
+    {
+      "name": "NWEA_Reading_Attainment_Grade_6_Lbl",
+      "fieldName": "nwea_reading_attainment_grade_6_lbl",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 209,
+      "cardinality": 99
+    },
+    {
+      "name": "NWEA_Reading_Attainment_Grade_7_Pct",
+      "fieldName": "nwea_reading_attainment_grade_7_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 211,
+      "cardinality": 92
+    },
+    {
+      "name": "NWEA_Reading_Attainment_Grade_7_Lbl",
+      "fieldName": "nwea_reading_attainment_grade_7_lbl",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 211,
+      "cardinality": 92
+    },
+    {
+      "name": "NWEA_Reading_Attainment_Grade_8_Pct",
+      "fieldName": "nwea_reading_attainment_grade_8_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 214,
+      "cardinality": 80
+    },
+    {
+      "name": "NWEA_Reading_Attainment_Grade_8_Lbl",
+      "fieldName": "nwea_reading_attainment_grade_8_lbl",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 214,
+      "cardinality": 80
+    },
+    {
+      "name": "NWEA_Math_Attainment_Grade_2_Pct",
+      "fieldName": "nwea_math_attainment_grade_2_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 212,
+      "cardinality": 97
+    },
+    {
+      "name": "NWEA_Math_Attainment_Grade_2_Lbl",
+      "fieldName": "nwea_math_attainment_grade_2_lbl",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 212,
+      "cardinality": 97
+    },
+    {
+      "name": "NWEA_Math_Attainment_Grade_3_Pct",
+      "fieldName": "nwea_math_attainment_grade_3_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 209,
+      "cardinality": 96
+    },
+    {
+      "name": "NWEA_Math_Attainment_Grade_3_Lbl",
+      "fieldName": "nwea_math_attainment_grade_3_lbl",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 209,
+      "cardinality": 96
+    },
+    {
+      "name": "NWEA_Math_Attainment_Grade_4_Pct",
+      "fieldName": "nwea_math_attainment_grade_4_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 209,
+      "cardinality": 92
+    },
+    {
+      "name": "NWEA_Math_Attainment_Grade_4_Lbl",
+      "fieldName": "nwea_math_attainment_grade_4_lbl",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 209,
+      "cardinality": 92
+    },
+    {
+      "name": "NWEA_Math_Attainment_Grade_5_Pct",
+      "fieldName": "nwea_math_attainment_grade_5_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 207,
+      "cardinality": 97
+    },
+    {
+      "name": "NWEA_Math_Attainment_Grade_5_Lbl",
+      "fieldName": "nwea_math_attainment_grade_5_lbl",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 207,
+      "cardinality": 97
+    },
+    {
+      "name": "NWEA_Math_Attainment_Grade_6_Pct",
+      "fieldName": "nwea_math_attainment_grade_6_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 209,
+      "cardinality": 98
+    },
+    {
+      "name": "NWEA_Math_Attainment_Grade_6_Lbl",
+      "fieldName": "nwea_math_attainment_grade_6_lbl",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 209,
+      "cardinality": 98
+    },
+    {
+      "name": "NWEA_Math_Attainment_Grade_7_Pct",
+      "fieldName": "nwea_math_attainment_grade_7_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 211,
+      "cardinality": 96
+    },
+    {
+      "name": "NWEA_Math_Attainment_Grade_7_Lbl",
+      "fieldName": "nwea_math_attainment_grade_7_lbl",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 211,
+      "cardinality": 96
+    },
+    {
+      "name": "NWEA_Math_Attainment_Grade_8_Pct",
+      "fieldName": "nwea_math_attainment_grade_8_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 214,
+      "cardinality": 92
+    },
+    {
+      "name": "NWEA_Math_Attainment_Grade_8_Lbl",
+      "fieldName": "nwea_math_attainment_grade_8_lbl",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 214,
+      "cardinality": 92
+    },
+    {
+      "name": "School_Survey_Involved_Families",
+      "fieldName": "school_survey_involved_families",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 6
+    },
+    {
+      "name": "School_Survey_Supportive_Environment",
+      "fieldName": "school_survey_supportive_environment",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 6
+    },
+    {
+      "name": "School_Survey_Ambitious_Instruction",
+      "fieldName": "school_survey_ambitious_instruction",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 6
+    },
+    {
+      "name": "School_Survey_Effective_Leaders",
+      "fieldName": "school_survey_effective_leaders",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 6
+    },
+    {
+      "name": "School_Survey_Collaborative_Teachers",
+      "fieldName": "school_survey_collaborative_teachers",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 6
+    },
+    {
+      "name": "School_Survey_Safety",
+      "fieldName": "school_survey_safety",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 6
+    },
+    {
+      "name": "Suspensions_Per_100_Students_Year_1_Pct",
+      "fieldName": "suspensions_per_100_students_year_1_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 147,
+      "cardinality": 175
+    },
+    {
+      "name": "Suspensions_Per_100_Students_Year_2_Pct",
+      "fieldName": "suspensions_per_100_students_year_2_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 143,
+      "cardinality": 168
+    },
+    {
+      "name": "Suspensions_Per_100_Students_Avg_Pct",
+      "fieldName": "suspensions_per_100_students_avg_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 1
+    },
+    {
+      "name": "Misconducts_To_Suspensions_Year_1_Pct",
+      "fieldName": "misconducts_to_suspensions_year_1_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 147,
+      "cardinality": 303
+    },
+    {
+      "name": "Misconducts_To_Suspensions_Year_2_Pct",
+      "fieldName": "misconducts_to_suspensions_year_2_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 143,
+      "cardinality": 316
+    },
+    {
+      "name": "Misconducts_To_Suspensions_Avg_Pct",
+      "fieldName": "misconducts_to_suspensions_avg_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 1
+    },
+    {
+      "name": "Average_Length_Suspension_Year_1_Pct",
+      "fieldName": "average_length_suspension_year_1_pct",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 147,
+      "cardinality": 40
+    },
+    {
+      "name": "Average_Length_Suspension_Year_2_Pct",
+      "fieldName": "average_length_suspension_year_2_pct",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 143,
+      "cardinality": 38
+    },
+    {
+      "name": "Average_Length_Suspension_Avg_Pct",
+      "fieldName": "average_length_suspension_avg_pct",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 1
+    },
+    {
+      "name": "Behavior_Discipline_Year_1",
+      "fieldName": "behavior_discipline_year_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 1
+    },
+    {
+      "name": "Behavior_Discipline_Year_2",
+      "fieldName": "behavior_discipline_year_2",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 1
+    },
+    {
+      "name": "School_Survey_School_Community",
+      "fieldName": "school_survey_school_community",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 6
+    },
+    {
+      "name": "School_Survey_Parent_Teacher_Partnership",
+      "fieldName": "school_survey_parent_teacher_partnership",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 6
+    },
+    {
+      "name": "School_Survey_Quality_Of_Facilities",
+      "fieldName": "school_survey_quality_of_facilities",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 6
+    },
+    {
+      "name": "Student_Attendance_Year_1_Pct",
+      "fieldName": "student_attendance_year_1_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 10,
+      "cardinality": 156
+    },
+    {
+      "name": "Student_Attendance_Year_2_Pct",
+      "fieldName": "student_attendance_year_2_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 10,
+      "cardinality": 153
+    },
+    {
+      "name": "Student_Attendance_Avg_Pct",
+      "fieldName": "student_attendance_avg_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 1
+    },
+    {
+      "name": "Teacher_Attendance_Year_1_Pct",
+      "fieldName": "teacher_attendance_year_1_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 149,
+      "cardinality": 50
+    },
+    {
+      "name": "Teacher_Attendance_Year_2_Pct",
+      "fieldName": "teacher_attendance_year_2_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 149,
+      "cardinality": 45
+    },
+    {
+      "name": "Teacher_Attendance_Avg_Pct",
+      "fieldName": "teacher_attendance_avg_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 149,
+      "cardinality": 1
+    },
+    {
+      "name": "One_Year_Dropout_Rate_Year_1_Pct",
+      "fieldName": "one_year_dropout_rate_year_1_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 486,
+      "cardinality": 110
+    },
+    {
+      "name": "One_Year_Dropout_Rate_Year_2_Pct",
+      "fieldName": "one_year_dropout_rate_year_2_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 484,
+      "cardinality": 110
+    },
+    {
+      "name": "One_Year_Dropout_Rate_Avg_Pct",
+      "fieldName": "one_year_dropout_rate_avg_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 1
+    },
+    {
+      "name": "Other_Metrics_Year_1",
+      "fieldName": "other_metrics_year_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 1
+    },
+    {
+      "name": "Other_Metrics_Year_2",
+      "fieldName": "other_metrics_year_2",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 1
+    },
+    {
+      "name": "Growth_ACT_Grade_11_Pct",
+      "fieldName": "growth_act_grade_11_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 531,
+      "cardinality": 49
+    },
+    {
+      "name": "Growth_ACT_Grade_11_Lbl",
+      "fieldName": "growth_act_grade_11_lbl",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 648,
+      "cardinality": 4
+    },
+    {
+      "name": "Attainment_ACT_Grade_11_Pct",
+      "fieldName": "attainment_act_grade_11_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 498,
+      "cardinality": 59
+    },
+    {
+      "name": "Attainment_ACT_Grade_11_Lbl",
+      "fieldName": "attainment_act_grade_11_lbl",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 498,
+      "cardinality": 59
+    },
+    {
+      "name": "Freshmen_On_Track_School_Pct_Year_2",
+      "fieldName": "freshmen_on_track_school_pct_year_2",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 525,
+      "cardinality": 110
+    },
+    {
+      "name": "Freshmen_On_Track_CPS_Pct_Year_2",
+      "fieldName": "freshmen_on_track_cps_pct_year_2",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 1
+    },
+    {
+      "name": "Freshmen_On_Track_School_Pct_Year_1",
+      "fieldName": "freshmen_on_track_school_pct_year_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 527,
+      "cardinality": 106
+    },
+    {
+      "name": "Freshmen_On_Track_CPS_Pct_Year_1",
+      "fieldName": "freshmen_on_track_cps_pct_year_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 1
+    },
+    {
+      "name": "Graduation_4_Year_School_Pct_Year_2",
+      "fieldName": "graduation_4_year_school_pct_year_2",
+      "dataTypeName": "number",
+      "description": "4 Year School Graduation Rate - Last Year",
+      "nullCount": 530,
+      "cardinality": 109
+    },
+    {
+      "name": "Graduation_4_Year_CPS_Pct_Year_2",
+      "fieldName": "graduation_4_year_cps_pct_year_2",
+      "dataTypeName": "number",
+      "description": "4 Year CPS Graduation Rate - Last Year",
+      "nullCount": 1,
+      "cardinality": 1
+    },
+    {
+      "name": "Graduation_4_Year_School_Pct_Year_1",
+      "fieldName": "graduation_4_year_school_pct_year_1",
+      "dataTypeName": "number",
+      "description": "4 Year School Graduation Rate - 2 Years Ago",
+      "nullCount": 544,
+      "cardinality": 106
+    },
+    {
+      "name": "Graduation_4_Year_CPS_Pct_Year_1",
+      "fieldName": "graduation_4_year_cps_pct_year_1",
+      "dataTypeName": "number",
+      "description": "4 Year CPS Graduation Rate - 2 Years Ago",
+      "nullCount": 522,
+      "cardinality": 1
+    },
+    {
+      "name": "Graduation_5_Year_School_Pct_Year_2",
+      "fieldName": "graduation_5_year_school_pct_year_2",
+      "dataTypeName": "number",
+      "description": "5 Year School Graduation Rate - Last Year",
+      "nullCount": 540,
+      "cardinality": 106
+    },
+    {
+      "name": "Graduation_5_Year_CPS_Pct_Year_2",
+      "fieldName": "graduation_5_year_cps_pct_year_2",
+      "dataTypeName": "number",
+      "description": "5 Year CPS Graduation Rate - Last Year",
+      "nullCount": 1,
+      "cardinality": 1
+    },
+    {
+      "name": "Graduation_5_Year_School_Pct_Year_1",
+      "fieldName": "graduation_5_year_school_pct_year_1",
+      "dataTypeName": "number",
+      "description": "5 Year School Graduation Rate - 2 Years Ago",
+      "nullCount": 544,
+      "cardinality": 109
+    },
+    {
+      "name": "Graduation_5_Year_CPS_Pct_Year_1",
+      "fieldName": "graduation_5_year_cps_pct_year_1",
+      "dataTypeName": "number",
+      "description": "5 Year CPS Graduation Rate - 2 Years Ago",
+      "nullCount": 522,
+      "cardinality": 1
+    },
+    {
+      "name": "College_Enrollment_School_Pct_Year_2",
+      "fieldName": "college_enrollment_school_pct_year_2",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 502,
+      "cardinality": 143
+    },
+    {
+      "name": "College_Enrollment_CPS_Pct_Year_2",
+      "fieldName": "college_enrollment_cps_pct_year_2",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 1
+    },
+    {
+      "name": "College_Enrollment_School_Pct_Year_1",
+      "fieldName": "college_enrollment_school_pct_year_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 511,
+      "cardinality": 136
+    },
+    {
+      "name": "College_Enrollment_CPS_Pct_Year_1",
+      "fieldName": "college_enrollment_cps_pct_year_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 1
+    },
+    {
+      "name": "College_Persistence_School_Pct_Year_2",
+      "fieldName": "college_persistence_school_pct_year_2",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 530,
+      "cardinality": 115
+    },
+    {
+      "name": "College_Persistence_CPS_Pct_Year_2",
+      "fieldName": "college_persistence_cps_pct_year_2",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 1
+    },
+    {
+      "name": "College_Persistence_School_Pct_Year_1",
+      "fieldName": "college_persistence_school_pct_year_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 533,
+      "cardinality": 106
+    },
+    {
+      "name": "College_Persistence_CPS_Pct_Year_1",
+      "fieldName": "college_persistence_cps_pct_year_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 1
+    },
+    {
+      "name": "Progress_Toward_Graduation_Year_1",
+      "fieldName": "progress_toward_graduation_year_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 1
+    },
+    {
+      "name": "Progress_Toward_Graduation_Year_2",
+      "fieldName": "progress_toward_graduation_year_2",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 1
+    },
+    {
+      "name": "State_School_Report_Card_URL",
+      "fieldName": "state_school_report_card_url",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 570
+    },
+    {
+      "name": "Mobility_Rate_Pct",
+      "fieldName": "mobility_rate_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 120,
+      "cardinality": 300
+    },
+    {
+      "name": "Chronic_Truancy_Pct",
+      "fieldName": "chronic_truancy_pct",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 661,
+      "cardinality": 0
+    },
+    {
+      "name": "Empty_Progress_Report_Message",
+      "fieldName": "empty_progress_report_message",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 618,
+      "cardinality": 2
+    },
+    {
+      "name": "School_Survey_Rating_Description",
+      "fieldName": "school_survey_rating_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 6
+    },
+    {
+      "name": "Supportive_School_Award",
+      "fieldName": "supportive_school_award",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 4
+    },
+    {
+      "name": "Supportive_School_Award_Desc",
+      "fieldName": "supportive_school_award_desc",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 4
+    },
+    {
+      "name": "Parent_Survey_Results_Year",
+      "fieldName": "parent_survey_results_year",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 1
+    },
+    {
+      "name": "School_Latitude",
+      "fieldName": "school_latitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 659
+    },
+    {
+      "name": "School_Longitude",
+      "fieldName": "school_longitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 655
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:01.693Z"
+}

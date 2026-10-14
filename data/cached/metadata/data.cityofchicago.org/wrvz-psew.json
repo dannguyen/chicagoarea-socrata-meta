@@ -1,0 +1,232 @@
+{
+  "id": "wrvz-psew",
+  "name": "Taxi Trips (2013-2023)",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 211670894,
+  "rowCountSource": "cached",
+  "rowLabel": "Trip",
+  "hasRowIdentifier": true,
+  "createdAt": 1464384468,
+  "publicationDate": 1479145203,
+  "rowsUpdatedAt": 1707338412,
+  "viewLastModified": 1773946514,
+  "viewCount": 218535,
+  "downloadCount": 45498,
+  "category": "Transportation",
+  "tags": [
+    "taxis",
+    "transportation",
+    "historical"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2013 - 2023",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"wrvz-psew\"",
+      "Data Owner": "Department of Business Affairs & Consumer Protection"
+    }
+  },
+  "columns": [
+    {
+      "name": "Trip ID",
+      "fieldName": "trip_id",
+      "dataTypeName": "text",
+      "description": "A unique identifier for the trip.",
+      "nullCount": 0,
+      "cardinality": 211670894
+    },
+    {
+      "name": "Taxi ID",
+      "fieldName": "taxi_id",
+      "dataTypeName": "text",
+      "description": "A unique identifier for the taxi.",
+      "nullCount": 0,
+      "cardinality": 9806
+    },
+    {
+      "name": "Trip Start Timestamp",
+      "fieldName": "trip_start_timestamp",
+      "dataTypeName": "calendar_date",
+      "description": "When the trip started, rounded to the nearest 15 minutes.",
+      "nullCount": 0,
+      "cardinality": 385536
+    },
+    {
+      "name": "Trip End Timestamp",
+      "fieldName": "trip_end_timestamp",
+      "dataTypeName": "calendar_date",
+      "description": "When the trip ended, rounded to the nearest 15 minutes.",
+      "nullCount": 18478,
+      "cardinality": 385549
+    },
+    {
+      "name": "Trip Seconds",
+      "fieldName": "trip_seconds",
+      "dataTypeName": "number",
+      "description": "Time of the trip in seconds.",
+      "nullCount": 1302535,
+      "cardinality": 48276
+    },
+    {
+      "name": "Trip Miles",
+      "fieldName": "trip_miles",
+      "dataTypeName": "number",
+      "description": "Distance of the trip in miles.",
+      "nullCount": 2899,
+      "cardinality": 14666
+    },
+    {
+      "name": "Pickup Census Tract",
+      "fieldName": "pickup_census_tract",
+      "dataTypeName": "text",
+      "description": "The Census Tract where the trip began.  For privacy, this Census Tract is not shown for some trips. This column often will be blank for locations outside Chicago.",
+      "nullCount": 77894785,
+      "cardinality": 1292
+    },
+    {
+      "name": "Dropoff Census Tract",
+      "fieldName": "dropoff_census_tract",
+      "dataTypeName": "text",
+      "description": "The Census Tract where the trip ended.  For privacy, this Census Tract is not shown for some trips. This column often will be blank for locations outside Chicago.",
+      "nullCount": 78856627,
+      "cardinality": 1312
+    },
+    {
+      "name": "Pickup Community Area",
+      "fieldName": "pickup_community_area",
+      "dataTypeName": "number",
+      "description": "The Community Area where the trip began. This column will be blank for locations outside Chicago.",
+      "nullCount": 24179249,
+      "cardinality": 77
+    },
+    {
+      "name": "Dropoff Community Area",
+      "fieldName": "dropoff_community_area",
+      "dataTypeName": "number",
+      "description": "The Community Area where the trip ended. This column will be blank for locations outside Chicago.",
+      "nullCount": 28611469,
+      "cardinality": 77
+    },
+    {
+      "name": "Fare",
+      "fieldName": "fare",
+      "dataTypeName": "number",
+      "description": "The fare for the trip.",
+      "nullCount": 21071,
+      "cardinality": 23487
+    },
+    {
+      "name": "Tips",
+      "fieldName": "tips",
+      "dataTypeName": "number",
+      "description": "The tip for the trip. Cash tips generally will not be recorded.",
+      "nullCount": 21071,
+      "cardinality": 6236
+    },
+    {
+      "name": "Tolls",
+      "fieldName": "tolls",
+      "dataTypeName": "number",
+      "description": "The tolls for the trip.",
+      "nullCount": 0,
+      "cardinality": 9806
+    },
+    {
+      "name": "Extras",
+      "fieldName": "extras",
+      "dataTypeName": "number",
+      "description": "Extra charges for the trip.",
+      "nullCount": 21071,
+      "cardinality": 10120
+    },
+    {
+      "name": "Trip Total",
+      "fieldName": "trip_total",
+      "dataTypeName": "number",
+      "description": "Total cost of the trip, the total of the previous columns.",
+      "nullCount": 21071,
+      "cardinality": 37925
+    },
+    {
+      "name": "Payment Type",
+      "fieldName": "payment_type",
+      "dataTypeName": "text",
+      "description": "Type of payment for the trip.",
+      "nullCount": 0,
+      "cardinality": 11
+    },
+    {
+      "name": "Company",
+      "fieldName": "company",
+      "dataTypeName": "text",
+      "description": "The taxi company.",
+      "nullCount": 33593407,
+      "cardinality": 178
+    },
+    {
+      "name": "Pickup Centroid Latitude",
+      "fieldName": "pickup_centroid_latitude",
+      "dataTypeName": "number",
+      "description": "The latitude of the center of the pickup census tract or the community area if the census tract has been hidden for privacy. This column often will be blank for locations outside Chicago.",
+      "nullCount": 24151823,
+      "cardinality": 861
+    },
+    {
+      "name": "Pickup Centroid Longitude",
+      "fieldName": "pickup_centroid_longitude",
+      "dataTypeName": "number",
+      "description": "The longitude of the center of the pickup census tract or the community area if the census tract has been hidden for privacy. This column often will be blank for locations outside Chicago.",
+      "nullCount": 24151823,
+      "cardinality": 861
+    },
+    {
+      "name": "Pickup Centroid Location",
+      "fieldName": "pickup_centroid_location",
+      "dataTypeName": "point",
+      "description": "The location of the center of the pickup census tract or the community area if the census tract has been hidden for privacy. This column often will be blank for locations outside Chicago.",
+      "nullCount": 24151823,
+      "cardinality": 949
+    },
+    {
+      "name": "Dropoff Centroid Latitude",
+      "fieldName": "dropoff_centroid_latitude",
+      "dataTypeName": "number",
+      "description": "The latitude of the center of the dropoff census tract or the community area if the census tract has been hidden for privacy. This column often will be blank for locations outside Chicago.",
+      "nullCount": 28065199,
+      "cardinality": 874
+    },
+    {
+      "name": "Dropoff Centroid Longitude",
+      "fieldName": "dropoff_centroid_longitude",
+      "dataTypeName": "number",
+      "description": "The longitude of the center of the dropoff census tract or the community area if the census tract has been hidden for privacy. This column often will be blank for locations outside Chicago.",
+      "nullCount": 28065199,
+      "cardinality": 874
+    },
+    {
+      "name": "Dropoff Centroid  Location",
+      "fieldName": "dropoff_centroid_location",
+      "dataTypeName": "point",
+      "description": "The location of the center of the dropoff census tract or the community area if the census tract has been hidden for privacy. This column often will be blank for locations outside Chicago.",
+      "nullCount": 28065199,
+      "cardinality": 969
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:26:20.829Z"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "v5vh-4ezv",
+  "name": "Treasurer - 2010 Annual Tax Sale Sold PINS",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 16419,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1346939620,
+  "publicationDate": 1412896686,
+  "rowsUpdatedAt": 1412896673,
+  "viewLastModified": 1769545420,
+  "viewCount": 3377,
+  "downloadCount": 5533,
+  "category": "Property & Taxation",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Treasurer's Office",
+  "attributionLink": "http://www.cookcountytreasurer.com/",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "PIN",
+      "fieldName": "pin",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 16330
+    },
+    {
+      "name": "TaxType",
+      "fieldName": "taxtype",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "TaxYear",
+      "fieldName": "taxyear",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "TaxpayerPropertyZip5",
+      "fieldName": "taxpayerpropertyzip5",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 171
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:54.200Z"
+}

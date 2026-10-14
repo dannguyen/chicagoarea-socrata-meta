@@ -1,0 +1,153 @@
+{
+  "id": "55ju-2fs9",
+  "name": "Treasurer - Annual Tax Sale",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 200915,
+  "rowCountSource": "cached",
+  "rowLabel": "Parcel",
+  "hasRowIdentifier": false,
+  "createdAt": 1480456304,
+  "publicationDate": 1685489666,
+  "rowsUpdatedAt": 1481049985,
+  "viewLastModified": 1769546589,
+  "viewCount": 56596,
+  "downloadCount": 31623,
+  "category": "Property & Taxation",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Treasurer",
+  "attributionLink": "http://www.cookcountytreasurer.com",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Detailed Descriptive": {
+      "Geographic coverage": "Countywide",
+      "Geographic unit": "Parcel"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Annually",
+      "Publishing frequency": "Annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "Tax Sale Year",
+      "fieldName": "tax_sale_year",
+      "dataTypeName": "number",
+      "description": "The tax year for which taxes are being sold. This is not when the taxes were sold. The 2014 Annual Tax Sale was held in June 2016, 2013 Annual Tax Sale in August 2015.",
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "PIN",
+      "fieldName": "pin",
+      "dataTypeName": "text",
+      "description": "Property Identification Number",
+      "nullCount": 0,
+      "cardinality": 99118
+    },
+    {
+      "name": "Classification",
+      "fieldName": "classification",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 86
+    },
+    {
+      "name": "Township Name",
+      "fieldName": "township_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 7,
+      "cardinality": 40
+    },
+    {
+      "name": "Sold at Sale",
+      "fieldName": "sold_at_sale",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Tax Amount Offered",
+      "fieldName": "tax_amount_offered",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 117825
+    },
+    {
+      "name": "Penalty Amount Offered",
+      "fieldName": "penalty_amount_offered",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 75094
+    },
+    {
+      "name": "Total Tax and Penalty Amount Offered",
+      "fieldName": "total_tax_and_penalty_amount_offered",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 124098
+    },
+    {
+      "name": "Cost",
+      "fieldName": "cost",
+      "dataTypeName": "number",
+      "description": "Statutory fees applicable to each purchased delinquency include:  \n(a) $10.00 Publication fee (35 ILCS 200/21-135); \n(b) $100.00 Sale in Error Fund fee (35 ILCS 200/21-330); \n(c) $80.00 Indemnity Fund Fee (35 ILCS 200/21-295(a-5)); \n(d) $10.00 Automation fee (35 ILCS 200/21-245).",
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "Total Amount Paid",
+      "fieldName": "total_amount_paid",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 136381,
+      "cardinality": 58273
+    },
+    {
+      "name": "Total Amount Forfeited",
+      "fieldName": "total_amount_forfeited",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 64534,
+      "cardinality": 74673
+    },
+    {
+      "name": "Winning Bid Percent",
+      "fieldName": "winning_bid_percent",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 136381,
+      "cardinality": 19
+    },
+    {
+      "name": "Buyer Name",
+      "fieldName": "buyer_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 136381,
+      "cardinality": 257
+    },
+    {
+      "name": "location_1",
+      "fieldName": "location_1",
+      "dataTypeName": "location",
+      "description": "Parcel Centroid",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:45.625Z"
+}

@@ -1,0 +1,90 @@
+{
+  "id": "utgj-4xfy",
+  "name": "2026 Clean Energy Jobs Report - County Demographics",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 570,
+  "rowCountSource": "cached",
+  "rowLabel": "categorization of employees by state of residence, project county, and the specified demographic",
+  "hasRowIdentifier": false,
+  "createdAt": 1776376062,
+  "publicationDate": 1776376866,
+  "rowsUpdatedAt": 1776376855,
+  "viewLastModified": 1776376914,
+  "viewCount": 26,
+  "downloadCount": 10,
+  "category": "Business and Workforce",
+  "tags": [
+    "clean energy jobs report",
+    "clean energy",
+    "public act 102-662"
+  ],
+  "attribution": "Illinois Department of Labor",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Labor"
+    },
+    "Data Management": {
+      "Maintainer": "IDOL",
+      "Maintainer Email": "DOL.Questions@Illinois.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": "State of residence of employee. either within Illinois or outside of Illinois",
+      "nullCount": 0,
+      "cardinality": 570
+    },
+    {
+      "name": "Project County",
+      "fieldName": "project_county",
+      "dataTypeName": "text",
+      "description": "County in which the Clean Energy Project is located",
+      "nullCount": 0,
+      "cardinality": 570
+    },
+    {
+      "name": "Gender",
+      "fieldName": "gender",
+      "dataTypeName": "text",
+      "description": "Gender of employee, Male or Female",
+      "nullCount": 0,
+      "cardinality": 570
+    },
+    {
+      "name": "Race",
+      "fieldName": "race",
+      "dataTypeName": "text",
+      "description": "Race of employee",
+      "nullCount": 0,
+      "cardinality": 570
+    },
+    {
+      "name": "Ethnicity*",
+      "fieldName": "ethnicity",
+      "dataTypeName": "checkbox",
+      "description": "Ethnicity of employee. This can either be Tru for Hispanic/Latino/a/ex or False for Non-Hispanic",
+      "nullCount": 0,
+      "cardinality": 570
+    },
+    {
+      "name": "Count",
+      "fieldName": "total",
+      "dataTypeName": "number",
+      "description": "\t Number of employees who worked on clean energy projects in the specified demographic.",
+      "nullCount": 0,
+      "cardinality": 570
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:40.344Z"
+}

@@ -1,0 +1,128 @@
+{
+  "id": "b9g2-hn9c",
+  "name": "Lobbyist Data - Lobbyist Gift Report (Deprecated October 2015)",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 61,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1317369682,
+  "publicationDate": 1481020261,
+  "rowsUpdatedAt": 1481020259,
+  "viewLastModified": 1481020261,
+  "viewCount": 2103,
+  "downloadCount": 3825,
+  "category": "Ethics",
+  "tags": [
+    "lobbyists",
+    "ethics",
+    "deprecated"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2011 to present",
+      "Frequency": "Data is updated daily",
+      "Data Owner": "Ethics"
+    }
+  },
+  "columns": [
+    {
+      "name": "FILING YEAR",
+      "fieldName": "filing_year",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "LOBBYIST LAST NAME",
+      "fieldName": "lobbyist_last_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 18
+    },
+    {
+      "name": "LOBBYIST FIRST NAME",
+      "fieldName": "lobbyist_first_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 17
+    },
+    {
+      "name": "LOBBYIST MIDDLE INITIAL",
+      "fieldName": "lobbyist_middle_initial",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 18,
+      "cardinality": 10
+    },
+    {
+      "name": "EMPLOYER NAME",
+      "fieldName": "employer_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "RECIPIENT NAME",
+      "fieldName": "recipient_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 52
+    },
+    {
+      "name": "RECIPIENT TITLE",
+      "fieldName": "recipient_title",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 28
+    },
+    {
+      "name": "RECIPIENT AGENCY NAME",
+      "fieldName": "recipient_agency_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "GIFT DESCRIPTION",
+      "fieldName": "gift_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 16
+    },
+    {
+      "name": "VALUE",
+      "fieldName": "value",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 27
+    },
+    {
+      "name": "FILING PERIOD",
+      "fieldName": "filing_period",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:12.868Z"
+}

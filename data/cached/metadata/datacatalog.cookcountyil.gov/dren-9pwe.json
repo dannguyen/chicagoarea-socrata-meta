@@ -1,0 +1,48 @@
+{
+  "id": "dren-9pwe",
+  "name": "Treasurer - 2011 Scavenger Sale Registered Buyers",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 205,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1331912112,
+  "publicationDate": 1412896653,
+  "rowsUpdatedAt": 1412896649,
+  "viewLastModified": 1769546574,
+  "viewCount": 1660,
+  "downloadCount": 3116,
+  "category": "Property & Taxation",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Treasurer's Office",
+  "attributionLink": "http://www.cookcountytreasurer.com/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Buyer ID",
+      "fieldName": "buyer_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 205
+    },
+    {
+      "name": "Buyer Name",
+      "fieldName": "buyer_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 204
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:58.054Z"
+}

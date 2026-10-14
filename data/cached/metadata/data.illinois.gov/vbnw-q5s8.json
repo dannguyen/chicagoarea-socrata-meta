@@ -1,0 +1,580 @@
+{
+  "id": "vbnw-q5s8",
+  "name": "Cook County and Chicago Property Tax Form Data",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2957066,
+  "rowCountSource": "cached",
+  "rowLabel": "Property Transfer Tax Declaration",
+  "hasRowIdentifier": true,
+  "createdAt": 1744722861,
+  "publicationDate": 1744731425,
+  "rowsUpdatedAt": 1791716433,
+  "viewLastModified": 1779402388,
+  "viewCount": 657,
+  "downloadCount": 52,
+  "category": "Government and Public Employees",
+  "tags": [
+    "property tax"
+  ],
+  "attribution": "Illinois Department of Revenue",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Revenue"
+    }
+  },
+  "columns": [
+    {
+      "name": "Declaration ID",
+      "fieldName": "declaration_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Cook County Form Attached",
+      "fieldName": "cook_county_form_attached",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2957066
+    },
+    {
+      "name": "County Form: Deed Date",
+      "fieldName": "county_form_deed_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 1503798,
+      "cardinality": 2957066
+    },
+    {
+      "name": "County Form: Deed Type",
+      "fieldName": "county_form_deed_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1503798,
+      "cardinality": 2957066
+    },
+    {
+      "name": "County Form: Other Deed Type",
+      "fieldName": "county_form_other_deed_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2949717,
+      "cardinality": 2957066
+    },
+    {
+      "name": "County Form: Property Use Type",
+      "fieldName": "county_form_property_use",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1503798,
+      "cardinality": 2957066
+    },
+    {
+      "name": "County Form: Other Property Use Type",
+      "fieldName": "county_form_other_property",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2883075,
+      "cardinality": 2957066
+    },
+    {
+      "name": "County Form: Other Property Use Description",
+      "fieldName": "county_form_other_property_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2889834,
+      "cardinality": 2957066
+    },
+    {
+      "name": "County Form: Interest Type Transferred",
+      "fieldName": "county_form_interest_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1503798,
+      "cardinality": 2957066
+    },
+    {
+      "name": "County Form: Other Interest Type",
+      "fieldName": "county_form_other_interest",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2943554,
+      "cardinality": 2957066
+    },
+    {
+      "name": "County Form: Other Interest Description",
+      "fieldName": "county_form_other_interest_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2947993,
+      "cardinality": 2957066
+    },
+    {
+      "name": "County Form: Section",
+      "fieldName": "county_form_section",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1503798,
+      "cardinality": 2957066
+    },
+    {
+      "name": "County Form: Township",
+      "fieldName": "county_form_township",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1503798,
+      "cardinality": 2957066
+    },
+    {
+      "name": "County Form: Range",
+      "fieldName": "county_form_range",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1503798,
+      "cardinality": 2957066
+    },
+    {
+      "name": "County Form: Legal Description",
+      "fieldName": "county_form_legal_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1545266,
+      "cardinality": 2957066
+    },
+    {
+      "name": "County Form: Full Actual Consideration",
+      "fieldName": "county_form_full_actual",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1503798,
+      "cardinality": 2957066
+    },
+    {
+      "name": "County Form: Personal property included?",
+      "fieldName": "county_form_personal_property",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 1503798,
+      "cardinality": 2957066
+    },
+    {
+      "name": "County Form: Value of personal property included",
+      "fieldName": "county_form_value_of_personal",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1503798,
+      "cardinality": 2957066
+    },
+    {
+      "name": "County Form: Mortgage amount to which property remains subject",
+      "fieldName": "county_form_mortgage_amount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1503798,
+      "cardinality": 2957066
+    },
+    {
+      "name": "County Form: County tax amount",
+      "fieldName": "county_form_county_tax_amount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1503798,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form Attached",
+      "fieldName": "chicago_form_attached",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Tax-Exempt Transfer",
+      "fieldName": "chicago_form_tax_exempt",
+      "dataTypeName": "checkbox",
+      "description": "Section 1 - General",
+      "nullCount": 2226836,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Amended Declaration",
+      "fieldName": "chicago_form_amended",
+      "dataTypeName": "checkbox",
+      "description": "Section 1 - General",
+      "nullCount": 2226836,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Original Filing Date",
+      "fieldName": "chicago_form_original_filing",
+      "dataTypeName": "calendar_date",
+      "description": "Section 1 - General",
+      "nullCount": 2950674,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Supplemental Declarations will be filed in future",
+      "fieldName": "chicago_form_supplemental",
+      "dataTypeName": "checkbox",
+      "description": "Section 1 - General",
+      "nullCount": 2226836,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Declaration is supplemental (Open Transfer)",
+      "fieldName": "chicago_form_declaration",
+      "dataTypeName": "checkbox",
+      "description": "Section 1 - General",
+      "nullCount": 2226836,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Supplemental Type",
+      "fieldName": "chicago_form_supplemental_1",
+      "dataTypeName": "text",
+      "description": "Section 1 - General",
+      "nullCount": 2957019,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Property Type",
+      "fieldName": "chicago_form_property_type",
+      "dataTypeName": "text",
+      "description": "Section 1 - Property Type",
+      "nullCount": 2226836,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Property Type Multi-Unit Residential: Number of Units",
+      "fieldName": "chicago_form_property_type_1",
+      "dataTypeName": "number",
+      "description": "Section 1 - Property Type",
+      "nullCount": 2226836,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Property Type Mixed Use: Number of Residential Units",
+      "fieldName": "chicago_form_property_type_2",
+      "dataTypeName": "number",
+      "description": "Section 1 - Property Type",
+      "nullCount": 2226836,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Property Type Mixed Use: Number of Commercial Units",
+      "fieldName": "chicago_form_property_type_3",
+      "dataTypeName": "number",
+      "description": "Section 1 - Property Type",
+      "nullCount": 2226836,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Property Type Other: Description",
+      "fieldName": "chicago_form_property_type_4",
+      "dataTypeName": "text",
+      "description": "Section 1 - Property Type",
+      "nullCount": 2934556,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Interest Type Transferred",
+      "fieldName": "chicago_form_interest_type",
+      "dataTypeName": "text",
+      "description": "Section 2",
+      "nullCount": 2226836,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Describe other interest",
+      "fieldName": "chicago_form_describe_other",
+      "dataTypeName": "text",
+      "description": "Section 2",
+      "nullCount": 2948085,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Buyer Exemption",
+      "fieldName": "chicago_form_buyer_exemption",
+      "dataTypeName": "text",
+      "description": "Section 3",
+      "nullCount": 2731231,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Seller Exemption",
+      "fieldName": "chicago_form_seller_exemption",
+      "dataTypeName": "text",
+      "description": "Section 3",
+      "nullCount": 2735539,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Earlier of Date of Delivery or Date Recorded",
+      "fieldName": "chicago_form_earlier_of_date",
+      "dataTypeName": "text",
+      "description": "Section 4 - Line 1",
+      "nullCount": 2226836,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Personal Property Included in Transfer",
+      "fieldName": "chicago_form_personal_property",
+      "dataTypeName": "checkbox",
+      "description": "Section 4 - Line 2",
+      "nullCount": 2226836,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Transfer price is contingent on future events",
+      "fieldName": "chicago_form_transfer_price",
+      "dataTypeName": "checkbox",
+      "description": "Section 4 - Line 3",
+      "nullCount": 2226836,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Explain price contingency",
+      "fieldName": "chicago_form_explain_price",
+      "dataTypeName": "text",
+      "description": "Section 4 - Line 3",
+      "nullCount": 2956937,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Use Type Conversion",
+      "fieldName": "chicago_form_use_type",
+      "dataTypeName": "checkbox",
+      "description": "Section 4 - Line 4",
+      "nullCount": 2226836,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Use Type Conversion: To what use type?",
+      "fieldName": "chicago_form_use_type_1",
+      "dataTypeName": "text",
+      "description": "Section 4 - Line 4",
+      "nullCount": 2946480,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Use Type Conversion: Number of condos/co-op units to be created",
+      "fieldName": "chicago_form_use_type_2",
+      "dataTypeName": "number",
+      "description": "Section 4 - Line 5",
+      "nullCount": 2226836,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Transfer pursuant to divorce settlement",
+      "fieldName": "chicago_form_transfer_pursuant",
+      "dataTypeName": "checkbox",
+      "description": "Section 5 - Line 1",
+      "nullCount": 2226836,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Full Actual Consideration",
+      "fieldName": "chicago_form_full_actual",
+      "dataTypeName": "number",
+      "description": "Section 5 - Line 1",
+      "nullCount": 2226836,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Fair market value of personal property included in consideration",
+      "fieldName": "chicago_form_fair_market",
+      "dataTypeName": "number",
+      "description": "Section 5 - Line 2",
+      "nullCount": 2226836,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Fair market value of other property included in consideration",
+      "fieldName": "chicago_form_fair_market_1",
+      "dataTypeName": "number",
+      "description": "Section 5 - Line 3",
+      "nullCount": 2226836,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Buyer Tax Amount",
+      "fieldName": "chicago_form_buyer_tax_amount",
+      "dataTypeName": "number",
+      "description": "Section 5 - Line 7a",
+      "nullCount": 2226836,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Buyer Interest Amount",
+      "fieldName": "chicago_form_buyer_interest",
+      "dataTypeName": "number",
+      "description": "Section 5 - Line 8a",
+      "nullCount": 2226836,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Buyer Penalty Amount",
+      "fieldName": "chicago_form_buyer_penalty",
+      "dataTypeName": "number",
+      "description": "Section 5 - Line 9a",
+      "nullCount": 2226836,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Seller Tax Amount",
+      "fieldName": "chicago_form_seller_tax_amount",
+      "dataTypeName": "number",
+      "description": "Section 5 - Line 7b",
+      "nullCount": 2226836,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Seller Interest Amount",
+      "fieldName": "chicago_form_seller_interest",
+      "dataTypeName": "number",
+      "description": "Section 5 - Line 8b",
+      "nullCount": 2226836,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Seller Penalty Amount",
+      "fieldName": "chicago_form_seller_penalty",
+      "dataTypeName": "number",
+      "description": "Section 5 - Line 8c",
+      "nullCount": 2226836,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Title company used",
+      "fieldName": "chicago_form_title_company",
+      "dataTypeName": "checkbox",
+      "description": "Section 6",
+      "nullCount": 2226836,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Title Company Name",
+      "fieldName": "chicago_form_title_company_1",
+      "dataTypeName": "text",
+      "description": "Section 6",
+      "nullCount": 2356613,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Title Company Representative",
+      "fieldName": "chicago_form_title_company_2",
+      "dataTypeName": "text",
+      "description": "Section 6",
+      "nullCount": 2379276,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Building Registration Certificate Status",
+      "fieldName": "chicago_form_building",
+      "dataTypeName": "text",
+      "description": "Section 8 - Line 1",
+      "nullCount": 2226836,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Zoning Certificate Submitted",
+      "fieldName": "chicago_form_zoning",
+      "dataTypeName": "text",
+      "description": "Section 8 - Line 2",
+      "nullCount": 2226836,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Water and Sewer Charge Full Payment Certification received prior to recording",
+      "fieldName": "chicago_form_water_and_sewer",
+      "dataTypeName": "checkbox",
+      "description": "Section 8 - Line 3",
+      "nullCount": 2226836,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Dept of Finance certified date that water and sewer are paid through",
+      "fieldName": "chicago_form_dept_of_finance",
+      "dataTypeName": "calendar_date",
+      "description": "Section 8 - Line 3",
+      "nullCount": 2873153,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Address of property water and sewer prepaid for",
+      "fieldName": "chicago_form_address_of",
+      "dataTypeName": "text",
+      "description": "Section 8 - Line 3",
+      "nullCount": 2877840,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Water and sewer account number",
+      "fieldName": "chicago_form_water_and_sewer_1",
+      "dataTypeName": "text",
+      "description": "Section 8 - Line 3",
+      "nullCount": 2879213,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Water and sewer application number",
+      "fieldName": "chicago_form_water_and_sewer_2",
+      "dataTypeName": "text",
+      "description": "Section 8 - Line 3",
+      "nullCount": 2882234,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Water and sewer certifying employee",
+      "fieldName": "chicago_form_water_and_sewer_3",
+      "dataTypeName": "text",
+      "description": "Section 8 - Line 3",
+      "nullCount": 2884385,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Water and sewer certification date",
+      "fieldName": "chicago_form_water_and_sewer_4",
+      "dataTypeName": "calendar_date",
+      "description": "Section 8 - Line 3",
+      "nullCount": 2881984,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: City stamps paid late",
+      "fieldName": "chicago_form_city_stamps",
+      "dataTypeName": "checkbox",
+      "description": "City Stamp Dates",
+      "nullCount": 2226836,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Date of city stamps",
+      "fieldName": "chicago_form_date_of_city",
+      "dataTypeName": "calendar_date",
+      "description": "City Stamp Dates",
+      "nullCount": 2315368,
+      "cardinality": 2957066
+    },
+    {
+      "name": "Chicago Form: Number of days late",
+      "fieldName": "chicago_form_number_of_days",
+      "dataTypeName": "number",
+      "description": "City Stamp Dates",
+      "nullCount": 2226836,
+      "cardinality": 2957066
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:32.961Z"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "nk2j-663f",
+  "name": "Healthy Chicago Equity Zones",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 6,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1628283860,
+  "publicationDate": 1630507943,
+  "rowsUpdatedAt": 1630507937,
+  "viewLastModified": 1643930546,
+  "viewCount": 4194,
+  "downloadCount": 1807,
+  "category": "Health & Human Services",
+  "tags": [
+    "public health",
+    "geo_layer",
+    "health"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov/city/en/sites/covid-19/home/healthy-chicago-equity-zones.html",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2021",
+      "Data Owner": "Department of Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "Geometry",
+      "fieldName": "geometry",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Equity Zone",
+      "fieldName": "equity_zone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Shape Length",
+      "fieldName": "shape_length",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Shape Area",
+      "fieldName": "shape_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:05.964Z"
+}

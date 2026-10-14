@@ -1,0 +1,153 @@
+{
+  "id": "qgdz-d5m4",
+  "name": "Influenza, COVID-19, RSV, and Other Respiratory Virus Laboratory Surveillance",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 3437,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": true,
+  "createdAt": 1695332884,
+  "publicationDate": 1695335107,
+  "rowsUpdatedAt": 1791567197,
+  "viewLastModified": 1760037241,
+  "viewCount": 5154,
+  "downloadCount": 2499,
+  "category": "Health & Human Services",
+  "tags": [
+    "flu",
+    "respiratory",
+    "public health",
+    "health",
+    "covid-19"
+  ],
+  "attribution": "Chicago Department of Public Health",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2010-Present",
+      "Frequency": "Data are updated weekly"
+    }
+  },
+  "columns": [
+    {
+      "name": "mmwr_week",
+      "fieldName": "mmwr_week",
+      "dataTypeName": "number",
+      "description": "A weekly counting system within a calendar year standardized by the U.S. Centers for Disease Control and Prevention",
+      "nullCount": 0,
+      "cardinality": 3437
+    },
+    {
+      "name": "week",
+      "fieldName": "week",
+      "dataTypeName": "number",
+      "description": "The calendar week standardized by the U.S. Centers for Disease Control and Prevention",
+      "nullCount": 0,
+      "cardinality": 3437
+    },
+    {
+      "name": "week_start",
+      "fieldName": "week_start",
+      "dataTypeName": "calendar_date",
+      "description": "Beginning date of the MMWR week",
+      "nullCount": 40,
+      "cardinality": 3437
+    },
+    {
+      "name": "week_end",
+      "fieldName": "week_end",
+      "dataTypeName": "calendar_date",
+      "description": "Ending date of the MMWR week",
+      "nullCount": 40,
+      "cardinality": 3437
+    },
+    {
+      "name": "season",
+      "fieldName": "season",
+      "dataTypeName": "text",
+      "description": "Annually recurring reporting period for which estimates are calculated, beginning during MMWR week 40 and ending with week 39 of the following year",
+      "nullCount": 0,
+      "cardinality": 3437
+    },
+    {
+      "name": "pathogen",
+      "fieldName": "pathogen",
+      "dataTypeName": "text",
+      "description": "The respiratory virus corresponding to laboratory testing ",
+      "nullCount": 0,
+      "cardinality": 3437
+    },
+    {
+      "name": "lab_tot_tested",
+      "fieldName": "lab_tot_tested",
+      "dataTypeName": "number",
+      "description": "Total number of specimens tested for the specified pathogen as reported by participating laboratories",
+      "nullCount": 40,
+      "cardinality": 3437
+    },
+    {
+      "name": "lab_tot_positive",
+      "fieldName": "lab_tot_positive",
+      "dataTypeName": "number",
+      "description": "Total number of specimens that were positive for the specified pathogen as reported by participating laboratories",
+      "nullCount": 40,
+      "cardinality": 3437
+    },
+    {
+      "name": "lab_pct_positive",
+      "fieldName": "lab_pct_positive",
+      "dataTypeName": "number",
+      "description": "Percentage of specimens that were positive for the specified pathogen as reported by participating laboratories",
+      "nullCount": 14,
+      "cardinality": 3437
+    },
+    {
+      "name": "lab_tot_tested_cumulative",
+      "fieldName": "lab_tot_tested_cumulative",
+      "dataTypeName": "number",
+      "description": "Total number of specimens tested for the specified pathogen in the specified season, which goes from week 40 of each year to week 39 of the following year",
+      "nullCount": 40,
+      "cardinality": 3437
+    },
+    {
+      "name": "lab_tot_positive_cumulative",
+      "fieldName": "lab_tot_positive_cumulative",
+      "dataTypeName": "number",
+      "description": "Total number of specimens that were positive for the specified pathogen in the specified season, which goes from week 40 of each year to week 39 of the following year",
+      "nullCount": 40,
+      "cardinality": 3437
+    },
+    {
+      "name": "lab_pct_positive_cumulative",
+      "fieldName": "lab_pct_positive_cumulative",
+      "dataTypeName": "number",
+      "description": "Percentage of specimens that were positive for the specified pathogen in the specified season, which goes from week 40 of each year to week 39 of the following year",
+      "nullCount": 16,
+      "cardinality": 3437
+    },
+    {
+      "name": "current_week_ending",
+      "fieldName": "current_week_ending",
+      "dataTypeName": "calendar_date",
+      "description": "Ending date of the MMWR week for the current season",
+      "nullCount": 0,
+      "cardinality": 3437
+    },
+    {
+      "name": "row_id",
+      "fieldName": "row_id",
+      "dataTypeName": "text",
+      "description": "A unique ID for the row",
+      "nullCount": 0,
+      "cardinality": 3437
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:04.367Z"
+}

@@ -1,0 +1,112 @@
+{
+  "id": "msv2-rz76",
+  "name": "Middle_School_Attendance_1819",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 25,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1531927705,
+  "publicationDate": 1531927709,
+  "rowsUpdatedAt": 1531927708,
+  "viewLastModified": 1712775944,
+  "viewCount": 259,
+  "downloadCount": 962,
+  "category": "Education",
+  "tags": [
+    "attendance",
+    "boundaries",
+    "cps",
+    "schools",
+    "map_layer",
+    "gis",
+    "2018",
+    "2019",
+    "kml",
+    "kmz",
+    "shapefiles"
+  ],
+  "attribution": "Chicago Public Schools",
+  "attributionLink": "https://cps.edu",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "July 2018 - July 2019",
+      "Frequency": "Annually",
+      "Data Owner": "Chicago Public Schools"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "SCHOOL_ID",
+      "fieldName": "school_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 22
+    },
+    {
+      "name": "SCHOOL_ADD",
+      "fieldName": "school_add",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 22
+    },
+    {
+      "name": "SCHOOL_NM",
+      "fieldName": "school_nm",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 22
+    },
+    {
+      "name": "GRADE_CAT",
+      "fieldName": "grade_cat",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "BOUNDARYGR",
+      "fieldName": "boundarygr",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "SCH_TYPE",
+      "fieldName": "sch_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "BRD_RPT",
+      "fieldName": "brd_rpt",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 24,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:26.991Z"
+}

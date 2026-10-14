@@ -1,0 +1,94 @@
+{
+  "id": "29cv-3k68",
+  "name": "IDPH Outpatient Therapy Facilities",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 72,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709064550,
+  "publicationDate": 1709145256,
+  "rowsUpdatedAt": 1709145250,
+  "viewLastModified": 1736793980,
+  "viewCount": 128,
+  "downloadCount": 137,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "addess",
+      "fieldName": "addess",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 72
+    },
+    {
+      "name": "city",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 53
+    },
+    {
+      "name": "county",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 23
+    },
+    {
+      "name": "medicare",
+      "fieldName": "medicare",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 72
+    },
+    {
+      "name": "outpatient_therapy_facility",
+      "fieldName": "outpatient_therapy_facility",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 61
+    },
+    {
+      "name": "phone",
+      "fieldName": "phone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 72
+    },
+    {
+      "name": "zip",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 66
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:34.905Z"
+}

@@ -1,0 +1,216 @@
+{
+  "id": "qhb4-qx8k",
+  "name": "DOE Environmental Asbestos and Demolition Notification",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 65578,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1349664482,
+  "publicationDate": 1743191541,
+  "rowsUpdatedAt": 1791965515,
+  "viewLastModified": 1788554125,
+  "viewCount": 18407,
+  "downloadCount": 97388,
+  "category": "Environment & Sustainable Development",
+  "tags": [
+    "environmental health",
+    "asbestos"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "1993-Current",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"qhb4-qx8k\"",
+      "Frequency": "Data are updated daily",
+      "Data Owner": "Department of Environment"
+    }
+  },
+  "columns": [
+    {
+      "name": "APPLICATION ID",
+      "fieldName": "application_id",
+      "dataTypeName": "text",
+      "description": "System--assigned number",
+      "nullCount": 37699,
+      "cardinality": 65578
+    },
+    {
+      "name": "NOTIFICATION TYPE",
+      "fieldName": "notification_type",
+      "dataTypeName": "text",
+      "description": "Specifies the type of NOI submitted: NOI DEMO/RENOVATIONion or NOI NESHAP (National Emission Standards for Hazardous Air Pollutants).",
+      "nullCount": 0,
+      "cardinality": 65578
+    },
+    {
+      "name": "ADDRESS",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": "Full site address.",
+      "nullCount": 0,
+      "cardinality": 65578
+    },
+    {
+      "name": "STREET NUMBER FROM",
+      "fieldName": "street_number_from",
+      "dataTypeName": "number",
+      "description": "This is the numeric portion of the address. For ranged addresses, this value is the lower number in the range.    ",
+      "nullCount": 0,
+      "cardinality": 65578
+    },
+    {
+      "name": "STREET NUMBER TO",
+      "fieldName": "street_number_to",
+      "dataTypeName": "number",
+      "description": "This is the numeric portion of the address. For ranged addresses, this value is the higher number in the range. This value is blank for single (non-range) addresses.    ",
+      "nullCount": 60960,
+      "cardinality": 65578
+    },
+    {
+      "name": "DIRECTION",
+      "fieldName": "direction",
+      "dataTypeName": "text",
+      "description": "The direction (N,S,E,W) portion of the address.",
+      "nullCount": 0,
+      "cardinality": 65585
+    },
+    {
+      "name": "STREET NAME",
+      "fieldName": "street_name",
+      "dataTypeName": "text",
+      "description": "The name of the street",
+      "nullCount": 0,
+      "cardinality": 65585
+    },
+    {
+      "name": "STREET TYPE",
+      "fieldName": "street_type",
+      "dataTypeName": "text",
+      "description": "The street name suffix (e.g. ST = Street, AVE = Avenue. BLVD = Boulevard, etc).",
+      "nullCount": 390,
+      "cardinality": 65585
+    },
+    {
+      "name": "OWNER/APPLICANT",
+      "fieldName": "owner_applicant",
+      "dataTypeName": "text",
+      "description": "The owner or entity that submitted the NOI.  ",
+      "nullCount": 515,
+      "cardinality": 65585
+    },
+    {
+      "name": "START DATE",
+      "fieldName": "start_date",
+      "dataTypeName": "calendar_date",
+      "description": "The proposed start date of work as reported in the NOI.  ",
+      "nullCount": 446,
+      "cardinality": 65585
+    },
+    {
+      "name": "END DATE",
+      "fieldName": "end_date",
+      "dataTypeName": "calendar_date",
+      "description": "The proposed finish date of work as reported in the NOI.  ",
+      "nullCount": 30258,
+      "cardinality": 65585
+    },
+    {
+      "name": "COMMENT",
+      "fieldName": "comment",
+      "dataTypeName": "text",
+      "description": "Additional information relating to the NOI that may include location information, property description, actual start and finish dates, field observations, and status of work. ",
+      "nullCount": 25332,
+      "cardinality": 65585
+    },
+    {
+      "name": "DATA SOURCE",
+      "fieldName": "data_source",
+      "dataTypeName": "text",
+      "description": "The city department that collected the data.  ",
+      "nullCount": 0,
+      "cardinality": 65585
+    },
+    {
+      "name": "LATITUDE",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": "Latitude coordinate of the facility (low end if an address range).",
+      "nullCount": 213,
+      "cardinality": 65585
+    },
+    {
+      "name": "LONGITUDE",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": "Longitude coordinate of the facility (low end if an address range).",
+      "nullCount": 213,
+      "cardinality": 65585
+    },
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": "The location of the facility in a format that allows for creation of maps and other geographic operations on this data portal.",
+      "nullCount": 213,
+      "cardinality": 65585
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:37:48.604Z"
+}

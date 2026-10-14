@@ -1,0 +1,73 @@
+{
+  "id": "2wk4-c5se",
+  "name": "Performance Metrics - Housing & Economic Development - Landmark Permitting Review",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 49,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1311111338,
+  "publicationDate": 1412314147,
+  "rowsUpdatedAt": 1412314072,
+  "viewLastModified": 1412314147,
+  "viewCount": 1533,
+  "downloadCount": 5469,
+  "category": "Administration & Finance",
+  "tags": [
+    "performance metrics",
+    "permits",
+    "landmarks"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "Data is current as of December 2011",
+      "Frequency": "Data is updated monthly",
+      "Data Owner": "Housing & Economic Development"
+    }
+  },
+  "columns": [
+    {
+      "name": "Month",
+      "fieldName": "month",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 42
+    },
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Permit applications reviewed",
+      "fieldName": "permit_applications_reviewed",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 42
+    },
+    {
+      "name": "Permit applications reviewed within one day",
+      "fieldName": "permit_applications_reviewed_within_one_day",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:16.655Z"
+}

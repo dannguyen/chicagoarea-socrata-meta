@@ -1,0 +1,96 @@
+{
+  "id": "dsvs-yfj6",
+  "name": "Performance Metrics - Housing & Economic Development - Affordable Multi Family Homes",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 7,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1313508218,
+  "publicationDate": 1348052858,
+  "rowsUpdatedAt": 1348052855,
+  "viewLastModified": 1348052858,
+  "viewCount": 2460,
+  "downloadCount": 3396,
+  "category": "Administration & Finance",
+  "tags": [
+    "performance metrics",
+    "housing"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "January 2011 to present",
+      "Frequency": "Data is updated quarterly",
+      "Data Owner": "Housing & Economic Development"
+    }
+  },
+  "columns": [
+    {
+      "name": "Month",
+      "fieldName": "month",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Created/Preserved Multi-Family  Units ",
+      "fieldName": "affordable_multi_family_housing_units_created_or_preserved_to_date_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 6
+    },
+    {
+      "name": "Target Homes",
+      "fieldName": "target_homes",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 2
+    },
+    {
+      "name": "Progress to Target Homes",
+      "fieldName": "progress_to_target_homes",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 6
+    },
+    {
+      "name": "Total Spending",
+      "fieldName": "total_spending",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 6
+    },
+    {
+      "name": "Spending Target",
+      "fieldName": "spending_target",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 2
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:11.172Z"
+}

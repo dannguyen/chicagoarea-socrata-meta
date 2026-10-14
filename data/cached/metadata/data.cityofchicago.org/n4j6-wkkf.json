@@ -1,0 +1,152 @@
+{
+  "id": "n4j6-wkkf",
+  "name": "Chicago Traffic Tracker - Congestion Estimates by Segments - Deprecated",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1257,
+  "rowCountSource": "cached",
+  "rowLabel": "Traffic Segment",
+  "hasRowIdentifier": false,
+  "createdAt": 1321759705,
+  "publicationDate": 1411766306,
+  "rowsUpdatedAt": 1777530810,
+  "viewLastModified": 1786035394,
+  "viewCount": 103494,
+  "downloadCount": 1831459,
+  "category": "Transportation",
+  "tags": [
+    "traffic",
+    "sustainability",
+    "deprecated",
+    "link to article present"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.chicagotraffictracker.com/",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"n4j6-wkkf\"",
+      "Data Owner": "Transportation"
+    }
+  },
+  "columns": [
+    {
+      "name": "SEGMENTID",
+      "fieldName": "segmentid",
+      "dataTypeName": "text",
+      "description": "Unique arbitrary number to represent each segment.",
+      "nullCount": 0,
+      "cardinality": 1257
+    },
+    {
+      "name": "STREET",
+      "fieldName": "street",
+      "dataTypeName": "text",
+      "description": "Street name of the traffic segment.",
+      "nullCount": 0,
+      "cardinality": 1257
+    },
+    {
+      "name": "DIRECTION",
+      "fieldName": "_direction",
+      "dataTypeName": "text",
+      "description": "Traffic flow direction for the segment.",
+      "nullCount": 0,
+      "cardinality": 1257
+    },
+    {
+      "name": "FROM_STREET",
+      "fieldName": "_fromst",
+      "dataTypeName": "text",
+      "description": "Start street for the segment in the direction of traffic flow.",
+      "nullCount": 0,
+      "cardinality": 1257
+    },
+    {
+      "name": "TO_STREET",
+      "fieldName": "_tost",
+      "dataTypeName": "text",
+      "description": "End street for the segment in the direction of traffic flow.",
+      "nullCount": 0,
+      "cardinality": 1257
+    },
+    {
+      "name": "LENGTH",
+      "fieldName": "_length",
+      "dataTypeName": "text",
+      "description": "Length of the segment in miles.",
+      "nullCount": 0,
+      "cardinality": 1257
+    },
+    {
+      "name": " STREET_HEADING",
+      "fieldName": "_strheading",
+      "dataTypeName": "text",
+      "description": "The position of the segment in the address grid. North, South, East, or West of State and Madison. ",
+      "nullCount": 0,
+      "cardinality": 1257
+    },
+    {
+      "name": " COMMENTS",
+      "fieldName": "_comments",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1032,
+      "cardinality": 1257
+    },
+    {
+      "name": "START_LONGITUDE",
+      "fieldName": "start_lon",
+      "dataTypeName": "text",
+      "description": "The longitude associated with the starting point of the segment in the direction of traffic flow. For two-way streets it is roughly at the middle of the half that the segment is representing. For one-way streets this is the street center line. The startin",
+      "nullCount": 0,
+      "cardinality": 1257
+    },
+    {
+      "name": " START_LATITUDE",
+      "fieldName": "_lif_lat",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1257
+    },
+    {
+      "name": "END_LONGITUDE",
+      "fieldName": "_lit_lon",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1257
+    },
+    {
+      "name": " END_LATITUDE",
+      "fieldName": "_lit_lat",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1257
+    },
+    {
+      "name": " CURRENT_SPEED",
+      "fieldName": "_traffic",
+      "dataTypeName": "text",
+      "description": "A value of -1 means no estimate is available.",
+      "nullCount": 0,
+      "cardinality": 1257
+    },
+    {
+      "name": " LAST_UPDATED",
+      "fieldName": "_last_updt",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1257
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:04.731Z"
+}

@@ -1,0 +1,223 @@
+{
+  "id": "kj88-xnxq",
+  "name": "Performance Metrics - 311 Call Center",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 270,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1317069399,
+  "publicationDate": 1470751877,
+  "rowsUpdatedAt": 1470751714,
+  "viewLastModified": 1496348137,
+  "viewCount": 4584,
+  "downloadCount": 5404,
+  "category": "Administration & Finance",
+  "tags": [
+    "performance metrics",
+    "service delivery"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "May 2010 - present",
+      "Frequency": "Data is updated weekly",
+      "Data Owner": "311"
+    }
+  },
+  "columns": [
+    {
+      "name": "Sort",
+      "fieldName": "sort",
+      "dataTypeName": "number",
+      "description": "Column to sort by",
+      "nullCount": 0,
+      "cardinality": 270
+    },
+    {
+      "name": "Dates",
+      "fieldName": "dates",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 268
+    },
+    {
+      "name": "Average Number of Operators, Mon-Fri, (7:00AM-3:00PM) ",
+      "fieldName": "average_number_of_operators_mon_fri_7_00am_3_00pm_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 14
+    },
+    {
+      "name": "Average Number of Operators, Mon-Fri, (3:00PM-11:00PM) ",
+      "fieldName": "average_number_of_operators_mon_fri_3_00pm_11_00pm_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 11
+    },
+    {
+      "name": "Average Number of Operators, Mon-Fri, (11:00PM-7:00AM) ",
+      "fieldName": "average_number_of_operators_mon_fri_11_00pm_7_00am_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 8
+    },
+    {
+      "name": "Average Number of Operators, Sat-Sun, (7:00AM-3:00PM) ",
+      "fieldName": "average_number_of_operators_sat_sun_7_00am_3_00pm_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 15
+    },
+    {
+      "name": "Average Number of Operators, Sat-Sun, (3:00PM-11:00PM) ",
+      "fieldName": "average_number_of_operators_sat_sun_3_00pm_11_00pm_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 13
+    },
+    {
+      "name": "Average Number of Operators, Sat-Sun, (11:00PM-7:00AM) ",
+      "fieldName": "average_number_of_operators_sat_sun_11_00pm_7_00am_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 8
+    },
+    {
+      "name": "Call Volume (7:00AM-3:00PM) ",
+      "fieldName": "call_volume_7_00am_3_00pm_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 267
+    },
+    {
+      "name": "Call Volume (3:00PM-11:00PM) ",
+      "fieldName": "call_volume_3_00pm_11_00pm_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 267
+    },
+    {
+      "name": "Call Volume (11:00PM-7:00AM) ",
+      "fieldName": "call_volume_11_00pm_7_00am_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 256
+    },
+    {
+      "name": "Efficiency (7:00AM-3:00PM) ",
+      "fieldName": "efficiency_7_00am_3_00pm_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 44
+    },
+    {
+      "name": "Efficiency (3:00PM-11:00PM) ",
+      "fieldName": "efficiency_3_00pm_11_00pm_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 38
+    },
+    {
+      "name": "Efficiency (11:00PM-7:00AM) ",
+      "fieldName": "efficiency_11_00pm_7_00am_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 22
+    },
+    {
+      "name": "Utilization (7:00AM-3:00PM) ",
+      "fieldName": "utilization_7_00am_3_00pm_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 29
+    },
+    {
+      "name": "Utilization (3:00PM-11:00PM) ",
+      "fieldName": "utilization_3_00pm_11_00pm_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 26
+    },
+    {
+      "name": "Utilization (11:00PM-7:00AM) ",
+      "fieldName": "utilization_11_00pm_7_00am_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 33
+    },
+    {
+      "name": "Abandoned (7:00AM-3:00PM) ",
+      "fieldName": "abandoned_7_00am_3_00pm_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 34
+    },
+    {
+      "name": "Abandoned (3:00PM-11:00PM) ",
+      "fieldName": "abandoned_3_00pm_11_00pm_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 34
+    },
+    {
+      "name": "Abandoned (11:00PM-7:00AM) ",
+      "fieldName": "abandoned_11_00pm_7_00am_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 25
+    },
+    {
+      "name": "Average Wait Time (seconds): 7:00AM-3:00PM",
+      "fieldName": "average_wait_time_seconds_7_00am_3_00pm",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 120
+    },
+    {
+      "name": "Average Wait Time (seconds): 3:00PM-11:00PM",
+      "fieldName": "average_wait_time_seconds_3_00pm_11_00pm",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 97
+    },
+    {
+      "name": "Average Wait Time (seconds): 11:00PM-7:00AM",
+      "fieldName": "average_wait_time_seconds_11_00pm_7_00am",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 47
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:05.457Z"
+}

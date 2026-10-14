@@ -1,0 +1,118 @@
+{
+  "id": "9sgn-ibhu",
+  "name": "Cook County Clerk - Tax Agency Rates",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1835,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1410451170,
+  "publicationDate": 1410453094,
+  "rowsUpdatedAt": 1410451183,
+  "viewLastModified": 1769545975,
+  "viewCount": 5523,
+  "downloadCount": 3646,
+  "category": "Property & Taxation",
+  "tags": [
+    "tax agencies",
+    "property",
+    "inactive"
+  ],
+  "attribution": "Cook County Clerk",
+  "attributionLink": "http://www.cookcountyclerk.com",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Update Frequency": "Yearly"
+    }
+  },
+  "columns": [
+    {
+      "name": "Agency",
+      "fieldName": "agency",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1785
+    },
+    {
+      "name": "Agency Name",
+      "fieldName": "agency_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1828
+    },
+    {
+      "name": "Agency Rate 2006",
+      "fieldName": "agency_rate_2006",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 301,
+      "cardinality": 657
+    },
+    {
+      "name": "Agency Rate 2007",
+      "fieldName": "agency_rate_2007",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 249,
+      "cardinality": 646
+    },
+    {
+      "name": "Agency Rate 2008",
+      "fieldName": "agency_rate_2008",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 307,
+      "cardinality": 657
+    },
+    {
+      "name": "Agency Rate 2009",
+      "fieldName": "agency_rate_2009",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 328,
+      "cardinality": 670
+    },
+    {
+      "name": "Agency Rate 2010",
+      "fieldName": "agency_rate_2010",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 298,
+      "cardinality": 655
+    },
+    {
+      "name": "Agency Rate 2011",
+      "fieldName": "agency_rate_2011",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 274,
+      "cardinality": 695
+    },
+    {
+      "name": "Agency Rate 2012",
+      "fieldName": "agency_rate_2012",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 273,
+      "cardinality": 703
+    },
+    {
+      "name": "Agency Rate 2013",
+      "fieldName": "agency_rate_2013",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 271,
+      "cardinality": 719
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:52.440Z"
+}

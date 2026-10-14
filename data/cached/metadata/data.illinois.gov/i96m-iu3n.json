@@ -1,0 +1,113 @@
+{
+  "id": "i96m-iu3n",
+  "name": "Winnebago County 72 Hour Dispatch Call Log",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 777,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1738082923,
+  "publicationDate": 1738086229,
+  "rowsUpdatedAt": 1791997630,
+  "viewLastModified": 1791997630,
+  "viewCount": 46752,
+  "downloadCount": 3741,
+  "category": "Local Government",
+  "tags": [
+    "dispatch",
+    "cfs",
+    "calls for service"
+  ],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Winnebago County"
+    },
+    "Data Management": {
+      "Maintainer Email": "opendata@rockfordil.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "Event_Number",
+      "fieldName": "event_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 777
+    },
+    {
+      "name": "StreetNum",
+      "fieldName": "streetnum",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 190,
+      "cardinality": 777
+    },
+    {
+      "name": "StreetName",
+      "fieldName": "streetname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 116,
+      "cardinality": 777
+    },
+    {
+      "name": "Full_Address",
+      "fieldName": "full_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 777
+    },
+    {
+      "name": "Reporting_District",
+      "fieldName": "reporting_district",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 777
+    },
+    {
+      "name": "Dispatch_Date_Time",
+      "fieldName": "dispatch_date_time",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 777
+    },
+    {
+      "name": "Dispatch_Date",
+      "fieldName": "dispatch_date",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 777
+    },
+    {
+      "name": "Dispatch_Time",
+      "fieldName": "dispatch_time",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 777
+    },
+    {
+      "name": "Incident_Type_Desc_Display",
+      "fieldName": "incident_type_desc_display",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 777
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:31.654Z"
+}

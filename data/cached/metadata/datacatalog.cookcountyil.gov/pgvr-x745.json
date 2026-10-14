@@ -1,0 +1,132 @@
+{
+  "id": "pgvr-x745",
+  "name": "Budget - Fiscal Year 2016 Executive Recommendation - Capital Equipment",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 186,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1444838117,
+  "publicationDate": 1444838407,
+  "rowsUpdatedAt": 1444838128,
+  "viewLastModified": 1769545254,
+  "viewCount": 1388,
+  "downloadCount": 2744,
+  "category": "Finance & Operations",
+  "tags": [
+    "2016 budget executive recommendation",
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Budget & Management Services",
+  "attributionLink": "http://www.cookcountyil.gov/budget/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Department of Budget & Management Services"
+    },
+    "Metadata": {
+      "Update Frequency": "Yearly"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Annually",
+      "Publishing frequency": "Annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "Office",
+      "fieldName": "office",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Control Officer",
+      "fieldName": "control_officer",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 14
+    },
+    {
+      "name": "Bureau",
+      "fieldName": "bureau",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 19
+    },
+    {
+      "name": "Fund",
+      "fieldName": "fund",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Department Number",
+      "fieldName": "department_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 32
+    },
+    {
+      "name": "Department Name",
+      "fieldName": "department_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 32
+    },
+    {
+      "name": "Capital Project Title",
+      "fieldName": "capital_project_title",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 121
+    },
+    {
+      "name": "Capital Project Type",
+      "fieldName": "capital_project_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Request",
+      "fieldName": "request",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 132
+    },
+    {
+      "name": "Account",
+      "fieldName": "account",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "Account Name",
+      "fieldName": "account_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:00.085Z"
+}

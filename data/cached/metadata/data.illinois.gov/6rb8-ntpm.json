@@ -1,0 +1,93 @@
+{
+  "id": "6rb8-ntpm",
+  "name": "Future Solicitations",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 49,
+  "rowCountSource": "cached",
+  "rowLabel": "A project that may bid in the future",
+  "hasRowIdentifier": false,
+  "createdAt": 1778526859,
+  "publicationDate": 1778527099,
+  "rowsUpdatedAt": 1791977475,
+  "viewLastModified": 1791977474,
+  "viewCount": 133,
+  "downloadCount": 77,
+  "category": "Government and Public Employees",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Capital Development Board"
+    },
+    "Data Management": {
+      "Maintainer": "Capital Development Board"
+    }
+  },
+  "columns": [
+    {
+      "name": "Project Number",
+      "fieldName": "project_number",
+      "dataTypeName": "text",
+      "description": "The assigned unique project number",
+      "nullCount": 0,
+      "cardinality": 49
+    },
+    {
+      "name": "Description",
+      "fieldName": "description",
+      "dataTypeName": "text",
+      "description": "A general description of the project",
+      "nullCount": 0,
+      "cardinality": 49
+    },
+    {
+      "name": "Location Name",
+      "fieldName": "location_name",
+      "dataTypeName": "text",
+      "description": "The state facility where the contracted work will take place",
+      "nullCount": 0,
+      "cardinality": 49
+    },
+    {
+      "name": "Approximate Cost",
+      "fieldName": "approximate_cost",
+      "dataTypeName": "text",
+      "description": "A rough estimate of the value of the contract",
+      "nullCount": 0,
+      "cardinality": 49
+    },
+    {
+      "name": "Estimated Bid Date",
+      "fieldName": "estimated_bid_date",
+      "dataTypeName": "calendar_date",
+      "description": "The anticipated date of the bid",
+      "nullCount": 0,
+      "cardinality": 49
+    },
+    {
+      "name": "Project Manager",
+      "fieldName": "project_manager",
+      "dataTypeName": "text",
+      "description": "The Capital Development Board Project Manager",
+      "nullCount": 0,
+      "cardinality": 49
+    },
+    {
+      "name": "Architect/Engineer",
+      "fieldName": "architect_engineer",
+      "dataTypeName": "text",
+      "description": "The design firm for the construction work",
+      "nullCount": 0,
+      "cardinality": 49
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:32.695Z"
+}

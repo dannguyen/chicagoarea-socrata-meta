@@ -1,0 +1,130 @@
+{
+  "id": "2nqp-b84f",
+  "name": "Charter_Overlay_Boundaries_1819",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 16,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1531930067,
+  "publicationDate": 1531930072,
+  "rowsUpdatedAt": 1531930071,
+  "viewLastModified": 1712776000,
+  "viewCount": 309,
+  "downloadCount": 1301,
+  "category": "Education",
+  "tags": [
+    "attendance",
+    "boundaries",
+    "cps",
+    "charter",
+    "preference",
+    "schools",
+    "map_layer",
+    "gis",
+    "2017",
+    "2018",
+    "kml",
+    "kmz",
+    "shapefiles"
+  ],
+  "attribution": "Chicago Public Schools",
+  "attributionLink": "https://cps.edu",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "July 2018 - July 2019",
+      "Frequency": "Annually",
+      "Data Owner": "Chicago Public Schools"
+    }
+  },
+  "columns": [
+    {
+      "name": "SCHOOL_ADD",
+      "fieldName": "school_add",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 16
+    },
+    {
+      "name": "SCHOOL_NM",
+      "fieldName": "school_nm",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 16
+    },
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "SCHOOL_ID",
+      "fieldName": "school_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 16
+    },
+    {
+      "name": "BOUNDARYGR",
+      "fieldName": "boundarygr",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "SCH_TYPE",
+      "fieldName": "sch_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "BRD_RPT",
+      "fieldName": "brd_rpt",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 14
+    },
+    {
+      "name": "OBJECTID",
+      "fieldName": "objectid",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 16
+    },
+    {
+      "name": "SHAPE_Leng",
+      "fieldName": "shape_leng",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 16
+    },
+    {
+      "name": "SHAPE_Area",
+      "fieldName": "shape_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 16
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:26.195Z"
+}

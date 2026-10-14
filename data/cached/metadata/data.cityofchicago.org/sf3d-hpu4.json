@@ -1,0 +1,110 @@
+{
+  "id": "sf3d-hpu4",
+  "name": "FOIA Request Log - Streets And Sanitation UPDATE THIS VERSION(1)",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 30634,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1515166886,
+  "publicationDate": 1547222483,
+  "rowsUpdatedAt": 1515166886,
+  "viewLastModified": 1547222483,
+  "viewCount": 550,
+  "downloadCount": 2389,
+  "category": null,
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "REQUESTOR NAME",
+      "fieldName": "requestor_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 2154
+    },
+    {
+      "name": "ORGANIZATION",
+      "fieldName": "organization",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3166,
+      "cardinality": 845
+    },
+    {
+      "name": "DESCRIPTION OF REQUEST",
+      "fieldName": "description_of_request",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 8,
+      "cardinality": 10219
+    },
+    {
+      "name": "DATE RECEIVED",
+      "fieldName": "date_received",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 39,
+      "cardinality": 1852
+    },
+    {
+      "name": "DUE DATE",
+      "fieldName": "due_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 50,
+      "cardinality": 1838
+    },
+    {
+      "name": "DATE RESPONDED TO",
+      "fieldName": "date_responded_to",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 872,
+      "cardinality": 1612
+    },
+    {
+      "name": "ASSIGNED TO",
+      "fieldName": "assigned_to",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 25806,
+      "cardinality": 31
+    },
+    {
+      "name": "RESP/ DOCS",
+      "fieldName": "resp_docs",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 29829,
+      "cardinality": 42
+    },
+    {
+      "name": "5-DAY EXT",
+      "fieldName": "_5_day_ext",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 30515,
+      "cardinality": 38
+    },
+    {
+      "name": "CLARIFICATION/ DENIAL",
+      "fieldName": "clarification_denial",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 30514,
+      "cardinality": 37
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:23.760Z"
+}

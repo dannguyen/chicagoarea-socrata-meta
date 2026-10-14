@@ -1,0 +1,127 @@
+{
+  "id": "3e26-zek2",
+  "name": "Grocery Store Status - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 264,
+  "rowCountSource": "cached",
+  "rowLabel": "Grocery Store",
+  "hasRowIdentifier": false,
+  "createdAt": 1591394006,
+  "publicationDate": 1591820868,
+  "rowsUpdatedAt": 1592503002,
+  "viewLastModified": 1749853948,
+  "viewCount": 6059,
+  "downloadCount": 5922,
+  "category": "Health & Human Services",
+  "tags": [
+    "grocery stores",
+    "food",
+    "historical"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "June 2020",
+      "Data Owner": "Office of Emergency Management & Communications"
+    }
+  },
+  "columns": [
+    {
+      "name": "Store Name",
+      "fieldName": "store_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 89
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 264
+    },
+    {
+      "name": "Zip",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 161
+    },
+    {
+      "name": "New status",
+      "fieldName": "new_status",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Last updated",
+      "fieldName": "last_updated",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 9,
+      "cardinality": 5
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 261
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:03.213Z"
+}

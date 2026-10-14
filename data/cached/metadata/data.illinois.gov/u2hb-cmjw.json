@@ -1,0 +1,430 @@
+{
+  "id": "u2hb-cmjw",
+  "name": "FY24 Cooperative Extension Disbursements",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 14721,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1734623435,
+  "publicationDate": 1734627793,
+  "rowsUpdatedAt": 1734627765,
+  "viewLastModified": 1736796068,
+  "viewCount": 51,
+  "downloadCount": 15,
+  "category": "Natural and Cultural Resources",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Agriculture"
+    },
+    "Data Management": {
+      "Maintainer": "Grant.Manager@DOA",
+      "Maintainer Email": "AGR.Grants@illinois.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "Commitment Item",
+      "fieldName": "commitment_item",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 70,
+      "cardinality": 112
+    },
+    {
+      "name": "Vendor Name",
+      "fieldName": "vendor_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3169,
+      "cardinality": 1668
+    },
+    {
+      "name": "Document Type",
+      "fieldName": "document_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "Vendor Number",
+      "fieldName": "vendor_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3169,
+      "cardinality": 1868
+    },
+    {
+      "name": "One Time Vendor Name",
+      "fieldName": "one_time_vendor_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 14587,
+      "cardinality": 119
+    },
+    {
+      "name": "Document Number",
+      "fieldName": "document_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10871
+    },
+    {
+      "name": "Voucher Number",
+      "fieldName": "voucher_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3255,
+      "cardinality": 9394
+    },
+    {
+      "name": "Doc.Header Text",
+      "fieldName": "doc_header_text",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 10126,
+      "cardinality": 1224
+    },
+    {
+      "name": "Earmarked Funds",
+      "fieldName": "earmarked_funds",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 13451,
+      "cardinality": 300
+    },
+    {
+      "name": "EMF Document item",
+      "fieldName": "emf_document_item",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 13451,
+      "cardinality": 28
+    },
+    {
+      "name": "Posting Date",
+      "fieldName": "posting_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 269
+    },
+    {
+      "name": "CFDA Number",
+      "fieldName": "cfda_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 14701,
+      "cardinality": 2
+    },
+    {
+      "name": "Amount(D&C)",
+      "fieldName": "amount_d_c",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10504
+    },
+    {
+      "name": "Status",
+      "fieldName": "status",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Reversed with",
+      "fieldName": "reversed_with",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 14301,
+      "cardinality": 306
+    },
+    {
+      "name": "Warrant Number",
+      "fieldName": "warrant_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3599,
+      "cardinality": 7685
+    },
+    {
+      "name": "Pmnt Block",
+      "fieldName": "pmnt_block",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 14637,
+      "cardinality": 1
+    },
+    {
+      "name": "Clearing Date (Vendor Line)",
+      "fieldName": "clearing_date_vendor_line",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3252,
+      "cardinality": 269
+    },
+    {
+      "name": "Clearing Doc (Check)",
+      "fieldName": "clearing_doc_check",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 10891,
+      "cardinality": 3573
+    },
+    {
+      "name": "Clearing Date (Check)",
+      "fieldName": "clearing_date_check",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 10891,
+      "cardinality": 300
+    },
+    {
+      "name": "Reference Key 1 (Vendor Line)",
+      "fieldName": "reference_key_1_vendor_line",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 14352,
+      "cardinality": 26
+    },
+    {
+      "name": "Reference Key 2 (Vendor Line)",
+      "fieldName": "reference_key_2_vendor_line",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 14721,
+      "cardinality": 0
+    },
+    {
+      "name": "Contract",
+      "fieldName": "contract",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 13451,
+      "cardinality": 300
+    },
+    {
+      "name": "SRM Contract Number",
+      "fieldName": "srm_contract_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 13451,
+      "cardinality": 300
+    },
+    {
+      "name": "Reference Key 3 (Vendor Line)",
+      "fieldName": "reference_key_3_vendor_line",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 14721,
+      "cardinality": 0
+    },
+    {
+      "name": "Service Date From",
+      "fieldName": "service_date_from",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3239,
+      "cardinality": 388
+    },
+    {
+      "name": "Service Date To",
+      "fieldName": "service_date_to",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3247,
+      "cardinality": 406
+    },
+    {
+      "name": "Line Item Text (Vendor Line)",
+      "fieldName": "line_item_text_vendor_line",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3827,
+      "cardinality": 7447
+    },
+    {
+      "name": "Reference",
+      "fieldName": "reference",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3138,
+      "cardinality": 8892
+    },
+    {
+      "name": "Fund",
+      "fieldName": "fund",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 70,
+      "cardinality": 28
+    },
+    {
+      "name": "Funds Center",
+      "fieldName": "funds_center",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 70,
+      "cardinality": 17
+    },
+    {
+      "name": "Cost Center",
+      "fieldName": "cost_center",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 70,
+      "cardinality": 17
+    },
+    {
+      "name": "Functional Area",
+      "fieldName": "functional_area",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 70,
+      "cardinality": 35
+    },
+    {
+      "name": "WBS Element",
+      "fieldName": "wbs_element",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 14721,
+      "cardinality": 0
+    },
+    {
+      "name": "User Name",
+      "fieldName": "user_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 70,
+      "cardinality": 10
+    },
+    {
+      "name": "Changed By",
+      "fieldName": "changed_by",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 14651,
+      "cardinality": 1
+    },
+    {
+      "name": "Completed By",
+      "fieldName": "completed_by",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 14721,
+      "cardinality": 0
+    },
+    {
+      "name": "Parked By",
+      "fieldName": "parked_by",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3603,
+      "cardinality": 25
+    },
+    {
+      "name": "Internal Order",
+      "fieldName": "internal_order",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 9781,
+      "cardinality": 10
+    },
+    {
+      "name": "Grant",
+      "fieldName": "grant",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 70,
+      "cardinality": 3
+    },
+    {
+      "name": "Budget Period",
+      "fieldName": "budget_period",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 70,
+      "cardinality": 2
+    },
+    {
+      "name": "Baseline Date",
+      "fieldName": "baseline_date",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3169,
+      "cardinality": 350
+    },
+    {
+      "name": "Document Date",
+      "fieldName": "document_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 392
+    },
+    {
+      "name": "Voucher Release Date",
+      "fieldName": "voucher_release_date",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3255,
+      "cardinality": 273
+    },
+    {
+      "name": "Ref.key(head) 1",
+      "fieldName": "ref_key_head_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3332,
+      "cardinality": 432
+    },
+    {
+      "name": "Entered on Date",
+      "fieldName": "entered_on_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 297
+    },
+    {
+      "name": "Work Flow Status",
+      "fieldName": "work_flow_status",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Current_Agent",
+      "fieldName": "current_agent",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3788,
+      "cardinality": 1
+    },
+    {
+      "name": "Pre Audit Text",
+      "fieldName": "pre_audit_text",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3414,
+      "cardinality": 8937
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:36.580Z"
+}

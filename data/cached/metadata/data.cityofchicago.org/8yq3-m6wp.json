@@ -1,0 +1,624 @@
+{
+  "id": "8yq3-m6wp",
+  "name": "Energy Usage 2010",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 67051,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1366601698,
+  "publicationDate": 1375455563,
+  "rowsUpdatedAt": 1375455128,
+  "viewLastModified": 1531341899,
+  "viewCount": 49592,
+  "downloadCount": 13923,
+  "category": "Environment & Sustainable Development",
+  "tags": [
+    "sustainability",
+    "energy"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "2010",
+      "Frequency": "Updated as needed",
+      "Data Owner": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "COMMUNITY AREA NAME",
+      "fieldName": "community_area_name",
+      "dataTypeName": "text",
+      "description": "Community Name",
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": "CENSUS BLOCK",
+      "fieldName": "census_block",
+      "dataTypeName": "number",
+      "description": "Census Block number obtained in the address matching/geocoding algorithms.\n\nBlank Census Blocks correspond to data that was aggregated to the Community Area due to privacy issues.",
+      "nullCount": 77,
+      "cardinality": 35699
+    },
+    {
+      "name": "BUILDING TYPE",
+      "fieldName": "building_type",
+      "dataTypeName": "text",
+      "description": "Building Type: Residential, Commercial, Industrial.\n\nBlank data corresponds to blank Census Blocks.",
+      "nullCount": 77,
+      "cardinality": 3
+    },
+    {
+      "name": "BUILDING_SUBTYPE",
+      "fieldName": "building_subtype",
+      "dataTypeName": "text",
+      "description": "Building Sub-Type (6):  Single Family, Multi <7, Multi 7+, Commercial, Industrial, Municipal.\n\nBlank cells correspond to blank Census Blocks.",
+      "nullCount": 77,
+      "cardinality": 6
+    },
+    {
+      "name": "KWH JANUARY 2010",
+      "fieldName": "kwh_january_2010",
+      "dataTypeName": "number",
+      "description": "Kilowatt hours (kWh) for January 2010",
+      "nullCount": 871,
+      "cardinality": 17106
+    },
+    {
+      "name": "KWH FEBRUARY 2010",
+      "fieldName": "kwh_february_2010",
+      "dataTypeName": "number",
+      "description": "Kilowatt hours (kWh) for February 2010",
+      "nullCount": 871,
+      "cardinality": 17185
+    },
+    {
+      "name": "KWH MARCH 2010",
+      "fieldName": "kwh_march_2010",
+      "dataTypeName": "number",
+      "description": "Kilowatt hours (kWh) for March 2010",
+      "nullCount": 871,
+      "cardinality": 16715
+    },
+    {
+      "name": "KWH APRIL 2010",
+      "fieldName": "kwh_april_2010",
+      "dataTypeName": "number",
+      "description": "Kilowatt hours (kWh) for April 2010",
+      "nullCount": 871,
+      "cardinality": 16575
+    },
+    {
+      "name": "KWH MAY 2010",
+      "fieldName": "kwh_may_2010",
+      "dataTypeName": "number",
+      "description": "Kilowatt hours (kWh) for June 2010",
+      "nullCount": 871,
+      "cardinality": 19463
+    },
+    {
+      "name": "KWH JUNE 2010",
+      "fieldName": "kwh_june_2010",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 871,
+      "cardinality": 23928
+    },
+    {
+      "name": "KWH JULY 2010",
+      "fieldName": "kwh_july_2010",
+      "dataTypeName": "number",
+      "description": "Kilowatt hours (kWh) for July 2010",
+      "nullCount": 871,
+      "cardinality": 25636
+    },
+    {
+      "name": "KWH AUGUST 2010",
+      "fieldName": "kwh_august_2010",
+      "dataTypeName": "number",
+      "description": "Kilowatt hours (kWh) for August 2010",
+      "nullCount": 871,
+      "cardinality": 23263
+    },
+    {
+      "name": "KWH SEPTEMBER 2010",
+      "fieldName": "kwh_september_2010",
+      "dataTypeName": "number",
+      "description": "Kilowatt hours (kWh) for September 2010",
+      "nullCount": 871,
+      "cardinality": 18977
+    },
+    {
+      "name": "KWH OCTOBER 2010",
+      "fieldName": "kwh_october_2010",
+      "dataTypeName": "number",
+      "description": "Kilowatt hours (kWh) for October 2010",
+      "nullCount": 871,
+      "cardinality": 18235
+    },
+    {
+      "name": "KWH NOVEMBER 2010",
+      "fieldName": "kwh_november_2010",
+      "dataTypeName": "number",
+      "description": "Kilowatt hours (kWh) for November 2010",
+      "nullCount": 871,
+      "cardinality": 21708
+    },
+    {
+      "name": "KWH DECEMBER 2010",
+      "fieldName": "kwh_december_2010",
+      "dataTypeName": "number",
+      "description": "Kilowatt hours (kWh) for December 2010",
+      "nullCount": 871,
+      "cardinality": 23585
+    },
+    {
+      "name": "TOTAL KWH",
+      "fieldName": "total_kwh",
+      "dataTypeName": "number",
+      "description": "Total 2010 kWh from ComEd accounts.",
+      "nullCount": 871,
+      "cardinality": 55302
+    },
+    {
+      "name": "ELECTRICITY ACCOUNTS",
+      "fieldName": "electricity_accounts",
+      "dataTypeName": "text",
+      "description": "Number of accounts with kilowatt hour information from ComEd. An account does not equate to buildings.",
+      "nullCount": 871,
+      "cardinality": 378
+    },
+    {
+      "name": "ZERO KWH ACCOUNTS",
+      "fieldName": "zero_kwh_accounts",
+      "dataTypeName": "number",
+      "description": "Number of accounts with 0 kilowatt hours amounts for 12 months in 2010 from ComEd.",
+      "nullCount": 0,
+      "cardinality": 239
+    },
+    {
+      "name": "THERM JANUARY 2010",
+      "fieldName": "therm_january_2010",
+      "dataTypeName": "number",
+      "description": "Therm consumption for January 2010.",
+      "nullCount": 2230,
+      "cardinality": 10270
+    },
+    {
+      "name": "THERM FEBRUARY 2010",
+      "fieldName": "therm_february_2010",
+      "dataTypeName": "number",
+      "description": "Therm consumption for February 2010.",
+      "nullCount": 4232,
+      "cardinality": 9333
+    },
+    {
+      "name": "THERM MARCH 2010",
+      "fieldName": "therm_march_2010",
+      "dataTypeName": "number",
+      "description": "Therm consumption for March 2010.",
+      "nullCount": 1482,
+      "cardinality": 8616
+    },
+    {
+      "name": "TERM APRIL 2010",
+      "fieldName": "term_april_2010",
+      "dataTypeName": "number",
+      "description": "Therm consumption for April 2010.",
+      "nullCount": 1575,
+      "cardinality": 5531
+    },
+    {
+      "name": "THERM MAY 2010",
+      "fieldName": "therm_may_2010",
+      "dataTypeName": "number",
+      "description": "Therm consumption for May 2010.",
+      "nullCount": 1857,
+      "cardinality": 4117
+    },
+    {
+      "name": "THERM JUNE 2010",
+      "fieldName": "therm_june_2010",
+      "dataTypeName": "number",
+      "description": "Therm consumption for June 2010.",
+      "nullCount": 1767,
+      "cardinality": 3090
+    },
+    {
+      "name": "THERM JULY 2010",
+      "fieldName": "therm_july_2010",
+      "dataTypeName": "number",
+      "description": "Therm consumption for July 2010.",
+      "nullCount": 1820,
+      "cardinality": 2796
+    },
+    {
+      "name": "THERM AUGUST 2010",
+      "fieldName": "therm_august_2010",
+      "dataTypeName": "number",
+      "description": "Therm consumption for August 2010.",
+      "nullCount": 1908,
+      "cardinality": 2714
+    },
+    {
+      "name": "THERM SEPTEMBER 2010",
+      "fieldName": "therm_september_2010",
+      "dataTypeName": "number",
+      "description": "Therm consumption for September 2010.",
+      "nullCount": 2282,
+      "cardinality": 2788
+    },
+    {
+      "name": "THERM OCTOBER 2010",
+      "fieldName": "therm_october_2010",
+      "dataTypeName": "number",
+      "description": "Therm consumption for October 2010.",
+      "nullCount": 1722,
+      "cardinality": 3392
+    },
+    {
+      "name": "THERM NOVEMBER 2010",
+      "fieldName": "therm_november_2010",
+      "dataTypeName": "number",
+      "description": "Therm consumption for November 2010.",
+      "nullCount": 1559,
+      "cardinality": 5227
+    },
+    {
+      "name": "THERM DECEMBER 2010",
+      "fieldName": "therm_december_2010",
+      "dataTypeName": "number",
+      "description": "Therm consumption for December 2010.",
+      "nullCount": 1544,
+      "cardinality": 8897
+    },
+    {
+      "name": "TOTAL THERMS",
+      "fieldName": "total_therms",
+      "dataTypeName": "number",
+      "description": "Total 2010 Therms from Peoples accounts.",
+      "nullCount": 1296,
+      "cardinality": 28768
+    },
+    {
+      "name": "GAS ACCOUNTS",
+      "fieldName": "gas_accounts",
+      "dataTypeName": "text",
+      "description": "Number of accounts with THERM information from the Peoples Account and Usage files in 2010. Accounts does not equate to buildings.",
+      "nullCount": 1296,
+      "cardinality": 210
+    },
+    {
+      "name": "KWH TOTAL SQFT",
+      "fieldName": "kwh_total_sqft",
+      "dataTypeName": "number",
+      "description": "Total square footage associated with the electric energy usage in 2010 according to Cook County Assessor Records.",
+      "nullCount": 1150,
+      "cardinality": 28546
+    },
+    {
+      "name": "THERMS TOTAL SQFT",
+      "fieldName": "therms_total_sqft",
+      "dataTypeName": "number",
+      "description": "Total square footage associated with the natural gas energy usage for Kilowatt Hours in 2010 according to Cook County Assessor Records.",
+      "nullCount": 1673,
+      "cardinality": 28426
+    },
+    {
+      "name": "KWH MEAN 2010",
+      "fieldName": "kwh_mean_2010",
+      "dataTypeName": "number",
+      "description": "Average Total KWHs for 2010.",
+      "nullCount": 871,
+      "cardinality": 57203
+    },
+    {
+      "name": "KWH STANDARD DEVIATION 2010",
+      "fieldName": "kwh_standard_deviation_2010",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 9956,
+      "cardinality": 55036
+    },
+    {
+      "name": "KWH MINIMUM 2010",
+      "fieldName": "kwh_minimum_2010",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 871,
+      "cardinality": 20448
+    },
+    {
+      "name": "KWH 1ST QUARTILE 2010",
+      "fieldName": "kwh_1st_quartile_2010",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 871,
+      "cardinality": 25859
+    },
+    {
+      "name": "KWH 2ND QUARTILE 2010",
+      "fieldName": "kwh_2nd_quartile_2010",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 871,
+      "cardinality": 32277
+    },
+    {
+      "name": "KWH 3RD QUARTILE 2010",
+      "fieldName": "kwh_3rd_quartile_2010",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 871,
+      "cardinality": 32957
+    },
+    {
+      "name": "KWH MAXIMUM 2010",
+      "fieldName": "kwh_maximum_2010",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 871,
+      "cardinality": 33690
+    },
+    {
+      "name": "KWH SQFT MEAN 2010",
+      "fieldName": "kwh_sqft_mean_2010",
+      "dataTypeName": "number",
+      "description": "Average kWh per square foot in 2010.",
+      "nullCount": 1150,
+      "cardinality": 40344
+    },
+    {
+      "name": "KWH SQFT STANDARD DEVIATION 2010",
+      "fieldName": "kwh_sqft_standard_deviation_2010",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 15385,
+      "cardinality": 45232
+    },
+    {
+      "name": "KWH SQFT MINIMUM 2010",
+      "fieldName": "kwh_sqft_minimum_2010",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1150,
+      "cardinality": 10537
+    },
+    {
+      "name": "KWH SQFT 1ST QUARTILE 2010",
+      "fieldName": "kwh_sqft_1st_quartile_2010",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1150,
+      "cardinality": 12094
+    },
+    {
+      "name": "KWH SQFT 2ND QUARTILE 2010",
+      "fieldName": "kwh_sqft_2nd_quartile_2010",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1150,
+      "cardinality": 15264
+    },
+    {
+      "name": "KWH SQFT 3RD QUARTILE 2010",
+      "fieldName": "kwh_sqft_3rd_quartile_2010",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1150,
+      "cardinality": 14924
+    },
+    {
+      "name": "KWH SQFT MAXIMUM 2010",
+      "fieldName": "kwh_sqft_maximum_2010",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1150,
+      "cardinality": 13634
+    },
+    {
+      "name": "THERM MEAN 2010",
+      "fieldName": "therm_mean_2010",
+      "dataTypeName": "number",
+      "description": "Average Total Therms for 2010.",
+      "nullCount": 1296,
+      "cardinality": 39984
+    },
+    {
+      "name": "THERM STANDARD DEVIATION 2010",
+      "fieldName": "therm_standard_deviation_2010",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 10230,
+      "cardinality": 50759
+    },
+    {
+      "name": "THERM MINIMUM 2010",
+      "fieldName": "therm_minimum_2010",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1296,
+      "cardinality": 6671
+    },
+    {
+      "name": "THERM 1ST QUARTILE 2010",
+      "fieldName": "therm_1st_quartile_2010",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1296,
+      "cardinality": 8964
+    },
+    {
+      "name": "THERM 2ND QUARTILE 2010",
+      "fieldName": "therm_2nd_quartile_2010",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1296,
+      "cardinality": 12339
+    },
+    {
+      "name": "THERM 3RD QUARTILE 2010",
+      "fieldName": "therm_3rd_quartile_2010",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1296,
+      "cardinality": 14011
+    },
+    {
+      "name": "THERM MAXIMUM 2010",
+      "fieldName": "therm_maximum_2010",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1296,
+      "cardinality": 13506
+    },
+    {
+      "name": "THERMS SQFT MEAN 2010",
+      "fieldName": "therms_sqft_mean_2010",
+      "dataTypeName": "number",
+      "description": "Average Therms per square foot in 2010.",
+      "nullCount": 1673,
+      "cardinality": 39965
+    },
+    {
+      "name": "THERMS SQFT STANDARD DEVIATION 2010",
+      "fieldName": "therms_sqft_standard_deviation_2010",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 15684,
+      "cardinality": 44966
+    },
+    {
+      "name": "THERMS SQFT MINIMUM 2010",
+      "fieldName": "therms_sqft_minimum_2010",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1673,
+      "cardinality": 10366
+    },
+    {
+      "name": "THERMS SQFT 1ST QUARTILE 2010",
+      "fieldName": "therms_sqft_1st_quartile_2010",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1673,
+      "cardinality": 11869
+    },
+    {
+      "name": "THERMS SQFT 2ND QUARTILE 2010",
+      "fieldName": "therms_sqft_2nd_quartile_2010",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1673,
+      "cardinality": 15041
+    },
+    {
+      "name": "THERMS SQFT 3RD QUARTILE 2010",
+      "fieldName": "therms_sqft_3rd_quartile_2010",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1673,
+      "cardinality": 14687
+    },
+    {
+      "name": "THERMS SQFT MAXIMUM 2010",
+      "fieldName": "therms_sqft_maximum_2010",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1673,
+      "cardinality": 13376
+    },
+    {
+      "name": "TOTAL POPULATION",
+      "fieldName": "total_population",
+      "dataTypeName": "number",
+      "description": "Total population from Census 2010 report (QT-P6) Race alone or in combination and Hispanic or Latino 2010.",
+      "nullCount": 14,
+      "cardinality": 708
+    },
+    {
+      "name": "TOTAL UNITS",
+      "fieldName": "total_units",
+      "dataTypeName": "number",
+      "description": "Total number of housing units from census 2010 report (H1) Occupancy Status.",
+      "nullCount": 14,
+      "cardinality": 550
+    },
+    {
+      "name": "AVERAGE STORIES",
+      "fieldName": "average_stories",
+      "dataTypeName": "number",
+      "description": "Average number of stories based on data from Cook County Assessor's Office.",
+      "nullCount": 0,
+      "cardinality": 390
+    },
+    {
+      "name": "AVERAGE BUILDING AGE",
+      "fieldName": "average_building_age",
+      "dataTypeName": "number",
+      "description": "Average Age of the buildings based on data from Cook County Assessor's Office.",
+      "nullCount": 0,
+      "cardinality": 6752
+    },
+    {
+      "name": "AVERAGE HOUSESIZE",
+      "fieldName": "average_housesize",
+      "dataTypeName": "number",
+      "description": "Average household size from Census 2010 report QT-P11 Households and Families.",
+      "nullCount": 14,
+      "cardinality": 596
+    },
+    {
+      "name": "OCCUPIED UNITS",
+      "fieldName": "occupied_units",
+      "dataTypeName": "number",
+      "description": "Number of housing units that are occupied from census 2010 report (H1) Occupancy Status.",
+      "nullCount": 14,
+      "cardinality": 509
+    },
+    {
+      "name": "OCCUPIED UNITS PERCENTAGE",
+      "fieldName": "occupied_units_percentage",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2445,
+      "cardinality": 1591
+    },
+    {
+      "name": "RENTER-OCCUPIED HOUSING UNITS",
+      "fieldName": "renter_occupied_housing_units",
+      "dataTypeName": "number",
+      "description": "Number of housing units that are renter occupied from Census 2010 report (QT-H2) Tenure, Household Size and Age of Householder.",
+      "nullCount": 14,
+      "cardinality": 412
+    },
+    {
+      "name": "RENTER-OCCUPIED HOUSING PERCENTAGE",
+      "fieldName": "renter_occupied_housing_percentage",
+      "dataTypeName": "number",
+      "description": "Percentage of occupied housing units that are renters from Census report (QT-H2) Tenure, Household Size and Age of Householder",
+      "nullCount": 2618,
+      "cardinality": 996
+    },
+    {
+      "name": "OCCUPIED HOUSING UNITS",
+      "fieldName": "ten_ohu_tot",
+      "dataTypeName": "number",
+      "description": "Number of occupied housing units from Census 2010 report (QT-H2) Tenure, Household Size and Age of Householder.",
+      "nullCount": 14,
+      "cardinality": 509
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:06.300Z"
+}

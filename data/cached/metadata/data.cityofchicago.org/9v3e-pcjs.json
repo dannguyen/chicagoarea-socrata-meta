@@ -1,0 +1,174 @@
+{
+  "id": "9v3e-pcjs",
+  "name": "Workforce Vacancies",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1282,
+  "rowCountSource": "cached",
+  "rowLabel": "Position",
+  "hasRowIdentifier": false,
+  "createdAt": 1737662053,
+  "publicationDate": 1740773773,
+  "rowsUpdatedAt": 1790868002,
+  "viewLastModified": 1790868000,
+  "viewCount": 5083,
+  "downloadCount": 3077,
+  "category": "Administration & Finance",
+  "tags": [
+    "personnel"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2025 - Present",
+      "Frequency": "Data is updated monthly",
+      "Data Owner": "Budget & Management"
+    }
+  },
+  "columns": [
+    {
+      "name": "DEPARTMENT CODE",
+      "fieldName": "department",
+      "dataTypeName": "text",
+      "description": "Code associated with the City department as designated in the Budget Ordinance and aligning with the City's financial management systems.",
+      "nullCount": 0,
+      "cardinality": 1282
+    },
+    {
+      "name": "DEPARTMENT",
+      "fieldName": "department_code",
+      "dataTypeName": "text",
+      "description": "Code and description associated with the City department as designated in the Budget Ordinance and aligning with the City's financial management systems.",
+      "nullCount": 0,
+      "cardinality": 1282
+    },
+    {
+      "name": "FUND TYPE",
+      "fieldName": "fund_type",
+      "dataTypeName": "text",
+      "description": "Fund Type is associated with the Fund Code, as designated in the Budget Ordinance (specifically Summary E) and aligning with the City's financial management systems.",
+      "nullCount": 0,
+      "cardinality": 1282
+    },
+    {
+      "name": "FUND CODE",
+      "fieldName": "fund_code",
+      "dataTypeName": "text",
+      "description": "Code associated with the Fund as designated in the Budget Ordinance and aligning with the City's financial management systems.",
+      "nullCount": 0,
+      "cardinality": 1282
+    },
+    {
+      "name": "FUND",
+      "fieldName": "fund",
+      "dataTypeName": "text",
+      "description": "Code and description associated with the Fund as designated in the Budget Ordinance and aligning with the City's financial management systems.",
+      "nullCount": 0,
+      "cardinality": 1282
+    },
+    {
+      "name": "DIVISION CODE",
+      "fieldName": "division_code",
+      "dataTypeName": "text",
+      "description": "Code associated with the Division as designated in the Budget Ordinance and aligning with the City's financial management systems.",
+      "nullCount": 0,
+      "cardinality": 1282
+    },
+    {
+      "name": "DIVISION",
+      "fieldName": "division",
+      "dataTypeName": "text",
+      "description": "Code and description associated with the Division as designated in the Budget Ordinance and aligning with the City's financial management systems.",
+      "nullCount": 0,
+      "cardinality": 1282
+    },
+    {
+      "name": "SECTION CODE",
+      "fieldName": "section_code",
+      "dataTypeName": "text",
+      "description": "Code associated with the Section as designated in the Budget Ordinance and aligning with the City's financial management systems.",
+      "nullCount": 0,
+      "cardinality": 1282
+    },
+    {
+      "name": "SECTION",
+      "fieldName": "section",
+      "dataTypeName": "text",
+      "description": "Code and description associated with the Section as designated in the Budget Ordinance and aligning with the City's financial management systems.",
+      "nullCount": 0,
+      "cardinality": 1282
+    },
+    {
+      "name": "SUB SECTION CODE",
+      "fieldName": "sub_section_code",
+      "dataTypeName": "text",
+      "description": "Code associated with the Sub Section as designated in the Budget Ordinance and aligning with the City's financial management systems.",
+      "nullCount": 0,
+      "cardinality": 1282
+    },
+    {
+      "name": "SUB SECTION",
+      "fieldName": "sub_section",
+      "dataTypeName": "text",
+      "description": "Code and description associated with the Sub Section as designated in the Budget Ordinance and aligning with the City's financial management systems.",
+      "nullCount": 0,
+      "cardinality": 1282
+    },
+    {
+      "name": "TITLE CODE",
+      "fieldName": "title_code",
+      "dataTypeName": "text",
+      "description": " Code associated with employee's job title as designated in the Budget Ordinance and aligning with the City's financial management system.",
+      "nullCount": 0,
+      "cardinality": 1282
+    },
+    {
+      "name": "TITLE",
+      "fieldName": "title",
+      "dataTypeName": "text",
+      "description": "Code and description associated with employee's job title as designated in the Budget Ordinance and aligning with the City's financial management system.",
+      "nullCount": 0,
+      "cardinality": 1282
+    },
+    {
+      "name": "TOTAL POSITIONS",
+      "fieldName": "total_positions",
+      "dataTypeName": "number",
+      "description": "Number of positions as designated in the budget and aligning with the City's financial management systems.",
+      "nullCount": 0,
+      "cardinality": 1282
+    },
+    {
+      "name": "EMPLOYEES IN POSITION",
+      "fieldName": "employees_in_position",
+      "dataTypeName": "number",
+      "description": "Number of employees occupying position at the time when the data were updated.",
+      "nullCount": 0,
+      "cardinality": 1282
+    },
+    {
+      "name": "NUMBER OF VACANCIES",
+      "fieldName": "number_of_vacancies",
+      "dataTypeName": "number",
+      "description": "Number of vacancies within position at the time when the data were updated.",
+      "nullCount": 0,
+      "cardinality": 1282
+    },
+    {
+      "name": "REPORT DATE",
+      "fieldName": "report_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date when data were updated.",
+      "nullCount": 0,
+      "cardinality": 1282
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:04.789Z"
+}

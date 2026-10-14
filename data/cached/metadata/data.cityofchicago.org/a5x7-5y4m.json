@@ -1,0 +1,127 @@
+{
+  "id": "a5x7-5y4m",
+  "name": "Contractor Business Diversity Program Submissions",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 400,
+  "rowCountSource": "cached",
+  "rowLabel": "Submission",
+  "hasRowIdentifier": true,
+  "createdAt": 1634834381,
+  "publicationDate": 1634846746,
+  "rowsUpdatedAt": 1791415835,
+  "viewLastModified": 1642789132,
+  "viewCount": 975,
+  "downloadCount": 1706,
+  "category": "Administration & Finance",
+  "tags": [
+    "business",
+    "procurement"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Current",
+      "Frequency": "Data are updated daily",
+      "Data Owner": "Department of Procurement Services"
+    }
+  },
+  "columns": [
+    {
+      "name": "VENDOR_NUMBER",
+      "fieldName": "vendor_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 400
+    },
+    {
+      "name": "VENDOR_NAME",
+      "fieldName": "vendor_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 400
+    },
+    {
+      "name": "SUBMISSION_DATE",
+      "fieldName": "submission_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 400
+    },
+    {
+      "name": "BUSINESS_TYPE",
+      "fieldName": "business_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 400
+    },
+    {
+      "name": "BUSINESS_EMPLOYEES",
+      "fieldName": "business_employees",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 400
+    },
+    {
+      "name": "ADDRESS",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 400
+    },
+    {
+      "name": "CITY",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 400
+    },
+    {
+      "name": "STATE",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 400
+    },
+    {
+      "name": "ZIP",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 13,
+      "cardinality": 400
+    },
+    {
+      "name": "REPORTING_YEAR",
+      "fieldName": "reporting_year",
+      "dataTypeName": "text",
+      "description": "The reporting period is a calendar year, with reports due the following July 1.",
+      "nullCount": 0,
+      "cardinality": 400
+    },
+    {
+      "name": "RECORD_ID",
+      "fieldName": "record_id",
+      "dataTypeName": "text",
+      "description": "A unique identifier for the record, combining the VENDOR_NUMBER and REPORTING_YEAR.",
+      "nullCount": 0,
+      "cardinality": 400
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:21.041Z"
+}

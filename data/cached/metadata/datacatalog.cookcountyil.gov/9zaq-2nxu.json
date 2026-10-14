@@ -1,0 +1,88 @@
+{
+  "id": "9zaq-2nxu",
+  "name": "Captial Planning - Clean Steam Piping Replacement - Milestones Report 11 October 2011",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 10,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1318347833,
+  "publicationDate": 1412893340,
+  "rowsUpdatedAt": 1412893331,
+  "viewLastModified": 1769544216,
+  "viewCount": 772,
+  "downloadCount": 2500,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Captial Planning and Policy",
+  "attributionLink": "http://www.cookcountygov.com/portal/server.pt/community/capital_planning_and_policy%2C_office_of/254/capital_planning_and_policy%2C_office_oflicy%2C_office_of",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Company Name",
+      "fieldName": "company_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Project",
+      "fieldName": "project",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Milestone",
+      "fieldName": "milestone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "Status",
+      "fieldName": "status",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Due Date",
+      "fieldName": "due_date",
+      "dataTypeName": "date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "Overdue By (days)",
+      "fieldName": "overdue_by_days_",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 10,
+      "cardinality": 0
+    },
+    {
+      "name": "Date Completed",
+      "fieldName": "date_completed",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 10,
+      "cardinality": 0
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:06.675Z"
+}

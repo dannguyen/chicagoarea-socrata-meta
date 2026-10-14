@@ -1,0 +1,136 @@
+{
+  "id": "pccm-mx88",
+  "name": "Facilities Management - Closed Cells as of October 28th, 2011",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 16,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1322070943,
+  "publicationDate": 1412892723,
+  "rowsUpdatedAt": 1412892693,
+  "viewLastModified": 1769546895,
+  "viewCount": 665,
+  "downloadCount": 2382,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Facilities Management",
+  "attributionLink": "http://www.cookcountygov.com/portal/server.pt/community/facilities_management/294/facilities_management",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Division Facility",
+      "fieldName": "division_facility",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 12
+    },
+    {
+      "name": "Cells",
+      "fieldName": "cells",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 7,
+      "cardinality": 9
+    },
+    {
+      "name": "Plumbing",
+      "fieldName": "plumbing",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 1
+    },
+    {
+      "name": "Electrician",
+      "fieldName": "electrician",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 1
+    },
+    {
+      "name": "Carpenter",
+      "fieldName": "carpenter",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 1
+    },
+    {
+      "name": "Electrician Tech",
+      "fieldName": "electrician_tech",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 1
+    },
+    {
+      "name": "Tinsmith",
+      "fieldName": "tinsmith",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 1
+    },
+    {
+      "name": "Engineer",
+      "fieldName": "engineer",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 1
+    },
+    {
+      "name": "Brickworker",
+      "fieldName": "brickworker",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 1
+    },
+    {
+      "name": "Ironworker",
+      "fieldName": "ironworker",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 1
+    },
+    {
+      "name": "Miscellaneous",
+      "fieldName": "miscellaneous",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 1
+    },
+    {
+      "name": "Glazier",
+      "fieldName": "glazier",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 1
+    },
+    {
+      "name": "TOTAL CELLS",
+      "fieldName": "total_cells",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:08.334Z"
+}

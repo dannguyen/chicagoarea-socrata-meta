@@ -1,0 +1,100 @@
+{
+  "id": "5wzj-gzmw",
+  "name": "Chicago Public Schools - Safe Passage Routes SY2324",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 188,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1693929913,
+  "publicationDate": 1693929916,
+  "rowsUpdatedAt": 1693930810,
+  "viewLastModified": 1759183062,
+  "viewCount": 1666,
+  "downloadCount": 1156,
+  "category": "Education",
+  "tags": [
+    "geo_layer",
+    "cps",
+    "schools",
+    "gis",
+    "safe passage",
+    "2023",
+    "2024"
+  ],
+  "attribution": "Chicago Public Schools",
+  "attributionLink": "https://www.cps.edu/",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "July 2023- June 2024",
+      "Frequency": "Annual",
+      "Data Owner": "Chicago Public Schools"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multiline",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "SCHOOLID",
+      "fieldName": "schoolid",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 187
+    },
+    {
+      "name": "SCHOOL_NAM",
+      "fieldName": "school_nam",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 188
+    },
+    {
+      "name": "ROUTE_NUMB",
+      "fieldName": "route_numb",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 39,
+      "cardinality": 149
+    },
+    {
+      "name": "RT_NUM",
+      "fieldName": "rt_num",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 34,
+      "cardinality": 150
+    },
+    {
+      "name": "COMBINED_R",
+      "fieldName": "combined_r",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 174,
+      "cardinality": 5
+    },
+    {
+      "name": "Shape_STLe",
+      "fieldName": "shape_stle",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 185
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:15.800Z"
+}

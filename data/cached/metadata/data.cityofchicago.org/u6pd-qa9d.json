@@ -1,0 +1,275 @@
+{
+  "id": "u6pd-qa9d",
+  "name": "Traffic Crashes - People",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1340207,
+  "rowCountSource": "cached",
+  "rowLabel": "Person",
+  "hasRowIdentifier": true,
+  "createdAt": 1515534414,
+  "publicationDate": 1581459053,
+  "rowsUpdatedAt": 1791990546,
+  "viewLastModified": 1774460601,
+  "viewCount": 103386,
+  "downloadCount": 13812,
+  "category": "Transportation",
+  "tags": [
+    "transportation",
+    "public safety",
+    "vision zero",
+    "traffic crashes",
+    "link to article present"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2015 to present (All police districts September 2017 - present)",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"u6pd-qa9d\"",
+      "Frequency": "Daily",
+      "Data Owner": "Chicago Police Department"
+    }
+  },
+  "columns": [
+    {
+      "name": "PERSON_ID",
+      "fieldName": "person_id",
+      "dataTypeName": "text",
+      "description": "A unique identifier for each person record. IDs starting with P indicate passengers. IDs starting with O indicate a person who was not a passenger in the vehicle (e.g., driver, pedestrian, cyclist, etc.).",
+      "nullCount": 0,
+      "cardinality": 1340207
+    },
+    {
+      "name": "PERSON_TYPE",
+      "fieldName": "person_type",
+      "dataTypeName": "text",
+      "description": "Type of roadway user involved in crash",
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "CRASH_RECORD_ID",
+      "fieldName": "crash_record_id",
+      "dataTypeName": "text",
+      "description": "This number can be used to link to the same crash in the Crashes and Vehicles datasets. This number also serves as a unique ID in the Crashes dataset.",
+      "nullCount": 0,
+      "cardinality": 605657
+    },
+    {
+      "name": "VEHICLE_ID",
+      "fieldName": "vehicle_id",
+      "dataTypeName": "text",
+      "description": "The corresponding CRASH_UNIT_ID from the Vehicles dataset.",
+      "nullCount": 26192,
+      "cardinality": 1054485
+    },
+    {
+      "name": "CRASH_DATE",
+      "fieldName": "crash_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date and time of crash as entered by the reporting officer",
+      "nullCount": 0,
+      "cardinality": 396287
+    },
+    {
+      "name": "SEAT_NO",
+      "fieldName": "seat_no",
+      "dataTypeName": "text",
+      "description": "Code for seating position of motor vehicle occupant:\n\n1= driver, 2= center front, 3 = front passenger, 4 = second row left, 5 = second row center, 6 = second row right, 7 = enclosed passengers, 8 = exposed passengers, 9= unknown position, 10 = third row left, 11 = third row center, 12 = third row right",
+      "nullCount": 1067654,
+      "cardinality": 11
+    },
+    {
+      "name": "CITY",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": "City of residence of person involved in crash",
+      "nullCount": 358469,
+      "cardinality": 11313
+    },
+    {
+      "name": "STATE",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": "State of residence of person involved in crash",
+      "nullCount": 346279,
+      "cardinality": 52
+    },
+    {
+      "name": "ZIPCODE",
+      "fieldName": "zipcode",
+      "dataTypeName": "text",
+      "description": "ZIP Code of residence of person involved in crash",
+      "nullCount": 443728,
+      "cardinality": 12332
+    },
+    {
+      "name": "SEX",
+      "fieldName": "sex",
+      "dataTypeName": "text",
+      "description": "Gender of person involved in crash, as determined by reporting officer",
+      "nullCount": 20480,
+      "cardinality": 3
+    },
+    {
+      "name": "AGE",
+      "fieldName": "age",
+      "dataTypeName": "number",
+      "description": "Age of person involved in crash",
+      "nullCount": 387845,
+      "cardinality": 116
+    },
+    {
+      "name": "DRIVERS_LICENSE_STATE",
+      "fieldName": "drivers_license_state",
+      "dataTypeName": "text",
+      "description": "State issuing driver's license of person involved in crash",
+      "nullCount": 550753,
+      "cardinality": 192
+    },
+    {
+      "name": "DRIVERS_LICENSE_CLASS",
+      "fieldName": "drivers_license_class",
+      "dataTypeName": "text",
+      "description": "Class of driver's license of person involved in crash",
+      "nullCount": 665571,
+      "cardinality": 253
+    },
+    {
+      "name": "SAFETY_EQUIPMENT",
+      "fieldName": "safety_equipment",
+      "dataTypeName": "text",
+      "description": "Safety equipment used by vehicle occupant in crash, if any",
+      "nullCount": 3897,
+      "cardinality": 19
+    },
+    {
+      "name": "AIRBAG_DEPLOYED",
+      "fieldName": "airbag_deployed",
+      "dataTypeName": "text",
+      "description": "Whether vehicle occupant airbag deployed as result of crash",
+      "nullCount": 25102,
+      "cardinality": 7
+    },
+    {
+      "name": "EJECTION",
+      "fieldName": "ejection",
+      "dataTypeName": "text",
+      "description": "Whether vehicle occupant was ejected or extricated from the vehicle as a result of crash",
+      "nullCount": 16337,
+      "cardinality": 5
+    },
+    {
+      "name": "INJURY_CLASSIFICATION",
+      "fieldName": "injury_classification",
+      "dataTypeName": "text",
+      "description": "Severity of injury person sustained in the crash",
+      "nullCount": 613,
+      "cardinality": 5
+    },
+    {
+      "name": "HOSPITAL",
+      "fieldName": "hospital",
+      "dataTypeName": "text",
+      "description": "Hospital to which person injured in the crash was taken",
+      "nullCount": 1095814,
+      "cardinality": 5961
+    },
+    {
+      "name": "EMS_AGENCY",
+      "fieldName": "ems_agency",
+      "dataTypeName": "text",
+      "description": "EMS agency who transported person injured in crash to the hospital",
+      "nullCount": 1183137,
+      "cardinality": 6950
+    },
+    {
+      "name": "EMS_RUN_NO",
+      "fieldName": "ems_run_no",
+      "dataTypeName": "text",
+      "description": "EMS agency run number",
+      "nullCount": 1314469,
+      "cardinality": 1131
+    },
+    {
+      "name": "DRIVER_ACTION",
+      "fieldName": "driver_action",
+      "dataTypeName": "text",
+      "description": "Driver action that contributed to the crash, as determined by reporting officer",
+      "nullCount": 275042,
+      "cardinality": 20
+    },
+    {
+      "name": "DRIVER_VISION",
+      "fieldName": "driver_vision",
+      "dataTypeName": "text",
+      "description": "What, if any, objects obscured the driver’s vision at time of crash",
+      "nullCount": 275442,
+      "cardinality": 14
+    },
+    {
+      "name": "PHYSICAL_CONDITION",
+      "fieldName": "physical_condition",
+      "dataTypeName": "text",
+      "description": "Driver’s apparent physical condition at time of crash, as observed by the reporting officer",
+      "nullCount": 274294,
+      "cardinality": 12
+    },
+    {
+      "name": "PEDPEDAL_ACTION",
+      "fieldName": "pedpedal_action",
+      "dataTypeName": "text",
+      "description": "Action of pedestrian or cyclist at the time of crash",
+      "nullCount": 1315509,
+      "cardinality": 23
+    },
+    {
+      "name": "PEDPEDAL_VISIBILITY",
+      "fieldName": "pedpedal_visibility",
+      "dataTypeName": "text",
+      "description": "Visibility of pedestrian of cyclist safety equipment in use at time of crash",
+      "nullCount": 1315562,
+      "cardinality": 4
+    },
+    {
+      "name": "PEDPEDAL_LOCATION",
+      "fieldName": "pedpedal_location",
+      "dataTypeName": "text",
+      "description": "Location of pedestrian or cyclist at the time of crash",
+      "nullCount": 1315511,
+      "cardinality": 8
+    },
+    {
+      "name": "BAC_RESULT",
+      "fieldName": "bac_result",
+      "dataTypeName": "text",
+      "description": "Status of blood alcohol concentration testing for driver or other person involved in crash",
+      "nullCount": 273974,
+      "cardinality": 4
+    },
+    {
+      "name": "BAC_RESULT VALUE",
+      "fieldName": "bac_result_value",
+      "dataTypeName": "number",
+      "description": "Driver’s blood alcohol concentration test result (fatal crashes may include pedestrian or cyclist results)",
+      "nullCount": 1338546,
+      "cardinality": 54
+    },
+    {
+      "name": "CELL_PHONE_USE",
+      "fieldName": "cell_phone_use",
+      "dataTypeName": "text",
+      "description": "Whether person was/was not using cellphone at the time of the crash, as determined by the reporting officer",
+      "nullCount": 1339050,
+      "cardinality": 2
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:04.887Z"
+}

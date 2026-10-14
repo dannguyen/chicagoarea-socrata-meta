@@ -1,0 +1,52 @@
+{
+  "id": "9sdc-hj8j",
+  "name": "Cook County Clerk - Taxing Agencies with Tax Rates - 2010",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1064,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1318857982,
+  "publicationDate": 1412896573,
+  "rowsUpdatedAt": 1412896568,
+  "viewLastModified": 1769545105,
+  "viewCount": 1167,
+  "downloadCount": 3150,
+  "category": "Property & Taxation",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Clerk",
+  "attributionLink": "http://cookcountyclerk.com",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Update Frequency": "No updates"
+    }
+  },
+  "columns": [
+    {
+      "name": "Agency Name",
+      "fieldName": "agency_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1064
+    },
+    {
+      "name": "2010 Tax Rate",
+      "fieldName": "_tax_rate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 654
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:02.195Z"
+}

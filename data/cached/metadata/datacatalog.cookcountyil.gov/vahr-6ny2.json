@@ -1,0 +1,100 @@
+{
+  "id": "vahr-6ny2",
+  "name": "Fiscal Year 2017 Preliminary Budget - Fiscal Year 2017 Projected Expenses",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 86,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1468610972,
+  "publicationDate": 1468611138,
+  "rowsUpdatedAt": 1468610982,
+  "viewLastModified": 1769544090,
+  "viewCount": 794,
+  "downloadCount": 2524,
+  "category": "Finance & Operations",
+  "tags": [
+    "fy2017",
+    "2017 budget",
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Budget and Management Services",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Department of Budget and Management Services"
+    },
+    "Metadata": {
+      "Update Frequency": "Yearly"
+    },
+    "Publishing Details": {
+      "Publishing frequency": "Annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "Fund",
+      "fieldName": "fund",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Department Number",
+      "fieldName": "department_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 86
+    },
+    {
+      "name": "Description",
+      "fieldName": "description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 86
+    },
+    {
+      "name": "FY2016 Approved & Adopted Expenditures",
+      "fieldName": "fy2016_approved_adopted_expenditures",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 86
+    },
+    {
+      "name": "FY2016 Estimated Expenditures",
+      "fieldName": "fy2016_estimated_expenditures",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 86
+    },
+    {
+      "name": "Department Estimated FY2017 Expenditures",
+      "fieldName": "department_estimated_fy2017_expenditures",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 86
+    },
+    {
+      "name": "Executive FY2017 Estimate Expenditures",
+      "fieldName": "executive_fy2017_estimate_expenditures",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 86
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:06.474Z"
+}

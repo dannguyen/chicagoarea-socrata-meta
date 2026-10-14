@@ -1,0 +1,119 @@
+{
+  "id": "p9p7-vfqc",
+  "name": "Lobbyist Data - Contributions",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 9160,
+  "rowCountSource": "cached",
+  "rowLabel": "Contribution",
+  "hasRowIdentifier": false,
+  "createdAt": 1433877740,
+  "publicationDate": 1445377892,
+  "rowsUpdatedAt": 1791969617,
+  "viewLastModified": 1445637222,
+  "viewCount": 6343,
+  "downloadCount": 7645,
+  "category": "Ethics",
+  "tags": [
+    "ethics",
+    "lobbyists"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2012 - Current",
+      "Frequency": "Data are updated daily. Lobbyist reporting is quarterly.",
+      "Data Owner": "Board of Ethics"
+    }
+  },
+  "columns": [
+    {
+      "name": "CONTRIBUTION_ID",
+      "fieldName": "contribution_id",
+      "dataTypeName": "number",
+      "description": "A unique identifier for the contribution record.",
+      "nullCount": 0,
+      "cardinality": 9160
+    },
+    {
+      "name": "PERIOD_START",
+      "fieldName": "period_start",
+      "dataTypeName": "calendar_date",
+      "description": "Start of the reporting period for which this record was created.",
+      "nullCount": 0,
+      "cardinality": 9160
+    },
+    {
+      "name": "PERIOD_END",
+      "fieldName": "period_end",
+      "dataTypeName": "calendar_date",
+      "description": "End of the reporting period for which this record was created.",
+      "nullCount": 0,
+      "cardinality": 9160
+    },
+    {
+      "name": "CONTRIBUTION_DATE",
+      "fieldName": "contribution_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9160
+    },
+    {
+      "name": "RECIPIENT",
+      "fieldName": "recipient",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9160
+    },
+    {
+      "name": "AMOUNT",
+      "fieldName": "amount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9160
+    },
+    {
+      "name": "LOBBYIST_ID",
+      "fieldName": "lobbyist_id",
+      "dataTypeName": "number",
+      "description": "A unique identifier for the lobbyist record. This ID can be used to link records in other datasets that contain an ID column with the same name.",
+      "nullCount": 0,
+      "cardinality": 9160
+    },
+    {
+      "name": "LOBBYIST_FIRST_NAME",
+      "fieldName": "lobbyist_first_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9160
+    },
+    {
+      "name": "LOBBYIST_LAST_NAME",
+      "fieldName": "lobbyist_last_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9160
+    },
+    {
+      "name": "CREATED_DATE",
+      "fieldName": "created_date",
+      "dataTypeName": "calendar_date",
+      "description": "The date the record was created.",
+      "nullCount": 0,
+      "cardinality": 9160
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:02.592Z"
+}

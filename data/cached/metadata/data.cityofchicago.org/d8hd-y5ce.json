@@ -1,0 +1,93 @@
+{
+  "id": "d8hd-y5ce",
+  "name": "Chicago Public Schools - Elementary School Attendance Boundaries SY2223",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 356,
+  "rowCountSource": "cached",
+  "rowLabel": "Attendance Boundary",
+  "hasRowIdentifier": false,
+  "createdAt": 1669159177,
+  "publicationDate": 1670022752,
+  "rowsUpdatedAt": 1670022746,
+  "viewLastModified": 1759183285,
+  "viewCount": 773,
+  "downloadCount": 1518,
+  "category": "Education",
+  "tags": [
+    "attendance",
+    "boundaries",
+    "cps",
+    "schools",
+    "gis",
+    "geo_layer",
+    "2022",
+    "2023"
+  ],
+  "attribution": "Chicago Public Schools",
+  "attributionLink": "https://www.cps.edu/",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "July 2022 - July 2023",
+      "Frequency": "Annual",
+      "Data Owner": "Chicago Public Schools"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "SCHOOL_ID",
+      "fieldName": "school_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 353
+    },
+    {
+      "name": "SCHOOL_ADD",
+      "fieldName": "school_add",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 353
+    },
+    {
+      "name": "GRADE_CAT",
+      "fieldName": "grade_cat",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "BOUNDARYGR",
+      "fieldName": "boundarygr",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "SHORT_NAME",
+      "fieldName": "short_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 353
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:22.199Z"
+}

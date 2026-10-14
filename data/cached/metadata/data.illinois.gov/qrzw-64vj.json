@@ -1,0 +1,190 @@
+{
+  "id": "qrzw-64vj",
+  "name": "IDPH Life Expectancy at Birth by Sex for Illinois, Chicago and Illinois Counties: 1989-1991, 1999-2001 and 2009-2011",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 104,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709058230,
+  "publicationDate": 1709145427,
+  "rowsUpdatedAt": 1709145421,
+  "viewLastModified": 1736793954,
+  "viewCount": 109,
+  "downloadCount": 34,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "life_expectancy_year_1990_both_sex",
+      "fieldName": "life_expectancy_year_1990",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 93
+    },
+    {
+      "name": "life_expectancy_year_1990_female",
+      "fieldName": "life_expectancy_year_1990_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 98
+    },
+    {
+      "name": "life_expectancy_year_1990_male",
+      "fieldName": "life_expectancy_year_1990_2",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 93
+    },
+    {
+      "name": "life_expectancy_year_2000_both_sex",
+      "fieldName": "life_expectancy_year_2000",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 93
+    },
+    {
+      "name": "life_expectancy_year_2000_female",
+      "fieldName": "life_expectancy_year_2000_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 93
+    },
+    {
+      "name": "life_expectancy_year_2000_male",
+      "fieldName": "life_expectancy_year_2000_2",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 95
+    },
+    {
+      "name": "life_expectancy_year_2010_both_sex",
+      "fieldName": "life_expectancy_year_2010",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 95
+    },
+    {
+      "name": "life_expectancy_year_2010_female",
+      "fieldName": "life_expectancy_year_2010_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 97
+    },
+    {
+      "name": "life_expectancy_year_2010_male",
+      "fieldName": "life_expectancy_year_2010_2",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 99
+    },
+    {
+      "name": "margin_of_error_year_1990_both_sex",
+      "fieldName": "margin_of_error_year_1990",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 85
+    },
+    {
+      "name": "margin_of_error_year_1990_female",
+      "fieldName": "margin_of_error_year_1990_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 91
+    },
+    {
+      "name": "margin_of_error_year_1990_male",
+      "fieldName": "margin_of_error_year_1990_2",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 96
+    },
+    {
+      "name": "margin_of_error_year_2000_both_sex",
+      "fieldName": "margin_of_error_year_2000",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 87
+    },
+    {
+      "name": "margin_of_error_year_2000_female",
+      "fieldName": "margin_of_error_year_2000_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 91
+    },
+    {
+      "name": "margin_of_error_year_2000_male",
+      "fieldName": "margin_of_error_year_2000_2",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 98
+    },
+    {
+      "name": "margin_of_error_year_2010_both_sex",
+      "fieldName": "margin_of_error_year_2010",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 97
+    },
+    {
+      "name": "margin_of_error_year_2010_female",
+      "fieldName": "margin_of_error_year_2010_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 94
+    },
+    {
+      "name": "margin_of_error_year_2010_male",
+      "fieldName": "margin_of_error_year_2010_2",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 94
+    },
+    {
+      "name": "state_city_county",
+      "fieldName": "state_city_county",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 104
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:35.203Z"
+}

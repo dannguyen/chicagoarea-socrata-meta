@@ -1,0 +1,87 @@
+{
+  "id": "tp5a-vuz9",
+  "name": "2015_Elementary_School_Tax_District",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 120,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1510607175,
+  "publicationDate": 1510607184,
+  "rowsUpdatedAt": 1510607184,
+  "viewLastModified": 1769547554,
+  "viewCount": 495,
+  "downloadCount": 1431,
+  "category": "Boundaries & Districts",
+  "tags": [
+    "taxing district",
+    "taxing agency",
+    "clerk",
+    "gis",
+    "cook",
+    "elementary schools",
+    "boundaries and districts",
+    "inactive"
+  ],
+  "attribution": "Cook County Clerk / Map Department",
+  "attributionLink": "http://www.cookcountyclerk.com/tsd/maps/Pages/default.aspx",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "AGENCYNUM",
+      "fieldName": "agencynum",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 119,
+      "cardinality": 1
+    },
+    {
+      "name": "AGENCY",
+      "fieldName": "agency",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 116
+    },
+    {
+      "name": "AGENCY_DES",
+      "fieldName": "agency_des",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 118
+    },
+    {
+      "name": "SHAPE_STAr",
+      "fieldName": "shape_star",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 120
+    },
+    {
+      "name": "SHAPE_STLe",
+      "fieldName": "shape_stle",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 120
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:09.801Z"
+}

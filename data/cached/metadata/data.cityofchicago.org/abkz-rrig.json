@@ -1,0 +1,81 @@
+{
+  "id": "abkz-rrig",
+  "name": "Emergency Temporary Shelters - Limited Stay Exits - By Shelter - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 265,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": true,
+  "createdAt": 1715716655,
+  "publicationDate": 1715719022,
+  "rowsUpdatedAt": 1741944144,
+  "viewLastModified": 1762371254,
+  "viewCount": 555,
+  "downloadCount": 746,
+  "category": "Health & Human Services",
+  "tags": [
+    "migrants",
+    "new arrivals",
+    "temporary shelters",
+    "so2024-0008386",
+    "historical"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "3/11/2024 - 12/29/2024",
+      "Data Owner": "Department of Family and Support Services"
+    }
+  },
+  "columns": [
+    {
+      "name": "Emergency Temporary Shelter",
+      "fieldName": "emergency_temporary_shelter",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 25
+    },
+    {
+      "name": "Week Start",
+      "fieldName": "week_start",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 35
+    },
+    {
+      "name": "Week End",
+      "fieldName": "week_end",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 35
+    },
+    {
+      "name": "Count of Exits",
+      "fieldName": "count_of_exits",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 57
+    },
+    {
+      "name": "Record ID",
+      "fieldName": "record_id",
+      "dataTypeName": "text",
+      "description": "A unique ID for the record.",
+      "nullCount": 0,
+      "cardinality": 265
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:23.766Z"
+}

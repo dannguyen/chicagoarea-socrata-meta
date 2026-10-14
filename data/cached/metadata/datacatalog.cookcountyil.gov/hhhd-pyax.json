@@ -1,0 +1,80 @@
+{
+  "id": "hhhd-pyax",
+  "name": "Building and Zoning - Zoning Applications Applied For - Fiscal Years 2005 through 2011",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 211,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1317144228,
+  "publicationDate": 1412895571,
+  "rowsUpdatedAt": 1412895562,
+  "viewLastModified": 1769548171,
+  "viewCount": 4171,
+  "downloadCount": 2513,
+  "category": "Economic Development",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Building and Zoning",
+  "attributionLink": "http://www.cookcountyil.gov/BuildingZoning",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Fiscal Year",
+      "fieldName": "fiscal_year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "Township Name",
+      "fieldName": "township_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 30
+    },
+    {
+      "name": "Map Amendments",
+      "fieldName": "map_amendments",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Special Uses",
+      "fieldName": "special_uses",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Variances",
+      "fieldName": "variances",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 21
+    },
+    {
+      "name": "Totals",
+      "fieldName": "totals",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:53.545Z"
+}

@@ -1,0 +1,124 @@
+{
+  "id": "rh7w-4dqv",
+  "name": "Lot",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1575850,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1450188984,
+  "publicationDate": null,
+  "rowsUpdatedAt": 1450188984,
+  "viewLastModified": 1769545395,
+  "viewCount": 590,
+  "downloadCount": 1908,
+  "category": "Property & Taxation",
+  "tags": [
+    "cadastral",
+    "tax map",
+    "property",
+    "lot",
+    "cook",
+    "gis",
+    "clerk",
+    "property and land records",
+    "inactive"
+  ],
+  "attribution": "Cook County Clerk / Map Department",
+  "attributionLink": "http://www.cookcountyclerk.com/tsd/maps/Pages/default.aspx",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Update Frequency": "Yearly"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "LOT",
+      "fieldName": "lot",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 14568
+    },
+    {
+      "name": "ID",
+      "fieldName": "id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1574637
+    },
+    {
+      "name": "PAGE_SUBRE",
+      "fieldName": "page_subre",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 53736
+    },
+    {
+      "name": "SUBBLK",
+      "fieldName": "subblk",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 379
+    },
+    {
+      "name": "FLOORPLAN_",
+      "fieldName": "floorplan_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "LOTTYPE",
+      "fieldName": "lottype",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "JOB_NO",
+      "fieldName": "job_no",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5684
+    },
+    {
+      "name": "SHAPE_STAr",
+      "fieldName": "shape_star",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1415652
+    },
+    {
+      "name": "SHAPE_STLe",
+      "fieldName": "shape_stle",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1492596
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:09.183Z"
+}

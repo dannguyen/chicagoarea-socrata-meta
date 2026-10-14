@@ -1,0 +1,81 @@
+{
+  "id": "5neh-572f",
+  "name": "CTA - Ridership - 'L' Station Entries - Daily Totals",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1333391,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1312573998,
+  "publicationDate": 1526683307,
+  "rowsUpdatedAt": 1790618686,
+  "viewLastModified": 1790618684,
+  "viewCount": 60619,
+  "downloadCount": 34632,
+  "category": "Transportation",
+  "tags": [
+    "cta",
+    "public transit",
+    "ridership",
+    "chicago transit authority"
+  ],
+  "attribution": "Chicago Transit Authority",
+  "attributionLink": "http://www.transitchicago.com",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2001 - Current",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"5neh-572f\"",
+      "Data Owner": "Chicago Transit Authority "
+    }
+  },
+  "columns": [
+    {
+      "name": "station_id",
+      "fieldName": "station_id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1333391
+    },
+    {
+      "name": "stationname",
+      "fieldName": "stationname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1333391
+    },
+    {
+      "name": "date",
+      "fieldName": "date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1333391
+    },
+    {
+      "name": "daytype",
+      "fieldName": "daytype",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1333391
+    },
+    {
+      "name": "rides",
+      "fieldName": "rides",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1333391
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:05.845Z"
+}

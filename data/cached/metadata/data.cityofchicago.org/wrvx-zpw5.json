@@ -1,0 +1,56 @@
+{
+  "id": "wrvx-zpw5",
+  "name": "Performance Metrics - Chicago Park District - Park Security Checks",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 55,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1322249636,
+  "publicationDate": 1344021420,
+  "rowsUpdatedAt": 1344021417,
+  "viewLastModified": 1344021420,
+  "viewCount": 1511,
+  "downloadCount": 2821,
+  "category": "Administration & Finance",
+  "tags": [
+    "performance metrics",
+    "parks"
+  ],
+  "attribution": "Chicago Park District",
+  "attributionLink": "http://www.chicagoparkdistrict.com/",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "Data is current as of December 2011",
+      "Frequency": "Data is updated weekly",
+      "Data Owner": "Chicago Park District"
+    }
+  },
+  "columns": [
+    {
+      "name": "Week",
+      "fieldName": "week",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 55
+    },
+    {
+      "name": "Park Checks",
+      "fieldName": "park_checks",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 53
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:16.845Z"
+}

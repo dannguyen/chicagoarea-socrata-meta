@@ -1,0 +1,114 @@
+{
+  "id": "6ibj-qcjr",
+  "name": "Provisional Deaths Due to Respiratory Illnesses",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1245,
+  "rowCountSource": "cached",
+  "rowLabel": "Provisional deaths by week",
+  "hasRowIdentifier": true,
+  "createdAt": 1732737252,
+  "publicationDate": 1736201594,
+  "rowsUpdatedAt": 1791567105,
+  "viewLastModified": 1737746696,
+  "viewCount": 1089,
+  "downloadCount": 4032,
+  "category": "Health & Human Services",
+  "tags": [
+    "flu",
+    "covid-19",
+    "public health",
+    "health",
+    "death"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": null,
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "October 2018 through the most recent date shown",
+      "Frequency": "Data are updated weekly",
+      "Data Owner": "Department of Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "mmwr_week",
+      "fieldName": "mmwr_week",
+      "dataTypeName": "number",
+      "description": "A weekly counting system within a calendar year standardized by the U.S. Centers for Disease Control and Prevention.",
+      "nullCount": 0,
+      "cardinality": 1245
+    },
+    {
+      "name": "week",
+      "fieldName": "week",
+      "dataTypeName": "number",
+      "description": "The calendar week standardized by the U.S. Centers for Disease Control and Prevention.",
+      "nullCount": 0,
+      "cardinality": 1245
+    },
+    {
+      "name": "week_start",
+      "fieldName": "week_start",
+      "dataTypeName": "calendar_date",
+      "description": "Beginning date of the MMWR week.",
+      "nullCount": 0,
+      "cardinality": 1245
+    },
+    {
+      "name": "week_end",
+      "fieldName": "week_end",
+      "dataTypeName": "calendar_date",
+      "description": "Ending date of the MMWR week.",
+      "nullCount": 0,
+      "cardinality": 1245
+    },
+    {
+      "name": "season",
+      "fieldName": "season",
+      "dataTypeName": "text",
+      "description": "Annually recurring reporting period for which estimates are calculated, beginning during MMWR week 40 and ending with week 39 of the following year.",
+      "nullCount": 0,
+      "cardinality": 1245
+    },
+    {
+      "name": "disease",
+      "fieldName": "disease",
+      "dataTypeName": "text",
+      "description": "COVID-19, Influenza, or RSV.",
+      "nullCount": 0,
+      "cardinality": 1245
+    },
+    {
+      "name": "percent",
+      "fieldName": "percent",
+      "dataTypeName": "number",
+      "description": "Percentage of all reported deaths during the MMWR week that were attributed to the respiratory disease specified in the disease column.",
+      "nullCount": 0,
+      "cardinality": 1245
+    },
+    {
+      "name": "current_week_ending",
+      "fieldName": "current_week_ending",
+      "dataTypeName": "calendar_date",
+      "description": "Ending date of the MMWR week for the current season.",
+      "nullCount": 0,
+      "cardinality": 1245
+    },
+    {
+      "name": "row_id",
+      "fieldName": "row_id",
+      "dataTypeName": "text",
+      "description": "A unique ID for the row.",
+      "nullCount": 0,
+      "cardinality": 1245
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:20.130Z"
+}

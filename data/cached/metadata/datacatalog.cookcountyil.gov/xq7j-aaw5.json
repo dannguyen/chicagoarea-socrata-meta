@@ -1,0 +1,56 @@
+{
+  "id": "xq7j-aaw5",
+  "name": "County Clerk - Suburban Early Voting Locations - 2012",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 43,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1349823308,
+  "publicationDate": 1686672969,
+  "rowsUpdatedAt": 1412890691,
+  "viewLastModified": 1769545704,
+  "viewCount": 930,
+  "downloadCount": 1936,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Clerk",
+  "attributionLink": "http://www.cookcountyclerk.com/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Site",
+      "fieldName": "site",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 43
+    },
+    {
+      "name": "Hours",
+      "fieldName": "hours",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Location 1",
+      "fieldName": "location_1",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:04.514Z"
+}

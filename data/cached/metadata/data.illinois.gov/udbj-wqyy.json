@@ -1,0 +1,101 @@
+{
+  "id": "udbj-wqyy",
+  "name": "Water Well Continuing Education Calendar",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 4,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1738007321,
+  "publicationDate": 1738007580,
+  "rowsUpdatedAt": 1738007574,
+  "viewLastModified": 1738007725,
+  "viewCount": 2038,
+  "downloadCount": 81,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer Email": "dph.waterwell@illinois.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "COURSE DATE",
+      "fieldName": "course_date",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "TIME",
+      "fieldName": "time",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "TRAINING",
+      "fieldName": "training",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "TRAINING PROVIDER/SPONSOR",
+      "fieldName": "training_provider_sponsor",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "TRAINING TYPE",
+      "fieldName": "training_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "REGISTRATION",
+      "fieldName": "registration",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "ADDRESS CITY, STATE ZIP CODE",
+      "fieldName": "address_city_state_zip_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "LICENSE TYPE/",
+      "fieldName": "license_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:31.955Z"
+}

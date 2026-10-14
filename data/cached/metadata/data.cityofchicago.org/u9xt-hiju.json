@@ -1,0 +1,143 @@
+{
+  "id": "u9xt-hiju",
+  "name": "Parking Permit Zones",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 10416,
+  "rowCountSource": "cached",
+  "rowLabel": "Zone",
+  "hasRowIdentifier": false,
+  "createdAt": 1412720203,
+  "publicationDate": 1431971682,
+  "rowsUpdatedAt": 1791469610,
+  "viewLastModified": 1788212259,
+  "viewCount": 69490,
+  "downloadCount": 18328,
+  "category": "Transportation",
+  "tags": [
+    "parking restrictions",
+    "parking"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": null,
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Current",
+      "Frequency": "Updated daily",
+      "Data Owner": "Chicago City Clerk"
+    }
+  },
+  "columns": [
+    {
+      "name": "ROW ID",
+      "fieldName": "row_id",
+      "dataTypeName": "number",
+      "description": "Unique ID",
+      "nullCount": 0,
+      "cardinality": 10416
+    },
+    {
+      "name": "STATUS",
+      "fieldName": "status",
+      "dataTypeName": "text",
+      "description": "ACTIVE = currently affects product issuance (i.e., zoned products offered if product's address is within this zone record's range)\nRESCINDED = does not affect product issuance.  The street range indicated by this record previously existed (i.e., signs used to be in the ground, or the range used to be a buffer), but between such time and present, the zone has been cancelled (with signs removed, etc.) pursant to City Council legislation or similar act.\n",
+      "nullCount": 0,
+      "cardinality": 10416
+    },
+    {
+      "name": "ZONE",
+      "fieldName": "zone",
+      "dataTypeName": "text",
+      "description": "The zone number.  In cases where signs are posted (i.e., range is not a buffer range), this is the number that is listed on the physical sign.",
+      "nullCount": 0,
+      "cardinality": 10416
+    },
+    {
+      "name": "ODD_EVEN",
+      "fieldName": "odd_even",
+      "dataTypeName": "text",
+      "description": "If 'E', only products whose address is both within this range AND address is even numbered will be offered zone.  \nIf 'O', only products whose address is both within this range AND address is odd numbered will be offered zone.",
+      "nullCount": 0,
+      "cardinality": 10416
+    },
+    {
+      "name": "ADDRESS RANGE - LOW",
+      "fieldName": "address_range_low",
+      "dataTypeName": "number",
+      "description": "Lower value in the address range",
+      "nullCount": 0,
+      "cardinality": 10416
+    },
+    {
+      "name": "ADDRESS RANGE - HIGH",
+      "fieldName": "address_range_high",
+      "dataTypeName": "number",
+      "description": "Higher value in the address range",
+      "nullCount": 0,
+      "cardinality": 10416
+    },
+    {
+      "name": "STREET DIRECTION",
+      "fieldName": "street_direction",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10416
+    },
+    {
+      "name": "STREET NAME",
+      "fieldName": "street_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10416
+    },
+    {
+      "name": "STREET TYPE",
+      "fieldName": "street_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 63,
+      "cardinality": 10416
+    },
+    {
+      "name": "SECOND STREET DIRECTION",
+      "fieldName": "second_street_direction",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 10408,
+      "cardinality": 10416
+    },
+    {
+      "name": "BUFFER",
+      "fieldName": "buffer",
+      "dataTypeName": "text",
+      "description": "Some segments are \"Buffer\": Parking is not restricted on the physical street, but residents who reside at an address within that range shall be eligible to purchase zoned products for nearby \"Standard\" segments where parking is restricted and signs are physically posted on the street. \nY = The range is a buffer segment.  \nN = The range is not a buffer segment, i.e., is a \"standard\" segment.",
+      "nullCount": 0,
+      "cardinality": 10416
+    },
+    {
+      "name": "WARD - LOW",
+      "fieldName": "ward_low",
+      "dataTypeName": "number",
+      "description": "The ward in which the low end of the address range falls.",
+      "nullCount": 52,
+      "cardinality": 10416
+    },
+    {
+      "name": "WARD - HIGH",
+      "fieldName": "ward_high",
+      "dataTypeName": "number",
+      "description": "The ward in which the high end of the address range falls.",
+      "nullCount": 44,
+      "cardinality": 10416
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:05.398Z"
+}

@@ -1,0 +1,192 @@
+{
+  "id": "fwar-bpxm",
+  "name": "Budget - Fiscal Year 2017 Executive Recommendation - Budget Summary Of Positions By Business Unit",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 7532,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1476764254,
+  "publicationDate": 1476764675,
+  "rowsUpdatedAt": 1476764640,
+  "viewLastModified": 1769548055,
+  "viewCount": 1785,
+  "downloadCount": 2698,
+  "category": "Finance & Operations",
+  "tags": [
+    "2017 budget executive recommendation",
+    "2017 budget",
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Budget & Management Services",
+  "attributionLink": "http://www.cookcountyil.gov/budget/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Department of Budget & Management Services"
+    },
+    "Metadata": {
+      "Update Frequency": "Yearly"
+    },
+    "Detailed Descriptive": {
+      "Geographic unit": "Not applicable"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Annually",
+      "Publishing frequency": "Annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "Office",
+      "fieldName": "office",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Control Officer",
+      "fieldName": "control_officer",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 26
+    },
+    {
+      "name": "General Fund Type",
+      "fieldName": "general_fund_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Fund Type",
+      "fieldName": "fund_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Fund",
+      "fieldName": "fund",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 25
+    },
+    {
+      "name": "Department Number",
+      "fieldName": "department_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 162
+    },
+    {
+      "name": "Department Name",
+      "fieldName": "department_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 162
+    },
+    {
+      "name": "Business Unit Number",
+      "fieldName": "business_unit_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1181
+    },
+    {
+      "name": "Business Unit Name",
+      "fieldName": "business_unit_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1048
+    },
+    {
+      "name": "Job Code",
+      "fieldName": "job_code",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2154
+    },
+    {
+      "name": "Job Title",
+      "fieldName": "job_title",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2088
+    },
+    {
+      "name": "Grade",
+      "fieldName": "grade",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 128
+    },
+    {
+      "name": "2016 Adopted FTE",
+      "fieldName": "_2016_adopted_fte",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 145
+    },
+    {
+      "name": "2016 Adopted Salary",
+      "fieldName": "_2016_adopted_salary",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3714
+    },
+    {
+      "name": "2017 Dept Req FTE",
+      "fieldName": "_2017_dept_req_fte",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 132
+    },
+    {
+      "name": "2017 Dept Req Salary",
+      "fieldName": "_2017_dept_req_salary",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4536
+    },
+    {
+      "name": "2017 Pres Rec FTE",
+      "fieldName": "_2017_pres_rec_fte",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 127
+    },
+    {
+      "name": "2017 Pres Rec Salary",
+      "fieldName": "_2017_pres_rec_salary",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4535
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:57.705Z"
+}

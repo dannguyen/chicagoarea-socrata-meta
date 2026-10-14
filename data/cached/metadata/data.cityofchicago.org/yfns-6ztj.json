@@ -1,0 +1,127 @@
+{
+  "id": "yfns-6ztj",
+  "name": "Health Alert Network Alerts",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1841,
+  "rowCountSource": "cached",
+  "rowLabel": "Alert",
+  "hasRowIdentifier": true,
+  "createdAt": 1635537529,
+  "publicationDate": 1637128624,
+  "rowsUpdatedAt": 1790689428,
+  "viewLastModified": 1662500937,
+  "viewCount": 2188,
+  "downloadCount": 15813,
+  "category": "Health & Human Services",
+  "tags": [
+    "health",
+    "public health"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicagohan.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "3/2/2020 - Current",
+      "Frequency": "Alerts are added as released",
+      "Data Owner": "Department of Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "Title",
+      "fieldName": "title",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1841
+    },
+    {
+      "name": "Published Date",
+      "fieldName": "published_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1841
+    },
+    {
+      "name": "Alert ID",
+      "fieldName": "alert_id",
+      "dataTypeName": "number",
+      "description": "A unique identifier for each alert",
+      "nullCount": 0,
+      "cardinality": 1841
+    },
+    {
+      "name": "Topic",
+      "fieldName": "topic",
+      "dataTypeName": "text",
+      "description": "A general designation of the alert.  Alerts contain only one topic.",
+      "nullCount": 0,
+      "cardinality": 1841
+    },
+    {
+      "name": "Category Name",
+      "fieldName": "category_name",
+      "dataTypeName": "text",
+      "description": "Designates general areas to which the alert has a relationship.  This closely aligns to the pages in the HAN in which the alert or topic information will appear.  There  can be one or many categories per one alert. Therefore, it generally will be best to use the \"Contains\" operator when filtering for records matching a category.",
+      "nullCount": 663,
+      "cardinality": 1841
+    },
+    {
+      "name": "Priority",
+      "fieldName": "priority",
+      "dataTypeName": "text",
+      "description": "Priority is generally meant to convey the immediacy of attention that should be assigned to the alert topic.   Levels are Urgent, High (default), Medium and Low.",
+      "nullCount": 0,
+      "cardinality": 1841
+    },
+    {
+      "name": "Abstract",
+      "fieldName": "abstract",
+      "dataTypeName": "text",
+      "description": "A short summary of the alert.",
+      "nullCount": 0,
+      "cardinality": 1841
+    },
+    {
+      "name": "Full Details HTML",
+      "fieldName": "full_details_html",
+      "dataTypeName": "text",
+      "description": "The full alert, formatted in HTML.",
+      "nullCount": 0,
+      "cardinality": 1841
+    },
+    {
+      "name": "Full Details Markdown",
+      "fieldName": "full_details_markdown",
+      "dataTypeName": "text",
+      "description": "The full alert, formatted in markdown.",
+      "nullCount": 0,
+      "cardinality": 1841
+    },
+    {
+      "name": "Has Attachment",
+      "fieldName": "has_attachment",
+      "dataTypeName": "checkbox",
+      "description": "Whether the alert has one or more attachments. If Yes, please visit the HAN site to see the attachment(s).",
+      "nullCount": 0,
+      "cardinality": 1841
+    },
+    {
+      "name": "Alert URL",
+      "fieldName": "alert_url",
+      "dataTypeName": "text",
+      "description": "Link to the alert on the HAN site.",
+      "nullCount": 660,
+      "cardinality": 1841
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:12.360Z"
+}

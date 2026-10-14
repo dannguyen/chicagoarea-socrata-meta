@@ -1,0 +1,543 @@
+{
+  "id": "35yf-6dy3",
+  "name": "Public Health Statistics - Chlamydia cases among males aged 15-44 in Chicago, by year, 2000-2014 - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 79,
+  "rowCountSource": "cached",
+  "rowLabel": "community area",
+  "hasRowIdentifier": false,
+  "createdAt": 1447184977,
+  "publicationDate": 1453752515,
+  "rowsUpdatedAt": 1453752280,
+  "viewLastModified": 1643930495,
+  "viewCount": 1593,
+  "downloadCount": 8816,
+  "category": "Health & Human Services",
+  "tags": [
+    "sti",
+    "std",
+    "sexually transmitted"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2000-2014",
+      "Data Owner": "Surveillance, Epidemiology and Research Section, Sexually Transmitted Infection/HIV/AIDS Division, Chicago Department of Public Health (CDPH)"
+    }
+  },
+  "columns": [
+    {
+      "name": "Community Area",
+      "fieldName": "community_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 79
+    },
+    {
+      "name": "Community Area Name",
+      "fieldName": "community_area_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 79
+    },
+    {
+      "name": "CASES 2000 Male 15-44",
+      "fieldName": "cases_2000_male_15_44",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 11,
+      "cardinality": 50
+    },
+    {
+      "name": "Incidence Rate 2000",
+      "fieldName": "incidence_rate_2000",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 14,
+      "cardinality": 65
+    },
+    {
+      "name": "Incidence Rate 2000 Lower CI",
+      "fieldName": "incidence_rate_2000_lower_ci",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 11,
+      "cardinality": 66
+    },
+    {
+      "name": "Incidence Rate 2000 Upper CI",
+      "fieldName": "incidence_rate_2000_upper_ci",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 11,
+      "cardinality": 65
+    },
+    {
+      "name": "CASES 2001 Male 15-44",
+      "fieldName": "cases_2001_male_15_44",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 12,
+      "cardinality": 50
+    },
+    {
+      "name": "Incidence Rate 2001",
+      "fieldName": "incidence_rate_2001",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 13,
+      "cardinality": 66
+    },
+    {
+      "name": "Incidence Rate 2001 Lower CI",
+      "fieldName": "incidence_rate_2001_lower_ci",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 12,
+      "cardinality": 67
+    },
+    {
+      "name": "Incidence Rate 2001 Upper CI",
+      "fieldName": "incidence_rate_2001_upper_ci",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 12,
+      "cardinality": 67
+    },
+    {
+      "name": "CASES 2002 Male 15-44",
+      "fieldName": "cases_2002_male_15_44",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 57
+    },
+    {
+      "name": "Incidence Rate 2002",
+      "fieldName": "incidence_rate_2002",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 74
+    },
+    {
+      "name": "Incidence Rate 2002 Lower CI",
+      "fieldName": "incidence_rate_2002_lower_ci",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 75
+    },
+    {
+      "name": "Incidence Rate 2002 Upper CI",
+      "fieldName": "incidence_rate_2002_upper_ci",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 75
+    },
+    {
+      "name": "CASES 2003 Male 15-44",
+      "fieldName": "cases_2003_male_15_44",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 7,
+      "cardinality": 59
+    },
+    {
+      "name": "Incidence Rate 2003",
+      "fieldName": "incidence_rate_2003",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 8,
+      "cardinality": 71
+    },
+    {
+      "name": "Incidence Rate 2003 Lower CI",
+      "fieldName": "incidence_rate_2003_lower_ci",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 7,
+      "cardinality": 72
+    },
+    {
+      "name": "Incidence Rate 2003 Upper CI",
+      "fieldName": "incidence_rate_2003_upper_ci",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 7,
+      "cardinality": 72
+    },
+    {
+      "name": "CASES 2004 Male 15-44",
+      "fieldName": "cases_2004_male_15_44",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 7,
+      "cardinality": 55
+    },
+    {
+      "name": "Incidence Rate 2004",
+      "fieldName": "incidence_rate_2004",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 9,
+      "cardinality": 69
+    },
+    {
+      "name": "Incidence Rate 2004 Lower CI",
+      "fieldName": "incidence_rate_2004_lower_ci",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 7,
+      "cardinality": 71
+    },
+    {
+      "name": "Incidence Rate 2004 Upper CI",
+      "fieldName": "incidence_rate_2004_upper_ci",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 7,
+      "cardinality": 71
+    },
+    {
+      "name": "CASES 2005 Male 15-44",
+      "fieldName": "cases_2005_male_15_44",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 60
+    },
+    {
+      "name": "Incidence Rate 2005",
+      "fieldName": "incidence_rate_2005",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 8,
+      "cardinality": 71
+    },
+    {
+      "name": "Incidence Rate 2005 Lower CI",
+      "fieldName": "incidence_rate_2005_lower_ci",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 72
+    },
+    {
+      "name": "Incidence Rate 2005 Upper CI",
+      "fieldName": "incidence_rate_2005_upper_ci",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 72
+    },
+    {
+      "name": "CASES 2006 Male 15-44",
+      "fieldName": "cases_2006_male_15_44",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 56
+    },
+    {
+      "name": "Incidence Rate 2006",
+      "fieldName": "incidence_rate_2006",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 76
+    },
+    {
+      "name": "Incidence Rate 2006 Lower CI",
+      "fieldName": "incidence_rate_2006_lower_ci",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 77
+    },
+    {
+      "name": "Incidence Rate 2006 Upper CI",
+      "fieldName": "incidence_rate_2006_upper_ci",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 77
+    },
+    {
+      "name": "CASES 2007 Male 15-44",
+      "fieldName": "cases_2007_male_15_44",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 60
+    },
+    {
+      "name": "Incidence Rate 2007",
+      "fieldName": "incidence_rate_2007",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 8,
+      "cardinality": 71
+    },
+    {
+      "name": "Incidence Rate 2007 Lower CI",
+      "fieldName": "incidence_rate_2007_lower_ci",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 71
+    },
+    {
+      "name": "Incidence Rate 2007 Upper CI",
+      "fieldName": "incidence_rate_2007_upper_ci",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 72
+    },
+    {
+      "name": "CASES 2008 Male 15-44",
+      "fieldName": "cases_2008_male_15_44",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 56
+    },
+    {
+      "name": "Incidence Rate 2008",
+      "fieldName": "incidence_rate_2008",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 73
+    },
+    {
+      "name": "Incidence Rate 2008 Lower CI",
+      "fieldName": "incidence_rate_2008_lower_ci",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 74
+    },
+    {
+      "name": "Incidence Rate 2008 Upper CI",
+      "fieldName": "incidence_rate_2008_upper_ci",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 74
+    },
+    {
+      "name": "CASES 2009 Male 15-44",
+      "fieldName": "cases_2009_male_15_44",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 8,
+      "cardinality": 49
+    },
+    {
+      "name": "Incidence Rate 2009",
+      "fieldName": "incidence_rate_2009",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 9,
+      "cardinality": 70
+    },
+    {
+      "name": "Incidence Rate 2009 Lower CI",
+      "fieldName": "incidence_rate_2009_lower_ci",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 8,
+      "cardinality": 70
+    },
+    {
+      "name": "Incidence Rate 2009 Upper CI",
+      "fieldName": "incidence_rate_2009_upper_ci",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 8,
+      "cardinality": 71
+    },
+    {
+      "name": "CASES 2010 Male 15-44",
+      "fieldName": "cases_2010_male_15_44",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 58
+    },
+    {
+      "name": "Incidence Rate 2010",
+      "fieldName": "incidence_rate_2010",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 7,
+      "cardinality": 72
+    },
+    {
+      "name": "Incidence Rate 2010 Lower CI",
+      "fieldName": "incidence_rate_2010_lower_ci",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 73
+    },
+    {
+      "name": "Incidence Rate 2010 Upper CI",
+      "fieldName": "incidence_rate_2010_upper_ci",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 73
+    },
+    {
+      "name": "CASES 2011 Male 15-44",
+      "fieldName": "cases_2011_male_15_44",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 65
+    },
+    {
+      "name": "Incidence Rate 2011",
+      "fieldName": "incidence_rate_2011",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 76
+    },
+    {
+      "name": "Incidence Rate 2011 Lower CI",
+      "fieldName": "incidence_rate_2011_lower_ci",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 77
+    },
+    {
+      "name": "Incidence Rate 2011 Upper CI",
+      "fieldName": "incidence_rate_2011_upper_ci",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 76
+    },
+    {
+      "name": "CASES 2012 MALE 15-44",
+      "fieldName": "cases_2012_male_15_44",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 60
+    },
+    {
+      "name": "Incidence Rate 2012",
+      "fieldName": "incidence_rate_2012",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 77
+    },
+    {
+      "name": "Incidence Rate 2012 Lower CI",
+      "fieldName": "incidence_rate_2012_lower_ci",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 78
+    },
+    {
+      "name": "Incidence Rate 2012 Upper CI",
+      "fieldName": "incidence_rate_2012_upper_ci",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 78
+    },
+    {
+      "name": "CASES 2013 Male 15-44",
+      "fieldName": "cases_2013_male_15_44",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 65
+    },
+    {
+      "name": "Incidence Rate 2013",
+      "fieldName": "incidence_rate_2013",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 77
+    },
+    {
+      "name": "Incidence Rate 2013 Lower CI",
+      "fieldName": "incidence_rate_2013_lower_ci",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 78
+    },
+    {
+      "name": "Incidence Rate 2013 Upper CI",
+      "fieldName": "incidence_rate_2013_upper_ci",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 77
+    },
+    {
+      "name": "CASES 2014 Male 15-44",
+      "fieldName": "cases_2014_male_15_44",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 66
+    },
+    {
+      "name": "Incidence Rate 2014",
+      "fieldName": "incidence_rate_2014",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 77
+    },
+    {
+      "name": "Incidence Rate 2014 Lower CI",
+      "fieldName": "incidence_rate_2014_lower_ci",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 77
+    },
+    {
+      "name": "Incidence Rate 2014 Upper CI",
+      "fieldName": "incidence_rate_2014_upper_ci",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 78
+    },
+    {
+      "name": "WARNING",
+      "fieldName": "warning",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 39,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:16.336Z"
+}

@@ -1,0 +1,184 @@
+{
+  "id": "38sz-xyf4",
+  "name": "Public Health Department Events",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 494,
+  "rowCountSource": "cached",
+  "rowLabel": "Event",
+  "hasRowIdentifier": false,
+  "createdAt": 1486668210,
+  "publicationDate": 1504894018,
+  "rowsUpdatedAt": 1791990724,
+  "viewLastModified": 1556740094,
+  "viewCount": 3881,
+  "downloadCount": 13174,
+  "category": "Events",
+  "tags": [
+    "events",
+    "health",
+    "public health"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "February 2018 - Current",
+      "Frequency": "Daily",
+      "Data Owner": "Department of Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "Event",
+      "fieldName": "event",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 361
+    },
+    {
+      "name": "Start Time",
+      "fieldName": "start_time",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 425
+    },
+    {
+      "name": "End Time",
+      "fieldName": "end_time",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 454
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 363
+    },
+    {
+      "name": "Address Details",
+      "fieldName": "address_details",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 268,
+      "cardinality": 182
+    },
+    {
+      "name": "Description",
+      "fieldName": "description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 397
+    },
+    {
+      "name": "Web Page",
+      "fieldName": "web_page",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": 345,
+      "cardinality": null
+    },
+    {
+      "name": "Event Type",
+      "fieldName": "event_type",
+      "dataTypeName": "text",
+      "description": "Type of event. If the event fits into multiple categories, all are listed, separated by the | character.  See More Views for examples of searching for events of a particular type.",
+      "nullCount": 8,
+      "cardinality": 58
+    },
+    {
+      "name": "Audience",
+      "fieldName": "audience",
+      "dataTypeName": "text",
+      "description": "Intended audience for the event. If the event is intended for multiple audiences, all are listed, separated by the | character.  See More Views for examples of searching for events for a particular audience..",
+      "nullCount": 17,
+      "cardinality": 36
+    },
+    {
+      "name": "Recurring Event",
+      "fieldName": "recurring_event",
+      "dataTypeName": "text",
+      "description": "Is this event part of a series of similar events?",
+      "nullCount": 1,
+      "cardinality": 2
+    },
+    {
+      "name": "Latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": "Latitude of the event address.",
+      "nullCount": 123,
+      "cardinality": 209
+    },
+    {
+      "name": "Longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": "Longitude of the event address.",
+      "nullCount": 123,
+      "cardinality": 209
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": "Location of the event address.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:06.464Z"
+}

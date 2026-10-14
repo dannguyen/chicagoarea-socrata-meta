@@ -1,0 +1,65 @@
+{
+  "id": "haj6-m47h",
+  "name": "Human Resources - Compliance Officer’s Quarterly Employment Action Reports",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 57,
+  "rowCountSource": "cached",
+  "rowLabel": "Report",
+  "hasRowIdentifier": false,
+  "createdAt": 1466637403,
+  "publicationDate": 1544463869,
+  "rowsUpdatedAt": 1786213367,
+  "viewLastModified": 1786213367,
+  "viewCount": 19717,
+  "downloadCount": 2833,
+  "category": "Finance & Operations",
+  "tags": [],
+  "attribution": "Cook County Bureau of Human Resources",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Bureau of Human Resources"
+    },
+    "Metadata": {
+      "Update Frequency": "Quarterly"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Quarterly",
+      "Publishing frequency": "Quarterly"
+    }
+  },
+  "columns": [
+    {
+      "name": "Link",
+      "fieldName": "link",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": "Fiscal Year",
+      "fieldName": "fiscal_year",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 57
+    },
+    {
+      "name": "Quarter",
+      "fieldName": "quarter",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 57
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:49.166Z"
+}

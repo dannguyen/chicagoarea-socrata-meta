@@ -1,0 +1,72 @@
+{
+  "id": "cse8-ib7b",
+  "name": "State's Attorney Felony Cases - Disposition Outcomes By Offense Type",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2991,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1506527943,
+  "publicationDate": 1506536040,
+  "rowsUpdatedAt": 1506536003,
+  "viewLastModified": 1769544744,
+  "viewCount": 1085,
+  "downloadCount": 2455,
+  "category": "Legal & Judicial",
+  "tags": [
+    "state's attorney baseline data report",
+    "inactive"
+  ],
+  "attribution": "Cook County State's Attorney Office",
+  "attributionLink": "https://www.cookcountystatesattorney.org/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County State's Attorney Office"
+    },
+    "Publishing Details": {
+      "Publishing frequency": "Annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "YEAR",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": "The year in which the disposition occurred. ",
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "DISPOSITION RESULT",
+      "fieldName": "disposition_result",
+      "dataTypeName": "text",
+      "description": "The culmination of the fact-finding process that leads to the resolution of a case.",
+      "nullCount": 75,
+      "cardinality": 32
+    },
+    {
+      "name": "OFFENSE TYPE",
+      "fieldName": "offense_type",
+      "dataTypeName": "text",
+      "description": "Type of offense for the “Topline” charge. Many cases involve multiple charges stemming from the same incident. On a charging document, these various charges are called “counts.” This data report is based on Count 1 for each case, which is generally the most serious charge in a given case, and is commonly referred to as the “topline charge.” ",
+      "nullCount": 0,
+      "cardinality": 88
+    },
+    {
+      "name": "DEFENDANT COUNT",
+      "fieldName": "defendant_count",
+      "dataTypeName": "number",
+      "description": "Count of defendants",
+      "nullCount": 0,
+      "cardinality": 285
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:02.834Z"
+}

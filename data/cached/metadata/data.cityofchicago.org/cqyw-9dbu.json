@@ -1,0 +1,133 @@
+{
+  "id": "cqyw-9dbu",
+  "name": "Industrial_Corridors",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 24,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1360340493,
+  "publicationDate": 1360340494,
+  "rowsUpdatedAt": 1360340493,
+  "viewLastModified": 1712775959,
+  "viewCount": 558,
+  "downloadCount": 2116,
+  "category": "Community & Economic Development",
+  "tags": [
+    "business",
+    "boundaries",
+    "deprecated",
+    "gis",
+    "shapefiles",
+    "kml",
+    "kmz"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "Deprecated December 2012.",
+      "Frequency": "Data is no longer updated.",
+      "Data Owner": "Housing & Economic Development"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "OBJECTID",
+      "fieldName": "objectid",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24
+    },
+    {
+      "name": "NO",
+      "fieldName": "no",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24
+    },
+    {
+      "name": "NAME",
+      "fieldName": "name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24
+    },
+    {
+      "name": "REGION",
+      "fieldName": "region",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "HUD_QUALIF",
+      "fieldName": "hud_qualif",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "REGION_NUM",
+      "fieldName": "region_num",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "ACRES",
+      "fieldName": "acres",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24
+    },
+    {
+      "name": "MILES",
+      "fieldName": "miles",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24
+    },
+    {
+      "name": "SHAPE_AREA",
+      "fieldName": "shape_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24
+    },
+    {
+      "name": "SHAPE_LEN",
+      "fieldName": "shape_len",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:23.763Z"
+}

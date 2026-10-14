@@ -1,0 +1,97 @@
+{
+  "id": "ard8-rcb7",
+  "name": "Bike Routes (Deprecated January 2021)",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 774,
+  "rowCountSource": "cached",
+  "rowLabel": "Bike Route",
+  "hasRowIdentifier": false,
+  "createdAt": 1618611024,
+  "publicationDate": 1618611274,
+  "rowsUpdatedAt": 1618611274,
+  "viewLastModified": 1618611274,
+  "viewCount": 1613,
+  "downloadCount": 1402,
+  "category": "Transportation",
+  "tags": [
+    "bicycling",
+    "sustainability",
+    "gis",
+    "deprecated",
+    "geo_layer"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "February 2020",
+      "Data Owner": "Department of Transportation"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multiline",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "OBJECTID",
+      "fieldName": "objectid",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 774
+    },
+    {
+      "name": "STREET",
+      "fieldName": "street",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 214
+    },
+    {
+      "name": "F_STREET",
+      "fieldName": "f_street",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 398
+    },
+    {
+      "name": "T_STREET",
+      "fieldName": "t_street",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 398
+    },
+    {
+      "name": "DISPLAYROU",
+      "fieldName": "displayrou",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Shape_Leng",
+      "fieldName": "shape_leng",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 774
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:16.323Z"
+}

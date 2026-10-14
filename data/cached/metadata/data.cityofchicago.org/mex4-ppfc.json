@@ -1,0 +1,238 @@
+{
+  "id": "mex4-ppfc",
+  "name": "Tax Increment Financing (TIF) Funded RDA and IGA Projects",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 762,
+  "rowCountSource": "cached",
+  "rowLabel": "Project",
+  "hasRowIdentifier": false,
+  "createdAt": 1423616929,
+  "publicationDate": 1580928135,
+  "rowsUpdatedAt": 1791956749,
+  "viewLastModified": 1580928135,
+  "viewCount": 13402,
+  "downloadCount": 32441,
+  "category": "Community & Economic Development",
+  "tags": [
+    "tif"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "1986 - Current",
+      "Frequency": "Updated daily",
+      "Data Owner": "Planning and Economic Development"
+    }
+  },
+  "columns": [
+    {
+      "name": "ID",
+      "fieldName": "id",
+      "dataTypeName": "text",
+      "description": "A unique ID for each project. Multiple rows may have the same ID value because they relate to different developers on the same project.",
+      "nullCount": 0,
+      "cardinality": 762
+    },
+    {
+      "name": "TIF DISTRICT",
+      "fieldName": "tif_district",
+      "dataTypeName": "text",
+      "description": "TIF District",
+      "nullCount": 7,
+      "cardinality": 762
+    },
+    {
+      "name": "PROJECT NAME",
+      "fieldName": "project_name",
+      "dataTypeName": "text",
+      "description": "Project Name",
+      "nullCount": 0,
+      "cardinality": 762
+    },
+    {
+      "name": "ADDRESS",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": "Project Address",
+      "nullCount": 4,
+      "cardinality": 762
+    },
+    {
+      "name": "DEVELOPER",
+      "fieldName": "developer",
+      "dataTypeName": "text",
+      "description": "Developer",
+      "nullCount": 58,
+      "cardinality": 762
+    },
+    {
+      "name": "PROJECT DESCRIPTION",
+      "fieldName": "project_description",
+      "dataTypeName": "text",
+      "description": "Project Description",
+      "nullCount": 8,
+      "cardinality": 762
+    },
+    {
+      "name": "CDC DATE",
+      "fieldName": "cdc_date",
+      "dataTypeName": "calendar_date",
+      "description": "Community Development Committee Approval Date",
+      "nullCount": 0,
+      "cardinality": 762
+    },
+    {
+      "name": "COC DATE",
+      "fieldName": "coc_date",
+      "dataTypeName": "calendar_date",
+      "description": "Certificate of Completion Date",
+      "nullCount": 530,
+      "cardinality": 762
+    },
+    {
+      "name": "APPROVED AMOUNT",
+      "fieldName": "approved_amount",
+      "dataTypeName": "number",
+      "description": "TIF Subsidy",
+      "nullCount": 0,
+      "cardinality": 762
+    },
+    {
+      "name": "TOTAL PROJECT COST",
+      "fieldName": "total_project_cost",
+      "dataTypeName": "number",
+      "description": "Total Project Cost",
+      "nullCount": 9,
+      "cardinality": 762
+    },
+    {
+      "name": "TIF SUBSIDY PERCENTAGE",
+      "fieldName": "tif_subsidy_percentage",
+      "dataTypeName": "number",
+      "description": "TIF subsidy as a percentage of total project cost",
+      "nullCount": 8,
+      "cardinality": 762
+    },
+    {
+      "name": "AFFORDABLE UNITS",
+      "fieldName": "affordable_units",
+      "dataTypeName": "number",
+      "description": "Number of onsite affordable units",
+      "nullCount": 609,
+      "cardinality": 762
+    },
+    {
+      "name": "WARD",
+      "fieldName": "ward",
+      "dataTypeName": "text",
+      "description": "Ward. Some projects involve multiple wards.",
+      "nullCount": 2,
+      "cardinality": 762
+    },
+    {
+      "name": "COMMUNITY AREA",
+      "fieldName": "community_area",
+      "dataTypeName": "text",
+      "description": "Community Area",
+      "nullCount": 5,
+      "cardinality": 762
+    },
+    {
+      "name": "X COORDINATE",
+      "fieldName": "x_coordinate",
+      "dataTypeName": "number",
+      "description": "The x coordinate of the address in State Plane Illinois East NAD 1983 projection",
+      "nullCount": 4,
+      "cardinality": 762
+    },
+    {
+      "name": "Y COORDINATE",
+      "fieldName": "y_coordinate",
+      "dataTypeName": "number",
+      "description": "The y coordinate of the address in State Plane Illinois East NAD 1983 projection",
+      "nullCount": 4,
+      "cardinality": 762
+    },
+    {
+      "name": "LATITUDE",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": "The latitude of the address",
+      "nullCount": 4,
+      "cardinality": 762
+    },
+    {
+      "name": "LONGITUDE",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": "The longitude of the address",
+      "nullCount": 4,
+      "cardinality": 762
+    },
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": "The location of the address in a format that allows for creation of maps and other geographic operations on this data portal",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:37:49.735Z"
+}

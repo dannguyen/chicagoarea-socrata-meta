@@ -1,0 +1,464 @@
+{
+  "id": "4c4i-t7dw",
+  "name": "Influenza ICU Cases by Week and Demographic/Medical Category - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 468,
+  "rowCountSource": "cached",
+  "rowLabel": "Week",
+  "hasRowIdentifier": true,
+  "createdAt": 1602090056,
+  "publicationDate": 1634926832,
+  "rowsUpdatedAt": 1728063128,
+  "viewLastModified": 1788212528,
+  "viewCount": 1130,
+  "downloadCount": 1792,
+  "category": "Health & Human Services",
+  "tags": [
+    "flu",
+    "health",
+    "public health",
+    "historical"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2015 - 2024",
+      "Data Owner": "Chicago Department of Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "RECORD_ID",
+      "fieldName": "record_id",
+      "dataTypeName": "text",
+      "description": "A unique identifier for the record.",
+      "nullCount": 0,
+      "cardinality": 468
+    },
+    {
+      "name": "MMWR_WEEK",
+      "fieldName": "mmwr_week",
+      "dataTypeName": "number",
+      "description": "A weekly counting system within a calendar year standardized by the U.S. Centers for Disease Control and Prevention",
+      "nullCount": 0,
+      "cardinality": 52
+    },
+    {
+      "name": "WEEK_START",
+      "fieldName": "week_start",
+      "dataTypeName": "calendar_date",
+      "description": "Beginning date of the the MMWR week",
+      "nullCount": 0,
+      "cardinality": 468
+    },
+    {
+      "name": "WEEK_END",
+      "fieldName": "week_end",
+      "dataTypeName": "calendar_date",
+      "description": "Ending date of the MMWR week",
+      "nullCount": 0,
+      "cardinality": 468
+    },
+    {
+      "name": "INFLUENZA_SEASON",
+      "fieldName": "influenza_season",
+      "dataTypeName": "text",
+      "description": "Annually recurring time period of increased influenza activity standardized by the U.S. Centers for Disease Control and Prevention",
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "CASES",
+      "fieldName": "cases",
+      "dataTypeName": "number",
+      "description": "Number of diagnosed flu cases",
+      "nullCount": 0,
+      "cardinality": 46
+    },
+    {
+      "name": "AGE_0_4_COUNT",
+      "fieldName": "age_0_4_count",
+      "dataTypeName": "number",
+      "description": "Cases in age 0-4",
+      "nullCount": 0,
+      "cardinality": 11
+    },
+    {
+      "name": "AGE_5_17_COUNT",
+      "fieldName": "age_5_17_count",
+      "dataTypeName": "number",
+      "description": "Cases in age 5-17",
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "AGE_18_24_COUNT",
+      "fieldName": "age_18_24_count",
+      "dataTypeName": "number",
+      "description": "Cases in age 18-24",
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "AGE_25_49_COUNT",
+      "fieldName": "age_25_49_count",
+      "dataTypeName": "number",
+      "description": "Cases in age 25-49",
+      "nullCount": 0,
+      "cardinality": 11
+    },
+    {
+      "name": "AGE_50_64_COUNT",
+      "fieldName": "age_50_64_count",
+      "dataTypeName": "number",
+      "description": "Cases in age 50-64",
+      "nullCount": 0,
+      "cardinality": 17
+    },
+    {
+      "name": "AGE_65_OVER_COUNT",
+      "fieldName": "age_65_over_count",
+      "dataTypeName": "number",
+      "description": "Cases in age 65 and over",
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "AGE_UNKNOWN_COUNT",
+      "fieldName": "age_unknown_count",
+      "dataTypeName": "number",
+      "description": "Cases with unknown age",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "AGE_0_4_PCT",
+      "fieldName": "age_0_4_pct",
+      "dataTypeName": "number",
+      "description": "Percent of all cases occurring in age 0-4",
+      "nullCount": 0,
+      "cardinality": 65
+    },
+    {
+      "name": "AGE_5_17_PCT",
+      "fieldName": "age_5_17_pct",
+      "dataTypeName": "number",
+      "description": "Percent of all cases occurring in age 5-17",
+      "nullCount": 0,
+      "cardinality": 61
+    },
+    {
+      "name": "AGE_18_24_PCT",
+      "fieldName": "age_18_24_pct",
+      "dataTypeName": "number",
+      "description": "Percent of all cases occurring in age 18-24",
+      "nullCount": 0,
+      "cardinality": 37
+    },
+    {
+      "name": "AGE_25_49_PCT",
+      "fieldName": "age_25_49_pct",
+      "dataTypeName": "number",
+      "description": "Percent of all cases occurring in age 25-49",
+      "nullCount": 0,
+      "cardinality": 69
+    },
+    {
+      "name": "AGE_50_64_PCT",
+      "fieldName": "age_50_64_pct",
+      "dataTypeName": "number",
+      "description": "Percent of all cases occurring in age 50-64",
+      "nullCount": 0,
+      "cardinality": 73
+    },
+    {
+      "name": "AGE_65_OVER_PCT",
+      "fieldName": "age_65_over_pct",
+      "dataTypeName": "number",
+      "description": "Percent of all cases occurring in age 65 and over",
+      "nullCount": 0,
+      "cardinality": 82
+    },
+    {
+      "name": "AGE_UNKNOWN_PCT",
+      "fieldName": "age_unknown_pct",
+      "dataTypeName": "number",
+      "description": "Percent of all cases with unknown age",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "WHITE_NON_LATINX_COUNT",
+      "fieldName": "white_non_latinx_count",
+      "dataTypeName": "number",
+      "description": "Cases among non-Latinx White people",
+      "nullCount": 0,
+      "cardinality": 17
+    },
+    {
+      "name": "BLACK_NON_LATINX_COUNT",
+      "fieldName": "black_non_latinx_count",
+      "dataTypeName": "number",
+      "description": "Cases among non-Latinx Black people",
+      "nullCount": 0,
+      "cardinality": 31
+    },
+    {
+      "name": "LATINX_COUNT",
+      "fieldName": "latinx_count",
+      "dataTypeName": "number",
+      "description": "Cases among Latinx people",
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "ASIAN_NON_LATINX_COUNT",
+      "fieldName": "asian_non_latinx_count",
+      "dataTypeName": "number",
+      "description": "Cases among non-Latinx Asian people",
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "NHPI_NON_LATINX_COUNT",
+      "fieldName": "nhpi_count",
+      "dataTypeName": "number",
+      "description": "Cases among non-Latinx Native Hawaiian Pacific Islander people",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "AIAN_NON_LATINX_COUNT",
+      "fieldName": "aian_count",
+      "dataTypeName": "number",
+      "description": "Cases among non-Latinx American Indian Alaskan Native people",
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "OTHER_RACE_NON_LATINX_COUNT",
+      "fieldName": "other_race_non_latinx_count",
+      "dataTypeName": "number",
+      "description": "Cases among non-Latinx people of other race not listed here",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "UNKNOWN_RACE_ETHNICITY_COUNT",
+      "fieldName": "unknown_race_ethnicity_count",
+      "dataTypeName": "number",
+      "description": "Cases among people with no race/ethnicity reported",
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "WHITE_NON_LATINX_PCT",
+      "fieldName": "white_non_latinx_pct",
+      "dataTypeName": "number",
+      "description": "Percent of all cases among non-Latinx White people",
+      "nullCount": 0,
+      "cardinality": 72
+    },
+    {
+      "name": "BLACK_NON_LATINX_PCT",
+      "fieldName": "black_non_latinx_pct",
+      "dataTypeName": "number",
+      "description": "Percent of all cases among non-Latinx Black people",
+      "nullCount": 0,
+      "cardinality": 88
+    },
+    {
+      "name": "LATINX_PCT",
+      "fieldName": "latinx_pct",
+      "dataTypeName": "number",
+      "description": "Percent of all cases among Latinx people",
+      "nullCount": 0,
+      "cardinality": 74
+    },
+    {
+      "name": "ASIAN_NON_LATINX_PCT",
+      "fieldName": "asian_non_latinx_pct",
+      "dataTypeName": "number",
+      "description": "Percent of all cases among non-Latinx Asian people",
+      "nullCount": 0,
+      "cardinality": 44
+    },
+    {
+      "name": "NHPI_NON_LATINX_PCT",
+      "fieldName": "nhpi_pct",
+      "dataTypeName": "number",
+      "description": "Percent of all cases among non-Latinx Native Hawaiian Pacific Islander people",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "AIAN_NON_LATINX_PCT",
+      "fieldName": "aian_pct",
+      "dataTypeName": "number",
+      "description": "Percent of all cases among non-Latinx American Indian Alaskan Native people",
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "OTHER_RACE_NON_LATINX_PCT",
+      "fieldName": "other_race_non_latinx_pct",
+      "dataTypeName": "number",
+      "description": "Percent of all cases among non-Latinx people of other race not listed here",
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "UNKNOWN_RACE_ETHNICITY_PCT",
+      "fieldName": "unknown_race_ethnicity_pct",
+      "dataTypeName": "number",
+      "description": "Percent of all cases among people with no race/ethnicity reported",
+      "nullCount": 0,
+      "cardinality": 22
+    },
+    {
+      "name": "FEMALE_COUNT",
+      "fieldName": "female_count",
+      "dataTypeName": "number",
+      "description": "Cases among females ",
+      "nullCount": 0,
+      "cardinality": 28
+    },
+    {
+      "name": "MALE_COUNT",
+      "fieldName": "male_count",
+      "dataTypeName": "number",
+      "description": "Cases among males ",
+      "nullCount": 0,
+      "cardinality": 28
+    },
+    {
+      "name": "FEMALE_PCT",
+      "fieldName": "female_pct",
+      "dataTypeName": "number",
+      "description": "Percent of all cases among females",
+      "nullCount": 0,
+      "cardinality": 72
+    },
+    {
+      "name": "MALE_PCT",
+      "fieldName": "male_pct",
+      "dataTypeName": "number",
+      "description": "Percent of all cases among males",
+      "nullCount": 0,
+      "cardinality": 71
+    },
+    {
+      "name": "DEATHS_COUNT",
+      "fieldName": "deaths_count",
+      "dataTypeName": "number",
+      "description": "Deaths among reported cases",
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "DEATHS_PCT",
+      "fieldName": "deaths_pct",
+      "dataTypeName": "number",
+      "description": "Percent of deaths among reported cases",
+      "nullCount": 1,
+      "cardinality": 61
+    },
+    {
+      "name": "FLUSHOT_REPORTED",
+      "fieldName": "flushot_reported",
+      "dataTypeName": "number",
+      "description": "Cases with known influenza vaccination status for the current season as reported by hospital",
+      "nullCount": 0,
+      "cardinality": 31
+    },
+    {
+      "name": "FLUSHOT_COUNT",
+      "fieldName": "flushot_count",
+      "dataTypeName": "number",
+      "description": "Cases that receved an influenza vaccination for the current season as reported by hospital",
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "FLUSHOT_PCT",
+      "fieldName": "flushot_pct",
+      "dataTypeName": "number",
+      "description": "Percent of cases with known influenza vaccination status for the current season that receved an influenza vaccination ",
+      "nullCount": 0,
+      "cardinality": 67
+    },
+    {
+      "name": "AH3N2_COUNT",
+      "fieldName": "ah3n2_count",
+      "dataTypeName": "number",
+      "description": "Cases positive for influenza A and subtyped as H3N2 virus strain",
+      "nullCount": 0,
+      "cardinality": 17
+    },
+    {
+      "name": "ANOTSUB_COUNT",
+      "fieldName": "anotsub_count",
+      "dataTypeName": "number",
+      "description": "Cases positive for influenza A and not subtyped",
+      "nullCount": 0,
+      "cardinality": 31
+    },
+    {
+      "name": "AH1N1_COUNT",
+      "fieldName": "ah1n1_count",
+      "dataTypeName": "number",
+      "description": "Cases positive for influenza A and subtyped as H1N1pdm09 virus strain",
+      "nullCount": 0,
+      "cardinality": 18
+    },
+    {
+      "name": "B_COUNT",
+      "fieldName": "b_count",
+      "dataTypeName": "number",
+      "description": "Cases positive for influenza B",
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "AH3N2_PCT",
+      "fieldName": "ah3n2_pct",
+      "dataTypeName": "number",
+      "description": "Percent of all cases positive for influenza A and subtyped as H3N2 virus strain",
+      "nullCount": 0,
+      "cardinality": 65
+    },
+    {
+      "name": "ANOTSUB_PCT",
+      "fieldName": "anotsub_pct",
+      "dataTypeName": "number",
+      "description": "Percent of all cases positive for influenza A and not subtyped",
+      "nullCount": 0,
+      "cardinality": 76
+    },
+    {
+      "name": "AH1N1_PCT",
+      "fieldName": "ah1n1_pct",
+      "dataTypeName": "number",
+      "description": "Percent of all cases positive for influenza A and subtyped as H1N1pdm09 virus strain",
+      "nullCount": 0,
+      "cardinality": 68
+    },
+    {
+      "name": "B_PCT",
+      "fieldName": "b_pct",
+      "dataTypeName": "number",
+      "description": "Percent of all cases positive for influenza B",
+      "nullCount": 0,
+      "cardinality": 73
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:19.802Z"
+}

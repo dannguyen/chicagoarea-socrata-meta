@@ -1,0 +1,107 @@
+{
+  "id": "whta-vkd3",
+  "name": "DHS Grant Extract FY14 - Origin CSA Tracking",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1000,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709058118,
+  "publicationDate": 1709145675,
+  "rowsUpdatedAt": 1709145669,
+  "viewLastModified": 1727117449,
+  "viewCount": 42,
+  "downloadCount": 12,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "agency",
+      "fieldName": "agency",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "division",
+      "fieldName": "division",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "funding_amount",
+      "fieldName": "funding_amount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 898
+    },
+    {
+      "name": "funding_begin_date",
+      "fieldName": "funding_begin_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 31
+    },
+    {
+      "name": "funding_end_date",
+      "fieldName": "funding_end_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "program_description",
+      "fieldName": "program_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 80
+    },
+    {
+      "name": "program_name",
+      "fieldName": "program_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 80
+    },
+    {
+      "name": "provider",
+      "fieldName": "provider",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 311
+    },
+    {
+      "name": "provider_zip",
+      "fieldName": "provider_zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 205
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:38.347Z"
+}

@@ -1,0 +1,190 @@
+{
+  "id": "22pk-x694",
+  "name": "Abortion Demographics, 1995-2012",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 17,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709064818,
+  "publicationDate": 1709145025,
+  "rowsUpdatedAt": 1709145019,
+  "viewLastModified": 1736797725,
+  "viewCount": 70,
+  "downloadCount": 196,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "_1995",
+      "fieldName": "_1995",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 15
+    },
+    {
+      "name": "_1996",
+      "fieldName": "_1996",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 15
+    },
+    {
+      "name": "_1997",
+      "fieldName": "_1997",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 16
+    },
+    {
+      "name": "_1998",
+      "fieldName": "_1998",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 17
+    },
+    {
+      "name": "_1999",
+      "fieldName": "_1999",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 17
+    },
+    {
+      "name": "_2000",
+      "fieldName": "_2000",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 15
+    },
+    {
+      "name": "_2001",
+      "fieldName": "_2001",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 15
+    },
+    {
+      "name": "_2002",
+      "fieldName": "_2002",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 15
+    },
+    {
+      "name": "_2003",
+      "fieldName": "_2003",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 15
+    },
+    {
+      "name": "_2004",
+      "fieldName": "_2004",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 15
+    },
+    {
+      "name": "_2005",
+      "fieldName": "_2005",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 15
+    },
+    {
+      "name": "_2006",
+      "fieldName": "_2006",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 15
+    },
+    {
+      "name": "_2007",
+      "fieldName": "_2007",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 17
+    },
+    {
+      "name": "_2008",
+      "fieldName": "_2008",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 15
+    },
+    {
+      "name": "_2009",
+      "fieldName": "_2009",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 17
+    },
+    {
+      "name": "_2010",
+      "fieldName": "_2010",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 17
+    },
+    {
+      "name": "_2011",
+      "fieldName": "_2011",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 17
+    },
+    {
+      "name": "_2012",
+      "fieldName": "_2012",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 17
+    },
+    {
+      "name": "year",
+      "fieldName": "year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 17
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:36.249Z"
+}

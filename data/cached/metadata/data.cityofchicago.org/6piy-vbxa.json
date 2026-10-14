@@ -1,0 +1,90 @@
+{
+  "id": "6piy-vbxa",
+  "name": "Boundaries - Ward Precincts (2023-2024)",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1291,
+  "rowCountSource": "cached",
+  "rowLabel": "Precinct",
+  "hasRowIdentifier": true,
+  "createdAt": 1675362146,
+  "publicationDate": 1773772940,
+  "rowsUpdatedAt": 1773772922,
+  "viewLastModified": 1774467021,
+  "viewCount": 13920,
+  "downloadCount": 3233,
+  "category": "Facilities & Geographic Boundaries",
+  "tags": [
+    "geo_layer",
+    "boundaries",
+    "gis",
+    "elections",
+    "historical"
+  ],
+  "attribution": "Chicago Board of Election Commissioners",
+  "attributionLink": "http://www.chicagoelections.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "January 2023 - November 2025",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"6piy-vbxa\"",
+      "Data Owner": "Chicago Board of Election Commissioners"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Shape_Leng",
+      "fieldName": "shape_leng",
+      "dataTypeName": "number",
+      "description": "Miles",
+      "nullCount": 0,
+      "cardinality": 1291
+    },
+    {
+      "name": "Shape_Area",
+      "fieldName": "shape_area",
+      "dataTypeName": "number",
+      "description": "Square Miles",
+      "nullCount": 0,
+      "cardinality": 1291
+    },
+    {
+      "name": "Ward_Precinct",
+      "fieldName": "ward_precinct",
+      "dataTypeName": "text",
+      "description": "The combination of ward (first two characters) and precinct within that ward (last three characters).that uniquely identifies the precinct.",
+      "nullCount": 0,
+      "cardinality": 1291
+    },
+    {
+      "name": "Ward",
+      "fieldName": "ward",
+      "dataTypeName": "number",
+      "description": "The ward (City Council district) in which the precinct falls.",
+      "nullCount": 0,
+      "cardinality": 1291
+    },
+    {
+      "name": "Precinct",
+      "fieldName": "precinct",
+      "dataTypeName": "number",
+      "description": "The precinct number within the ward.",
+      "nullCount": 0,
+      "cardinality": 1291
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:37:49.469Z"
+}

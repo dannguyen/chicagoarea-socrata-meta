@@ -1,0 +1,49 @@
+{
+  "id": "fkci-tsq8",
+  "name": "Restricted Flavored Tobacco Flavor Terms",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 533,
+  "rowCountSource": "cached",
+  "rowLabel": "Flavor",
+  "hasRowIdentifier": false,
+  "createdAt": 1452619550,
+  "publicationDate": 1452700462,
+  "rowsUpdatedAt": 1452700267,
+  "viewLastModified": 1453501887,
+  "viewCount": 1964,
+  "downloadCount": 5659,
+  "category": "Health & Human Services",
+  "tags": [
+    "business",
+    "health",
+    "regulation",
+    "tobacco"
+  ],
+  "attribution": "Chicago Department of Public Health",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Current",
+      "Frequency": "Updated with new flavors at the discretion of CDPH",
+      "Data Owner": "Chicago Department of Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "Flavor Term",
+      "fieldName": "flavor_term",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 533
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:13.901Z"
+}

@@ -1,0 +1,201 @@
+{
+  "id": "kf7e-cur8",
+  "name": "Chicago Traffic Tracker - Historical Congestion Estimates by Region - 2018-2026",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 5048832,
+  "rowCountSource": "cached",
+  "rowLabel": "Region Timeslice",
+  "hasRowIdentifier": true,
+  "createdAt": 1520627373,
+  "publicationDate": 1520952140,
+  "rowsUpdatedAt": 1786028956,
+  "viewLastModified": 1786034348,
+  "viewCount": 87504,
+  "downloadCount": 8856,
+  "category": "Transportation",
+  "tags": [
+    "traffic",
+    "sustainability",
+    "historical",
+    "link to article present"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "March 2018 - April 2026, with occasional gaps due to system maintenance and other temporary technical issues.",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"kf7e-cur8\"",
+      "Data Owner": "Chicago Department of Transportation"
+    }
+  },
+  "columns": [
+    {
+      "name": "TIME",
+      "fieldName": "time",
+      "dataTypeName": "calendar_date",
+      "description": "Timestamp of the record.",
+      "nullCount": 0,
+      "cardinality": 215639
+    },
+    {
+      "name": "REGION_ID",
+      "fieldName": "region_id",
+      "dataTypeName": "number",
+      "description": "Unique arbitrary number to represent each region.",
+      "nullCount": 0,
+      "cardinality": 29
+    },
+    {
+      "name": "SPEED",
+      "fieldName": "speed",
+      "dataTypeName": "number",
+      "description": "Estimated congestion level. Although expressed in miles per hour, this value is more a reflection of the congestion level in the region than it is indicative of the average raw speed vehicles are travelling within the region.",
+      "nullCount": 0,
+      "cardinality": 1935
+    },
+    {
+      "name": "REGION",
+      "fieldName": "region",
+      "dataTypeName": "text",
+      "description": "Name of the region.",
+      "nullCount": 0,
+      "cardinality": 29
+    },
+    {
+      "name": "BUS_COUNT",
+      "fieldName": "bus_count",
+      "dataTypeName": "number",
+      "description": "The number of buses used to estimate traffic.",
+      "nullCount": 0,
+      "cardinality": 261
+    },
+    {
+      "name": "NUM_READS",
+      "fieldName": "num_reads",
+      "dataTypeName": "number",
+      "description": "Number of GPS probes received(or used) for estimating the speed for that segment.",
+      "nullCount": 0,
+      "cardinality": 4716
+    },
+    {
+      "name": "HOUR",
+      "fieldName": "hour",
+      "dataTypeName": "number",
+      "description": "The hour of the day component of TIME.",
+      "nullCount": 0,
+      "cardinality": 24
+    },
+    {
+      "name": "DAY_OF_WEEK",
+      "fieldName": "day_of_week",
+      "dataTypeName": "number",
+      "description": "The day of the week component of TIME. Sunday=1",
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "MONTH",
+      "fieldName": "month",
+      "dataTypeName": "number",
+      "description": "The month component of TIME.",
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "DESCRIPTION",
+      "fieldName": "description",
+      "dataTypeName": "text",
+      "description": "Description of the region.",
+      "nullCount": 0,
+      "cardinality": 29
+    },
+    {
+      "name": "RECORD_ID",
+      "fieldName": "record_id",
+      "dataTypeName": "text",
+      "description": "Unique arbitrary number to represent each region.",
+      "nullCount": 0,
+      "cardinality": 5048832
+    },
+    {
+      "name": "WEST",
+      "fieldName": "west",
+      "dataTypeName": "number",
+      "description": "Approximate longitude of the west edge of the region.",
+      "nullCount": 0,
+      "cardinality": 16
+    },
+    {
+      "name": "EAST",
+      "fieldName": "east",
+      "dataTypeName": "number",
+      "description": "Approximate longitude of the east edge of the region.",
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "SOUTH",
+      "fieldName": "south",
+      "dataTypeName": "number",
+      "description": "Approximate latitude of the south edge of the region.",
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "NORTH",
+      "fieldName": "north",
+      "dataTypeName": "number",
+      "description": "Approximate latitude of the north edge of the region.",
+      "nullCount": 0,
+      "cardinality": 14
+    },
+    {
+      "name": "NW_LOCATION",
+      "fieldName": "nw_location",
+      "dataTypeName": "point",
+      "description": "The location corresponding to the intersection of NORTH and WEST in a format that allows for creation of maps and other geographic operations on this data portal.",
+      "nullCount": 0,
+      "cardinality": 29
+    },
+    {
+      "name": "SE_LOCATION",
+      "fieldName": "se_location",
+      "dataTypeName": "point",
+      "description": "The location corresponding to the intersection of SOUTH and EAST in a format that allows for creation of maps and other geographic operations on this data portal.",
+      "nullCount": 0,
+      "cardinality": 29
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:05.020Z"
+}

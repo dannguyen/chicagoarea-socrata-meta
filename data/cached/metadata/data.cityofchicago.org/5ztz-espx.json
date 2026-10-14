@@ -1,0 +1,76 @@
+{
+  "id": "5ztz-espx",
+  "name": "FOIA Request Log - Planning and Development",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 13274,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1293042537,
+  "publicationDate": 1537371970,
+  "rowsUpdatedAt": 1787689101,
+  "viewLastModified": 1787689097,
+  "viewCount": 23184,
+  "downloadCount": 95917,
+  "category": "FOIA",
+  "tags": [],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "January 2011 to present",
+      "Frequency": "Data is updated as needed",
+      "Data Owner": "Planning and Development"
+    }
+  },
+  "columns": [
+    {
+      "name": "REQUESTOR NAME",
+      "fieldName": "requestor_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 372,
+      "cardinality": 13274
+    },
+    {
+      "name": "ORGANIZATION",
+      "fieldName": "organization",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 4132,
+      "cardinality": 13274
+    },
+    {
+      "name": "DESCRIPTION OF REQUEST",
+      "fieldName": "description_of_request",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 35,
+      "cardinality": 13274
+    },
+    {
+      "name": "DATE RECEIVED",
+      "fieldName": "date_received",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 13274
+    },
+    {
+      "name": "DUE DATE",
+      "fieldName": "due_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 911,
+      "cardinality": 13274
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:08.071Z"
+}

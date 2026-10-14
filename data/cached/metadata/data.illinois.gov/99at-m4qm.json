@@ -1,0 +1,37 @@
+{
+  "id": "99at-m4qm",
+  "name": "IDPH Water Systems' Population Served by County",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 0,
+  "rowCountSource": "query",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709058339,
+  "publicationDate": 1709144384,
+  "rowsUpdatedAt": 1709144378,
+  "viewLastModified": 1736793992,
+  "viewCount": 58,
+  "downloadCount": 160,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [],
+  "fetchedAt": "2026-10-14T17:30:37.010Z"
+}

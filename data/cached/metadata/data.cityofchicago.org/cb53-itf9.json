@@ -1,0 +1,70 @@
+{
+  "id": "cb53-itf9",
+  "name": "CTA_Ventra",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1242,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1436197402,
+  "publicationDate": 1436197403,
+  "rowsUpdatedAt": 1436197402,
+  "viewLastModified": 1712776000,
+  "viewCount": 480,
+  "downloadCount": 2941,
+  "category": "Transportation",
+  "tags": [
+    "cta",
+    "transit",
+    "kml",
+    "transportation",
+    "fare media",
+    "ventra",
+    "bus",
+    "rail"
+  ],
+  "attribution": "Chicago Transit Authority",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "October 2013",
+      "Frequency": "Occasionally",
+      "Data Owner": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "point",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1241
+    },
+    {
+      "name": "Name",
+      "fieldName": "name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1242
+    },
+    {
+      "name": "Descriptio",
+      "fieldName": "descriptio",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:24.519Z"
+}

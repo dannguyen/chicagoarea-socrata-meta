@@ -1,0 +1,107 @@
+{
+  "id": "su74-amv7",
+  "name": "Reportable Communicable Disease Cases, 2010 - 2017",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 61,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1708036888,
+  "publicationDate": 1708094116,
+  "rowsUpdatedAt": 1708094110,
+  "viewLastModified": 1736793998,
+  "viewCount": 129,
+  "downloadCount": 33,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Data Management": {
+      "Maintainer": "Dawn Nims",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "Disease",
+      "fieldName": "disease",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 61
+    },
+    {
+      "name": "2010",
+      "fieldName": "_2010",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 29
+    },
+    {
+      "name": "2011",
+      "fieldName": "_2011",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 32
+    },
+    {
+      "name": "2012",
+      "fieldName": "_2012",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 33
+    },
+    {
+      "name": "2013",
+      "fieldName": "_2013",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 35
+    },
+    {
+      "name": "2014",
+      "fieldName": "_2014",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 31
+    },
+    {
+      "name": "2015",
+      "fieldName": "_2015",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 35
+    },
+    {
+      "name": "2016",
+      "fieldName": "_2016",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 35
+    },
+    {
+      "name": "2017",
+      "fieldName": "_2017",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 32
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:34.770Z"
+}

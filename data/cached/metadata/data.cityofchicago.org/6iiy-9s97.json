@@ -1,0 +1,80 @@
+{
+  "id": "6iiy-9s97",
+  "name": "CTA - Ridership - Daily Boarding Totals",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 9343,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": true,
+  "createdAt": 1313163631,
+  "publicationDate": 1745944504,
+  "rowsUpdatedAt": 1790618844,
+  "viewLastModified": 1790618843,
+  "viewCount": 141872,
+  "downloadCount": 54738,
+  "category": "Transportation",
+  "tags": [
+    "cta",
+    "public transit",
+    "ridership"
+  ],
+  "attribution": "Chicago Transit Authority",
+  "attributionLink": "http://www.transitchicago.com",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2001 - Current",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"6iiy-9s97\"",
+      "Data Owner": "Chicago Transit Authority "
+    }
+  },
+  "columns": [
+    {
+      "name": "service_date",
+      "fieldName": "service_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9343
+    },
+    {
+      "name": "day_type",
+      "fieldName": "day_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9343
+    },
+    {
+      "name": "bus",
+      "fieldName": "bus",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9343
+    },
+    {
+      "name": "rail_boardings",
+      "fieldName": "rail_boardings",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9343
+    },
+    {
+      "name": "total_rides",
+      "fieldName": "total_rides",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9343
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:26:21.766Z"
+}

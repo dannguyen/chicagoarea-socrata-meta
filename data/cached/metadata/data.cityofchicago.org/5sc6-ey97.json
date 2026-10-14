@@ -1,0 +1,179 @@
+{
+  "id": "5sc6-ey97",
+  "name": "COVID-19 Vaccination Coverage, Region (HCEZ)",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 34592,
+  "rowCountSource": "cached",
+  "rowLabel": "COVID-19 coverage metric for a subpopulation in a region (Healthy Chicago Equity Zone) by week",
+  "hasRowIdentifier": false,
+  "createdAt": 1698331867,
+  "publicationDate": 1770761378,
+  "rowsUpdatedAt": 1791986729,
+  "viewLastModified": 1788212791,
+  "viewCount": 2092,
+  "downloadCount": 2441,
+  "category": "Health & Human Services",
+  "tags": [
+    "covid-19",
+    "public health",
+    "immunization",
+    "age",
+    "race"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://chicago.gov/coronavirus",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "September 13, 2023 through the most recent date shown",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"5sc6-ey97\"",
+      "Frequency": "Data are updated monthly",
+      "Data Owner": "Department of Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "Equity Zone",
+      "fieldName": "hcez",
+      "dataTypeName": "text",
+      "description": "Healthy Chicago Equity Zone",
+      "nullCount": 0,
+      "cardinality": 34592
+    },
+    {
+      "name": "Week End",
+      "fieldName": "week_end",
+      "dataTypeName": "calendar_date",
+      "description": "End date of the week. Dates are based on standard MMWR weeks as defined by the U.S. Centers for Disease Control and Prevention.",
+      "nullCount": 0,
+      "cardinality": 34592
+    },
+    {
+      "name": "Season",
+      "fieldName": "season",
+      "dataTypeName": "text",
+      "description": "Annually recurring reporting period for which estimates are calculated.",
+      "nullCount": 0,
+      "cardinality": 34592
+    },
+    {
+      "name": "Age Group",
+      "fieldName": "age",
+      "dataTypeName": "text",
+      "description": "Values used are: 0-17, 18-64, 65+, 18+, Unknown, All Ages",
+      "nullCount": 0,
+      "cardinality": 34592
+    },
+    {
+      "name": "Race/Ethnicity",
+      "fieldName": "race_ethnicity",
+      "dataTypeName": "text",
+      "description": "Values used are: Latinx; Black, non-Latinx; White, non-Latinx; Asian, non-Latinx; Other, non-Latinx; Unknown; All Race/Ethnicities",
+      "nullCount": 0,
+      "cardinality": 34592
+    },
+    {
+      "name": "Population Size",
+      "fieldName": "population",
+      "dataTypeName": "number",
+      "description": "Number of people in the group based on the specified combination equity zone and age. ",
+      "nullCount": 13235,
+      "cardinality": 34592
+    },
+    {
+      "name": "Count",
+      "fieldName": "count",
+      "dataTypeName": "number",
+      "description": "Number of people in the specified group that achieved the vaccination status.",
+      "nullCount": 0,
+      "cardinality": 34592
+    },
+    {
+      "name": "Percent",
+      "fieldName": "percent",
+      "dataTypeName": "number",
+      "description": "Percent of people in the specified group that achieved the vaccination status.",
+      "nullCount": 13235,
+      "cardinality": 34592
+    },
+    {
+      "name": "HCEZ Centroid",
+      "fieldName": "hcez_centroid",
+      "dataTypeName": "point",
+      "description": "A point that falls inside the Equity Zone, usually the centroid but adjusted if the centroid would fall outside the region. It is present to facilitate geographic analysis.",
+      "nullCount": 8648,
+      "cardinality": 34592
+    },
+    {
+      "name": "MMWR Week",
+      "fieldName": "mmwr_week",
+      "dataTypeName": "number",
+      "description": "A weekly counting system within a calendar year standardized by the U.S. Centers for Disease Control and Prevention",
+      "nullCount": 51,
+      "cardinality": 34592
+    },
+    {
+      "name": "Week",
+      "fieldName": "week",
+      "dataTypeName": "number",
+      "description": "The calendar week standardized by the U.S. Centers for Disease Control and Prevention",
+      "nullCount": 51,
+      "cardinality": 34592
+    },
+    {
+      "name": "Current Season Week End",
+      "fieldName": "current_season_week_end",
+      "dataTypeName": "calendar_date",
+      "description": "Ending date of the MMWR week for the current season",
+      "nullCount": 139,
+      "cardinality": 34592
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Census Tracts' (bdys-3d7i) the point in column 'hcez_centroid' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards 2023-",
+      "fieldName": ":@computed_region_8hcu_yrd4",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Wards 2023-' (8hcu-yrd4) the point in column 'hcez_centroid' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Boundaries - ZIP Codes' (rpca-8um6) the point in column 'hcez_centroid' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Community Areas' (vrxf-vc4k) the point in column 'hcez_centroid' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Zip Codes' (6mkv-f3dw) the point in column 'hcez_centroid' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:12.985Z"
+}

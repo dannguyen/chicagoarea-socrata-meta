@@ -1,0 +1,110 @@
+{
+  "id": "serf-cewv",
+  "name": "DOI Insurance Producers",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 627713,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1718284923,
+  "publicationDate": 1718286038,
+  "rowsUpdatedAt": 1718285972,
+  "viewLastModified": 1736793940,
+  "viewCount": 286,
+  "downloadCount": 106,
+  "category": "Business and Workforce",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Insurance"
+    },
+    "Data Management": {
+      "Maintainer": "DOI",
+      "Maintainer Email": "DOI.FOIA@illinois.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "_id",
+      "fieldName": "_id_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 627713
+    },
+    {
+      "name": "LAST_NAME_OR_BUSINESS_NAME",
+      "fieldName": "last_name_or_business_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 92478
+    },
+    {
+      "name": "FIRST_NAME",
+      "fieldName": "first_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 35700
+    },
+    {
+      "name": "MLG_ADDRESS1",
+      "fieldName": "mlg_address1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 246308
+    },
+    {
+      "name": "MLG_ADDRESS2",
+      "fieldName": "mlg_address2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 553148,
+      "cardinality": 16067
+    },
+    {
+      "name": "MAILING_CITY",
+      "fieldName": "mailing_city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11135
+    },
+    {
+      "name": "MAILING_STATE",
+      "fieldName": "mailing_state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 59
+    },
+    {
+      "name": "ZIP",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 139446
+    },
+    {
+      "name": "LOA_NAME",
+      "fieldName": "loa_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 82,
+      "cardinality": 8
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:34.024Z"
+}

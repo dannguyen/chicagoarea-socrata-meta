@@ -1,0 +1,61 @@
+{
+  "id": "i45y-cvjq",
+  "name": "Inspector General - Metropolitan Water Reclamation District Public Statements",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1574109487,
+  "publicationDate": 1574110236,
+  "rowsUpdatedAt": 1583271130,
+  "viewLastModified": 1769543965,
+  "viewCount": 8031,
+  "downloadCount": 1400,
+  "category": "Finance & Operations",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Inspector General"
+    },
+    "Metadata": {
+      "Update Frequency": "As Needed"
+    }
+  },
+  "columns": [
+    {
+      "name": "Link",
+      "fieldName": "link",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Date Issued",
+      "fieldName": "date_issued",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Case Number",
+      "fieldName": "case_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:51.291Z"
+}

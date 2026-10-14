@@ -1,0 +1,112 @@
+{
+  "id": "bt9m-d2mf",
+  "name": "Boundaries - Census Blocks - 2010",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 46357,
+  "rowCountSource": "cached",
+  "rowLabel": "Census Block",
+  "hasRowIdentifier": false,
+  "createdAt": 1369323441,
+  "publicationDate": 1790718885,
+  "rowsUpdatedAt": 1790718851,
+  "viewLastModified": 1790718885,
+  "viewCount": 1304,
+  "downloadCount": 4343,
+  "category": "Facilities & Geographic Boundaries",
+  "tags": [
+    "geo_layer",
+    "gis",
+    "census",
+    "boundaries"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2010",
+      "Data Owner": "United States Census Bureau"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "STATEFP10",
+      "fieldName": "statefp10",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 46357
+    },
+    {
+      "name": "COUNTYFP10",
+      "fieldName": "countyfp10",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 46357
+    },
+    {
+      "name": "TRACTCE10",
+      "fieldName": "tractce10",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 46357
+    },
+    {
+      "name": "BLOCKCE10",
+      "fieldName": "blockce10",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 46357
+    },
+    {
+      "name": "GEOID10",
+      "fieldName": "geoid10",
+      "dataTypeName": "text",
+      "description": "The full Census block.",
+      "nullCount": 0,
+      "cardinality": 46357
+    },
+    {
+      "name": "NAME10",
+      "fieldName": "name10",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 46357
+    },
+    {
+      "name": "TRACT_BLOC",
+      "fieldName": "tract_bloc",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 46357
+    },
+    {
+      "name": "CENSUS_TRACT",
+      "fieldName": "census_tract",
+      "dataTypeName": "text",
+      "description": "The containing Census tract (leftmost 11 characters of GEOID10).",
+      "nullCount": 0,
+      "cardinality": 46357
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:18.420Z"
+}

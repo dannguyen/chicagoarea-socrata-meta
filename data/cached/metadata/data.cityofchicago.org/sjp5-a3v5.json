@@ -1,0 +1,184 @@
+{
+  "id": "sjp5-a3v5",
+  "name": "Boundaries - Census Blocks - 2000",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 24690,
+  "rowCountSource": "cached",
+  "rowLabel": "Census Block",
+  "hasRowIdentifier": false,
+  "createdAt": 1369323863,
+  "publicationDate": 1790719661,
+  "rowsUpdatedAt": 1790719628,
+  "viewLastModified": 1790719661,
+  "viewCount": 1942,
+  "downloadCount": 2031,
+  "category": "Facilities & Geographic Boundaries",
+  "tags": [
+    "geo_layer",
+    "gis",
+    "census",
+    "boundaries"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2000",
+      "Data Owner": "United States Census Bureau"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "CENSUS_TRA",
+      "fieldName": "census_tra",
+      "dataTypeName": "text",
+      "description": "The containing Census tract without the state and county portion.",
+      "nullCount": 0,
+      "cardinality": 24690
+    },
+    {
+      "name": "CENSUS_TRACT",
+      "fieldName": "census_tract",
+      "dataTypeName": "text",
+      "description": "The full containing Census tract (leftmost 11 characters of CENSUS_B_1).",
+      "nullCount": 0,
+      "cardinality": 24690
+    },
+    {
+      "name": "CENSUS_BLO",
+      "fieldName": "census_blo",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24690
+    },
+    {
+      "name": "CENSUS_T_1",
+      "fieldName": "census_t_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24690
+    },
+    {
+      "name": "CENSUS_B_1",
+      "fieldName": "census_b_1",
+      "dataTypeName": "text",
+      "description": "The full Census block.",
+      "nullCount": 0,
+      "cardinality": 24690
+    },
+    {
+      "name": "BLOCK_CENT",
+      "fieldName": "block_cent",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24690
+    },
+    {
+      "name": "BLOCK_CE_1",
+      "fieldName": "block_ce_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24690
+    },
+    {
+      "name": "BLOCK_CE_2",
+      "fieldName": "block_ce_2",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24690
+    },
+    {
+      "name": "BLOCK_CE_3",
+      "fieldName": "block_ce_3",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24690
+    },
+    {
+      "name": "BLOCK_TYPE",
+      "fieldName": "block_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 24690,
+      "cardinality": 24690
+    },
+    {
+      "name": "BLOCK_WARD",
+      "fieldName": "block_ward",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24690
+    },
+    {
+      "name": "BLOCK_CENS",
+      "fieldName": "block_cens",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24690
+    },
+    {
+      "name": "PERIMETER",
+      "fieldName": "perimeter",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24690
+    },
+    {
+      "name": "BLOCK_COMM",
+      "fieldName": "block_comm",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24690
+    },
+    {
+      "name": "BLOCK_ZIP",
+      "fieldName": "block_zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24690
+    },
+    {
+      "name": "SHAPE_AREA",
+      "fieldName": "shape_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24690
+    },
+    {
+      "name": "SHAPE_LEN",
+      "fieldName": "shape_len",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24690
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:14.229Z"
+}

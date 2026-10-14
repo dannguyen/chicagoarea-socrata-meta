@@ -1,0 +1,72 @@
+{
+  "id": "q6pg-yrhf",
+  "name": "Facilities Management - Elecricity Usage, All Facilities, by Month - Fiscal Year 2008 through February 2012",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2931,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1332274140,
+  "publicationDate": 1685661147,
+  "rowsUpdatedAt": 1412893775,
+  "viewLastModified": 1769546973,
+  "viewCount": 1220,
+  "downloadCount": 2009,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Facilities Management",
+  "attributionLink": "http://www.cookcountygov.com/portal/server.pt/community/facilities_management/294/facilities_management",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Month",
+      "fieldName": "month",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "Fiscal Year",
+      "fieldName": "fiscal_year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Usage (kWh)",
+      "fieldName": "usage_kwh",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2599
+    },
+    {
+      "name": "Cost",
+      "fieldName": "cost",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2905
+    },
+    {
+      "name": "Location 1",
+      "fieldName": "location_1",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:01.745Z"
+}

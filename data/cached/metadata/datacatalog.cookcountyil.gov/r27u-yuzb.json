@@ -1,0 +1,88 @@
+{
+  "id": "r27u-yuzb",
+  "name": "Adoption & Child Custody Advocacy - Adoptive Adoption Investigation Data - 2008",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 12,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1313071945,
+  "publicationDate": 1412892634,
+  "rowsUpdatedAt": 1412892621,
+  "viewLastModified": 1769547125,
+  "viewCount": 796,
+  "downloadCount": 2953,
+  "category": "Legal & Judicial",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Adoption & Child Custody Advocacy",
+  "attributionLink": "http://www.cookcountygov.com/portal/server.pt/community/adoption___child_custody_advocacy/245",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Month",
+      "fieldName": "month",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "Output Demands",
+      "fieldName": "output_demands",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Inputs",
+      "fieldName": "inputs",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "Output Workloads",
+      "fieldName": "output_workloads",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Efficiencies",
+      "fieldName": "efficiencies",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Effectiveness",
+      "fieldName": "effectiveness",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Outcomes",
+      "fieldName": "outcomes",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:06.401Z"
+}

@@ -1,0 +1,272 @@
+{
+  "id": "ddxq-pdr6",
+  "name": "Nearby Independent Cook County Grocery Stores",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 27,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1377548035,
+  "publicationDate": 1377560055,
+  "rowsUpdatedAt": 1377560037,
+  "viewLastModified": 1531341906,
+  "viewCount": 2301,
+  "downloadCount": 3916,
+  "category": "Community & Economic Development",
+  "tags": [
+    "food",
+    "food desert"
+  ],
+  "attribution": "Danny Block, Chicago State University, and Frederick Blum Neighborhood Assistance Center",
+  "attributionLink": "http://www.csu.edu/nac/",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "",
+      "Frequency": "Updated as needed.",
+      "Data Owner": "Housing and Economic Development"
+    }
+  },
+  "columns": [
+    {
+      "name": "STORE NAME",
+      "fieldName": "store_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 23
+    },
+    {
+      "name": "ADDRESS",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 27
+    },
+    {
+      "name": "CITY",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "STATE",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "ZIP CODE",
+      "fieldName": "zip_code",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 14
+    },
+    {
+      "name": "SIZE",
+      "fieldName": "size",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "REGISTERS",
+      "fieldName": "registers",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11
+    },
+    {
+      "name": "PRODUCE",
+      "fieldName": "produce",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 23,
+      "cardinality": 1
+    },
+    {
+      "name": "MEAT",
+      "fieldName": "meat",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 27,
+      "cardinality": 0
+    },
+    {
+      "name": "GENERAL",
+      "fieldName": "general",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 1
+    },
+    {
+      "name": "MEAT COUNTER",
+      "fieldName": "meat_counter",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 1
+    },
+    {
+      "name": "DELI COUNTER",
+      "fieldName": "deli_counter",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 1
+    },
+    {
+      "name": "BAKERY",
+      "fieldName": "bakery",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 21,
+      "cardinality": 1
+    },
+    {
+      "name": "FISH COUNTER",
+      "fieldName": "fish_counter",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 9,
+      "cardinality": 1
+    },
+    {
+      "name": "ALCOHOL",
+      "fieldName": "alcohol",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "FRESH PRODUCE",
+      "fieldName": "fresh_produce",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "SAFETYCONC",
+      "fieldName": "safetyconc",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "CLEANCONCE",
+      "fieldName": "cleanconce",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "ORIENTEDET",
+      "fieldName": "orientedet",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 2
+    },
+    {
+      "name": "ETHNIC SPECIALITY",
+      "fieldName": "ethnic_speciality",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 10,
+      "cardinality": 7
+    },
+    {
+      "name": "LATITUDE",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 27,
+      "cardinality": 0
+    },
+    {
+      "name": "LONGITUDE",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 27,
+      "cardinality": 0
+    },
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:11.988Z"
+}

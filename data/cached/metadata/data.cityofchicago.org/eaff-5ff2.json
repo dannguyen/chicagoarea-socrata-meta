@@ -1,0 +1,98 @@
+{
+  "id": "eaff-5ff2",
+  "name": "Performance Metrics - Transportation",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 11056,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1390425372,
+  "publicationDate": 1437020075,
+  "rowsUpdatedAt": 1554459117,
+  "viewLastModified": 1445448573,
+  "viewCount": 5335,
+  "downloadCount": 6715,
+  "category": "Administration & Finance",
+  "tags": [
+    "service requests",
+    "pothole",
+    "performance metrics",
+    "streets",
+    "pavement"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "June 2011 to present",
+      "Frequency": "Data are updated weekly",
+      "Data Owner": "Transportation"
+    }
+  },
+  "columns": [
+    {
+      "name": "Activity",
+      "fieldName": "activity",
+      "dataTypeName": "text",
+      "description": "Activity measured",
+      "nullCount": 0,
+      "cardinality": 33
+    },
+    {
+      "name": "Period Start",
+      "fieldName": "period_start",
+      "dataTypeName": "calendar_date",
+      "description": "Starting date of the performance period",
+      "nullCount": 0,
+      "cardinality": 396
+    },
+    {
+      "name": "Period Length",
+      "fieldName": "period_length",
+      "dataTypeName": "text",
+      "description": "Length of the performance measurement period",
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Target Response Days",
+      "fieldName": "target_response_days",
+      "dataTypeName": "number",
+      "description": "The target number of days to perform this activity, from request to completion.",
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "Average Days to Complete Activity",
+      "fieldName": "average_days_to_complete_activity",
+      "dataTypeName": "number",
+      "description": "Average days between creation of request for service and completion of that service, for activities completed in this period.",
+      "nullCount": 0,
+      "cardinality": 4104
+    },
+    {
+      "name": "Total Completed Requests",
+      "fieldName": "total_completed_requests",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 946
+    },
+    {
+      "name": "Period",
+      "fieldName": "period",
+      "dataTypeName": "text",
+      "description": "The dates of the period covered.",
+      "nullCount": 0,
+      "cardinality": 396
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:04.265Z"
+}

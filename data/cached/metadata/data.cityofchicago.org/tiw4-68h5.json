@@ -1,0 +1,259 @@
+{
+  "id": "tiw4-68h5",
+  "name": "Chicago Public Schools - School Admissions Information SY2021",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 861,
+  "rowCountSource": "cached",
+  "rowLabel": "Program",
+  "hasRowIdentifier": false,
+  "createdAt": 1602104734,
+  "publicationDate": 1603320909,
+  "rowsUpdatedAt": 1642628254,
+  "viewLastModified": 1603402806,
+  "viewCount": 1472,
+  "downloadCount": 2165,
+  "category": "Education",
+  "tags": [
+    "2020",
+    "cps",
+    "metrics",
+    "report cards",
+    "schools",
+    "2021"
+  ],
+  "attribution": "Chicago Public Schools",
+  "attributionLink": "http://cps.edu",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2020-2021 School Year",
+      "Frequency": "Daily",
+      "Data Owner": "Chicago Public Schools"
+    }
+  },
+  "columns": [
+    {
+      "name": "School_ID",
+      "fieldName": "school_id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 530
+    },
+    {
+      "name": "Short_Name",
+      "fieldName": "short_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 530
+    },
+    {
+      "name": "Long_Name",
+      "fieldName": "long_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 530
+    },
+    {
+      "name": "Primary_Category",
+      "fieldName": "primary_category",
+      "dataTypeName": "text",
+      "description": "ES or HS indicating Elementary or High School",
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Program_Type",
+      "fieldName": "program_type",
+      "dataTypeName": "text",
+      "description": "Categories to which program belongs",
+      "nullCount": 0,
+      "cardinality": 810
+    },
+    {
+      "name": "Program_Group",
+      "fieldName": "program_group",
+      "dataTypeName": "text",
+      "description": "Sub-categories to which program belongs. Can be used for filtering.",
+      "nullCount": 0,
+      "cardinality": 34
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 519
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Zip",
+      "fieldName": "zip",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 51
+    },
+    {
+      "name": "Phone",
+      "fieldName": "phone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 530
+    },
+    {
+      "name": "Fax",
+      "fieldName": "fax",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 529
+    },
+    {
+      "name": "CPS_School_Profile",
+      "fieldName": "cps_school_profile",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Website",
+      "fieldName": "website",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Program_Grades_Served",
+      "fieldName": "program_grades_served",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 18
+    },
+    {
+      "name": "Application_Requirements",
+      "fieldName": "application_requirements",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "Program_Selections",
+      "fieldName": "program_selections",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 99
+    },
+    {
+      "name": "How_To_Apply",
+      "fieldName": "how_to_apply",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "Deadline",
+      "fieldName": "deadline",
+      "dataTypeName": "calendar_date",
+      "description": "Deadline to apply",
+      "nullCount": 861,
+      "cardinality": 0
+    },
+    {
+      "name": "School_Latitude",
+      "fieldName": "school_latitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 530
+    },
+    {
+      "name": "School_Longitude",
+      "fieldName": "school_longitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 525
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": "The location of the school in a format that allows for mapping and other geographic analysis.",
+      "nullCount": 0,
+      "cardinality": 530
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Boundaries - ZIP Codes' (rpca-8um6) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Community Areas' (vrxf-vc4k) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Zip Codes' (6mkv-f3dw) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Census Tracts' (bdys-3d7i) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Wards' (43wa-7qmu) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:17.374Z"
+}

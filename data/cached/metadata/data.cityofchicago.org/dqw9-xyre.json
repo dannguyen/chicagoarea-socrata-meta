@@ -1,0 +1,110 @@
+{
+  "id": "dqw9-xyre",
+  "name": "Lobbyist Data - Historical - Lobbyist Major Expenditures Report - 2010",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 170,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1307467068,
+  "publicationDate": 1307467068,
+  "rowsUpdatedAt": 1314742814,
+  "viewLastModified": 1445633818,
+  "viewCount": 1998,
+  "downloadCount": 3387,
+  "category": "Ethics",
+  "tags": [
+    "lobbyists",
+    "historical"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2010",
+      "Data Owner": "Ethics"
+    }
+  },
+  "columns": [
+    {
+      "name": "LOBBYIST LAST NAME",
+      "fieldName": "lobbyist_last_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 39
+    },
+    {
+      "name": "LOBBYIST FIRST NAME",
+      "fieldName": "lobbyist_first_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 36
+    },
+    {
+      "name": "LOBBYIST MIDDLE INITIAL",
+      "fieldName": "lobbyist_middle_initial",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 90,
+      "cardinality": 10
+    },
+    {
+      "name": "CLIENT NAME",
+      "fieldName": "client_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 82
+    },
+    {
+      "name": "EXPENSE DATE",
+      "fieldName": "expense_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 101
+    },
+    {
+      "name": "RECIPIENT NAME",
+      "fieldName": "recipient_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 87
+    },
+    {
+      "name": "PURPOSE",
+      "fieldName": "purpose",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 68
+    },
+    {
+      "name": "AMOUNT",
+      "fieldName": "amount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 72
+    },
+    {
+      "name": "ACTION",
+      "fieldName": "action",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 55
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:13.702Z"
+}

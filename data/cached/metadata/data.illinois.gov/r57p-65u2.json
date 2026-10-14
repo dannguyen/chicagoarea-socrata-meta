@@ -1,0 +1,95 @@
+{
+  "id": "r57p-65u2",
+  "name": "IDVA Grant Payout Data",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 17,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1757433514,
+  "publicationDate": 1757434248,
+  "rowsUpdatedAt": 1757434227,
+  "viewLastModified": 1757434318,
+  "viewCount": 140,
+  "downloadCount": 28,
+  "category": "Health and Human Services",
+  "tags": [
+    "grants"
+  ],
+  "attribution": "IDVA",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Veterans' Affairs"
+    },
+    "Data Management": {
+      "Maintainer": "Illinois Dept. of Veterans Affairs"
+    }
+  },
+  "columns": [
+    {
+      "name": "Name of grantee",
+      "fieldName": "name_of_grantee",
+      "dataTypeName": "text",
+      "description": "The recipient of the grant funding.",
+      "nullCount": 0,
+      "cardinality": 17
+    },
+    {
+      "name": "Zip Code",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": "The ZIP code location associated with the grantee or project.",
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "Description",
+      "fieldName": "description",
+      "dataTypeName": "text",
+      "description": "A summary of the program, project, or activity for which the grant funds are awarded.",
+      "nullCount": 0,
+      "cardinality": 17
+    },
+    {
+      "name": "Awarded",
+      "fieldName": "awarded",
+      "dataTypeName": "number",
+      "description": "Total dollar amount of funding awarded.",
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "Start Date",
+      "fieldName": "start_date",
+      "dataTypeName": "calendar_date",
+      "description": "The start date of the grant award or funded project.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "End Date",
+      "fieldName": "end_date",
+      "dataTypeName": "calendar_date",
+      "description": "The expected or actual end date of the grant award or funded project.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Duration",
+      "fieldName": "duration",
+      "dataTypeName": "text",
+      "description": "Length of Award",
+      "nullCount": 0,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:34.480Z"
+}

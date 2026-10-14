@@ -1,0 +1,56 @@
+{
+  "id": "97yy-kfnq",
+  "name": "Administrative Hearings - Top 5 Environmental Control Violations - Sept 2011 To March 2012",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 5,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1337621414,
+  "publicationDate": 1412892476,
+  "rowsUpdatedAt": 1412892473,
+  "viewLastModified": 1769548036,
+  "viewCount": 819,
+  "downloadCount": 2051,
+  "category": "Legal & Judicial",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Administrative Hearings",
+  "attributionLink": "http://www.cookcountyildoah.org/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Violation Code",
+      "fieldName": "violation_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Violation Text",
+      "fieldName": "violation_text",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Number of Violations",
+      "fieldName": "number_of_violations",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:06.031Z"
+}

@@ -1,0 +1,80 @@
+{
+  "id": "s9wg-6is6",
+  "name": "Performance Metrics - Procurement Services - City Auctions",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 810,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1316563373,
+  "publicationDate": 1791976215,
+  "rowsUpdatedAt": 1791976209,
+  "viewLastModified": 1791976215,
+  "viewCount": 2751,
+  "downloadCount": 4415,
+  "category": "Administration & Finance",
+  "tags": [
+    "performance metrics",
+    "revenue",
+    "procurement"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org/performance",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "April 2011 - present",
+      "Frequency": "Data is updated weekly",
+      "Data Owner": "Procurement Services"
+    }
+  },
+  "columns": [
+    {
+      "name": "Week",
+      "fieldName": "week",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 810
+    },
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 810
+    },
+    {
+      "name": "Revenue from City Auctions (Year to Date ($))",
+      "fieldName": "revenue_from_city_auctions_year_to_date_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 810
+    },
+    {
+      "name": "Percent Toward Yearly Goal",
+      "fieldName": "percent_toward_yearly_goal_2_2_million_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 810
+    },
+    {
+      "name": "Yearly Goal ($)",
+      "fieldName": "yearly_goal_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 810
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:09.508Z"
+}

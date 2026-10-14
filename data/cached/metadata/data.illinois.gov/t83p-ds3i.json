@@ -1,0 +1,78 @@
+{
+  "id": "t83p-ds3i",
+  "name": "IDPH Multiple Births, by County, 2009",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 105,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709064555,
+  "publicationDate": 1709145240,
+  "rowsUpdatedAt": 1709145234,
+  "viewLastModified": 1736793948,
+  "viewCount": 26,
+  "downloadCount": 14,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "_births",
+      "fieldName": "_births",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 14
+    },
+    {
+      "name": "all_live_births_",
+      "fieldName": "all_live_births_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 97
+    },
+    {
+      "name": "county",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 105
+    },
+    {
+      "name": "singleton_births_",
+      "fieldName": "singleton_births_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 97
+    },
+    {
+      "name": "twin_births_",
+      "fieldName": "twin_births_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 41
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:42.248Z"
+}

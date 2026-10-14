@@ -1,0 +1,70 @@
+{
+  "id": "g87x-95wg",
+  "name": "IDPH FDD Manufactured Food Facilities List 110513",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1000,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709064636,
+  "publicationDate": 1709144143,
+  "rowsUpdatedAt": 1709144138,
+  "viewLastModified": 1736793955,
+  "viewCount": 100,
+  "downloadCount": 102,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "county",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 84
+    },
+    {
+      "name": "location",
+      "fieldName": "location",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 995
+    },
+    {
+      "name": "manufactured_food_facility",
+      "fieldName": "manufactured_food_facility",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 956
+    },
+    {
+      "name": "manufactured_food_facility_id",
+      "fieldName": "manufactured_food_facility_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1000
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:35.531Z"
+}

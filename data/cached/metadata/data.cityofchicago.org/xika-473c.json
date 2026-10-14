@@ -1,0 +1,159 @@
+{
+  "id": "xika-473c",
+  "name": "Lobbyist Data - Expenditures - Large",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2426,
+  "rowCountSource": "cached",
+  "rowLabel": "Expenditure",
+  "hasRowIdentifier": false,
+  "createdAt": 1434553536,
+  "publicationDate": 1445378035,
+  "rowsUpdatedAt": 1791796997,
+  "viewLastModified": 1445637231,
+  "viewCount": 3801,
+  "downloadCount": 13568,
+  "category": "Ethics",
+  "tags": [
+    "ethics",
+    "lobbyists"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2012 - Current",
+      "Frequency": "Data are updated daily. Lobbyist reporting is quarterly.",
+      "Data Owner": "Board of Ethics"
+    }
+  },
+  "columns": [
+    {
+      "name": "EXPENDITURE_ID",
+      "fieldName": "expenditure_id",
+      "dataTypeName": "number",
+      "description": "A unique identifier for the expenditure record.",
+      "nullCount": 0,
+      "cardinality": 2426
+    },
+    {
+      "name": "PERIOD_START",
+      "fieldName": "period_start",
+      "dataTypeName": "calendar_date",
+      "description": "Start of the reporting period for which this record was created.",
+      "nullCount": 0,
+      "cardinality": 2426
+    },
+    {
+      "name": "PERIOD_END",
+      "fieldName": "period_end",
+      "dataTypeName": "calendar_date",
+      "description": "End of the reporting period for which this record was created.",
+      "nullCount": 0,
+      "cardinality": 2426
+    },
+    {
+      "name": "LOBBYIST_ID",
+      "fieldName": "lobbyist_id",
+      "dataTypeName": "number",
+      "description": "A unique identifier for the lobbyist record. This ID can be used to link records in other datasets that contain an ID column with the same name.",
+      "nullCount": 0,
+      "cardinality": 2426
+    },
+    {
+      "name": "LOBBYIST_FIRST_NAME",
+      "fieldName": "lobbyist_first_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2426
+    },
+    {
+      "name": "LOBBYIST_MIDDLE_INITIAL",
+      "fieldName": "lobbyist_middle_initial",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1092,
+      "cardinality": 2426
+    },
+    {
+      "name": "LOBBYIST_LAST_NAME",
+      "fieldName": "lobbyist_last_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2426
+    },
+    {
+      "name": "ACTION",
+      "fieldName": "action",
+      "dataTypeName": "text",
+      "description": "The purpose of the lobbying for which this expenditure was made.",
+      "nullCount": 0,
+      "cardinality": 2426
+    },
+    {
+      "name": "AMOUNT",
+      "fieldName": "amount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2426
+    },
+    {
+      "name": "EXPENDITURE_DATE",
+      "fieldName": "expenditure_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2426
+    },
+    {
+      "name": "PURPOSE",
+      "fieldName": "purpose",
+      "dataTypeName": "text",
+      "description": "The type of expenditure.\n",
+      "nullCount": 0,
+      "cardinality": 2426
+    },
+    {
+      "name": "RECIPIENT",
+      "fieldName": "recipient",
+      "dataTypeName": "text",
+      "description": "The party to whom the expense was paid.",
+      "nullCount": 0,
+      "cardinality": 2426
+    },
+    {
+      "name": "CLIENT_ID",
+      "fieldName": "client_id",
+      "dataTypeName": "number",
+      "description": "A unique ID for the client on whose behalf the lobbying related to this expenditure was done. This ID can be used to link to the same column name in other datasets.\n",
+      "nullCount": 0,
+      "cardinality": 2426
+    },
+    {
+      "name": "CLIENT_NAME",
+      "fieldName": "client_name",
+      "dataTypeName": "text",
+      "description": "The name of the client on whose behalf the lobbying related to this expenditure was done. ",
+      "nullCount": 0,
+      "cardinality": 2426
+    },
+    {
+      "name": "CREATED_DATE",
+      "fieldName": "created_date",
+      "dataTypeName": "calendar_date",
+      "description": "The date the record was created.",
+      "nullCount": 0,
+      "cardinality": 2426
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:06.699Z"
+}

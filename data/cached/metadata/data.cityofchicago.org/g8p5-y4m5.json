@@ -1,0 +1,127 @@
+{
+  "id": "g8p5-y4m5",
+  "name": "Lobbyist Data - Clients",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 22407,
+  "rowCountSource": "cached",
+  "rowLabel": "Client",
+  "hasRowIdentifier": false,
+  "createdAt": 1433965212,
+  "publicationDate": 1441144867,
+  "rowsUpdatedAt": 1791969441,
+  "viewLastModified": 1445637218,
+  "viewCount": 14782,
+  "downloadCount": 56093,
+  "category": "Ethics",
+  "tags": [
+    "ethics",
+    "lobbyists"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2012 - Current",
+      "Frequency": "Data are updated daily. Lobbyist reporting is quarterly.",
+      "Data Owner": "Board of Ethics"
+    }
+  },
+  "columns": [
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": "The year in which the lobbyist registered the client with the information shown.",
+      "nullCount": 0,
+      "cardinality": 22407
+    },
+    {
+      "name": "CLIENT_ID",
+      "fieldName": "client_id",
+      "dataTypeName": "number",
+      "description": "A unique ID for the client that can be used to link to the same column name in other datasets.",
+      "nullCount": 0,
+      "cardinality": 22407
+    },
+    {
+      "name": "NAME",
+      "fieldName": "name",
+      "dataTypeName": "text",
+      "description": "The name of the client.",
+      "nullCount": 0,
+      "cardinality": 22407
+    },
+    {
+      "name": "ADDRESS_1",
+      "fieldName": "address_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 22407
+    },
+    {
+      "name": "ADDRESS_2",
+      "fieldName": "address_2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 14769,
+      "cardinality": 22407
+    },
+    {
+      "name": "CITY",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 22407
+    },
+    {
+      "name": "STATE",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 22407
+    },
+    {
+      "name": "ZIP",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 22407
+    },
+    {
+      "name": "COUNTRY",
+      "fieldName": "country",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 22407
+    },
+    {
+      "name": "CREATED_DATE",
+      "fieldName": "created_date",
+      "dataTypeName": "calendar_date",
+      "description": "The date the record was created.",
+      "nullCount": 1902,
+      "cardinality": 22407
+    },
+    {
+      "name": "ACTIVE",
+      "fieldName": "active",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 22407
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:37:49.393Z"
+}

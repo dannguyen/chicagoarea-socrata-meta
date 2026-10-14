@@ -1,0 +1,161 @@
+{
+  "id": "8ec2-eaj2",
+  "name": "Bike Routes (Deprecated November 2021)",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 897,
+  "rowCountSource": "cached",
+  "rowLabel": "Bike Route",
+  "hasRowIdentifier": false,
+  "createdAt": 1643410503,
+  "publicationDate": 1643410708,
+  "rowsUpdatedAt": 1643410702,
+  "viewLastModified": 1643410708,
+  "viewCount": 1145,
+  "downloadCount": 1514,
+  "category": "Transportation",
+  "tags": [
+    "bicycling",
+    "sustainability",
+    "gis",
+    "deprecated",
+    "geo_layer"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "January 2021",
+      "Data Owner": "Department of Transportation"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multiline",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "OBJECTID",
+      "fieldName": "objectid",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 769
+    },
+    {
+      "name": "STREET",
+      "fieldName": "street",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 24,
+      "cardinality": 237
+    },
+    {
+      "name": "PRE_DIR",
+      "fieldName": "pre_dir",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 25,
+      "cardinality": 5
+    },
+    {
+      "name": "ST_NAME",
+      "fieldName": "st_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 24,
+      "cardinality": 219
+    },
+    {
+      "name": "ST_TYPE",
+      "fieldName": "st_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 72,
+      "cardinality": 13
+    },
+    {
+      "name": "ONEWAY_DIR",
+      "fieldName": "oneway_dir",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 768,
+      "cardinality": 4
+    },
+    {
+      "name": "L_F_ADDR",
+      "fieldName": "l_f_addr",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 27,
+      "cardinality": 480
+    },
+    {
+      "name": "R_F_ADDR",
+      "fieldName": "r_f_addr",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 480
+    },
+    {
+      "name": "F_STREET",
+      "fieldName": "f_street",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 24,
+      "cardinality": 426
+    },
+    {
+      "name": "L_T_ADDR",
+      "fieldName": "l_t_addr",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 476
+    },
+    {
+      "name": "R_T_ADDR",
+      "fieldName": "r_t_addr",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 471
+    },
+    {
+      "name": "T_STREET",
+      "fieldName": "t_street",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 24,
+      "cardinality": 435
+    },
+    {
+      "name": "DISPLAYROU",
+      "fieldName": "displayrou",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "MI_CTRLINE",
+      "fieldName": "mi_ctrline",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 897
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:19.564Z"
+}

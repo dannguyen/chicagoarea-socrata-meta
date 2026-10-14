@@ -1,0 +1,88 @@
+{
+  "id": "dw7q-wyyh",
+  "name": "All Tweets And Stats 2011 To 2013",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 4191,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1390497835,
+  "publicationDate": 1412895085,
+  "rowsUpdatedAt": 1412895074,
+  "viewLastModified": 1769544841,
+  "viewCount": 1706,
+  "downloadCount": 31276,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Bureau of Technology",
+  "attributionLink": "http://www.cookcountyil.gov/technology",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Date",
+      "fieldName": "date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 616
+    },
+    {
+      "name": "Time",
+      "fieldName": "time",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 762
+    },
+    {
+      "name": "Text",
+      "fieldName": "text",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 4053
+    },
+    {
+      "name": "Retweets",
+      "fieldName": "retweets",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 18
+    },
+    {
+      "name": "Replies",
+      "fieldName": "replies",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 10
+    },
+    {
+      "name": "Potential Impressions",
+      "fieldName": "potential_impressions",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 2097
+    },
+    {
+      "name": "Link",
+      "fieldName": "link",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:57.946Z"
+}

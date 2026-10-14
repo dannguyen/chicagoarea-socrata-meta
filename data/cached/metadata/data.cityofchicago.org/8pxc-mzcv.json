@@ -1,0 +1,69 @@
+{
+  "id": "8pxc-mzcv",
+  "name": "FOIA Request Log - OEMC",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 18063,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1317393438,
+  "publicationDate": 1452244251,
+  "rowsUpdatedAt": 1581438570,
+  "viewLastModified": 1581438569,
+  "viewCount": 18776,
+  "downloadCount": 33107,
+  "category": "FOIA",
+  "tags": [],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "May 2010 - present",
+      "Frequency": "Data is updated as needed",
+      "Data Owner": "Emergency Management & Communications"
+    }
+  },
+  "columns": [
+    {
+      "name": "REQUESTOR NAME",
+      "fieldName": "requestor_name",
+      "dataTypeName": "text",
+      "description": "The name or organization requesting information.",
+      "nullCount": 38,
+      "cardinality": 11013
+    },
+    {
+      "name": "REQUEST TYPE",
+      "fieldName": "request_type",
+      "dataTypeName": "text",
+      "description": "Brief description of the request made to OEMC. Data does not exist prior to January 2013.",
+      "nullCount": 3017,
+      "cardinality": 44
+    },
+    {
+      "name": "RECEIVED DATE",
+      "fieldName": "received_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date the FOIA request was received by OEMC.",
+      "nullCount": 0,
+      "cardinality": 6219
+    },
+    {
+      "name": "DUE DATE",
+      "fieldName": "due_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date which OEMC has set to complete the request.",
+      "nullCount": 1124,
+      "cardinality": 2632
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:37:48.469Z"
+}

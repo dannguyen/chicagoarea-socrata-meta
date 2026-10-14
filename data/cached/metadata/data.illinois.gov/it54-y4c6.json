@@ -1,0 +1,1503 @@
+{
+  "id": "it54-y4c6",
+  "name": "PTAX-203, 203-A, and 203-B",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2945479,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": true,
+  "createdAt": 1748629946,
+  "publicationDate": 1779334665,
+  "rowsUpdatedAt": 1791716483,
+  "viewLastModified": 1779409479,
+  "viewCount": 5534,
+  "downloadCount": 1969,
+  "category": "Government and Public Employees",
+  "tags": [
+    "property tax"
+  ],
+  "attribution": "Department of Revenue",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Revenue"
+    },
+    "Data Management": {
+      "Maintainer": "Department of Revenue"
+    }
+  },
+  "columns": [
+    {
+      "name": "Declaration ID",
+      "fieldName": "declaration_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Status",
+      "fieldName": "status",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Document Number",
+      "fieldName": "document_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Date Recorded",
+      "fieldName": "date_recorded",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "County Stamp Number",
+      "fieldName": "county_stamp_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 161265,
+      "cardinality": 2945479
+    },
+    {
+      "name": "City Stamp Number",
+      "fieldName": "city_stamp_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2216964,
+      "cardinality": 2945479
+    },
+    {
+      "name": "State Exemption",
+      "fieldName": "state_exemption",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2464820,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Full Address",
+      "fieldName": "full_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 1 - Street",
+      "fieldName": "line_1_street",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2332,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 1 - City",
+      "fieldName": "line_1_city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 97,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 1 - ZIP Code",
+      "fieldName": "line_1_zip_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 1 - Township",
+      "fieldName": "line_1_township",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 884,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 1 - County",
+      "fieldName": "line_1_county",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 1 - Primary PIN",
+      "fieldName": "line_1_primary_pin",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 1 - Lot Size or Acreage",
+      "fieldName": "line_1_lot_size_or_acreage",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 344676,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 1 - Unit",
+      "fieldName": "line_1_unit",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 344780,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 1 - Split Parcel?",
+      "fieldName": "line_1_split_parcel",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 2 - Total Parcels",
+      "fieldName": "line_2_total_parcels",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 3 - Additional PINs?",
+      "fieldName": "line_3_additional_pins",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 4 - Instrument Date",
+      "fieldName": "line_4_instrument_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 5 - Instrument Type",
+      "fieldName": "line_5_instrument_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 412372,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 5 - Other Instrument Type Description",
+      "fieldName": "line_5_other_instrument_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2927245,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 6 - Principal Residence?",
+      "fieldName": "line_6_principal_residence",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 7 - Property Advertised?",
+      "fieldName": "line_7_property_advertised",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 8 - Current Use",
+      "fieldName": "line_8_current_use",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 396903,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 8 - Current Number of Apartment Units",
+      "fieldName": "line_8_current_number_of",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 8 - Current Commercial Building Type",
+      "fieldName": "line_8_current_commercial",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2896354,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 8 - Current Other Commercial Building Description",
+      "fieldName": "line_8_current_other",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2902091,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 8 - Current Other Use Type",
+      "fieldName": "line_8_current_other_use",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2903593,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 8 - Current Miscellaneous Other Use Type Description",
+      "fieldName": "line_8_current_miscellaneous",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2913823,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 8 - Intended Use",
+      "fieldName": "line_8_intended_use",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 397475,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 8 - Intended Number of Apartment Units",
+      "fieldName": "line_8_intended_number_of",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 8 - Intended Commercial Building Type",
+      "fieldName": "line_8_intended_commercial",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2896416,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 8 - Intended Other Commercial Building Description",
+      "fieldName": "line_8_intended_other",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2901978,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 8 - Intended Other Use Type",
+      "fieldName": "line_8_intended_other_use",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2891680,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 8 - Intended Miscellaneous Other Use Type Description",
+      "fieldName": "line_8_intended_miscellaneous",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2902364,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 9 - No Changes",
+      "fieldName": "line_9_no_changes",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 9 - Demolition/damage",
+      "fieldName": "line_9_demolition_damage",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 9 - Additions",
+      "fieldName": "line_9_additions",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 9 - Major Remodeling",
+      "fieldName": "line_9_major_remodeling",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 9 - New Construction",
+      "fieldName": "line_9_new_construction",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 9 - Other Change",
+      "fieldName": "line_9_other_change",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 9 - Other Change Description",
+      "fieldName": "line_9_other_change_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2941870,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 9 - Date of Significant Change",
+      "fieldName": "line_9_date_of_significant",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 2861380,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 10a - Fulfillment of installment contract",
+      "fieldName": "line_10a_fulfillment_of",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 10a - Year Contract Initiated",
+      "fieldName": "line_10a_year_contract",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2921290,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 10b - Sale between related individuals or corporate affiliates",
+      "fieldName": "line_10b_sale_between_related",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 10c - Transfer of <100% interest",
+      "fieldName": "line_10c_transfer_of_100",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 10d - Court-ordered sale",
+      "fieldName": "line_10d_court_ordered_sale",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 10e - Sale in lieu of foreclosure",
+      "fieldName": "line_10e_sale_in_lieu_of",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 10f - Condemnation",
+      "fieldName": "line_10f_condemnation",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 10g - Short sale",
+      "fieldName": "line_10g_short_sale",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 10h - Bank REO",
+      "fieldName": "line_10h_bank_reo",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 10i - Auction sale",
+      "fieldName": "line_10i_auction_sale",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 10j - Seller/buyer is a relocation company",
+      "fieldName": "line_10j_seller_buyer_is",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 10k - Seller/buyer is a financial institution/govt agency",
+      "fieldName": "line_10k_seller_buyer_is",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 10l - Buyer is a real estate investment trust",
+      "fieldName": "line_10l_buyer_is_a_real",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 10m - Buyer is a pension fund",
+      "fieldName": "line_10m_buyer_is_a_pension",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 10n - Buyer is an adjacent property owner",
+      "fieldName": "line_10n_buyer_is_an_adjacent",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 10o - Buyer is exercising an option to purchase",
+      "fieldName": "line_10o_buyer_is_exercising",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 10p - Trade of property (simultaneous)",
+      "fieldName": "line_10p_trade_of_property",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 10q - Sale-leaseback",
+      "fieldName": "line_10q_sale_leaseback",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 10r - Other",
+      "fieldName": "line_10r_other",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 10r - Description",
+      "fieldName": "line_10r_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2892231,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 10s - Homestead exemptions on most recent tax bill?",
+      "fieldName": "line_10s_homestead_exemptions",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 10s - General/Alternative",
+      "fieldName": "line_10s_general_alternative",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 10s - Senior Citizens",
+      "fieldName": "line_10s_senior_citizens",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 10s - Senior Citizens Assessment Freeze",
+      "fieldName": "line_10s_senior_citizens_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 11 - Full consideration",
+      "fieldName": "line_11_full_consideration",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6420,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 12a - Personal Property?",
+      "fieldName": "line_12a_personal_property",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 6420,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 12a - Total Personal Property",
+      "fieldName": "line_12a_total_personal",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6420,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 12b - Mobile Home Included?",
+      "fieldName": "line_12b_mobile_home_included",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 6420,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 13 - Net Consideration",
+      "fieldName": "line_13_net_consideration",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6420,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 14 - Amount of Other Property Transferred",
+      "fieldName": "line_14_amount_of_other",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6420,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 15 - Outstanding Mortgage",
+      "fieldName": "line_15_outstanding_mortgage",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6420,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 16 - State Exemption",
+      "fieldName": "line_16_state_exemption",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2877479,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 17 - Net Consideration Subject to Transfer Tax",
+      "fieldName": "line_17_net_consideration",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6420,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 18 - Number of tax stamps",
+      "fieldName": "line_18_number_of_tax_stamps",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6420,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 19 - State Tax",
+      "fieldName": "line_19_state_tax",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6420,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 20 - County Tax",
+      "fieldName": "line_20_county_tax",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6420,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Line 21 - Total Transfer Tax",
+      "fieldName": "line_21_total_transfer_tax",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6420,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Step 4 - Seller Name",
+      "fieldName": "step_4_seller_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1276,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Step 4 - Seller Organization",
+      "fieldName": "step_4_seller_organization",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1822169,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Additional Sellers?",
+      "fieldName": "additional_sellers",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Step 4 - Seller's Agent?",
+      "fieldName": "step_4_seller_s_agent",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Step 4 - Seller's Agent's Name",
+      "fieldName": "step_4_seller_s_agent_s_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2513389,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Step 4 - Seller's Agent's Title",
+      "fieldName": "step_4_seller_s_agent_s_title",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2569839,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Step 4 - Seller's Agent's Business Name",
+      "fieldName": "step_4_seller_s_agent_s",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2657308,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Step 4 - Seller's Agent's Address",
+      "fieldName": "step_4_seller_s_agent_s_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2512771,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Step 4 - Seller's Agent's Country",
+      "fieldName": "step_4_seller_s_agent_s_2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2512771,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Step 4 - Buyer Name",
+      "fieldName": "step_4_buyer_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1132,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Step 4 - Buyer Organization",
+      "fieldName": "step_4_buyer_organization",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2174557,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Additional Buyers?",
+      "fieldName": "additional_buyers",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Step 4 - Buyer's Agent?",
+      "fieldName": "step_4_buyer_s_agent",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Step 4 - Buyer's Agent's Name",
+      "fieldName": "step_4_buyer_s_agent_s_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2687598,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Step 4 - Buyer's Agent's Title",
+      "fieldName": "step_4_buyer_s_agent_s_title",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2720561,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Step 4 - Buyer's Agent's Business Name",
+      "fieldName": "step_4_buyer_s_agent_s",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2812399,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Step 4 - Buyer's Agent's Address",
+      "fieldName": "step_4_buyer_s_agent_s_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2687112,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Step 4 - Buyer's Agent's Country",
+      "fieldName": "step_4_buyer_s_agent_s_country",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2687112,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Step 4 - Preparer Name",
+      "fieldName": "step_4_preparer_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 64,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Step 4 - Preparer File Number",
+      "fieldName": "step_4_preparer_file_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2711473,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Step 4 - Escrow Number",
+      "fieldName": "step_4_escrow_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1127748,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Step 4 - Preparer Address",
+      "fieldName": "step_4_preparer_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Step 4 - Preparer Country",
+      "fieldName": "step_4_preparer_country",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "PTAX-203-A Attached",
+      "fieldName": "ptax_203_a_attached",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-A Line 1 - Street",
+      "fieldName": "_203_a_line_1_street",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2911451,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-A Line 1 - City",
+      "fieldName": "_203_a_line_1_city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2911449,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-A Line 1 - Township",
+      "fieldName": "_203_a_line_1_township",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2911511,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-A Line 2 - Primary PIN",
+      "fieldName": "_203_a_line_2_primary_pin",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2911448,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-A Line 3 - Months for Sale",
+      "fieldName": "_203_a_line_3_months_for",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2911448,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-A Line 4a - Improvements Occupied?",
+      "fieldName": "_203_a_line_4a_improvements",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 2911448,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-A Line 4a - Months Unoccupied",
+      "fieldName": "_203_a_line_4a_months",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2911448,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-A Line 4b - Percent Occupied",
+      "fieldName": "_203_a_line_4b_percent",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2911448,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-A Line 4c - Buyer Occupied?",
+      "fieldName": "_203_a_line_4c_buyer_occupied",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 2911448,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-A Line 4d - Buyer Continue to Occupy?",
+      "fieldName": "_203_a_line_4d_buyer_continue",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 2911448,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-A Line 4e - Lease Begin Date",
+      "fieldName": "_203_a_line_4e_lease_begin",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 2943702,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-A Line 4e - Lease End Date",
+      "fieldName": "_203_a_line_4e_lease_end",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 2943705,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-A Line 4f - Renewal Options",
+      "fieldName": "_203_a_line_4f_renewal_options",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2944951,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-A Line 5 - Property 1 Address",
+      "fieldName": "_203_a_line_5_property_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2944414,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-A Line 5 - Property 1 City",
+      "fieldName": "_203_a_line_5_property_1_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2944420,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-A Line 5 - Property 1 PIN",
+      "fieldName": "_203_a_line_5_property_1_2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2944340,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-A Line 5 - Property 2 Address",
+      "fieldName": "_203_a_line_5_property_2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2945008,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-A Line 5 - Property 2 City",
+      "fieldName": "_203_a_line_5_property_2_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2945008,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-A Line 5 - Property 2 PIN",
+      "fieldName": "_203_a_line_5_property_2_2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2944977,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-A Line 6 - Personal Property Transferred?",
+      "fieldName": "_203_a_line_6_personal",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 2911448,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-A Line 7 - Sale Price Affected?",
+      "fieldName": "_203_a_line_7_sale_price",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 2911448,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-A Line 7 - Reason Sale Price Affected",
+      "fieldName": "_203_a_line_7_reason_sale",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2945300,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-A Line 8 - Fair Reflection of Market Value?",
+      "fieldName": "_203_a_line_8_fair_reflection",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 2911448,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-A Line 8 - Reason for Unfair Reflection",
+      "fieldName": "_203_a_line_8_reason_for",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2944904,
+      "cardinality": 2945479
+    },
+    {
+      "name": "PTAX-203-B Attached",
+      "fieldName": "ptax_203_b_attached",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 1 - Street",
+      "fieldName": "_203_b_line_1_street",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2939065,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 1 - City",
+      "fieldName": "_203_b_line_1_city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2939059,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 1 - Township",
+      "fieldName": "_203_b_line_1_township",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2939072,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 2 - Primary PIN",
+      "fieldName": "_203_b_line_2_primary_pin",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2939059,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 3 - Ground Lease",
+      "fieldName": "_203_b_line_3_ground_lease",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 2939059,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 3 - Controlling Interest",
+      "fieldName": "_203_b_line_3_controlling",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 2939059,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 3 - Co-op Unit",
+      "fieldName": "_203_b_line_3_co_op_unit",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 2939059,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 3 - Other Interest",
+      "fieldName": "_203_b_line_3_other_interest",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 2939059,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 3 - Other Interest Type",
+      "fieldName": "_203_b_line_3_other_interest_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2943649,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 3 - Other Interest Freeform Description",
+      "fieldName": "_203_b_line_3_other_interest_2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2945030,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 4 - 30+ Year Term?",
+      "fieldName": "_203_b_line_4_30_year_term",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 2939059,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 5 - Lessee Interest?",
+      "fieldName": "_203_b_line_5_lessee_interest",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 2939059,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 6 - Lease Begin Date",
+      "fieldName": "_203_b_line_6_lease_begin",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 2943645,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 6 - Lease End Date",
+      "fieldName": "_203_b_line_6_lease_end_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 2943645,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 7 - Renewal Options",
+      "fieldName": "_203_b_line_7_renewal_options",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2943915,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 8 - Single Transfer?",
+      "fieldName": "_203_b_line_8_single_transfer",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 2939059,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 8 - Related Transfers?",
+      "fieldName": "_203_b_line_8_related",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 2939059,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 9a - Interest 1 Transfer Date",
+      "fieldName": "_203_b_line_9a_interest_1",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 2945446,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 9a - Interest 1 Percent Transferred",
+      "fieldName": "_203_b_line_9a_interest_1_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2939059,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 9a - Interest 1 Prior Payment",
+      "fieldName": "_203_b_line_9a_interest_1_2",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2939059,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 9a - Interest 2 Transfer Date",
+      "fieldName": "_203_b_line_9a_interest_2",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 2945446,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 9a - Interest 2 Percent Transferred",
+      "fieldName": "_203_b_line_9a_interest_2_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2939059,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 9a - Interest 2 Prior Payment",
+      "fieldName": "_203_b_line_9a_interest_2_2",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2939059,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 9a - Interest 3 Transfer Date",
+      "fieldName": "_203_b_line_9a_interest_3",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 2945473,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 9a - Interest 3 Percent Transferred",
+      "fieldName": "_203_b_line_9a_interest_3_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2939059,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 9a - Interest 3 Prior Payment",
+      "fieldName": "_203_b_line_9a_interest_3_2",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2939059,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 9a - Interest 4 Transfer Date",
+      "fieldName": "_203_b_line_9a_interest_4",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 2945476,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 9a - Interest 4 Percent Transferred",
+      "fieldName": "_203_b_line_9a_interest_4_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2939059,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 9a - Interest 4 Prior Payment",
+      "fieldName": "_203_b_line_9a_interest_4_2",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2939059,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 9a - Aggregate Percent",
+      "fieldName": "_203_b_line_9a_aggregate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2939059,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 9b - Prior Transfer Tax Paid",
+      "fieldName": "_203_b_line_9b_prior_transfer",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2939059,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 10a - Corporate Franchise Tax?",
+      "fieldName": "_203_b_line_10a_corporate",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 2939059,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 10b - Corporate Franchise Tax Paid",
+      "fieldName": "_203_b_line_10b_corporate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2939059,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 10c - Corporate Name",
+      "fieldName": "_203_b_line_10c_corporate",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2945479,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 10c - File Number",
+      "fieldName": "_203_b_line_10c_file_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2945479,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 10c - BCA Form Number",
+      "fieldName": "_203_b_line_10c_bca_form",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2945479,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 10c - Date Paid",
+      "fieldName": "_203_b_line_10c_date_paid",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 2945479,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 11a - Full consideration",
+      "fieldName": "_203_b_line_11a_full",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2939059,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 11b - Contingent Payment?",
+      "fieldName": "_203_b_line_11b_contingent",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 2939059,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 12a - Personal Property?",
+      "fieldName": "_203_b_line_12a_personal",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 2939059,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 12a - Total Personal Property",
+      "fieldName": "_203_b_line_12a_total_personal",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2939059,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 12b - Mobile Home Included?",
+      "fieldName": "_203_b_line_12b_mobile_home",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 2939059,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 13 - Consideration less personal property",
+      "fieldName": "_203_b_line_13_consideration",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2939059,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 14 - Amount of Other Property Transferred",
+      "fieldName": "_203_b_line_14_amount_of",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2939059,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 15 - Outstanding Mortgage",
+      "fieldName": "_203_b_line_15_outstanding",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2939059,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 16 - Exemption",
+      "fieldName": "_203_b_line_16_exemption",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2945206,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 17 - Taxable value",
+      "fieldName": "_203_b_line_17_taxable_value",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2939059,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 18 - State Tax",
+      "fieldName": "_203_b_line_18_state_tax",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2939059,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 19 - County Tax",
+      "fieldName": "_203_b_line_19_county_tax",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2939059,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 20 - Transfer Taxes Paid (Line 9b)",
+      "fieldName": "_203_b_line_20_transfer_taxes",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2939059,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 21 - Corporate Franchise Tax Paid",
+      "fieldName": "_203_b_line_21_corporate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2939059,
+      "cardinality": 2945479
+    },
+    {
+      "name": "203-B Line 22 - Total Transfer Tax Due",
+      "fieldName": "_203_b_line_22_total_transfer",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2939059,
+      "cardinality": 2945479
+    },
+    {
+      "name": "Step 3 - Legal Description",
+      "fieldName": "step_3_legal_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 457637,
+      "cardinality": 2945479
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:30.894Z"
+}

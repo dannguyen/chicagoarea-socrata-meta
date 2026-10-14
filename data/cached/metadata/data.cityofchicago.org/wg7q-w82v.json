@@ -1,0 +1,58 @@
+{
+  "id": "wg7q-w82v",
+  "name": "E-scooter Pilot Zone - 2020",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1599069489,
+  "publicationDate": 1599069825,
+  "rowsUpdatedAt": 1599157392,
+  "viewLastModified": 1599157391,
+  "viewCount": 1477,
+  "downloadCount": 1283,
+  "category": "Transportation",
+  "tags": [
+    "scooter",
+    "boundaries",
+    "gis",
+    "geo_layer",
+    "2020",
+    "e-scooter"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov/",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "August 2020",
+      "Data Owner": "Chicago Department of Transportation"
+    }
+  },
+  "columns": [
+    {
+      "name": "name",
+      "fieldName": "name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "polygon",
+      "fieldName": "polygon",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:17.274Z"
+}

@@ -1,0 +1,135 @@
+{
+  "id": "t9dq-rknh",
+  "name": "Budget - 2016 Budget Recommendations - Appropriations",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 3613,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1442854846,
+  "publicationDate": 1442866093,
+  "rowsUpdatedAt": 1442866012,
+  "viewLastModified": 1442937016,
+  "viewCount": 4271,
+  "downloadCount": 3377,
+  "category": "Administration & Finance",
+  "tags": [
+    "budget",
+    "2016"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org/budget",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2016",
+      "Frequency": "Data are updated annually",
+      "Data Owner": "Budget & Management"
+    }
+  },
+  "columns": [
+    {
+      "name": "FUND TYPE",
+      "fieldName": "fund_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "FUND CODE",
+      "fieldName": "fund_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 249
+    },
+    {
+      "name": "FUND DESCRIPTION",
+      "fieldName": "fund_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 214
+    },
+    {
+      "name": "DEPARTMENT NUMBER",
+      "fieldName": "department_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 36
+    },
+    {
+      "name": "DEPARTMENT DESCRIPTION",
+      "fieldName": "department_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 36
+    },
+    {
+      "name": "APPROPRIATION AUTHORITY",
+      "fieldName": "appropriation_authority",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 30,
+      "cardinality": 197
+    },
+    {
+      "name": "APPROPRIATION AUTHORITY DESCRIPTION",
+      "fieldName": "appropriation_authority_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 323
+    },
+    {
+      "name": "APPROPRIATION ACCOUNT",
+      "fieldName": "appropriation_account",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 264
+    },
+    {
+      "name": "APPROPRIATION ACCOUNT DESCRIPTION",
+      "fieldName": "appropriation_account_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 257
+    },
+    {
+      "name": "2015 APPROPRATION",
+      "fieldName": "appropration",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2130
+    },
+    {
+      "name": "2015 REVISED APPROPRIATION",
+      "fieldName": "revised_appropriation",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2132
+    },
+    {
+      "name": "2016 RECOMMENDATION",
+      "fieldName": "recommendation",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2617
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:05.839Z"
+}

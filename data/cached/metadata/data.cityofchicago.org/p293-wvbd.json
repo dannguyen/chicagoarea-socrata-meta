@@ -1,0 +1,107 @@
+{
+  "id": "p293-wvbd",
+  "name": "Boundaries - Wards (2023-)",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 50,
+  "rowCountSource": "cached",
+  "rowLabel": "Ward",
+  "hasRowIdentifier": false,
+  "createdAt": 1654527153,
+  "publicationDate": 1654548945,
+  "rowsUpdatedAt": 1655332389,
+  "viewLastModified": 1773091037,
+  "viewCount": 21435,
+  "downloadCount": 5233,
+  "category": "Facilities & Geographic Boundaries",
+  "tags": [
+    "geo_layer",
+    "boundaries",
+    "gis",
+    "city council",
+    "ward",
+    "elections"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "May 2023 - ",
+      "Frequency": "Data are updated as needed.",
+      "Data Owner": "Chicago Board of Election Commissioners"
+    }
+  },
+  "columns": [
+    {
+      "name": "Ward",
+      "fieldName": "ward",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "objectid",
+      "fieldName": "objectid",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "edit_date",
+      "fieldName": "edit_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "ward_id",
+      "fieldName": "ward_id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "globalid",
+      "fieldName": "globalid",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "st_area_sh",
+      "fieldName": "st_area_sh",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "st_length_",
+      "fieldName": "st_length_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:08.401Z"
+}

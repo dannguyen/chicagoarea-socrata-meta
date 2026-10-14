@@ -1,0 +1,166 @@
+{
+  "id": "dmvt-ibeh",
+  "name": "IDPH STD Illinois by County Rank",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1734,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1708439811,
+  "publicationDate": 1708440204,
+  "rowsUpdatedAt": 1708440199,
+  "viewLastModified": 1736793995,
+  "viewCount": 160,
+  "downloadCount": 93,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "Sort",
+      "fieldName": "sort",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 102
+    },
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 17
+    },
+    {
+      "name": "COUNTY",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 102
+    },
+    {
+      "name": "CountyFIPS",
+      "fieldName": "countyfips",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 102
+    },
+    {
+      "name": "Chlamydia_Count",
+      "fieldName": "chlamydia_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 521
+    },
+    {
+      "name": "Chlamydia_Rate",
+      "fieldName": "chlamydia_rate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1324
+    },
+    {
+      "name": "Chlamydia_RankByCount",
+      "fieldName": "chlamydia_rankbycount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 86
+    },
+    {
+      "name": "Chlamydia_RankByRate",
+      "fieldName": "chlamydia_rankbyrate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 102
+    },
+    {
+      "name": "Gonorrhea_Count",
+      "fieldName": "gonorrhea_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 314
+    },
+    {
+      "name": "Gonorrhea_Rate",
+      "fieldName": "gonorrhea_rate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 803
+    },
+    {
+      "name": "Gonorrhea_RankByCount",
+      "fieldName": "gonorrhea_rankbycount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 53
+    },
+    {
+      "name": "Gonorrhea_RankByRate",
+      "fieldName": "gonorrhea_rankbyrate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 94
+    },
+    {
+      "name": "Early_Syphilis_Count",
+      "fieldName": "early_syphilis_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 56
+    },
+    {
+      "name": "Early_Syphilis_Rate",
+      "fieldName": "early_syphilis_rate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 137
+    },
+    {
+      "name": "Early_Syphilis_RankByCount",
+      "fieldName": "early_syphilis_rankbycount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "Early_Syphilis_RankByRate",
+      "fieldName": "early_syphilis_rankbyrate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 42
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:34.371Z"
+}

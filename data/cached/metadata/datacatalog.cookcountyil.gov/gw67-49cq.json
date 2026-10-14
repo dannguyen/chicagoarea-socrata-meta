@@ -1,0 +1,64 @@
+{
+  "id": "gw67-49cq",
+  "name": "Facilities Management - Fire Panel Report, by Location, with Detail - August 2011",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 38,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1315517801,
+  "publicationDate": 1412891950,
+  "rowsUpdatedAt": 1412891943,
+  "viewLastModified": 1769547350,
+  "viewCount": 689,
+  "downloadCount": 2194,
+  "category": "Health & Human Services",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Facilities Management",
+  "attributionLink": "http://www.cookcountygov.com/portal/server.pt/community/facilities_management/294/facilities_management",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 38
+    },
+    {
+      "name": "No Alarms",
+      "fieldName": "no_alarms",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 3
+    },
+    {
+      "name": "Number of Alarms",
+      "fieldName": "number_of_alarms",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 25,
+      "cardinality": 3
+    },
+    {
+      "name": "Alarm Description",
+      "fieldName": "alarm_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 23,
+      "cardinality": 5
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:07.925Z"
+}

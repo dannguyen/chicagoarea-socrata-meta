@@ -1,0 +1,79 @@
+{
+  "id": "m9g9-cj96",
+  "name": "ARPA Road to Recovery Program Details",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 77,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1729543021,
+  "publicationDate": 1730138626,
+  "rowsUpdatedAt": 1785509281,
+  "viewLastModified": 1785509280,
+  "viewCount": 1041,
+  "downloadCount": 1065,
+  "category": "Administration & Finance",
+  "tags": [
+    "budget",
+    "arpa"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "3/3/2021 – Present",
+      "Frequency": "Data is updated quarterly",
+      "Data Owner": "Budget & Management"
+    }
+  },
+  "columns": [
+    {
+      "name": "Program Name",
+      "fieldName": "program_name",
+      "dataTypeName": "text",
+      "description": "Official name of the program.",
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": "Cost Center",
+      "fieldName": "cost_center",
+      "dataTypeName": "text",
+      "description": "Identification number assigned to project by City of Chicago for reporting.",
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": "Department Acronym",
+      "fieldName": "department_acronym",
+      "dataTypeName": "text",
+      "description": "Abbreviation for the department administering the program.",
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": "Department",
+      "fieldName": "department",
+      "dataTypeName": "text",
+      "description": "Identified department in the City of Chicago for administering the program.",
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": "Policy Pillar",
+      "fieldName": "policy_pillar",
+      "dataTypeName": "text",
+      "description": "Alignment of program to policy priority areas of the City of Chicago.",
+      "nullCount": 0,
+      "cardinality": 77
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:20.418Z"
+}

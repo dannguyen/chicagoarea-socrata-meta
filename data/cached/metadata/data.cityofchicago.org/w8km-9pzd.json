@@ -1,0 +1,82 @@
+{
+  "id": "w8km-9pzd",
+  "name": "CTA - Ridership - Annual Boarding Totals",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 38,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1313097340,
+  "publicationDate": 1528822645,
+  "rowsUpdatedAt": 1778869696,
+  "viewLastModified": 1778869695,
+  "viewCount": 23736,
+  "downloadCount": 10188,
+  "category": "Transportation",
+  "tags": [
+    "cta",
+    "public transit",
+    "ridership",
+    "sustainability"
+  ],
+  "attribution": "Chicago Transit Authority",
+  "attributionLink": "http://www.transitchicago.com",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "",
+      "Frequency": "",
+      "Data Owner": "Chicago Transit Authority "
+    }
+  },
+  "columns": [
+    {
+      "name": "year",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 38
+    },
+    {
+      "name": "bus",
+      "fieldName": "bus",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 38
+    },
+    {
+      "name": "paratransit",
+      "fieldName": "paratransit",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 38
+    },
+    {
+      "name": "rail",
+      "fieldName": "rail",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 38
+    },
+    {
+      "name": "total",
+      "fieldName": "total",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 38
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:07.969Z"
+}

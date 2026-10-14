@@ -1,0 +1,90 @@
+{
+  "id": "6uva-a5ei",
+  "name": "CTA - Bus Routes",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 127,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1722445180,
+  "publicationDate": 1722446134,
+  "rowsUpdatedAt": 1736357176,
+  "viewLastModified": 1736357175,
+  "viewCount": 4866,
+  "downloadCount": 2155,
+  "category": "Transportation",
+  "tags": [
+    "geo_layer",
+    "cta",
+    "bus",
+    "sustainability",
+    "public transit",
+    "transportation"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.transitchicago.com/",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "March 2024",
+      "Data Owner": "Chicago Transit Authority"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multiline",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "ROUTE",
+      "fieldName": "route",
+      "dataTypeName": "text",
+      "description": "Route Number",
+      "nullCount": 0,
+      "cardinality": 127
+    },
+    {
+      "name": "NAME",
+      "fieldName": "name",
+      "dataTypeName": "text",
+      "description": "Route Name",
+      "nullCount": 0,
+      "cardinality": 127
+    },
+    {
+      "name": "WKDAY",
+      "fieldName": "wkday",
+      "dataTypeName": "checkbox",
+      "description": "Does the route run on weekdays?",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "SAT",
+      "fieldName": "sat",
+      "dataTypeName": "checkbox",
+      "description": "Does the route run on Saturday?",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "SUN",
+      "fieldName": "sun",
+      "dataTypeName": "checkbox",
+      "description": "Does the route run on Sunday?",
+      "nullCount": 0,
+      "cardinality": 2
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:05.120Z"
+}

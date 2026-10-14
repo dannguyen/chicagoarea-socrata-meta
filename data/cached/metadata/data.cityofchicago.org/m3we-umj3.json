@@ -1,0 +1,73 @@
+{
+  "id": "m3we-umj3",
+  "name": "Performance Metrics - Family & Support Services - Senior Services Nutrition Monthly Utilization",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 68,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1312214544,
+  "publicationDate": 1405012584,
+  "rowsUpdatedAt": 1478715199,
+  "viewLastModified": 1692027314,
+  "viewCount": 1456,
+  "downloadCount": 2822,
+  "category": "Administration & Finance",
+  "tags": [
+    "performance metrics",
+    "service delivery",
+    "human services"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org/performance",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "January 2011 to present",
+      "Frequency": "Data is updated monthly",
+      "Data Owner": "Family & Support Services"
+    }
+  },
+  "columns": [
+    {
+      "name": "Month",
+      "fieldName": "month",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 68
+    },
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Home Delievered Meals",
+      "fieldName": "home_delievered_meals",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 67
+    },
+    {
+      "name": "Congregate Dining Program",
+      "fieldName": "congregate_dining_program",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 68
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:17.397Z"
+}

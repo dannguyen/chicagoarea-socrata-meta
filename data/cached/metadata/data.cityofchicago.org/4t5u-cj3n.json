@@ -1,0 +1,118 @@
+{
+  "id": "4t5u-cj3n",
+  "name": "Lending Equity - Commercial and Consumer Lending",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 30571,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": true,
+  "createdAt": 1638211497,
+  "publicationDate": 1638213729,
+  "rowsUpdatedAt": 1765815762,
+  "viewLastModified": 1765815761,
+  "viewCount": 1800,
+  "downloadCount": 3304,
+  "category": "Administration & Finance",
+  "tags": [
+    "lending",
+    "equity",
+    "2021",
+    "lending equity",
+    "2022",
+    "2020",
+    "2023",
+    "2024",
+    "2025"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2020-2024",
+      "Frequency": "Data are updated annually.",
+      "Data Owner": "Department of Finance"
+    }
+  },
+  "columns": [
+    {
+      "name": "Reporting Year",
+      "fieldName": "reporting_year",
+      "dataTypeName": "number",
+      "description": "The year in which the record was reported, covering bank operations in the previous year.",
+      "nullCount": 0,
+      "cardinality": 30571
+    },
+    {
+      "name": "Bank",
+      "fieldName": "bank",
+      "dataTypeName": "text",
+      "description": "Name of bank submitting data for municipal depository RFP",
+      "nullCount": 0,
+      "cardinality": 30571
+    },
+    {
+      "name": "RFP Source",
+      "fieldName": "rfp_source",
+      "dataTypeName": "text",
+      "description": "RFP submission item data were drawn from.",
+      "nullCount": 0,
+      "cardinality": 30571
+    },
+    {
+      "name": "Data Description",
+      "fieldName": "data_description",
+      "dataTypeName": "text",
+      "description": "The specific data that the bank were required to submit.",
+      "nullCount": 0,
+      "cardinality": 30571
+    },
+    {
+      "name": "ZIP Code",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": "The ZIP Code of the properties whose loans are included in the record, if the record is aggregated by ZIP Code.",
+      "nullCount": 30113,
+      "cardinality": 30571
+    },
+    {
+      "name": "Census Tract",
+      "fieldName": "census_tract",
+      "dataTypeName": "text",
+      "description": "The Census Tract of the properties whose loans are included in the record, if the record is aggregated by Census Tract.",
+      "nullCount": 458,
+      "cardinality": 30571
+    },
+    {
+      "name": "Number of Loans",
+      "fieldName": "number_of_loans",
+      "dataTypeName": "number",
+      "description": "The number of loans of the specified type made within the ZIP Code or Census Tract.",
+      "nullCount": 0,
+      "cardinality": 30571
+    },
+    {
+      "name": "Total Combined Loan Amount",
+      "fieldName": "total_combined_loan_amount",
+      "dataTypeName": "number",
+      "description": "The aggregate principal amount of the loans of the specified type made within the ZIP Code or Census Tract.",
+      "nullCount": 657,
+      "cardinality": 30571
+    },
+    {
+      "name": "Record ID",
+      "fieldName": "record_id",
+      "dataTypeName": "text",
+      "description": "A unique identifier for the record",
+      "nullCount": 0,
+      "cardinality": 30571
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:14.961Z"
+}

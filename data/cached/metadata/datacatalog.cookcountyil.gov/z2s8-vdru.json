@@ -1,0 +1,64 @@
+{
+  "id": "z2s8-vdru",
+  "name": "Building and Zoning - Violations Issued - 2005 through part of 2011",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 211,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1317139904,
+  "publicationDate": 1412896008,
+  "rowsUpdatedAt": 1412896002,
+  "viewLastModified": 1769548137,
+  "viewCount": 1067,
+  "downloadCount": 2453,
+  "category": "Legal & Judicial",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Building and Zoning",
+  "attributionLink": "http://www.cookcountyil.gov/BuildingZoning",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Fiscal Year",
+      "fieldName": "fiscal_year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "Township Name",
+      "fieldName": "township_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 30
+    },
+    {
+      "name": "Violation",
+      "fieldName": "violation",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 106
+    },
+    {
+      "name": "Totals",
+      "fieldName": "totals",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 106
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:03.225Z"
+}

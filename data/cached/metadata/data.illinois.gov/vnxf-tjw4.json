@@ -1,0 +1,446 @@
+{
+  "id": "vnxf-tjw4",
+  "name": "City Of Urbana: IDOT Stop Sheet (Police Data)",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 5446,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1757556729,
+  "publicationDate": 1757627324,
+  "rowsUpdatedAt": 1757627313,
+  "viewLastModified": 1760121134,
+  "viewCount": 95,
+  "downloadCount": 20,
+  "category": "Local Government",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "City of Urbana"
+    },
+    "Data Management": {
+      "Maintainer": "Mac Patel",
+      "Maintainer Email": "mac.patel@urbanail.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "STOP DATE",
+      "fieldName": "stop_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "STOP TIME",
+      "fieldName": "stop_time",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "SENT TO STATE",
+      "fieldName": "sent_to_state",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "INCIDENT NUMBER",
+      "fieldName": "incident_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "STOP TYPE DESCRIPTION",
+      "fieldName": "stop_type_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "GEO CODE",
+      "fieldName": "geo_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 22,
+      "cardinality": 5446
+    },
+    {
+      "name": "ANONYMOUS HOUSE NUMBER",
+      "fieldName": "anonymous_house_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 18,
+      "cardinality": 5446
+    },
+    {
+      "name": "ADDRESS STREET",
+      "fieldName": "address_street",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 19,
+      "cardinality": 5446
+    },
+    {
+      "name": "CROSS STREET",
+      "fieldName": "cross_street",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 4195,
+      "cardinality": 5446
+    },
+    {
+      "name": "RACE DESCRIPTION",
+      "fieldName": "race_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "SEX DESCRIPTION",
+      "fieldName": "sex_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "RESIDENCY CODE",
+      "fieldName": "residency_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 49,
+      "cardinality": 5446
+    },
+    {
+      "name": "AGE IN YEARS (at time of contact)",
+      "fieldName": "age_in_years_at_time_of",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 42,
+      "cardinality": 5446
+    },
+    {
+      "name": "PAT-DOWN FRISK CONDUCTED",
+      "fieldName": "pat_down_frisk_conducted",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "SEARCH CONDUCTED",
+      "fieldName": "search_conducted",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "CITATION ISSUED",
+      "fieldName": "citation_issued",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "ARREST MADE",
+      "fieldName": "arrest_made",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "REASON FOR STOP - DRUG TRANSACTION",
+      "fieldName": "reason_for_stop_drug",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "REASON FOR STOP - RADIO BROADCAST CFS",
+      "fieldName": "reason_for_stop_radio",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "REASON FOR STOP - FITS DESCRIPTION",
+      "fieldName": "reason_for_stop_fits",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "REASON FOR STOP - CASING",
+      "fieldName": "reason_for_stop_casing",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "REASON FOR STOP - PROXIMITY",
+      "fieldName": "reason_for_stop_proximity",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "REASON FOR STOP - GANG ENFORCEMENT",
+      "fieldName": "reason_for_stop_gang",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "REASON FOR STOP - SUSPICIOUS ACTIVITY",
+      "fieldName": "reason_for_stop_suspicious",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "REASON FOR STOP - OTHER",
+      "fieldName": "reason_for_stop_other",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "FRISK CONDUCTED BY",
+      "fieldName": "frisk_conducted_by",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "REASON FOR FRISK - ADMINISTRATIVE",
+      "fieldName": "reason_for_frisk",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "REASON FOR FRISK - VERBAL THREATS",
+      "fieldName": "reason_for_frisk_verbal",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "REASON FOR FRISK - CRIMINAL VIOLENT BEHAVIOR",
+      "fieldName": "reason_for_frisk_criminal",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "REASON FOR FRISK - VIOLENT BEHAVIOR",
+      "fieldName": "reason_for_frisk_violent",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "REASON FOR FRISK - VIOLENT CRIME",
+      "fieldName": "reason_for_frisk_violent_1",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "REASON FOR FRISK - SUSPICIOUS BULGE",
+      "fieldName": "reason_for_frisk_suspicious",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "REASON FOR FRISK - EVASIVE",
+      "fieldName": "reason_for_frisk_evasive",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "REASON FOR FRISK - OTHER",
+      "fieldName": "reason_for_frisk_other",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "PAT-DOWN FRISK LED TO SEARCH BEYOND",
+      "fieldName": "pat_down_frisk_led_to_search",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "SEARCH CONDUCTED BY",
+      "fieldName": "search_conducted_by",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "REASON FOR SEARCH - ADMINISTRATIVE",
+      "fieldName": "reason_for_search",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "REASON FOR SEARCH - DRUGS",
+      "fieldName": "reason_for_search_drugs",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "REASON FOR SEARCH - HARD OBJECT",
+      "fieldName": "reason_for_search_hard_object",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "REASON FOR SEARCH - FIREARM",
+      "fieldName": "reason_for_search_firearm",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "REASON FOR SEARCH - OTHER WEAPON",
+      "fieldName": "reason_for_search_other_weapon",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "REASON FOR SEARCH - OTHER",
+      "fieldName": "reason_for_search_other",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "CONTRABAND FOUND",
+      "fieldName": "contraband_found",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "CONTRABAND FOUND - DRUGS",
+      "fieldName": "contraband_found_drugs",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "CONTRABAND FOUND - DRUG PARAPHERNALIA",
+      "fieldName": "contraband_found_drug",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "CONTRABAND FOUND - ALCOHOL",
+      "fieldName": "contraband_found_alcohol",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "CONTRABAND FOUND - WEAPON",
+      "fieldName": "contraband_found_weapon",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "CONTRABAND FOUND - STOLEN PROPERTY",
+      "fieldName": "contraband_found_stolen",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5446
+    },
+    {
+      "name": "CONTRABAND FOUND - OTHER",
+      "fieldName": "contraband_found_other",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 5446,
+      "cardinality": 5446
+    },
+    {
+      "name": "MAPPING ADDRESS",
+      "fieldName": "mapping_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 19,
+      "cardinality": 5446
+    },
+    {
+      "name": "georeference",
+      "fieldName": "georeference",
+      "dataTypeName": "point",
+      "description": null,
+      "nullCount": 707,
+      "cardinality": 5446
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:34.673Z"
+}

@@ -1,0 +1,126 @@
+{
+  "id": "ggzf-r6su",
+  "name": "Consultant Entity Data Daily",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 523,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1736803170,
+  "publicationDate": 1736803319,
+  "rowsUpdatedAt": 1791981693,
+  "viewLastModified": 1736803428,
+  "viewCount": 356,
+  "downloadCount": 109,
+  "category": "Government and Public Employees",
+  "tags": [],
+  "attribution": "Illinois Secretary of State",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Illinois Secretary of State"
+    },
+    "Data Management": {
+      "Maintainer": "Illinois Secretary of State",
+      "Maintainer Email": "publicdata@ilsos.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "ENT_REG_YEAR",
+      "fieldName": "ent_reg_year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 523
+    },
+    {
+      "name": "CONSULT_LNAME",
+      "fieldName": "consult_lname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 523
+    },
+    {
+      "name": "CONSULT_FNAME",
+      "fieldName": "consult_fname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 523
+    },
+    {
+      "name": "CONSULT_MNAME",
+      "fieldName": "consult_mname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 430,
+      "cardinality": 523
+    },
+    {
+      "name": "CONSULT_COMP_NAME",
+      "fieldName": "consult_comp_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 83,
+      "cardinality": 523
+    },
+    {
+      "name": "CONSULT_ADDR1",
+      "fieldName": "consult_addr1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 523
+    },
+    {
+      "name": "CONSULT_ADDR2",
+      "fieldName": "consult_addr2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 409,
+      "cardinality": 523
+    },
+    {
+      "name": "CONSULT_CITY",
+      "fieldName": "consult_city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 523
+    },
+    {
+      "name": "CONSULT_ST_ABBR",
+      "fieldName": "consult_st_abbr",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 523
+    },
+    {
+      "name": "CONSULT_ZIP",
+      "fieldName": "consult_zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 523
+    },
+    {
+      "name": "ENT_NAME",
+      "fieldName": "ent_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 523
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:33.456Z"
+}

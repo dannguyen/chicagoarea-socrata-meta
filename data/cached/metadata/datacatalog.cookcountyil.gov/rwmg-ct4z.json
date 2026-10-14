@@ -1,0 +1,67 @@
+{
+  "id": "rwmg-ct4z",
+  "name": "Sweetened Beverage Tax - Exempted Products for Medical Use and Weight Reduction/Meal Replacements",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 152,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1504898908,
+  "publicationDate": 1508427340,
+  "rowsUpdatedAt": 1508427331,
+  "viewLastModified": 1769544805,
+  "viewCount": 10726,
+  "downloadCount": 2341,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Revenue",
+  "attributionLink": "http://www.cookcountyil.gov/department-of-revenue/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Department of Revenue"
+    },
+    "Detailed Descriptive": {
+      "Program link": "https://www.cookcountyil.gov/service/sweetened-beverage-tax"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Not updated (historical only)",
+      "Publishing frequency": "Not updated (historical only)"
+    }
+  },
+  "columns": [
+    {
+      "name": "Product",
+      "fieldName": "product",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 149
+    },
+    {
+      "name": "Exemption Category",
+      "fieldName": "exemption_category",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Type",
+      "fieldName": "type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 9
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:50.711Z"
+}

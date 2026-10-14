@@ -1,0 +1,72 @@
+{
+  "id": "mzyj-5ekk",
+  "name": "Inspector General - Public Statements",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 57,
+  "rowCountSource": "cached",
+  "rowLabel": "public statement",
+  "hasRowIdentifier": false,
+  "createdAt": 1463604369,
+  "publicationDate": 1531863661,
+  "rowsUpdatedAt": 1790866960,
+  "viewLastModified": 1790866960,
+  "viewCount": 10822,
+  "downloadCount": 2879,
+  "category": "Finance & Operations",
+  "tags": [
+    "oiig",
+    "investigation"
+  ],
+  "attribution": "Office of the Independent Inspector General",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Bureau of Technology Data Services"
+    },
+    "Metadata": {
+      "Update Frequency": "As Needed"
+    },
+    "Detailed Descriptive": {
+      "Ordinance Link": "https://library.municode.com/il/cook_county/codes/code_of_ordinances?nodeId=PTIGEOR_CH2AD_ARTIVOFEM_DIV5INGE_S2-289COPUST",
+      "Ordinance": "Sec. 2-289"
+    },
+    "Publishing Details": {
+      "Data change frequency": "As needed",
+      "Publishing frequency": "As needed"
+    }
+  },
+  "columns": [
+    {
+      "name": "Link",
+      "fieldName": "link",
+      "dataTypeName": "url",
+      "description": "title of public statement; link directs to a PDF of the written statement",
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": "Date Issued",
+      "fieldName": "date_issued",
+      "dataTypeName": "calendar_date",
+      "description": "date the statement was issued by the Inspector General",
+      "nullCount": 0,
+      "cardinality": 57
+    },
+    {
+      "name": "Case Number",
+      "fieldName": "case_number",
+      "dataTypeName": "text",
+      "description": "case number assigned by the Inspector General to identify investigations",
+      "nullCount": 2,
+      "cardinality": 57
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:50.668Z"
+}

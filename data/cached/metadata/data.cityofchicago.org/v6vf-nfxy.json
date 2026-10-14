@@ -1,0 +1,400 @@
+{
+  "id": "v6vf-nfxy",
+  "name": "311 Service Requests",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 13796455,
+  "rowCountSource": "cached",
+  "rowLabel": "Service Request",
+  "hasRowIdentifier": true,
+  "createdAt": 1544730272,
+  "publicationDate": 1692313146,
+  "rowsUpdatedAt": 1792001271,
+  "viewLastModified": 1781560104,
+  "viewCount": 120533,
+  "downloadCount": 27619,
+  "category": "Service Requests",
+  "tags": [
+    "service requests",
+    "311"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "12/18/2018 to present, plus some records ",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"v6vf-nfxy\"",
+      "Frequency": "Data are updated multiple times per day",
+      "Data Owner": "City of Chicago"
+    }
+  },
+  "columns": [
+    {
+      "name": "SR_NUMBER",
+      "fieldName": "sr_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 13796455
+    },
+    {
+      "name": "SR_TYPE",
+      "fieldName": "sr_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 13796455
+    },
+    {
+      "name": "SR_SHORT_CODE",
+      "fieldName": "sr_short_code",
+      "dataTypeName": "text",
+      "description": "An internal code corresponding to the Service Request Type. This code allows for searching and filtering more easily than using the full SR_TYPE value.",
+      "nullCount": 0,
+      "cardinality": 13796455
+    },
+    {
+      "name": "CREATED_DEPARTMENT",
+      "fieldName": "created_department",
+      "dataTypeName": "text",
+      "description": "The department, if any, that created the service request.",
+      "nullCount": 5681268,
+      "cardinality": 13796455
+    },
+    {
+      "name": "OWNER_DEPARTMENT",
+      "fieldName": "owner_department",
+      "dataTypeName": "text",
+      "description": "The department with initial responsibility for the service request.",
+      "nullCount": 0,
+      "cardinality": 13796455
+    },
+    {
+      "name": "STATUS",
+      "fieldName": "status",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 13796455
+    },
+    {
+      "name": "ORIGIN",
+      "fieldName": "origin",
+      "dataTypeName": "text",
+      "description": "How the request was opened. Some values, such as Generated In House and Mass Entry result from the City's own operations.",
+      "nullCount": 226,
+      "cardinality": 13796455
+    },
+    {
+      "name": "CREATED_DATE",
+      "fieldName": "created_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 13796455
+    },
+    {
+      "name": "LAST_MODIFIED_DATE",
+      "fieldName": "last_modified_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 13796455
+    },
+    {
+      "name": "CLOSED_DATE",
+      "fieldName": "closed_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 203922,
+      "cardinality": 13796455
+    },
+    {
+      "name": "STREET_ADDRESS",
+      "fieldName": "street_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 12257,
+      "cardinality": 13796455
+    },
+    {
+      "name": "CITY",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 4338691,
+      "cardinality": 13796455
+    },
+    {
+      "name": "STATE",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 4338691,
+      "cardinality": 13796455
+    },
+    {
+      "name": "ZIP_CODE",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1000480,
+      "cardinality": 13796455
+    },
+    {
+      "name": "STREET_NUMBER",
+      "fieldName": "street_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 13717,
+      "cardinality": 13796455
+    },
+    {
+      "name": "STREET_DIRECTION",
+      "fieldName": "street_direction",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 14413,
+      "cardinality": 13796455
+    },
+    {
+      "name": "STREET_NAME",
+      "fieldName": "street_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 12369,
+      "cardinality": 13796455
+    },
+    {
+      "name": "STREET_TYPE",
+      "fieldName": "street_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 115000,
+      "cardinality": 13796455
+    },
+    {
+      "name": "DUPLICATE",
+      "fieldName": "duplicate",
+      "dataTypeName": "checkbox",
+      "description": "Is this request a duplicate of another request?",
+      "nullCount": 0,
+      "cardinality": 13796455
+    },
+    {
+      "name": "LEGACY_RECORD",
+      "fieldName": "legacy_record",
+      "dataTypeName": "checkbox",
+      "description": "Did this request originate in the previous 311 system?",
+      "nullCount": 0,
+      "cardinality": 13796455
+    },
+    {
+      "name": "LEGACY_SR_NUMBER",
+      "fieldName": "legacy_sr_number",
+      "dataTypeName": "text",
+      "description": "If this request originated in the previous 311 system, the original Service Request Number.",
+      "nullCount": 13765012,
+      "cardinality": 13796455
+    },
+    {
+      "name": "PARENT_SR_NUMBER",
+      "fieldName": "parent_sr_number",
+      "dataTypeName": "text",
+      "description": "Parent Service Request of the record if applicable. If the current Service Request record has been identified as a duplicate request, the record will be created as a child of the original request.",
+      "nullCount": 13089725,
+      "cardinality": 13796455
+    },
+    {
+      "name": "COMMUNITY_AREA",
+      "fieldName": "community_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 20276,
+      "cardinality": 13796455
+    },
+    {
+      "name": "WARD",
+      "fieldName": "ward",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 19665,
+      "cardinality": 13796455
+    },
+    {
+      "name": "ELECTRICAL_DISTRICT",
+      "fieldName": "electrical_district",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 11459557,
+      "cardinality": 13796455
+    },
+    {
+      "name": "ELECTRICITY_GRID",
+      "fieldName": "electricity_grid",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2417245,
+      "cardinality": 13796455
+    },
+    {
+      "name": "POLICE_SECTOR",
+      "fieldName": "police_sector",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 19637,
+      "cardinality": 13796455
+    },
+    {
+      "name": "POLICE_DISTRICT",
+      "fieldName": "police_district",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 19633,
+      "cardinality": 13796455
+    },
+    {
+      "name": "POLICE_BEAT",
+      "fieldName": "police_beat",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 19637,
+      "cardinality": 13796455
+    },
+    {
+      "name": "PRECINCT",
+      "fieldName": "precinct",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 23630,
+      "cardinality": 13796455
+    },
+    {
+      "name": "SANITATION_DIVISION_DAYS",
+      "fieldName": "sanitation_division_days",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 13644491,
+      "cardinality": 13796455
+    },
+    {
+      "name": "CREATED_HOUR",
+      "fieldName": "created_hour",
+      "dataTypeName": "number",
+      "description": "The hour of the day component of CREATED_DATE.",
+      "nullCount": 0,
+      "cardinality": 13796455
+    },
+    {
+      "name": "CREATED_DAY_OF_WEEK",
+      "fieldName": "created_day_of_week",
+      "dataTypeName": "number",
+      "description": "The day of the week component of CREATED_DATE. Sunday=1",
+      "nullCount": 0,
+      "cardinality": 13796455
+    },
+    {
+      "name": "CREATED_MONTH",
+      "fieldName": "created_month",
+      "dataTypeName": "number",
+      "description": "The month component of CREATED_DATE",
+      "nullCount": 0,
+      "cardinality": 13796455
+    },
+    {
+      "name": "X_COORDINATE",
+      "fieldName": "x_coordinate",
+      "dataTypeName": "number",
+      "description": "The x coordinate of the location in State Plane Illinois East NAD 1983 projection.",
+      "nullCount": 13812,
+      "cardinality": 13796455
+    },
+    {
+      "name": "Y_COORDINATE",
+      "fieldName": "y_coordinate",
+      "dataTypeName": "number",
+      "description": "The y coordinate of the location in State Plane Illinois East NAD 1983 projection.",
+      "nullCount": 13804,
+      "cardinality": 13796455
+    },
+    {
+      "name": "LATITUDE",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": "The latitude of the location.",
+      "nullCount": 14223,
+      "cardinality": 13796455
+    },
+    {
+      "name": "LONGITUDE",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": "The longitude of the location.",
+      "nullCount": 14223,
+      "cardinality": 13796455
+    },
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": "The location in a format that allows for creation of maps and other geographic operations on this data portal.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - Wards (2023-)",
+      "fieldName": ":@computed_region_du4m_ji7t",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Boundaries - Wards (2023-)' (du4m-ji7t) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:04.621Z"
+}

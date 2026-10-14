@@ -1,0 +1,243 @@
+{
+  "id": "4564-ixr2",
+  "name": "COVID-19 Daily Vaccinations - Administered in Chicago - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1003,
+  "rowCountSource": "cached",
+  "rowLabel": "Day",
+  "hasRowIdentifier": true,
+  "createdAt": 1608233368,
+  "publicationDate": 1610225510,
+  "rowsUpdatedAt": 1702651136,
+  "viewLastModified": 1788212342,
+  "viewCount": 3308,
+  "downloadCount": 4689,
+  "category": "Health & Human Services",
+  "tags": [
+    "covid-19",
+    "vaccination",
+    "health",
+    "public health",
+    "link to article present",
+    "historical"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://chicago.gov/coronavirus",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "December 2020 - September 2023",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "http://dev.cityofchicago.org/open%20data/data%20portal/2021/06/10/covid-no-weekend-updates.html | http://dev.cityofchicago.org/open%20data/data%20portal/2021/06/10/covid-no-weekend-updates.html",
+      "Data Owner": "Department of Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "Date",
+      "fieldName": "date",
+      "dataTypeName": "calendar_date",
+      "description": "Date vaccine administered. Blank indicates unknown date.",
+      "nullCount": 0,
+      "cardinality": 1003
+    },
+    {
+      "name": "Total Doses - Daily",
+      "fieldName": "total_doses_daily",
+      "dataTypeName": "number",
+      "description": "Total number of doses administered on the date.",
+      "nullCount": 0,
+      "cardinality": 847
+    },
+    {
+      "name": "Total Doses - Cumulative",
+      "fieldName": "total_doses_cumulative",
+      "dataTypeName": "number",
+      "description": "Total number of doses administered through the date.",
+      "nullCount": 0,
+      "cardinality": 1003
+    },
+    {
+      "name": "1st Dose - Daily",
+      "fieldName": "_1st_dose_daily",
+      "dataTypeName": "number",
+      "description": "Number of 1st doses administered on the date.",
+      "nullCount": 0,
+      "cardinality": 799
+    },
+    {
+      "name": "1st Dose - Cumulative",
+      "fieldName": "_1st_dose_cumulative",
+      "dataTypeName": "number",
+      "description": "Total number of 1st doses administered through the date.",
+      "nullCount": 0,
+      "cardinality": 1003
+    },
+    {
+      "name": "2nd Dose - Daily",
+      "fieldName": "_2nd_dose_daily",
+      "dataTypeName": "number",
+      "description": "Number of 2nd doses administered on the date.",
+      "nullCount": 0,
+      "cardinality": 738
+    },
+    {
+      "name": "2nd Dose - Cumulative",
+      "fieldName": "_2nd_dose_cumulative_admin",
+      "dataTypeName": "number",
+      "description": "Total number of 2nd doses administered through the date.",
+      "nullCount": 0,
+      "cardinality": 985
+    },
+    {
+      "name": "Total Doses - Daily - Chicago Resident",
+      "fieldName": "total_doses_daily_chicago_resident",
+      "dataTypeName": "number",
+      "description": "Total number of doses administered to Chicago residents on the date.",
+      "nullCount": 0,
+      "cardinality": 829
+    },
+    {
+      "name": "Total Doses - Cumulative - Chicago Resident",
+      "fieldName": "total_doses_cumulative_chicago_resident",
+      "dataTypeName": "number",
+      "description": "Total number of doses administered to Chicago residents through the date.",
+      "nullCount": 0,
+      "cardinality": 1003
+    },
+    {
+      "name": "Total Doses - Daily - Non-Chicago Resident",
+      "fieldName": "total_doses_daily_non_chicago_resident",
+      "dataTypeName": "number",
+      "description": "Total number of doses administered to Non-Chicago residents on the date.",
+      "nullCount": 0,
+      "cardinality": 640
+    },
+    {
+      "name": "Total Doses - Cumulative - Non-Chicago Resident",
+      "fieldName": "total_doses_cumulative_non_chicago_resident",
+      "dataTypeName": "number",
+      "description": "Total number of doses administered to Non-Chicago residents through the date.",
+      "nullCount": 0,
+      "cardinality": 1002
+    },
+    {
+      "name": "Total Doses - Daily - Unknown Residency",
+      "fieldName": "total_doses_daily_unknown_residency",
+      "dataTypeName": "number",
+      "description": "Total number of doses administered to people of unknown residency on the date.",
+      "nullCount": 0,
+      "cardinality": 116
+    },
+    {
+      "name": "Total Doses - Cumulative - Unknown Residency",
+      "fieldName": "total_doses_cumulative_unknown_residency",
+      "dataTypeName": "number",
+      "description": "Total number of doses administered to people of unknown residency through the date.",
+      "nullCount": 0,
+      "cardinality": 718
+    },
+    {
+      "name": "1st Dose - Daily - Chicago Resident",
+      "fieldName": "_1st_dose_daily_chicago_resident",
+      "dataTypeName": "number",
+      "description": "Number of 1st doses administered to Chicago residents on the date.",
+      "nullCount": 0,
+      "cardinality": 751
+    },
+    {
+      "name": "1st Dose - Cumulative  - Chicago Resident",
+      "fieldName": "_1st_dose_cumulative_chicago_resident",
+      "dataTypeName": "number",
+      "description": "Total number of 1st doses administered through this date to Chicago residents.",
+      "nullCount": 0,
+      "cardinality": 1002
+    },
+    {
+      "name": "1st Dose - Daily - Non-Chicago Resident",
+      "fieldName": "_1st_dose_daily_non_chicago_resident",
+      "dataTypeName": "number",
+      "description": "Number of 1st doses administered to Non-Chicago residents on the date.",
+      "nullCount": 0,
+      "cardinality": 550
+    },
+    {
+      "name": "1st Dose - Cumulative  - Non-Chicago Resident",
+      "fieldName": "_1st_dose_cumulative_non_chicago_resident",
+      "dataTypeName": "number",
+      "description": "Total number of 1st doses administered through this date to Non-Chicago residents.",
+      "nullCount": 0,
+      "cardinality": 1001
+    },
+    {
+      "name": "1st Dose - Daily - Unknown Residency",
+      "fieldName": "_1st_dose_daily_unknown_residency",
+      "dataTypeName": "number",
+      "description": "Number of 1st doses administered to people of unknown residency on this date.",
+      "nullCount": 0,
+      "cardinality": 88
+    },
+    {
+      "name": "1st Dose - Cumulative - Unknown Residency",
+      "fieldName": "_1st_dose_cumulative_unknown_residency",
+      "dataTypeName": "number",
+      "description": "Total number of 1st doses administered through this date to people of unknown residency.",
+      "nullCount": 0,
+      "cardinality": 677
+    },
+    {
+      "name": "2nd Dose - Daily - Chicago Resident",
+      "fieldName": "_2nd_dose_daily_chicago_resident",
+      "dataTypeName": "number",
+      "description": "Number of 2nd doses administered  to Chicago residents on the date.",
+      "nullCount": 0,
+      "cardinality": 693
+    },
+    {
+      "name": "2nd Dose - Cumulative  - Chicago Resident",
+      "fieldName": "_2nd_dose_cumulative_chicago_resident",
+      "dataTypeName": "number",
+      "description": "Total number of 2nd doses administered through this date  to Chicago residents.",
+      "nullCount": 0,
+      "cardinality": 983
+    },
+    {
+      "name": "2nd Dose - Daily - Non-Chicago Resident",
+      "fieldName": "_2nd_dose_daily_non_chicago_resident",
+      "dataTypeName": "number",
+      "description": "Number of 2nd doses administered  to Non-Chicago residents on the date.",
+      "nullCount": 0,
+      "cardinality": 484
+    },
+    {
+      "name": "2nd Dose - Cumulative  - Non-Chicago Resident",
+      "fieldName": "_2nd_dose_cumulative_non_chicago_resident",
+      "dataTypeName": "number",
+      "description": "Total number of 2nd doses administered through this date  to Non-Chicago residents.",
+      "nullCount": 0,
+      "cardinality": 977
+    },
+    {
+      "name": "2nd Dose - Daily - Unknown Residency",
+      "fieldName": "_2nd_dose_daily_unknown_residency",
+      "dataTypeName": "number",
+      "description": "Number of 2nd doses administered to people of unknown residency on the date.",
+      "nullCount": 0,
+      "cardinality": 59
+    },
+    {
+      "name": "2nd Dose - Cumulative- Unknown Residency",
+      "fieldName": "_2nd_dose_cumulative_unknown_residency",
+      "dataTypeName": "number",
+      "description": "Total number of 2nd doses administered through this date to people of unknown residency.",
+      "nullCount": 0,
+      "cardinality": 502
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:07.748Z"
+}

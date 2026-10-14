@@ -1,0 +1,216 @@
+{
+  "id": "gc7y-n4xa",
+  "name": "Average Daily Traffic Counts",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2304570,
+  "rowCountSource": "cached",
+  "rowLabel": "Daily Count for a Street Segment",
+  "hasRowIdentifier": true,
+  "createdAt": 1773675512,
+  "publicationDate": 1775677908,
+  "rowsUpdatedAt": 1791982714,
+  "viewLastModified": 1786035120,
+  "viewCount": 2687,
+  "downloadCount": 551,
+  "category": "Transportation",
+  "tags": [
+    "traffic",
+    "link to article present"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "10/7/2020 - Current",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"gc7y-n4xa\"",
+      "Frequency": "Daily",
+      "Data Owner": "Department of Transportation"
+    }
+  },
+  "columns": [
+    {
+      "name": "timestamp",
+      "fieldName": "timestamp",
+      "dataTypeName": "calendar_date",
+      "description": "Date associated with the count",
+      "nullCount": 0,
+      "cardinality": 2304570
+    },
+    {
+      "name": "segmentid",
+      "fieldName": "segmentid",
+      "dataTypeName": "number",
+      "description": "Identification number for the segment in the Automated Traffic Management System (ATMS)",
+      "nullCount": 0,
+      "cardinality": 2304570
+    },
+    {
+      "name": "roadname",
+      "fieldName": "roadname",
+      "dataTypeName": "text",
+      "description": "Name of the road where the segment is located",
+      "nullCount": 794,
+      "cardinality": 2304570
+    },
+    {
+      "name": "direction",
+      "fieldName": "direction",
+      "dataTypeName": "text",
+      "description": "Direction of travel along the segment",
+      "nullCount": 0,
+      "cardinality": 2306700
+    },
+    {
+      "name": "fromsegment",
+      "fieldName": "fromsegment",
+      "dataTypeName": "text",
+      "description": "Intersection where the segment begins ",
+      "nullCount": 1709,
+      "cardinality": 2304570
+    },
+    {
+      "name": "tosegment",
+      "fieldName": "tosegment",
+      "dataTypeName": "text",
+      "description": "Intersection where the segment ends",
+      "nullCount": 794,
+      "cardinality": 2304570
+    },
+    {
+      "name": "vehiclecount",
+      "fieldName": "vehiclecount",
+      "dataTypeName": "number",
+      "description": "Average daily traffic count of vehicles traveling along the segment (30-day average)",
+      "nullCount": 0,
+      "cardinality": 2304570
+    },
+    {
+      "name": "startlat",
+      "fieldName": "startlat",
+      "dataTypeName": "number",
+      "description": "Latitude of the start point of the segment",
+      "nullCount": 0,
+      "cardinality": 2304570
+    },
+    {
+      "name": "startlon",
+      "fieldName": "startlon",
+      "dataTypeName": "number",
+      "description": "Longitude of the start point of the segment",
+      "nullCount": 0,
+      "cardinality": 2306700
+    },
+    {
+      "name": "startlocation",
+      "fieldName": "startlocation",
+      "dataTypeName": "point",
+      "description": "Location of the start point of the segment in a format that allows for creation of maps and other geographic operations on this data portal.",
+      "nullCount": 0,
+      "cardinality": 2306700
+    },
+    {
+      "name": "midpointlat",
+      "fieldName": "midpointlat",
+      "dataTypeName": "number",
+      "description": "Latitude of the midpoint of the segment ",
+      "nullCount": 0,
+      "cardinality": 2306700
+    },
+    {
+      "name": "midpointlon",
+      "fieldName": "midpointlon",
+      "dataTypeName": "number",
+      "description": " Longitude of the midpoint of the segment",
+      "nullCount": 0,
+      "cardinality": 2306700
+    },
+    {
+      "name": "midpointlocation",
+      "fieldName": "midpointlocation",
+      "dataTypeName": "point",
+      "description": "Location of the midpoint of the segment in a format that allows for creation of maps and other geographic operations on this data portal.",
+      "nullCount": 0,
+      "cardinality": 2306700
+    },
+    {
+      "name": "endlat",
+      "fieldName": "endlat",
+      "dataTypeName": "number",
+      "description": "Latitude of the endpoint of the segment",
+      "nullCount": 0,
+      "cardinality": 2306700
+    },
+    {
+      "name": "endlon",
+      "fieldName": "endlon",
+      "dataTypeName": "number",
+      "description": "Longitude of the endpoint of the segment",
+      "nullCount": 0,
+      "cardinality": 2306700
+    },
+    {
+      "name": "endlocation",
+      "fieldName": "endlocation",
+      "dataTypeName": "point",
+      "description": "Location of the endpoint of the segment in a format that allows for creation of maps and other geographic operations on this data portal.",
+      "nullCount": 0,
+      "cardinality": 2306700
+    },
+    {
+      "name": "recordid",
+      "fieldName": "recordid",
+      "dataTypeName": "text",
+      "description": "A unique identifier for the row.",
+      "nullCount": 0,
+      "cardinality": 2306700
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Boundaries - ZIP Codes' (rpca-8um6) the point in column 'midpoint_location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Community Areas' (vrxf-vc4k) the point in column 'midpoint_location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Zip Codes' (6mkv-f3dw) the point in column 'midpoint_location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Census Tracts' (bdys-3d7i) the point in column 'midpoint_location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards 2023-",
+      "fieldName": ":@computed_region_8hcu_yrd4",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Wards 2023-' (8hcu-yrd4) the point in column 'midpoint_location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:10.032Z"
+}

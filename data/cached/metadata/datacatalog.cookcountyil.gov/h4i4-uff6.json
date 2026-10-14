@@ -1,0 +1,56 @@
+{
+  "id": "h4i4-uff6",
+  "name": "Risk Management - Employment Enrollment Summary, by Department - April 2012",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 169,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1337619516,
+  "publicationDate": 1412894111,
+  "rowsUpdatedAt": 1412894107,
+  "viewLastModified": 1769542817,
+  "viewCount": 666,
+  "downloadCount": 1744,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Risk Management",
+  "attributionLink": "http://www.cookcountyrisk.com/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "County Department Number ",
+      "fieldName": "county_department_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 168
+    },
+    {
+      "name": "Enrollment Count",
+      "fieldName": "enrollment_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 78
+    },
+    {
+      "name": "Cost",
+      "fieldName": "cost",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 153
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:08.269Z"
+}

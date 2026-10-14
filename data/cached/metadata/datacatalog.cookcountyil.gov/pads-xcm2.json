@@ -1,0 +1,72 @@
+{
+  "id": "pads-xcm2",
+  "name": "Procurement - Buying Plan - Fiscal Year 2017",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 163,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1479831010,
+  "publicationDate": 1481312596,
+  "rowsUpdatedAt": 1481312588,
+  "viewLastModified": 1769544612,
+  "viewCount": 2101,
+  "downloadCount": 3281,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Office of the Chief Procurement Officer",
+  "attributionLink": "https://www.cookcountyil.gov/procurement",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Department",
+      "fieldName": "department",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 27
+    },
+    {
+      "name": "Estimated Amount",
+      "fieldName": "estimated_amount",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Description",
+      "fieldName": "description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 160
+    },
+    {
+      "name": "Anticipated Advertising Date (Quarterly)",
+      "fieldName": "anticipated_advertising_date_quarterly",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "M/WBE Subcontracting Opportunities (By Trades)",
+      "fieldName": "m_wbe_subcontracting_opportunities_by_trades",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 18
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:56.723Z"
+}

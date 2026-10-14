@@ -1,0 +1,216 @@
+{
+  "id": "iyu8-jkf8",
+  "name": "Mid-Year Grants 925",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 789,
+  "rowCountSource": "cached",
+  "rowLabel": "Project",
+  "hasRowIdentifier": true,
+  "createdAt": 1753471453,
+  "publicationDate": 1753807910,
+  "rowsUpdatedAt": 1783516715,
+  "viewLastModified": 1783516713,
+  "viewCount": 1067,
+  "downloadCount": 2409,
+  "category": "Administration & Finance",
+  "tags": [
+    "budget",
+    "finance",
+    "federal"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov/city/en/depts/obm/provdrs/budget/svcs/BudgetPublications.html",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2025 - Present",
+      "Frequency": "Data is updated yearly",
+      "Data Owner": "Budget & Management"
+    }
+  },
+  "columns": [
+    {
+      "name": "Data Extract - As Of Date",
+      "fieldName": "data_extract_as_of_date",
+      "dataTypeName": "calendar_date",
+      "description": "The specific date when data was obtained or retrieved from a source for the purpose of analysis and reporting",
+      "nullCount": 0,
+      "cardinality": 789
+    },
+    {
+      "name": "Department (Code)",
+      "fieldName": "department_code",
+      "dataTypeName": "text",
+      "description": "Code associated with the City department as designated in the Budget Ordinance and aligning with the City's financial management systems",
+      "nullCount": 0,
+      "cardinality": 789
+    },
+    {
+      "name": "Department (Description)",
+      "fieldName": "department_description",
+      "dataTypeName": "text",
+      "description": "Description associated with the City department as designated in the Budget Ordinance and aligning with the City's financial management systems",
+      "nullCount": 0,
+      "cardinality": 789
+    },
+    {
+      "name": "Department (Code - Description)",
+      "fieldName": "department_code_description",
+      "dataTypeName": "text",
+      "description": "Code and description associated with the City department as designated in the Budget Ordinance and aligning with the City's financial management systems",
+      "nullCount": 0,
+      "cardinality": 789
+    },
+    {
+      "name": "Composite Fund (Code)",
+      "fieldName": "composite_fund_code",
+      "dataTypeName": "text",
+      "description": "Code associated with the Composite Fund. The Composite Fund combines multiple projects or activities under a single application",
+      "nullCount": 367,
+      "cardinality": 789
+    },
+    {
+      "name": "Composite Fund (Description)",
+      "fieldName": "composite_fund_description",
+      "dataTypeName": "text",
+      "description": "Also known as Composite Fund Name.  The Composite Fund combines multiple projects or activities under a single application",
+      "nullCount": 367,
+      "cardinality": 789
+    },
+    {
+      "name": "Composite Fund (Code - Description)",
+      "fieldName": "composite_fund_code_description",
+      "dataTypeName": "text",
+      "description": "Code associated with the Composite Fund along with a description of the Composite Fund (i.e., Fund Name). ",
+      "nullCount": 367,
+      "cardinality": 789
+    },
+    {
+      "name": "Fund (Code)",
+      "fieldName": "fund_code",
+      "dataTypeName": "text",
+      "description": "Code associated with the Fund. Designated with the Budget Ordinance and aligns with City financial management systems.",
+      "nullCount": 0,
+      "cardinality": 789
+    },
+    {
+      "name": "Fund (Description)",
+      "fieldName": "fund_description",
+      "dataTypeName": "text",
+      "description": "Also known as Fund Name. Description of the Fund. Designated with the Budget Ordinance and aligns with City financial management systems.",
+      "nullCount": 0,
+      "cardinality": 789
+    },
+    {
+      "name": "Fund (Code - Description)",
+      "fieldName": "fund_code_description",
+      "dataTypeName": "text",
+      "description": "Code associated with the Fund along with a description of the Fund (i.e., Fund Name). Designated with the Budget Ordinance and aligns with City financial management systems.",
+      "nullCount": 0,
+      "cardinality": 789
+    },
+    {
+      "name": "Parent Cost Center (Code)",
+      "fieldName": "parent_cost_center_code",
+      "dataTypeName": "text",
+      "description": "A unique Higher-level organizational unit identifier that may encompass multiple sub-cost centers",
+      "nullCount": 0,
+      "cardinality": 789
+    },
+    {
+      "name": "Grant Project (Code)",
+      "fieldName": "grant_project_code",
+      "dataTypeName": "text",
+      "description": "Unique code associated with any specific grant award received by the City",
+      "nullCount": 0,
+      "cardinality": 789
+    },
+    {
+      "name": "Grant Project (Description)",
+      "fieldName": "grant_project_description",
+      "dataTypeName": "text",
+      "description": "Description of any grant award received by the City",
+      "nullCount": 0,
+      "cardinality": 789
+    },
+    {
+      "name": "Grant Start Date",
+      "fieldName": "grant_start_date",
+      "dataTypeName": "calendar_date",
+      "description": "Start date of grant project",
+      "nullCount": 0,
+      "cardinality": 789
+    },
+    {
+      "name": "Grant End Date",
+      "fieldName": "grant_end_date",
+      "dataTypeName": "calendar_date",
+      "description": "End date of grant project",
+      "nullCount": 19,
+      "cardinality": 789
+    },
+    {
+      "name": "Grant Agency",
+      "fieldName": "grant_agency",
+      "dataTypeName": "text",
+      "description": "Name of grant agency",
+      "nullCount": 4,
+      "cardinality": 789
+    },
+    {
+      "name": "ALN (Code)",
+      "fieldName": "aln_code",
+      "dataTypeName": "text",
+      "description": "Assistance Listing Number for Federal Grants",
+      "nullCount": 19,
+      "cardinality": 789
+    },
+    {
+      "name": "Budget",
+      "fieldName": "budget",
+      "dataTypeName": "number",
+      "description": "The specific sum of money allocated for a specific purpose, project or period",
+      "nullCount": 5,
+      "cardinality": 789
+    },
+    {
+      "name": "Encumbrances",
+      "fieldName": "encumbrances",
+      "dataTypeName": "number",
+      "description": "The total amount of money that has been set aside or committed for a future expense, but not yet incurred",
+      "nullCount": 389,
+      "cardinality": 789
+    },
+    {
+      "name": "Expended (Project To Date)",
+      "fieldName": "expended_project_to_date",
+      "dataTypeName": "number",
+      "description": "The total amount of money that has been spent by each program at the time the report is generated",
+      "nullCount": 124,
+      "cardinality": 789
+    },
+    {
+      "name": "Funds Available (Project To Date)",
+      "fieldName": "funds_available_project_to_date",
+      "dataTypeName": "number",
+      "description": "The total amount of money that is immediately available for use",
+      "nullCount": 165,
+      "cardinality": 789
+    },
+    {
+      "name": "Record ID",
+      "fieldName": "record_id",
+      "dataTypeName": "text",
+      "description": "A unique identifier for each record.",
+      "nullCount": 0,
+      "cardinality": 789
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:20.327Z"
+}

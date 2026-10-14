@@ -1,0 +1,100 @@
+{
+  "id": "knfe-65pw",
+  "name": "Hydro",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 605,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1413520386,
+  "publicationDate": null,
+  "rowsUpdatedAt": 1413520386,
+  "viewLastModified": 1712775949,
+  "viewCount": 1470,
+  "downloadCount": 2412,
+  "category": "Parks & Recreation",
+  "tags": [
+    "gis",
+    "shapefiles",
+    "kml",
+    "kmz",
+    "sustainability",
+    "water"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "",
+      "Frequency": "Updated as needed",
+      "Data Owner": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "DISPLAY",
+      "fieldName": "display",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "NAME",
+      "fieldName": "name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11
+    },
+    {
+      "name": "EDIT_DATE1",
+      "fieldName": "edit_date1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "FID_",
+      "fieldName": "fid_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 605,
+      "cardinality": 0
+    },
+    {
+      "name": "SHAPE_AREA",
+      "fieldName": "shape_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 605
+    },
+    {
+      "name": "SHAPE_LEN",
+      "fieldName": "shape_len",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 605
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:17.373Z"
+}

@@ -1,0 +1,197 @@
+{
+  "id": "jsye-5ha4",
+  "name": "Cook County Commissioner Information",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 17,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1373898984,
+  "publicationDate": 1437667987,
+  "rowsUpdatedAt": 1437667945,
+  "viewLastModified": 1769543468,
+  "viewCount": 1433,
+  "downloadCount": 2815,
+  "category": "Finance & Operations",
+  "tags": [
+    "commissioners",
+    "inactive"
+  ],
+  "attribution": "Cook County Board of Commissioners",
+  "attributionLink": "http://blog.cookcountygov.com/board-of-commissioners/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Update Frequency": "As Needed"
+    }
+  },
+  "columns": [
+    {
+      "name": "Office",
+      "fieldName": "office",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "District",
+      "fieldName": "district",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 17
+    },
+    {
+      "name": "Jurisdiction",
+      "fieldName": "jurisdiction",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "First Name",
+      "fieldName": "first_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 16
+    },
+    {
+      "name": "Middle Name",
+      "fieldName": "middle_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 7,
+      "cardinality": 9
+    },
+    {
+      "name": "Last Name",
+      "fieldName": "last_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 17
+    },
+    {
+      "name": "Last Elected",
+      "fieldName": "last_elected",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 1
+    },
+    {
+      "name": "Next Election",
+      "fieldName": "next_election",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Term",
+      "fieldName": "term",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Appointed",
+      "fieldName": "appointed",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Phone1",
+      "fieldName": "phone1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 17
+    },
+    {
+      "name": "Fax1",
+      "fieldName": "fax1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 16
+    },
+    {
+      "name": "Email1",
+      "fieldName": "email1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 16
+    },
+    {
+      "name": "Url1",
+      "fieldName": "url1",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": "Phone2",
+      "fieldName": "phone2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 14
+    },
+    {
+      "name": "Fax2",
+      "fieldName": "fax2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 11
+    },
+    {
+      "name": "Email2",
+      "fieldName": "email2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 17,
+      "cardinality": 0
+    },
+    {
+      "name": "Url2",
+      "fieldName": "url2",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": 8,
+      "cardinality": null
+    },
+    {
+      "name": "Location 1",
+      "fieldName": "location_1",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Location 2",
+      "fieldName": "location_2",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:59.494Z"
+}

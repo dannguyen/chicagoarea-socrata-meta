@@ -1,0 +1,760 @@
+{
+  "id": "b5gj-d4r4",
+  "name": "Chicago Public Schools – Elementary School Progress Report Card (2012-2013)",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 460,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1366927425,
+  "publicationDate": 1791910552,
+  "rowsUpdatedAt": 1791910509,
+  "viewLastModified": 1791910552,
+  "viewCount": 5228,
+  "downloadCount": 7270,
+  "category": "Education",
+  "tags": [
+    "cps",
+    "education",
+    "report cards"
+  ],
+  "attribution": "Chicago Public Schools",
+  "attributionLink": "http://cps.edu/Schools/Pages/2012SchoolProgressReportCards.aspx",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2012",
+      "Frequency": "Annual",
+      "Data Owner": "Chicago Public Schools"
+    }
+  },
+  "columns": [
+    {
+      "name": "School ID",
+      "fieldName": "school_id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 460
+    },
+    {
+      "name": "School Short Name",
+      "fieldName": "school_short_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 460
+    },
+    {
+      "name": "School Name",
+      "fieldName": "school_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 460
+    },
+    {
+      "name": "Street Address",
+      "fieldName": "street_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 460
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 460
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 460
+    },
+    {
+      "name": "ZIP",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 460
+    },
+    {
+      "name": "Phone Number",
+      "fieldName": "phone_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 460
+    },
+    {
+      "name": "Website",
+      "fieldName": "website",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Managed By Network",
+      "fieldName": "managed_by_network",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 460
+    },
+    {
+      "name": "Geographic Network",
+      "fieldName": "geographic_network",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 460
+    },
+    {
+      "name": "School Track",
+      "fieldName": "school_track",
+      "dataTypeName": "text",
+      "description": "Which schedule.  See http://www.cps.edu/calendar/Pages/Calendar.aspx.",
+      "nullCount": 0,
+      "cardinality": 460
+    },
+    {
+      "name": "Overall Rating",
+      "fieldName": "overall_rating",
+      "dataTypeName": "text",
+      "description": "The Overall Rating on the school progress report is based on the school’s rating under the 2012-2013 Performance, Remediation and Probation Policy. Level 1 is highest.",
+      "nullCount": 0,
+      "cardinality": 460
+    },
+    {
+      "name": "On Probation",
+      "fieldName": "on_probation",
+      "dataTypeName": "text",
+      "description": "Is the school on probation?",
+      "nullCount": 0,
+      "cardinality": 460
+    },
+    {
+      "name": "Years on Probation",
+      "fieldName": "years_on_probation",
+      "dataTypeName": "number",
+      "description": "How many years has the school been on probation?",
+      "nullCount": 0,
+      "cardinality": 460
+    },
+    {
+      "name": "NWEA or Scantron",
+      "fieldName": "nwea_or_scantron",
+      "dataTypeName": "text",
+      "description": "Assessment test used",
+      "nullCount": 0,
+      "cardinality": 460
+    },
+    {
+      "name": "Growth Overall Level",
+      "fieldName": "growth_overall_level",
+      "dataTypeName": "text",
+      "description": "Student growth compared to similar schools nationally",
+      "nullCount": 0,
+      "cardinality": 460
+    },
+    {
+      "name": "Growth Overall Reading and Math",
+      "fieldName": "growth_overall_reading_and_math",
+      "dataTypeName": "number",
+      "description": "Portion of students making expected growth between fall and spring tests",
+      "nullCount": 3,
+      "cardinality": 460
+    },
+    {
+      "name": "Reading Growth Grade 3",
+      "fieldName": "reading_growth_grade_3",
+      "dataTypeName": "number",
+      "description": "Portion of students making expected growth between fall and spring tests. The national average is 0.5.",
+      "nullCount": 21,
+      "cardinality": 460
+    },
+    {
+      "name": "Reading Growth Grade 4",
+      "fieldName": "reading_growth_grade_4",
+      "dataTypeName": "number",
+      "description": "Portion of students making expected growth between fall and spring tests. The national average is 0.5.",
+      "nullCount": 21,
+      "cardinality": 460
+    },
+    {
+      "name": "Reading Growth Grade 5",
+      "fieldName": "reading_growth_grade_5",
+      "dataTypeName": "number",
+      "description": "Portion of students making expected growth between fall and spring tests. The national average is 0.5.",
+      "nullCount": 24,
+      "cardinality": 460
+    },
+    {
+      "name": "Reading Growth Grade 6",
+      "fieldName": "reading_growth_grade_6",
+      "dataTypeName": "number",
+      "description": "Portion of students making expected growth between fall and spring tests. The national average is 0.5.",
+      "nullCount": 29,
+      "cardinality": 460
+    },
+    {
+      "name": "Reading Growth Grade 7",
+      "fieldName": "reading_growth_grade_7",
+      "dataTypeName": "number",
+      "description": "Portion of students making expected growth between fall and spring tests. The national average is 0.5.",
+      "nullCount": 46,
+      "cardinality": 460
+    },
+    {
+      "name": "Reading Growth Grade 8",
+      "fieldName": "reading_growth_grade_8",
+      "dataTypeName": "number",
+      "description": "Portion of students making expected growth between fall and spring tests. The national average is 0.5.",
+      "nullCount": 47,
+      "cardinality": 460
+    },
+    {
+      "name": "Reading Growth All Grades",
+      "fieldName": "reading_growth_all_grades",
+      "dataTypeName": "number",
+      "description": "Portion of students making expected growth between fall and spring tests. The national average is 0.5.",
+      "nullCount": 3,
+      "cardinality": 460
+    },
+    {
+      "name": "Math Growth Grade 3",
+      "fieldName": "math_growth_grade_3",
+      "dataTypeName": "number",
+      "description": "Portion of students making expected growth between fall and spring tests. The national average is 0.5.",
+      "nullCount": 19,
+      "cardinality": 460
+    },
+    {
+      "name": "Math Growth Grade 4",
+      "fieldName": "math_growth_grade_4",
+      "dataTypeName": "number",
+      "description": "Portion of students making expected growth between fall and spring tests. The national average is 0.5.",
+      "nullCount": 22,
+      "cardinality": 460
+    },
+    {
+      "name": "Math Growth Grade 5",
+      "fieldName": "math_growth_grade_5",
+      "dataTypeName": "number",
+      "description": "Portion of students making expected growth between fall and spring tests. The national average is 0.5.",
+      "nullCount": 24,
+      "cardinality": 460
+    },
+    {
+      "name": "Math Growth Grade 6",
+      "fieldName": "math_growth_grade_6",
+      "dataTypeName": "number",
+      "description": "Portion of students making expected growth between fall and spring tests. The national average is 0.5.",
+      "nullCount": 29,
+      "cardinality": 460
+    },
+    {
+      "name": "Math Growth Grade 7",
+      "fieldName": "math_growth_grade_7",
+      "dataTypeName": "number",
+      "description": "Portion of students making expected growth between fall and spring tests. The national average is 0.5.",
+      "nullCount": 46,
+      "cardinality": 460
+    },
+    {
+      "name": "Math Growth Grade 8",
+      "fieldName": "math_growth_grade_8",
+      "dataTypeName": "number",
+      "description": "Portion of students making expected growth between fall and spring tests. The national average is 0.5.",
+      "nullCount": 46,
+      "cardinality": 460
+    },
+    {
+      "name": "Math Growth All Grades",
+      "fieldName": "math_growth_all_grades",
+      "dataTypeName": "number",
+      "description": "Portion of students making expected growth between fall and spring tests. The national average is 0.5.",
+      "nullCount": 3,
+      "cardinality": 460
+    },
+    {
+      "name": "Student Performance Level",
+      "fieldName": "student_performance_level",
+      "dataTypeName": "text",
+      "description": "Student performance on the test compared to similar schools nationally",
+      "nullCount": 0,
+      "cardinality": 460
+    },
+    {
+      "name": "Student Performance Reading and Math",
+      "fieldName": "student_performance_reading_and_math",
+      "dataTypeName": "number",
+      "description": "Portion of students performing at or above the national average.  Weighted average of reading and math results. The national average is 0.5.",
+      "nullCount": 0,
+      "cardinality": 460
+    },
+    {
+      "name": "Reading Performance Grade 3",
+      "fieldName": "reading_performance_grade_3",
+      "dataTypeName": "number",
+      "description": "Portion of students performing at or above the national average. The national average is 0.5.",
+      "nullCount": 15,
+      "cardinality": 460
+    },
+    {
+      "name": "Reading Performance Grade 4",
+      "fieldName": "reading_performance_grade_4",
+      "dataTypeName": "number",
+      "description": "Portion of students performing at or above the national average. The national average is 0.5.",
+      "nullCount": 17,
+      "cardinality": 460
+    },
+    {
+      "name": "Reading Performance Grade 5",
+      "fieldName": "reading_performance_grade_5",
+      "dataTypeName": "number",
+      "description": "Portion of students performing at or above the national average. The national average is 0.5.",
+      "nullCount": 20,
+      "cardinality": 460
+    },
+    {
+      "name": "Reading Performance Grade 6",
+      "fieldName": "reading_performance_grade_6",
+      "dataTypeName": "number",
+      "description": "Portion of students performing at or above the national average. The national average is 0.5.",
+      "nullCount": 25,
+      "cardinality": 460
+    },
+    {
+      "name": "Reading Performance Grade 7",
+      "fieldName": "reading_performance_grade_7",
+      "dataTypeName": "number",
+      "description": "Portion of students performing at or above the national average. The national average is 0.5.",
+      "nullCount": 42,
+      "cardinality": 460
+    },
+    {
+      "name": "Reading Performance Grade 8",
+      "fieldName": "reading_performance_grade_8",
+      "dataTypeName": "number",
+      "description": "Portion of students performing at or above the national average. The national average is 0.5.",
+      "nullCount": 42,
+      "cardinality": 460
+    },
+    {
+      "name": "Reading Performance All Grades",
+      "fieldName": "reading_performance_all_grades",
+      "dataTypeName": "number",
+      "description": "Portion of students performing at or above the national average. The national average is 0.5.",
+      "nullCount": 0,
+      "cardinality": 460
+    },
+    {
+      "name": "Math Performance Grade 3",
+      "fieldName": "math_performance_grade_3",
+      "dataTypeName": "number",
+      "description": "Portion of students performing at or above the national average. The national average is 0.5.",
+      "nullCount": 15,
+      "cardinality": 460
+    },
+    {
+      "name": "Math Performance Grade 4",
+      "fieldName": "math_performance_grade_4",
+      "dataTypeName": "number",
+      "description": "Portion of students performing at or above the national average. The national average is 0.5.",
+      "nullCount": 16,
+      "cardinality": 460
+    },
+    {
+      "name": "Math Performance Grade 5",
+      "fieldName": "math_performance_grade_5",
+      "dataTypeName": "number",
+      "description": "Portion of students performing at or above the national average. The national average is 0.5.",
+      "nullCount": 20,
+      "cardinality": 460
+    },
+    {
+      "name": "Math Performance Grade 6",
+      "fieldName": "math_performance_grade_6",
+      "dataTypeName": "number",
+      "description": "Portion of students performing at or above the national average. The national average is 0.5.",
+      "nullCount": 25,
+      "cardinality": 460
+    },
+    {
+      "name": "Math Performance Grade 7",
+      "fieldName": "math_performance_grade_7",
+      "dataTypeName": "number",
+      "description": "Portion of students performing at or above the national average. The national average is 0.5.",
+      "nullCount": 42,
+      "cardinality": 460
+    },
+    {
+      "name": "Math Performance Grade 8",
+      "fieldName": "math_performance_grade_8",
+      "dataTypeName": "number",
+      "description": "Portion of students performing at or above the national average. The national average is 0.5.",
+      "nullCount": 42,
+      "cardinality": 460
+    },
+    {
+      "name": "Math Performance All Grades",
+      "fieldName": "math_performance_all_grades",
+      "dataTypeName": "number",
+      "description": "Portion of students performing at or above the national average. The national average is 0.5.",
+      "nullCount": 0,
+      "cardinality": 460
+    },
+    {
+      "name": "Reading Growth African American",
+      "fieldName": "reading_growth_african_american",
+      "dataTypeName": "number",
+      "description": "Portion of African American students making expected growth between fall and spring tests. The national average is 0.5. No results are shown if there were fewer than 30 students.",
+      "nullCount": 164,
+      "cardinality": 460
+    },
+    {
+      "name": "Reading Growth Hispanic",
+      "fieldName": "reading_growth_hispanic",
+      "dataTypeName": "number",
+      "description": "Portion of Hispanic students making expected growth between fall and spring tests. The national average is 0.5. No results are shown if there were fewer than 30 students.",
+      "nullCount": 216,
+      "cardinality": 460
+    },
+    {
+      "name": "Reading Growth White",
+      "fieldName": "reading_growth_white",
+      "dataTypeName": "number",
+      "description": "Portion of White students making expected growth between fall and spring tests. The national average is 0.5. No results are shown if there were fewer than 30 students.",
+      "nullCount": 360,
+      "cardinality": 460
+    },
+    {
+      "name": "Reading Growth Students with Disabilities",
+      "fieldName": "reading_growth_students_with_disabilities",
+      "dataTypeName": "number",
+      "description": "Portion of students with disabilities making expected growth between fall and spring tests. The national average is 0.5. No results are shown if there were fewer than 30 students.",
+      "nullCount": 211,
+      "cardinality": 460
+    },
+    {
+      "name": "Reading Growth English Language Learners",
+      "fieldName": "reading_growth_english_language_learners",
+      "dataTypeName": "number",
+      "description": "Portion of English language learners making expected growth between fall and spring tests. The national average is 0.5. No results are shown if there were fewer than 30 students.",
+      "nullCount": 315,
+      "cardinality": 460
+    },
+    {
+      "name": "Reading Growth Free and Reduced Lunch",
+      "fieldName": "reading_growth_free_and_reduced_lunch",
+      "dataTypeName": "number",
+      "description": "Portion of students receiving free or reduced lunch making expected growth between fall and spring tests. The national average is 0.5. No results are shown if there were fewer than 30 students.",
+      "nullCount": 10,
+      "cardinality": 460
+    },
+    {
+      "name": "Math Growth African American",
+      "fieldName": "math_growth_african_american",
+      "dataTypeName": "number",
+      "description": "Portion of African American students making expected growth between fall and spring tests. The national average is 0.5. No results are shown if there were fewer than 30 students.",
+      "nullCount": 163,
+      "cardinality": 460
+    },
+    {
+      "name": "Math Growth Hispanic",
+      "fieldName": "math_growth_hispanic",
+      "dataTypeName": "number",
+      "description": "Portion of Hispanic students making expected growth between fall and spring tests. The national average is 0.5. No results are shown if there were fewer than 30 students.",
+      "nullCount": 217,
+      "cardinality": 460
+    },
+    {
+      "name": "Math Growth White",
+      "fieldName": "math_growth_white",
+      "dataTypeName": "number",
+      "description": "Portion of White students making expected growth between fall and spring tests. The national average is 0.5. No results are shown if there were fewer than 30 students.",
+      "nullCount": 359,
+      "cardinality": 460
+    },
+    {
+      "name": "Math Growth Students with Disabilities",
+      "fieldName": "math_growth_students_with_disabilities",
+      "dataTypeName": "number",
+      "description": "Portion of students with disabilities making expected growth between fall and spring tests. The national average is 0.5. No results are shown if there were fewer than 30 students.",
+      "nullCount": 211,
+      "cardinality": 460
+    },
+    {
+      "name": "Math Growth English Language Learners",
+      "fieldName": "math_growth_english_language_learners",
+      "dataTypeName": "number",
+      "description": "Portion of English language learners making expected growth between fall and spring tests. The national average is 0.5. No results are shown if there were fewer than 30 students.",
+      "nullCount": 314,
+      "cardinality": 460
+    },
+    {
+      "name": "Math Growth Free and Reduced  Lunch",
+      "fieldName": "math_growth_free_and_reduced_lunch",
+      "dataTypeName": "number",
+      "description": "Portion of students receiving free or reduced lunch making expected growth between fall and spring tests. The national average is 0.5. No results are shown if there were fewer than 30 students.",
+      "nullCount": 10,
+      "cardinality": 460
+    },
+    {
+      "name": "Overall Foundation",
+      "fieldName": "overall_foundation",
+      "dataTypeName": "text",
+      "description": "Overall status from the \"My Voice, My School\" survey completed by teachers and 6th-12th grade students. For more information, visit https://cps.5-essentials.org/2012.",
+      "nullCount": 0,
+      "cardinality": 460
+    },
+    {
+      "name": "Involved Families",
+      "fieldName": "involved_families",
+      "dataTypeName": "text",
+      "description": "Does the school partner with families and communities? For more information, visit https://cps.5-essentials.org/2012.",
+      "nullCount": 0,
+      "cardinality": 460
+    },
+    {
+      "name": "Supportive Environment",
+      "fieldName": "supportive_environment",
+      "dataTypeName": "text",
+      "description": "Is the school safe and supportive with high expectations? For more information, visit https://cps.5-essentials.org/2012.",
+      "nullCount": 0,
+      "cardinality": 460
+    },
+    {
+      "name": "Ambitious Instruction",
+      "fieldName": "ambitious_instruction",
+      "dataTypeName": "text",
+      "description": "Is instruction focused, challenging, and engaging? For more information, visit https://cps.5-essentials.org/2012.",
+      "nullCount": 0,
+      "cardinality": 460
+    },
+    {
+      "name": "Effective Leaders",
+      "fieldName": "effective_leaders",
+      "dataTypeName": "text",
+      "description": "Does leadership focus on results and school improvement? For more information, visit https://cps.5-essentials.org/2012.",
+      "nullCount": 0,
+      "cardinality": 460
+    },
+    {
+      "name": "Collaborative Teachers",
+      "fieldName": "collaborative_teachers",
+      "dataTypeName": "text",
+      "description": "Do teachers work well together and strive for excellence? For more information, visit https://cps.5-essentials.org/2012.",
+      "nullCount": 0,
+      "cardinality": 460
+    },
+    {
+      "name": "Safety",
+      "fieldName": "safety",
+      "dataTypeName": "text",
+      "description": "Do students feel safe and does the school support positive behavior? For more information, visit https://cps.5-essentials.org/2012.",
+      "nullCount": 0,
+      "cardinality": 460
+    },
+    {
+      "name": "Misconducts Resulting in Suspensions 2011 - Percent",
+      "fieldName": "misconducts_resulting_in_suspensions_2011_percent",
+      "dataTypeName": "number",
+      "description": "Number of misconducts resulting in suspension divided by the number of misconducts reported.",
+      "nullCount": 47,
+      "cardinality": 460
+    },
+    {
+      "name": "Misconducts Resulting in Suspensions 2012 - Percent",
+      "fieldName": "misconducts_resulting_in_suspensions_2012_percent",
+      "dataTypeName": "number",
+      "description": "Number of misconducts resulting in suspension divided by the number of misconducts reported.",
+      "nullCount": 44,
+      "cardinality": 460
+    },
+    {
+      "name": "Average Days of Suspension 2011",
+      "fieldName": "average_days_of_suspension_2011",
+      "dataTypeName": "number",
+      "description": "Average length of suspensions, in days, divided by the number of suspensions.",
+      "nullCount": 47,
+      "cardinality": 460
+    },
+    {
+      "name": "Average Days of Suspension 2012",
+      "fieldName": "average_days_of_suspension_2012",
+      "dataTypeName": "number",
+      "description": "Average length of suspensions, in days, divided by the number of suspensions.",
+      "nullCount": 44,
+      "cardinality": 460
+    },
+    {
+      "name": "Student Attendance 2011 - Percent",
+      "fieldName": "student_attendance_2011_percent",
+      "dataTypeName": "number",
+      "description": "Average daily attendance of students -- the number of days in which students were present divided by the number of days in which students were scheduled to attend.",
+      "nullCount": 1,
+      "cardinality": 460
+    },
+    {
+      "name": "Student Attendance 2012 - Percent",
+      "fieldName": "student_attendance_2012_percent",
+      "dataTypeName": "number",
+      "description": "Average daily attendance of students -- the number of days in which students were present divided by the number of days in which students were scheduled to attend.",
+      "nullCount": 0,
+      "cardinality": 460
+    },
+    {
+      "name": "Teacher Attendance 2011 - Percent",
+      "fieldName": "teacher_attendance_2011_percent",
+      "dataTypeName": "number",
+      "description": "Average daily attendance of teachers -- the number of days in which teachers were present divided by the number of days they were scheduled to work.",
+      "nullCount": 5,
+      "cardinality": 460
+    },
+    {
+      "name": "Teacher Attendance 2012 - Percent",
+      "fieldName": "teacher_attendance_2012_percent",
+      "dataTypeName": "number",
+      "description": "Average daily attendance of teachers -- the number of days in which teachers were present divided by the number of days they were scheduled to work.",
+      "nullCount": 0,
+      "cardinality": 460
+    },
+    {
+      "name": "Healthy School Certified",
+      "fieldName": "healthy_school_certified",
+      "dataTypeName": "text",
+      "description": "Is the school certified by the USDA’s Healthier US School Challenge?",
+      "nullCount": 0,
+      "cardinality": 460
+    },
+    {
+      "name": "Blue Ribbon Award",
+      "fieldName": "blue_ribbon_award",
+      "dataTypeName": "text",
+      "description": "Did the school win a U.S. Department of Education Blue Ribbon? See http://www2.ed.gov/programs/nclbbrs/index.html.",
+      "nullCount": 0,
+      "cardinality": 460
+    },
+    {
+      "name": "Blue Ribbon Award Year",
+      "fieldName": "blue_ribbon_award_year",
+      "dataTypeName": "number",
+      "description": "Year in which the school won a U.S. Department of Education Blue Ribbon.",
+      "nullCount": 457,
+      "cardinality": 460
+    },
+    {
+      "name": "X Coordinate",
+      "fieldName": "x_coordinate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 460
+    },
+    {
+      "name": "Y Coordinate",
+      "fieldName": "y_coordinate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 460
+    },
+    {
+      "name": "Latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 460
+    },
+    {
+      "name": "Longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 460
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 460
+    },
+    {
+      "name": "Boundaries - ZIP Codes 2",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Boundaries - ZIP Codes' (rpca-8um6) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas 2",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Community Areas' (vrxf-vc4k) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes 2",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Zip Codes' (6mkv-f3dw) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts 2",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Census Tracts' (bdys-3d7i) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards 2",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Wards' (43wa-7qmu) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015 2",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Historical Wards 2003-2015' (awaf-s7ux) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards 2023-",
+      "fieldName": ":@computed_region_8hcu_yrd4",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Wards 2023-' (8hcu-yrd4) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:04.507Z"
+}

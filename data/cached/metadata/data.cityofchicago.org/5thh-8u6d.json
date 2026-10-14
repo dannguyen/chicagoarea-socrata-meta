@@ -1,0 +1,132 @@
+{
+  "id": "5thh-8u6d",
+  "name": "Influenza Vaccination Coverage, Citywide",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 21238,
+  "rowCountSource": "cached",
+  "rowLabel": "Weekly influenza vaccination coverage for a subpopulation",
+  "hasRowIdentifier": false,
+  "createdAt": 1732722645,
+  "publicationDate": 1733757910,
+  "rowsUpdatedAt": 1791986924,
+  "viewLastModified": 1790798788,
+  "viewCount": 1168,
+  "downloadCount": 1482,
+  "category": "Health & Human Services",
+  "tags": [
+    "flu",
+    "immunization",
+    "health",
+    "public health",
+    "race",
+    "gender",
+    "age"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "July 2021 through the most recent date shown",
+      "Frequency": "Data are updated weekly September-May",
+      "Data Owner": "Department of Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "Week End",
+      "fieldName": "week_end",
+      "dataTypeName": "calendar_date",
+      "description": "End date of the week. Dates are based on standard MMWR weeks as defined by the U.S. Centers for Disease Control and Prevention.",
+      "nullCount": 0,
+      "cardinality": 21238
+    },
+    {
+      "name": "Season",
+      "fieldName": "season",
+      "dataTypeName": "text",
+      "description": "Annually recurring reporting period for which estimates are calculated, beginning during MMWR week 27 and ending with week 26 of the following year.",
+      "nullCount": 0,
+      "cardinality": 21238
+    },
+    {
+      "name": "Age Group",
+      "fieldName": "age",
+      "dataTypeName": "text",
+      "description": "Values used are: 0-4, 5-11, 12-17, 18-29, 30-49, 50-64, 65-74, 75+, 0-17, 18-64, 65+, 18+, Unknown, All Ages",
+      "nullCount": 0,
+      "cardinality": 21238
+    },
+    {
+      "name": "Sex",
+      "fieldName": "sex",
+      "dataTypeName": "text",
+      "description": "Values used are: Male, Female, Unknown, All Sexes",
+      "nullCount": 0,
+      "cardinality": 21238
+    },
+    {
+      "name": "Race/Ethnicity",
+      "fieldName": "race_ethnicity",
+      "dataTypeName": "text",
+      "description": "Values used are: Latinx; Black, non-Latinx; White, non-Latinx; Asian, non-Latinx; Other, non-Latinx; Unknown; All Race/Ethnicities",
+      "nullCount": 0,
+      "cardinality": 21238
+    },
+    {
+      "name": "Population Size",
+      "fieldName": "population_size",
+      "dataTypeName": "number",
+      "description": "Number of people in the group based on the specified combination of the age, race/ethnicity, and sex.",
+      "nullCount": 5368,
+      "cardinality": 21238
+    },
+    {
+      "name": "Count",
+      "fieldName": "count",
+      "dataTypeName": "number",
+      "description": "Number of people in the specified group that achieved the vaccination status.",
+      "nullCount": 0,
+      "cardinality": 21238
+    },
+    {
+      "name": "Percent",
+      "fieldName": "percent",
+      "dataTypeName": "number",
+      "description": "Percent of people in the specified group that achieved the vaccination status.",
+      "nullCount": 5368,
+      "cardinality": 21238
+    },
+    {
+      "name": "MMWR Week",
+      "fieldName": "mmwr_week",
+      "dataTypeName": "number",
+      "description": "A weekly counting system within a calendar year standardized by the U.S. Centers for Disease Control and Prevention.",
+      "nullCount": 0,
+      "cardinality": 21238
+    },
+    {
+      "name": "Week",
+      "fieldName": "week",
+      "dataTypeName": "number",
+      "description": "The calendar week standardized by the U.S. Centers for Disease Control and Prevention.",
+      "nullCount": 0,
+      "cardinality": 21238
+    },
+    {
+      "name": "Current Season Week End",
+      "fieldName": "current_season_week_end",
+      "dataTypeName": "calendar_date",
+      "description": "Ending date of the MMWR week for the current season.",
+      "nullCount": 22,
+      "cardinality": 21238
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:19.560Z"
+}

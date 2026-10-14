@@ -1,0 +1,56 @@
+{
+  "id": "ci2i-3aqv",
+  "name": "Cook County Municipalities, by Percent of Population with at Least an Associates Degree, ACS 2005-2009",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 119,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1346360938,
+  "publicationDate": 1686672481,
+  "rowsUpdatedAt": 1412892490,
+  "viewLastModified": 1769545166,
+  "viewCount": 1368,
+  "downloadCount": 2895,
+  "category": "Economic Development",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Chicago Metropolitan Agency for Planning MetroPulse",
+  "attributionLink": "https://www.cmap.illinois.gov/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Municipality",
+      "fieldName": "municipality",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 119
+    },
+    {
+      "name": "Percent of Population 25+ with at Least an Associate's Degree",
+      "fieldName": "percent_of_population_25_with_at_least_an_associate_s_degree",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 105
+    },
+    {
+      "name": "Location 1",
+      "fieldName": "location_1",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:00.201Z"
+}

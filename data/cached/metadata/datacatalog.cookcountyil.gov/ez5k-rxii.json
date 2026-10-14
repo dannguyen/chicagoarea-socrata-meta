@@ -1,0 +1,56 @@
+{
+  "id": "ez5k-rxii",
+  "name": "Medical Examiner--2009 Decedents, by Cause Of Death",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 23,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1316717317,
+  "publicationDate": 1414428204,
+  "rowsUpdatedAt": 1414428199,
+  "viewLastModified": 1769545868,
+  "viewCount": 1121,
+  "downloadCount": 2412,
+  "category": "Health & Human Services",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Medical Examiner",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "CAUSE OF DEATH                          ",
+      "fieldName": "cause_of_death_",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 23
+    },
+    {
+      "name": "COUNT  ",
+      "fieldName": "count_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 21
+    },
+    {
+      "name": " PERCENT",
+      "fieldName": "_percent",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 21
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:02.665Z"
+}

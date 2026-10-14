@@ -1,0 +1,136 @@
+{
+  "id": "7gvq-8q3x",
+  "name": "43rd Ward Resident Survey - 2022",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 797,
+  "rowCountSource": "cached",
+  "rowLabel": "Survey Response",
+  "hasRowIdentifier": false,
+  "createdAt": 1659369456,
+  "publicationDate": 1659372084,
+  "rowsUpdatedAt": 1659715555,
+  "viewLastModified": 1659719387,
+  "viewCount": 3009,
+  "downloadCount": 4790,
+  "category": "Administration & Finance",
+  "tags": [
+    "elections",
+    "city council",
+    "alderman",
+    "survey"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "July/August 2022",
+      "Data Owner": "Mayor's Office"
+    }
+  },
+  "columns": [
+    {
+      "name": "Email Given",
+      "fieldName": "email_given",
+      "dataTypeName": "checkbox",
+      "description": "Did the respondent provide an e-mail address, as opposed to submitting anonymously?",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Date",
+      "fieldName": "date",
+      "dataTypeName": "calendar_date",
+      "description": "Date that the survey response was submitted.",
+      "nullCount": 0,
+      "cardinality": 14
+    },
+    {
+      "name": "Public Safety Priority",
+      "fieldName": "public_safety_priority",
+      "dataTypeName": "number",
+      "description": "Ranking from 1 (Not a Priority) to 5 (Urgent Priority) for this issue.",
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Public Transportation Improvements Priority",
+      "fieldName": "public_transportation_improvements_priority",
+      "dataTypeName": "number",
+      "description": "Ranking from 1 (Not a Priority) to 5 (Urgent Priority) for this issue.",
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Pedestrian and Traffic Safety Priority",
+      "fieldName": "pedestrian_and_traffic_safety_priority",
+      "dataTypeName": "number",
+      "description": "Ranking from 1 (Not a Priority) to 5 (Urgent Priority) for this issue.",
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Economic/Business Development Priority",
+      "fieldName": "economic_business_development_priority",
+      "dataTypeName": "number",
+      "description": "Ranking from 1 (Not a Priority) to 5 (Urgent Priority) for this issue.",
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Infrastructure Improvements Priority",
+      "fieldName": "infrastructure_improvements_priority",
+      "dataTypeName": "number",
+      "description": "Ranking from 1 (Not a Priority) to 5 (Urgent Priority) for this issue.",
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Equity and Inclusion Priority",
+      "fieldName": "equity_and_inclusion_priority",
+      "dataTypeName": "number",
+      "description": "Ranking from 1 (Not a Priority) to 5 (Urgent Priority) for this issue.",
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Affordable Housing Priority",
+      "fieldName": "affordable_housing_priority",
+      "dataTypeName": "number",
+      "description": "Ranking from 1 (Not a Priority) to 5 (Urgent Priority) for this issue.",
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Climate and Sustainability Priority",
+      "fieldName": "climate_and_sustainability_priority",
+      "dataTypeName": "number",
+      "description": "Ranking from 1 (Not a Priority) to 5 (Urgent Priority) for this issue.",
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Other Priority",
+      "fieldName": "other_priority",
+      "dataTypeName": "number",
+      "description": "Ranking from 1 (Not a Priority) to 5 (Urgent Priority) for this issue. Respondents were asked to describe the other issue(s), if urgent priority, and the answer received is shown in the next column.",
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Please Describe",
+      "fieldName": "please_describe",
+      "dataTypeName": "text",
+      "description": "If you ranked “other” as an urgent priority, please describe below. -- Please note that most answers are posted as received but some text may be redacted for privacy and similar reasons.",
+      "nullCount": 486,
+      "cardinality": 306
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:08.458Z"
+}

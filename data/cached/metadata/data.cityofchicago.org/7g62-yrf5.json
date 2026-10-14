@@ -1,0 +1,83 @@
+{
+  "id": "7g62-yrf5",
+  "name": "Performance Metrics - Public Health - Immunization Program - Monthly Vaccine Distribution",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 72,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1310060202,
+  "publicationDate": 1497360855,
+  "rowsUpdatedAt": 1497303371,
+  "viewLastModified": 1608219563,
+  "viewCount": 1936,
+  "downloadCount": 4969,
+  "category": "Administration & Finance",
+  "tags": [
+    "performance metrics",
+    "service delivery",
+    "cdph",
+    "health",
+    "immunization",
+    "vaccination"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org/performance",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2011-2016",
+      "Frequency": "Data are updated annually",
+      "Data Owner": "Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "Month",
+      "fieldName": "month",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 72
+    },
+    {
+      "name": "Doses Distributed Per Month",
+      "fieldName": "doses_distributed_per_month",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 72
+    },
+    {
+      "name": "Cumulative Doses Distributed Annually",
+      "fieldName": "cumulative_doses_distributed_annually",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 72
+    },
+    {
+      "name": "Annual Performance Target",
+      "fieldName": "annual_performance_target",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:14.329Z"
+}

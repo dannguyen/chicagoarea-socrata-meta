@@ -1,0 +1,78 @@
+{
+  "id": "sqhy-w3g5",
+  "name": "IDPH Community Water Fluoridation 2010 Compliance Award List",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 446,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1718289762,
+  "publicationDate": 1718290092,
+  "rowsUpdatedAt": 1718290086,
+  "viewLastModified": 1736793987,
+  "viewCount": 29,
+  "downloadCount": 14,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "county",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 102
+    },
+    {
+      "name": "honorable_mention_11_of_12_months_",
+      "fieldName": "honorable_mention_11_of_12",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 334,
+      "cardinality": 112
+    },
+    {
+      "name": "length_of_consecutive_compliancy",
+      "fieldName": "length_of_consecutive",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 94,
+      "cardinality": 26
+    },
+    {
+      "name": "perfect_compliance_12_of_12_months_",
+      "fieldName": "perfect_compliance_12_of",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 11,
+      "cardinality": 435
+    },
+    {
+      "name": "years_of_consecutive_compliancy",
+      "fieldName": "years_of_consecutive",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 94,
+      "cardinality": 27
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:42.014Z"
+}

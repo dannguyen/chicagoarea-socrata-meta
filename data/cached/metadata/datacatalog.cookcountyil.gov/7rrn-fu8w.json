@@ -1,0 +1,80 @@
+{
+  "id": "7rrn-fu8w",
+  "name": "Capital Planing and Policy - Facility Locations List",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 154,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1314730629,
+  "publicationDate": 1686672544,
+  "rowsUpdatedAt": 1412889384,
+  "viewLastModified": 1769546255,
+  "viewCount": 1324,
+  "downloadCount": 3169,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Captial Planning and Policy",
+  "attributionLink": "http://www.cookcountygov.com/portal/server.pt/community/economic_development%2C_bureau_of/256/bureau_of_economic_development/356",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Building ",
+      "fieldName": "building",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 132
+    },
+    {
+      "name": "Code",
+      "fieldName": "code",
+      "dataTypeName": "text",
+      "description": "A=Administrative Services\nC=Court Services\nD=Detention\nE=Elected Official\nF=Forest Preserve District\nH=Health System\nJ=Jail Facilities\nP=Adult Probation\nR=Highway Facilities\nS=Sheriff\n",
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "Node Name",
+      "fieldName": "node_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 12,
+      "cardinality": 37
+    },
+    {
+      "name": "Main Phone Number",
+      "fieldName": "main_phone_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 44,
+      "cardinality": 70
+    },
+    {
+      "name": "PIN10",
+      "fieldName": "pin10",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 14,
+      "cardinality": 116
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:00.634Z"
+}

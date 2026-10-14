@@ -1,0 +1,78 @@
+{
+  "id": "h8qt-4bgu",
+  "name": "Live Births from Illinois Resident Mothers",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 4926,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1708036863,
+  "publicationDate": 1708094372,
+  "rowsUpdatedAt": 1708094366,
+  "viewLastModified": 1736797727,
+  "viewCount": 206,
+  "downloadCount": 107,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "Nelson Agbodo",
+      "Maintainer Email": "nelson.agbodo@illinois.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "Year of delivery",
+      "fieldName": "year_of_delivery",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": "Residence County of Mother",
+      "fieldName": "residence_county_of_mother",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": "Hispanic Origin of Mother",
+      "fieldName": "hispanic_origin_of_mother",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": "Race of Mother",
+      "fieldName": "race_of_mother",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": "Count",
+      "fieldName": "count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:33.963Z"
+}

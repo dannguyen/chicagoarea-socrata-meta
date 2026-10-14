@@ -1,0 +1,88 @@
+{
+  "id": "dau6-c3yr",
+  "name": "Median Household Income, Cook County Municipalities, 2000 Census and ACS",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 119,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1346356518,
+  "publicationDate": 1685493136,
+  "rowsUpdatedAt": 1412891015,
+  "viewLastModified": 1769547646,
+  "viewCount": 4526,
+  "downloadCount": 4216,
+  "category": "Economic Development",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Chicago Metropolitan Agency for Planning MetroPulse",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Municipality",
+      "fieldName": "municipality",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 119
+    },
+    {
+      "name": "Income: Median Household (2000 Census)",
+      "fieldName": "income_median_household_2000_census",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 119
+    },
+    {
+      "name": "Income: Median Household (2005-2009 ACS)",
+      "fieldName": "income_median_household_2005_2009_acs",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 118
+    },
+    {
+      "name": "Income: Median Household (2006 ACS)",
+      "fieldName": "income_median_household_2006_acs",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 112,
+      "cardinality": 7
+    },
+    {
+      "name": "Income: Median Household (2007 ACS)",
+      "fieldName": "income_median_household_2007_acs",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 112,
+      "cardinality": 7
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Location 1",
+      "fieldName": "location_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 119,
+      "cardinality": 0
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:53.163Z"
+}

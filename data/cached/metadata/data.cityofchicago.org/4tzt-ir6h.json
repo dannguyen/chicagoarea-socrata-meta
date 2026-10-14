@@ -1,0 +1,158 @@
+{
+  "id": "4tzt-ir6h",
+  "name": "Respiratory Virus Wastewater Surveillance",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 6852,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1729723442,
+  "publicationDate": 1740440729,
+  "rowsUpdatedAt": 1791567140,
+  "viewLastModified": 1788212844,
+  "viewCount": 3627,
+  "downloadCount": 1934,
+  "category": "Health & Human Services",
+  "tags": [
+    "health",
+    "public health",
+    "sanitation",
+    "testing",
+    "covid-19",
+    "flu",
+    "rsv",
+    "respiratory"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2/13/2022 to Current",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"4tzt-ir6h\"",
+      "Frequency": "Data are updated weekly",
+      "Data Owner": "Department of Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "mmwr_week",
+      "fieldName": "mmwr_week",
+      "dataTypeName": "text",
+      "description": "Specifies the MMWR week corresponding to when samples were collected, which is a weekly counting system within a calendar year standardized by the U.S. Centers for Disease Control and Prevention.",
+      "nullCount": 0,
+      "cardinality": 6852
+    },
+    {
+      "name": "week",
+      "fieldName": "week",
+      "dataTypeName": "number",
+      "description": "The calendar week standardized by the U.S. Centers for Disease Control and Prevention.",
+      "nullCount": 0,
+      "cardinality": 6852
+    },
+    {
+      "name": "week_start",
+      "fieldName": "week_start",
+      "dataTypeName": "calendar_date",
+      "description": "Beginning date of the MMWR week.",
+      "nullCount": 0,
+      "cardinality": 6852
+    },
+    {
+      "name": "week_end",
+      "fieldName": "week_end",
+      "dataTypeName": "calendar_date",
+      "description": "Ending date of the MMWR week.",
+      "nullCount": 0,
+      "cardinality": 6852
+    },
+    {
+      "name": "season",
+      "fieldName": "season",
+      "dataTypeName": "text",
+      "description": "Annually recurring reporting period for which estimates are calculated, beginning during MMWR week 40 and ending with week 39 of the following year.",
+      "nullCount": 0,
+      "cardinality": 6852
+    },
+    {
+      "name": "pathogen",
+      "fieldName": "pathogen",
+      "dataTypeName": "text",
+      "description": "The respiratory virus being tested for in wastewater samples.",
+      "nullCount": 0,
+      "cardinality": 6852
+    },
+    {
+      "name": "siteno",
+      "fieldName": "siteno",
+      "dataTypeName": "number",
+      "description": "A unique numeric identifier for each site.",
+      "nullCount": 0,
+      "cardinality": 6852
+    },
+    {
+      "name": "sitename",
+      "fieldName": "sitename",
+      "dataTypeName": "text",
+      "description": "The name of each sampled site.",
+      "nullCount": 0,
+      "cardinality": 6852
+    },
+    {
+      "name": "year",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": "Year in which the sample was collected.",
+      "nullCount": 0,
+      "cardinality": 6852
+    },
+    {
+      "name": "target_wkavg_concentration",
+      "fieldName": "target_wkavg_concentration",
+      "dataTypeName": "number",
+      "description": "The average concentration detected in a Chicago sewershed for a pathogen during a given week.",
+      "nullCount": 516,
+      "cardinality": 6852
+    },
+    {
+      "name": "conc_toplot",
+      "fieldName": "conc_toplot",
+      "dataTypeName": "number",
+      "description": "A transformation of the variable target_wkavg_concentration to improve plotting visibility and is equal to log10(target_wkavg_concentration*1million).",
+      "nullCount": 2697,
+      "cardinality": 6852
+    },
+    {
+      "name": "wkavg_val",
+      "fieldName": "wkavg_val",
+      "dataTypeName": "number",
+      "description": "The quantitative value of the Viral Activity Level (VAL) for a pathogen at a site during a given week. The VAL is determined based on the difference between the average concentration for a site during a given week is compared and a baseline concentration value from the recent past; the VAL is based on methods developed by the US Centers for Disease Control and Prevention's National Wastewater Surveillance System.",
+      "nullCount": 0,
+      "cardinality": 6852
+    },
+    {
+      "name": "wkavg_val_category",
+      "fieldName": "wkavg_val_category",
+      "dataTypeName": "text",
+      "description": "A qualitative VAL category (ranging from 1 to 5, or Minimal to Very High) based on the value of the quantitative wkavg_val. These are the values used to create the bar plot on the respiratory virus dashboard wastewater page.",
+      "nullCount": 0,
+      "cardinality": 6852
+    },
+    {
+      "name": "row_id",
+      "fieldName": "row_id",
+      "dataTypeName": "text",
+      "description": "A unique numeric identifier for each data observation.",
+      "nullCount": 0,
+      "cardinality": 6852
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:07.052Z"
+}

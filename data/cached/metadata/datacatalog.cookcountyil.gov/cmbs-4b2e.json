@@ -1,0 +1,166 @@
+{
+  "id": "cmbs-4b2e",
+  "name": "CC Municipal Incorporation Inventory",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 10668,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1478266716,
+  "publicationDate": 1478269247,
+  "rowsUpdatedAt": 1478269247,
+  "viewLastModified": 1769544165,
+  "viewCount": 1000,
+  "downloadCount": 1923,
+  "category": "Boundaries & Districts",
+  "tags": [
+    "municipality",
+    "incorporation",
+    "annexation",
+    "property",
+    "historical",
+    "property and land records",
+    "inactive"
+  ],
+  "attribution": "Cook County GIS Department",
+  "attributionLink": "https://www.cookcountyil.gov/service/maps-and-geospatial-data",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 151
+    },
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "UniqueId",
+      "fieldName": "unique_id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10657
+    },
+    {
+      "name": "RecDocNum",
+      "fieldName": "rec_doc_num",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10611
+    },
+    {
+      "name": "RecDocDate",
+      "fieldName": "rec_doc_date",
+      "dataTypeName": "date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5653
+    },
+    {
+      "name": "CrtOrdNum",
+      "fieldName": "crt_ord_num",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 10440,
+      "cardinality": 210
+    },
+    {
+      "name": "CrtOrdDate",
+      "fieldName": "crt_ord_date",
+      "dataTypeName": "date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 218
+    },
+    {
+      "name": "MuniOrdNum",
+      "fieldName": "muni_ord_num",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2074,
+      "cardinality": 6698
+    },
+    {
+      "name": "MuniOrdDat",
+      "fieldName": "muni_ord_dat",
+      "dataTypeName": "date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5369
+    },
+    {
+      "name": "Action",
+      "fieldName": "action",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "AgencyTo",
+      "fieldName": "agency_to",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 163
+    },
+    {
+      "name": "AgencyFrom",
+      "fieldName": "agency_from",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 118
+    },
+    {
+      "name": "Source",
+      "fieldName": "source",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 21,
+      "cardinality": 3
+    },
+    {
+      "name": "DeliveryAr",
+      "fieldName": "delivery_ar",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 254,
+      "cardinality": 5
+    },
+    {
+      "name": "Shape_area",
+      "fieldName": "shape_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9967
+    },
+    {
+      "name": "Shape_len",
+      "fieldName": "shape_len",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9953
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:03.780Z"
+}

@@ -1,0 +1,89 @@
+{
+  "id": "d2uu-auym",
+  "name": "JudicialDistrict",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 19,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1401807222,
+  "publicationDate": 1401807222,
+  "rowsUpdatedAt": 1401807222,
+  "viewLastModified": 1769544002,
+  "viewCount": 2127,
+  "downloadCount": 2016,
+  "category": "Boundaries & Districts",
+  "tags": [
+    "subcircuit districts",
+    "subcircuit boundaries",
+    "judicial districts",
+    "judicial boundaries",
+    "subcircuit judges",
+    "administrative and political boundaries",
+    "cook county",
+    "gis",
+    "boundaries and districts",
+    "inactive"
+  ],
+  "attribution": "Cook County Clerk / Map Department",
+  "attributionLink": "http://www.cookcountyclerk.com/tsd/maps/Pages/default.aspx",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "NAME",
+      "fieldName": "name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 16
+    },
+    {
+      "name": "NAME2",
+      "fieldName": "name2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 16
+    },
+    {
+      "name": "DISTRICT",
+      "fieldName": "district",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 16
+    },
+    {
+      "name": "SHAPE_area",
+      "fieldName": "shape_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 19
+    },
+    {
+      "name": "SHAPE_len",
+      "fieldName": "shape_len",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 19
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:56.585Z"
+}

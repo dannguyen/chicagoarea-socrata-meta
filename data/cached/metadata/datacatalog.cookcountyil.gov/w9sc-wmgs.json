@@ -1,0 +1,98 @@
+{
+  "id": "w9sc-wmgs",
+  "name": "Public Health Birth Data: Initiated Breastfeeding",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 35226,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1754512747,
+  "publicationDate": 1754685824,
+  "rowsUpdatedAt": 1764693739,
+  "viewLastModified": 1769544072,
+  "viewCount": 461,
+  "downloadCount": 694,
+  "category": "Health & Human Services",
+  "tags": [
+    "ccdph",
+    "reproductive health",
+    "pregnancy"
+  ],
+  "attribution": "Cook County Department of Public Health",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Department of Public Health"
+    },
+    "Metadata": {
+      "Update Frequency": "Yearly"
+    },
+    "Detailed Descriptive": {
+      "Temporal coverage": "2015-2023",
+      "Data notes": "Source data does not differentiate between gender and sex assigned at birth. For clarity and brevity, metadata descriptions reflect gendered language with the understanding that these descriptions may not accurately reflect all cases.",
+      "Geographic coverage": "Cook County without City of Chicago"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Annually",
+      "Publishing frequency": "Annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "Year",
+      "fieldName": "event_year",
+      "dataTypeName": "number",
+      "description": "Year of the birth",
+      "nullCount": 0,
+      "cardinality": 35226
+    },
+    {
+      "name": "Place",
+      "fieldName": "place",
+      "dataTypeName": "text",
+      "description": "CCDPH jurisdiction refers to all Cook County municipalities except Chicago, Evanston, Skokie, Oak Park, Forest View, Burbank, and (incorporated) Stickney. See the attached district map for more information.",
+      "nullCount": 0,
+      "cardinality": 35226
+    },
+    {
+      "name": "Age Group",
+      "fieldName": "age_group",
+      "dataTypeName": "text",
+      "description": "Age group of mother",
+      "nullCount": 0,
+      "cardinality": 35226
+    },
+    {
+      "name": "Race and Ethnicity",
+      "fieldName": "race_eth",
+      "dataTypeName": "text",
+      "description": "Race and ethnicity of mother. \"NH\" refers to \"non-Hispanic\". \"PI\" refers to \"Pacific Islander\".",
+      "nullCount": 0,
+      "cardinality": 35226
+    },
+    {
+      "name": "Count of Initiated Breastfeeding",
+      "fieldName": "count_initiated_breastfeeding",
+      "dataTypeName": "text",
+      "description": "Total number of births to mothers who initiated breastfeeding while in the hospital",
+      "nullCount": 0,
+      "cardinality": 35226
+    },
+    {
+      "name": "Rate of Initiated Breastfeeding",
+      "fieldName": "rate_initiated_breastfeeding",
+      "dataTypeName": "text",
+      "description": "Number of births to mothers who initiated breastfeeding while in the hospital per 100 live births",
+      "nullCount": 0,
+      "cardinality": 35226
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:10.134Z"
+}

@@ -1,0 +1,112 @@
+{
+  "id": "a6fm-ckdi",
+  "name": "Animal Control - Species By Color - Fiscal Year 2011 Incomplete",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 113,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1317068212,
+  "publicationDate": 1412892350,
+  "rowsUpdatedAt": 1412892319,
+  "viewLastModified": 1769545370,
+  "viewCount": 793,
+  "downloadCount": 3698,
+  "category": "Health & Human Services",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Animal Control",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Color",
+      "fieldName": "color",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 113
+    },
+    {
+      "name": "CAT",
+      "fieldName": "cat",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 69
+    },
+    {
+      "name": "COW",
+      "fieldName": "cow",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "DOG",
+      "fieldName": "dog",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 78
+    },
+    {
+      "name": "FERRET",
+      "fieldName": "ferret",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "GUARD DOG",
+      "fieldName": "guard_dog",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "RABBIT",
+      "fieldName": "rabbit",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "UNKNOWN",
+      "fieldName": "unknown",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 43
+    },
+    {
+      "name": "Totals",
+      "fieldName": "totals",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 94
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:06.490Z"
+}

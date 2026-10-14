@@ -1,0 +1,204 @@
+{
+  "id": "t28b-ys7j",
+  "name": "311 Service Requests - Alley Lights Out - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 219010,
+  "rowCountSource": "cached",
+  "rowLabel": "Service Request",
+  "hasRowIdentifier": false,
+  "createdAt": 1333656474,
+  "publicationDate": 1551867163,
+  "rowsUpdatedAt": 1551867149,
+  "viewLastModified": 1774468791,
+  "viewCount": 19549,
+  "downloadCount": 13509,
+  "category": "Service Requests",
+  "tags": [
+    "streets",
+    "alleys",
+    "lights",
+    "historical",
+    "service requests",
+    "311"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "All open requests and all completed requests since January 1, 2011",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"t28b-ys7j\"",
+      "Frequency": "Data is updated daily",
+      "Data Owner": "Transportation"
+    }
+  },
+  "columns": [
+    {
+      "name": "Creation Date",
+      "fieldName": "creation_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3037
+    },
+    {
+      "name": "Status",
+      "fieldName": "status",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Completion Date",
+      "fieldName": "completion_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 6786,
+      "cardinality": 2781
+    },
+    {
+      "name": "Service Request Number",
+      "fieldName": "service_request_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 218826
+    },
+    {
+      "name": "Type of Service Request",
+      "fieldName": "type_of_service_request",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Street Address",
+      "fieldName": "street_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 109046
+    },
+    {
+      "name": "ZIP Code",
+      "fieldName": "zip_code",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 436,
+      "cardinality": 60
+    },
+    {
+      "name": "X Coordinate",
+      "fieldName": "x_coordinate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 98,
+      "cardinality": 107168
+    },
+    {
+      "name": "Y Coordinate",
+      "fieldName": "y_coordinate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 98,
+      "cardinality": 107575
+    },
+    {
+      "name": "Ward",
+      "fieldName": "ward",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 59,
+      "cardinality": 51
+    },
+    {
+      "name": "Police District",
+      "fieldName": "police_district",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 59,
+      "cardinality": 27
+    },
+    {
+      "name": "Community Area",
+      "fieldName": "community_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 59,
+      "cardinality": 78
+    },
+    {
+      "name": "Latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 98,
+      "cardinality": 107702
+    },
+    {
+      "name": "Longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 98,
+      "cardinality": 107702
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:37:48.348Z"
+}

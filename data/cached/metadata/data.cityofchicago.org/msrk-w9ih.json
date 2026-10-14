@@ -1,0 +1,111 @@
+{
+  "id": "msrk-w9ih",
+  "name": "Cooling Centers",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 287,
+  "rowCountSource": "cached",
+  "rowLabel": "Cooling Center",
+  "hasRowIdentifier": false,
+  "createdAt": 1341528191,
+  "publicationDate": 1690215793,
+  "rowsUpdatedAt": 1784930776,
+  "viewLastModified": 1784930775,
+  "viewCount": 7135,
+  "downloadCount": 7498,
+  "category": "Health & Human Services",
+  "tags": [
+    "cooling centers",
+    "sustainability"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org/city/en/depts/fss/provdrs/serv/svcs/how_to_find_weatherreliefinchicago.html",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Summer 2024",
+      "Frequency": "Data are updated as needed",
+      "Data Owner": "City of Chicago"
+    }
+  },
+  "columns": [
+    {
+      "name": "SITE TYPE",
+      "fieldName": "site_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 287
+    },
+    {
+      "name": "SITE NAME",
+      "fieldName": "site_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 287
+    },
+    {
+      "name": "HOURS OF OPERATION",
+      "fieldName": "hours_of_operation",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 132,
+      "cardinality": 287
+    },
+    {
+      "name": "ADDRESS",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 287
+    },
+    {
+      "name": "CITY",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 287
+    },
+    {
+      "name": "STATE",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 287
+    },
+    {
+      "name": "ZIP",
+      "fieldName": "zip",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 110,
+      "cardinality": 287
+    },
+    {
+      "name": "PHONE",
+      "fieldName": "phone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 110,
+      "cardinality": 287
+    },
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 287
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:01.981Z"
+}

@@ -1,0 +1,187 @@
+{
+  "id": "k89j-m7yz",
+  "name": "Boundaries - Tax Increment Financing Districts (Deprecated January 2021)",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 136,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1635883031,
+  "publicationDate": 1635883399,
+  "rowsUpdatedAt": 1635883393,
+  "viewLastModified": 1740608447,
+  "viewCount": 1437,
+  "downloadCount": 1301,
+  "category": "Community & Economic Development",
+  "tags": [
+    "deprecated",
+    "geo_layer",
+    "boundaries",
+    "gis",
+    "shapefiles",
+    "tif"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "October 2020",
+      "Frequency": " Data are updated as needed.",
+      "Data Owner": "Housing & Economic Development"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "OBJECTID",
+      "fieldName": "objectid",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 136
+    },
+    {
+      "name": "REF",
+      "fieldName": "ref",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 136
+    },
+    {
+      "name": "IND",
+      "fieldName": "ind",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "TYPE",
+      "fieldName": "type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "USE",
+      "fieldName": "use",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 34
+    },
+    {
+      "name": "SHOW",
+      "fieldName": "show",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "SBIF",
+      "fieldName": "sbif",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "COMM_AREA",
+      "fieldName": "comm_area",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 117
+    },
+    {
+      "name": "WARDS",
+      "fieldName": "wards",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 111
+    },
+    {
+      "name": "GLOBALID",
+      "fieldName": "globalid",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 136
+    },
+    {
+      "name": "REPEALED_D",
+      "fieldName": "repealed_d",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 136,
+      "cardinality": 0
+    },
+    {
+      "name": "SHAPE_Leng",
+      "fieldName": "shape_leng",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 136
+    },
+    {
+      "name": "SHAPE_Area",
+      "fieldName": "shape_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 136
+    },
+    {
+      "name": "NAME",
+      "fieldName": "name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 136
+    },
+    {
+      "name": "NAME_TRIM",
+      "fieldName": "name_trim",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 136
+    },
+    {
+      "name": "APPROVAL_1",
+      "fieldName": "approval_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 87
+    },
+    {
+      "name": "EXPIRATI_1",
+      "fieldName": "expirati_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 34
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:17.538Z"
+}

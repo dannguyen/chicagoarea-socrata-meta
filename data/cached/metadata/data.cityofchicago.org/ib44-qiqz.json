@@ -1,0 +1,78 @@
+{
+  "id": "ib44-qiqz",
+  "name": "MMWR Weeks",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 7723,
+  "rowCountSource": "cached",
+  "rowLabel": "MMWR Week",
+  "hasRowIdentifier": false,
+  "createdAt": 1633550863,
+  "publicationDate": 1783964844,
+  "rowsUpdatedAt": 1784140305,
+  "viewLastModified": 1784140357,
+  "viewCount": 172,
+  "downloadCount": 120,
+  "category": "Health & Human Services",
+  "tags": [
+    "public health",
+    "health"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "1952-2099",
+      "Data Owner": "Chicago Department of Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "WEEK_START",
+      "fieldName": "week_start",
+      "dataTypeName": "calendar_date",
+      "description": "Beginning date of the the MMWR week",
+      "nullCount": 0,
+      "cardinality": 7723
+    },
+    {
+      "name": "WEEK_END",
+      "fieldName": "week_end",
+      "dataTypeName": "calendar_date",
+      "description": " Ending date of the MMWR week",
+      "nullCount": 0,
+      "cardinality": 7723
+    },
+    {
+      "name": "MMWR_WEEK",
+      "fieldName": "mmwr_week",
+      "dataTypeName": "number",
+      "description": "A weekly counting system within a calendar year standardized by the U.S. Centers for Disease Control and Prevention",
+      "nullCount": 0,
+      "cardinality": 7723
+    },
+    {
+      "name": "MMWR_YEAR",
+      "fieldName": "mmwr_year",
+      "dataTypeName": "number",
+      "description": "Year of the MMWR week",
+      "nullCount": 0,
+      "cardinality": 7723
+    },
+    {
+      "name": "INFLUENZA_SEASON",
+      "fieldName": "influenza_season",
+      "dataTypeName": "text",
+      "description": "Annually recurring time period of increased influenza activity standardized by the U.S. Centers for Disease Control and Prevention",
+      "nullCount": 0,
+      "cardinality": 7723
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:27.473Z"
+}

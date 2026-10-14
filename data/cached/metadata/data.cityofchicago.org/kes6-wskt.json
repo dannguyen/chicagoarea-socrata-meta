@@ -1,0 +1,81 @@
+{
+  "id": "kes6-wskt",
+  "name": "Performance Metrics - Chicago Park District - Natural Resources Recycling",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 12,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1322252438,
+  "publicationDate": 1342707302,
+  "rowsUpdatedAt": 1342707299,
+  "viewLastModified": 1347045687,
+  "viewCount": 1741,
+  "downloadCount": 3224,
+  "category": "Administration & Finance",
+  "tags": [
+    "performance metrics",
+    "parks",
+    "sustainability"
+  ],
+  "attribution": "Chicago Park District",
+  "attributionLink": "http://www.chicagoparkdistrict.com/",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "Data is current as of December 2011",
+      "Frequency": "Data is updated monthly",
+      "Data Owner": "Chicago Park District"
+    }
+  },
+  "columns": [
+    {
+      "name": "Month",
+      "fieldName": "year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "2010",
+      "fieldName": "_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "2011",
+      "fieldName": "_2",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "2012",
+      "fieldName": "_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 6
+    },
+    {
+      "name": "Target",
+      "fieldName": "target",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:15.106Z"
+}

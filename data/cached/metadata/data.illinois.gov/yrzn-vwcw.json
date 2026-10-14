@@ -1,0 +1,85 @@
+{
+  "id": "yrzn-vwcw",
+  "name": "Sales and Use Tax Registration Certificate Revocation",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 750,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1749739227,
+  "publicationDate": 1750100322,
+  "rowsUpdatedAt": 1788087741,
+  "viewLastModified": 1756156809,
+  "viewCount": 448,
+  "downloadCount": 41,
+  "category": "Government and Public Employees",
+  "tags": [],
+  "attribution": "Department of Revenue",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Revenue"
+    },
+    "Data Management": {
+      "Maintainer": "Department of Revenue"
+    }
+  },
+  "columns": [
+    {
+      "name": "IBT",
+      "fieldName": "ibt",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 750
+    },
+    {
+      "name": "Name",
+      "fieldName": "name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 750
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 750
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 750
+    },
+    {
+      "name": "Zip",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 750
+    },
+    {
+      "name": "Updated At",
+      "fieldName": "updated_at",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 750
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:33.229Z"
+}

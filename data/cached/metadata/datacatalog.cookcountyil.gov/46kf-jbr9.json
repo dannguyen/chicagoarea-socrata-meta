@@ -1,0 +1,149 @@
+{
+  "id": "46kf-jbr9",
+  "name": "Cemetery",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 175,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1393605359,
+  "publicationDate": null,
+  "rowsUpdatedAt": 1393605359,
+  "viewLastModified": 1769543463,
+  "viewCount": 866,
+  "downloadCount": 2250,
+  "category": "Health & Human Services",
+  "tags": [
+    "northeastern illinois",
+    "cemeteries",
+    "tombs",
+    "illinois",
+    "cook county",
+    "tombstones",
+    "facilities and structures",
+    "offline data",
+    "burial grounds",
+    "cemetery",
+    "graveyard",
+    "graveyards",
+    "places of interest",
+    "inactive"
+  ],
+  "attribution": "Cook County GIS Department",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "CFNAME",
+      "fieldName": "cfname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 163
+    },
+    {
+      "name": "CFTYPE",
+      "fieldName": "cftype",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "CFSUBTYPE",
+      "fieldName": "cfsubtype",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "ADDRESS",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 146
+    },
+    {
+      "name": "GNISCODE",
+      "fieldName": "gniscode",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 143
+    },
+    {
+      "name": "SOURCE",
+      "fieldName": "source",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24
+    },
+    {
+      "name": "Jurisdicti",
+      "fieldName": "jurisdicti",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Community",
+      "fieldName": "community",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 75
+    },
+    {
+      "name": "Comment",
+      "fieldName": "comment",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "MERGEID",
+      "fieldName": "mergeid",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 175
+    },
+    {
+      "name": "SHAPE_area",
+      "fieldName": "shape_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 175
+    },
+    {
+      "name": "SHAPE_len",
+      "fieldName": "shape_len",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 175
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:05.431Z"
+}

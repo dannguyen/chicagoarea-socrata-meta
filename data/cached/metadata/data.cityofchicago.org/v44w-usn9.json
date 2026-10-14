@@ -1,0 +1,91 @@
+{
+  "id": "v44w-usn9",
+  "name": "Street Sweeping Zones - 2020",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 843,
+  "rowCountSource": "cached",
+  "rowLabel": "Ward Section",
+  "hasRowIdentifier": false,
+  "createdAt": 1583771560,
+  "publicationDate": 1583776287,
+  "rowsUpdatedAt": 1583776286,
+  "viewLastModified": 1584162184,
+  "viewCount": 826,
+  "downloadCount": 1208,
+  "category": "Sanitation",
+  "tags": [
+    "street cleaning",
+    "schedule",
+    "2020",
+    "parking restrictions",
+    "geo_layer",
+    "boundaries"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": " April 2020 to November 2020",
+      "Frequency": "Annual",
+      "Data Owner": "Streets & Sanitation"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "WARD",
+      "fieldName": "ward",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 50
+    },
+    {
+      "name": "section",
+      "fieldName": "section",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 78,
+      "cardinality": 32
+    },
+    {
+      "name": "Ward_1",
+      "fieldName": "ward_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 50
+    },
+    {
+      "name": "section_1",
+      "fieldName": "section_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 78,
+      "cardinality": 32
+    },
+    {
+      "name": "code",
+      "fieldName": "code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 838
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:21.898Z"
+}

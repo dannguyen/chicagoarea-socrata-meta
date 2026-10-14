@@ -1,0 +1,88 @@
+{
+  "id": "nvke-umup",
+  "name": "Boundaries - Ward Precincts (2013-2022)",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2069,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1425668230,
+  "publicationDate": null,
+  "rowsUpdatedAt": 1425668230,
+  "viewLastModified": 1773779567,
+  "viewCount": 1712,
+  "downloadCount": 2661,
+  "category": "Facilities & Geographic Boundaries",
+  "tags": [
+    "gis",
+    "elections",
+    "boundaries",
+    "geo_layer"
+  ],
+  "attribution": "Chicago Board of Election Commissioners",
+  "attributionLink": "http://www.chicagoelections.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2013-2022",
+      "Data Owner": "Chicago Board of Election Commissioners"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "WARD",
+      "fieldName": "ward",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "PRECINCT",
+      "fieldName": "precinct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 57
+    },
+    {
+      "name": "FULL_TEXT",
+      "fieldName": "full_text",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2069
+    },
+    {
+      "name": "SHAPE_AREA",
+      "fieldName": "shape_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2069
+    },
+    {
+      "name": "SHAPE_LEN",
+      "fieldName": "shape_len",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2069
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:15.397Z"
+}

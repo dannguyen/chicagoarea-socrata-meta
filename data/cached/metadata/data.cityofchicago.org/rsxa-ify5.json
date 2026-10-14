@@ -1,0 +1,191 @@
+{
+  "id": "rsxa-ify5",
+  "name": "Contracts",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 185080,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1317369742,
+  "publicationDate": 1442262776,
+  "rowsUpdatedAt": 1791966043,
+  "viewLastModified": 1442305020,
+  "viewCount": 164090,
+  "downloadCount": 92779,
+  "category": "Administration & Finance",
+  "tags": [
+    "contracts",
+    "procurement"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org/city/en/depts/dps/provdrs/contract.html",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "1993 to present",
+      "Frequency": "Data is updated daily",
+      "Data Owner": "Procurement Services"
+    }
+  },
+  "columns": [
+    {
+      "name": "Purchase Order Description",
+      "fieldName": "purchase_order_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2779,
+      "cardinality": 185080
+    },
+    {
+      "name": "Purchase Order (Contract) Number",
+      "fieldName": "purchase_order_contract_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 185080
+    },
+    {
+      "name": "Revision Number",
+      "fieldName": "revision_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 185080
+    },
+    {
+      "name": "Specification Number",
+      "fieldName": "specification_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 12124,
+      "cardinality": 185080
+    },
+    {
+      "name": "Contract Type",
+      "fieldName": "contract_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 44618,
+      "cardinality": 185080
+    },
+    {
+      "name": "Start Date",
+      "fieldName": "start_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 64291,
+      "cardinality": 185080
+    },
+    {
+      "name": "End Date",
+      "fieldName": "end_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 65042,
+      "cardinality": 185080
+    },
+    {
+      "name": "Approval Date",
+      "fieldName": "approval_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 21,
+      "cardinality": 185080
+    },
+    {
+      "name": "Department",
+      "fieldName": "department",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 10610,
+      "cardinality": 185080
+    },
+    {
+      "name": "Vendor Name",
+      "fieldName": "vendor_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 185080
+    },
+    {
+      "name": "Vendor ID",
+      "fieldName": "vendor_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 185080
+    },
+    {
+      "name": "Address 1",
+      "fieldName": "address_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 791,
+      "cardinality": 185080
+    },
+    {
+      "name": "Address 2",
+      "fieldName": "address_2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 165464,
+      "cardinality": 185080
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1024,
+      "cardinality": 185080
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 10,
+      "cardinality": 185080
+    },
+    {
+      "name": "Zip",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2108,
+      "cardinality": 185059
+    },
+    {
+      "name": "Award Amount",
+      "fieldName": "award_amount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 185059
+    },
+    {
+      "name": "Procurement Type",
+      "fieldName": "procurement_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 130141,
+      "cardinality": 185059
+    },
+    {
+      "name": "Contract PDF",
+      "fieldName": "contract_pdf",
+      "dataTypeName": "url",
+      "description": "A link to the online PDF copy of the contract",
+      "nullCount": 86530,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:26:21.362Z"
+}

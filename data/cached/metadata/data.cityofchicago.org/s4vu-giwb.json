@@ -1,0 +1,88 @@
+{
+  "id": "s4vu-giwb",
+  "name": "Payments",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 472837,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1317369878,
+  "publicationDate": 1545326805,
+  "rowsUpdatedAt": 1791966684,
+  "viewLastModified": 1774466693,
+  "viewCount": 96946,
+  "downloadCount": 79766,
+  "category": "Administration & Finance",
+  "tags": [
+    "payments",
+    "vendors"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "1996 to present",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"s4vu-giwb\"",
+      "Frequency": "Data is updated daily",
+      "Data Owner": "Finance"
+    }
+  },
+  "columns": [
+    {
+      "name": "VOUCHER NUMBER",
+      "fieldName": "voucher_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 116619,
+      "cardinality": 472837
+    },
+    {
+      "name": "AMOUNT",
+      "fieldName": "amount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 472837
+    },
+    {
+      "name": "CHECK DATE",
+      "fieldName": "check_date",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 472837
+    },
+    {
+      "name": "DEPARTMENT NAME",
+      "fieldName": "department_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 286992,
+      "cardinality": 472837
+    },
+    {
+      "name": "CONTRACT NUMBER",
+      "fieldName": "contract_number",
+      "dataTypeName": "text",
+      "description": "DV indicates Direct Voucher. Direct Vouchers are used to pay for miscellaneous products and services that are not associated with a signed contract between the City and the Payee. Examples include debt service, utilities, third party payroll expenditures, court and legal settlements, and small payments such as travel reimbursements.",
+      "nullCount": 0,
+      "cardinality": 472837
+    },
+    {
+      "name": "VENDOR NAME",
+      "fieldName": "vendor_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 472837
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:04.817Z"
+}

@@ -1,0 +1,152 @@
+{
+  "id": "32au-zaqn",
+  "name": "Procurement - Bid Tabulations",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 5676,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1458672216,
+  "publicationDate": 1686671247,
+  "rowsUpdatedAt": 1791930735,
+  "viewLastModified": 1769544252,
+  "viewCount": 91097,
+  "downloadCount": 12762,
+  "category": "Finance & Operations",
+  "tags": [
+    "procurement",
+    "purchase",
+    "contract",
+    "bid",
+    "rfp",
+    "rfi",
+    "award",
+    "bid tab",
+    "bid tabs"
+  ],
+  "attribution": "Office of the Chief Procurement Officer",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Office of the Chief Procurement Officer"
+    },
+    "Publishing Details": {
+      "Data change frequency": "As needed",
+      "Publishing frequency": "Daily"
+    }
+  },
+  "columns": [
+    {
+      "name": "Bid Opening Date",
+      "fieldName": "bid_opening_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5676
+    },
+    {
+      "name": "Procurement Type",
+      "fieldName": "procurement_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5676
+    },
+    {
+      "name": "Contract Number",
+      "fieldName": "contract_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5676
+    },
+    {
+      "name": "Project Name",
+      "fieldName": "project_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 22,
+      "cardinality": 5676
+    },
+    {
+      "name": "Department Name",
+      "fieldName": "department_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 30,
+      "cardinality": 5676
+    },
+    {
+      "name": "Procurement Contact",
+      "fieldName": "procurement_contact",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 59,
+      "cardinality": 5676
+    },
+    {
+      "name": "No Responses",
+      "fieldName": "no_responses",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 641,
+      "cardinality": 5676
+    },
+    {
+      "name": "Company Name",
+      "fieldName": "company_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 110,
+      "cardinality": 5676
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 233,
+      "cardinality": 5676
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 238,
+      "cardinality": 5676
+    },
+    {
+      "name": "Bid Amount",
+      "fieldName": "bid_amount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1572,
+      "cardinality": 5676
+    },
+    {
+      "name": "Notes",
+      "fieldName": "notes",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 4049,
+      "cardinality": 5676
+    },
+    {
+      "name": "Location 1",
+      "fieldName": "location_1",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:45.007Z"
+}

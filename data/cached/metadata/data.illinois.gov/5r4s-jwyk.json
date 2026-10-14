@@ -1,0 +1,326 @@
+{
+  "id": "5r4s-jwyk",
+  "name": "City Of Urbana: IDOT Traffic stop STOP Level (Police Data)",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 28425,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1757557515,
+  "publicationDate": 1757627974,
+  "rowsUpdatedAt": 1757627921,
+  "viewLastModified": 1760121739,
+  "viewCount": 69,
+  "downloadCount": 84,
+  "category": "Local Government",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "City of Urbana"
+    },
+    "Data Management": {
+      "Maintainer": "Mac Patel",
+      "Maintainer Email": "mac.patel@urbanail.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "DATE OF CONTACT",
+      "fieldName": "date_of_contact",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 28425
+    },
+    {
+      "name": "TIME OF CONTACT",
+      "fieldName": "time_of_contact",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 28425
+    },
+    {
+      "name": "INCIDENT NUMBER",
+      "fieldName": "incident_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 28425
+    },
+    {
+      "name": "STEP INDICATOR",
+      "fieldName": "step_indicator",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 28425
+    },
+    {
+      "name": "GEO CODE",
+      "fieldName": "geo_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 28425
+    },
+    {
+      "name": "ANONYMOUS HOUSE NUMBER",
+      "fieldName": "anonymous_house_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 65,
+      "cardinality": 28425
+    },
+    {
+      "name": "ADDRESS STREET",
+      "fieldName": "address_street",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 64,
+      "cardinality": 28425
+    },
+    {
+      "name": "CROSS STREET",
+      "fieldName": "cross_street",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 5383,
+      "cardinality": 28425
+    },
+    {
+      "name": "MOTIVATION FOR STOP DESC",
+      "fieldName": "motivation_for_stop_desc",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 9547,
+      "cardinality": 28425
+    },
+    {
+      "name": "RACE DESCRIPTION",
+      "fieldName": "race_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 28425
+    },
+    {
+      "name": "SEX DESCRIPTION",
+      "fieldName": "sex_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 28425
+    },
+    {
+      "name": "AGE AT CONTACT",
+      "fieldName": "age_at_contact",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3432,
+      "cardinality": 28425
+    },
+    {
+      "name": "RESIDENCY CODE",
+      "fieldName": "residency_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 38,
+      "cardinality": 28425
+    },
+    {
+      "name": "REASON FOR STOP",
+      "fieldName": "reason_for_stop",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 28425
+    },
+    {
+      "name": "TYPE OF VIOLATION",
+      "fieldName": "type_of_violation",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 28425
+    },
+    {
+      "name": "VEHICLE YEAR",
+      "fieldName": "vehicle_year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 28425
+    },
+    {
+      "name": "VEHICLE CONSENT SEARCH REQUESTED",
+      "fieldName": "vehicle_consent_search",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 28425
+    },
+    {
+      "name": "VEHICLE CONSENT SEARCH GRANTED",
+      "fieldName": "vehicle_consent_search_granted",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 28425
+    },
+    {
+      "name": "PARAPHRENALIA FOUND VEHICLE CONSENT SEARCH",
+      "fieldName": "paraphrenalia_found_vehicle",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 28425
+    },
+    {
+      "name": "ALCOHOL FOUND VEHICLE CONSENT SEARCH",
+      "fieldName": "alcohol_found_vehicle_consent",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 28425
+    },
+    {
+      "name": "WEAPON FOUND VEHICLE CONSENT SEARCH",
+      "fieldName": "weapon_found_vehicle_consent",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 28425
+    },
+    {
+      "name": "STOLEN PROPERTY FOUND VEHICLE CONSENT SEARCH",
+      "fieldName": "stolen_property_found_vehicle",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 28425
+    },
+    {
+      "name": "OTHER CONTRABAND FOUND VEHICLE CONSENT SEARCH",
+      "fieldName": "other_contraband_found_vehicle",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 28425
+    },
+    {
+      "name": "DRUG AMOUNT FOUND VEHICLE CONSENT SEARCH",
+      "fieldName": "drug_amount_found_vehicle",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 28425
+    },
+    {
+      "name": "CANINE SNIFF PERFORMED",
+      "fieldName": "canine_sniff_performed",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 28425
+    },
+    {
+      "name": "CANINE ALERTED",
+      "fieldName": "canine_alerted",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 28425
+    },
+    {
+      "name": "CANINE SEARCH CONDUCTED",
+      "fieldName": "canine_search_conducted",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 28425
+    },
+    {
+      "name": "PARAPHRENALIA FOUND CANINE SEARCH",
+      "fieldName": "paraphrenalia_found_canine",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 28425
+    },
+    {
+      "name": "ALCOHOL FOUND CANINE SEARCH",
+      "fieldName": "alcohol_found_canine_search",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 28425
+    },
+    {
+      "name": "WEAPON FOUND CANINE SEARCH",
+      "fieldName": "weapon_found_canine_search",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 28425
+    },
+    {
+      "name": "STOLEN PROPERTY FOUND CANINE SEARCH",
+      "fieldName": "stolen_property_found_canine",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 28425
+    },
+    {
+      "name": "OTHER CONTRABAND FOUND CANINE SEARCH",
+      "fieldName": "other_contraband_found_canine",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 28425
+    },
+    {
+      "name": "DRUG AMOUNT FOUND CANINE SEARCH",
+      "fieldName": "drug_amount_found_canine",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 28425,
+      "cardinality": 28425
+    },
+    {
+      "name": "ANY CONTRABAND FOUND IN VEHICLE CONSENT OR CANINE SEARCH",
+      "fieldName": "any_contraband_found_in",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 28425
+    },
+    {
+      "name": "CONSENT OR DOG SNIFF SEARCH CONDUCTED",
+      "fieldName": "consent_or_dog_sniff_search",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 28425
+    },
+    {
+      "name": "MAPPING ADDRESS",
+      "fieldName": "mapping_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 65,
+      "cardinality": 28425
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:35.532Z"
+}

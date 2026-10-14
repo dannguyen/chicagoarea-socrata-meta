@@ -1,0 +1,159 @@
+{
+  "id": "2et2-5aw3",
+  "name": "Pharmacy Status - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 429,
+  "rowCountSource": "cached",
+  "rowLabel": "Pharmacy",
+  "hasRowIdentifier": false,
+  "createdAt": 1592417044,
+  "publicationDate": 1592417584,
+  "rowsUpdatedAt": 1597424475,
+  "viewLastModified": 1749853939,
+  "viewCount": 1738,
+  "downloadCount": 4456,
+  "category": "Health & Human Services",
+  "tags": [
+    "pharmaceuticals",
+    "medicine",
+    "historical"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov/",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "August 2020",
+      "Data Owner": "Office of Emergency Management & Communications"
+    }
+  },
+  "columns": [
+    {
+      "name": "Pharmacy Name",
+      "fieldName": "pharmacy_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 336
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 428
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Zip",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 179
+    },
+    {
+      "name": "Hours",
+      "fieldName": "hours",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 67,
+      "cardinality": 205
+    },
+    {
+      "name": "24h store?",
+      "fieldName": "_24h_store",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 422,
+      "cardinality": 1
+    },
+    {
+      "name": "Status",
+      "fieldName": "status",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "If closed, reopening comments (if known)",
+      "fieldName": "if_closed_reopening_comments",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 386,
+      "cardinality": 17
+    },
+    {
+      "name": "New Georeferenced Column",
+      "fieldName": "geocoded_column",
+      "dataTypeName": "point",
+      "description": null,
+      "nullCount": 8,
+      "cardinality": 413
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:15.273Z"
+}

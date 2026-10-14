@@ -1,0 +1,80 @@
+{
+  "id": "u2nq-s7gg",
+  "name": "Performance Metrics - Ethics - Mandatory Annual Ethics Training",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 29,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1316643784,
+  "publicationDate": 1333556639,
+  "rowsUpdatedAt": 1333556628,
+  "viewLastModified": 1333556639,
+  "viewCount": 1336,
+  "downloadCount": 3140,
+  "category": "Administration & Finance",
+  "tags": [
+    "performance metrics",
+    "ethics",
+    "personnel"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "May 2011 - present",
+      "Frequency": "Data is updated weekly",
+      "Data Owner": "Ethics"
+    }
+  },
+  "columns": [
+    {
+      "name": "Week",
+      "fieldName": "week",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 29
+    },
+    {
+      "name": "Number Completing Mandatory Annual Ethics Training",
+      "fieldName": "number_completing_mandatory_annual_ethics_training",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 23
+    },
+    {
+      "name": "Total Trained",
+      "fieldName": "total_trained",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 25
+    },
+    {
+      "name": "Percent Completing Mandatory Annual Ethics Training (Target: 100% by Dec 31)",
+      "fieldName": "percent_completing_mandatory_annual_ethics_training_target_100_by_dec_31_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 25
+    },
+    {
+      "name": "Target",
+      "fieldName": "target",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:18.229Z"
+}

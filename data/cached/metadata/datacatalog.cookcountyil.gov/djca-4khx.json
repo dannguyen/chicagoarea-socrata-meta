@@ -1,0 +1,64 @@
+{
+  "id": "djca-4khx",
+  "name": "Medical Examiner--2009 Cause Of Death, Specific Reason",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 54,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1316706783,
+  "publicationDate": 1414428183,
+  "rowsUpdatedAt": 1414428176,
+  "viewLastModified": 1769544702,
+  "viewCount": 1030,
+  "downloadCount": 2528,
+  "category": "Health & Human Services",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Medical Examiner",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "CAUSE OF DEATH                    ",
+      "fieldName": "cause_of_death_",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 23
+    },
+    {
+      "name": "SPECIFIC CAUSE                             ",
+      "fieldName": "specific_cause_",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 54
+    },
+    {
+      "name": "COUNT  ",
+      "fieldName": "count_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 38
+    },
+    {
+      "name": "PERCENT  ",
+      "fieldName": "percent_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 38
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:03.558Z"
+}

@@ -1,0 +1,137 @@
+{
+  "id": "97wa-y6ff",
+  "name": "Public Chauffeurs",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 22852,
+  "rowCountSource": "cached",
+  "rowLabel": "Public Chauffeur",
+  "hasRowIdentifier": false,
+  "createdAt": 1360176150,
+  "publicationDate": 1542731236,
+  "rowsUpdatedAt": 1791995435,
+  "viewLastModified": 1774467164,
+  "viewCount": 197480,
+  "downloadCount": 63829,
+  "category": "Community & Economic Development",
+  "tags": [
+    "licenses",
+    "transportation",
+    "link to article present"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Approximately 2006 to current.",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"97wa-y6ff\"",
+      "Frequency": "Every hour between 7:30 am and 7:30pm",
+      "Data Owner": "Business Affairs and Consumer Protection"
+    }
+  },
+  "columns": [
+    {
+      "name": "License Number",
+      "fieldName": "license",
+      "dataTypeName": "number",
+      "description": "The Public Chauffeur license number issued to the licensee.",
+      "nullCount": 0,
+      "cardinality": 22852
+    },
+    {
+      "name": "Renewed",
+      "fieldName": "renewed",
+      "dataTypeName": "text",
+      "description": "The date (month/year) the license was last renewed.",
+      "nullCount": 3176,
+      "cardinality": 339
+    },
+    {
+      "name": "Status",
+      "fieldName": "status",
+      "dataTypeName": "text",
+      "description": "The current status of the license (Active, Hold, Suspended, Denied, Revoked, Inactive).",
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "Status Date",
+      "fieldName": "status_date",
+      "dataTypeName": "calendar_date",
+      "description": "The date the license status was last updated.",
+      "nullCount": 351,
+      "cardinality": 3820
+    },
+    {
+      "name": "Expires",
+      "fieldName": "expires",
+      "dataTypeName": "text",
+      "description": "The date (month/year) the license expired or will expire.",
+      "nullCount": 1547,
+      "cardinality": 299
+    },
+    {
+      "name": "Driver Type",
+      "fieldName": "driver_type",
+      "dataTypeName": "text",
+      "description": "The type of public passenger vehicle the licensee is authorized to operate (Taxi, Livery Only, or Horse-Drawn Only).",
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "License Type",
+      "fieldName": "license_type",
+      "dataTypeName": "text",
+      "description": "The license term issued to the licensee (Permanent with a one-year term or Temporary with a defined term less than one year).",
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Original Issue Date",
+      "fieldName": "issue_date",
+      "dataTypeName": "calendar_date",
+      "description": "The date the licensee was issued his/her first Public Chauffeur license under the indicated license number.",
+      "nullCount": 960,
+      "cardinality": 7262
+    },
+    {
+      "name": "Name",
+      "fieldName": "name",
+      "dataTypeName": "text",
+      "description": "The name of the person issued the Public Chauffeur license.",
+      "nullCount": 0,
+      "cardinality": 22433
+    },
+    {
+      "name": "Sex",
+      "fieldName": "sex",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 2
+    },
+    {
+      "name": "Chauffeur City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 15,
+      "cardinality": 480
+    },
+    {
+      "name": "Chauffeur State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 19
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:26:21.066Z"
+}

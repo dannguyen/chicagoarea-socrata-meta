@@ -1,0 +1,487 @@
+{
+  "id": "h6r6-h5c9",
+  "name": "Budget Survey 2021",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 38336,
+  "rowCountSource": "cached",
+  "rowLabel": "Survey Response",
+  "hasRowIdentifier": false,
+  "createdAt": 1601408329,
+  "publicationDate": 1601521230,
+  "rowsUpdatedAt": 1601591089,
+  "viewLastModified": 1676049679,
+  "viewCount": 1485,
+  "downloadCount": 2130,
+  "category": "Administration & Finance",
+  "tags": [
+    "budget",
+    "2021",
+    "survey"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Summer/Fall 2020",
+      "Data Owner": "Office of Budget and Management"
+    }
+  },
+  "columns": [
+    {
+      "name": "Date",
+      "fieldName": "date",
+      "dataTypeName": "calendar_date",
+      "description": "The date on which the respondent completed the survey.",
+      "nullCount": 0,
+      "cardinality": 36571
+    },
+    {
+      "name": "ZIP Code",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": "The respondent's reported home ZIP Code.",
+      "nullCount": 1280,
+      "cardinality": 497
+    },
+    {
+      "name": "$1000 Assignment - Police",
+      "fieldName": "_1000_assignment_police",
+      "dataTypeName": "number",
+      "description": "Amount of a hypothetical $1000 allocated to this area. Negative and blank values have been converted to $0 if any question is this series was answered. If the total allocated was above or below $1000, all values have been adjusted proportionally to bring the total to $1000.",
+      "nullCount": 1526,
+      "cardinality": 1334
+    },
+    {
+      "name": "$1000 Assignment - Other Public Safety",
+      "fieldName": "_1000_assignment_other_public_safety",
+      "dataTypeName": "number",
+      "description": "Amount of a hypothetical $1000 allocated to this area. Negative and blank values have been converted to $0 if any question is this series was answered. If the total allocated was above or below $1000, all values have been adjusted proportionally to bring the total to $1000.",
+      "nullCount": 1526,
+      "cardinality": 1629
+    },
+    {
+      "name": "$1000 Assignment - Infrastructure Services",
+      "fieldName": "_1000_assignment_infrastructure_services",
+      "dataTypeName": "number",
+      "description": "Amount of a hypothetical $1000 allocated to this area. Negative and blank values have been converted to $0 if any question is this series was answered. If the total allocated was above or below $1000, all values have been adjusted proportionally to bring the total to $1000.",
+      "nullCount": 1526,
+      "cardinality": 1481
+    },
+    {
+      "name": "$1000 Assignment - Public Health",
+      "fieldName": "_1000_assignment_public_health",
+      "dataTypeName": "number",
+      "description": "Amount of a hypothetical $1000 allocated to this area. Negative and blank values have been converted to $0 if any question is this series was answered. If the total allocated was above or below $1000, all values have been adjusted proportionally to bring the total to $1000.",
+      "nullCount": 1526,
+      "cardinality": 1588
+    },
+    {
+      "name": "$1000 Assignment - Community",
+      "fieldName": "_1000_assignment_community",
+      "dataTypeName": "number",
+      "description": "Amount of a hypothetical $1000 allocated to this area. Negative and blank values have been converted to $0 if any question is this series was answered. If the total allocated was above or below $1000, all values have been adjusted proportionally to bring the total to $1000.",
+      "nullCount": 1526,
+      "cardinality": 1683
+    },
+    {
+      "name": "$1000 Assignment - Streets and Sanitation",
+      "fieldName": "_1000_assignment_streets_and_sanitation",
+      "dataTypeName": "number",
+      "description": "Amount of a hypothetical $1000 allocated to this area. Negative and blank values have been converted to $0 if any question is this series was answered. If the total allocated was above or below $1000, all values have been adjusted proportionally to bring the total to $1000.",
+      "nullCount": 1526,
+      "cardinality": 1367
+    },
+    {
+      "name": "$1000 Assignment - City Development",
+      "fieldName": "_1000_assignment_city_development",
+      "dataTypeName": "number",
+      "description": "Amount of a hypothetical $1000 allocated to this area. Negative and blank values have been converted to $0 if any question is this series was answered. If the total allocated was above or below $1000, all values have been adjusted proportionally to bring the total to $1000.",
+      "nullCount": 1526,
+      "cardinality": 1442
+    },
+    {
+      "name": "$1000 Assignment - Libraries",
+      "fieldName": "_1000_assignment_libraries",
+      "dataTypeName": "number",
+      "description": "Amount of a hypothetical $1000 allocated to this area. Negative and blank values have been converted to $0 if any question is this series was answered. If the total allocated was above or below $1000, all values have been adjusted proportionally to bring the total to $1000.",
+      "nullCount": 1526,
+      "cardinality": 1432
+    },
+    {
+      "name": "$1000 Assignment - Regulatory",
+      "fieldName": "_1000_assignment_regulatory",
+      "dataTypeName": "number",
+      "description": "Amount of a hypothetical $1000 allocated to this area. Negative and blank values have been converted to $0 if any question is this series was answered. If the total allocated was above or below $1000, all values have been adjusted proportionally to bring the total to $1000.",
+      "nullCount": 1526,
+      "cardinality": 1341
+    },
+    {
+      "name": "$1000 Assignment - Cultural Affairs and Special Events",
+      "fieldName": "_1000_assignment_cultural_affairs_and_special_events",
+      "dataTypeName": "number",
+      "description": "Amount of a hypothetical $1000 allocated to this area. Negative and blank values have been converted to $0 if any question is this series was answered. If the total allocated was above or below $1000, all values have been adjusted proportionally to bring the total to $1000.",
+      "nullCount": 1526,
+      "cardinality": 1432
+    },
+    {
+      "name": "Rank - Police",
+      "fieldName": "rank_police",
+      "dataTypeName": "number",
+      "description": "Response to the question: \"Rank these City services in order of most importance to you.\"",
+      "nullCount": 201,
+      "cardinality": 10
+    },
+    {
+      "name": "Rank - Other Public Safety",
+      "fieldName": "rank_other_public_safety",
+      "dataTypeName": "number",
+      "description": "Response to the question: \"Rank these City services in order of most importance to you.\"",
+      "nullCount": 195,
+      "cardinality": 10
+    },
+    {
+      "name": "Rank - Infrastructure",
+      "fieldName": "rank_infrastructure",
+      "dataTypeName": "number",
+      "description": "Response to the question: \"Rank these City services in order of most importance to you.\"",
+      "nullCount": 207,
+      "cardinality": 10
+    },
+    {
+      "name": "Rank - Public Health",
+      "fieldName": "rank_public_health",
+      "dataTypeName": "number",
+      "description": "Response to the question: \"Rank these City services in order of most importance to you.\"",
+      "nullCount": 208,
+      "cardinality": 10
+    },
+    {
+      "name": "Rank - Community",
+      "fieldName": "rank_community",
+      "dataTypeName": "number",
+      "description": "Response to the question: \"Rank these City services in order of most importance to you.\"",
+      "nullCount": 190,
+      "cardinality": 10
+    },
+    {
+      "name": "Rank - Streets and Sanitation",
+      "fieldName": "rank_streets_and_sanitation",
+      "dataTypeName": "number",
+      "description": "Response to the question: \"Rank these City services in order of most importance to you.\"",
+      "nullCount": 209,
+      "cardinality": 10
+    },
+    {
+      "name": "Rank - City Development",
+      "fieldName": "rank_city_development",
+      "dataTypeName": "number",
+      "description": "Response to the question: \"Rank these City services in order of most importance to you.\"",
+      "nullCount": 253,
+      "cardinality": 10
+    },
+    {
+      "name": "Rank - Libraries",
+      "fieldName": "rank_libraries",
+      "dataTypeName": "number",
+      "description": "Response to the question: \"Rank these City services in order of most importance to you.\"",
+      "nullCount": 213,
+      "cardinality": 10
+    },
+    {
+      "name": "Rank - Regulatory",
+      "fieldName": "rank_regulatory",
+      "dataTypeName": "number",
+      "description": "Response to the question: \"Rank these City services in order of most importance to you.\"",
+      "nullCount": 240,
+      "cardinality": 10
+    },
+    {
+      "name": "Rank - Cultural Affairs and Special Events",
+      "fieldName": "rank_cultural_affairs_and_special_events",
+      "dataTypeName": "number",
+      "description": "Response to the question: \"Rank these City services in order of most importance to you.\"",
+      "nullCount": 226,
+      "cardinality": 10
+    },
+    {
+      "name": "Additional Resources - Police",
+      "fieldName": "additional_resources_police",
+      "dataTypeName": "checkbox",
+      "description": "Response to the question: \"Which of the following general categories of City services do you believe require additional resources, if any?\"",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Additional Resources - Other Public Safety",
+      "fieldName": "additional_resources_other_public_safety",
+      "dataTypeName": "checkbox",
+      "description": "Response to the question: \"Which of the following general categories of City services do you believe require additional resources, if any?\"",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Additional Resources - Infrastructure Services",
+      "fieldName": "additional_resources_infrastructure_services",
+      "dataTypeName": "checkbox",
+      "description": "Response to the question: \"Which of the following general categories of City services do you believe require additional resources, if any?\"",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Additional Resources - Public Health",
+      "fieldName": "additional_resources_public_health",
+      "dataTypeName": "checkbox",
+      "description": "Response to the question: \"Which of the following general categories of City services do you believe require additional resources, if any?\"",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Additional Resources - Community",
+      "fieldName": "additional_resources_community",
+      "dataTypeName": "checkbox",
+      "description": "Response to the question: \"Which of the following general categories of City services do you believe require additional resources, if any?\"",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Additional Resources - Streets and Sanitation",
+      "fieldName": "additional_resources_streets_and_sanitation",
+      "dataTypeName": "checkbox",
+      "description": "Response to the question: \"Which of the following general categories of City services do you believe require additional resources, if any?\"",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Additional Resources - City Development",
+      "fieldName": "additional_resources_city_development",
+      "dataTypeName": "checkbox",
+      "description": "Response to the question: \"Which of the following general categories of City services do you believe require additional resources, if any?\"",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Additional Resources - Libraries",
+      "fieldName": "additional_resources_libraries",
+      "dataTypeName": "checkbox",
+      "description": "Response to the question: \"Which of the following general categories of City services do you believe require additional resources, if any?\"",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Additional Resources - Regulatory",
+      "fieldName": "additional_resources_regulatory",
+      "dataTypeName": "checkbox",
+      "description": "Response to the question: \"Which of the following general categories of City services do you believe require additional resources, if any?\"",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Additional Resources - Cultural Affairs and Special Events",
+      "fieldName": "additional_resources_cultural_affairs_and_special_events",
+      "dataTypeName": "checkbox",
+      "description": "Response to the question: \"Which of the following general categories of City services do you believe require additional resources, if any?\"",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Additional Resources - Type",
+      "fieldName": "additional_resources_type",
+      "dataTypeName": "checkbox",
+      "description": "Whether the respondent answered the question: \"If you selected a program area(s) that you believe requires additional resources, what kinds of resources do you think are needed?\"",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Additional Resources Source - Reallocate Existing Funding",
+      "fieldName": "additional_resources_source_reallocate_existing_funding",
+      "dataTypeName": "checkbox",
+      "description": "Whether the respondent would favor this option as a source of additional resources for the previous set of questions.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Additional Resources Source - Increase Revenue",
+      "fieldName": "additional_resources_source_increase_revenue",
+      "dataTypeName": "checkbox",
+      "description": "Whether the respondent would favor this option as a source of additional resources for the previous set of questions.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Additional Resources Source - Other",
+      "fieldName": "additional_resources_source_other",
+      "dataTypeName": "checkbox",
+      "description": "Whether the respondent would favor this option as a source of additional resources for the previous set of questions.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Reallocate From - Police",
+      "fieldName": "reallocate_from_police",
+      "dataTypeName": "checkbox",
+      "description": "Response to the question: \"If you selected reallocate funding above in order to provide funding for other priority programs or services, which of these areas would you reallocate funding from?\"",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Reallocate From - Other Public Safety",
+      "fieldName": "reallocate_from_other_public_safety",
+      "dataTypeName": "checkbox",
+      "description": "Response to the question: \"If you selected reallocate funding above in order to provide funding for other priority programs or services, which of these areas would you reallocate funding from?\"",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Reallocate From - Infrastructure Services",
+      "fieldName": "reallocate_from_infrastructure_services",
+      "dataTypeName": "checkbox",
+      "description": "Response to the question: \"If you selected reallocate funding above in order to provide funding for other priority programs or services, which of these areas would you reallocate funding from?\"",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Reallocate From - Public Health",
+      "fieldName": "reallocate_from_public_health",
+      "dataTypeName": "checkbox",
+      "description": "Response to the question: \"If you selected reallocate funding above in order to provide funding for other priority programs or services, which of these areas would you reallocate funding from?\"",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Reallocate From - Community",
+      "fieldName": "reallocate_from_community",
+      "dataTypeName": "checkbox",
+      "description": "Response to the question: \"If you selected reallocate funding above in order to provide funding for other priority programs or services, which of these areas would you reallocate funding from?\"",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Reallocate From - Streets and Sanitation",
+      "fieldName": "reallocate_from_streets_and_sanitation",
+      "dataTypeName": "checkbox",
+      "description": "Response to the question: \"If you selected reallocate funding above in order to provide funding for other priority programs or services, which of these areas would you reallocate funding from?\"",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Reallocate From - City Development",
+      "fieldName": "reallocate_from_city_development",
+      "dataTypeName": "checkbox",
+      "description": "Response to the question: \"If you selected reallocate funding above in order to provide funding for other priority programs or services, which of these areas would you reallocate funding from?\"",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Reallocate From - Libraries",
+      "fieldName": "reallocate_from_libraries",
+      "dataTypeName": "checkbox",
+      "description": "Response to the question: \"If you selected reallocate funding above in order to provide funding for other priority programs or services, which of these areas would you reallocate funding from?\"",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Reallocate From - Regulatory",
+      "fieldName": "reallocate_from_regulatory",
+      "dataTypeName": "checkbox",
+      "description": "Response to the question: \"If you selected reallocate funding above in order to provide funding for other priority programs or services, which of these areas would you reallocate funding from?\"",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Reallocate From - Cultural Affairs and Special Events",
+      "fieldName": "reallocate_from_cultural_affairs_and_special_events",
+      "dataTypeName": "checkbox",
+      "description": "Response to the question: \"If you selected reallocate funding above in order to provide funding for other priority programs or services, which of these areas would you reallocate funding from?\"",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Reallocate From - None",
+      "fieldName": "reallocate_from_none",
+      "dataTypeName": "checkbox",
+      "description": "Response to the question: \"If you selected reallocate funding above in order to provide funding for other priority programs or services, which of these areas would you reallocate funding from?\"",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Increase Revenue - Increase Sales Tax",
+      "fieldName": "increase_revenue_increase_sales_tax",
+      "dataTypeName": "checkbox",
+      "description": "Response to the question: \"If you selected increase existing revenue or introduce new revenue sources, which of the following examples of revenue options would you choose in order to provide additional resources?\"",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Increase Revenue - Property Tax",
+      "fieldName": "increase_revenue_property_tax",
+      "dataTypeName": "checkbox",
+      "description": "Response to the question: \"If you selected increase existing revenue or introduce new revenue sources, which of the following examples of revenue options would you choose in order to provide additional resources?\"",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Increase Revenue - Garbage Fee",
+      "fieldName": "increase_revenue_garbage_fee",
+      "dataTypeName": "checkbox",
+      "description": "Response to the question: \"If you selected increase existing revenue or introduce new revenue sources, which of the following examples of revenue options would you choose in order to provide additional resources?\"",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Increase Revenue - Expand Sales Tax",
+      "fieldName": "increase_revenue_expand_sales_tax",
+      "dataTypeName": "checkbox",
+      "description": "Response to the question: \"If you selected increase existing revenue or introduce new revenue sources, which of the following examples of revenue options would you choose in order to provide additional resources?\"",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Increase Revenue - Fuel Tax",
+      "fieldName": "increase_revenue_fuel_tax",
+      "dataTypeName": "checkbox",
+      "description": "Response to the question: \"If you selected increase existing revenue or introduce new revenue sources, which of the following examples of revenue options would you choose in order to provide additional resources?\"",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Increase Revenue - None",
+      "fieldName": "increase_revenue_none",
+      "dataTypeName": "checkbox",
+      "description": "Response to the question: \"If you selected increase existing revenue or introduce new revenue sources, which of the following examples of revenue options would you choose in order to provide additional resources?\"",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Increase Revenue - Other",
+      "fieldName": "increase_revenue_other",
+      "dataTypeName": "checkbox",
+      "description": "Response to the question: \"If you selected increase existing revenue or introduce new revenue sources, which of the following examples of revenue options would you choose in order to provide additional resources?\"",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Open-Ended Response",
+      "fieldName": "open_ended_response",
+      "dataTypeName": "checkbox",
+      "description": "Did the person enter a response to the final question that allowed for open-ended comments or suggestions?",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Counter Column",
+      "fieldName": "counter_column",
+      "dataTypeName": "number",
+      "description": "This is an additional column, set to 1 for all records, to allow for certain types of charts and aggregations.",
+      "nullCount": 0,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:17.184Z"
+}

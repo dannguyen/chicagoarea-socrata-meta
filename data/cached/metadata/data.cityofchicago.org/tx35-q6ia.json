@@ -1,0 +1,195 @@
+{
+  "id": "tx35-q6ia",
+  "name": "Public Passenger Vehicle Licenses - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 79104,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": true,
+  "createdAt": 1402007159,
+  "publicationDate": 1448473007,
+  "rowsUpdatedAt": 1791997346,
+  "viewLastModified": 1774468628,
+  "viewCount": 6123,
+  "downloadCount": 5032,
+  "category": "Community & Economic Development",
+  "tags": [
+    "licenses",
+    "transportation",
+    "vehicles",
+    "taxis",
+    "historical",
+    "link to article present"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Historical, starting in June 2014",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"tx35-q6ia\"",
+      "Data Owner": "Business Affairs and Consumer Protection"
+    }
+  },
+  "columns": [
+    {
+      "name": "Vehicle Type",
+      "fieldName": "vehicle_type",
+      "dataTypeName": "text",
+      "description": "Type of Public Passenger Vehicle license issued",
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "Public Vehicle Number",
+      "fieldName": "public_vehicle_number",
+      "dataTypeName": "number",
+      "description": "Assigned License Number. For Taxi type licenses, this number is also the corresponding medallion number.",
+      "nullCount": 0,
+      "cardinality": 11349
+    },
+    {
+      "name": "Status",
+      "fieldName": "status",
+      "dataTypeName": "text",
+      "description": "Status of the license.",
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "Vehicle Make",
+      "fieldName": "vehicle_make",
+      "dataTypeName": "text",
+      "description": "Make of the vehicle associated with the license.\n",
+      "nullCount": 192,
+      "cardinality": 86
+    },
+    {
+      "name": "Vehicle Model",
+      "fieldName": "vehicle_model",
+      "dataTypeName": "text",
+      "description": "Model of the vehicle associated with the license.",
+      "nullCount": 342,
+      "cardinality": 288
+    },
+    {
+      "name": "Vehicle Model Year",
+      "fieldName": "vehicle_model_year",
+      "dataTypeName": "number",
+      "description": "Model year of the vehicle associated with the license.",
+      "nullCount": 255,
+      "cardinality": 48
+    },
+    {
+      "name": "Vehicle Color",
+      "fieldName": "vehicle_color",
+      "dataTypeName": "text",
+      "description": "Color of the vehicle associated with the license.",
+      "nullCount": 394,
+      "cardinality": 98
+    },
+    {
+      "name": "Vehicle Fuel Source",
+      "fieldName": "vehicle_fuel_source",
+      "dataTypeName": "text",
+      "description": "Type of fuel used by the vehicle associated with the license.",
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "Wheelchair Accessible",
+      "fieldName": "wheelchair_accessible",
+      "dataTypeName": "text",
+      "description": "Only applies to Taxi type licenses. Yes or No to indicate if the taxi vehicle is a wheelchair accessible vehicle (WAV) or not.  ",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Company Name",
+      "fieldName": "company_name",
+      "dataTypeName": "text",
+      "description": "The legal owner/holder of the license.",
+      "nullCount": 0,
+      "cardinality": 8391
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": "Company address",
+      "nullCount": 259,
+      "cardinality": 3284
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": "Company city",
+      "nullCount": 259,
+      "cardinality": 73
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": "Company state",
+      "nullCount": 259,
+      "cardinality": 2
+    },
+    {
+      "name": "ZIP Code",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": "Company ZIP Code",
+      "nullCount": 271,
+      "cardinality": 126
+    },
+    {
+      "name": "Taxi Affiliation",
+      "fieldName": "taxi_affiliation",
+      "dataTypeName": "text",
+      "description": "Only applies to Taxi type licenses. The association the taxi vehicle is affiliated with.",
+      "nullCount": 23158,
+      "cardinality": 39
+    },
+    {
+      "name": "Taxi Medallion License Management ",
+      "fieldName": "taxi_medallion_license_management",
+      "dataTypeName": "text",
+      "description": "Only applies to Taxi type licenses. Description of who manages the taxicab and medallion license. ",
+      "nullCount": 28715,
+      "cardinality": 37
+    },
+    {
+      "name": "Record ID",
+      "fieldName": "record_id",
+      "dataTypeName": "text",
+      "description": "A unique ID for each license in this dataset.  It is a combination of the Public Vehicle Number and Vehicle Type.",
+      "nullCount": 0,
+      "cardinality": 12519
+    },
+    {
+      "name": "Last Valid Date",
+      "fieldName": "last_valid_date",
+      "dataTypeName": "calendar_date",
+      "description": "The last date on which this version of the record appeared.\n\nIt indicates when this version STOPPED being valid (or is the last refresh time of this dataset for current records). See dataset description for more discussion of this column.",
+      "nullCount": 0,
+      "cardinality": 4167
+    },
+    {
+      "name": "Record Version ID",
+      "fieldName": "record_version_id",
+      "dataTypeName": "text",
+      "description": "A unique identifier used to distinguish different versions of the same RecordID.",
+      "nullCount": 0,
+      "cardinality": 79104
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:03.075Z"
+}

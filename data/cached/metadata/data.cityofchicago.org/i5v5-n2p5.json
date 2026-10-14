@@ -1,0 +1,62 @@
+{
+  "id": "i5v5-n2p5",
+  "name": "Libraries - 2016 Wi Fi Usage",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 12,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1455226956,
+  "publicationDate": 1487365596,
+  "rowsUpdatedAt": 1487365418,
+  "viewLastModified": 1782944639,
+  "viewCount": 955,
+  "downloadCount": 2334,
+  "category": "Education",
+  "tags": [
+    "libraries",
+    "wi-fi"
+  ],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2016",
+      "Data Owner": "Chicago Public Library"
+    }
+  },
+  "columns": [
+    {
+      "name": "MONTH",
+      "fieldName": "month",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "NUMBER OF SESSIONS",
+      "fieldName": "number_of_sessions",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "YTD",
+      "fieldName": "ytd",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:21.147Z"
+}

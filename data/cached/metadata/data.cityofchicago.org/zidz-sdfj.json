@@ -1,0 +1,56 @@
+{
+  "id": "zidz-sdfj",
+  "name": "Landmark Districts",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 59,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1272494653,
+  "publicationDate": 1302998589,
+  "rowsUpdatedAt": 1313894849,
+  "viewLastModified": 1314562364,
+  "viewCount": 24543,
+  "downloadCount": 4531,
+  "category": "Historic Preservation",
+  "tags": [
+    "landmarks",
+    "tourism",
+    "gis"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "",
+      "Frequency": "",
+      "Data Owner": "Housing & Economic Development"
+    }
+  },
+  "columns": [
+    {
+      "name": "DISTRICT NAME",
+      "fieldName": "district_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 59
+    },
+    {
+      "name": "DESIGNATION DATE",
+      "fieldName": "designation_date",
+      "dataTypeName": "date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 54
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:07.978Z"
+}

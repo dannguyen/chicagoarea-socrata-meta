@@ -1,0 +1,105 @@
+{
+  "id": "k5wm-jkx9",
+  "name": "City of Urbana: Rental Inspection Grades Listing",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2284,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1731003758,
+  "publicationDate": 1757620748,
+  "rowsUpdatedAt": 1790197892,
+  "viewLastModified": 1790197891,
+  "viewCount": 474,
+  "downloadCount": 147,
+  "category": "Local Government",
+  "tags": [
+    "grades",
+    "inspection"
+  ],
+  "attribution": "City of Urbana",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "City of Urbana"
+    },
+    "Data Management": {
+      "Maintainer": "Mayank Patel",
+      "Maintainer Email": "mac.patel@urbanail.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "Property Address",
+      "fieldName": "property_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2284
+    },
+    {
+      "name": "Parcel Number",
+      "fieldName": "parcel_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2284
+    },
+    {
+      "name": "Inspection Date",
+      "fieldName": "inspection_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2284
+    },
+    {
+      "name": "Grade",
+      "fieldName": "grade",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2284
+    },
+    {
+      "name": "License Status",
+      "fieldName": "license_status",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2284
+    },
+    {
+      "name": "Expiration Date",
+      "fieldName": "expiration_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 490,
+      "cardinality": 2284
+    },
+    {
+      "name": "Mappable Address",
+      "fieldName": "mappable_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2284
+    },
+    {
+      "name": "georeference",
+      "fieldName": "georeference",
+      "dataTypeName": "point",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2284
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:33.192Z"
+}

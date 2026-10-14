@@ -1,0 +1,77 @@
+{
+  "id": "xitm-ttzb",
+  "name": "20180621 Daily FOIA Report",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 4029,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1529677235,
+  "publicationDate": 1529677313,
+  "rowsUpdatedAt": 1529677304,
+  "viewLastModified": 1529677313,
+  "viewCount": 805,
+  "downloadCount": 4136,
+  "category": null,
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "",
+      "Frequency": "",
+      "Data Owner": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "REQUESTOR",
+      "fieldName": "requestor",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 17,
+      "cardinality": 2355
+    },
+    {
+      "name": "AFFILIATION",
+      "fieldName": "affiliation",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 76,
+      "cardinality": 1283
+    },
+    {
+      "name": "COMMENTS",
+      "fieldName": "comments",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 29,
+      "cardinality": 3062
+    },
+    {
+      "name": "DATE RECEIVED",
+      "fieldName": "date_received",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1628
+    },
+    {
+      "name": "DUE DATE",
+      "fieldName": "due_date",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 64,
+      "cardinality": 1595
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:22.092Z"
+}

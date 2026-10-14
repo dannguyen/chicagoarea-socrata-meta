@@ -1,0 +1,295 @@
+{
+  "id": "22u3-xenr",
+  "name": "Building Violations",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1961137,
+  "rowCountSource": "cached",
+  "rowLabel": "Violation",
+  "hasRowIdentifier": true,
+  "createdAt": 1340731739,
+  "publicationDate": 1516985039,
+  "rowsUpdatedAt": 1791961261,
+  "viewLastModified": 1672934121,
+  "viewCount": 374137,
+  "downloadCount": 61598,
+  "category": "Buildings",
+  "tags": [
+    "violations",
+    "inspections"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "January 1, 2006 to present",
+      "Frequency": "Data is updated daily",
+      "Data Owner": "Buildings"
+    }
+  },
+  "columns": [
+    {
+      "name": "ID",
+      "fieldName": "id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1961137
+    },
+    {
+      "name": "VIOLATION LAST MODIFIED DATE",
+      "fieldName": "violation_last_modified_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1129393
+    },
+    {
+      "name": "VIOLATION DATE",
+      "fieldName": "violation_date",
+      "dataTypeName": "calendar_date",
+      "description": "The date the violation was cited.",
+      "nullCount": 0,
+      "cardinality": 6245
+    },
+    {
+      "name": "VIOLATION CODE",
+      "fieldName": "violation_code",
+      "dataTypeName": "text",
+      "description": "The Violation Code. See Violation Description for the description of what the code means.",
+      "nullCount": 0,
+      "cardinality": 1568
+    },
+    {
+      "name": "VIOLATION STATUS",
+      "fieldName": "violation_status",
+      "dataTypeName": "text",
+      "description": "Complied = Violations have been addressed;\nOpen = Violations are open;\nNo Entry = Inspector could not gain access to the premise to conduct an inspection.",
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "VIOLATION STATUS DATE",
+      "fieldName": "violation_status_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 1141086,
+      "cardinality": 5901
+    },
+    {
+      "name": "VIOLATION DESCRIPTION",
+      "fieldName": "violation_description",
+      "dataTypeName": "text",
+      "description": "The description of the violation corresponding to the Violation Code value.",
+      "nullCount": 13846,
+      "cardinality": 1398
+    },
+    {
+      "name": "VIOLATION LOCATION",
+      "fieldName": "violation_location",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1006282,
+      "cardinality": 61192
+    },
+    {
+      "name": "VIOLATION INSPECTOR COMMENTS",
+      "fieldName": "violation_inspector_comments",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 185570,
+      "cardinality": 1257372
+    },
+    {
+      "name": "VIOLATION ORDINANCE",
+      "fieldName": "violation_ordinance",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 57414,
+      "cardinality": 1394
+    },
+    {
+      "name": "INSPECTOR ID",
+      "fieldName": "inspector_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 406
+    },
+    {
+      "name": "INSPECTION NUMBER",
+      "fieldName": "inspection_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 453090
+    },
+    {
+      "name": "INSPECTION STATUS",
+      "fieldName": "inspection_status",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 16,
+      "cardinality": 4
+    },
+    {
+      "name": "INSPECTION WAIVED",
+      "fieldName": "inspection_waived",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "INSPECTION CATEGORY",
+      "fieldName": "inspection_category",
+      "dataTypeName": "text",
+      "description": "Inspections are categorized by one of the following: COMPLAINT – Inspection is a result of a 311 Complaint. PERIODIC – Inspection is a result of recurring inspection (typically on an annual cycle). PERMIT – Inspection is a result of a permit. REGISTRATION – Inspection is a result of a Registration (typically Vacant Building Registration).",
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "DEPARTMENT BUREAU",
+      "fieldName": "department_bureau",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "ADDRESS",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 171403
+    },
+    {
+      "name": "STREET NUMBER",
+      "fieldName": "street_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10076
+    },
+    {
+      "name": "STREET DIRECTION",
+      "fieldName": "street_direction",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "STREET NAME",
+      "fieldName": "street_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1201
+    },
+    {
+      "name": "STREET TYPE",
+      "fieldName": "street_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 15454,
+      "cardinality": 14
+    },
+    {
+      "name": "PROPERTY GROUP",
+      "fieldName": "property_group",
+      "dataTypeName": "number",
+      "description": "Properties (lots) in the City of Chicago can typically have multiple point addresses, range addresses and buildings. Examples are corner lots, large lots, lots with front and rear buildings, etc. As a result, inspections (and their associated violations), permits and complaints related to a single property could have different addresses. This problem can be reconciled by using Property Group. All point and range addresses for a property are assigned the same Property Group key.",
+      "nullCount": 0,
+      "cardinality": 152805
+    },
+    {
+      "name": "SSA",
+      "fieldName": "ssa",
+      "dataTypeName": "text",
+      "description": "Special Service Areas are local tax districts that fund expanded services and programs, to foster commercial and economic development, through a localized property tax. In other cities these areas are sometimes called Business Improvement Districts (BIDs). This portal contains a map of all Chicago SSAs",
+      "nullCount": 1581549,
+      "cardinality": 53
+    },
+    {
+      "name": "LATITUDE",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1967,
+      "cardinality": 171092
+    },
+    {
+      "name": "LONGITUDE",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1967,
+      "cardinality": 171067
+    },
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:26:19.902Z"
+}

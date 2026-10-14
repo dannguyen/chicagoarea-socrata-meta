@@ -1,0 +1,192 @@
+{
+  "id": "k7hf-8y75",
+  "name": "Beach Weather Stations - Automated Sensors",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 133992,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": true,
+  "createdAt": 1432063058,
+  "publicationDate": 1433197344,
+  "rowsUpdatedAt": 1791999935,
+  "viewLastModified": 1748470690,
+  "viewCount": 32876,
+  "downloadCount": 28704,
+  "category": "Parks & Recreation",
+  "tags": [
+    "beaches",
+    "parks",
+    "chicago park district",
+    "open spaces",
+    "parks & recreation",
+    "recreation",
+    "weather",
+    "sensors",
+    "iot",
+    "link to article present"
+  ],
+  "attribution": "Chicago Park District",
+  "attributionLink": "http://www.chicagoparkdistrict.com",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "5/22/2015 - current (in season) plus limited previous measurements",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "http://dev.cityofchicago.org/open%20data/data%20portal/2019/10/17/beach-weather-stations-down.html",
+      "Frequency": "Hourly",
+      "Data Owner": "Chicago Park District"
+    }
+  },
+  "columns": [
+    {
+      "name": "Station Name",
+      "fieldName": "station_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Measurement Timestamp",
+      "fieldName": "measurement_timestamp",
+      "dataTypeName": "calendar_date",
+      "description": "The date and time when the measurements were taken.",
+      "nullCount": 0,
+      "cardinality": 50829
+    },
+    {
+      "name": "Air Temperature",
+      "fieldName": "air_temperature",
+      "dataTypeName": "number",
+      "description": "Air Temperature in Celsius degrees.",
+      "nullCount": 75,
+      "cardinality": 1091
+    },
+    {
+      "name": "Wet Bulb Temperature",
+      "fieldName": "wet_bulb_temperature",
+      "dataTypeName": "number",
+      "description": "Wet bulb temperature in Celsius degrees.",
+      "nullCount": 45586,
+      "cardinality": 525
+    },
+    {
+      "name": "Humidity",
+      "fieldName": "humidity",
+      "dataTypeName": "number",
+      "description": "Percent relative humidity.",
+      "nullCount": 0,
+      "cardinality": 88
+    },
+    {
+      "name": "Rain Intensity",
+      "fieldName": "rain_intensity",
+      "dataTypeName": "number",
+      "description": "Rain intensity in mm per hour.",
+      "nullCount": 45586,
+      "cardinality": 91
+    },
+    {
+      "name": "Interval Rain",
+      "fieldName": "interval_rain",
+      "dataTypeName": "number",
+      "description": "Rain since the last hourly measurement, in mm.",
+      "nullCount": 0,
+      "cardinality": 620
+    },
+    {
+      "name": "Total Rain",
+      "fieldName": "total_rain",
+      "dataTypeName": "number",
+      "description": "Total rain since midnight in mm.",
+      "nullCount": 45586,
+      "cardinality": 3178
+    },
+    {
+      "name": "Precipitation Type",
+      "fieldName": "precipitation_type",
+      "dataTypeName": "number",
+      "description": "0   = No precipitation \n60 = Liquid precipitation, e.g. rain \n     - Ice, hail and sleet are transmitted as rain (60).\n70 = Solid precipitation, e.g. snow \n40 = unspecified precipitation",
+      "nullCount": 45586,
+      "cardinality": 4
+    },
+    {
+      "name": "Wind Direction",
+      "fieldName": "wind_direction",
+      "dataTypeName": "number",
+      "description": "Wind direction in degrees.",
+      "nullCount": 0,
+      "cardinality": 360
+    },
+    {
+      "name": "Wind Speed",
+      "fieldName": "wind_speed",
+      "dataTypeName": "number",
+      "description": "Wind speed in meters per second at the time the record was reported.",
+      "nullCount": 0,
+      "cardinality": 163
+    },
+    {
+      "name": "Maximum Wind Speed",
+      "fieldName": "maximum_wind_speed",
+      "dataTypeName": "number",
+      "description": "Maximum wind speed in the two-minute period immediately preceding the time the record was reported.",
+      "nullCount": 0,
+      "cardinality": 222
+    },
+    {
+      "name": "Barometric Pressure",
+      "fieldName": "barometric_pressure",
+      "dataTypeName": "number",
+      "description": "Barometric pressure in hPa.",
+      "nullCount": 146,
+      "cardinality": 557
+    },
+    {
+      "name": "Solar Radiation",
+      "fieldName": "solar_radiation",
+      "dataTypeName": "number",
+      "description": "Solar radiation in watts per square meter.",
+      "nullCount": 0,
+      "cardinality": 1061
+    },
+    {
+      "name": "Heading",
+      "fieldName": "heading",
+      "dataTypeName": "number",
+      "description": "The current heading of the wind-measurement unit.  The ideal value to get the most accurate measurements is true north (0 degrees) and the unit is manually adjusted, as necessary, to keep it close to this heading",
+      "nullCount": 45586,
+      "cardinality": 24
+    },
+    {
+      "name": "Battery Life",
+      "fieldName": "battery_life",
+      "dataTypeName": "number",
+      "description": "Battery voltage, an indicator of remaining battery life used by the Chicago Park District to know when batteries should be replaced.",
+      "nullCount": 0,
+      "cardinality": 26
+    },
+    {
+      "name": "Measurement Timestamp Label",
+      "fieldName": "measurement_timestamp_label",
+      "dataTypeName": "text",
+      "description": "The Last Updated value in text format, suitable for use in the Visualize function.",
+      "nullCount": 0,
+      "cardinality": 50830
+    },
+    {
+      "name": "Measurement ID",
+      "fieldName": "measurement_id",
+      "dataTypeName": "text",
+      "description": "A unique record ID made up of the Station Name and Measurement Timestamp.",
+      "nullCount": 0,
+      "cardinality": 133992
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:07.241Z"
+}

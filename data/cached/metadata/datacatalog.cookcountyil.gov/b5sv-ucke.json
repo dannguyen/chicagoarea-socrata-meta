@@ -1,0 +1,109 @@
+{
+  "id": "b5sv-ucke",
+  "name": "Human Rights - Decisions",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 791,
+  "rowCountSource": "cached",
+  "rowLabel": "Decision",
+  "hasRowIdentifier": false,
+  "createdAt": 1466630478,
+  "publicationDate": 1754502242,
+  "rowsUpdatedAt": 1788449428,
+  "viewLastModified": 1788449426,
+  "viewCount": 6285,
+  "downloadCount": 3952,
+  "category": "Legal & Judicial",
+  "tags": [
+    "hre",
+    "ethics",
+    "complaints",
+    "housing",
+    "employment",
+    "paid leave",
+    "public accommodations"
+  ],
+  "attribution": "Cook County Commission on Human Rights",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Data Services"
+    },
+    "Metadata": {
+      "Update Frequency": "As Needed"
+    },
+    "Detailed Descriptive": {
+      "Ordinance Link": "https://library.municode.com/il/cook_county/codes/code_of_ordinances?nodeId=PTIGEOR_CH42HURE_ARTIIHURI",
+      "Ordinance": "Sec. 42 Article II"
+    },
+    "Publishing Details": {
+      "Data change frequency": "As needed",
+      "Publishing frequency": "As needed"
+    }
+  },
+  "columns": [
+    {
+      "name": "Case Number",
+      "fieldName": "case_number",
+      "dataTypeName": "text",
+      "description": "ID associated with case, as assigned by Cook County Commission on Human Rights",
+      "nullCount": 1,
+      "cardinality": 791
+    },
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "text",
+      "description": "fiscal year in which the order was filed (County fiscal year is Dec 1 of prior calendar year to Nov 30 of current calendar year)",
+      "nullCount": 0,
+      "cardinality": 791
+    },
+    {
+      "name": "Case Type",
+      "fieldName": "case_type",
+      "dataTypeName": "text",
+      "description": "subject matter of case as it relates to Cook County Human Rights ordinances",
+      "nullCount": 0,
+      "cardinality": 791
+    },
+    {
+      "name": "Decision Date",
+      "fieldName": "decision_date",
+      "dataTypeName": "calendar_date",
+      "description": "date the decision was rendered",
+      "nullCount": 0,
+      "cardinality": 791
+    },
+    {
+      "name": "Determination",
+      "fieldName": "determination",
+      "dataTypeName": "text",
+      "description": "decision or conclusion made by the Cook County Commission on Human Rights regarding the case",
+      "nullCount": 0,
+      "cardinality": 791
+    },
+    {
+      "name": "Basis of Dismissal",
+      "fieldName": "basis_of_dismissal",
+      "dataTypeName": "text",
+      "description": "reason for closure of the case",
+      "nullCount": 1,
+      "cardinality": 791
+    },
+    {
+      "name": "Decision Document",
+      "fieldName": "link",
+      "dataTypeName": "url",
+      "description": "link to the document that was entered ",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:52.111Z"
+}

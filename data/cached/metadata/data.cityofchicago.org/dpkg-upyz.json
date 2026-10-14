@@ -1,0 +1,198 @@
+{
+  "id": "dpkg-upyz",
+  "name": "Chicago Microlending Institute (CMI) Microloans",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 252,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1422471262,
+  "publicationDate": 1456500223,
+  "rowsUpdatedAt": 1456441970,
+  "viewLastModified": 1456500223,
+  "viewCount": 5435,
+  "downloadCount": 5436,
+  "category": "Community & Economic Development",
+  "tags": [
+    "community & economic development",
+    "small business",
+    "business",
+    "loans",
+    "business loans",
+    "microloans",
+    "microlenders",
+    "capital access centers",
+    "finance"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Current as of Q1 2016",
+      "Frequency": "Quarterly",
+      "Data Owner": "Business Affairs & Consumer Protection"
+    }
+  },
+  "columns": [
+    {
+      "name": "Loan Date",
+      "fieldName": "loan_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 195
+    },
+    {
+      "name": "Lender",
+      "fieldName": "lender",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Block",
+      "fieldName": "block",
+      "dataTypeName": "text",
+      "description": "The block of the borrower's address.",
+      "nullCount": 1,
+      "cardinality": 88
+    },
+    {
+      "name": "Street Direction",
+      "fieldName": "street_direction",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 8
+    },
+    {
+      "name": "Street Name",
+      "fieldName": "street_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 149
+    },
+    {
+      "name": "Street Type",
+      "fieldName": "street_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 14
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Zip",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 55
+    },
+    {
+      "name": "Ward",
+      "fieldName": "ward",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 50
+    },
+    {
+      "name": "Industry",
+      "fieldName": "industry",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 39
+    },
+    {
+      "name": "Latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 7,
+      "cardinality": 208
+    },
+    {
+      "name": "Longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 7,
+      "cardinality": 208
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:03.934Z"
+}

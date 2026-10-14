@@ -1,0 +1,143 @@
+{
+  "id": "dmeb-2zra",
+  "name": "Lobbyist Data - Employers",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 6951,
+  "rowCountSource": "cached",
+  "rowLabel": "Employer",
+  "hasRowIdentifier": false,
+  "createdAt": 1433888488,
+  "publicationDate": 1445374918,
+  "rowsUpdatedAt": 1791969677,
+  "viewLastModified": 1445637225,
+  "viewCount": 10019,
+  "downloadCount": 38288,
+  "category": "Ethics",
+  "tags": [
+    "ethics",
+    "lobbyists"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2012 - Current",
+      "Frequency": "Data are updated daily.",
+      "Data Owner": "Board of Ethics"
+    }
+  },
+  "columns": [
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": "The year for which this record was created.",
+      "nullCount": 0,
+      "cardinality": 6951
+    },
+    {
+      "name": "EMPLOYER_ID",
+      "fieldName": "employer_id",
+      "dataTypeName": "number",
+      "description": "A unique identifier for the employer record. This ID can be used to link records in other datasets that contain an ID column with the same name.",
+      "nullCount": 0,
+      "cardinality": 6951
+    },
+    {
+      "name": "NAME",
+      "fieldName": "name",
+      "dataTypeName": "text",
+      "description": "Employer name.",
+      "nullCount": 0,
+      "cardinality": 6951
+    },
+    {
+      "name": "ADDRESS_1",
+      "fieldName": "address_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6951
+    },
+    {
+      "name": "ADDRESS_2",
+      "fieldName": "address_2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 4040,
+      "cardinality": 6951
+    },
+    {
+      "name": "CITY",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6951
+    },
+    {
+      "name": "STATE",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6951
+    },
+    {
+      "name": "ZIP",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6951
+    },
+    {
+      "name": "COUNTRY",
+      "fieldName": "country",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6951
+    },
+    {
+      "name": "PHONE",
+      "fieldName": "phone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6951
+    },
+    {
+      "name": "FAX",
+      "fieldName": "fax",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 4547,
+      "cardinality": 6951
+    },
+    {
+      "name": "CREATED_DATE",
+      "fieldName": "created_date",
+      "dataTypeName": "calendar_date",
+      "description": "The date the record was created.",
+      "nullCount": 595,
+      "cardinality": 6951
+    },
+    {
+      "name": "ACTIVE",
+      "fieldName": "active",
+      "dataTypeName": "text",
+      "description": "Whether the employer record is active in the Board of Ethics system for use in further registrations.",
+      "nullCount": 0,
+      "cardinality": 6951
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:38:05.650Z"
+}

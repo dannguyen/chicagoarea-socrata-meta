@@ -1,0 +1,89 @@
+{
+  "id": "65ce-agii",
+  "name": "safepassage2016_17",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 100,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1472662903,
+  "publicationDate": null,
+  "rowsUpdatedAt": 1472662906,
+  "viewLastModified": 1731519925,
+  "viewCount": 288,
+  "downloadCount": 1861,
+  "category": "Education",
+  "tags": [
+    "safe passage",
+    "routes",
+    "police",
+    "cps",
+    "schools",
+    "map_layer",
+    "gis",
+    "2016",
+    "2017",
+    "kml",
+    "kmz",
+    "shapefiles"
+  ],
+  "attribution": "Chicago Public Schools",
+  "attributionLink": "http://cps.edu",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "July 2016 - July 2017",
+      "Frequency": "Annually",
+      "Data Owner": "Chicago Public Schools"
+    }
+  },
+  "columns": [
+    {
+      "name": "RT_NUM",
+      "fieldName": "rt_num",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 100
+    },
+    {
+      "name": "SCHOOLID",
+      "fieldName": "schoolid",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 100
+    },
+    {
+      "name": "SCHOOL_NAM",
+      "fieldName": "school_nam",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 100
+    },
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multiline",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Shape_Leng",
+      "fieldName": "shape_leng",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 100
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:26.811Z"
+}

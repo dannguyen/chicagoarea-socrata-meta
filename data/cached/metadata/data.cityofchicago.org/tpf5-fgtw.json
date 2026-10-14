@@ -1,0 +1,119 @@
+{
+  "id": "tpf5-fgtw",
+  "name": "Lobbyist Data - Historical - Lobbyist Registry - 2011",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2028,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1317369642,
+  "publicationDate": 1358970351,
+  "rowsUpdatedAt": 1358970339,
+  "viewLastModified": 1445633841,
+  "viewCount": 7647,
+  "downloadCount": 9102,
+  "category": "Ethics",
+  "tags": [
+    "lobbyists",
+    "historical"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2011",
+      "Frequency": "Data is updated daily",
+      "Data Owner": "Ethics"
+    }
+  },
+  "columns": [
+    {
+      "name": "FILING YEAR",
+      "fieldName": "filing_year",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "LOBBYIST LAST NAME",
+      "fieldName": "lobbyist_last_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 640
+    },
+    {
+      "name": "LOBBYIST FIRST NAME",
+      "fieldName": "lobbyist_first_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 356
+    },
+    {
+      "name": "LOBBYIST MIDDLE INITIAL",
+      "fieldName": "lobbyist_middle_initial",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 652,
+      "cardinality": 28
+    },
+    {
+      "name": "LOBBYIST ADDRESS",
+      "fieldName": "lobbyist_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 504
+    },
+    {
+      "name": "LOBBYIST CITY",
+      "fieldName": "lobbyist_city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 104
+    },
+    {
+      "name": "STATE",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 30
+    },
+    {
+      "name": "LOBBYIST ZIP",
+      "fieldName": "lobbyist_zip",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 158
+    },
+    {
+      "name": "REGISTERED EMPLOYERS NAMES",
+      "fieldName": "registered_employers_names",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 363
+    },
+    {
+      "name": "LOBBYING CLIENTS NAME",
+      "fieldName": "lobbying_clients_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1209
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:01.550Z"
+}

@@ -1,0 +1,320 @@
+{
+  "id": "2u8t-236p",
+  "name": "Chicago Historic Resources Survey - Red and Orange Buildings",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 9298,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": true,
+  "createdAt": 1784127510,
+  "publicationDate": 1787332728,
+  "rowsUpdatedAt": 1787332711,
+  "viewLastModified": 1787332728,
+  "viewCount": 456,
+  "downloadCount": 125,
+  "category": "Historic Preservation",
+  "tags": [
+    "gis",
+    "shapefiles",
+    "landmarks",
+    "geo_layer"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "1983-1995",
+      "Data Owner": "Department of Planning and Development"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "OBJECTID",
+      "fieldName": "objectid",
+      "dataTypeName": "number",
+      "description": "Object ID",
+      "nullCount": 0,
+      "cardinality": 9298
+    },
+    {
+      "name": "LANDMARK_I",
+      "fieldName": "landmark_i",
+      "dataTypeName": "number",
+      "description": "Landmark ID number",
+      "nullCount": 0,
+      "cardinality": 9298
+    },
+    {
+      "name": "LANDMARKNA",
+      "fieldName": "landmarkna",
+      "dataTypeName": "text",
+      "description": "Landmark Name",
+      "nullCount": 5467,
+      "cardinality": 9298
+    },
+    {
+      "name": "ADDRESSDES",
+      "fieldName": "addressdes",
+      "dataTypeName": "text",
+      "description": "Address Description",
+      "nullCount": 9091,
+      "cardinality": 9298
+    },
+    {
+      "name": "STARTYEAR",
+      "fieldName": "startyear",
+      "dataTypeName": "number",
+      "description": "Construction Start Date",
+      "nullCount": 2872,
+      "cardinality": 9298
+    },
+    {
+      "name": "ENDYEAR",
+      "fieldName": "endyear",
+      "dataTypeName": "number",
+      "description": "Construction End Date",
+      "nullCount": 2986,
+      "cardinality": 9298
+    },
+    {
+      "name": "DECADE",
+      "fieldName": "decade",
+      "dataTypeName": "number",
+      "description": "Construction Decade",
+      "nullCount": 0,
+      "cardinality": 9298
+    },
+    {
+      "name": "YEARNOTES",
+      "fieldName": "yearnotes",
+      "dataTypeName": "text",
+      "description": "Notes pertaining to construction date(s)",
+      "nullCount": 9254,
+      "cardinality": 9298
+    },
+    {
+      "name": "DESIGNATION",
+      "fieldName": "designation",
+      "dataTypeName": "calendar_date",
+      "description": "Date of Chicago Landmark Designation",
+      "nullCount": 9107,
+      "cardinality": 9298
+    },
+    {
+      "name": "LOW_ADDR",
+      "fieldName": "low_addr",
+      "dataTypeName": "number",
+      "description": "Low address number",
+      "nullCount": 0,
+      "cardinality": 9298
+    },
+    {
+      "name": "HIGH_ADDR",
+      "fieldName": "high_addr",
+      "dataTypeName": "number",
+      "description": "High address number",
+      "nullCount": 0,
+      "cardinality": 9298
+    },
+    {
+      "name": "DIRECTION",
+      "fieldName": "direction",
+      "dataTypeName": "text",
+      "description": "Street direction",
+      "nullCount": 293,
+      "cardinality": 9298
+    },
+    {
+      "name": "STREET_NAME",
+      "fieldName": "street_name",
+      "dataTypeName": "text",
+      "description": "Street Name",
+      "nullCount": 293,
+      "cardinality": 9298
+    },
+    {
+      "name": "STREET_TYPE",
+      "fieldName": "street_type",
+      "dataTypeName": "text",
+      "description": "Street Type",
+      "nullCount": 302,
+      "cardinality": 9298
+    },
+    {
+      "name": "SECDIR",
+      "fieldName": "secdir",
+      "dataTypeName": "text",
+      "description": "Supplemental direction for streets without a Street Type (e.g., Lincoln Park West).",
+      "nullCount": 9255,
+      "cardinality": 9298
+    },
+    {
+      "name": "COLOR_ID",
+      "fieldName": "color_id",
+      "dataTypeName": "number",
+      "description": "Color ID (Orange-rated=1; Red-rated=2; Yellow=3; Yellow-Green=4; Green=5; Blue=6 (post-1940))",
+      "nullCount": 0,
+      "cardinality": 9298
+    },
+    {
+      "name": "COLOR",
+      "fieldName": "color",
+      "dataTypeName": "text",
+      "description": "The color value corresponding to the Color ID",
+      "nullCount": 1,
+      "cardinality": 9298
+    },
+    {
+      "name": "CLASS_ID",
+      "fieldName": "class_id",
+      "dataTypeName": "number",
+      "description": "Class ID (1=Building; 2=Site; 3=Structure (i.e., Mausoleum ); 4=Object (i.e., Monuments/Sculptures))",
+      "nullCount": 0,
+      "cardinality": 9298
+    },
+    {
+      "name": "CLASS",
+      "fieldName": "class",
+      "dataTypeName": "text",
+      "description": "The class value corresponding to the class ID",
+      "nullCount": 114,
+      "cardinality": 9298
+    },
+    {
+      "name": "FORM_NUMBER",
+      "fieldName": "form_number",
+      "dataTypeName": "number",
+      "description": "Chicago Historic Resources Survey Form Number",
+      "nullCount": 0,
+      "cardinality": 9298
+    },
+    {
+      "name": "BLDG_ID",
+      "fieldName": "bldg_id",
+      "dataTypeName": "number",
+      "description": "Building ID Number",
+      "nullCount": 0,
+      "cardinality": 9298
+    },
+    {
+      "name": "BLDG_F_ADD",
+      "fieldName": "bldg_f_add",
+      "dataTypeName": "number",
+      "description": "Building Full Address",
+      "nullCount": 0,
+      "cardinality": 9298
+    },
+    {
+      "name": "BLDG_T_ADD",
+      "fieldName": "bldg_t_add",
+      "dataTypeName": "number",
+      "description": "Building Tied Address",
+      "nullCount": 0,
+      "cardinality": 9298
+    },
+    {
+      "name": "BLDG_PRE_D",
+      "fieldName": "bldg_pre_d",
+      "dataTypeName": "text",
+      "description": "Building Direction",
+      "nullCount": 136,
+      "cardinality": 9298
+    },
+    {
+      "name": "BLDG_ST_NAME",
+      "fieldName": "bldg_st_name",
+      "dataTypeName": "text",
+      "description": "Building Street Name",
+      "nullCount": 138,
+      "cardinality": 9298
+    },
+    {
+      "name": "BLDG_ST_TYPE",
+      "fieldName": "bldg_st_type",
+      "dataTypeName": "text",
+      "description": "Building Street Type",
+      "nullCount": 229,
+      "cardinality": 9298
+    },
+    {
+      "name": "BLDG_SUF_D",
+      "fieldName": "bldg_suf_d",
+      "dataTypeName": "text",
+      "description": "Building Suffix Direction",
+      "nullCount": 9260,
+      "cardinality": 9298
+    },
+    {
+      "name": "Y_COORD",
+      "fieldName": "y_coord",
+      "dataTypeName": "number",
+      "description": "Y-Coordinate",
+      "nullCount": 0,
+      "cardinality": 9298
+    },
+    {
+      "name": "X_COORD",
+      "fieldName": "x_coord",
+      "dataTypeName": "number",
+      "description": "X-Coordinate",
+      "nullCount": 0,
+      "cardinality": 9298
+    },
+    {
+      "name": "LATITUDE",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": "Latitude",
+      "nullCount": 0,
+      "cardinality": 9298
+    },
+    {
+      "name": "LONGITUDE",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": "Longitude",
+      "nullCount": 0,
+      "cardinality": 9298
+    },
+    {
+      "name": "DEMOLISHED",
+      "fieldName": "demolished",
+      "dataTypeName": "text",
+      "description": "Building Demolished (Y/N). In some instances, red or orange buildings are eventually cleared for demolition. In some cases, a Y may mean that the demolition is planned but has not yet taken place.",
+      "nullCount": 13,
+      "cardinality": 9298
+    },
+    {
+      "name": "SHAPE_Leng",
+      "fieldName": "shape_leng",
+      "dataTypeName": "number",
+      "description": "Shape Length",
+      "nullCount": 0,
+      "cardinality": 9298
+    },
+    {
+      "name": "SHAPE_Area",
+      "fieldName": "shape_area",
+      "dataTypeName": "number",
+      "description": "Shape Area (sq. ft.)",
+      "nullCount": 0,
+      "cardinality": 9298
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:24.713Z"
+}

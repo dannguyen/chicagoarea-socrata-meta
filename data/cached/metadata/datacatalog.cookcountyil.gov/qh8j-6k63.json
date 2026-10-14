@@ -1,0 +1,146 @@
+{
+  "id": "qh8j-6k63",
+  "name": "Procurement - Awarded Contracts & Amendments",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 8328,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1319648751,
+  "publicationDate": 1761663847,
+  "rowsUpdatedAt": 1791462679,
+  "viewLastModified": 1791462678,
+  "viewCount": 218431,
+  "downloadCount": 52140,
+  "category": "Finance & Operations",
+  "tags": [
+    "purchase",
+    "bid",
+    "rfp",
+    "rfi",
+    "award",
+    "bpa",
+    "ocpo",
+    "cpa"
+  ],
+  "attribution": "Office of the Chief Procurement Officer",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Bureau of Technology Data Services"
+    },
+    "Metadata": {
+      "Update Frequency": "As Needed"
+    },
+    "Publishing Details": {
+      "Data change frequency": "As needed",
+      "Publishing frequency": "As needed"
+    }
+  },
+  "columns": [
+    {
+      "name": "Contract Number",
+      "fieldName": "contract_number",
+      "dataTypeName": "text",
+      "description": "number assigned to a contract by the Office of the Chief Procurement Officer; the same contract number applies to amendments of the contract",
+      "nullCount": 0,
+      "cardinality": 8328
+    },
+    {
+      "name": "Vendor Number",
+      "fieldName": "vendor_number",
+      "dataTypeName": "number",
+      "description": "unique number assigned to vendor doing business with Cook County",
+      "nullCount": 3415,
+      "cardinality": 8328
+    },
+    {
+      "name": "Vendor Name",
+      "fieldName": "vendor_name",
+      "dataTypeName": "text",
+      "description": "name of vendor who has been awarded the contract",
+      "nullCount": 0,
+      "cardinality": 8328
+    },
+    {
+      "name": "Amount",
+      "fieldName": "amount",
+      "dataTypeName": "number",
+      "description": "amount agreed to be paid by the County for the contract or amendment; may be blank in cases of a revenue generating contract or an amendment which is just an extension/renewal",
+      "nullCount": 656,
+      "cardinality": 8328
+    },
+    {
+      "name": "Description",
+      "fieldName": "description",
+      "dataTypeName": "text",
+      "description": "description of the project or service the contract covers",
+      "nullCount": 8,
+      "cardinality": 8328
+    },
+    {
+      "name": "System Release",
+      "fieldName": "system_release",
+      "dataTypeName": "calendar_date",
+      "description": "date when the record is released from procurement system",
+      "nullCount": 0,
+      "cardinality": 8328
+    },
+    {
+      "name": "Lead Department",
+      "fieldName": "lead_department",
+      "dataTypeName": "text",
+      "description": "department that is sponsoring or lead point on the contract/amendment.",
+      "nullCount": 0,
+      "cardinality": 8328
+    },
+    {
+      "name": "Start Date",
+      "fieldName": "start_date",
+      "dataTypeName": "calendar_date",
+      "description": "start date of contract/amendment; may be “N/A” or blank when it is a one-time purchase or an amendment increase with no time extension",
+      "nullCount": 2447,
+      "cardinality": 8328
+    },
+    {
+      "name": "End Date",
+      "fieldName": "end_date",
+      "dataTypeName": "calendar_date",
+      "description": "end date of contract/amendment; may be “N/A” or blank when it is a one-time purchase or an amendment increase with no time extension",
+      "nullCount": 2451,
+      "cardinality": 8328
+    },
+    {
+      "name": "Category",
+      "fieldName": "category",
+      "dataTypeName": "url",
+      "description": "indicates whether the record is a new contract or an amendment to an existing contract and opens a link to a PDF of the contract/amendment document",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Board Approval",
+      "fieldName": "board_approval_1",
+      "dataTypeName": "checkbox",
+      "description": "indicates whether approval from the Board of Commissioners was required to award the contract or amendment",
+      "nullCount": 4532,
+      "cardinality": 8328
+    },
+    {
+      "name": "Commodity Type",
+      "fieldName": "commodity_type",
+      "dataTypeName": "text",
+      "description": "broad category of work, goods, or services provided by the contract or amendment",
+      "nullCount": 6,
+      "cardinality": 8328
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:48.305Z"
+}

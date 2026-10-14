@@ -1,0 +1,151 @@
+{
+  "id": "sypz-gxn2",
+  "name": "Assessor [Archived 05-11-2022] - Residential COVID Adjustment Replication Data",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1107554,
+  "rowCountSource": "cached",
+  "rowLabel": "Property or condominium building",
+  "hasRowIdentifier": false,
+  "createdAt": 1590178878,
+  "publicationDate": 1590180245,
+  "rowsUpdatedAt": 1633454350,
+  "viewLastModified": 1769544178,
+  "viewCount": 3407,
+  "downloadCount": 2392,
+  "category": "Property & Taxation",
+  "tags": [
+    "cook county assessor",
+    "property tax",
+    "archive"
+  ],
+  "attribution": "Cook County Assessor's Office",
+  "attributionLink": "https://www.cookcountyassessor.com/",
+  "licenseId": "CC0_10",
+  "license": "Creative Commons 1.0 Universal (Public Domain Dedication)",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Data Science and Modeling"
+    },
+    "Metadata": {
+      "Update Frequency": "No updates"
+    },
+    "Detailed Descriptive": {
+      "Related documents": "https://gitlab.com/ccao-data-science---modeling/covid-impact-on-residential-home-values/-/tree/master/report",
+      "Data notes": "https://gitlab.com/ccao-data-science---modeling/covid-impact-on-residential-home-values",
+      "Geographic coverage": "Countywide",
+      "Geographic unit": "Parcel"
+    }
+  },
+  "columns": [
+    {
+      "name": "PIN10",
+      "fieldName": "pin10",
+      "dataTypeName": "text",
+      "description": "The first 10 digits of each PIN, corrosponding to a single-family or small multi-family property, or a condominiums building.",
+      "nullCount": 0,
+      "cardinality": 1107552
+    },
+    {
+      "name": "Township Code",
+      "fieldName": "town",
+      "dataTypeName": "text",
+      "description": "Township code",
+      "nullCount": 0,
+      "cardinality": 38
+    },
+    {
+      "name": "Township Name",
+      "fieldName": "town_name",
+      "dataTypeName": "text",
+      "description": "Township name",
+      "nullCount": 0,
+      "cardinality": 38
+    },
+    {
+      "name": "Neighborhood Code",
+      "fieldName": "nbhd",
+      "dataTypeName": "text",
+      "description": "Assessor's residential neighborhood code",
+      "nullCount": 0,
+      "cardinality": 198
+    },
+    {
+      "name": "Census Tract",
+      "fieldName": "census_tract",
+      "dataTypeName": "text",
+      "description": "Census tract",
+      "nullCount": 0,
+      "cardinality": 1309
+    },
+    {
+      "name": "Property Class",
+      "fieldName": "class",
+      "dataTypeName": "text",
+      "description": "Property class",
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "Triad Code",
+      "fieldName": "triad",
+      "dataTypeName": "text",
+      "description": "Numeric triad code",
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Triad Name",
+      "fieldName": "triad_name",
+      "dataTypeName": "text",
+      "description": "Triad name",
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Adjustment Group",
+      "fieldName": "group",
+      "dataTypeName": "text",
+      "description": "COVID-19 adjustment group",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Reference",
+      "fieldName": "reference",
+      "dataTypeName": "text",
+      "description": "Source of reference value",
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Reference Value",
+      "fieldName": "reference_value",
+      "dataTypeName": "text",
+      "description": "Reference value",
+      "nullCount": 223,
+      "cardinality": 407232
+    },
+    {
+      "name": "COVID-19 Adjustment",
+      "fieldName": "covid_19_adjustment",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1313
+    },
+    {
+      "name": "Adjusted Value",
+      "fieldName": "adjusted_value",
+      "dataTypeName": "text",
+      "description": "Post-COVID adjusted value",
+      "nullCount": 743333,
+      "cardinality": 340441
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:54.117Z"
+}

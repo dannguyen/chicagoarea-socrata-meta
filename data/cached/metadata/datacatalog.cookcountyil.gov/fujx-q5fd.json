@@ -1,0 +1,75 @@
+{
+  "id": "fujx-q5fd",
+  "name": "Inspector General - Quarterly Reports",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 70,
+  "rowCountSource": "cached",
+  "rowLabel": "Report",
+  "hasRowIdentifier": false,
+  "createdAt": 1463605684,
+  "publicationDate": 1665780449,
+  "rowsUpdatedAt": 1784646472,
+  "viewLastModified": 1784646471,
+  "viewCount": 20508,
+  "downloadCount": 3714,
+  "category": "Finance & Operations",
+  "tags": [
+    "oiig"
+  ],
+  "attribution": "Cook County Office of the Independent Inspector General",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Update Frequency": "Quarterly"
+    },
+    "Detailed Descriptive": {
+      "Geographic unit": "Not applicable"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Quarterly",
+      "Publishing frequency": "Quarterly"
+    }
+  },
+  "columns": [
+    {
+      "name": "Link",
+      "fieldName": "link",
+      "dataTypeName": "url",
+      "description": "Document name and hyperlink to PDF file",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Date Issued",
+      "fieldName": "date_issued",
+      "dataTypeName": "calendar_date",
+      "description": "Document date",
+      "nullCount": 0,
+      "cardinality": 70
+    },
+    {
+      "name": "Fiscal Year",
+      "fieldName": "fiscal_year",
+      "dataTypeName": "text",
+      "description": "Year according to Cook County's fiscal calendar",
+      "nullCount": 0,
+      "cardinality": 70
+    },
+    {
+      "name": "Quarter",
+      "fieldName": "quarter",
+      "dataTypeName": "number",
+      "description": "Quarter according to Cook County's fiscal calendar",
+      "nullCount": 0,
+      "cardinality": 70
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:48.906Z"
+}

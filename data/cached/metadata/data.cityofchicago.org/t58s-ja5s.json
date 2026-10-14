@@ -1,0 +1,84 @@
+{
+  "id": "t58s-ja5s",
+  "name": "FOIA Request Log - Administrative Hearings",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 30635,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1317139892,
+  "publicationDate": 1616620257,
+  "rowsUpdatedAt": 1624987121,
+  "viewLastModified": 1624987114,
+  "viewCount": 20382,
+  "downloadCount": 20495,
+  "category": "FOIA",
+  "tags": [],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "May 2010 - present",
+      "Frequency": "Data is updated as needed",
+      "Data Owner": "Administrative Hearings"
+    }
+  },
+  "columns": [
+    {
+      "name": "REQUESTOR NAME",
+      "fieldName": "requestor_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 30635,
+      "cardinality": 0
+    },
+    {
+      "name": "ORGANIZATION",
+      "fieldName": "organization",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 10543,
+      "cardinality": 1863
+    },
+    {
+      "name": "DESCRIPTION OF REQUEST",
+      "fieldName": "description_of_request",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 247,
+      "cardinality": 286
+    },
+    {
+      "name": "DATE RECEIVED",
+      "fieldName": "date_received",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 2693
+    },
+    {
+      "name": "DATE DUE",
+      "fieldName": "date_due",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 2707
+    },
+    {
+      "name": "Name",
+      "fieldName": "name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6827
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:37:48.082Z"
+}

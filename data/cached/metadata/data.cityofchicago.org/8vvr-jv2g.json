@@ -1,0 +1,136 @@
+{
+  "id": "8vvr-jv2g",
+  "name": "Influenza Risk Level by ZIP Code",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 20492,
+  "rowCountSource": "cached",
+  "rowLabel": "Weekly Risk Level for a ZIP Code",
+  "hasRowIdentifier": true,
+  "createdAt": 1602018553,
+  "publicationDate": 1602085330,
+  "rowsUpdatedAt": 1791606705,
+  "viewLastModified": 1788212761,
+  "viewCount": 5338,
+  "downloadCount": 2800,
+  "category": "Health & Human Services",
+  "tags": [
+    "flu",
+    "health",
+    "public health"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2019 - Present",
+      "Frequency": "Data are updated weekly during flu season",
+      "Data Owner": "Department of Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "MMWR_Week",
+      "fieldName": "mmwr_week",
+      "dataTypeName": "number",
+      "description": "A weekly counting system within a calendar year standardized by the U.S. Centers for Disease Control",
+      "nullCount": 0,
+      "cardinality": 20492
+    },
+    {
+      "name": "Week_Start",
+      "fieldName": "week_start",
+      "dataTypeName": "calendar_date",
+      "description": "Beginning date of the the MMWR week",
+      "nullCount": 0,
+      "cardinality": 20492
+    },
+    {
+      "name": "Week_End",
+      "fieldName": "week_end",
+      "dataTypeName": "calendar_date",
+      "description": "Ending date of the MMWR week",
+      "nullCount": 0,
+      "cardinality": 20492
+    },
+    {
+      "name": "ZIP_Code",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": "ZIP Code",
+      "nullCount": 0,
+      "cardinality": 20492
+    },
+    {
+      "name": "ILI_Activity_Level",
+      "fieldName": "ili_activity_level",
+      "dataTypeName": "number",
+      "description": "The amount of influenza-like illness activity among emergency department visits.  Higher numbers indicate higher amounts of activity.",
+      "nullCount": 0,
+      "cardinality": 20492
+    },
+    {
+      "name": "RECORD_ID",
+      "fieldName": "record_id",
+      "dataTypeName": "text",
+      "description": "A unique identifier for the record.\n",
+      "nullCount": 0,
+      "cardinality": 20492
+    },
+    {
+      "name": "ZIP_Code_Location",
+      "fieldName": "zip_code_location",
+      "dataTypeName": "point",
+      "description": "A point within the ZIP Code to allow for geographic analysis. The precise point shown has no other meaning.",
+      "nullCount": 53,
+      "cardinality": 20492
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Boundaries - ZIP Codes' (rpca-8um6) the point in column 'zip_code_location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Community Areas' (vrxf-vc4k) the point in column 'zip_code_location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Zip Codes' (6mkv-f3dw) the point in column 'zip_code_location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Census Tracts' (bdys-3d7i) the point in column 'zip_code_location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Wards' (43wa-7qmu) the point in column 'zip_code_location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:04.171Z"
+}

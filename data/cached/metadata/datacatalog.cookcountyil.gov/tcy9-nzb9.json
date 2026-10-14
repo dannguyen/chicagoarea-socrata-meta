@@ -1,0 +1,56 @@
+{
+  "id": "tcy9-nzb9",
+  "name": "Medical Examiner--2009 Deaths, by Day Death Occurred",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 8,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1316717043,
+  "publicationDate": 1414425852,
+  "rowsUpdatedAt": 1414425847,
+  "viewLastModified": 1769543445,
+  "viewCount": 721,
+  "downloadCount": 1863,
+  "category": "Health & Human Services",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Medical Examiner",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "DAY OF DEATH   ",
+      "fieldName": "day_of_death_",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "COUNT   ",
+      "fieldName": "count_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "PERCENT             ",
+      "fieldName": "percent_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 8
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:07.453Z"
+}

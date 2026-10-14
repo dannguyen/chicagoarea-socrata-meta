@@ -1,0 +1,120 @@
+{
+  "id": "sjam-cggc",
+  "name": "Cook County Budget - 2012 - Budget Long-term Forecast",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 79,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1319490420,
+  "publicationDate": 1412887955,
+  "rowsUpdatedAt": 1412887936,
+  "viewLastModified": 1769547416,
+  "viewCount": 4408,
+  "downloadCount": 3350,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Budget and Management Services",
+  "attributionLink": "http://home.cookcountyil.gov/budget/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Revenues and Fees",
+      "fieldName": "revenues_and_fees",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 9,
+      "cardinality": 70
+    },
+    {
+      "name": "Actual FY07",
+      "fieldName": "actual_fy07",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 19,
+      "cardinality": 44
+    },
+    {
+      "name": "Actual FY08",
+      "fieldName": "actual_fy08",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 16,
+      "cardinality": 49
+    },
+    {
+      "name": "Actual FY09",
+      "fieldName": "actual_fy09",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 15,
+      "cardinality": 49
+    },
+    {
+      "name": "Actual FY10",
+      "fieldName": "actual_fy10",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 18,
+      "cardinality": 45
+    },
+    {
+      "name": "Proj. Actual FY11",
+      "fieldName": "proj_actual_fy11",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 17,
+      "cardinality": 49
+    },
+    {
+      "name": "Ept. Est. FY12",
+      "fieldName": "ept_est_fy12",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 18,
+      "cardinality": 51
+    },
+    {
+      "name": "Proj. FY13",
+      "fieldName": "proj_fy13",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 17,
+      "cardinality": 51
+    },
+    {
+      "name": "Proj. FY14",
+      "fieldName": "proj_fy14",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 17,
+      "cardinality": 51
+    },
+    {
+      "name": "Proj. FY15",
+      "fieldName": "proj_fy15",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 17,
+      "cardinality": 51
+    },
+    {
+      "name": "Proj. FY16",
+      "fieldName": "proj_fy16",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 17,
+      "cardinality": 51
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:53.350Z"
+}

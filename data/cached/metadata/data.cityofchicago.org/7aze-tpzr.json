@@ -1,0 +1,88 @@
+{
+  "id": "7aze-tpzr",
+  "name": "Performance Metrics - Innovation & Technology - Map Chicago Website Availability",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 25,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1316717560,
+  "publicationDate": 1317166212,
+  "rowsUpdatedAt": 1317166208,
+  "viewLastModified": 1317166212,
+  "viewCount": 1561,
+  "downloadCount": 3139,
+  "category": "Administration & Finance",
+  "tags": [
+    "performance metrics",
+    "service delivery",
+    "technology"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org/performance",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "May 2011 - present",
+      "Frequency": "Data is updated weekly",
+      "Data Owner": "Innovation & Technology"
+    }
+  },
+  "columns": [
+    {
+      "name": "Week",
+      "fieldName": "week",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 25
+    },
+    {
+      "name": "Total Downtime (minutes)",
+      "fieldName": "total_downtime_minutes_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Map Chicago Site Uptime (%)",
+      "fieldName": "map_chicago_site_uptime_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Target Uptime (%)",
+      "fieldName": "target_uptime_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Weeks Target Was Achieved",
+      "fieldName": "weeks_target_was_achieved",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 25,
+      "cardinality": 0
+    },
+    {
+      "name": "Weeks Target Was Not Achieved",
+      "fieldName": "weeks_target_was_not_achieved",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 25,
+      "cardinality": 0
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:16.545Z"
+}

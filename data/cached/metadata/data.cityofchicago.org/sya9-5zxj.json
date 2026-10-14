@@ -1,0 +1,80 @@
+{
+  "id": "sya9-5zxj",
+  "name": "Performance Metrics - Chicago Park District - Facilities Work Order Management",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 58,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1320853973,
+  "publicationDate": 1344021334,
+  "rowsUpdatedAt": 1344021331,
+  "viewLastModified": 1344021334,
+  "viewCount": 2644,
+  "downloadCount": 2812,
+  "category": "Administration & Finance",
+  "tags": [
+    "performance metrics",
+    "parks"
+  ],
+  "attribution": "Chicago Park District",
+  "attributionLink": "http://www.chicagoparkdistrict.com/",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "Data is current as of December 2011",
+      "Frequency": "Data is updated weekly",
+      "Data Owner": "Chicago Park District"
+    }
+  },
+  "columns": [
+    {
+      "name": "Date",
+      "fieldName": "date",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 58
+    },
+    {
+      "name": "# Open Work Orders Completed",
+      "fieldName": "_open_w_o_s_completed_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 53
+    },
+    {
+      "name": "# Open",
+      "fieldName": "_open",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 51
+    },
+    {
+      "name": "% Open Work Orders Completed",
+      "fieldName": "_open_w_o_s_completed_2",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 26
+    },
+    {
+      "name": "% Complete Target",
+      "fieldName": "_complete_target_based_on_previous_results_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 2
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:10.147Z"
+}

@@ -1,0 +1,94 @@
+{
+  "id": "f5tw-c348",
+  "name": "IDPH Shelter Care Facilities",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 116,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709064515,
+  "publicationDate": 1709144378,
+  "rowsUpdatedAt": 1709144373,
+  "viewLastModified": 1736793991,
+  "viewCount": 308,
+  "downloadCount": 224,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 116
+    },
+    {
+      "name": "city",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 84
+    },
+    {
+      "name": "license",
+      "fieldName": "license",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 116
+    },
+    {
+      "name": "number_of_beds",
+      "fieldName": "number_of_beds",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 70
+    },
+    {
+      "name": "phone",
+      "fieldName": "phone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 116
+    },
+    {
+      "name": "shelter_care_facility",
+      "fieldName": "shelter_care_facility",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 116
+    },
+    {
+      "name": "zip",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 97
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:33.625Z"
+}

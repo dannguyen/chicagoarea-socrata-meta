@@ -1,0 +1,72 @@
+{
+  "id": "ix6b-at92",
+  "name": "President's Office--Juvenile Temporary Detention Center Cost Comparison",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 16,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1320179870,
+  "publicationDate": 1412888651,
+  "rowsUpdatedAt": 1412888641,
+  "viewLastModified": 1769547419,
+  "viewCount": 2673,
+  "downloadCount": 3025,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Toni Preckwinkle, Cook County Board President",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Expenditure",
+      "fieldName": "expenditure",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 15
+    },
+    {
+      "name": "FY2011 Appropriated",
+      "fieldName": "fy2011_appropriated",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 11
+    },
+    {
+      "name": "Number of Detainees",
+      "fieldName": "number_of_detainees",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 16,
+      "cardinality": 0
+    },
+    {
+      "name": "Average Daily Cost Per Detainee",
+      "fieldName": "average_daily_cost_per_detainee",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 13,
+      "cardinality": 3
+    },
+    {
+      "name": "Average Daily Population",
+      "fieldName": "average_daily_population",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 15,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:55.394Z"
+}

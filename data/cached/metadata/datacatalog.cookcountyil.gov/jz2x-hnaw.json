@@ -1,0 +1,80 @@
+{
+  "id": "jz2x-hnaw",
+  "name": "Administrative Hearings - Ticket Summary Without Payments Report - FY2011 through September 27th, 2011",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 17,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1317158094,
+  "publicationDate": 1412895585,
+  "rowsUpdatedAt": 1412895577,
+  "viewLastModified": 1769542678,
+  "viewCount": 689,
+  "downloadCount": 2399,
+  "category": "Legal & Judicial",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Administrative Hearings",
+  "attributionLink": "http://www.cookcountyildoah.org/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Department Description",
+      "fieldName": "department_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 16
+    },
+    {
+      "name": "Number of Tickets Issued",
+      "fieldName": "number_of_tickets_issued",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 17
+    },
+    {
+      "name": "Original Amt Due",
+      "fieldName": "original_amt_due",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Total Fines",
+      "fieldName": "total_fines",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 17
+    },
+    {
+      "name": "Total Paid",
+      "fieldName": "total_paid",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 17,
+      "cardinality": 0
+    },
+    {
+      "name": "Balance Due",
+      "fieldName": "balance_due",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 17,
+      "cardinality": 0
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:07.931Z"
+}

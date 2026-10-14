@@ -1,0 +1,81 @@
+{
+  "id": "66ef-btra",
+  "name": "Active Lobbying Entities and Their Contractual Lobbyists",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 12620,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1758223800,
+  "publicationDate": 1758745498,
+  "rowsUpdatedAt": 1791981869,
+  "viewLastModified": 1758745498,
+  "viewCount": 7387,
+  "downloadCount": 301,
+  "category": "Government and Public Employees",
+  "tags": [
+    "lobbyist",
+    "contractual"
+  ],
+  "attribution": "Illinois Secretary of State",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Illinois Secretary of State"
+    },
+    "Data Management": {
+      "Maintainer": "Illinois Secretary of State",
+      "Maintainer Email": "publicdata@ilsos.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "ENT_REG_YEAR",
+      "fieldName": "ent_reg_year",
+      "dataTypeName": "text",
+      "description": "Year of registration",
+      "nullCount": 0,
+      "cardinality": 12620
+    },
+    {
+      "name": "ENTITY_ID",
+      "fieldName": "entity_id",
+      "dataTypeName": "text",
+      "description": "Entity ID",
+      "nullCount": 0,
+      "cardinality": 12620
+    },
+    {
+      "name": "ENTITY_NAME",
+      "fieldName": "entity_name",
+      "dataTypeName": "text",
+      "description": "Entity name",
+      "nullCount": 0,
+      "cardinality": 12620
+    },
+    {
+      "name": "CONTRACTUAL_ID",
+      "fieldName": "contractual_id",
+      "dataTypeName": "text",
+      "description": "Contractual ID",
+      "nullCount": 0,
+      "cardinality": 12620
+    },
+    {
+      "name": "CONTRACTUAL_NAME",
+      "fieldName": "contractual_name",
+      "dataTypeName": "text",
+      "description": "Contractual name",
+      "nullCount": 0,
+      "cardinality": 12620
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:30.569Z"
+}

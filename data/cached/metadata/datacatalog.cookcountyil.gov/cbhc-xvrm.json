@@ -1,0 +1,117 @@
+{
+  "id": "cbhc-xvrm",
+  "name": "Procurement - Buying Plan - Fiscal Year 2026",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 164,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1770994245,
+  "publicationDate": 1770995644,
+  "rowsUpdatedAt": 1770995633,
+  "viewLastModified": 1770995679,
+  "viewCount": 2322,
+  "downloadCount": 1033,
+  "category": "Finance & Operations",
+  "tags": [
+    "ocpo",
+    "bid",
+    "rfp"
+  ],
+  "attribution": "Office of the Chief Procurement Officer",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Office of the Chief Procurement Officer"
+    },
+    "Metadata": {
+      "Update Frequency": "As Needed"
+    },
+    "Publishing Details": {
+      "Data change frequency": "As needed",
+      "Publishing frequency": "As needed"
+    }
+  },
+  "columns": [
+    {
+      "name": "Buying Plan Number",
+      "fieldName": "buying_plan_number",
+      "dataTypeName": "text",
+      "description": "ID assigned to each buying plan by the Cook County Office of the Chief Procurement Officer",
+      "nullCount": 0,
+      "cardinality": 164
+    },
+    {
+      "name": "Contract Commodity Category",
+      "fieldName": "contract_commodity_category",
+      "dataTypeName": "text",
+      "description": "category of project",
+      "nullCount": 0,
+      "cardinality": 164
+    },
+    {
+      "name": "Department",
+      "fieldName": "department",
+      "dataTypeName": "text",
+      "description": "department sponsoring the project",
+      "nullCount": 0,
+      "cardinality": 164
+    },
+    {
+      "name": "Current Contract Number",
+      "fieldName": "current_contract_number",
+      "dataTypeName": "text",
+      "description": "unique contract number if available (some do not have contract numbers assigned at the time of buying plan publication)",
+      "nullCount": 1,
+      "cardinality": 164
+    },
+    {
+      "name": "Project Description",
+      "fieldName": "project_description",
+      "dataTypeName": "text",
+      "description": "description of the work to be solicited",
+      "nullCount": 0,
+      "cardinality": 164
+    },
+    {
+      "name": "Estimated Total Contract Amount",
+      "fieldName": "estimated_total_contract",
+      "dataTypeName": "text",
+      "description": "estimated dollar amount range the County expects to spend on the contract",
+      "nullCount": 0,
+      "cardinality": 164
+    },
+    {
+      "name": "Estimated Contract Term",
+      "fieldName": "estimated_contract_term",
+      "dataTypeName": "text",
+      "description": "estimated amount of time the County expects to complete contract work",
+      "nullCount": 0,
+      "cardinality": 164
+    },
+    {
+      "name": "Anticipated Advertise Date",
+      "fieldName": "anticipated_advertise_date",
+      "dataTypeName": "text",
+      "description": "date range during which the County expects to solicit bids for the project from vendors",
+      "nullCount": 0,
+      "cardinality": 164
+    },
+    {
+      "name": "Proposed Procurement Method",
+      "fieldName": "proposed_procurement_method",
+      "dataTypeName": "text",
+      "description": "procurement method suggested for the project",
+      "nullCount": 0,
+      "cardinality": 164
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:56.043Z"
+}

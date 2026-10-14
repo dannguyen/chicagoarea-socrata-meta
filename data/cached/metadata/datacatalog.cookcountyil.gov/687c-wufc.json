@@ -1,0 +1,93 @@
+{
+  "id": "687c-wufc",
+  "name": "Cook County Recorder of Deeds - Quit Claim Deeds - 2012 January 1 to November 29",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 24260,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1335362979,
+  "publicationDate": 1685491076,
+  "rowsUpdatedAt": 1354911560,
+  "viewLastModified": 1769545384,
+  "viewCount": 4906,
+  "downloadCount": 3861,
+  "category": "Property & Taxation",
+  "tags": [
+    "quit claim deeds",
+    "inactive"
+  ],
+  "attribution": "Cook County Recorder of Deeds",
+  "attributionLink": "http://cookrecorder.com",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Update Frequency": "No updates"
+    }
+  },
+  "columns": [
+    {
+      "name": "Pin",
+      "fieldName": "pin",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 22723
+    },
+    {
+      "name": "Doc Number",
+      "fieldName": "doc_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20092
+    },
+    {
+      "name": "Doc Type",
+      "fieldName": "doc_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Recorded Date",
+      "fieldName": "recorded_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 227
+    },
+    {
+      "name": "Execution Date",
+      "fieldName": "execution_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 195,
+      "cardinality": 1218
+    },
+    {
+      "name": "Consideration Amount",
+      "fieldName": "consideration_amount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 23122,
+      "cardinality": 304
+    },
+    {
+      "name": "Location 1",
+      "fieldName": "location_1",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:52.797Z"
+}

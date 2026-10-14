@@ -1,0 +1,37 @@
+{
+  "id": "sxwr-f2su",
+  "name": "IDPH Community Water Fluoridation 2010 Compliance Award List",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 0,
+  "rowCountSource": "query",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1718289767,
+  "publicationDate": 1718290075,
+  "rowsUpdatedAt": 1718290069,
+  "viewLastModified": 1736793967,
+  "viewCount": 23,
+  "downloadCount": 20,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [],
+  "fetchedAt": "2026-10-14T17:30:42.347Z"
+}

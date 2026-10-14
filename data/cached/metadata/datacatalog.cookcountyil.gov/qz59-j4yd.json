@@ -1,0 +1,118 @@
+{
+  "id": "qz59-j4yd",
+  "name": "SanitaryTaxDist",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 26,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1512063166,
+  "publicationDate": 1512063169,
+  "rowsUpdatedAt": 1512063169,
+  "viewLastModified": 1769548090,
+  "viewCount": 384,
+  "downloadCount": 1340,
+  "category": "Boundaries & Districts",
+  "tags": [
+    "taxing district",
+    "taxing agency",
+    "clerk",
+    "gis",
+    "cook",
+    "sanitary",
+    "boundaries and districts"
+  ],
+  "attribution": "Cook County Clerk / Map Department",
+  "attributionLink": "http://www.cookcountyclerk.com/tsd/maps/Pages/default.aspx",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "MAX_AGENCY",
+      "fieldName": "max_agency",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 26
+    },
+    {
+      "name": "AGENCY",
+      "fieldName": "agency",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 26
+    },
+    {
+      "name": "created_us",
+      "fieldName": "created_us",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "created_da",
+      "fieldName": "created_da",
+      "dataTypeName": "date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "last_edite",
+      "fieldName": "last_edite",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "last_edi_1",
+      "fieldName": "last_edi_1",
+      "dataTypeName": "date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "ORIGOID",
+      "fieldName": "origoid",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 26
+    },
+    {
+      "name": "SHAPE_STAr",
+      "fieldName": "shape_star",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 26
+    },
+    {
+      "name": "SHAPE_STLe",
+      "fieldName": "shape_stle",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 26
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:11.151Z"
+}

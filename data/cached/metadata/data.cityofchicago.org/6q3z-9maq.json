@@ -1,0 +1,210 @@
+{
+  "id": "6q3z-9maq",
+  "name": "COVID-19 Vaccination Locations - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 219,
+  "rowCountSource": "cached",
+  "rowLabel": "COVID-19 Vaccination Location",
+  "hasRowIdentifier": true,
+  "createdAt": 1611354842,
+  "publicationDate": 1611595031,
+  "rowsUpdatedAt": 1636038251,
+  "viewLastModified": 1788212279,
+  "viewCount": 4283,
+  "downloadCount": 7704,
+  "category": "Health & Human Services",
+  "tags": [
+    "health",
+    "immunization",
+    "vaccination",
+    "covid-19",
+    "public health",
+    "historical"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://chicago.gov/coronavirus",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2021",
+      "Data Owner": "Department of Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "Facility ID",
+      "fieldName": "facility_id",
+      "dataTypeName": "number",
+      "description": "A unique ID for the facility.",
+      "nullCount": 0,
+      "cardinality": 219
+    },
+    {
+      "name": "Facility Name",
+      "fieldName": "facility_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 215
+    },
+    {
+      "name": "Address 1",
+      "fieldName": "address_1",
+      "dataTypeName": "text",
+      "description": "The street address of the facility.",
+      "nullCount": 0,
+      "cardinality": 216
+    },
+    {
+      "name": "Address 2",
+      "fieldName": "address_2",
+      "dataTypeName": "text",
+      "description": "The room number, floor number, or other address information secondary to the street address.",
+      "nullCount": 209,
+      "cardinality": 10
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Postal Code",
+      "fieldName": "postal_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 58
+    },
+    {
+      "name": "Country",
+      "fieldName": "country",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "URL",
+      "fieldName": "url",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 12,
+      "cardinality": 47
+    },
+    {
+      "name": "Phone",
+      "fieldName": "phone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 163,
+      "cardinality": 31
+    },
+    {
+      "name": "Begin Date",
+      "fieldName": "begin_date",
+      "dataTypeName": "calendar_date",
+      "description": "First date the facility will be offering vaccinations.",
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "End Date",
+      "fieldName": "end_date",
+      "dataTypeName": "calendar_date",
+      "description": "Last date the facility will be offering vaccinations.",
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Active",
+      "fieldName": "active",
+      "dataTypeName": "checkbox",
+      "description": "Is the facility currently offering COVID-19 vaccinations?",
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "City Operated",
+      "fieldName": "city_operated",
+      "dataTypeName": "checkbox",
+      "description": "Is the facility operated by the City of Chicago?",
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Notes",
+      "fieldName": "notes",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 28,
+      "cardinality": 9
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": "The location of the facility in a format that allows for creation of maps and other geographic operations on this data portal.",
+      "nullCount": 3,
+      "cardinality": 211
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Boundaries - ZIP Codes' (rpca-8um6) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Community Areas' (vrxf-vc4k) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Zip Codes' (6mkv-f3dw) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Census Tracts' (bdys-3d7i) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Wards' (43wa-7qmu) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:05.840Z"
+}

@@ -1,0 +1,125 @@
+{
+  "id": "nifi-zqag",
+  "name": "Zoning",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 11677,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1412275333,
+  "publicationDate": null,
+  "rowsUpdatedAt": 1412275333,
+  "viewLastModified": 1712775995,
+  "viewCount": 7604,
+  "downloadCount": 2337,
+  "category": "Community & Economic Development",
+  "tags": [
+    "boundaries",
+    "gis",
+    "kml",
+    "kmz",
+    "map_layer",
+    "shapefiles",
+    "zoning",
+    "deprecated"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Current as of September 2014",
+      "Frequency": "TBD",
+      "Data Owner": "Housing & Economic Development"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "ZONE_TYPE",
+      "fieldName": "zone_type",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "ZONE_CLASS",
+      "fieldName": "zone_class",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1218
+    },
+    {
+      "name": "EDIT_STATU",
+      "fieldName": "edit_statu",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "EDIT_DATE",
+      "fieldName": "edit_date",
+      "dataTypeName": "date",
+      "description": null,
+      "nullCount": 6139,
+      "cardinality": 1013
+    },
+    {
+      "name": "PD_PREFIX",
+      "fieldName": "pd_prefix",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 48
+    },
+    {
+      "name": "PD_NUM",
+      "fieldName": "pd_num",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1122
+    },
+    {
+      "name": "ORDINANCE_",
+      "fieldName": "ordinance_",
+      "dataTypeName": "date",
+      "description": null,
+      "nullCount": 8137,
+      "cardinality": 198
+    },
+    {
+      "name": "Shape_Leng",
+      "fieldName": "shape_leng",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11677
+    },
+    {
+      "name": "Shape_Area",
+      "fieldName": "shape_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11677
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:01.715Z"
+}

@@ -1,0 +1,127 @@
+{
+  "id": "ip6w-ws46",
+  "name": "Tax Increment Financing (TIF) Annual Report - Properties Acquired/Sold by City",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1026,
+  "rowCountSource": "cached",
+  "rowLabel": "Property",
+  "hasRowIdentifier": false,
+  "createdAt": 1566504016,
+  "publicationDate": 1566504869,
+  "rowsUpdatedAt": 1788192268,
+  "viewLastModified": 1788192267,
+  "viewCount": 1301,
+  "downloadCount": 2095,
+  "category": "Community & Economic Development",
+  "tags": [
+    "tif",
+    "tif annual report"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2017-2025",
+      "Frequency": "Data are updated annually",
+      "Data Owner": "Department of Planning and Development"
+    }
+  },
+  "columns": [
+    {
+      "name": "TIF Number",
+      "fieldName": "tif_number",
+      "dataTypeName": "text",
+      "description": "The unique, numeric ID assigned to the TIF district.",
+      "nullCount": 0,
+      "cardinality": 1026
+    },
+    {
+      "name": "TIF District",
+      "fieldName": "tif_district",
+      "dataTypeName": "text",
+      "description": "Redevelopment project area",
+      "nullCount": 0,
+      "cardinality": 1026
+    },
+    {
+      "name": "Report Year",
+      "fieldName": "report_year",
+      "dataTypeName": "number",
+      "description": "Calendar year to which the record applies",
+      "nullCount": 0,
+      "cardinality": 1026
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": "The street address of the property.",
+      "nullCount": 0,
+      "cardinality": 1026
+    },
+    {
+      "name": "Action",
+      "fieldName": "action",
+      "dataTypeName": "text",
+      "description": "Whether the property was acquired or sold by the City of Chicago",
+      "nullCount": 0,
+      "cardinality": 1026
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": "The location of the Project Address in a format that allows for mapping and other geographic analysis. This column is automatically generated so may be blank or incorrect for some records.",
+      "nullCount": 2,
+      "cardinality": 1026
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:18.585Z"
+}

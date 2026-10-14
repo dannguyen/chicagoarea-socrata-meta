@@ -1,0 +1,187 @@
+{
+  "id": "utb4-q645",
+  "name": "Street Sweeping Zones - 2025",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 849,
+  "rowCountSource": "cached",
+  "rowLabel": "Ward Section",
+  "hasRowIdentifier": true,
+  "createdAt": 1742497559,
+  "publicationDate": 1742498683,
+  "rowsUpdatedAt": 1759779414,
+  "viewLastModified": 1759779412,
+  "viewCount": 2602,
+  "downloadCount": 1287,
+  "category": "Sanitation",
+  "tags": [
+    "street cleaning",
+    "schedule",
+    "parking restrictions",
+    "geo_layer",
+    "boundaries",
+    "2025"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov/city/en/depts/streets/provdrs/streets_san/svcs/street_sweeping2025.html",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "April 2025 to November 2025",
+      "Frequency": "Annual",
+      "Data Owner": "Streets & Sanitation"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "WARD",
+      "fieldName": "ward",
+      "dataTypeName": "text",
+      "description": "The ward in text format, with leading zeros.",
+      "nullCount": 0,
+      "cardinality": 849
+    },
+    {
+      "name": "WARD_ID",
+      "fieldName": "ward_id",
+      "dataTypeName": "number",
+      "description": "The ward in numeric format.",
+      "nullCount": 0,
+      "cardinality": 849
+    },
+    {
+      "name": "SECTION",
+      "fieldName": "section",
+      "dataTypeName": "text",
+      "description": "The section within the ward, in text format, with leading zeros.",
+      "nullCount": 0,
+      "cardinality": 849
+    },
+    {
+      "name": "SECTION_ID",
+      "fieldName": "section_id",
+      "dataTypeName": "number",
+      "description": "The section within the ward, in numeric format.",
+      "nullCount": 0,
+      "cardinality": 849
+    },
+    {
+      "name": "WARD_SECTION",
+      "fieldName": "ward_section",
+      "dataTypeName": "text",
+      "description": "The combination of WARD and SECTION, both with leading zeros.",
+      "nullCount": 0,
+      "cardinality": 849
+    },
+    {
+      "name": "DISTRICT",
+      "fieldName": "district",
+      "dataTypeName": "text",
+      "description": "A district value used for Department of Streets and Sanitation operations. Districts can split wards but but not sections.",
+      "nullCount": 1,
+      "cardinality": 849
+    },
+    {
+      "name": "APRIL",
+      "fieldName": "april",
+      "dataTypeName": "text",
+      "description": "Days in the month when the section will be swept.",
+      "nullCount": 312,
+      "cardinality": 849
+    },
+    {
+      "name": "MAY",
+      "fieldName": "may",
+      "dataTypeName": "text",
+      "description": "Days in the month when the section will be swept.",
+      "nullCount": 309,
+      "cardinality": 849
+    },
+    {
+      "name": "JUNE",
+      "fieldName": "june",
+      "dataTypeName": "text",
+      "description": "Days in the month when the section will be swept.",
+      "nullCount": 313,
+      "cardinality": 849
+    },
+    {
+      "name": "JULY",
+      "fieldName": "july",
+      "dataTypeName": "text",
+      "description": "Days in the month when the section will be swept.",
+      "nullCount": 269,
+      "cardinality": 849
+    },
+    {
+      "name": "AUGUST",
+      "fieldName": "august",
+      "dataTypeName": "text",
+      "description": "Days in the month when the section will be swept.",
+      "nullCount": 310,
+      "cardinality": 849
+    },
+    {
+      "name": "SEPTEMBER",
+      "fieldName": "september",
+      "dataTypeName": "text",
+      "description": "Days in the month when the section will be swept.",
+      "nullCount": 312,
+      "cardinality": 849
+    },
+    {
+      "name": "OCTOBER",
+      "fieldName": "october",
+      "dataTypeName": "text",
+      "description": "Days in the month when the section will be swept.",
+      "nullCount": 280,
+      "cardinality": 849
+    },
+    {
+      "name": "NOVEMBER",
+      "fieldName": "november",
+      "dataTypeName": "text",
+      "description": "Days in the month when the section will be swept.",
+      "nullCount": 463,
+      "cardinality": 849
+    },
+    {
+      "name": "GLOBALID",
+      "fieldName": "globalid",
+      "dataTypeName": "text",
+      "description": "A unique identifier for the record.",
+      "nullCount": 0,
+      "cardinality": 849
+    },
+    {
+      "name": "Shape_Area",
+      "fieldName": "shape_area",
+      "dataTypeName": "number",
+      "description": "Square feet",
+      "nullCount": 0,
+      "cardinality": 849
+    },
+    {
+      "name": "Shape_Length",
+      "fieldName": "shape_length",
+      "dataTypeName": "number",
+      "description": "Feet",
+      "nullCount": 0,
+      "cardinality": 849
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:10.462Z"
+}

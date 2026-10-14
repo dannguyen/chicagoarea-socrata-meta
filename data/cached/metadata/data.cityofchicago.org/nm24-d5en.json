@@ -1,0 +1,115 @@
+{
+  "id": "nm24-d5en",
+  "name": "safepassage_buffer",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 52,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1376078589,
+  "publicationDate": null,
+  "rowsUpdatedAt": 1376078589,
+  "viewLastModified": 1712775987,
+  "viewCount": 368,
+  "downloadCount": 1536,
+  "category": "Education",
+  "tags": [
+    "gis",
+    "shapefiles",
+    "kml",
+    "kmz",
+    "schools",
+    "cps"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2013",
+      "Frequency": "Updated as needed",
+      "Data Owner": "Chicago Public Schools"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "OBJECTID",
+      "fieldName": "objectid",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 52
+    },
+    {
+      "name": "SCHOOLID",
+      "fieldName": "schoolid",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 52
+    },
+    {
+      "name": "SCHOOL_NAM",
+      "fieldName": "school_nam",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 52
+    },
+    {
+      "name": "ROUTE_NUMB",
+      "fieldName": "route_numb",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 52
+    },
+    {
+      "name": "SHAPE_LENG",
+      "fieldName": "shape_leng",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 52
+    },
+    {
+      "name": "BUFF_DIST",
+      "fieldName": "buff_dist",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "SHAPE_AREA",
+      "fieldName": "shape_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 52
+    },
+    {
+      "name": "SHAPE_LEN",
+      "fieldName": "shape_len",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 52
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:25.344Z"
+}

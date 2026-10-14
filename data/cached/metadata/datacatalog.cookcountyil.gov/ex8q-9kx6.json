@@ -1,0 +1,107 @@
+{
+  "id": "ex8q-9kx6",
+  "name": "Board of Review - 2010 PIN information",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 65535,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1312906758,
+  "publicationDate": 1312906758,
+  "rowsUpdatedAt": 1313895420,
+  "viewLastModified": 1769545735,
+  "viewCount": 2291,
+  "downloadCount": 3481,
+  "category": "Property & Taxation",
+  "tags": [
+    "board of review",
+    "2010 pin information",
+    "property",
+    "inactive"
+  ],
+  "attribution": "Cook County Board of Review",
+  "attributionLink": "http://www.cookcountyboardofreview.com/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "PIN",
+      "fieldName": "pin",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 65533
+    },
+    {
+      "name": "CLASS",
+      "fieldName": "class",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 73
+    },
+    {
+      "name": "ALV",
+      "fieldName": "alv",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 18164
+    },
+    {
+      "name": "ABV",
+      "fieldName": "abv",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 32913
+    },
+    {
+      "name": "ATV",
+      "fieldName": "atv",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 34642
+    },
+    {
+      "name": "BORLV",
+      "fieldName": "borlv",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 18053
+    },
+    {
+      "name": "BORBV",
+      "fieldName": "borbv",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 32409
+    },
+    {
+      "name": "BORTV",
+      "fieldName": "bortv",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 34156
+    },
+    {
+      "name": "TYPE",
+      "fieldName": "type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:56.137Z"
+}

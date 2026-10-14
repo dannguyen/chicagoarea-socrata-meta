@@ -1,0 +1,96 @@
+{
+  "id": "7qjk-677h",
+  "name": "Boundaries - Census Tracts - 2020",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 789,
+  "rowCountSource": "cached",
+  "rowLabel": "Census Tract",
+  "hasRowIdentifier": true,
+  "createdAt": 1790202819,
+  "publicationDate": 1790203338,
+  "rowsUpdatedAt": 1790205422,
+  "viewLastModified": 1790205420,
+  "viewCount": 191,
+  "downloadCount": 45,
+  "category": "Facilities & Geographic Boundaries",
+  "tags": [
+    "geo_layer",
+    "boundaries",
+    "gis",
+    "census"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2020",
+      "Data Owner": "United States Census Bureau"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "TRACT_FULL",
+      "fieldName": "tract_full",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 789
+    },
+    {
+      "name": "TRACT_FIPS",
+      "fieldName": "tract_fips",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 789
+    },
+    {
+      "name": "TRACT_CE",
+      "fieldName": "tract_ce",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 789
+    },
+    {
+      "name": "COMMAREA",
+      "fieldName": "commarea",
+      "dataTypeName": "text",
+      "description": "Community Area number as a text column.",
+      "nullCount": 8,
+      "cardinality": 789
+    },
+    {
+      "name": "COMMAREA_N",
+      "fieldName": "commarea_n",
+      "dataTypeName": "number",
+      "description": "Community Area number as a numeric column.",
+      "nullCount": 0,
+      "cardinality": 789
+    },
+    {
+      "name": "COMMUNITY_AREA",
+      "fieldName": "community_area",
+      "dataTypeName": "text",
+      "description": "Name of the Community Area",
+      "nullCount": 8,
+      "cardinality": 789
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:27.428Z"
+}

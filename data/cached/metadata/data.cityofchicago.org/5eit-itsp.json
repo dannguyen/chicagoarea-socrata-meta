@@ -1,0 +1,184 @@
+{
+  "id": "5eit-itsp",
+  "name": "Boundaries - Inactive Tax Increment Financing Districts",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 86,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1769025030,
+  "publicationDate": 1769551595,
+  "rowsUpdatedAt": 1769551573,
+  "viewLastModified": 1769551595,
+  "viewCount": 398,
+  "downloadCount": 547,
+  "category": "Facilities & Geographic Boundaries",
+  "tags": [
+    "geo_layer",
+    "boundaries",
+    "tif"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "January 2026",
+      "Frequency": "Data are updated as needed",
+      "Data Owner": "Planning and Development"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "OBJECTID",
+      "fieldName": "objectid",
+      "dataTypeName": "number",
+      "description": "OBJECT ID #",
+      "nullCount": 0,
+      "cardinality": 86
+    },
+    {
+      "name": "NAME",
+      "fieldName": "name",
+      "dataTypeName": "text",
+      "description": "Name (full)",
+      "nullCount": 0,
+      "cardinality": 86
+    },
+    {
+      "name": "REF",
+      "fieldName": "ref",
+      "dataTypeName": "text",
+      "description": "Reference #",
+      "nullCount": 0,
+      "cardinality": 86
+    },
+    {
+      "name": "IND",
+      "fieldName": "ind",
+      "dataTypeName": "text",
+      "description": "Use (short)",
+      "nullCount": 0,
+      "cardinality": 86
+    },
+    {
+      "name": "TYPE",
+      "fieldName": "type",
+      "dataTypeName": "text",
+      "description": "Status ",
+      "nullCount": 0,
+      "cardinality": 86
+    },
+    {
+      "name": "USE",
+      "fieldName": "use",
+      "dataTypeName": "text",
+      "description": "Use (full)",
+      "nullCount": 0,
+      "cardinality": 86
+    },
+    {
+      "name": "SHOW",
+      "fieldName": "show",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 86
+    },
+    {
+      "name": "NAME_TRIM",
+      "fieldName": "name_trim",
+      "dataTypeName": "text",
+      "description": "Name (short)",
+      "nullCount": 0,
+      "cardinality": 86
+    },
+    {
+      "name": "SBIF",
+      "fieldName": "sbif",
+      "dataTypeName": "text",
+      "description": "SBIF (Y/N)",
+      "nullCount": 0,
+      "cardinality": 86
+    },
+    {
+      "name": "COMM_AREA",
+      "fieldName": "comm_area",
+      "dataTypeName": "text",
+      "description": "Community Area #",
+      "nullCount": 0,
+      "cardinality": 86
+    },
+    {
+      "name": "WARDS",
+      "fieldName": "wards",
+      "dataTypeName": "text",
+      "description": "Ward #",
+      "nullCount": 0,
+      "cardinality": 86
+    },
+    {
+      "name": "REPEALED_D",
+      "fieldName": "repealed_d",
+      "dataTypeName": "calendar_date",
+      "description": "Repealed Date",
+      "nullCount": 81,
+      "cardinality": 86
+    },
+    {
+      "name": "APPROVAL_D",
+      "fieldName": "approval_d",
+      "dataTypeName": "calendar_date",
+      "description": "Approval Date",
+      "nullCount": 0,
+      "cardinality": 86
+    },
+    {
+      "name": "EXPIRATION",
+      "fieldName": "expiration",
+      "dataTypeName": "calendar_date",
+      "description": "Expiration Date",
+      "nullCount": 30,
+      "cardinality": 86
+    },
+    {
+      "name": "TERMINATE_",
+      "fieldName": "terminate_",
+      "dataTypeName": "calendar_date",
+      "description": "Terminated Date",
+      "nullCount": 53,
+      "cardinality": 86
+    },
+    {
+      "name": "Shape_Leng",
+      "fieldName": "shape_leng",
+      "dataTypeName": "number",
+      "description": "Shape Length (ft.)",
+      "nullCount": 0,
+      "cardinality": 86
+    },
+    {
+      "name": "Shape_Area",
+      "fieldName": "shape_area",
+      "dataTypeName": "number",
+      "description": "Shape Area (sq. ft.)",
+      "nullCount": 0,
+      "cardinality": 86
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:25.046Z"
+}

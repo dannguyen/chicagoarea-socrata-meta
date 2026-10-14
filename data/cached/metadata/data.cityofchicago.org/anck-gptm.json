@@ -1,0 +1,119 @@
+{
+  "id": "anck-gptm",
+  "name": "Units2011_12",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 674,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1471966871,
+  "publicationDate": null,
+  "rowsUpdatedAt": 1471966875,
+  "viewLastModified": 1712775991,
+  "viewCount": 369,
+  "downloadCount": 1985,
+  "category": "Education",
+  "tags": [
+    "attendance",
+    "cps",
+    "schools",
+    "map_layer",
+    "gis",
+    "2011",
+    "2012",
+    "kml",
+    "kmz",
+    "shapefiles"
+  ],
+  "attribution": "Chicago Public Schools",
+  "attributionLink": "http://cps.edu",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "July 2011 - July 2012",
+      "Frequency": "Annually",
+      "Data Owner": "Chicago Public Schools"
+    }
+  },
+  "columns": [
+    {
+      "name": "SCHOOL_ID",
+      "fieldName": "school_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 674
+    },
+    {
+      "name": "SCHOOL_NM",
+      "fieldName": "school_nm",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 674
+    },
+    {
+      "name": "SCH_ADDR",
+      "fieldName": "sch_addr",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 628
+    },
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "point",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 628
+    },
+    {
+      "name": "GRADE_CAT",
+      "fieldName": "grade_cat",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "GRADES",
+      "fieldName": "grades",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 46
+    },
+    {
+      "name": "SCH_TYPE",
+      "fieldName": "sch_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "X",
+      "fieldName": "x",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 628
+    },
+    {
+      "name": "Y",
+      "fieldName": "y",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 628
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:25.329Z"
+}

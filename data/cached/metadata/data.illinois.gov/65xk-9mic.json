@@ -1,0 +1,118 @@
+{
+  "id": "65xk-9mic",
+  "name": "IDPH Death Counts, by County, 2000-2008",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 105,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709064667,
+  "publicationDate": 1709146384,
+  "rowsUpdatedAt": 1709146378,
+  "viewLastModified": 1736793976,
+  "viewCount": 36,
+  "downloadCount": 87,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "_1",
+      "fieldName": "_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 98
+    },
+    {
+      "name": "_2",
+      "fieldName": "_2",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 99
+    },
+    {
+      "name": "_3",
+      "fieldName": "_3",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 95
+    },
+    {
+      "name": "_4",
+      "fieldName": "_4",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 99
+    },
+    {
+      "name": "_5",
+      "fieldName": "_5",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 101
+    },
+    {
+      "name": "_6",
+      "fieldName": "_6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 101
+    },
+    {
+      "name": "_7",
+      "fieldName": "_7",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 97
+    },
+    {
+      "name": "_8",
+      "fieldName": "_8",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 100
+    },
+    {
+      "name": "_9",
+      "fieldName": "_9",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 94
+    },
+    {
+      "name": "county",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 105
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:39.825Z"
+}

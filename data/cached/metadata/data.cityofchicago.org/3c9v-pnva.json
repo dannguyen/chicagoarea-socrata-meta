@@ -1,0 +1,258 @@
+{
+  "id": "3c9v-pnva",
+  "name": "311 Service Requests - Abandoned Vehicles - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 261486,
+  "rowCountSource": "cached",
+  "rowLabel": "Service Request",
+  "hasRowIdentifier": false,
+  "createdAt": 1317373780,
+  "publicationDate": 1595576281,
+  "rowsUpdatedAt": 1595576079,
+  "viewLastModified": 1774040552,
+  "viewCount": 64298,
+  "downloadCount": 23883,
+  "category": "Service Requests",
+  "tags": [
+    "streets",
+    "vehicles",
+    "historical",
+    "service requests",
+    "311"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "All open requests and requests completed since January 1, 2011",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"3c9v-pnva\"",
+      "Data Owner": "Streets & Sanitation"
+    }
+  },
+  "columns": [
+    {
+      "name": "Creation Date",
+      "fieldName": "creation_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3738
+    },
+    {
+      "name": "Status",
+      "fieldName": "status",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Completion Date",
+      "fieldName": "completion_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 3985,
+      "cardinality": 2479
+    },
+    {
+      "name": "Service Request Number",
+      "fieldName": "service_request_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 259838
+    },
+    {
+      "name": "Type of Service Request",
+      "fieldName": "type_of_service_request",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "License Plate",
+      "fieldName": "license_plate",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 17164,
+      "cardinality": 147855
+    },
+    {
+      "name": "Vehicle Make/Model",
+      "fieldName": "vehicle_make_model",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 21371,
+      "cardinality": 178
+    },
+    {
+      "name": "Vehicle Color",
+      "fieldName": "vehicle_color",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 15600,
+      "cardinality": 27
+    },
+    {
+      "name": "Current Activity",
+      "fieldName": "current_activity",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 32074,
+      "cardinality": 3
+    },
+    {
+      "name": "Most Recent Action",
+      "fieldName": "most_recent_action",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 33098,
+      "cardinality": 11
+    },
+    {
+      "name": "How Many Days Has the Vehicle Been Reported as Parked?",
+      "fieldName": "how_many_days_has_the_vehicle_been_reported_as_parked_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 43991,
+      "cardinality": 575
+    },
+    {
+      "name": "Street Address",
+      "fieldName": "street_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 111,
+      "cardinality": 161186
+    },
+    {
+      "name": "ZIP Code",
+      "fieldName": "zip_code",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 466,
+      "cardinality": 63
+    },
+    {
+      "name": "X Coordinate",
+      "fieldName": "x_coordinate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 84670,
+      "cardinality": 110717
+    },
+    {
+      "name": "Y Coordinate",
+      "fieldName": "y_coordinate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 84670,
+      "cardinality": 111044
+    },
+    {
+      "name": "Ward",
+      "fieldName": "ward",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 407,
+      "cardinality": 51
+    },
+    {
+      "name": "Police District",
+      "fieldName": "police_district",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 407,
+      "cardinality": 27
+    },
+    {
+      "name": "Community Area",
+      "fieldName": "community_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 407,
+      "cardinality": 78
+    },
+    {
+      "name": "SSA",
+      "fieldName": "ssa",
+      "dataTypeName": "text",
+      "description": "Special Service Areas are local tax districts that fund expanded services and programs, to foster commercial and economic development, through a localized property tax. In other cities these areas are sometimes called Business Improvement Districts (BIDs). This portal contains a map of all Chicago SSAs",
+      "nullCount": 227488,
+      "cardinality": 53
+    },
+    {
+      "name": "Latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 929,
+      "cardinality": 157637
+    },
+    {
+      "name": "Longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 929,
+      "cardinality": 157637
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:05.580Z"
+}

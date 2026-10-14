@@ -1,0 +1,132 @@
+{
+  "id": "nehg-hgiv",
+  "name": "Early Voting Locations - 2016 March 15 Presidential Primary Election",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 43,
+  "rowCountSource": "cached",
+  "rowLabel": "location",
+  "hasRowIdentifier": false,
+  "createdAt": 1457115960,
+  "publicationDate": 1685661312,
+  "rowsUpdatedAt": 1457115975,
+  "viewLastModified": 1769546782,
+  "viewCount": 1490,
+  "downloadCount": 3715,
+  "category": "Finance & Operations",
+  "tags": [
+    "elections",
+    "voting",
+    "vote",
+    "early voting",
+    "inactive"
+  ],
+  "attribution": "Cook County Clerk",
+  "attributionLink": "http://www.cookcountyclerk.com",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Clerk"
+    },
+    "Metadata": {
+      "Update Frequency": "As Needed"
+    },
+    "Detailed Descriptive": {
+      "Program link": "http://www.cookcountyclerk.com/elections/earlyvoting/Pages/default.aspx",
+      "Geographic coverage": "Countywide",
+      "Geographic unit": "Latitude/longitude"
+    },
+    "Publishing Details": {
+      "Data change frequency": "As needed",
+      "Publishing frequency": "As needed"
+    }
+  },
+  "columns": [
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 43
+    },
+    {
+      "name": "Hours – Weekday",
+      "fieldName": "hours_weekday",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Hours – Weekend",
+      "fieldName": "hours_weekend",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 43
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 41
+    },
+    {
+      "name": "Zip",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 40
+    },
+    {
+      "name": "Phone",
+      "fieldName": "phone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 42
+    },
+    {
+      "name": "Lon",
+      "fieldName": "lon",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 43
+    },
+    {
+      "name": "Lat",
+      "fieldName": "lat",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 43
+    },
+    {
+      "name": "Location 1",
+      "fieldName": "location_1",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:59.129Z"
+}

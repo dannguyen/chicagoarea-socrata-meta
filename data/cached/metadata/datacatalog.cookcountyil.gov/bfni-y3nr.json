@@ -1,0 +1,111 @@
+{
+  "id": "bfni-y3nr",
+  "name": "Cook County Check Register - Fiscal Years 2006 through 2013",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 235559,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1343922513,
+  "publicationDate": 1389288104,
+  "rowsUpdatedAt": 1389288068,
+  "viewLastModified": 1769546988,
+  "viewCount": 3721,
+  "downloadCount": 3481,
+  "category": "Finance & Operations",
+  "tags": [
+    "comptroller",
+    "check register",
+    "finance",
+    "inactive"
+  ],
+  "attribution": "Cook County Office of the Comptroller",
+  "attributionLink": "http://www.cookcountygov.com/portal/server.pt/community/comptroller%2C_office_of_the/266/comptroller%2C_office_of_the",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Update Frequency": "No updates"
+    }
+  },
+  "columns": [
+    {
+      "name": "Check Number",
+      "fieldName": "check_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 47394
+    },
+    {
+      "name": "Payee Number",
+      "fieldName": "payee_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4489
+    },
+    {
+      "name": "Company Name",
+      "fieldName": "company_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4422
+    },
+    {
+      "name": "Purchase Order Number",
+      "fieldName": "purchase_order_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 25663
+    },
+    {
+      "name": "Product Descritpion NIGP Code",
+      "fieldName": "product_descritpion_nigp_code",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 231
+    },
+    {
+      "name": "Description",
+      "fieldName": "description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 225
+    },
+    {
+      "name": "Business Unit",
+      "fieldName": "business_unit",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1680
+    },
+    {
+      "name": "Payment Amount",
+      "fieldName": "payment_amount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 651,
+      "cardinality": 103570
+    },
+    {
+      "name": "Check Date",
+      "fieldName": "check_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 726
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:53.781Z"
+}

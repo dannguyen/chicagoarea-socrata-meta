@@ -1,0 +1,145 @@
+{
+  "id": "qqqh-hgyw",
+  "name": "Life Safety Evaluations (Deprecated 2015)",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 733,
+  "rowCountSource": "cached",
+  "rowLabel": "Building",
+  "hasRowIdentifier": false,
+  "createdAt": 1328218539,
+  "publicationDate": 1429298707,
+  "rowsUpdatedAt": 1429298685,
+  "viewLastModified": 1737051098,
+  "viewCount": 23412,
+  "downloadCount": 5001,
+  "category": "Buildings",
+  "tags": [
+    "safety",
+    "inspections",
+    "buildings",
+    "deprecated"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2012-2015",
+      "Frequency": "Historical-Only",
+      "Data Owner": "Buildings"
+    }
+  },
+  "columns": [
+    {
+      "name": "Building Street Number",
+      "fieldName": "building_street_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 588
+    },
+    {
+      "name": "Building Street Direction",
+      "fieldName": "building_street_direction",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 10
+    },
+    {
+      "name": "Building Street Name",
+      "fieldName": "building_street",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 182
+    },
+    {
+      "name": "Building Street Type I",
+      "fieldName": "building_street_type_i",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 66,
+      "cardinality": 21
+    },
+    {
+      "name": "Report Status - Original LSE Report Approved",
+      "fieldName": "original_lse_report_approved",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 3
+    },
+    {
+      "name": "Report Status - LSE Report Resubmitted",
+      "fieldName": "lse_report_submitted",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 3
+    },
+    {
+      "name": "Report Status - Resubmitted Report Approved",
+      "fieldName": "resubmitted_report_approved",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 5
+    },
+    {
+      "name": "Construction Status (Self-Reported by Building Representative)",
+      "fieldName": "self_reported_by_building_representative",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 5
+    },
+    {
+      "name": "Installing a full sprinkler system instead of an alternative LSE Compliance scope of work (Self-Reported by Building Representative)",
+      "fieldName": "installing_a_full_sprinkler_system_instead_of_an_alternative_lse_compliance_scope_of_work_self_reported_by_building_representative",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 7
+    },
+    {
+      "name": "Inspection Status - Inspection Results",
+      "fieldName": "results_of_lse_committee_review",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 12
+    },
+    {
+      "name": "Inspection Status - Date Passed",
+      "fieldName": "lse_report_reviewed_on_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 732,
+      "cardinality": 1
+    },
+    {
+      "name": "Scheduled Inspection Date",
+      "fieldName": "scheduled_inspection_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 733,
+      "cardinality": 0
+    },
+    {
+      "name": "Rescheduled Inspection Date",
+      "fieldName": "rescheduled_inspection_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 732,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:08.104Z"
+}

@@ -1,0 +1,138 @@
+{
+  "id": "pghf-q3zj",
+  "name": "Certified Transcript of Payroll - Report 3 - Gender and Trade",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 323736,
+  "rowCountSource": "cached",
+  "rowLabel": "Project Name, Contractor, and Trade by County",
+  "hasRowIdentifier": false,
+  "createdAt": 1766014029,
+  "publicationDate": 1766014531,
+  "rowsUpdatedAt": 1791561629,
+  "viewLastModified": 1769708861,
+  "viewCount": 81,
+  "downloadCount": 17,
+  "category": "Business and Workforce",
+  "tags": [
+    "prevailing wage",
+    "certified transcript of payroll",
+    "820 ilcs 130/3.1"
+  ],
+  "attribution": "Illinois Department of Labor",
+  "attributionLink": null,
+  "licenseId": "ODBL",
+  "license": "Open Data Commons Open Database License",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Labor"
+    },
+    "Data Management": {
+      "Maintainer": "IDOL",
+      "Maintainer Email": "kimberly.a.flesch@illinois.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": "The calendar year during which the prevailing wage work was performed.",
+      "nullCount": 0,
+      "cardinality": 323736
+    },
+    {
+      "name": "Quarter",
+      "fieldName": "quarter",
+      "dataTypeName": "number",
+      "description": "The quarter of the reporting year (Q1, Q2, Q3, or Q4) during which the prevailing wage work was performed.",
+      "nullCount": 0,
+      "cardinality": 323736
+    },
+    {
+      "name": "Project County",
+      "fieldName": "project_county",
+      "dataTypeName": "text",
+      "description": "The Illinois county where the public works project is located. Used to identify regional trends in prevailing wage activity.",
+      "nullCount": 0,
+      "cardinality": 323736
+    },
+    {
+      "name": "Project Number",
+      "fieldName": "project_number",
+      "dataTypeName": "text",
+      "description": "The project name or number as reported by the contractor. This number is used for tracking and referencing project-specific wage and employment data.",
+      "nullCount": 0,
+      "cardinality": 323736
+    },
+    {
+      "name": "Company Name",
+      "fieldName": "company_name",
+      "dataTypeName": "text",
+      "description": "The name of the contractor reporting prevailing wage information for the project.",
+      "nullCount": 0,
+      "cardinality": 323736
+    },
+    {
+      "name": "Trade",
+      "fieldName": "trade",
+      "dataTypeName": "text",
+      "description": "The prevailing wage trade title under which work was performed.",
+      "nullCount": 0,
+      "cardinality": 323736
+    },
+    {
+      "name": "Total Employees",
+      "fieldName": "total_employees",
+      "dataTypeName": "number",
+      "description": "The number of employees the company reported working on the project during the specified quarter.",
+      "nullCount": 0,
+      "cardinality": 323736
+    },
+    {
+      "name": "Females",
+      "fieldName": "females",
+      "dataTypeName": "text",
+      "description": "The percent of female employees the company reported working on the project during the specified quarter.",
+      "nullCount": 0,
+      "cardinality": 323736
+    },
+    {
+      "name": "Males",
+      "fieldName": "males",
+      "dataTypeName": "text",
+      "description": "The percent of male employees the company reported working on the project during the specified quarter.",
+      "nullCount": 0,
+      "cardinality": 323736
+    },
+    {
+      "name": "Total Hours",
+      "fieldName": "total_hours",
+      "dataTypeName": "number",
+      "description": "The total number of hours worked under the specified trade for the contractor on the project during the quarter.",
+      "nullCount": 0,
+      "cardinality": 323736
+    },
+    {
+      "name": "Female Hours",
+      "fieldName": "female_hours",
+      "dataTypeName": "text",
+      "description": "The percent of the hours listed which were completed by female employees.",
+      "nullCount": 0,
+      "cardinality": 323736
+    },
+    {
+      "name": "Male Hours",
+      "fieldName": "male_hours",
+      "dataTypeName": "text",
+      "description": "The percent of the hours listed which were completed by female employees.",
+      "nullCount": 0,
+      "cardinality": 323736
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:34.903Z"
+}

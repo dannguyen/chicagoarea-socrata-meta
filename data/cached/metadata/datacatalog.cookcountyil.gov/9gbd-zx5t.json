@@ -1,0 +1,56 @@
+{
+  "id": "9gbd-zx5t",
+  "name": "Medical Examiner -- 2009 Manner of Death by Age",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 91,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1316712305,
+  "publicationDate": 1412891154,
+  "rowsUpdatedAt": 1412891144,
+  "viewLastModified": 1769546766,
+  "viewCount": 628,
+  "downloadCount": 1831,
+  "category": "Health & Human Services",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Medical Examiner",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "AGE RANGE      ",
+      "fieldName": "age_range_",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": "MANNER OF DEATH ",
+      "fieldName": "manner_of_death_",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": "COUNT",
+      "fieldName": "count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:08.978Z"
+}

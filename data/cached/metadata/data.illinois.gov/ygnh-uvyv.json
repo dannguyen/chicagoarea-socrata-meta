@@ -1,0 +1,113 @@
+{
+  "id": "ygnh-uvyv",
+  "name": "IL Department of Agriculture - State Financial Assistance Program Information",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2008,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1767805703,
+  "publicationDate": 1767806438,
+  "rowsUpdatedAt": 1767809911,
+  "viewLastModified": 1767809909,
+  "viewCount": 4587,
+  "downloadCount": 31,
+  "category": "Natural and Cultural Resources",
+  "tags": [
+    "grants",
+    "csfa"
+  ],
+  "attribution": "Illinois Department of Agriculture",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Agriculture"
+    },
+    "Data Management": {
+      "Maintainer": "Illinois Department of Agriculture",
+      "Maintainer Email": "agr.grants@illinois.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "FY",
+      "fieldName": "fy",
+      "dataTypeName": "number",
+      "description": "Fiscal year in which the grant award was issued.",
+      "nullCount": 0,
+      "cardinality": 2008
+    },
+    {
+      "name": "Program Name",
+      "fieldName": "program_name",
+      "dataTypeName": "text",
+      "description": "Name of the grant or funding program.",
+      "nullCount": 0,
+      "cardinality": 2008
+    },
+    {
+      "name": "Program Description",
+      "fieldName": "program_description",
+      "dataTypeName": "text",
+      "description": "Description of the purpose and scope of the funding program.",
+      "nullCount": 0,
+      "cardinality": 2008
+    },
+    {
+      "name": "Grantor",
+      "fieldName": "grantor",
+      "dataTypeName": "text",
+      "description": "Agency or organization that provided the funding.",
+      "nullCount": 0,
+      "cardinality": 2008
+    },
+    {
+      "name": "Grantee",
+      "fieldName": "grantee",
+      "dataTypeName": "text",
+      "description": "Organization or entity that received the funding.",
+      "nullCount": 0,
+      "cardinality": 2008
+    },
+    {
+      "name": "Zip Code",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": "ZIP Code associated with the grantee or project location.",
+      "nullCount": 64,
+      "cardinality": 2008
+    },
+    {
+      "name": "Award Amount",
+      "fieldName": "award_amount",
+      "dataTypeName": "number",
+      "description": "Total amount of funding awarded, in U.S. dollars.",
+      "nullCount": 0,
+      "cardinality": 2008
+    },
+    {
+      "name": "Term Begin Date",
+      "fieldName": "term_begin_date",
+      "dataTypeName": "calendar_date",
+      "description": "Start date of the grant award period.",
+      "nullCount": 0,
+      "cardinality": 2008
+    },
+    {
+      "name": "Term End Date",
+      "fieldName": "term_end_date",
+      "dataTypeName": "calendar_date",
+      "description": "End date of the grant award period.",
+      "nullCount": 2,
+      "cardinality": 2008
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:31.227Z"
+}

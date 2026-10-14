@@ -1,0 +1,94 @@
+{
+  "id": "5hda-ha8b",
+  "name": "4th Ward Alderman Applicants - 2016",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 18,
+  "rowCountSource": "cached",
+  "rowLabel": "Applicants",
+  "hasRowIdentifier": false,
+  "createdAt": 1462472746,
+  "publicationDate": 1462481973,
+  "rowsUpdatedAt": 1462481938,
+  "viewLastModified": 1531341928,
+  "viewCount": 1284,
+  "downloadCount": 4642,
+  "category": "Administration & Finance",
+  "tags": [
+    "elections"
+  ],
+  "attribution": "http://www.cityofchicago.org",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2016",
+      "Frequency": "Updated as needed",
+      "Data Owner": "Mayor's Office"
+    }
+  },
+  "columns": [
+    {
+      "name": "FULL NAME",
+      "fieldName": "full_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 18
+    },
+    {
+      "name": "LAST NAME",
+      "fieldName": "last_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 18
+    },
+    {
+      "name": "FIRST NAME",
+      "fieldName": "first_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 18
+    },
+    {
+      "name": "MIDDLE NAME",
+      "fieldName": "middle_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 16
+    },
+    {
+      "name": "SUFFIX",
+      "fieldName": "suffix",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 16,
+      "cardinality": 2
+    },
+    {
+      "name": "APPOINTED",
+      "fieldName": "appointed",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 18,
+      "cardinality": 0
+    },
+    {
+      "name": "URL",
+      "fieldName": "url",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:18.752Z"
+}

@@ -1,0 +1,611 @@
+{
+  "id": "68nd-jvt3",
+  "name": "Traffic Crashes - Vehicles",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1243478,
+  "rowCountSource": "cached",
+  "rowLabel": "Vehicle",
+  "hasRowIdentifier": true,
+  "createdAt": 1515108283,
+  "publicationDate": 1581459259,
+  "rowsUpdatedAt": 1791991223,
+  "viewLastModified": 1774455514,
+  "viewCount": 142412,
+  "downloadCount": 17249,
+  "category": "Transportation",
+  "tags": [
+    "transportation",
+    "public safety",
+    "vision zero",
+    "traffic crashes",
+    "link to article present"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2015 to present (All police districts September 2017 - present)",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"68nd-jvt3\"",
+      "Frequency": "Daily",
+      "Data Owner": "Chicago Police Department"
+    }
+  },
+  "columns": [
+    {
+      "name": "CRASH_UNIT_ID",
+      "fieldName": "crash_unit_id",
+      "dataTypeName": "number",
+      "description": "A unique identifier for each vehicle record.",
+      "nullCount": 0,
+      "cardinality": 1243478
+    },
+    {
+      "name": "CRASH_RECORD_ID",
+      "fieldName": "crash_record_id",
+      "dataTypeName": "text",
+      "description": "This number can be used to link to the same crash in the Crashes and People datasets. This number also serves as a unique ID in the Crashes dataset.",
+      "nullCount": 0,
+      "cardinality": 606844
+    },
+    {
+      "name": "CRASH_DATE",
+      "fieldName": "crash_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date and time of crash as entered by the reporting officer",
+      "nullCount": 0,
+      "cardinality": 396912
+    },
+    {
+      "name": "UNIT_NO",
+      "fieldName": "unit_no",
+      "dataTypeName": "number",
+      "description": "A unique ID for each unit within a specific crash report.",
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "UNIT_TYPE",
+      "fieldName": "unit_type",
+      "dataTypeName": "text",
+      "description": "The type of unit",
+      "nullCount": 1770,
+      "cardinality": 9
+    },
+    {
+      "name": "NUM_PASSENGERS",
+      "fieldName": "num_passengers",
+      "dataTypeName": "number",
+      "description": "Number of passengers in the vehicle. The driver is not included. More information on passengers is in the People dataset.",
+      "nullCount": 1058269,
+      "cardinality": 42
+    },
+    {
+      "name": "VEHICLE_ID",
+      "fieldName": "vehicle_id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 28103,
+      "cardinality": 1215375
+    },
+    {
+      "name": "CMRC_VEH_I",
+      "fieldName": "cmrc_veh_i",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1220341,
+      "cardinality": 2
+    },
+    {
+      "name": "MAKE",
+      "fieldName": "make",
+      "dataTypeName": "text",
+      "description": "The make (brand) of the vehicle, if relevant",
+      "nullCount": 28108,
+      "cardinality": 1165
+    },
+    {
+      "name": "MODEL",
+      "fieldName": "model",
+      "dataTypeName": "text",
+      "description": "The model of the vehicle, if relevant",
+      "nullCount": 28252,
+      "cardinality": 2522
+    },
+    {
+      "name": "LIC_PLATE_STATE",
+      "fieldName": "lic_plate_state",
+      "dataTypeName": "text",
+      "description": "The state issuing the license plate of the vehicle, if relevant",
+      "nullCount": 136703,
+      "cardinality": 52
+    },
+    {
+      "name": "VEHICLE_YEAR",
+      "fieldName": "vehicle_year",
+      "dataTypeName": "number",
+      "description": "The model year of the vehicle, if relevant",
+      "nullCount": 226463,
+      "cardinality": 198
+    },
+    {
+      "name": "VEHICLE_DEFECT",
+      "fieldName": "vehicle_defect",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 28103,
+      "cardinality": 17
+    },
+    {
+      "name": "VEHICLE_TYPE",
+      "fieldName": "vehicle_type",
+      "dataTypeName": "text",
+      "description": "The type of vehicle, if relevant",
+      "nullCount": 28103,
+      "cardinality": 22
+    },
+    {
+      "name": "VEHICLE_USE",
+      "fieldName": "vehicle_use",
+      "dataTypeName": "text",
+      "description": "The normal use of the vehicle, if relevant",
+      "nullCount": 28103,
+      "cardinality": 25
+    },
+    {
+      "name": "TRAVEL_DIRECTION",
+      "fieldName": "travel_direction",
+      "dataTypeName": "text",
+      "description": "The direction in which the unit was traveling prior to the crash, as determined by the reporting officer",
+      "nullCount": 28103,
+      "cardinality": 9
+    },
+    {
+      "name": "MANEUVER",
+      "fieldName": "maneuver",
+      "dataTypeName": "text",
+      "description": "The action the unit was taking prior to the crash, as determined by the reporting officer",
+      "nullCount": 28103,
+      "cardinality": 28
+    },
+    {
+      "name": "TOWED_I",
+      "fieldName": "towed_i",
+      "dataTypeName": "text",
+      "description": "Indicator of whether the vehicle was towed",
+      "nullCount": 1093495,
+      "cardinality": 2
+    },
+    {
+      "name": "FIRE_I",
+      "fieldName": "fire_i",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1242501,
+      "cardinality": 2
+    },
+    {
+      "name": "OCCUPANT_CNT",
+      "fieldName": "occupant_cnt",
+      "dataTypeName": "number",
+      "description": "The number of people in the unit, as determined by the reporting officer",
+      "nullCount": 28103,
+      "cardinality": 45
+    },
+    {
+      "name": "EXCEED_SPEED_LIMIT_I",
+      "fieldName": "exceed_speed_limit_i",
+      "dataTypeName": "text",
+      "description": "Indicator of whether the unit was speeding, as determined by the reporting officer",
+      "nullCount": 1241083,
+      "cardinality": 2
+    },
+    {
+      "name": "TOWED_BY",
+      "fieldName": "towed_by",
+      "dataTypeName": "text",
+      "description": "Entity that towed the unit, if relevant",
+      "nullCount": 1132326,
+      "cardinality": 11164
+    },
+    {
+      "name": "TOWED_TO",
+      "fieldName": "towed_to",
+      "dataTypeName": "text",
+      "description": "Location to which the unit was towed, if relevant",
+      "nullCount": 1174732,
+      "cardinality": 11790
+    },
+    {
+      "name": "AREA_00_I",
+      "fieldName": "area_00_i",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1198082,
+      "cardinality": 2
+    },
+    {
+      "name": "AREA_01_I",
+      "fieldName": "area_01_i",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 916756,
+      "cardinality": 2
+    },
+    {
+      "name": "AREA_02_I",
+      "fieldName": "area_02_i",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1039759,
+      "cardinality": 2
+    },
+    {
+      "name": "AREA_03_I",
+      "fieldName": "area_03_i",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1125655,
+      "cardinality": 2
+    },
+    {
+      "name": "AREA_04_I",
+      "fieldName": "area_04_i",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1122937,
+      "cardinality": 2
+    },
+    {
+      "name": "AREA_05_I",
+      "fieldName": "area_05_i",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1057703,
+      "cardinality": 2
+    },
+    {
+      "name": "AREA_06_I",
+      "fieldName": "area_06_i",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1052544,
+      "cardinality": 2
+    },
+    {
+      "name": "AREA_07_I",
+      "fieldName": "area_07_i",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1073969,
+      "cardinality": 2
+    },
+    {
+      "name": "AREA_08_I",
+      "fieldName": "area_08_i",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1050486,
+      "cardinality": 2
+    },
+    {
+      "name": "AREA_09_I",
+      "fieldName": "area_09_i",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1176218,
+      "cardinality": 2
+    },
+    {
+      "name": "AREA_10_I",
+      "fieldName": "area_10_i",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1146571,
+      "cardinality": 2
+    },
+    {
+      "name": "AREA_11_I",
+      "fieldName": "area_11_i",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1052623,
+      "cardinality": 2
+    },
+    {
+      "name": "AREA_12_I",
+      "fieldName": "area_12_i",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1054947,
+      "cardinality": 2
+    },
+    {
+      "name": "AREA_99_I",
+      "fieldName": "area_99_i",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1108389,
+      "cardinality": 2
+    },
+    {
+      "name": "FIRST_CONTACT_POINT",
+      "fieldName": "first_contact_point",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 38261,
+      "cardinality": 14
+    },
+    {
+      "name": "CMV_ID",
+      "fieldName": "cmv_id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1230420,
+      "cardinality": 13058
+    },
+    {
+      "name": "USDOT_NO",
+      "fieldName": "usdot_no",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1235947,
+      "cardinality": 3744
+    },
+    {
+      "name": "CCMC_NO",
+      "fieldName": "ccmc_no",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1241830,
+      "cardinality": 1178
+    },
+    {
+      "name": "ILCC_NO",
+      "fieldName": "ilcc_no",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1242294,
+      "cardinality": 766
+    },
+    {
+      "name": "COMMERCIAL_SRC",
+      "fieldName": "commercial_src",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1234439,
+      "cardinality": 4
+    },
+    {
+      "name": "GVWR",
+      "fieldName": "gvwr",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1235975,
+      "cardinality": 421
+    },
+    {
+      "name": "CARRIER_NAME",
+      "fieldName": "carrier_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1230976,
+      "cardinality": 8189
+    },
+    {
+      "name": "CARRIER_STATE",
+      "fieldName": "carrier_state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1231688,
+      "cardinality": 50
+    },
+    {
+      "name": "CARRIER_CITY",
+      "fieldName": "carrier_city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1231899,
+      "cardinality": 1748
+    },
+    {
+      "name": "HAZMAT_PLACARDS_I",
+      "fieldName": "hazmat_placards_i",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1243220,
+      "cardinality": 2
+    },
+    {
+      "name": "HAZMAT_NAME",
+      "fieldName": "hazmat_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1243428,
+      "cardinality": 35
+    },
+    {
+      "name": "UN_NO",
+      "fieldName": "un_no",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1243013,
+      "cardinality": 326
+    },
+    {
+      "name": "HAZMAT_PRESENT_I",
+      "fieldName": "hazmat_present_i",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1233833,
+      "cardinality": 3
+    },
+    {
+      "name": "HAZMAT_REPORT_I",
+      "fieldName": "hazmat_report_i",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1234126,
+      "cardinality": 3
+    },
+    {
+      "name": "HAZMAT_REPORT_NO",
+      "fieldName": "hazmat_report_no",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1243477,
+      "cardinality": 1
+    },
+    {
+      "name": "MCS_REPORT_I",
+      "fieldName": "mcs_report_i",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1234076,
+      "cardinality": 3
+    },
+    {
+      "name": "MCS_REPORT_NO",
+      "fieldName": "mcs_report_no",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1243472,
+      "cardinality": 6
+    },
+    {
+      "name": "HAZMAT_VIO_CAUSE_CRASH_I",
+      "fieldName": "hazmat_vio_cause_crash_i",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1233977,
+      "cardinality": 3
+    },
+    {
+      "name": "MCS_VIO_CAUSE_CRASH_I",
+      "fieldName": "mcs_vio_cause_crash_i",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1234150,
+      "cardinality": 3
+    },
+    {
+      "name": "IDOT_PERMIT_NO",
+      "fieldName": "idot_permit_no",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1242711,
+      "cardinality": 507
+    },
+    {
+      "name": "WIDE_LOAD_I",
+      "fieldName": "wide_load_i",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1243364,
+      "cardinality": 2
+    },
+    {
+      "name": "TRAILER1_WIDTH",
+      "fieldName": "trailer1_width",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1241003,
+      "cardinality": 3
+    },
+    {
+      "name": "TRAILER2_WIDTH",
+      "fieldName": "trailer2_width",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1243191,
+      "cardinality": 3
+    },
+    {
+      "name": "TRAILER1_LENGTH",
+      "fieldName": "trailer1_length",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1241437,
+      "cardinality": 81
+    },
+    {
+      "name": "TRAILER2_LENGTH",
+      "fieldName": "trailer2_length",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1243423,
+      "cardinality": 31
+    },
+    {
+      "name": "TOTAL_VEHICLE_LENGTH",
+      "fieldName": "total_vehicle_length",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1241001,
+      "cardinality": 121
+    },
+    {
+      "name": "AXLE_CNT",
+      "fieldName": "axle_cnt",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1239859,
+      "cardinality": 20
+    },
+    {
+      "name": "VEHICLE_CONFIG",
+      "fieldName": "vehicle_config",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1232603,
+      "cardinality": 8
+    },
+    {
+      "name": "CARGO_BODY_TYPE",
+      "fieldName": "cargo_body_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1233065,
+      "cardinality": 9
+    },
+    {
+      "name": "LOAD_TYPE",
+      "fieldName": "load_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1233538,
+      "cardinality": 6
+    },
+    {
+      "name": "HAZMAT_OUT_OF_SERVICE_I",
+      "fieldName": "hazmat_out_of_service_i",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1234415,
+      "cardinality": 2
+    },
+    {
+      "name": "MCS_OUT_OF_SERVICE_I",
+      "fieldName": "mcs_out_of_service_i",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1234170,
+      "cardinality": 2
+    },
+    {
+      "name": "HAZMAT_CLASS",
+      "fieldName": "hazmat_class",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1242594,
+      "cardinality": 8
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:26:21.767Z"
+}

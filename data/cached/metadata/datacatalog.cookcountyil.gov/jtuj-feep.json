@@ -1,0 +1,59 @@
+{
+  "id": "jtuj-feep",
+  "name": "Inspector General - Proposed Legislation",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 30,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1463606340,
+  "publicationDate": 1547580577,
+  "rowsUpdatedAt": 1749565245,
+  "viewLastModified": 1769545832,
+  "viewCount": 10031,
+  "downloadCount": 2171,
+  "category": "Finance & Operations",
+  "tags": [
+    "oiig"
+  ],
+  "attribution": "Cook County Office of the Independent Inspector General",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Office of the Independent Inspector General"
+    },
+    "Detailed Descriptive": {
+      "Geographic unit": "Not applicable"
+    },
+    "Publishing Details": {
+      "Data change frequency": "As needed",
+      "Publishing frequency": "As needed"
+    }
+  },
+  "columns": [
+    {
+      "name": "Link",
+      "fieldName": "link",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": "Date Issued",
+      "fieldName": "date_issued",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 27
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:50.864Z"
+}

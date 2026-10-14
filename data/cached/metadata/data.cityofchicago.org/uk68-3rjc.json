@@ -1,0 +1,629 @@
+{
+  "id": "uk68-3rjc",
+  "name": "Public Passenger Vehicle Chauffeur Survey - 2021",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 7021,
+  "rowCountSource": "query",
+  "rowLabel": "Survey Response",
+  "hasRowIdentifier": true,
+  "createdAt": 1661266831,
+  "publicationDate": 1662755767,
+  "rowsUpdatedAt": 1662668809,
+  "viewLastModified": 1682539795,
+  "viewCount": 2620,
+  "downloadCount": 4722,
+  "category": "Transportation",
+  "tags": [
+    "tnp",
+    "livery",
+    "taxis",
+    "survey",
+    "transportation",
+    "transportation network provider",
+    "rideshare",
+    "drivers",
+    "2021"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "3/10/2021 – 4/1/2021",
+      "Data Owner": "Department of Business Affairs & Consumer Protection"
+    }
+  },
+  "columns": [
+    {
+      "name": "Respondent ID",
+      "fieldName": "respondent_id",
+      "dataTypeName": "number",
+      "description": "A sequentially assigned number that can be used as a unique ID for records in this dataset.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Date",
+      "fieldName": "date",
+      "dataTypeName": "calendar_date",
+      "description": "The date of the response.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "How long have you been a taxicab, livery, or Lyft/Uber/Via chauffeur in Chicago?",
+      "fieldName": "how_long_have_you_been_a_chauffeur",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "When do you usually drive as a chauffeur?",
+      "fieldName": "when_do_you_usually_drive_as_a_chauffeur",
+      "dataTypeName": "text",
+      "description": "All responses selected are shown, separated by the | character.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "I usually prefer to drive as a chauffeur:",
+      "fieldName": "i_usually_prefer_to_drive_as_a_chauffeur",
+      "dataTypeName": "text",
+      "description": "All responses selected are shown, separated by the | character.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "How do you decide when to drive as a chauffeur?",
+      "fieldName": "how_do_you_decide_when_to_drive_as_a_chauffeur",
+      "dataTypeName": "text",
+      "description": "All responses selected are shown, separated by the | character.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Which best describes the vehicle you use(d) most often as a chauffeur?",
+      "fieldName": "which_best_describes_the_vehicle_you_used_most_often",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Which best describes the vehicle you use(d) most often as a chauffeur? Other (please specify)",
+      "fieldName": "which_best_describes_the_vehicle_you_used_most_often_other",
+      "dataTypeName": "text",
+      "description": "how_do_you_decide_when_to_drive_as_a_chauffeur",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Vehicle WAV?",
+      "fieldName": "vehicle_wav",
+      "dataTypeName": "text",
+      "description": "Think about the vehicle you use(d) most often as a chauffeur. Was it wheelchair accessible?",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Insurance Increase?",
+      "fieldName": "insurance_increase",
+      "dataTypeName": "text",
+      "description": "Did your personal auto insurance cost increase because of chauffeur driving?",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "In 2019 (before COVID), did you operate as a taxicab, livery, or Lyft/Uber/Via chauffeur?",
+      "fieldName": "in_2019_before_covid_did_you_drive_as_a_chauffeur",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "In 2019 (before COVID), what best described your status as a chauffeur?",
+      "fieldName": "in_2019_before_covid_status",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "In 2019 (before COVID), why did you operate as a chauffeur?",
+      "fieldName": "in_2019_before_covid_why_did_you_operate_as_a_chauffeur",
+      "dataTypeName": "text",
+      "description": "All responses selected are shown, separated by the | character.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "In 2019 (before COVID), what best described your status as a chauffeur? Other response",
+      "fieldName": "in_2019_before_covid_status_other",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "In 2019 (before COVID), how much of your total earnings were from being a taxicab, livery, or Lyft/Uber/Via driver?",
+      "fieldName": "in_2019_before_covid_how_much_of_total_earnings",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Estimate your average weekly chauffeur expenses in 2019 (before COVID). Use whole numbers only. (example: for $50, enter 50) Vehicle loan or lease",
+      "fieldName": "average_weekly_expenses_loan_lease",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Estimate your average weekly chauffeur expenses in 2019 (before COVID). Use whole numbers only. (example: for $50, enter 50) Vehicle insurance",
+      "fieldName": "average_weekly_expenses_insurance",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Estimate your average weekly chauffeur expenses in 2019 (before COVID). Use whole numbers only. (example: for $50, enter 50) Vehicle maintainance",
+      "fieldName": "average_weekly_expenses_maintainance",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Estimate your average weekly chauffeur expenses in 2019 (before COVID). Use whole numbers only. (example: for $50, enter 50) Fuel",
+      "fieldName": "average_weekly_expenses_fuel",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Other chauffeur expenses",
+      "fieldName": "average_weekly_expenses_other",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "What else described you in 2019 (before COVID)?",
+      "fieldName": "what_else_described_you_in_2019_before_covid",
+      "dataTypeName": "text",
+      "description": "All responses selected are shown, separated by the | character.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "What else described you in 2019 (before COVID)? - Other",
+      "fieldName": "what_else_described_you_in_2019_before_covid_other",
+      "dataTypeName": "text",
+      "description": "Open-ended answer",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Did you provide TAXICAB chauffeur services in 2019 (before COVID)?",
+      "fieldName": "did_you_provide_taxicab_services_in_2019_before_covid",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "During weeks you drove a taxicab, how many hours did you operate per week on average driving passengers?",
+      "fieldName": "taxi_hours_per_week_passengers",
+      "dataTypeName": "text",
+      "description": "Hours driving passengers.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "During weeks you drove a taxicab, how many hours did you operate per week on average waiting for and driving passengers?",
+      "fieldName": "taxi_hours_per_week_waiting_and_passengers",
+      "dataTypeName": "text",
+      "description": "Hours waiting AND driving passengers.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Taxi weekly earnings - Net pay",
+      "fieldName": "taxi_weekly_earnings_net_pay",
+      "dataTypeName": "text",
+      "description": "During weeks you drove a taxicab, how much did you earn per week on average? - Net pay after taxes",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Taxi weekly earnings - Tips",
+      "fieldName": "taxi_weekly_earnings_tips",
+      "dataTypeName": "text",
+      "description": "During weeks you drove a taxicab, how much did you earn per week on average? - Tips",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Taxi weekly earnings - Advertising",
+      "fieldName": "taxi_weekly_earnings_advertising",
+      "dataTypeName": "text",
+      "description": "During weeks you drove a taxicab, how much did you earn per week on average? - Advertising",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Taxi hourly earnings - Net pay",
+      "fieldName": "taxi_hourly_earnings_net_pay",
+      "dataTypeName": "text",
+      "description": "During weeks you drove a taxicab, how much did you earn on average per hour (net pay after taxes; do not subtract expenses)?",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Did you use Lyft, Uber, or Via to operate as chauffeur in 2019 (before COVID)?",
+      "fieldName": "did_you_use_lyft_uber_or_via_in_2019_before_covid",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Which apps did you use in 2019 (before COVID)?",
+      "fieldName": "which_apps_did_you_use_in_2019_before_covid",
+      "dataTypeName": "text",
+      "description": "All responses selected are shown, separated by the | character.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "How did you choose which apps to use?",
+      "fieldName": "how_did_you_choose_which_apps_to_use",
+      "dataTypeName": "text",
+      "description": "All responses selected are shown, separated by the | character.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "How did you choose which apps to use? - Other",
+      "fieldName": "how_did_you_choose_which_apps_to_use_other",
+      "dataTypeName": "text",
+      "description": "Open-ended answer",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "How often do you use multiple gig-work apps at the same time? (Example: go online with Lyft/Uber and Instacart at the same time)",
+      "fieldName": "how_often_do_you_use_multiple_apps",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Which Lyft/Uber/Via services did you provide in 2019 (before COVID)? (select all that apply)",
+      "fieldName": "which_tnp_services_did_you_provide_in_2019_before_covid",
+      "dataTypeName": "text",
+      "description": "All responses selected are shown, separated by the | character.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "During weeks you used Lyft/Uber/Via, how many hours did you operate as a chauffeur per week on average driving passengers?",
+      "fieldName": "tnp_hours_per_week_passengers",
+      "dataTypeName": "text",
+      "description": "Hours driving passengers.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "During weeks you used Lyft/Uber/Via, how many hours did you operate as a chauffeur per week on average waiting for and driving passengers?",
+      "fieldName": "tnp_hours_per_week_waiting_and_passengers",
+      "dataTypeName": "text",
+      "description": "Hours waiting AND driving passengers.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "TNP weekly earnings - Net pay",
+      "fieldName": "tnp_weekly_earnings_net_pay",
+      "dataTypeName": "text",
+      "description": "During weeks you used Lyft/Uber/Via, how much did you earn per week on average? - Net pay after taxes",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "TNP weekly earnings - Tips",
+      "fieldName": "tnp_weekly_earnings_tips",
+      "dataTypeName": "text",
+      "description": "During weeks you used Lyft/Uber/Via, how much did you earn per week on average? - Tips",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "TNP weekly earnings - Advertising",
+      "fieldName": "tnp_weekly_earnings_advertising",
+      "dataTypeName": "text",
+      "description": "During weeks you used Lyft/Uber/Via, how much did you earn per week on average? - Advertising",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "During weeks you used Lyft/Uber/Via, how much did you earn on average per hour (net pay after taxes; do not subtract expenses)?",
+      "fieldName": "tnp_hourly_earnings_net_pay",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Did you provide LIVERY chauffeur services in 2019 (before COVID)?",
+      "fieldName": "did_you_provide_livery_services_in_2019_before_covid",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "During weeks you were a livery driver, how many hours did you operate per week on average driving passengers?",
+      "fieldName": "livery_hours_per_week_passengers",
+      "dataTypeName": "text",
+      "description": "Hours driving passengers.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "During weeks you were a livery driver, how many hours did you operate per week on average waiting for and driving passengers?",
+      "fieldName": "livery_hours_per_week_waiting_and_passengers",
+      "dataTypeName": "text",
+      "description": "Hours waiting AND driving passengers.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Livery weekly earnings - Net pay",
+      "fieldName": "livery_weekly_earnings_net_pay",
+      "dataTypeName": "text",
+      "description": "During weeks you were a livery driver, how much did you earn per week on average? - Net pay after taxes",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Livery weekly earnings - Tips",
+      "fieldName": "livery_weekly_earnings_tips",
+      "dataTypeName": "text",
+      "description": "During weeks you were a livery driver, how much did you earn per week on average? - Tips",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Livery weekly earnings - Advertising",
+      "fieldName": "livery_weekly_earnings_advertising",
+      "dataTypeName": "text",
+      "description": "During weeks you were a livery driver, how much did you earn per week on average? - Advertising",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "During weeks you were a livery driver, how much did you earn on average per hour (net pay after taxes; do not subtract expenses)?",
+      "fieldName": "livery_hourly_earnings_net_pay",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Were you a taxicab, livery, or Lyft/Uber/Via chauffeur in April-December 2020 (during COVID)?",
+      "fieldName": "were_you_a_chauffeur_in_2020_during_covid",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "In 2020 (during COVID), when did you operate as a taxicab, livery, or Lyft/Uber/Via chauffeur? (select all that apply)",
+      "fieldName": "in_2020_during_covid_when_did_you_operate_as_a_chauffeur",
+      "dataTypeName": "text",
+      "description": "All responses selected are shown, separated by the | character.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "In 2020 (during COVID), which services did you provide?",
+      "fieldName": "in_2020_during_covid_which_services_did_you_provide",
+      "dataTypeName": "text",
+      "description": "All responses selected are shown, separated by the | character.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "In 2020 (during COVID), why did you operate as a chauffeur? (select all that apply)",
+      "fieldName": "in_2020_during_covid_why_did_you_operate_as_a_chauffeur",
+      "dataTypeName": "text",
+      "description": "All responses selected are shown, separated by the | character.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "In 2020 (during COVID), why did you operate as a chauffeur? - Other",
+      "fieldName": "in_2020_during_covid_why_did_you_operate_as_a_chauffeur_other",
+      "dataTypeName": "text",
+      "description": "Open-ended answer",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "In 2020 (during COVID), what best described your status as a chauffeur?",
+      "fieldName": "in_2020_during_covid_what",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "In 2020 (during COVID), how much of your total earnings were from being a taxicab, livery, or Lyft/Uber/Via driver?",
+      "fieldName": "in_2020_during_covid_how_much_of_total_earnings",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "What else described you in 2020 (during COVID)? (select all that apply)",
+      "fieldName": "what_else_described_you_in_2020_during_covid",
+      "dataTypeName": "text",
+      "description": "All responses selected are shown, separated by the | character.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "What else described you in 2020 (during COVID)? - Other",
+      "fieldName": "what_else_described_you_in_2020_during_covid_other",
+      "dataTypeName": "text",
+      "description": "Open-ended answer",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Have you received information/training about chauffeuring during the pandemic from the company(ies) you drive with/apps you use?",
+      "fieldName": "have_you_received_information_about_chauffeuring_during_the_pandemic",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Have you received personal protective equipment (PPE), hand sanitizer, or cleaning supplies from the company you drive with/apps you use?",
+      "fieldName": "have_you_received_ppe",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Have you been sick from COVID-19 or had to quarantine because of COVID-19 exposure?",
+      "fieldName": "have_you_been_sick_from_covid_or_had_to_quarantine",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "After the COVID-19 pandemic stabilizes or is under control, how likely are you to be a taxicab, livery, or Lyft/Uber/Via chauffeur?",
+      "fieldName": "after_the_covid_19_pandemic_how_likely_to_chauffeur",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "What is/are the main concerns about continuing to be a chauffeur after the pandemic? (select all that apply)",
+      "fieldName": "main_concerns_about_continuing_after_pandemic",
+      "dataTypeName": "text",
+      "description": "All responses selected are shown, separated by the | character.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "What is/are the main concerns about continuing to be a chauffeur after the pandemic? - Other",
+      "fieldName": "main_concerns_about_continuing_after_pandemic_other",
+      "dataTypeName": "text",
+      "description": "Open-ended answer",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "What would most improve chauffeur conditions? (select 1 to 3)",
+      "fieldName": "what_would_most_improve_chauffeur_conditions",
+      "dataTypeName": "text",
+      "description": "All responses selected are shown (even if more than three), separated by the | character.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "What would most improve chauffeur conditions? - Other",
+      "fieldName": "what_would_most_improve_chauffeur_conditions_other",
+      "dataTypeName": "text",
+      "description": "Open-ended answer",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Do you have any additional comments?",
+      "fieldName": "do_you_have_any_additional_comments",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "In what ZIP code is your home located?",
+      "fieldName": "home_zip_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "What is your age?",
+      "fieldName": "age",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Gender identity",
+      "fieldName": "gender_identity",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "What is your race or ethnicity?",
+      "fieldName": "race_or_ethnicity",
+      "dataTypeName": "text",
+      "description": "All responses selected are shown, separated by the | character.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "What is the highest degree or level of education you have completed?",
+      "fieldName": "highest_degree_of_education",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Do you have health insurance?",
+      "fieldName": "do_you_have_health_insurance",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "How many dependent children under age 18 do you have?",
+      "fieldName": "how_many_dependent_children_do_you_have",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:10.393Z"
+}

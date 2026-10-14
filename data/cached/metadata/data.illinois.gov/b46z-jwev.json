@@ -1,0 +1,76 @@
+{
+  "id": "b46z-jwev",
+  "name": "PTAX-203 Personal Property Table",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 47698,
+  "rowCountSource": "cached",
+  "rowLabel": "Item",
+  "hasRowIdentifier": false,
+  "createdAt": 1744127762,
+  "publicationDate": 1753388753,
+  "rowsUpdatedAt": 1791716412,
+  "viewLastModified": 1789612838,
+  "viewCount": 289,
+  "downloadCount": 112,
+  "category": "Government and Public Employees",
+  "tags": [
+    "property tax"
+  ],
+  "attribution": "Illinois Department of Revenue",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Revenue"
+    }
+  },
+  "columns": [
+    {
+      "name": "Declaration ID",
+      "fieldName": "declaration_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 47698
+    },
+    {
+      "name": "Description",
+      "fieldName": "description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 135,
+      "cardinality": 47698
+    },
+    {
+      "name": "Value",
+      "fieldName": "value",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 47698
+    },
+    {
+      "name": "Tangible",
+      "fieldName": "tangible",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 47698
+    },
+    {
+      "name": "Intangible",
+      "fieldName": "intangible",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 47698
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:33.624Z"
+}

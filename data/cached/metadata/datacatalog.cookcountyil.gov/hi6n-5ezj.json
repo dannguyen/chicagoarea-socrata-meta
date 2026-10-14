@@ -1,0 +1,67 @@
+{
+  "id": "hi6n-5ezj",
+  "name": "Comptroller -  Annual Comprehensive Financial Report (ACFR)",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 28,
+  "rowCountSource": "cached",
+  "rowLabel": "report",
+  "hasRowIdentifier": false,
+  "createdAt": 1466644771,
+  "publicationDate": 1530050658,
+  "rowsUpdatedAt": 1789509609,
+  "viewLastModified": 1789509608,
+  "viewCount": 12860,
+  "downloadCount": 4517,
+  "category": "Finance & Operations",
+  "tags": [
+    "cafr"
+  ],
+  "attribution": "Cook County Comptroller",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Comptroller"
+    },
+    "Metadata": {
+      "Update Frequency": "Yearly"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Annually",
+      "Publishing frequency": "Annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "Link",
+      "fieldName": "link",
+      "dataTypeName": "url",
+      "description": "link to the report in PDF format",
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": "Fiscal Year",
+      "fieldName": "fiscal_year",
+      "dataTypeName": "number",
+      "description": "fiscal year the report covers (County fiscal year is Dec 1 of prior calendar year to Nov 30 of current calendar year)",
+      "nullCount": 0,
+      "cardinality": 28
+    },
+    {
+      "name": "Notes",
+      "fieldName": "notes",
+      "dataTypeName": "text",
+      "description": "relevant notes to contextualize report contents or changes",
+      "nullCount": 27,
+      "cardinality": 28
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:50.335Z"
+}

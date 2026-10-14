@@ -1,0 +1,73 @@
+{
+  "id": "phrs-x2nm",
+  "name": "Performance Metrics - Transportation - Street Lights All Out",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 159,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1317050581,
+  "publicationDate": 1398914200,
+  "rowsUpdatedAt": 1398914185,
+  "viewLastModified": 1398914200,
+  "viewCount": 2518,
+  "downloadCount": 3951,
+  "category": "Administration & Finance",
+  "tags": [
+    "performance metrics",
+    "service delivery",
+    "street lights"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "March 2011 - present",
+      "Frequency": "Data is updated weekly",
+      "Data Owner": "Transportation"
+    }
+  },
+  "columns": [
+    {
+      "name": "Week",
+      "fieldName": "week",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 159
+    },
+    {
+      "name": "Average Days to Complete Street Lights All Out Requests",
+      "fieldName": "average_days_to_complete_street_lights_all_out_requests",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 122
+    },
+    {
+      "name": "Total Completed Requests",
+      "fieldName": "total_completed_requests",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 131
+    },
+    {
+      "name": "Target Response Time (Days)",
+      "fieldName": "target_response_time_days_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:10.886Z"
+}

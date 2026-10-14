@@ -1,0 +1,1558 @@
+{
+  "id": "u4sf-fv2a",
+  "name": "Asian American Employment Plans Survey 2015 - 2018",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 259,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709229583,
+  "publicationDate": 1709233262,
+  "rowsUpdatedAt": 1709233256,
+  "viewLastModified": 1736794033,
+  "viewCount": 31,
+  "downloadCount": 14,
+  "category": "Government and Public Employees",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Central Management Services"
+    },
+    "Data Management": {
+      "Maintainer": "Jisung Shin",
+      "Maintainer Email": "jisung.shin@illinois.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "_id",
+      "fieldName": "_id_",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 259
+    },
+    {
+      "name": "RespondentID",
+      "fieldName": "respondentid",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 259
+    },
+    {
+      "name": "CollectorID",
+      "fieldName": "collectorid",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "StartDate",
+      "fieldName": "startdate",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 259
+    },
+    {
+      "name": "EndDate",
+      "fieldName": "enddate",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 259
+    },
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Agency",
+      "fieldName": "agency",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 60
+    },
+    {
+      "name": "Agency_Director",
+      "fieldName": "agency_director",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 158
+    },
+    {
+      "name": "Agency_Rep",
+      "fieldName": "agency_rep",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 124
+    },
+    {
+      "name": "Agency_Rep_Title",
+      "fieldName": "agency_rep_title",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 130
+    },
+    {
+      "name": "Phone_Num",
+      "fieldName": "phone_num",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 142
+    },
+    {
+      "name": "MailingAddress",
+      "fieldName": "mailingaddress",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 210
+    },
+    {
+      "name": "Email",
+      "fieldName": "email",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 130
+    },
+    {
+      "name": "1a_AA_officials",
+      "fieldName": "_1a_aa_officials",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 26
+    },
+    {
+      "name": "1b_AA_professionals",
+      "fieldName": "_1b_aa_professionals",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 45
+    },
+    {
+      "name": "1c_AA_technicians",
+      "fieldName": "_1c_aa_technicians",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "1d_AA_protective",
+      "fieldName": "_1d_aa_protective",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11
+    },
+    {
+      "name": "1e_AA_paraprof",
+      "fieldName": "_1e_aa_paraprof",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 13
+    },
+    {
+      "name": "1f_AA_clerical",
+      "fieldName": "_1f_aa_clerical",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "1g_AA_craft",
+      "fieldName": "_1g_aa_craft",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "1h_AA_maintenance",
+      "fieldName": "_1h_aa_maintenance",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11
+    },
+    {
+      "name": "42a_bilingual_officials",
+      "fieldName": "_42a_bilingual_officials",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "42b_bilingual_professionals",
+      "fieldName": "_42b_bilingual_professionals",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11
+    },
+    {
+      "name": "42c_bilingual_technicians",
+      "fieldName": "_42c_bilingual_technicians",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "42d_bilingual_protective",
+      "fieldName": "_42d_bilingual_protective",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "42e_bilingual_paraprof",
+      "fieldName": "_42e_bilingual_paraprof",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "42f_bilingual_clerical",
+      "fieldName": "_42f_bilingual_clerical",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "42g_bilingual_craft",
+      "fieldName": "_42g_bilingual_craft",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "42h_bilingual_maintenance",
+      "fieldName": "_42h_bilingual_maintenance",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "2a_funded_officials",
+      "fieldName": "_2a_funded_officials",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 118
+    },
+    {
+      "name": "2b_funded_professionals",
+      "fieldName": "_2b_funded_professionals",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 149
+    },
+    {
+      "name": "2c_funded_technicians",
+      "fieldName": "_2c_funded_technicians",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 79
+    },
+    {
+      "name": "2d_funded_protective",
+      "fieldName": "_2d_funded_protective",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 39
+    },
+    {
+      "name": "2e_funded_paraprof",
+      "fieldName": "_2e_funded_paraprof",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 81
+    },
+    {
+      "name": "2f_funded_clerical",
+      "fieldName": "_2f_funded_clerical",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 76
+    },
+    {
+      "name": "2g_funded_craft",
+      "fieldName": "_2g_funded_craft",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 36
+    },
+    {
+      "name": "2h_funded_maintenance",
+      "fieldName": "_2h_funded_maintenance",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 52
+    },
+    {
+      "name": "3_headcount",
+      "fieldName": "_3_headcount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 184
+    },
+    {
+      "name": "4a_underutilized_officials",
+      "fieldName": "_4a_underutilized_officials",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "4b_underutilized_professional",
+      "fieldName": "_4b_underutilized_professional",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 29
+    },
+    {
+      "name": "4c_underutilized_technicians",
+      "fieldName": "_4c_underutilized_technicians",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "4d_underutilized_protective",
+      "fieldName": "_4d_underutilized_protective",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "4e_underutilized_paraprof",
+      "fieldName": "_4e_underutilized_paraprof",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "4f_underutilized_clerical",
+      "fieldName": "_4f_underutilized_clerical",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "4g_underutilized_craft",
+      "fieldName": "_4g_underutilized_craft",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "4h_underutilized_maintenance",
+      "fieldName": "_4h_underutilized_maintenance",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "8_compliance_steps",
+      "fieldName": "_8_compliance_steps",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 11,
+      "cardinality": 212
+    },
+    {
+      "name": "9b_num_senior",
+      "fieldName": "_9b_num_senior",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 47
+    },
+    {
+      "name": "9_AA_senior",
+      "fieldName": "_9_aa_senior",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "9a_AA_senior_titles",
+      "fieldName": "_9a_aa_senior_titles",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 141,
+      "cardinality": 75
+    },
+    {
+      "name": "12_AAEP_Implementation",
+      "fieldName": "_12_aaep_implementation",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 30,
+      "cardinality": 216
+    },
+    {
+      "name": "12a_AAEP_Language_Implementat",
+      "fieldName": "_12a_aaep_language_implementat",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 56,
+      "cardinality": 172
+    },
+    {
+      "name": "21_Liaison",
+      "fieldName": "_21_liaison",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "21a_LiaisonName",
+      "fieldName": "_21a_liaisonname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 196,
+      "cardinality": 34
+    },
+    {
+      "name": "21b_LiaisonTitle",
+      "fieldName": "_21b_liaisontitle",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 197,
+      "cardinality": 40
+    },
+    {
+      "name": "21d_LiaisonDuties",
+      "fieldName": "_21d_liaisonduties",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 171,
+      "cardinality": 78
+    },
+    {
+      "name": "7_numHR",
+      "fieldName": "_7_numhr",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 45
+    },
+    {
+      "name": "7a_numHR_minority",
+      "fieldName": "_7a_numhr_minority",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 21
+    },
+    {
+      "name": "14_numHired",
+      "fieldName": "_14_numhired",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 105
+    },
+    {
+      "name": "14a_PositionsHired",
+      "fieldName": "_14a_positionshired",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 21,
+      "cardinality": 226
+    },
+    {
+      "name": "14b_numHired_AA",
+      "fieldName": "_14b_numhired_aa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 27
+    },
+    {
+      "name": "6_changes",
+      "fieldName": "_6_changes",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 42
+    },
+    {
+      "name": "41_numPromoted",
+      "fieldName": "_41_numpromoted",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 79
+    },
+    {
+      "name": "41_numPromoted_AA",
+      "fieldName": "_41_numpromoted_aa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 16
+    },
+    {
+      "name": "18_AddressingUnderutilization",
+      "fieldName": "_18_addressingunderutilization",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 14,
+      "cardinality": 206
+    },
+    {
+      "name": "19_RandomMethod",
+      "fieldName": "_19_randommethod",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 72,
+      "cardinality": 155
+    },
+    {
+      "name": "17_numInterns",
+      "fieldName": "_17_numinterns",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 35
+    },
+    {
+      "name": "17a_numInterns_AA",
+      "fieldName": "_17a_numinterns_aa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11
+    },
+    {
+      "name": "22_numVeterans",
+      "fieldName": "_22_numveterans",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 53
+    },
+    {
+      "name": "22a_numVeterans_AA",
+      "fieldName": "_22a_numveterans_aa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "10_numInterviewers_AA",
+      "fieldName": "_10_numinterviewers_aa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 29
+    },
+    {
+      "name": "11_numPanels",
+      "fieldName": "_11_numpanels",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 112
+    },
+    {
+      "name": "11a_numPanels_AA",
+      "fieldName": "_11a_numpanels_aa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 21
+    },
+    {
+      "name": "13_numVacated",
+      "fieldName": "_13_numvacated",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 107
+    },
+    {
+      "name": "13b_numVacated_AA",
+      "fieldName": "_13b_numvacated_aa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 19
+    },
+    {
+      "name": "13c_VacatedTitles_AA",
+      "fieldName": "_13c_vacatedtitles_aa",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 83,
+      "cardinality": 165
+    },
+    {
+      "name": "15_CareerPrograms",
+      "fieldName": "_15_careerprograms",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 43,
+      "cardinality": 187
+    },
+    {
+      "name": "16_numUMP",
+      "fieldName": "_16_numump",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 51
+    },
+    {
+      "name": "16a_numUMP_AA",
+      "fieldName": "_16a_numump_aa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 13
+    },
+    {
+      "name": "20_Recommendations",
+      "fieldName": "_20_recommendations",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 71,
+      "cardinality": 90
+    },
+    {
+      "name": "23_numInterviewers",
+      "fieldName": "_23_numinterviewers",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 55
+    },
+    {
+      "name": "24_numPanels_Minority",
+      "fieldName": "_24_numpanels_minority",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 44
+    },
+    {
+      "name": "25_numPanels_White",
+      "fieldName": "_25_numpanels_white",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 51
+    },
+    {
+      "name": "26_PanelDiversityEfforts",
+      "fieldName": "_26_paneldiversityefforts",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 187,
+      "cardinality": 63
+    },
+    {
+      "name": "27_BiasTraining",
+      "fieldName": "_27_biastraining",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 205,
+      "cardinality": 48
+    },
+    {
+      "name": "28_BudgetAllocation_AA",
+      "fieldName": "_28_budgetallocation_aa",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 199,
+      "cardinality": 48
+    },
+    {
+      "name": "40_Certification",
+      "fieldName": "_40_certification",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "14c_PositionsHired_AA",
+      "fieldName": "_14c_positionshired_aa",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 228,
+      "cardinality": 29
+    },
+    {
+      "name": "13a_VacatedTitles",
+      "fieldName": "_13a_vacatedtitles",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 213,
+      "cardinality": 46
+    },
+    {
+      "name": "46_NumHiringPositions",
+      "fieldName": "_46_numhiringpositions",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "47a_10PositionName",
+      "fieldName": "_47a_10positionname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 241,
+      "cardinality": 17
+    },
+    {
+      "name": "47b_10PositionType",
+      "fieldName": "_47b_10positiontype",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 241,
+      "cardinality": 2
+    },
+    {
+      "name": "47c_10Eligible",
+      "fieldName": "_47c_10eligible",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 14
+    },
+    {
+      "name": "47d_10EligibleAA",
+      "fieldName": "_47d_10eligibleaa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "47e_10Interview",
+      "fieldName": "_47e_10interview",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "47f_10InterviewAA",
+      "fieldName": "_47f_10interviewaa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "47g_10DidInterview",
+      "fieldName": "_47g_10didinterview",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "47h_10DidInterviewAA",
+      "fieldName": "_47h_10didinterviewaa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "47i_10Offered",
+      "fieldName": "_47i_10offered",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "47j_10OfferedAA",
+      "fieldName": "_47j_10offeredaa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "48a_9PositionName",
+      "fieldName": "_48a_9positionname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 240,
+      "cardinality": 19
+    },
+    {
+      "name": "48b_9PositionType",
+      "fieldName": "_48b_9positiontype",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 240,
+      "cardinality": 2
+    },
+    {
+      "name": "48c_9Eligible",
+      "fieldName": "_48c_9eligible",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 13
+    },
+    {
+      "name": "48d_9EligibleAA",
+      "fieldName": "_48d_9eligibleaa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "48e_9Interview",
+      "fieldName": "_48e_9interview",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "48f_9InterviewAA",
+      "fieldName": "_48f_9interviewaa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "48g_9DidInterview",
+      "fieldName": "_48g_9didinterview",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "48h_9DidInterviewAA",
+      "fieldName": "_48h_9didinterviewaa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "48i_9Offered",
+      "fieldName": "_48i_9offered",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "48j_9OfferedAA",
+      "fieldName": "_48j_9offeredaa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "49a_8PositionName",
+      "fieldName": "_49a_8positionname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 239,
+      "cardinality": 20
+    },
+    {
+      "name": "49b_8PositionType",
+      "fieldName": "_49b_8positiontype",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 239,
+      "cardinality": 2
+    },
+    {
+      "name": "49c_8Eligible",
+      "fieldName": "_49c_8eligible",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 16
+    },
+    {
+      "name": "49d_8EligibleAA",
+      "fieldName": "_49d_8eligibleaa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "49e_8Interview",
+      "fieldName": "_49e_8interview",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "49f_8InterviewAA",
+      "fieldName": "_49f_8interviewaa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "49g_8DidInterview",
+      "fieldName": "_49g_8didinterview",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "49h_8DidInterviewAA",
+      "fieldName": "_49h_8didinterviewaa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "49i_8Offered",
+      "fieldName": "_49i_8offered",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "49j_8OfferedAA",
+      "fieldName": "_49j_8offeredaa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "50a_7PositionName",
+      "fieldName": "_50a_7positionname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 239,
+      "cardinality": 19
+    },
+    {
+      "name": "50b_7PositionType",
+      "fieldName": "_50b_7positiontype",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 239,
+      "cardinality": 2
+    },
+    {
+      "name": "50c_7Eligible",
+      "fieldName": "_50c_7eligible",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 16
+    },
+    {
+      "name": "50d_7EligibleAA",
+      "fieldName": "_50d_7eligibleaa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "50e_7Interview",
+      "fieldName": "_50e_7interview",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11
+    },
+    {
+      "name": "50f_7InterviewAA",
+      "fieldName": "_50f_7interviewaa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "50g_7DidInterview",
+      "fieldName": "_50g_7didinterview",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "50h_7DidInterviewAA",
+      "fieldName": "_50h_7didinterviewaa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "50i_7Offered",
+      "fieldName": "_50i_7offered",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "50j_7OfferedAA",
+      "fieldName": "_50j_7offeredaa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "51a_6PositionName",
+      "fieldName": "_51a_6positionname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 239,
+      "cardinality": 20
+    },
+    {
+      "name": "51b_6PositionType",
+      "fieldName": "_51b_6positiontype",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 239,
+      "cardinality": 2
+    },
+    {
+      "name": "51c_6Eligible",
+      "fieldName": "_51c_6eligible",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "51d_6EligibleAA",
+      "fieldName": "_51d_6eligibleaa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "51e_6Interview",
+      "fieldName": "_51e_6interview",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "51f_6InterviewAA",
+      "fieldName": "_51f_6interviewaa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "51g_6DidInterview",
+      "fieldName": "_51g_6didinterview",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "51h_6DidInterviewAA",
+      "fieldName": "_51h_6didinterviewaa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "51i_6Offered",
+      "fieldName": "_51i_6offered",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "51j_6OfferedAA",
+      "fieldName": "_51j_6offeredaa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "52a_5PositionName",
+      "fieldName": "_52a_5positionname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 239,
+      "cardinality": 18
+    },
+    {
+      "name": "52b_5PositionType",
+      "fieldName": "_52b_5positiontype",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 239,
+      "cardinality": 2
+    },
+    {
+      "name": "52c_5Eligible",
+      "fieldName": "_52c_5eligible",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 18
+    },
+    {
+      "name": "52d_5EligibleAA",
+      "fieldName": "_52d_5eligibleaa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "52e_5Interview",
+      "fieldName": "_52e_5interview",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 16
+    },
+    {
+      "name": "52f_5InterviewAA",
+      "fieldName": "_52f_5interviewaa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "52g_5DidInterview",
+      "fieldName": "_52g_5didinterview",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "52h_5DidInterviewAA",
+      "fieldName": "_52h_5didinterviewaa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "52i_5Offered",
+      "fieldName": "_52i_5offered",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "52j_5OfferedAA",
+      "fieldName": "_52j_5offeredaa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "53a_4PositionName",
+      "fieldName": "_53a_4positionname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 239,
+      "cardinality": 19
+    },
+    {
+      "name": "53b_4PositionType",
+      "fieldName": "_53b_4positiontype",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 239,
+      "cardinality": 2
+    },
+    {
+      "name": "53c_4Eligible",
+      "fieldName": "_53c_4eligible",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 16
+    },
+    {
+      "name": "53d_4EligibleAA",
+      "fieldName": "_53d_4eligibleaa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "53e_4Interview",
+      "fieldName": "_53e_4interview",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 14
+    },
+    {
+      "name": "53f_4InterviewAA",
+      "fieldName": "_53f_4interviewaa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "53g_4DidInterview",
+      "fieldName": "_53g_4didinterview",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "53h_4DidInterviewAA",
+      "fieldName": "_53h_4didinterviewaa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "53i_4Offered",
+      "fieldName": "_53i_4offered",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "53j_4OfferedAA",
+      "fieldName": "_53j_4offeredaa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "54a_3PositionName",
+      "fieldName": "_54a_3positionname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 239,
+      "cardinality": 19
+    },
+    {
+      "name": "54b_3PositionType",
+      "fieldName": "_54b_3positiontype",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 239,
+      "cardinality": 1
+    },
+    {
+      "name": "54c_3Eligible",
+      "fieldName": "_54c_3eligible",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 17
+    },
+    {
+      "name": "54d_3EligibleAA",
+      "fieldName": "_54d_3eligibleaa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "54e_3Interview",
+      "fieldName": "_54e_3interview",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 13
+    },
+    {
+      "name": "54f_3InterviewAA",
+      "fieldName": "_54f_3interviewaa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "54g_3DidInterview",
+      "fieldName": "_54g_3didinterview",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "54h_3DidInterviewAA",
+      "fieldName": "_54h_3didinterviewaa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "54i_3Offered",
+      "fieldName": "_54i_3offered",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "54j_3OfferedAA",
+      "fieldName": "_54j_3offeredaa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "55a_2PositionName",
+      "fieldName": "_55a_2positionname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 235,
+      "cardinality": 23
+    },
+    {
+      "name": "55b_2PositionType",
+      "fieldName": "_55b_2positiontype",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 235,
+      "cardinality": 2
+    },
+    {
+      "name": "55c_2Eligible",
+      "fieldName": "_55c_2eligible",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "55d_2EligibleAA",
+      "fieldName": "_55d_2eligibleaa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "55e_2Interview",
+      "fieldName": "_55e_2interview",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 14
+    },
+    {
+      "name": "55f_2InterviewAA",
+      "fieldName": "_55f_2interviewaa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "55g_2DidInterview",
+      "fieldName": "_55g_2didinterview",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "55h_2DidInterviewAA",
+      "fieldName": "_55h_2didinterviewaa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "55i_2Offered",
+      "fieldName": "_55i_2offered",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "55j_2OfferedAA",
+      "fieldName": "_55j_2offeredaa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "56a_1PositionName",
+      "fieldName": "_56a_1positionname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 230,
+      "cardinality": 27
+    },
+    {
+      "name": "56b_1PositionType",
+      "fieldName": "_56b_1positiontype",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 230,
+      "cardinality": 2
+    },
+    {
+      "name": "56c_1Eligible",
+      "fieldName": "_56c_1eligible",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 17
+    },
+    {
+      "name": "56d_1EligibleAA",
+      "fieldName": "_56d_1eligibleaa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "56e_1Interview",
+      "fieldName": "_56e_1interview",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "56f_1InterviewAA",
+      "fieldName": "_56f_1interviewaa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "56g_1DidInterview",
+      "fieldName": "_56g_1didinterview",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11
+    },
+    {
+      "name": "56h_1DidInterviewAA",
+      "fieldName": "_56h_1didinterviewaa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "56i_1Offered",
+      "fieldName": "_56i_1offered",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "56j_1OfferedAA",
+      "fieldName": "_56j_1offeredaa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:40.301Z"
+}

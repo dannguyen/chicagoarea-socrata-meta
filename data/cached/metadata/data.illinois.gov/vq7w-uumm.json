@@ -1,0 +1,310 @@
+{
+  "id": "vq7w-uumm",
+  "name": "IDPH STD Illinois by County by Sex by Age Group Chlamydia",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1768,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1708439795,
+  "publicationDate": 1708439875,
+  "rowsUpdatedAt": 1708439863,
+  "viewLastModified": 1736793944,
+  "viewCount": 118,
+  "downloadCount": 20,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "Sort",
+      "fieldName": "sort",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 104
+    },
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 17
+    },
+    {
+      "name": "County/Jurisdiction",
+      "fieldName": "county_jurisdiction",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 104
+    },
+    {
+      "name": "CountyFIPS",
+      "fieldName": "countyfips",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 34,
+      "cardinality": 102
+    },
+    {
+      "name": "Male_Total_Count",
+      "fieldName": "male_total_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 356
+    },
+    {
+      "name": "Male_Less10_Count",
+      "fieldName": "male_less10_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 476,
+      "cardinality": 23
+    },
+    {
+      "name": "Male_10-14_Count",
+      "fieldName": "male_10_14_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 476,
+      "cardinality": 41
+    },
+    {
+      "name": "Male_15-19_Count",
+      "fieldName": "male_15_19_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 476,
+      "cardinality": 191
+    },
+    {
+      "name": "Male_20-24_Count",
+      "fieldName": "male_20_24_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 476,
+      "cardinality": 246
+    },
+    {
+      "name": "Male_25-29_Count",
+      "fieldName": "male_25_29_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 476,
+      "cardinality": 164
+    },
+    {
+      "name": "Male_30-34_Count",
+      "fieldName": "male_30_34_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 476,
+      "cardinality": 112
+    },
+    {
+      "name": "Male_35-39_Count",
+      "fieldName": "male_35_39_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 476,
+      "cardinality": 83
+    },
+    {
+      "name": "Male_40-44_Count",
+      "fieldName": "male_40_44_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 476,
+      "cardinality": 73
+    },
+    {
+      "name": "Male_45-49_Count",
+      "fieldName": "male_45_49_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 476,
+      "cardinality": 62
+    },
+    {
+      "name": "Male_50-54_Count",
+      "fieldName": "male_50_54_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 476,
+      "cardinality": 50
+    },
+    {
+      "name": "Male_55-59_Count",
+      "fieldName": "male_55_59_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 476,
+      "cardinality": 39
+    },
+    {
+      "name": "Male_60-64_Count",
+      "fieldName": "male_60_64_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 476,
+      "cardinality": 27
+    },
+    {
+      "name": "Male_65Up_Count",
+      "fieldName": "male_65up_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 476,
+      "cardinality": 20
+    },
+    {
+      "name": "Male_Unk_Count",
+      "fieldName": "male_unk_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 476,
+      "cardinality": 16
+    },
+    {
+      "name": "Female_Total_Count",
+      "fieldName": "female_total_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 503
+    },
+    {
+      "name": "Female_Less10_Count",
+      "fieldName": "female_less10_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 476,
+      "cardinality": 35
+    },
+    {
+      "name": "Female_10-14_Count",
+      "fieldName": "female_10_14_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 476,
+      "cardinality": 86
+    },
+    {
+      "name": "Female_15-19_Count",
+      "fieldName": "female_15_19_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 476,
+      "cardinality": 363
+    },
+    {
+      "name": "Female_20-24_Count",
+      "fieldName": "female_20_24_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 476,
+      "cardinality": 366
+    },
+    {
+      "name": "Female_25-29_Count",
+      "fieldName": "female_25_29_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 476,
+      "cardinality": 229
+    },
+    {
+      "name": "Female_30-34_Count",
+      "fieldName": "female_30_34_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 476,
+      "cardinality": 141
+    },
+    {
+      "name": "Female_35-39_Count",
+      "fieldName": "female_35_39_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 476,
+      "cardinality": 101
+    },
+    {
+      "name": "Female_40-44_Count",
+      "fieldName": "female_40_44_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 476,
+      "cardinality": 79
+    },
+    {
+      "name": "Female_45-49_Count",
+      "fieldName": "female_45_49_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 476,
+      "cardinality": 60
+    },
+    {
+      "name": "Female_50-54_Count",
+      "fieldName": "female_50_54_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 476,
+      "cardinality": 50
+    },
+    {
+      "name": "Female_55-59_Count",
+      "fieldName": "female_55_59_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 476,
+      "cardinality": 37
+    },
+    {
+      "name": "Female_60-64_Count",
+      "fieldName": "female_60_64_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 476,
+      "cardinality": 20
+    },
+    {
+      "name": "Female_65Up_Count",
+      "fieldName": "female_65up_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 476,
+      "cardinality": 21
+    },
+    {
+      "name": "Female_Unk_Count",
+      "fieldName": "female_unk_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 473,
+      "cardinality": 25
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:35.007Z"
+}

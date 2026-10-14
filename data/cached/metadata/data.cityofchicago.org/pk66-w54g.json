@@ -1,0 +1,112 @@
+{
+  "id": "pk66-w54g",
+  "name": "Chicago Park District - Outdoor Event Permits",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 142903,
+  "rowCountSource": "cached",
+  "rowLabel": "Event Permit",
+  "hasRowIdentifier": false,
+  "createdAt": 1326508879,
+  "publicationDate": 1774304068,
+  "rowsUpdatedAt": 1791914618,
+  "viewLastModified": 1781629529,
+  "viewCount": 40705,
+  "downloadCount": 20575,
+  "category": "Events",
+  "tags": [
+    "permits",
+    "chicago park district",
+    "events"
+  ],
+  "attribution": "Chicago Park District",
+  "attributionLink": "http://www.chicagoparkdistrict.com/",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "January 2012 to present",
+      "Frequency": "Data are updated weekly",
+      "Data Owner": "Chicago Park District"
+    }
+  },
+  "columns": [
+    {
+      "name": "Requestor",
+      "fieldName": "requestor_",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 142903
+    },
+    {
+      "name": "Organization",
+      "fieldName": "organization",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 142903
+    },
+    {
+      "name": "Park Number",
+      "fieldName": "park_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 295,
+      "cardinality": 142903
+    },
+    {
+      "name": "Park/Facility Name",
+      "fieldName": "park_facility_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 142903
+    },
+    {
+      "name": "Reservation Start Date",
+      "fieldName": "reservation_start_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 142903
+    },
+    {
+      "name": "Reservation End Date",
+      "fieldName": "reservation_end_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 142903
+    },
+    {
+      "name": "Event Type",
+      "fieldName": "event_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 142903
+    },
+    {
+      "name": "Event Description",
+      "fieldName": "event_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 142903
+    },
+    {
+      "name": "Permit Status",
+      "fieldName": "permit_status",
+      "dataTypeName": "text",
+      "description": "Approved – A permit has been issued;\nPending/Tentative – Application is in good standing;\nStage Denied – One segment of the application is denied (e.g., failure to submit fees/documents).  The application is considered denied.  There will be no further communication with the organizer unless fees/insurance/documents are submitted at which time the application is eligible to be returned to Pending/Tentative/Approved status;\nDenied – Applicant did not meet requirements and the proposed event is not permitted to occur;\nCancelled – Applicant notified Chicago Park District they do not intend to have the event\n",
+      "nullCount": 0,
+      "cardinality": 142903
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:06.502Z"
+}

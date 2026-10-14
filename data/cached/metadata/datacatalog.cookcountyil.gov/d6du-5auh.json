@@ -1,0 +1,144 @@
+{
+  "id": "d6du-5auh",
+  "name": "Department of Revenue - Revenue Collected by Tax Type - December 2011 to June 2012",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 11,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1344887588,
+  "publicationDate": 1412891094,
+  "rowsUpdatedAt": 1412891086,
+  "viewLastModified": 1769543291,
+  "viewCount": 1146,
+  "downloadCount": 2850,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Revenue",
+  "attributionLink": "http://cookcountyil.gov/revenue",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Cook County Posting Month",
+      "fieldName": "cook_county_posting_month",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11
+    },
+    {
+      "name": " 12/11",
+      "fieldName": "_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": " 1/12",
+      "fieldName": "_2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": " 2/12",
+      "fieldName": "_3",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": " 3/12",
+      "fieldName": "_4",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": " 4/12",
+      "fieldName": "_5",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11
+    },
+    {
+      "name": " 5/12",
+      "fieldName": "_6",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11
+    },
+    {
+      "name": " 6/12",
+      "fieldName": "_7",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": " 7/12",
+      "fieldName": "_8",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": " 8/12",
+      "fieldName": "_9",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": " 9/12",
+      "fieldName": "_10",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": " 10/12",
+      "fieldName": "_11",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": " 11/12",
+      "fieldName": "_12",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "YTD Total",
+      "fieldName": "ytd_total",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:02.360Z"
+}

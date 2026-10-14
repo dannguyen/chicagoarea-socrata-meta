@@ -1,0 +1,372 @@
+{
+  "id": "553k-3xzc",
+  "name": "COVID-19 Vaccinations by ZIP Code - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 65160,
+  "rowCountSource": "cached",
+  "rowLabel": "Day of COVID-19 Vaccination Metrics for a ZIP Code",
+  "hasRowIdentifier": true,
+  "createdAt": 1608219296,
+  "publicationDate": 1680207255,
+  "rowsUpdatedAt": 1702488637,
+  "viewLastModified": 1788212632,
+  "viewCount": 14496,
+  "downloadCount": 14661,
+  "category": "Health & Human Services",
+  "tags": [
+    "covid-19",
+    "vaccination",
+    "zip code",
+    "health",
+    "public health",
+    "link to article present",
+    "historical"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://chicago.gov/coronavirus",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "December 2020 - September 2023",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"553k-3xzc\"",
+      "Data Owner": "Department of Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "Zip Code",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": "Home ZIP Code of the person vaccinated.",
+      "nullCount": 4980,
+      "cardinality": 60
+    },
+    {
+      "name": "Date",
+      "fieldName": "date",
+      "dataTypeName": "calendar_date",
+      "description": "Date the vaccine dose was administered.",
+      "nullCount": 4980,
+      "cardinality": 1003
+    },
+    {
+      "name": "Total Doses - Daily",
+      "fieldName": "total_doses_daily",
+      "dataTypeName": "number",
+      "description": "Number of doses administered on the date.",
+      "nullCount": 4980,
+      "cardinality": 1139
+    },
+    {
+      "name": "Total Doses - Cumulative",
+      "fieldName": "total_doses_cumulative",
+      "dataTypeName": "number",
+      "description": "Total number of doses administered through the date.",
+      "nullCount": 4980,
+      "cardinality": 47417
+    },
+    {
+      "name": "1st Dose - Daily",
+      "fieldName": "_1st_dose_daily",
+      "dataTypeName": "number",
+      "description": "Number of people who received a first vaccine dose on the date.",
+      "nullCount": 4980,
+      "cardinality": 737
+    },
+    {
+      "name": "1st Dose - Cumulative",
+      "fieldName": "_1st_dose_cumulative",
+      "dataTypeName": "number",
+      "description": "Total number of people with at least one vaccine dose through the date.",
+      "nullCount": 4980,
+      "cardinality": 35565
+    },
+    {
+      "name": "1st Dose - Percent Population",
+      "fieldName": "_1st_dose_percent_population",
+      "dataTypeName": "number",
+      "description": "The percentage of the population that has received at least one vaccine dose. This is calculated by dividing 1st Doses - Cumulative by Population. For ZIP Codes mostly outside Chicago, this column will be blank because reliable Chicago-only population counts are not available.",
+      "nullCount": 6986,
+      "cardinality": 1168
+    },
+    {
+      "name": "Vaccine Series Completed - Daily",
+      "fieldName": "vaccine_series_completed_daily",
+      "dataTypeName": "number",
+      "description": "Number of people who completed a vaccine series on the date.",
+      "nullCount": 4980,
+      "cardinality": 707
+    },
+    {
+      "name": "Vaccine Series Completed - Cumulative",
+      "fieldName": "vaccine_series_completed_cumulative",
+      "dataTypeName": "number",
+      "description": "Total number of people who completed a vaccine series through the date.",
+      "nullCount": 4980,
+      "cardinality": 29538
+    },
+    {
+      "name": "Vaccine Series Completed  - Percent Population",
+      "fieldName": "vaccine_series_completed_percent_population",
+      "dataTypeName": "number",
+      "description": "The percentage of the population that has completed a vaccine series. This is calculated by dividing Vaccine Series Completed - Cumulative by Population.  For ZIP Codes mostly outside Chicago, this column will be blank because reliable Chicago-only population counts are not available.",
+      "nullCount": 6986,
+      "cardinality": 1024
+    },
+    {
+      "name": "Bivalent - Daily",
+      "fieldName": "bivalent_daily",
+      "dataTypeName": "number",
+      "description": "Number of people who received a bivalent (updated) dose on the date.",
+      "nullCount": 4980,
+      "cardinality": 367
+    },
+    {
+      "name": "Bivalent - Cumulative",
+      "fieldName": "bivalent_cumulative",
+      "dataTypeName": "number",
+      "description": "Total number of people who who received a bivalent (updated) dose through the date.",
+      "nullCount": 4980,
+      "cardinality": 12820
+    },
+    {
+      "name": "Bivalent - Percent Population",
+      "fieldName": "bivalent_percent_population",
+      "dataTypeName": "number",
+      "description": "The percentage of the population that has received a bivalent (updated) dose. This is calculated by dividing Bivalent - Cumulative by Population.  For ZIP Codes mostly outside Chicago, this column will be blank because reliable Chicago-only population counts are not available.",
+      "nullCount": 5736,
+      "cardinality": 726
+    },
+    {
+      "name": "Total Doses - Daily - Age 5+",
+      "fieldName": "total_doses_daily_age_5_plus",
+      "dataTypeName": "number",
+      "description": "NOTE: This column is not populated after 3/15/2023.",
+      "nullCount": 15900,
+      "cardinality": 1136
+    },
+    {
+      "name": "Total Doses - Daily - Age 12+",
+      "fieldName": "total_doses_daily_age_12_plus",
+      "dataTypeName": "number",
+      "description": "NOTE: This column is not populated after 3/15/2023.",
+      "nullCount": 15900,
+      "cardinality": 1127
+    },
+    {
+      "name": "Total Doses - Daily - Age 18+",
+      "fieldName": "total_doses_daily_age_18_plus",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 15900,
+      "cardinality": 1098
+    },
+    {
+      "name": "Total Doses - Daily - Age 65+",
+      "fieldName": "total_doses_daily_age_65_plus",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 15900,
+      "cardinality": 313
+    },
+    {
+      "name": "1st Dose - Daily - Age 0-17",
+      "fieldName": "_1st_dose_daily_age_0_17",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4980,
+      "cardinality": 208
+    },
+    {
+      "name": "1st Dose - Daily - Age 18-64",
+      "fieldName": "_1st_dose_daily_age_18_64",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4980,
+      "cardinality": 676
+    },
+    {
+      "name": "1st Dose - Daily - Age 5+",
+      "fieldName": "_1st_dose_daily_age_5_plus",
+      "dataTypeName": "number",
+      "description": "NOTE: This column is not populated after 3/15/2023.",
+      "nullCount": 15900,
+      "cardinality": 737
+    },
+    {
+      "name": "1st Dose - Daily - Age 12+",
+      "fieldName": "_1st_dose_daily_age_12_plus",
+      "dataTypeName": "number",
+      "description": "NOTE: This column is not populated after 3/15/2023.",
+      "nullCount": 15900,
+      "cardinality": 737
+    },
+    {
+      "name": "1st Dose - Daily - Age 18+",
+      "fieldName": "_1st_dose_daily_age_18_plus",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4980,
+      "cardinality": 719
+    },
+    {
+      "name": "1st Dose - Daily - Age 65+",
+      "fieldName": "_1st_dose_daily_age_65_plus",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4980,
+      "cardinality": 218
+    },
+    {
+      "name": "Vaccine Series Completed - Daily - Age 0-17",
+      "fieldName": "vaccine_series_completed_daily_age_0_17",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4980,
+      "cardinality": 192
+    },
+    {
+      "name": "Vaccine Series Completed - Daily - Age 18-64",
+      "fieldName": "vaccine_series_completed_daily_age_18_64",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4980,
+      "cardinality": 653
+    },
+    {
+      "name": "Vaccine Series Completed - Daily - Age 5+",
+      "fieldName": "vaccine_series_completed_daily_age_5_plus",
+      "dataTypeName": "number",
+      "description": "NOTE: This column is not populated after 3/15/2023.",
+      "nullCount": 15900,
+      "cardinality": 708
+    },
+    {
+      "name": "Vaccine Series Completed - Daily - Age 12+",
+      "fieldName": "vaccine_series_completed_daily_age_12_plus",
+      "dataTypeName": "number",
+      "description": "NOTE: This column is not populated after 3/15/2023.",
+      "nullCount": 15900,
+      "cardinality": 708
+    },
+    {
+      "name": "Vaccine Series Completed - Daily - Age 18+",
+      "fieldName": "vaccine_series_completed_daily_age_18_plus",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4980,
+      "cardinality": 705
+    },
+    {
+      "name": "Vaccine Series Completed - Daily - Age 65+",
+      "fieldName": "vaccine_series_completed_daily_age_65_plus",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4980,
+      "cardinality": 215
+    },
+    {
+      "name": "Bivalent - Daily - Age 0-17",
+      "fieldName": "bivalent_daily_age_0_17",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4980,
+      "cardinality": 65
+    },
+    {
+      "name": "Bivalent - Daily - Age 18-64",
+      "fieldName": "bivalent_daily_age_18_64",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4980,
+      "cardinality": 296
+    },
+    {
+      "name": "Bivalent - Daily - Age 18+",
+      "fieldName": "bivalent_daily_age_18_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4980,
+      "cardinality": 359
+    },
+    {
+      "name": "Bivalent - Daily - Age 65+",
+      "fieldName": "bivalent_daily_age_65_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4980,
+      "cardinality": 137
+    },
+    {
+      "name": "Population",
+      "fieldName": "population",
+      "dataTypeName": "number",
+      "description": "Population of the ZIP Code.  For ZIP Codes mostly outside Chicago, this column will be blank because reliable Chicago-only population counts are not available.",
+      "nullCount": 2172,
+      "cardinality": 56
+    },
+    {
+      "name": "ZIP Code Location",
+      "fieldName": "zip_code_location",
+      "dataTypeName": "point",
+      "description": "A point within the ZIP Code to allow for geographic analysis. The precise point shown has no other meaning.",
+      "nullCount": 1086,
+      "cardinality": 59
+    },
+    {
+      "name": "Row_ID",
+      "fieldName": "row_id",
+      "dataTypeName": "text",
+      "description": "A unique identifier for each record.",
+      "nullCount": 0,
+      "cardinality": 65160
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Wards' (43wa-7qmu) the point in column 'zip_code_location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Boundaries - ZIP Codes' (rpca-8um6) the point in column 'zip_code_location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Community Areas' (vrxf-vc4k) the point in column 'zip_code_location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Zip Codes' (6mkv-f3dw) the point in column 'zip_code_location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Census Tracts' (bdys-3d7i) the point in column 'zip_code_location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:37:49.588Z"
+}

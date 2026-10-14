@@ -1,0 +1,88 @@
+{
+  "id": "nv9f-asg8",
+  "name": "Public Defender - Pending Cases by Month, by Type - Fiscal Year 2011",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 12,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1316459381,
+  "publicationDate": 1412888631,
+  "rowsUpdatedAt": 1412888617,
+  "viewLastModified": 1769545654,
+  "viewCount": 1384,
+  "downloadCount": 2356,
+  "category": "Legal & Judicial",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Public Defender",
+  "attributionLink": "http://www.cookcountygov.com/portal/server.pt/community/public_defender%2C_law_office_of/260",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Month/Location",
+      "fieldName": "month_location",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "Homicide (26th Street)",
+      "fieldName": "homicide_26th_street_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 7
+    },
+    {
+      "name": "Felony",
+      "fieldName": "felony",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 9
+    },
+    {
+      "name": "Misdemeanors",
+      "fieldName": "misdemeanors",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 9
+    },
+    {
+      "name": "Juvenile",
+      "fieldName": "juvenile",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 9
+    },
+    {
+      "name": "Civil",
+      "fieldName": "civil",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 9
+    },
+    {
+      "name": "PC & Appeals",
+      "fieldName": "pc_appeals",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 9
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:00.100Z"
+}

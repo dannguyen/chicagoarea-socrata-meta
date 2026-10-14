@@ -1,0 +1,158 @@
+{
+  "id": "x2y6-xvqt",
+  "name": "IDPH Deaths, by County, by Demographics, 2008",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 104,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709064662,
+  "publicationDate": 1709145198,
+  "rowsUpdatedAt": 1709145192,
+  "viewLastModified": 1736793961,
+  "viewCount": 89,
+  "downloadCount": 27,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "_1",
+      "fieldName": "_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 16
+    },
+    {
+      "name": "_2",
+      "fieldName": "_2",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 29
+    },
+    {
+      "name": "_3",
+      "fieldName": "_3",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 44
+    },
+    {
+      "name": "_4",
+      "fieldName": "_4",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 76
+    },
+    {
+      "name": "_5",
+      "fieldName": "_5",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 90
+    },
+    {
+      "name": "_6",
+      "fieldName": "_6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 88
+    },
+    {
+      "name": "_yr",
+      "fieldName": "_yr",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 27
+    },
+    {
+      "name": "black",
+      "fieldName": "black",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 40
+    },
+    {
+      "name": "female",
+      "fieldName": "female",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 93
+    },
+    {
+      "name": "hispanic",
+      "fieldName": "hispanic",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 26
+    },
+    {
+      "name": "male",
+      "fieldName": "male",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 92
+    },
+    {
+      "name": "other",
+      "fieldName": "other",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "resident_county",
+      "fieldName": "resident_county",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 104
+    },
+    {
+      "name": "total_deaths",
+      "fieldName": "total_deaths",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 93
+    },
+    {
+      "name": "white",
+      "fieldName": "white",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 95
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:36.054Z"
+}

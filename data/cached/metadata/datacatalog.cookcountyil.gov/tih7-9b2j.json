@@ -1,0 +1,199 @@
+{
+  "id": "tih7-9b2j",
+  "name": "Budget - Fiscal Year 2016 Executive Recommendation - Budget Summary By Object Classification",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 3853,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1444789944,
+  "publicationDate": 1444790792,
+  "rowsUpdatedAt": 1444789974,
+  "viewLastModified": 1769546958,
+  "viewCount": 2073,
+  "downloadCount": 2738,
+  "category": "Finance & Operations",
+  "tags": [
+    "2016 budget executive recommendation",
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Budget & Management Services",
+  "attributionLink": "http://www.cookcountyil.gov/budget/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Department of Budget & Management Services"
+    },
+    "Metadata": {
+      "Update Frequency": "Yearly"
+    },
+    "Detailed Descriptive": {
+      "Geographic unit": "Not applicable"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Annually",
+      "Publishing frequency": "Annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "Office",
+      "fieldName": "office",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Control Officer",
+      "fieldName": "control_officer",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 28
+    },
+    {
+      "name": "Fund",
+      "fieldName": "fund",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 37
+    },
+    {
+      "name": "Fund Type",
+      "fieldName": "fund_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "FundSort",
+      "fieldName": "fundsort",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "General Fund Type",
+      "fieldName": "general_fund_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Bureau",
+      "fieldName": "bureau",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 55
+    },
+    {
+      "name": "Department Number",
+      "fieldName": "department_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 229
+    },
+    {
+      "name": "Department Title",
+      "fieldName": "department_title",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 229
+    },
+    {
+      "name": "Object Classification",
+      "fieldName": "object_classification",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Account Number",
+      "fieldName": "account_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 143
+    },
+    {
+      "name": "Object Account Number",
+      "fieldName": "object_account_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 148
+    },
+    {
+      "name": "Description",
+      "fieldName": "description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 148
+    },
+    {
+      "name": "FY2015 Adopted Appropriation",
+      "fieldName": "fy2015_adopted_appropriation",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 2016
+    },
+    {
+      "name": "FY2015 Adjusted Appropriation",
+      "fieldName": "fy2015_adjusted_appropriation",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 2493
+    },
+    {
+      "name": "FY2016 Department Request",
+      "fieldName": "fy2016_department_request",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 573,
+      "cardinality": 1918
+    },
+    {
+      "name": "FY2016 President’s Recommendation",
+      "fieldName": "fy2016_president_s_recommendation",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 551,
+      "cardinality": 1932
+    },
+    {
+      "name": "FY2016 Approved & Adopted",
+      "fieldName": "fy2016_approved_adopted",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3840,
+      "cardinality": 1
+    },
+    {
+      "name": "FY2015 Expenditures as of 09/23/2015",
+      "fieldName": "fy2015_expenditures_as_of_09_23_2015",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 2786
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:56.773Z"
+}

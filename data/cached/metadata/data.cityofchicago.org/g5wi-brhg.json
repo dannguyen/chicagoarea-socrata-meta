@@ -1,0 +1,150 @@
+{
+  "id": "g5wi-brhg",
+  "name": "Lending Equity - Depository Locations",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1999,
+  "rowCountSource": "cached",
+  "rowLabel": "Depository Location",
+  "hasRowIdentifier": false,
+  "createdAt": 1638208233,
+  "publicationDate": 1638213268,
+  "rowsUpdatedAt": 1765815676,
+  "viewLastModified": 1765815675,
+  "viewCount": 1872,
+  "downloadCount": 3903,
+  "category": "Administration & Finance",
+  "tags": [
+    "lending",
+    "equity",
+    "2021",
+    "lending equity",
+    "2020",
+    "2022",
+    "2023",
+    "2024",
+    "2025"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2020-2024",
+      "Frequency": "Data are updated annually.",
+      "Data Owner": "Department of Finance"
+    }
+  },
+  "columns": [
+    {
+      "name": "Reporting Year",
+      "fieldName": "reporting_year",
+      "dataTypeName": "number",
+      "description": "The year in which the record was reported, covering bank operations in the previous year.",
+      "nullCount": 0,
+      "cardinality": 1999
+    },
+    {
+      "name": "Bank",
+      "fieldName": "bank",
+      "dataTypeName": "text",
+      "description": "Name of bank submitting data for municipal depository RFP",
+      "nullCount": 0,
+      "cardinality": 1999
+    },
+    {
+      "name": "RFP Source",
+      "fieldName": "rfp_source",
+      "dataTypeName": "text",
+      "description": "RFP submission item data were drawn from.",
+      "nullCount": 0,
+      "cardinality": 1999
+    },
+    {
+      "name": "Data Description",
+      "fieldName": "data_description",
+      "dataTypeName": "text",
+      "description": "The specific data that the bank were required to submit",
+      "nullCount": 0,
+      "cardinality": 1999
+    },
+    {
+      "name": "Office Address",
+      "fieldName": "office_address",
+      "dataTypeName": "text",
+      "description": "Street address of the bank facility.",
+      "nullCount": 1,
+      "cardinality": 1999
+    },
+    {
+      "name": "ZIP Code",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": "ZIP Code of the bank facility.",
+      "nullCount": 1409,
+      "cardinality": 1999
+    },
+    {
+      "name": "Census Tract",
+      "fieldName": "census_tract",
+      "dataTypeName": "text",
+      "description": "Census Tract of the bank facility.",
+      "nullCount": 293,
+      "cardinality": 1999
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": "The location of the bank facility in a format that allows for mapping and geographic analysis on this data portal.",
+      "nullCount": 17,
+      "cardinality": 1999
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Boundaries - ZIP Codes' (rpca-8um6) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Community Areas' (vrxf-vc4k) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Zip Codes' (6mkv-f3dw) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Census Tracts' (bdys-3d7i) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Wards' (43wa-7qmu) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:14.558Z"
+}

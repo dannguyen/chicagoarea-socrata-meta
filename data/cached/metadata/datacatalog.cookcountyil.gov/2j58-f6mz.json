@@ -1,0 +1,328 @@
+{
+  "id": "2j58-f6mz",
+  "name": "Office of the President - S.T.A.R. Report - 2011 Q2",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 898,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1314729930,
+  "publicationDate": 1412888287,
+  "rowsUpdatedAt": 1412888202,
+  "viewLastModified": 1769544789,
+  "viewCount": 1431,
+  "downloadCount": 7230,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Office of the President",
+  "attributionLink": "http://blog.cookcountygov.com/performancemanagement/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Department",
+      "fieldName": "department",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 54
+    },
+    {
+      "name": "Bureau",
+      "fieldName": "bureau",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 202,
+      "cardinality": 8
+    },
+    {
+      "name": "Elected Official",
+      "fieldName": "elected_official",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "External Report",
+      "fieldName": "external_report",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Goal #",
+      "fieldName": "goal_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Goal",
+      "fieldName": "goal_2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 196
+    },
+    {
+      "name": "Sub Goal #",
+      "fieldName": "sub_goal_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 27
+    },
+    {
+      "name": "Sub goal",
+      "fieldName": "sub_goal_2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 890
+    },
+    {
+      "name": "Data Type",
+      "fieldName": "data_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 7,
+      "cardinality": 5
+    },
+    {
+      "name": "2010 Actual",
+      "fieldName": "_2010_actual",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 330
+    },
+    {
+      "name": "2011 Target ",
+      "fieldName": "_2011_target",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 231
+    },
+    {
+      "name": "Q2 YTD Target",
+      "fieldName": "q2_ytd_target",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 205
+    },
+    {
+      "name": "Q2 YTD Actual",
+      "fieldName": "q2_ytd_actual",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 384
+    },
+    {
+      "name": "December Actual",
+      "fieldName": "december_actual",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 368,
+      "cardinality": 110
+    },
+    {
+      "name": "January Actual",
+      "fieldName": "january_actual",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 368,
+      "cardinality": 128
+    },
+    {
+      "name": "February Actual",
+      "fieldName": "february_actual",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 368,
+      "cardinality": 124
+    },
+    {
+      "name": "March Actual",
+      "fieldName": "march_actual",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 368,
+      "cardinality": 148
+    },
+    {
+      "name": "April Actual",
+      "fieldName": "april_actual",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 368,
+      "cardinality": 161
+    },
+    {
+      "name": "May Actual",
+      "fieldName": "may_actual",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 369,
+      "cardinality": 179
+    },
+    {
+      "name": "June Actual",
+      "fieldName": "june_actual",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 422,
+      "cardinality": 172
+    },
+    {
+      "name": "July Actual",
+      "fieldName": "july_actual",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 898,
+      "cardinality": 0
+    },
+    {
+      "name": "August Actual",
+      "fieldName": "august_actual",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 898,
+      "cardinality": 0
+    },
+    {
+      "name": "September Actual",
+      "fieldName": "september_actual",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 898,
+      "cardinality": 0
+    },
+    {
+      "name": "October Actual",
+      "fieldName": "october_actual",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 898,
+      "cardinality": 0
+    },
+    {
+      "name": "November Actual",
+      "fieldName": "november_actual",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 898,
+      "cardinality": 0
+    },
+    {
+      "name": "December Target",
+      "fieldName": "december_target",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 368,
+      "cardinality": 124
+    },
+    {
+      "name": "January Target",
+      "fieldName": "january_target",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 368,
+      "cardinality": 126
+    },
+    {
+      "name": "February Target",
+      "fieldName": "february_target",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 368,
+      "cardinality": 125
+    },
+    {
+      "name": "March Target",
+      "fieldName": "march_target",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 368,
+      "cardinality": 128
+    },
+    {
+      "name": "April Target",
+      "fieldName": "april_target",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 368,
+      "cardinality": 134
+    },
+    {
+      "name": "May Target",
+      "fieldName": "may_target",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 368,
+      "cardinality": 135
+    },
+    {
+      "name": "June Target",
+      "fieldName": "june_target",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 368,
+      "cardinality": 136
+    },
+    {
+      "name": "July Target",
+      "fieldName": "july_target",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 368,
+      "cardinality": 133
+    },
+    {
+      "name": "August Target",
+      "fieldName": "august_target",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 368,
+      "cardinality": 141
+    },
+    {
+      "name": "September Target",
+      "fieldName": "september_target",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 368,
+      "cardinality": 133
+    },
+    {
+      "name": "October Target",
+      "fieldName": "october_target",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 368,
+      "cardinality": 135
+    },
+    {
+      "name": "November Target",
+      "fieldName": "november_target",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 368,
+      "cardinality": 131
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:59.511Z"
+}

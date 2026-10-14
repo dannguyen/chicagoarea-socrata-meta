@@ -1,0 +1,56 @@
+{
+  "id": "frsh-8t6g",
+  "name": "Medical Examiner - Autopsy Status - 2009",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1316639609,
+  "publicationDate": 1412890234,
+  "rowsUpdatedAt": 1412890189,
+  "viewLastModified": 1769542854,
+  "viewCount": 1263,
+  "downloadCount": 2498,
+  "category": "Health & Human Services",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Medical Examiner",
+  "attributionLink": "http://cookcountyil.gov/medicalexaminer",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "AUTOPSY STATUS ",
+      "fieldName": "autopsy_status_",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "COUNT   ",
+      "fieldName": "count_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "PERCENT             ",
+      "fieldName": "percent_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:01.323Z"
+}

@@ -1,0 +1,178 @@
+{
+  "id": "afnr-xhhn",
+  "name": "Public Health Birth Data: Sociodemographic Characteristics of Mother",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 41423,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1754511106,
+  "publicationDate": 1754688854,
+  "rowsUpdatedAt": 1764699626,
+  "viewLastModified": 1769548187,
+  "viewCount": 1120,
+  "downloadCount": 781,
+  "category": "Health & Human Services",
+  "tags": [
+    "ccdph",
+    "reproductive health",
+    "pregnancy"
+  ],
+  "attribution": "Cook County Department of Public Health",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Department of Public Health"
+    },
+    "Metadata": {
+      "Update Frequency": "Yearly"
+    },
+    "Detailed Descriptive": {
+      "Temporal coverage": "2015-2023",
+      "Data notes": "Source data does not differentiate between gender and sex assigned at birth. For clarity and brevity, metadata descriptions reflect gendered language with the understanding that these descriptions may not accurately reflect all cases.",
+      "Geographic coverage": "Cook County without City of Chicago"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Annually",
+      "Publishing frequency": "Annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": "Year of the birth",
+      "nullCount": 0,
+      "cardinality": 41423
+    },
+    {
+      "name": "Place",
+      "fieldName": "place",
+      "dataTypeName": "text",
+      "description": "CCDPH jurisdiction refers to all Cook County municipalities except Chicago, Evanston, Skokie, Oak Park, Forest View, Burbank, and (incorporated) Stickney. See the attached district map for more information.",
+      "nullCount": 0,
+      "cardinality": 41423
+    },
+    {
+      "name": "Age Group",
+      "fieldName": "age_group",
+      "dataTypeName": "text",
+      "description": "Age group of mother",
+      "nullCount": 0,
+      "cardinality": 41423
+    },
+    {
+      "name": "Race and Ethnicity",
+      "fieldName": "race_eth",
+      "dataTypeName": "text",
+      "description": "Race and ethnicity of mother. \"NH\" refers to \"non-Hispanic\". \"PI\" refers to \"Pacific Islander\".",
+      "nullCount": 0,
+      "cardinality": 41423
+    },
+    {
+      "name": "Count of Medicaid Recipients",
+      "fieldName": "count_medicaid",
+      "dataTypeName": "text",
+      "description": "Total number of births to mothers who were enrolled in Medicaid at the time of delivery",
+      "nullCount": 6197,
+      "cardinality": 41423
+    },
+    {
+      "name": "Rate of Medicaid Recipients",
+      "fieldName": "rate_medicaid",
+      "dataTypeName": "text",
+      "description": "Number of births to mothers receiving Medicaid benefits per 100 live births",
+      "nullCount": 6197,
+      "cardinality": 41423
+    },
+    {
+      "name": "Count of Births to Mothers Over Twenty Without Diplomas",
+      "fieldName": "count_mothers_20plus_nohs",
+      "dataTypeName": "text",
+      "description": "Total number of births to mothers aged 20 or older who have not completed high school or obtained an equivalent credential",
+      "nullCount": 6197,
+      "cardinality": 41423
+    },
+    {
+      "name": "Rate of Births to Mothers Over Twenty Without Diplomas",
+      "fieldName": "rate_mothers_20plus_nohs",
+      "dataTypeName": "text",
+      "description": "Number of births to mothers 20 years of age or older with education below 12th grade per 100 live births",
+      "nullCount": 6197,
+      "cardinality": 41423
+    },
+    {
+      "name": "Count of WIC Recipients",
+      "fieldName": "count_wic",
+      "dataTypeName": "text",
+      "description": "Total number of births to mothers who received WIC (Special Supplemental Nutrition Program for Women, Infants, and Children) benefits during pregnancy",
+      "nullCount": 6197,
+      "cardinality": 41423
+    },
+    {
+      "name": "Rate of WIC Recipients",
+      "fieldName": "rate_wic",
+      "dataTypeName": "text",
+      "description": "Number of births to mothers receiving WIC (Special Supplemental Nutrition Program for Women, Infants, and Children) benefits per 100 live births",
+      "nullCount": 6197,
+      "cardinality": 41423
+    },
+    {
+      "name": "Count of Missing Father Information",
+      "fieldName": "count_missing_father",
+      "dataTypeName": "text",
+      "description": "Total number of births with missing or unreported paternal information on the birth certificate",
+      "nullCount": 6197,
+      "cardinality": 41423
+    },
+    {
+      "name": "Rate of Missing Father Information",
+      "fieldName": "rate_missing_father",
+      "dataTypeName": "text",
+      "description": "Number of births with missing information for father per 100 live births",
+      "nullCount": 6197,
+      "cardinality": 41423
+    },
+    {
+      "name": "Count of Unmarried Births",
+      "fieldName": "count_unmarried",
+      "dataTypeName": "text",
+      "description": "Total number of births to mothers who were unmarried at the time of delivery",
+      "nullCount": 6197,
+      "cardinality": 41423
+    },
+    {
+      "name": "Rate of Unmarried Births",
+      "fieldName": "rate_unmarried",
+      "dataTypeName": "text",
+      "description": "Number of births to mothers that are unmarried at time of delivery per 100 live births",
+      "nullCount": 6197,
+      "cardinality": 41423
+    },
+    {
+      "name": "Count of Teenage Births",
+      "fieldName": "count_teenage",
+      "dataTypeName": "text",
+      "description": "Total number of births to mothers under 20 years of age. This data is only available for the \"Under 20\" age group.",
+      "nullCount": 35226,
+      "cardinality": 41423
+    },
+    {
+      "name": "Rate of Teenage Births",
+      "fieldName": "rate_teenage",
+      "dataTypeName": "text",
+      "description": "Number of births to mother under 20 years of age per 100 live births. This data is only available for the \"Under 20\" age group.",
+      "nullCount": 35226,
+      "cardinality": 41423
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:02.720Z"
+}

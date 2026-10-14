@@ -1,0 +1,80 @@
+{
+  "id": "kuum-ktb7",
+  "name": "Risk Management--2011 Employee Healthcare Provider, by Pool, by Vendor",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 4,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1315491299,
+  "publicationDate": 1412891611,
+  "rowsUpdatedAt": 1412891587,
+  "viewLastModified": 1769542932,
+  "viewCount": 763,
+  "downloadCount": 2110,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Risk Management",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Pool",
+      "fieldName": "pool",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "HMO Illinois, a Blue Cross HMO",
+      "fieldName": "hmo_illinois_a_blue_cross_hmo",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Classic Blue HMO",
+      "fieldName": "classic_blue_hmo",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Blue Cross PPO",
+      "fieldName": "blue_cross_ppo",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Tier Totals",
+      "fieldName": "tier_totals",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Percentage by Subscriber",
+      "fieldName": "percentage_by_subscriber",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 3
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:06.767Z"
+}

@@ -1,0 +1,135 @@
+{
+  "id": "rrdf-6mjk",
+  "name": "Budget - 2024 Budget Recommendations - Appropriations",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 4029,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1696959141,
+  "publicationDate": 1696959144,
+  "rowsUpdatedAt": 1696960371,
+  "viewLastModified": 1696967080,
+  "viewCount": 5101,
+  "downloadCount": 2269,
+  "category": "Administration & Finance",
+  "tags": [
+    "budget",
+    "2024"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.chicago.gov/budget",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2024",
+      "Frequency": "Data are updated annually",
+      "Data Owner": "Budget & Management"
+    }
+  },
+  "columns": [
+    {
+      "name": "FUND TYPE",
+      "fieldName": "fund_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "FUND CODE",
+      "fieldName": "fund_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 610
+    },
+    {
+      "name": "FUND DESCRIPTION",
+      "fieldName": "fund_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 359
+    },
+    {
+      "name": "DEPARTMENT NUMBER",
+      "fieldName": "department_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 40
+    },
+    {
+      "name": "DEPARTMENT DESCRIPTION",
+      "fieldName": "department_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 40
+    },
+    {
+      "name": "APPROPRIATION AUTHORITY",
+      "fieldName": "appropriation_authority",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 240
+    },
+    {
+      "name": "APPROPRIATION AUTHORITY DESCRIPTION",
+      "fieldName": "appropriation_authority_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 372
+    },
+    {
+      "name": "APPROPRIATION ACCOUNT",
+      "fieldName": "appropriation_account",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 257
+    },
+    {
+      "name": "APPROPRIATION ACCOUNT DESCRIPTION",
+      "fieldName": "appropriation_account_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 256
+    },
+    {
+      "name": "2023 APPROPRIATION",
+      "fieldName": "appropriation",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2568
+    },
+    {
+      "name": "2023 REVISED APPROPRIATION",
+      "fieldName": "revised_appropriation",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2593
+    },
+    {
+      "name": "2024 RECOMMENDATION",
+      "fieldName": "recommendation",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2620
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:04.594Z"
+}

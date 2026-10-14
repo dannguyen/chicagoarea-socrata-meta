@@ -1,0 +1,134 @@
+{
+  "id": "4cag-jcaf",
+  "name": "HydroPoly",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 9588,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1436477434,
+  "publicationDate": null,
+  "rowsUpdatedAt": 1436477434,
+  "viewLastModified": 1769547905,
+  "viewCount": 1080,
+  "downloadCount": 1904,
+  "category": "Boundaries & Districts",
+  "tags": [
+    "lakes",
+    "water",
+    "river",
+    "gis",
+    "natural environment and recreation",
+    "environment",
+    "inactive"
+  ],
+  "attribution": "Cook County GIS Department",
+  "attributionLink": "http://www.cookcountyil.gov/geographic-information-systems-2/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "NAME_ID",
+      "fieldName": "name_id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 187
+    },
+    {
+      "name": "UNIQID",
+      "fieldName": "uniqid",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9510
+    },
+    {
+      "name": "ANNO_NAME",
+      "fieldName": "anno_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 196
+    },
+    {
+      "name": "ALIAS_NAME",
+      "fieldName": "alias_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "TAXMAP_ID",
+      "fieldName": "taxmap_id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 176
+    },
+    {
+      "name": "TYPE",
+      "fieldName": "type",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "ELEVATION",
+      "fieldName": "elevation",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1934
+    },
+    {
+      "name": "VIS",
+      "fieldName": "vis",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "OrthoYear",
+      "fieldName": "orthoyear",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "SHAPE_area",
+      "fieldName": "shape_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9585
+    },
+    {
+      "name": "SHAPE_len",
+      "fieldName": "shape_len",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9587
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:02.906Z"
+}

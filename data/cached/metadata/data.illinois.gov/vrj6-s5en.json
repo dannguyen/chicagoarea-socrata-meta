@@ -1,0 +1,129 @@
+{
+  "id": "vrj6-s5en",
+  "name": "Pest Control Exam Calendar",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 20,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1783452855,
+  "publicationDate": 1783453760,
+  "rowsUpdatedAt": 1783453999,
+  "viewLastModified": 1783536764,
+  "viewCount": 51,
+  "downloadCount": 9,
+  "category": "Health and Human Services",
+  "tags": [
+    "pest control",
+    "test dates"
+  ],
+  "attribution": "Structural Pest Control Program",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "IDPH Environmental Health",
+      "Maintainer Email": "dph.pestcontrol@illinois.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "EXAM DATE",
+      "fieldName": "exam_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date the licensing examination is scheduled to be administered.",
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "STATUS",
+      "fieldName": "status",
+      "dataTypeName": "text",
+      "description": "Current status of the examination session (e.g., Open, Full, Cancelled, Completed).",
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "SEATS OPEN",
+      "fieldName": "seats_open",
+      "dataTypeName": "text",
+      "description": "Number of examination seats currently available for registration.",
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "BEGINS",
+      "fieldName": "begins",
+      "dataTypeName": "text",
+      "description": "Scheduled start time of the examination.",
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "EXAM LOCATION",
+      "fieldName": "exam_location",
+      "dataTypeName": "text",
+      "description": "Name of the facility where the examination will be held.",
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "LOCATION ADDRESS",
+      "fieldName": "location_address",
+      "dataTypeName": "text",
+      "description": "Street address of the examination site.",
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "CITY",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": "City where the examination site is located.",
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "STATE",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": "State in which the examination site is located.",
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "ZIP CODE",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": "ZIP Code for the examination site.",
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "CAPACITY",
+      "fieldName": "capacity",
+      "dataTypeName": "number",
+      "description": "Maximum number of applicants that can be accommodated for the examination session.",
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "EXAM RESTRICTIONS",
+      "fieldName": "exam_restrictions",
+      "dataTypeName": "text",
+      "description": "Requirements or limitations applicable to the examination session, such as eligibility criteria, approved exam categories, or other participation restrictions.",
+      "nullCount": 20,
+      "cardinality": 20
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:36.865Z"
+}

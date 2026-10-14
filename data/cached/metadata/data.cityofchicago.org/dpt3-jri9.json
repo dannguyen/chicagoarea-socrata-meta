@@ -1,0 +1,272 @@
+{
+  "id": "dpt3-jri9",
+  "name": "Arrests",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 750156,
+  "rowCountSource": "cached",
+  "rowLabel": "Arrest",
+  "hasRowIdentifier": true,
+  "createdAt": 1592862182,
+  "publicationDate": 1593033859,
+  "rowsUpdatedAt": 1791977660,
+  "viewLastModified": 1787846633,
+  "viewCount": 339492,
+  "downloadCount": 38952,
+  "category": "Public Safety",
+  "tags": [
+    "arrests",
+    "crime",
+    "police"
+  ],
+  "attribution": "Chicago Police Department",
+  "attributionLink": "https://home.chicagopolice.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2014 to present, minus the most recent three days",
+      "Frequency": "Data are updated daily",
+      "Data Owner": "Chicago Police Department"
+    }
+  },
+  "columns": [
+    {
+      "name": "CB_NO",
+      "fieldName": "cb_no",
+      "dataTypeName": "number",
+      "description": "Central Booking Number – uniquely identifies the arrest report",
+      "nullCount": 0,
+      "cardinality": 750156
+    },
+    {
+      "name": "CASE NUMBER",
+      "fieldName": "case_number",
+      "dataTypeName": "text",
+      "description": "Records Division Number – uniquely identifies the criminal incident report associated with the arrest . This column, if populated, corresponds to Case Number in https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2 and can be used to link the datasets.",
+      "nullCount": 271945,
+      "cardinality": 750156
+    },
+    {
+      "name": "ARREST DATE",
+      "fieldName": "arrest_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date and time of arrest.",
+      "nullCount": 0,
+      "cardinality": 750156
+    },
+    {
+      "name": "RACE",
+      "fieldName": "race",
+      "dataTypeName": "text",
+      "description": "The race/ethnicity of the person arrested.",
+      "nullCount": 0,
+      "cardinality": 750156
+    },
+    {
+      "name": "CHARGE 1 STATUTE",
+      "fieldName": "charge_1_statute",
+      "dataTypeName": "text",
+      "description": "Statute for most serious charge (based on class and type, then arrest report order in case of tie). ",
+      "nullCount": 0,
+      "cardinality": 750156
+    },
+    {
+      "name": "CHARGE 1 DESCRIPTION",
+      "fieldName": "charge_1_description",
+      "dataTypeName": "text",
+      "description": "Statute description for most serious charge (based on class and type, then arrest report order in case of tie).",
+      "nullCount": 0,
+      "cardinality": 750156
+    },
+    {
+      "name": "CHARGE 1 TYPE",
+      "fieldName": "charge_1_type",
+      "dataTypeName": "text",
+      "description": "Charge type for most serious charge (F = felony; M = misdemeanor; Null = local ordinance, traffic arrest, other) ",
+      "nullCount": 160858,
+      "cardinality": 750156
+    },
+    {
+      "name": "CHARGE 1 CLASS",
+      "fieldName": "charge_1_class",
+      "dataTypeName": "text",
+      "description": "Charge class for most serious charge (If F then X, 1, 2, 3, or 4; If M then A, B, or C; L = local ordinance violation; P = petty offense; U = business offense; Z = used for warrant arrests, criminal registration violations, and violations of court orders)",
+      "nullCount": 4683,
+      "cardinality": 750156
+    },
+    {
+      "name": "CHARGE 2 STATUTE",
+      "fieldName": "charge_2_statute",
+      "dataTypeName": "text",
+      "description": "Statute for 2nd most serious charge (based on class and type, then arrest report order in case of tie).",
+      "nullCount": 417081,
+      "cardinality": 750156
+    },
+    {
+      "name": "CHARGE 2 DESCRIPTION",
+      "fieldName": "charge_2_description",
+      "dataTypeName": "text",
+      "description": "Statute description for 2nd most serious charge (based on class and type, then arrest report order in case of tie).",
+      "nullCount": 417081,
+      "cardinality": 750156
+    },
+    {
+      "name": "CHARGE 2 TYPE",
+      "fieldName": "charge_2_type",
+      "dataTypeName": "text",
+      "description": "Charge type for 2nd most serious charge (F = felony; M = misdemeanor; Null = local ordinance, traffic arrest, other) ",
+      "nullCount": 558964,
+      "cardinality": 750156
+    },
+    {
+      "name": "CHARGE 2 CLASS",
+      "fieldName": "charge_2_class",
+      "dataTypeName": "text",
+      "description": "Charge class for 2nd most serious charge (If F then X, 1, 2, 3, or 4; If M then A, B, or C; L = local ordinance violation; P = petty offense; U = business offense; Z = used for warrant arrests, criminal registration violations, and violations of court orders)",
+      "nullCount": 419265,
+      "cardinality": 750156
+    },
+    {
+      "name": "CHARGE 3 STATUTE",
+      "fieldName": "charge_3_statute",
+      "dataTypeName": "text",
+      "description": "Statute for 3rd most serious charge (based on class and type, then arrest report order in case of tie).",
+      "nullCount": 564601,
+      "cardinality": 750156
+    },
+    {
+      "name": "CHARGE 3 DESCRIPTION",
+      "fieldName": "charge_3_description",
+      "dataTypeName": "text",
+      "description": "Statute description for 3rd most serious charge (based on class and type, then arrest report order in case of tie).",
+      "nullCount": 564601,
+      "cardinality": 750156
+    },
+    {
+      "name": "CHARGE 3 TYPE",
+      "fieldName": "charge_3_type",
+      "dataTypeName": "text",
+      "description": "Charge type for 3rd most serious charge (F = felony; M = misdemeanor; Null = local ordinance, traffic arrest, other) ",
+      "nullCount": 683993,
+      "cardinality": 750156
+    },
+    {
+      "name": "CHARGE 3 CLASS",
+      "fieldName": "charge_3_class",
+      "dataTypeName": "text",
+      "description": "Charge class for 3rd most serious charge (If F then X, 1, 2, 3, or 4; If M then A, B, or C; L = local ordinance violation; P = petty offense; U = business offense; Z = used for warrant arrests, criminal registration violations, and violations of court orders)",
+      "nullCount": 565235,
+      "cardinality": 750156
+    },
+    {
+      "name": "CHARGE 4 STATUTE",
+      "fieldName": "charge_4_statute",
+      "dataTypeName": "text",
+      "description": "Statute for 4th most serious charge (based on class and type, then arrest report order in case of tie).",
+      "nullCount": 646860,
+      "cardinality": 750156
+    },
+    {
+      "name": "CHARGE 4 DESCRIPTION",
+      "fieldName": "charge_4_description",
+      "dataTypeName": "text",
+      "description": "Statute description for 4th most serious charge (based on class and type, then arrest report order in case of tie).",
+      "nullCount": 646860,
+      "cardinality": 750156
+    },
+    {
+      "name": "CHARGE 4 TYPE",
+      "fieldName": "charge_4_type",
+      "dataTypeName": "text",
+      "description": "Charge type for 4th most serious charge (F = felony; M = misdemeanor; Null = local ordinance, traffic arrest, other) ",
+      "nullCount": 722828,
+      "cardinality": 750156
+    },
+    {
+      "name": "CHARGE 4 CLASS",
+      "fieldName": "charge_4_class",
+      "dataTypeName": "text",
+      "description": "Charge class for 4th most serious charge (If F then X, 1, 2, 3, or 4; If M then A, B, or C; L = local ordinance violation; P = petty offense; U = business offense; Z = used for warrant arrests, criminal registration violations, and violations of court orders)",
+      "nullCount": 647060,
+      "cardinality": 750156
+    },
+    {
+      "name": "CHARGES STATUTE",
+      "fieldName": "charges_statute",
+      "dataTypeName": "text",
+      "description": "The statutes of the first four charges filed, separated by the | character with a space on each side. Values are always listed in the same order. In other words, the nth value in each list will refer to the same charge. The \"Contains\" operator can be used in a filter to search for presence of a value in any of the charges.",
+      "nullCount": 0,
+      "cardinality": 750156
+    },
+    {
+      "name": "CHARGES DESCRIPTION",
+      "fieldName": "charges_description",
+      "dataTypeName": "text",
+      "description": "The descriptions of the first four charges filed, separated by the | character with a space on each side. Values are always listed in the same order. In other words, the nth value in each list will refer to the same charge. The \"Contains\" operator can be used in a filter to search for presence of a value in any of the charges.",
+      "nullCount": 0,
+      "cardinality": 750156
+    },
+    {
+      "name": "CHARGES TYPE",
+      "fieldName": "charges_type",
+      "dataTypeName": "text",
+      "description": "The types of the first four charges filed, separated by the | character with a space on each side. Values are always listed in the same order. In other words, the nth value in each list will refer to the same charge. The \"Contains\" operator can be used in a filter to search for presence of a value in any of the charges.",
+      "nullCount": 0,
+      "cardinality": 750156
+    },
+    {
+      "name": "CHARGES CLASS",
+      "fieldName": "charges_class",
+      "dataTypeName": "text",
+      "description": "The classes of the first four charges filed, separated by the | character with a space on each side. Values are always listed in the same order. In other words, the nth value in each list will refer to the same charge. The \"Contains\" operator can be used in a filter to search for presence of a value in any of the charges.",
+      "nullCount": 0,
+      "cardinality": 750156
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:26:20.307Z"
+}

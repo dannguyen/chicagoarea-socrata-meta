@@ -1,0 +1,305 @@
+{
+  "id": "f3he-c6sv",
+  "name": "COVID-19 Hospital Capacity Metrics - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1147,
+  "rowCountSource": "cached",
+  "rowLabel": "Day",
+  "hasRowIdentifier": true,
+  "createdAt": 1587050002,
+  "publicationDate": 1589406472,
+  "rowsUpdatedAt": 1683755482,
+  "viewLastModified": 1788213093,
+  "viewCount": 14770,
+  "downloadCount": 24958,
+  "category": "Health & Human Services",
+  "tags": [
+    "covid-19",
+    "hospitalization",
+    "health",
+    "public health",
+    "historical"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://chicago.gov/coronavirus",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "3/19/2020 - 5/9/2023",
+      "Data Owner": "Department of Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "Date",
+      "fieldName": "date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1147
+    },
+    {
+      "name": "Ventilators - Total Capacity",
+      "fieldName": "ventilators_total_capacity",
+      "dataTypeName": "number",
+      "description": "Total Ventilators, whether in use or available.",
+      "nullCount": 0,
+      "cardinality": 344
+    },
+    {
+      "name": "Ventilators in Use - Total",
+      "fieldName": "ventilators_in_use_total",
+      "dataTypeName": "number",
+      "description": "Sum of COVID-19 and Non-COVID-19.",
+      "nullCount": 0,
+      "cardinality": 322
+    },
+    {
+      "name": "Ventilators in Use - COVID-19",
+      "fieldName": "ventilators_in_use_covid_19",
+      "dataTypeName": "number",
+      "description": "Sum of COVID-19 patients and PUI.",
+      "nullCount": 1,
+      "cardinality": 213
+    },
+    {
+      "name": "Ventilators in Use - COVID-19 Patients",
+      "fieldName": "ventilators_in_use_covid_19_patients",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 213
+    },
+    {
+      "name": "Ventilators in Use - COVID-19 PUI",
+      "fieldName": "ventilators_in_use_covid_19_pui",
+      "dataTypeName": "number",
+      "description": "PUI = Person Under Investigation.",
+      "nullCount": 1,
+      "cardinality": 57
+    },
+    {
+      "name": "Ventilators in Use - Non-COVID-19",
+      "fieldName": "ventilators_in_use_non_covid_19",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 308
+    },
+    {
+      "name": "Ventilators Available - Total",
+      "fieldName": "ventilators_available_total",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 487
+    },
+    {
+      "name": "Ventilators Available - Hospital",
+      "fieldName": "ventilators_available_hospital",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 488
+    },
+    {
+      "name": "Ventilators Available - EAMC Cache",
+      "fieldName": "ventilators_available_eamc_cache",
+      "dataTypeName": "number",
+      "description": "EAMC = Emergency Asset Management Center.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Ventilator Surge Capacity",
+      "fieldName": "ventilator_surge_capacity",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1093,
+      "cardinality": 48
+    },
+    {
+      "name": "ICU Beds - Total Capacity",
+      "fieldName": "icu_beds_total_capacity",
+      "dataTypeName": "number",
+      "description": "Total ICU beds, whether in use or available.",
+      "nullCount": 0,
+      "cardinality": 187
+    },
+    {
+      "name": "ICU Beds - Adult",
+      "fieldName": "icu_beds_adult",
+      "dataTypeName": "number",
+      "description": "Total adult ICU beds, whether in use or available.",
+      "nullCount": 0,
+      "cardinality": 185
+    },
+    {
+      "name": "ICU Beds - Pediatric",
+      "fieldName": "icu_beds_pediatric",
+      "dataTypeName": "number",
+      "description": "Total pediatric  ICU beds, whether in use or available.",
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "ICU Beds in Use - Total",
+      "fieldName": "icu_beds_in_use_total",
+      "dataTypeName": "number",
+      "description": "Sum of COVID-19 and Non-COVID-19.",
+      "nullCount": 0,
+      "cardinality": 285
+    },
+    {
+      "name": "ICU Beds in Use - COVID-19",
+      "fieldName": "icu_beds_in_use_covid_19",
+      "dataTypeName": "number",
+      "description": "Sum of COVID-19 patients and PUI.",
+      "nullCount": 0,
+      "cardinality": 299
+    },
+    {
+      "name": "ICU Beds in Use - COVID-19 Patients",
+      "fieldName": "icu_beds_in_use_covid_19_patients",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 286
+    },
+    {
+      "name": "ICU Beds in Use - COVID-19 PUI",
+      "fieldName": "icu_beds_in_use_covid_19_pui",
+      "dataTypeName": "number",
+      "description": "PUI = Person Under Investigation.",
+      "nullCount": 0,
+      "cardinality": 93
+    },
+    {
+      "name": "ICU Beds in Use - Non-COVID-19",
+      "fieldName": "icu_beds_in_use_non_covid_19",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 349
+    },
+    {
+      "name": "ICU Beds Available - Total",
+      "fieldName": "icu_beds_available_total",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 364
+    },
+    {
+      "name": "ICU Beds Available - Adult",
+      "fieldName": "icu_beds_available_adult",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 336
+    },
+    {
+      "name": "ICU Beds Available - Pediatric",
+      "fieldName": "icu_beds_available_pediatric",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 89
+    },
+    {
+      "name": "ICU Beds Surge Capacity - Adult",
+      "fieldName": "icu_beds_surge_capacity_adult",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1093,
+      "cardinality": 45
+    },
+    {
+      "name": "ICU Beds Surge Capacity - Pediatric",
+      "fieldName": "icu_beds_surge_capacity_pediatric",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1093,
+      "cardinality": 25
+    },
+    {
+      "name": "Acute Non-ICU Beds - Total Capacity",
+      "fieldName": "acute_non_icu_beds_total_capacity",
+      "dataTypeName": "number",
+      "description": "Total Acute Non-ICU beds, whether in use or available.",
+      "nullCount": 0,
+      "cardinality": 479
+    },
+    {
+      "name": "Acute Non-ICU Beds in Use - Total",
+      "fieldName": "acute_non_icu_beds_in_use_total",
+      "dataTypeName": "number",
+      "description": "Sum of COVID-19 and Non-COVID-19.",
+      "nullCount": 0,
+      "cardinality": 605
+    },
+    {
+      "name": "Acute Non-ICU Beds in Use - COVID-19",
+      "fieldName": "acute_non_icu_beds_in_use_covid_19",
+      "dataTypeName": "number",
+      "description": "Sum of COVID-19 patients and PUI.",
+      "nullCount": 14,
+      "cardinality": 527
+    },
+    {
+      "name": "Acute Non-ICU Beds in Use - COVID-19 Patients",
+      "fieldName": "acute_non_icu_beds_in_use_covid_19_patients",
+      "dataTypeName": "number",
+      "description": "Prior to 5/7/2020, this count was not reported separately.",
+      "nullCount": 49,
+      "cardinality": 421
+    },
+    {
+      "name": "Acute Non-ICU Beds in Use - COVID-19 PUI",
+      "fieldName": "acute_non_icu_beds_in_use_covid_19_pui",
+      "dataTypeName": "number",
+      "description": "PUI = Person Under Investigation. Prior to 5/7/2020, this count was not reported separately.",
+      "nullCount": 49,
+      "cardinality": 246
+    },
+    {
+      "name": "Acute Non-ICU Beds in Use- Non-COVID-19",
+      "fieldName": "acute_non_icu_beds_in_use_non_covid_19",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 14,
+      "cardinality": 675
+    },
+    {
+      "name": "Acute Non-ICU Beds Available - Total",
+      "fieldName": "acute_non_icu_beds_available_total",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 762
+    },
+    {
+      "name": "Combined Hospital Beds in Use - COVID-19",
+      "fieldName": "combined_hospital_beds_in_use_covid_19",
+      "dataTypeName": "number",
+      "description": "Sum of ICU and Acute Non-ICU beds in use by COViD-19 patients and PUI.",
+      "nullCount": 14,
+      "cardinality": 587
+    },
+    {
+      "name": "Daily Update PDF",
+      "fieldName": "daily_update_pdf",
+      "dataTypeName": "url",
+      "description": "A daily summary report produced by the Department of Public Health. The URL in this dataset is created automatically so errors or mismatches are possible.",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:37:49.403Z"
+}

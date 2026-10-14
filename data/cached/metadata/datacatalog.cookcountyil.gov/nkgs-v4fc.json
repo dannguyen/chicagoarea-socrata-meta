@@ -1,0 +1,94 @@
+{
+  "id": "nkgs-v4fc",
+  "name": "Assessor [Archived 05-11-2022] - Experimental Single Family Sales Comparables",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 93905683,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1568233913,
+  "publicationDate": 1568940437,
+  "rowsUpdatedAt": 1568940436,
+  "viewLastModified": 1769547000,
+  "viewCount": 2965,
+  "downloadCount": 4577,
+  "category": "Property & Taxation",
+  "tags": [
+    "cook county assessor",
+    "property tax",
+    "archive"
+  ],
+  "attribution": "Cook County Assessor",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Assessor"
+    }
+  },
+  "columns": [
+    {
+      "name": "Sale Price",
+      "fieldName": "sale_price",
+      "dataTypeName": "number",
+      "description": "The amount of the comparison sale at the time of transaction.",
+      "nullCount": 0,
+      "cardinality": 10827
+    },
+    {
+      "name": "Sale Date",
+      "fieldName": "sale_date",
+      "dataTypeName": "calendar_date",
+      "description": "The date the comparison sale.",
+      "nullCount": 0,
+      "cardinality": 1473
+    },
+    {
+      "name": "Comparison PIN",
+      "fieldName": "comp_pin",
+      "dataTypeName": "text",
+      "description": "The PIN associated with the comparison sale",
+      "nullCount": 0,
+      "cardinality": 171641
+    },
+    {
+      "name": "Subject PIN",
+      "fieldName": "target_pin",
+      "dataTypeName": "text",
+      "description": "The PIN for the subject property.",
+      "nullCount": 0,
+      "cardinality": 116541
+    },
+    {
+      "name": "Subject Address",
+      "fieldName": "target_address",
+      "dataTypeName": "text",
+      "description": "The address of the subject property.",
+      "nullCount": 0,
+      "cardinality": 115169
+    },
+    {
+      "name": "Comparison Address",
+      "fieldName": "comp_address",
+      "dataTypeName": "text",
+      "description": "The address of the comparison sale.",
+      "nullCount": 0,
+      "cardinality": 168238
+    },
+    {
+      "name": "Adjusted Sale Price",
+      "fieldName": "adj_sale_price",
+      "dataTypeName": "number",
+      "description": "The amount of the comparison sale, adjusted for the time difference between the sale date and Jan 1, 2019.",
+      "nullCount": 5652,
+      "cardinality": 99986
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:54.693Z"
+}

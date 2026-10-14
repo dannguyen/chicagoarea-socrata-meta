@@ -1,0 +1,72 @@
+{
+  "id": "euee-qccq",
+  "name": "Performance Metrics - Transportation - Pavement Cave-ins",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 159,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": true,
+  "createdAt": 1316729401,
+  "publicationDate": 1398740507,
+  "rowsUpdatedAt": 1398740011,
+  "viewLastModified": 1398740507,
+  "viewCount": 1951,
+  "downloadCount": 2628,
+  "category": "Administration & Finance",
+  "tags": [
+    "performance metrics",
+    "service delivery"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "",
+      "Frequency": "Data is updated weekly",
+      "Data Owner": "Transportation"
+    }
+  },
+  "columns": [
+    {
+      "name": "Week",
+      "fieldName": "week",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 159
+    },
+    {
+      "name": "Average Days to Complete Pavement Cave-in Requests",
+      "fieldName": "average_days_to_complete_pavement_cave_in_requests",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 100
+    },
+    {
+      "name": "Total Completed Requests",
+      "fieldName": "total_completed_requests",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 113
+    },
+    {
+      "name": "Target Response Time (Days)",
+      "fieldName": "target_response_time_days_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:14.135Z"
+}

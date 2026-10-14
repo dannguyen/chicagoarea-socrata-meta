@@ -1,0 +1,96 @@
+{
+  "id": "5wd9-d675",
+  "name": "List of Contractors Doing Business with the City Of Chicago",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 4989,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1407967392,
+  "publicationDate": 1409758934,
+  "rowsUpdatedAt": 1409758898,
+  "viewLastModified": 1531341883,
+  "viewCount": 8520,
+  "downloadCount": 62439,
+  "category": "Administration & Finance",
+  "tags": [
+    "payments",
+    "vendors"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "Previous four years",
+      "Frequency": "Updated monthly",
+      "Data Owner": "Innovation and Technology"
+    }
+  },
+  "columns": [
+    {
+      "name": "VENDOR ID",
+      "fieldName": "vendor_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4989
+    },
+    {
+      "name": "VENDOR",
+      "fieldName": "vendor",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4979
+    },
+    {
+      "name": "ADDRESS LINE 1",
+      "fieldName": "address_line_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4747
+    },
+    {
+      "name": "ADDRESS LINE 2",
+      "fieldName": "address_line_2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 4124,
+      "cardinality": 840
+    },
+    {
+      "name": "CITY",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 625
+    },
+    {
+      "name": "STATE",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 56
+    },
+    {
+      "name": "ZIP CODE",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 119,
+      "cardinality": 1317
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:00.697Z"
+}

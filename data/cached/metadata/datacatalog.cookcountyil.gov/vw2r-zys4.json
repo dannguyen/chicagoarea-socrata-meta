@@ -1,0 +1,224 @@
+{
+  "id": "vw2r-zys4",
+  "name": "Cook County Directory of Elected Officials",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 4049,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1317913325,
+  "publicationDate": 1685651624,
+  "rowsUpdatedAt": 1412894324,
+  "viewLastModified": 1769546058,
+  "viewCount": 3352,
+  "downloadCount": 15860,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Clerk",
+  "attributionLink": "http://www.cookcountyclerk.com",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Office",
+      "fieldName": "office",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 44
+    },
+    {
+      "name": "Jurisdiction",
+      "fieldName": "jurisdiction",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 803
+    },
+    {
+      "name": "First Name",
+      "fieldName": "first_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1032
+    },
+    {
+      "name": "Middle Name",
+      "fieldName": "middle_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2104,
+      "cardinality": 305
+    },
+    {
+      "name": "Last Name",
+      "fieldName": "last_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2962
+    },
+    {
+      "name": "Term",
+      "fieldName": "term",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Election ID",
+      "fieldName": "election_id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 13
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 831
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 162
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Zip",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 185
+    },
+    {
+      "name": "Phone",
+      "fieldName": "phone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 893
+    },
+    {
+      "name": "Fax",
+      "fieldName": "fax",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 444,
+      "cardinality": 688
+    },
+    {
+      "name": "Website",
+      "fieldName": "website",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Email",
+      "fieldName": "email",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 697,
+      "cardinality": 720
+    },
+    {
+      "name": "Address2",
+      "fieldName": "address2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3875,
+      "cardinality": 165
+    },
+    {
+      "name": "City2",
+      "fieldName": "city2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3875,
+      "cardinality": 50
+    },
+    {
+      "name": "State2",
+      "fieldName": "state2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3875,
+      "cardinality": 1
+    },
+    {
+      "name": "Zip2",
+      "fieldName": "zip2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3875,
+      "cardinality": 90
+    },
+    {
+      "name": "Phone2",
+      "fieldName": "phone2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3875,
+      "cardinality": 170
+    },
+    {
+      "name": "Fax2",
+      "fieldName": "fax2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3895,
+      "cardinality": 150
+    },
+    {
+      "name": "Website2",
+      "fieldName": "website2",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Email2",
+      "fieldName": "email2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 4049,
+      "cardinality": 0
+    },
+    {
+      "name": "Cook County Locator",
+      "fieldName": "cook_county_locator",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:54.352Z"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "3a6z-d5eu",
+  "name": "Administrative Hearings - Top 5 Violations - Sept 2011 To Mar 2012",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 4,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1337620851,
+  "publicationDate": 1412893960,
+  "rowsUpdatedAt": 1412893956,
+  "viewLastModified": 1769546468,
+  "viewCount": 605,
+  "downloadCount": 2035,
+  "category": "Legal & Judicial",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Administrative Hearings",
+  "attributionLink": "http://www.cookcountyildoah.org/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Violation Code",
+      "fieldName": "violation_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Violation Text",
+      "fieldName": "violation_text",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Number of Violations",
+      "fieldName": "number_of_violations",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:09.032Z"
+}

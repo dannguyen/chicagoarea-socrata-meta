@@ -1,0 +1,78 @@
+{
+  "id": "mf5i-ebsx",
+  "name": "IDPH FDD Tanning Facilities List 110513",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1000,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709064631,
+  "publicationDate": 1709144159,
+  "rowsUpdatedAt": 1709144153,
+  "viewLastModified": 1736793970,
+  "viewCount": 37,
+  "downloadCount": 17,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "location",
+      "fieldName": "location",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1000
+    },
+    {
+      "name": "permit",
+      "fieldName": "permit",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "tanning_facility",
+      "fieldName": "tanning_facility",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 809
+    },
+    {
+      "name": "tanning_facility_id",
+      "fieldName": "tanning_facility_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1000
+    },
+    {
+      "name": "zip_code",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 650
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:37.819Z"
+}

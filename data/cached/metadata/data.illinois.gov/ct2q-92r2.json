@@ -1,0 +1,182 @@
+{
+  "id": "ct2q-92r2",
+  "name": "Lead Training Course Provider List",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 22,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1708036858,
+  "publicationDate": 1753195510,
+  "rowsUpdatedAt": 1753195499,
+  "viewLastModified": 1753195757,
+  "viewCount": 119,
+  "downloadCount": 88,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "IL Lead Program",
+      "Maintainer Email": "dph.lead@illinois.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "Training Course Provider Name",
+      "fieldName": "training_course_provider_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 22
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "InitInspExp",
+      "fieldName": "initinspexp",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 17,
+      "cardinality": 1
+    },
+    {
+      "name": "InitRAExp",
+      "fieldName": "initraexp",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 17,
+      "cardinality": 1
+    },
+    {
+      "name": "InitSupExp",
+      "fieldName": "initsupexp",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 8,
+      "cardinality": 1
+    },
+    {
+      "name": "InitWrkExp",
+      "fieldName": "initwrkexp",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 10,
+      "cardinality": 1
+    },
+    {
+      "name": "InitWrkSpanExp",
+      "fieldName": "initwrkspanexp",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 19,
+      "cardinality": 1
+    },
+    {
+      "name": "RefInsExp",
+      "fieldName": "refinsexp",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 17,
+      "cardinality": 1
+    },
+    {
+      "name": "RefRAExp",
+      "fieldName": "refraexp",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 16,
+      "cardinality": 1
+    },
+    {
+      "name": "RefSupExp",
+      "fieldName": "refsupexp",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 9,
+      "cardinality": 1
+    },
+    {
+      "name": "RefWrkExp",
+      "fieldName": "refwrkexp",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 11,
+      "cardinality": 1
+    },
+    {
+      "name": "RefWrkSpanExp",
+      "fieldName": "refwrkspanexp",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 20,
+      "cardinality": 1
+    },
+    {
+      "name": "RefWrkPolExp",
+      "fieldName": "refwrkpolexp",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 21,
+      "cardinality": 1
+    },
+    {
+      "name": "InitRRPExp",
+      "fieldName": "initrrpexp",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 10,
+      "cardinality": 1
+    },
+    {
+      "name": "RefRRPExp",
+      "fieldName": "refrrpexp",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 11,
+      "cardinality": 1
+    },
+    {
+      "name": "ALTTYPE",
+      "fieldName": "alttype",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 21,
+      "cardinality": 1
+    },
+    {
+      "name": "ALTEXPIRE",
+      "fieldName": "altexpire",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 21,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:34.672Z"
+}

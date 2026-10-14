@@ -1,0 +1,252 @@
+{
+  "id": "yhhz-zm2v",
+  "name": "COVID-19 Cases, Tests, and Deaths by ZIP Code - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 13132,
+  "rowCountSource": "cached",
+  "rowLabel": "Week of COVID-19 Metrics for a ZIP Code",
+  "hasRowIdentifier": true,
+  "createdAt": 1587139733,
+  "publicationDate": 1587678643,
+  "rowsUpdatedAt": 1716437893,
+  "viewLastModified": 1788212596,
+  "viewCount": 98320,
+  "downloadCount": 89655,
+  "category": "Health & Human Services",
+  "tags": [
+    "covid-19",
+    "health",
+    "public health",
+    "death",
+    "zip code",
+    "link to article present",
+    "historical"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://chicago.gov/coronavirus",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "March 2020 - May 2024",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"yhhz-zm2v\"",
+      "Data Owner": "Department of Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "ZIP Code",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": "Home ZIP Code of the cases and people tested.",
+      "nullCount": 0,
+      "cardinality": 60
+    },
+    {
+      "name": "Week Number",
+      "fieldName": "week_number",
+      "dataTypeName": "number",
+      "description": "A sequential count of weeks, starting at the beginning of 2020. These numbers are aligned to CDC MMWR weeks.",
+      "nullCount": 0,
+      "cardinality": 53
+    },
+    {
+      "name": "Week Start",
+      "fieldName": "week_start",
+      "dataTypeName": "calendar_date",
+      "description": "The first date of the week.",
+      "nullCount": 0,
+      "cardinality": 219
+    },
+    {
+      "name": "Week End",
+      "fieldName": "week_end",
+      "dataTypeName": "calendar_date",
+      "description": "The last date of the week.",
+      "nullCount": 0,
+      "cardinality": 219
+    },
+    {
+      "name": "Cases - Weekly",
+      "fieldName": "cases_weekly",
+      "dataTypeName": "number",
+      "description": "Number of cases in the week. Values are removed for privacy until the cumulative total for the ZIP Code has reached 5 cases. A blank indicates a suppressed number from 0 to 4. ",
+      "nullCount": 223,
+      "cardinality": 588
+    },
+    {
+      "name": "Cases - Cumulative",
+      "fieldName": "cases_cumulative",
+      "dataTypeName": "number",
+      "description": "Total number of cases through the week. Values less than 5 are removed for privacy. A blank indicates a suppressed number from 0 to 4.",
+      "nullCount": 223,
+      "cardinality": 9126
+    },
+    {
+      "name": "Case Rate - Weekly",
+      "fieldName": "case_rate_weekly",
+      "dataTypeName": "number",
+      "description": "Case rate per 100,000 population in the week.",
+      "nullCount": 223,
+      "cardinality": 3135
+    },
+    {
+      "name": "Case Rate - Cumulative",
+      "fieldName": "case_rate_cumulative",
+      "dataTypeName": "number",
+      "description": "Total case rate per 100,000 population through the week.",
+      "nullCount": 223,
+      "cardinality": 11970
+    },
+    {
+      "name": "Tests - Weekly",
+      "fieldName": "tests_weekly",
+      "dataTypeName": "number",
+      "description": "Number of tests in the week. Please note data limitations in the dataset description.",
+      "nullCount": 392,
+      "cardinality": 3720
+    },
+    {
+      "name": "Tests - Cumulative",
+      "fieldName": "tests_cumulative",
+      "dataTypeName": "number",
+      "description": "Total number of tests through the week.  Please note data limitations in the dataset description.",
+      "nullCount": 0,
+      "cardinality": 11063
+    },
+    {
+      "name": "Test Rate - Weekly",
+      "fieldName": "test_rate_weekly",
+      "dataTypeName": "number",
+      "description": "Test rate per 100,000 population in the week. Because, as described in the dataset description, not all tests are reported, this rate is a low-end estimate. The true rate may be higher. ",
+      "nullCount": 0,
+      "cardinality": 9609
+    },
+    {
+      "name": "Test Rate - Cumulative",
+      "fieldName": "test_rate_cumulative",
+      "dataTypeName": "number",
+      "description": "Total test rate per 100,000 population through the week. Because, as described in the dataset description, not all tests are reported, this rate is a low-end estimate. The true rate may be higher. ",
+      "nullCount": 0,
+      "cardinality": 11214
+    },
+    {
+      "name": "Percent Tested Positive - Weekly",
+      "fieldName": "percent_tested_positive_weekly",
+      "dataTypeName": "number",
+      "description": "Percentage of tests returning positive results in the week based on specimen collection date. Because, as described in the dataset description, some not-positive tests may not be received, this rate is a high-end estimate. The true rate may be lower. Values are removed for privacy until the cumulative total for the ZIP Code has reached 5 cases.",
+      "nullCount": 0,
+      "cardinality": 382
+    },
+    {
+      "name": "Percent Tested Positive - Cumulative",
+      "fieldName": "percent_tested_positive_cumulative",
+      "dataTypeName": "number",
+      "description": "Percentage of tests returning positive results through the week based on specimen collection date. Because, as described in the dataset description, some not-positive tests may not be received, this rate is a high-end estimate. The true rate may be lower. Values are removed for privacy until the cumulative total for the ZIP Code has reached 5 cases.",
+      "nullCount": 0,
+      "cardinality": 357
+    },
+    {
+      "name": "Deaths - Weekly",
+      "fieldName": "deaths_weekly",
+      "dataTypeName": "number",
+      "description": "Number of deaths in the week.",
+      "nullCount": 0,
+      "cardinality": 23
+    },
+    {
+      "name": "Deaths - Cumulative",
+      "fieldName": "deaths_cumulative",
+      "dataTypeName": "number",
+      "description": "Number of deaths through the week.",
+      "nullCount": 0,
+      "cardinality": 363
+    },
+    {
+      "name": "Death Rate - Weekly",
+      "fieldName": "death_rate_weekly",
+      "dataTypeName": "number",
+      "description": "Death rate per 100,000 population in the week.",
+      "nullCount": 0,
+      "cardinality": 195
+    },
+    {
+      "name": "Death Rate - Cumulative",
+      "fieldName": "death_rate_cumulative",
+      "dataTypeName": "number",
+      "description": "Death rate per 100,000 population through the week.",
+      "nullCount": 0,
+      "cardinality": 2409
+    },
+    {
+      "name": "Population",
+      "fieldName": "population",
+      "dataTypeName": "number",
+      "description": "ZIP Code population.",
+      "nullCount": 0,
+      "cardinality": 59
+    },
+    {
+      "name": "Row ID",
+      "fieldName": "row_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 13132
+    },
+    {
+      "name": "ZIP Code Location",
+      "fieldName": "zip_code_location",
+      "dataTypeName": "point",
+      "description": "A point within the ZIP Code to allow for geographic analysis. The precise point shown has no other meaning.",
+      "nullCount": 211,
+      "cardinality": 59
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:04.845Z"
+}

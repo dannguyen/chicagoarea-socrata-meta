@@ -1,0 +1,154 @@
+{
+  "id": "q9nk-vsym",
+  "name": "Public Chauffeurs - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 194499,
+  "rowCountSource": "cached",
+  "rowLabel": "Public Chauffeur Record Version",
+  "hasRowIdentifier": true,
+  "createdAt": 1448467014,
+  "publicationDate": 1542827675,
+  "rowsUpdatedAt": 1791996047,
+  "viewLastModified": 1774469115,
+  "viewCount": 4150,
+  "downloadCount": 8193,
+  "category": "Community & Economic Development",
+  "tags": [
+    "licenses",
+    "transportation",
+    "historical",
+    "link to article present"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Historical, starting in November 2015",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"q9nk-vsym\"",
+      "Frequency": "Every hour between 7:30 am and 7:30pm",
+      "Data Owner": "Business Affairs and Consumer Protection"
+    }
+  },
+  "columns": [
+    {
+      "name": "License Number",
+      "fieldName": "license",
+      "dataTypeName": "number",
+      "description": "The Public Chauffeur license number issued to the licensee.",
+      "nullCount": 67,
+      "cardinality": 36490
+    },
+    {
+      "name": "Renewed",
+      "fieldName": "renewed",
+      "dataTypeName": "text",
+      "description": "The date (month/year) the license was last renewed.",
+      "nullCount": 25472,
+      "cardinality": 381
+    },
+    {
+      "name": "Status",
+      "fieldName": "status",
+      "dataTypeName": "text",
+      "description": "The current status of the license (Active, Hold, Suspended, Denied, Revoked, Inactive).",
+      "nullCount": 27,
+      "cardinality": 11
+    },
+    {
+      "name": "Status Date",
+      "fieldName": "status_date",
+      "dataTypeName": "calendar_date",
+      "description": "The date the license status was last updated.",
+      "nullCount": 2884,
+      "cardinality": 5760
+    },
+    {
+      "name": "Expires",
+      "fieldName": "expires",
+      "dataTypeName": "text",
+      "description": "The date (month/year) the license expired or will expire.",
+      "nullCount": 112608,
+      "cardinality": 293
+    },
+    {
+      "name": "Driver Type",
+      "fieldName": "driver_type",
+      "dataTypeName": "text",
+      "description": "The type of public passenger vehicle the licensee is authorized to operate (Taxi, Livery Only, or Horse-Drawn Only).",
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "License Type",
+      "fieldName": "license_type",
+      "dataTypeName": "text",
+      "description": "The license term issued to the licensee (Permanent with a one-year term or Temporary with a defined term less than one year).",
+      "nullCount": 2988,
+      "cardinality": 4
+    },
+    {
+      "name": "Original Issue Date",
+      "fieldName": "issue_date",
+      "dataTypeName": "calendar_date",
+      "description": "The date the licensee was issued his/her first Public Chauffeur license under the indicated license number.",
+      "nullCount": 10382,
+      "cardinality": 8992
+    },
+    {
+      "name": "Name",
+      "fieldName": "name",
+      "dataTypeName": "text",
+      "description": "The name of the person issued the Public Chauffeur license.",
+      "nullCount": 77,
+      "cardinality": 52566
+    },
+    {
+      "name": "Sex",
+      "fieldName": "sex",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 78,
+      "cardinality": 3
+    },
+    {
+      "name": "Chauffeur City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 877,
+      "cardinality": 737
+    },
+    {
+      "name": "Chauffeur State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 314,
+      "cardinality": 46
+    },
+    {
+      "name": "Last Valid Date",
+      "fieldName": "last_valid_date",
+      "dataTypeName": "calendar_date",
+      "description": "The last date on which this version of the record appeared.\n\nIt indicates when this version STOPPED being valid (or is the last refresh time of this dataset for current records). See dataset description for more discussion of this column.",
+      "nullCount": 0,
+      "cardinality": 11357
+    },
+    {
+      "name": "Record Version ID",
+      "fieldName": "record_version_id",
+      "dataTypeName": "text",
+      "description": " A unique identifier that has no meaning beyond distinguishing different versions of the same license.",
+      "nullCount": 0,
+      "cardinality": 194497
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:06.044Z"
+}

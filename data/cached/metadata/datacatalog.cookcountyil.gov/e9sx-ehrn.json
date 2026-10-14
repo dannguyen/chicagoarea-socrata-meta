@@ -1,0 +1,96 @@
+{
+  "id": "e9sx-ehrn",
+  "name": "Economic Development - Affordable Homes in Cook County - January 7, 2013",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 41,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1357594878,
+  "publicationDate": 1686671610,
+  "rowsUpdatedAt": 1412892461,
+  "viewLastModified": 1769543246,
+  "viewCount": 1176,
+  "downloadCount": 2975,
+  "category": "Economic Development",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Bureau of Economic Development",
+  "attributionLink": "http://blog.cookcountyil.gov/economicdevelopment/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Listing Address",
+      "fieldName": "listing_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 41
+    },
+    {
+      "name": "Listing City",
+      "fieldName": "listing_city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "Price",
+      "fieldName": "price",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 22,
+      "cardinality": 10
+    },
+    {
+      "name": "Listing Agent",
+      "fieldName": "listing_agent",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 6
+    },
+    {
+      "name": "Phone",
+      "fieldName": "phone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 6
+    },
+    {
+      "name": "Email ",
+      "fieldName": "email",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 5
+    },
+    {
+      "name": "Notes",
+      "fieldName": "notes",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 22,
+      "cardinality": 2
+    },
+    {
+      "name": "Location 1",
+      "fieldName": "location_1",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:02.156Z"
+}

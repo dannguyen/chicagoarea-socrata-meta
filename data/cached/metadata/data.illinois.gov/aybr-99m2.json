@@ -1,0 +1,54 @@
+{
+  "id": "aybr-99m2",
+  "name": "IDVA - Grant Payout Data",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 168,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709065149,
+  "publicationDate": 1709140916,
+  "rowsUpdatedAt": 1709140910,
+  "viewLastModified": 1726858045,
+  "viewCount": 51,
+  "downloadCount": 81,
+  "category": null,
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "grant_amount",
+      "fieldName": "grant_amount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 75
+    },
+    {
+      "name": "grant_category",
+      "fieldName": "grant_category",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "organization",
+      "fieldName": "organization",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 129
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:37.519Z"
+}

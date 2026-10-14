@@ -1,0 +1,191 @@
+{
+  "id": "7fmw-nndy",
+  "name": "ARPA Road to Recovery Geographic Program Impact",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 5387,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1746820973,
+  "publicationDate": 1746825597,
+  "rowsUpdatedAt": 1789758320,
+  "viewLastModified": 1789758316,
+  "viewCount": 570,
+  "downloadCount": 3747,
+  "category": "Administration & Finance",
+  "tags": [
+    "arpa",
+    "budget"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "3/3/2021 – Latest Quarter Shown",
+      "Frequency": "Data are updated as needed",
+      "Data Owner": "Budget & Management"
+    }
+  },
+  "columns": [
+    {
+      "name": "Cost Center",
+      "fieldName": "cost_center",
+      "dataTypeName": "text",
+      "description": "A unique identifier to differentiate program impact information by program.",
+      "nullCount": 0,
+      "cardinality": 5387
+    },
+    {
+      "name": "Program Name",
+      "fieldName": "program_name",
+      "dataTypeName": "text",
+      "description": "Official name of the program.",
+      "nullCount": 0,
+      "cardinality": 5387
+    },
+    {
+      "name": "Department",
+      "fieldName": "department",
+      "dataTypeName": "text",
+      "description": "Identified department in the City of Chicago for administering the program.",
+      "nullCount": 0,
+      "cardinality": 5387
+    },
+    {
+      "name": "Policy Pillar",
+      "fieldName": "policy_pillar",
+      "dataTypeName": "text",
+      "description": "Alignment of program to policy priority areas of the City of Chicago.",
+      "nullCount": 0,
+      "cardinality": 5387
+    },
+    {
+      "name": "Total Served",
+      "fieldName": "total_served",
+      "dataTypeName": "number",
+      "description": "The number of people, entities or locations the program has served in a standardized format, describing the impact of this program on the community.",
+      "nullCount": 0,
+      "cardinality": 5387
+    },
+    {
+      "name": "Ending Fiscal Quarter",
+      "fieldName": "ending_fiscal_quarter",
+      "dataTypeName": "text",
+      "description": "The most recent fiscal quarter included in the window the program is reporting data.",
+      "nullCount": 0,
+      "cardinality": 5387
+    },
+    {
+      "name": "Project Name",
+      "fieldName": "project_name",
+      "dataTypeName": "text",
+      "description": "The name for the specific location-based initiative.",
+      "nullCount": 351,
+      "cardinality": 5387
+    },
+    {
+      "name": "Applicant Organization",
+      "fieldName": "applicant_organization",
+      "dataTypeName": "text",
+      "description": "The entity which governs the usage of funds awarded to the project.",
+      "nullCount": 0,
+      "cardinality": 5387
+    },
+    {
+      "name": "Geographic Category",
+      "fieldName": "geographic_category",
+      "dataTypeName": "text",
+      "description": "The type of geographic boundary by which a program tracked total served within the city (e.g. Ward, Zip Code).",
+      "nullCount": 0,
+      "cardinality": 5387
+    },
+    {
+      "name": "Geography Name",
+      "fieldName": "geography_name",
+      "dataTypeName": "text",
+      "description": "The name of the respective geographic category where impact was implemented.",
+      "nullCount": 13,
+      "cardinality": 5387
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": "The address where the project was implemented.",
+      "nullCount": 12,
+      "cardinality": 5387
+    },
+    {
+      "name": "Latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": "The latitude of the project’s address.",
+      "nullCount": 3695,
+      "cardinality": 5387
+    },
+    {
+      "name": "Longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": "The longitude of the project’s address.",
+      "nullCount": 3695,
+      "cardinality": 5387
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": "The location of the project's address.",
+      "nullCount": 3695,
+      "cardinality": 5387
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Boundaries - ZIP Codes' (rpca-8um6) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Community Areas' (vrxf-vc4k) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Zip Codes' (6mkv-f3dw) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Census Tracts' (bdys-3d7i) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards 2023-",
+      "fieldName": ":@computed_region_8hcu_yrd4",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Wards 2023-' (8hcu-yrd4) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:23.573Z"
+}

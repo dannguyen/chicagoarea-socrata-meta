@@ -1,0 +1,78 @@
+{
+  "id": "npw8-6cq9",
+  "name": "FOIA Request Log - Cultural Affairs - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 35,
+  "rowCountSource": "cached",
+  "rowLabel": "Request",
+  "hasRowIdentifier": false,
+  "createdAt": 1271434213,
+  "publicationDate": 1486069953,
+  "rowsUpdatedAt": 1486069947,
+  "viewLastModified": 1486070168,
+  "viewCount": 1926,
+  "downloadCount": 2867,
+  "category": "FOIA",
+  "tags": [
+    "historical"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "May 2010 - December 2010",
+      "Frequency": "No longer updated",
+      "Data Owner": "Cultural Affairs & Special Events"
+    }
+  },
+  "columns": [
+    {
+      "name": "REQUESTOR NAME",
+      "fieldName": "requestor_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "ORGANIZATION",
+      "fieldName": "organization",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 7,
+      "cardinality": 5
+    },
+    {
+      "name": "DESCRIPTION OF REQUEST",
+      "fieldName": "description_of_request",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 18
+    },
+    {
+      "name": "DATE RECEIVED",
+      "fieldName": "date_received",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "DUE DATE",
+      "fieldName": "due_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:14.353Z"
+}

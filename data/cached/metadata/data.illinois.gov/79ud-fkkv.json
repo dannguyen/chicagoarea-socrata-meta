@@ -1,0 +1,158 @@
+{
+  "id": "79ud-fkkv",
+  "name": "IDPH Causes of Death, by Resident County, 2008",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 104,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709064672,
+  "publicationDate": 1709146383,
+  "rowsUpdatedAt": 1709146377,
+  "viewLastModified": 1736793968,
+  "viewCount": 71,
+  "downloadCount": 91,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "accidents",
+      "fieldName": "accidents",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "allother_causes",
+      "fieldName": "allother_causes",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": "alzheimer_s_disease",
+      "fieldName": "alzheimer_s_disease",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 47
+    },
+    {
+      "name": "cerebro_vascular_diseases_stroke_",
+      "fieldName": "cerebro_vascular_diseases",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 54
+    },
+    {
+      "name": "chronic_liver_disease_and_cirrhosis",
+      "fieldName": "chronic_liver_disease_and",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 25
+    },
+    {
+      "name": "chronic_lower_respiratory_diseases",
+      "fieldName": "chronic_lower_respiratory",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 56
+    },
+    {
+      "name": "diabetes_mellitus",
+      "fieldName": "diabetes_mellitus",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 43
+    },
+    {
+      "name": "diseases_of_heart",
+      "fieldName": "diseases_of_heart",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 85
+    },
+    {
+      "name": "influenza_and_pneumonia",
+      "fieldName": "influenza_and_pneumonia",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 40
+    },
+    {
+      "name": "intentional_self_harm_suicide_",
+      "fieldName": "intentional_self_harm_suicide",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 29
+    },
+    {
+      "name": "malignant_neoplasms",
+      "fieldName": "malignant_neoplasms",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 83
+    },
+    {
+      "name": "nephritis_nephrotic_syndrome_and_nephrosis",
+      "fieldName": "nephritis_nephrotic_syndrome",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 37
+    },
+    {
+      "name": "resident_county",
+      "fieldName": "resident_county",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 104
+    },
+    {
+      "name": "septicemia",
+      "fieldName": "septicemia",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 31
+    },
+    {
+      "name": "total_deaths",
+      "fieldName": "total_deaths",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 93
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:36.371Z"
+}

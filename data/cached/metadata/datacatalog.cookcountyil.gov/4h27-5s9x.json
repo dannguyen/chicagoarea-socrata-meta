@@ -1,0 +1,82 @@
+{
+  "id": "4h27-5s9x",
+  "name": "Cook County Check Register",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 434828,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": true,
+  "createdAt": 1545173329,
+  "publicationDate": 1606860935,
+  "rowsUpdatedAt": 1791321328,
+  "viewLastModified": 1791321326,
+  "viewCount": 11070,
+  "downloadCount": 139068,
+  "category": "Finance & Operations",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Publishing Details": {
+      "Publishing frequency": "Monthly"
+    }
+  },
+  "columns": [
+    {
+      "name": "PAYMENT NUMBER",
+      "fieldName": "check_number",
+      "dataTypeName": "text",
+      "description": "Check number issued.",
+      "nullCount": 0,
+      "cardinality": 434828
+    },
+    {
+      "name": "PAYMENT DATE",
+      "fieldName": "check_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date check issued.",
+      "nullCount": 0,
+      "cardinality": 434828
+    },
+    {
+      "name": "PAYEE  NUMBER",
+      "fieldName": "vendor_number",
+      "dataTypeName": "text",
+      "description": "Number assigned to vendor in Oracle.",
+      "nullCount": 0,
+      "cardinality": 434828
+    },
+    {
+      "name": "PAYEE VENDOR NAME",
+      "fieldName": "vendor_name",
+      "dataTypeName": "text",
+      "description": "Business name of supplier on contract.",
+      "nullCount": 0,
+      "cardinality": 434828
+    },
+    {
+      "name": "PAYMENT AMOUNT",
+      "fieldName": "check_amount",
+      "dataTypeName": "number",
+      "description": "Total amount of check issued, USD.",
+      "nullCount": 0,
+      "cardinality": 434828
+    },
+    {
+      "name": "INVOICE NUMBER(S)",
+      "fieldName": "invoices_paid",
+      "dataTypeName": "text",
+      "description": "Invoice numbers paid by check issued. multiple invoices can be paid by the same check, in those cases invoices are separated by comma. ",
+      "nullCount": 1,
+      "cardinality": 434828
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:50.614Z"
+}

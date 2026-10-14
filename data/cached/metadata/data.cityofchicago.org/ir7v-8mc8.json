@@ -1,0 +1,232 @@
+{
+  "id": "ir7v-8mc8",
+  "name": "DOE Environmental Permits",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 67743,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1346187194,
+  "publicationDate": 1743203713,
+  "rowsUpdatedAt": 1791966019,
+  "viewLastModified": 1788553808,
+  "viewCount": 21829,
+  "downloadCount": 110265,
+  "category": "Environment & Sustainable Development",
+  "tags": [
+    "environmental permits",
+    "environmental health"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "1993-Current",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"ir7v-8mc8\"",
+      "Frequency": "Data are updated daily",
+      "Data Owner": "Department of Environment"
+    }
+  },
+  "columns": [
+    {
+      "name": "APPLICATION ID",
+      "fieldName": "application_id",
+      "dataTypeName": "text",
+      "description": "This is the unique id of the issued permit. Permits from the historic DOE are prefixed with “DOE.” Permits issued by CDPH are prefixed with “ENV_”.",
+      "nullCount": 0,
+      "cardinality": 67743
+    },
+    {
+      "name": "APPLICATION NAME",
+      "fieldName": "application_name",
+      "dataTypeName": "text",
+      "description": "This is the name of the site that is being permitted. This is usually the company/owner name, address, or building name.",
+      "nullCount": 869,
+      "cardinality": 67743
+    },
+    {
+      "name": "ADDRESS",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": "Full site address.",
+      "nullCount": 1548,
+      "cardinality": 67743
+    },
+    {
+      "name": "STREET NUMBER FROM",
+      "fieldName": "street_number_from",
+      "dataTypeName": "number",
+      "description": "This is the numeric portion of the address. For ranged addresses, this value is the lower number in the range.",
+      "nullCount": 1549,
+      "cardinality": 67743
+    },
+    {
+      "name": "STREET NUMBER TO",
+      "fieldName": "street_number_to",
+      "dataTypeName": "number",
+      "description": "This is the numeric portion of the address. For ranged addresses, this value is the higher number in the range. This value is blank for single (non-range) addresses.",
+      "nullCount": 66415,
+      "cardinality": 67743
+    },
+    {
+      "name": "DIRECTION",
+      "fieldName": "direction",
+      "dataTypeName": "text",
+      "description": "The direction (N,S,E,W) portion of the address.",
+      "nullCount": 1550,
+      "cardinality": 67743
+    },
+    {
+      "name": "STREET NAME",
+      "fieldName": "street_name",
+      "dataTypeName": "text",
+      "description": "The name of the street",
+      "nullCount": 1548,
+      "cardinality": 67743
+    },
+    {
+      "name": "STREET TYPE",
+      "fieldName": "street_type",
+      "dataTypeName": "text",
+      "description": "The street name suffix (e.g. ST = Street, AVE = Avenue. BLVD = Boulevard, etc).",
+      "nullCount": 2426,
+      "cardinality": 67743
+    },
+    {
+      "name": "APPLICATION TYPE",
+      "fieldName": "application_type",
+      "dataTypeName": "text",
+      "description": "Type of permit application. ",
+      "nullCount": 0,
+      "cardinality": 67743
+    },
+    {
+      "name": "APPLICATION SUBTYPE",
+      "fieldName": "application_subtype",
+      "dataTypeName": "text",
+      "description": "Specific work type being permitted.   ",
+      "nullCount": 1650,
+      "cardinality": 67743
+    },
+    {
+      "name": "STATUS",
+      "fieldName": "status",
+      "dataTypeName": "text",
+      "description": "Status of permit application. If \"CLOSED\" then the permit has expired.",
+      "nullCount": 0,
+      "cardinality": 67743
+    },
+    {
+      "name": "APPLICANT",
+      "fieldName": "applicant",
+      "dataTypeName": "text",
+      "description": "The person or organization filling out the permit application.",
+      "nullCount": 28518,
+      "cardinality": 67743
+    },
+    {
+      "name": "ISSUE DATE",
+      "fieldName": "issue_date",
+      "dataTypeName": "calendar_date",
+      "description": "The date the permit was issued.",
+      "nullCount": 68,
+      "cardinality": 67743
+    },
+    {
+      "name": "EXPIRATION DATE",
+      "fieldName": "expiration_date",
+      "dataTypeName": "calendar_date",
+      "description": "The permit expiration date. Not all permits may have an expiration date. Some permits are renewed annually or every three years. If the applicant does not renew, the permit Status will be set to “CLOSED”.",
+      "nullCount": 21367,
+      "cardinality": 67743
+    },
+    {
+      "name": "COMMENT",
+      "fieldName": "comment",
+      "dataTypeName": "text",
+      "description": "Contains general comments and permit-specific information.",
+      "nullCount": 6520,
+      "cardinality": 67743
+    },
+    {
+      "name": "DATA SOURCE",
+      "fieldName": "data_source",
+      "dataTypeName": "text",
+      "description": "The city department that collected the data.  ",
+      "nullCount": 0,
+      "cardinality": 67743
+    },
+    {
+      "name": "LATITUDE",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": "Latitude coordinate of the facility (low end if an address range).",
+      "nullCount": 2351,
+      "cardinality": 67743
+    },
+    {
+      "name": "LONGITUDE",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": "Longitude coordinate of the facility (low end if an address range).",
+      "nullCount": 2351,
+      "cardinality": 67743
+    },
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": "The location of the facility in a format that allows for creation of maps and other geographic operations on this data portal.",
+      "nullCount": 2351,
+      "cardinality": 67743
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:08.278Z"
+}

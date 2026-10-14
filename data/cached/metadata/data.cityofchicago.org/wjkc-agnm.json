@@ -1,0 +1,100 @@
+{
+  "id": "wjkc-agnm",
+  "name": "FOIA Request Log - Police",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 76427,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": true,
+  "createdAt": 1272563459,
+  "publicationDate": 1612805491,
+  "rowsUpdatedAt": 1741705747,
+  "viewLastModified": 1741705746,
+  "viewCount": 62533,
+  "downloadCount": 172309,
+  "category": "FOIA",
+  "tags": [],
+  "attribution": "Chicago Police Department",
+  "attributionLink": "https://portal.chicagopolice.org/portal/page/portal/ClearPath",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "May 2010 - present",
+      "Frequency": "Data is updated as needed",
+      "Data Owner": "Police"
+    }
+  },
+  "columns": [
+    {
+      "name": "Date Received",
+      "fieldName": "date_received",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1362
+    },
+    {
+      "name": "Request Number",
+      "fieldName": "request_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 76427
+    },
+    {
+      "name": "Requestor Last Name",
+      "fieldName": "requestor_last_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 76427,
+      "cardinality": 0
+    },
+    {
+      "name": "Requestor First Name",
+      "fieldName": "requestor_first_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 76427,
+      "cardinality": 0
+    },
+    {
+      "name": "Requestor Middle Initial",
+      "fieldName": "requestor_middle_initial",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 76427,
+      "cardinality": 0
+    },
+    {
+      "name": "Institution",
+      "fieldName": "institution",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 26839,
+      "cardinality": 6028
+    },
+    {
+      "name": "Brief Description of Records Sought",
+      "fieldName": "brief_description_of_records_sought",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1333,
+      "cardinality": 1091
+    },
+    {
+      "name": "Date Due",
+      "fieldName": "date_due",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1058
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:05.692Z"
+}

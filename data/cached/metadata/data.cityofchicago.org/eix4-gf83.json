@@ -1,0 +1,114 @@
+{
+  "id": "eix4-gf83",
+  "name": "CPD_Facilities",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 4467,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1426790768,
+  "publicationDate": 1652889216,
+  "rowsUpdatedAt": 1652889210,
+  "viewLastModified": 1724877784,
+  "viewCount": 1298,
+  "downloadCount": 5148,
+  "category": "Parks & Recreation",
+  "tags": [
+    "parks",
+    "recreation",
+    "chicago",
+    "chicago park district",
+    "chicago parks",
+    "2016"
+  ],
+  "attribution": "Chicago Park District",
+  "attributionLink": "http://www.chicagoparkdistrict.com/facilities/search/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "November 2016 - current",
+      "Data Owner": "Chicago Park District"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "point",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4467
+    },
+    {
+      "name": "OBJECTID_1",
+      "fieldName": "objectid_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4467
+    },
+    {
+      "name": "PARK",
+      "fieldName": "park",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 562
+    },
+    {
+      "name": "PARK_NO",
+      "fieldName": "park_no",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 549
+    },
+    {
+      "name": "FACILITY_N",
+      "fieldName": "facility_n",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 75
+    },
+    {
+      "name": "FACILITY_T",
+      "fieldName": "facility_t",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 3
+    },
+    {
+      "name": "X_COORD",
+      "fieldName": "x_coord",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4467
+    },
+    {
+      "name": "Y_COORD",
+      "fieldName": "y_coord",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4466
+    },
+    {
+      "name": "GISOBJID",
+      "fieldName": "gisobjid",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4466
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:18.565Z"
+}

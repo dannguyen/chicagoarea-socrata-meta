@@ -1,0 +1,126 @@
+{
+  "id": "84ay-fs46",
+  "name": "Residential Meth Labs: 2016 to December 2022",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 459,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1718288786,
+  "publicationDate": 1718289006,
+  "rowsUpdatedAt": 1718289000,
+  "viewLastModified": 1736793959,
+  "viewCount": 76,
+  "downloadCount": 94,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "Toxicology Program",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "ID",
+      "fieldName": "id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 459
+    },
+    {
+      "name": "TOX#",
+      "fieldName": "tox",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 455
+    },
+    {
+      "name": "Incident#",
+      "fieldName": "incident",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 456
+    },
+    {
+      "name": "Incident Date",
+      "fieldName": "incident_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 350
+    },
+    {
+      "name": "Incident Address",
+      "fieldName": "incident_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 445
+    },
+    {
+      "name": "Incident City",
+      "fieldName": "incident_city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 188
+    },
+    {
+      "name": "Incident County",
+      "fieldName": "incident_county",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 76
+    },
+    {
+      "name": "Incident ZIP",
+      "fieldName": "incident_zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 203
+    },
+    {
+      "name": "Lab Region",
+      "fieldName": "lab_region",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "What is the lab setting?",
+      "fieldName": "what_is_the_lab_setting",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "If the setting is a mobile home, please list the name of the mobile home park if applicable",
+      "fieldName": "if_the_setting_is_a_mobile",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 425,
+      "cardinality": 20
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:36.054Z"
+}

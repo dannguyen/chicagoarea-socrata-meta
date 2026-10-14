@@ -1,0 +1,103 @@
+{
+  "id": "ezma-pppn",
+  "name": "Business Owners",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 331076,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1317061058,
+  "publicationDate": 1410172942,
+  "rowsUpdatedAt": 1791971307,
+  "viewLastModified": 1731455686,
+  "viewCount": 156122,
+  "downloadCount": 299315,
+  "category": "Community & Economic Development",
+  "tags": [
+    "business",
+    "licenses"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2002 to present",
+      "Frequency": "Data is updated daily",
+      "Data Owner": "Business Affairs & Consumer Protection"
+    }
+  },
+  "columns": [
+    {
+      "name": "Account Number",
+      "fieldName": "account_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 331076
+    },
+    {
+      "name": "Legal Name",
+      "fieldName": "doing_business_as_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 331076
+    },
+    {
+      "name": "Owner First Name",
+      "fieldName": "owner_first_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 10207,
+      "cardinality": 331076
+    },
+    {
+      "name": "Owner Middle Initial",
+      "fieldName": "owner_middle_initial",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 187284,
+      "cardinality": 331076
+    },
+    {
+      "name": "Owner Last Name",
+      "fieldName": "owner_last_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 10428,
+      "cardinality": 331076
+    },
+    {
+      "name": "Suffix",
+      "fieldName": "owner_name_suffix",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 324461,
+      "cardinality": 331076
+    },
+    {
+      "name": "Legal Entity Owner",
+      "fieldName": "owner_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 320556,
+      "cardinality": 331076
+    },
+    {
+      "name": "Title",
+      "fieldName": "owner_title",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 36,
+      "cardinality": 331076
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:26:21.375Z"
+}

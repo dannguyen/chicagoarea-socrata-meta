@@ -1,0 +1,71 @@
+{
+  "id": "vbts-zqt4",
+  "name": "Libraries - WiFi Usage (2011-2014)",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 48,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1316127129,
+  "publicationDate": 1421091788,
+  "rowsUpdatedAt": 1421091680,
+  "viewLastModified": 1788276466,
+  "viewCount": 8958,
+  "downloadCount": 3383,
+  "category": "Education",
+  "tags": [
+    "performance metrics",
+    "libraries"
+  ],
+  "attribution": "Chicago Public Library",
+  "attributionLink": "http://chipublib.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2011-2014",
+      "Frequency": "Data is updated monthly",
+      "Data Owner": "Chicago Public Library"
+    }
+  },
+  "columns": [
+    {
+      "name": "MONTH",
+      "fieldName": "month",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 13
+    },
+    {
+      "name": "YEAR",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "NUMBER OF SESSIONS",
+      "fieldName": "number_of_sessions",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 48
+    },
+    {
+      "name": "CUMULATIVE NUMBER OF SESSIONS",
+      "fieldName": "cumulative_number_of_sessions",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 48
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:38:05.887Z"
+}

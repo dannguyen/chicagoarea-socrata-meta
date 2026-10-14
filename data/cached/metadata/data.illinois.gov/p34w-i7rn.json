@@ -1,0 +1,238 @@
+{
+  "id": "p34w-i7rn",
+  "name": "City Of Urbana: Open Expenditures - Payment Details",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 174941,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1731017728,
+  "publicationDate": 1731018388,
+  "rowsUpdatedAt": 1766084451,
+  "viewLastModified": 1766084419,
+  "viewCount": 522,
+  "downloadCount": 52,
+  "category": "Local Government",
+  "tags": [],
+  "attribution": "City of Urbana",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "City of Urbana"
+    },
+    "Data Management": {
+      "Maintainer": "Mayank Patel",
+      "Maintainer Email": "mac.patel@urbanail.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "fiscal_year",
+      "fieldName": "fiscal_year",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 174941
+    },
+    {
+      "name": "fiscal_year_period",
+      "fieldName": "fiscal_year_period",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 174941
+    },
+    {
+      "name": "department",
+      "fieldName": "department",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 241,
+      "cardinality": 174941
+    },
+    {
+      "name": "division",
+      "fieldName": "division",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 291,
+      "cardinality": 174941
+    },
+    {
+      "name": "program",
+      "fieldName": "program",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1073,
+      "cardinality": 174941
+    },
+    {
+      "name": "budget_category",
+      "fieldName": "budget_category",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3799,
+      "cardinality": 174941
+    },
+    {
+      "name": "expense_category",
+      "fieldName": "expense_category",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 174941
+    },
+    {
+      "name": "fund",
+      "fieldName": "fund",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 174941
+    },
+    {
+      "name": "fund_type",
+      "fieldName": "fund_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 74070,
+      "cardinality": 174941
+    },
+    {
+      "name": "vendor",
+      "fieldName": "vendor",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 174941
+    },
+    {
+      "name": "vendor_id",
+      "fieldName": "vendor_id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4286,
+      "cardinality": 174941
+    },
+    {
+      "name": "vendor_zip",
+      "fieldName": "vendor_zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 69893,
+      "cardinality": 174941
+    },
+    {
+      "name": "payment_id",
+      "fieldName": "payment_id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4286,
+      "cardinality": 174941
+    },
+    {
+      "name": "payment_method",
+      "fieldName": "payment_method",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 174941,
+      "cardinality": 174941
+    },
+    {
+      "name": "payment_date",
+      "fieldName": "payment_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 174941
+    },
+    {
+      "name": "payment_status",
+      "fieldName": "payment_status",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 100871,
+      "cardinality": 174941
+    },
+    {
+      "name": "invoice_id",
+      "fieldName": "invoice_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 100871,
+      "cardinality": 174941
+    },
+    {
+      "name": "invoice_line_number",
+      "fieldName": "invoice_line_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 174941
+    },
+    {
+      "name": "invoice_line_distribution_number",
+      "fieldName": "invoice_line_distribution",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 174941,
+      "cardinality": 174941
+    },
+    {
+      "name": "invoice_date",
+      "fieldName": "invoice_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 100871,
+      "cardinality": 174941
+    },
+    {
+      "name": "amount",
+      "fieldName": "amount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 174941
+    },
+    {
+      "name": "description",
+      "fieldName": "description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 8415,
+      "cardinality": 174941
+    },
+    {
+      "name": "contract_number",
+      "fieldName": "contract_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 174941
+    },
+    {
+      "name": "purchase_order_number",
+      "fieldName": "purchase_order_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 162223,
+      "cardinality": 174941
+    },
+    {
+      "name": "purchase_order_line_number",
+      "fieldName": "purchase_order_line_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 174941,
+      "cardinality": 174941
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:33.103Z"
+}

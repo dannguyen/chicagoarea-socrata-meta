@@ -1,0 +1,92 @@
+{
+  "id": "cpgn-z9js",
+  "name": "Historical - Department of Revenue - Businesses Subject to Home Rule Taxes - 2011 through September 8th",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2911,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1315510343,
+  "publicationDate": 1412889216,
+  "rowsUpdatedAt": 1412889127,
+  "viewLastModified": 1769546605,
+  "viewCount": 1927,
+  "downloadCount": 11206,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Revenue",
+  "attributionLink": "http://cookcountyil.gov/revenue",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Update Frequency": "No updates"
+    }
+  },
+  "columns": [
+    {
+      "name": "Ret Type",
+      "fieldName": "ret_type",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Return Type Desc",
+      "fieldName": "return_type_desc",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Business Name",
+      "fieldName": "business_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2329
+    },
+    {
+      "name": "Address 1",
+      "fieldName": "address_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 2335
+    },
+    {
+      "name": "Address 2",
+      "fieldName": "address_2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2882,
+      "cardinality": 26
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 31
+    },
+    {
+      "name": "Zip",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 429
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:57.316Z"
+}

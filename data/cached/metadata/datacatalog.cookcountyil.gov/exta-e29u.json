@@ -1,0 +1,198 @@
+{
+  "id": "exta-e29u",
+  "name": "CCP Invoice Register",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2425286,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1545340055,
+  "publicationDate": 1614726342,
+  "rowsUpdatedAt": 1791322500,
+  "viewLastModified": 1791322488,
+  "viewCount": 2686,
+  "downloadCount": 6559,
+  "category": "Finance & Operations",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "FUND",
+      "fieldName": "fund",
+      "dataTypeName": "text",
+      "description": "Account fund number.",
+      "nullCount": 0,
+      "cardinality": 2425286
+    },
+    {
+      "name": "FUND NAME",
+      "fieldName": "fund_name",
+      "dataTypeName": "text",
+      "description": "Account fund description.",
+      "nullCount": 0,
+      "cardinality": 2425286
+    },
+    {
+      "name": "OFFICE",
+      "fieldName": "office",
+      "dataTypeName": "text",
+      "description": "Account office number.",
+      "nullCount": 3,
+      "cardinality": 2425286
+    },
+    {
+      "name": "OFFICE NAME",
+      "fieldName": "office_name",
+      "dataTypeName": "text",
+      "description": "Account office name.",
+      "nullCount": 0,
+      "cardinality": 2425286
+    },
+    {
+      "name": "PROGRAM",
+      "fieldName": "program",
+      "dataTypeName": "text",
+      "description": "Account program number.",
+      "nullCount": 0,
+      "cardinality": 2425286
+    },
+    {
+      "name": "PROGRAM NAME",
+      "fieldName": "program_name",
+      "dataTypeName": "text",
+      "description": "Account program name.",
+      "nullCount": 0,
+      "cardinality": 2425286
+    },
+    {
+      "name": "OBJECT ACCOUNT",
+      "fieldName": "object_account",
+      "dataTypeName": "text",
+      "description": "Expense account number.",
+      "nullCount": 29,
+      "cardinality": 2425286
+    },
+    {
+      "name": "ACCOUNT NAME",
+      "fieldName": "account_name",
+      "dataTypeName": "text",
+      "description": "Expense account name.",
+      "nullCount": 29,
+      "cardinality": 2425286
+    },
+    {
+      "name": "PAYEE NUMBER",
+      "fieldName": "vendor_number",
+      "dataTypeName": "text",
+      "description": "Number assigned to vendor in internal system.",
+      "nullCount": 29,
+      "cardinality": 2425286
+    },
+    {
+      "name": "PAYEE VENDOR NAME",
+      "fieldName": "vendor_name",
+      "dataTypeName": "text",
+      "description": "Business name of supplier on contract.",
+      "nullCount": 29,
+      "cardinality": 2425286
+    },
+    {
+      "name": "CONTRACT NUMBER",
+      "fieldName": "contract_number",
+      "dataTypeName": "text",
+      "description": "Number assigned to contract.  Format is Fiscal Year + Buyer Number-NNNNN.  Fiscal Year is fiscal year contract is expected to be awarded.",
+      "nullCount": 806177,
+      "cardinality": 2425286
+    },
+    {
+      "name": "PURCHASE ORDER",
+      "fieldName": "po_number",
+      "dataTypeName": "text",
+      "description": "Internal system purchase order number.",
+      "nullCount": 96219,
+      "cardinality": 2425286
+    },
+    {
+      "name": "PO RELEASE NUMBER",
+      "fieldName": "bpa_release_num",
+      "dataTypeName": "text",
+      "description": "Encumbrance number for Blanket Purchase Order (if applicable). ",
+      "nullCount": 2064483,
+      "cardinality": 2425286
+    },
+    {
+      "name": "UNSPSC CODE",
+      "fieldName": "unspsc_code",
+      "dataTypeName": "text",
+      "description": "United Nations Standard Products and Services Code.",
+      "nullCount": 96217,
+      "cardinality": 2425286
+    },
+    {
+      "name": "UNSPSC DESCRIPTION",
+      "fieldName": "unspsc_desc",
+      "dataTypeName": "text",
+      "description": "Description for UNSPSC product/service code.",
+      "nullCount": 96217,
+      "cardinality": 2425286
+    },
+    {
+      "name": "ITEM NUMBER",
+      "fieldName": "item_number",
+      "dataTypeName": "text",
+      "description": "Cook County item number, if applicable.",
+      "nullCount": 1269673,
+      "cardinality": 2425286
+    },
+    {
+      "name": "ITEM DESCRIPTION",
+      "fieldName": "item_description",
+      "dataTypeName": "text",
+      "description": "Description of item number, if applicable.",
+      "nullCount": 1269673,
+      "cardinality": 2425286
+    },
+    {
+      "name": "INVOICE NUMBER",
+      "fieldName": "invoice_num",
+      "dataTypeName": "text",
+      "description": "Invoice number issued for goods/services received.",
+      "nullCount": 33,
+      "cardinality": 2425286
+    },
+    {
+      "name": "PAYMENT NUMBER",
+      "fieldName": "check_number",
+      "dataTypeName": "text",
+      "description": "Check number issued.",
+      "nullCount": 36,
+      "cardinality": 2425286
+    },
+    {
+      "name": "PAYMENT DATE",
+      "fieldName": "check_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date check issued.",
+      "nullCount": 36,
+      "cardinality": 2425286
+    },
+    {
+      "name": "PAYMENT AMOUNT",
+      "fieldName": "check_amount",
+      "dataTypeName": "number",
+      "description": "Total amount of check issued, USD.",
+      "nullCount": 36,
+      "cardinality": 2425286
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:55.424Z"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "2nra-kpzu",
+  "name": "FOIA Request Log - Zoning and Land Use Planning - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 414,
+  "rowCountSource": "cached",
+  "rowLabel": "Request",
+  "hasRowIdentifier": false,
+  "createdAt": 1271446219,
+  "publicationDate": 1302998589,
+  "rowsUpdatedAt": 1313894848,
+  "viewLastModified": 1486070903,
+  "viewCount": 5896,
+  "downloadCount": 12988,
+  "category": "FOIA",
+  "tags": [
+    "historical"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "May 2010 - December 2010",
+      "Frequency": "No longer updated",
+      "Data Owner": "Housing & Economic Development"
+    }
+  },
+  "columns": [
+    {
+      "name": " REQUESTOR NAME",
+      "fieldName": "requestor_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 335
+    },
+    {
+      "name": "ORGANIZATION",
+      "fieldName": "organization",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 79,
+      "cardinality": 245
+    },
+    {
+      "name": "DESCRIPTION OF REQUEST",
+      "fieldName": "description_of_request",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 15,
+      "cardinality": 399
+    },
+    {
+      "name": "DATE RECEIVED",
+      "fieldName": "date_received",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 135
+    },
+    {
+      "name": " DUE DATE ",
+      "fieldName": "due_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 7,
+      "cardinality": 134
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:03.354Z"
+}

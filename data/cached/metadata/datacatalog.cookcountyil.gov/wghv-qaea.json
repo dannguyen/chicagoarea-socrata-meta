@@ -1,0 +1,123 @@
+{
+  "id": "wghv-qaea",
+  "name": "Budget - FY19 Special Purpose Fund Projection",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 36,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1529600582,
+  "publicationDate": 1539727021,
+  "rowsUpdatedAt": 1539725449,
+  "viewLastModified": 1769548100,
+  "viewCount": 818,
+  "downloadCount": 1010,
+  "category": "Finance & Operations",
+  "tags": [
+    "budget",
+    "2019 budget",
+    "fy2019",
+    "inactive"
+  ],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Fund Number",
+      "fieldName": "fund_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 36
+    },
+    {
+      "name": "Description",
+      "fieldName": "description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 36
+    },
+    {
+      "name": "2017 Ending Fund Balance",
+      "fieldName": "_2017_ending_fund_balance",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 36
+    },
+    {
+      "name": "2018 Revised Revenue Estimate",
+      "fieldName": "_2018_revised_revenue_estimate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 35
+    },
+    {
+      "name": "2018 Estimated Total Resources",
+      "fieldName": "_2018_estimated_total_resources",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 36
+    },
+    {
+      "name": "2018 Estimated Expenditures",
+      "fieldName": "_2018_estimated_expenditures",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 36
+    },
+    {
+      "name": "2018 Projected Ending Balance",
+      "fieldName": "_2018_projected_ending_balance",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 36
+    },
+    {
+      "name": "2019 Revenue Estimate",
+      "fieldName": "_2019_revenue_estimate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 34
+    },
+    {
+      "name": "2019 Estimated Total Resources",
+      "fieldName": "_2019_estimated_total_resources",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 36
+    },
+    {
+      "name": "2019 Estimated Expenditures",
+      "fieldName": "_2019_estimated_expenditures",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 36
+    },
+    {
+      "name": "2019 Projected Ending Balance",
+      "fieldName": "_2019_projected_ending_balance",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 36
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:06.002Z"
+}

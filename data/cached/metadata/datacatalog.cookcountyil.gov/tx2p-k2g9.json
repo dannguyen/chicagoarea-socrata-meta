@@ -1,0 +1,1529 @@
+{
+  "id": "tx2p-k2g9",
+  "name": "Assessor [Archived 05-31-2023] - Parcel Universe",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 45089296,
+  "rowCountSource": "query",
+  "rowLabel": "Parcel",
+  "hasRowIdentifier": false,
+  "createdAt": 1650297351,
+  "publicationDate": 1674321013,
+  "rowsUpdatedAt": 1683661949,
+  "viewLastModified": 1769546003,
+  "viewCount": 10527,
+  "downloadCount": 12669,
+  "category": "Property & Taxation",
+  "tags": [
+    "cook county assessor",
+    "property tax"
+  ],
+  "attribution": "Cook County Assessor's Office",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Data Department"
+    },
+    "Source Details": {
+      "Source System": "iasWorld, Various 3rd-Party Data"
+    },
+    "Detailed Descriptive": {
+      "Temporal coverage": "1999-Present",
+      "Geographic coverage": "Countywide",
+      "Geographic unit": "Parcel"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Monthly",
+      "Publishing frequency": "Monthly"
+    }
+  },
+  "columns": [
+    {
+      "name": "pin",
+      "fieldName": "pin",
+      "dataTypeName": "text",
+      "description": "Parcel Identification Number (PIN)",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "pin10",
+      "fieldName": "pin10",
+      "dataTypeName": "text",
+      "description": "Parcel Identification Number (10-digit)",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "tax_year",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": "Tax year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "class",
+      "fieldName": "class",
+      "dataTypeName": "text",
+      "description": "Property class",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "triad_name",
+      "fieldName": "triad_name",
+      "dataTypeName": "text",
+      "description": "Triad name. Reassessment of property in Cook County is done within a triennial cycle, meaning it occurs every three years. The Cook County Assessor's Office alternates reassessments between triads: the north and west suburbs, the south and west suburbs and the City of Chicago.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "triad_code",
+      "fieldName": "triad_code",
+      "dataTypeName": "text",
+      "description": "Triad code. Reassessment of property in Cook County is done within a triennial cycle, meaning it occurs every three years. The Cook County Assessor's Office alternates reassessments between triads: the north and west suburbs, the south and west suburbs and the City of Chicago.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "township_name",
+      "fieldName": "township_name",
+      "dataTypeName": "text",
+      "description": "Township name",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "township_code",
+      "fieldName": "township_code",
+      "dataTypeName": "text",
+      "description": "Township code",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "neighborhood_code",
+      "fieldName": "nbhd_code",
+      "dataTypeName": "text",
+      "description": "Assessor neighborhood code, first two digits are township, last three are neighborhood",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "tax_district_code",
+      "fieldName": "tax_code",
+      "dataTypeName": "text",
+      "description": "Tax district code, as seen on individual property tax bills (Not currently up-to-date)",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "proration_key_pin",
+      "fieldName": "tieback_key_pin",
+      "dataTypeName": "text",
+      "description": "Tieback key PIN. Prorated properties (whose value is split across multiple PINs) have a \"main\" or key PIN",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "proration_rate",
+      "fieldName": "tieback_proration_rate",
+      "dataTypeName": "number",
+      "description": "Tieback proration rate. Prorated properties (whose value is split across multiple PINs) pay taxes on the proportion of value on their PIN. In other words, assessed value is multiplied by proration rate to determine taxable assessed value",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "longitude",
+      "fieldName": "lon",
+      "dataTypeName": "number",
+      "description": "Parcel centroid longitude",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "latitude",
+      "fieldName": "lat",
+      "dataTypeName": "number",
+      "description": "Parcel centroid latitude",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "centroid_x_crs_3435",
+      "fieldName": "x_3435",
+      "dataTypeName": "number",
+      "description": "Parcel centroid X coordinate (CRS 3435)",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "centroid_y_crs_3435",
+      "fieldName": "y_3435",
+      "dataTypeName": "number",
+      "description": "Parcel centroid Y coordinate (CRS 3435)",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "property_address",
+      "fieldName": "prop_address_full",
+      "dataTypeName": "text",
+      "description": "Property street address",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "property_city",
+      "fieldName": "prop_address_city_name",
+      "dataTypeName": "text",
+      "description": "Property city",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "property_state",
+      "fieldName": "prop_address_state",
+      "dataTypeName": "text",
+      "description": "Property state",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "property_zip",
+      "fieldName": "prop_address_zipcode_1",
+      "dataTypeName": "text",
+      "description": "Property zip code",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "mailing_name",
+      "fieldName": "mail_address_name",
+      "dataTypeName": "text",
+      "description": "Taxpayer mailing name",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "mail_address",
+      "fieldName": "mail_address_full",
+      "dataTypeName": "text",
+      "description": "Taxpayer mailing street address",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "mailing_city",
+      "fieldName": "mail_address_city_name",
+      "dataTypeName": "text",
+      "description": "Taxpayer mailing city",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "mailing_state",
+      "fieldName": "mail_address_state",
+      "dataTypeName": "text",
+      "description": "Taxpayer mailing state",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "mailing_zip",
+      "fieldName": "mail_address_zipcode_1",
+      "dataTypeName": "text",
+      "description": "Taxpayer mailing zip code",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_block_group_geoid",
+      "fieldName": "census_block_group_geoid",
+      "dataTypeName": "text",
+      "description": "Census block group GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_block_geoid",
+      "fieldName": "census_block_geoid",
+      "dataTypeName": "text",
+      "description": "Census block GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_congressional_district_geoid",
+      "fieldName": "census_congressional_district_geoid",
+      "dataTypeName": "text",
+      "description": "Census congressional district GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_county_subdivision_geoid",
+      "fieldName": "census_county_subdivision_geoid",
+      "dataTypeName": "text",
+      "description": "Census county subdivision GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_place_geoid",
+      "fieldName": "census_place_geoid",
+      "dataTypeName": "text",
+      "description": "Census place GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_puma_geoid",
+      "fieldName": "census_puma_geoid",
+      "dataTypeName": "text",
+      "description": "Census PUMA GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_school_district_elementary_geoid",
+      "fieldName": "census_school_district_elementary_geoid",
+      "dataTypeName": "text",
+      "description": "Census school district (elementary) GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_school_district_secondary_geoid",
+      "fieldName": "census_school_district_secondary_geoid",
+      "dataTypeName": "text",
+      "description": "Census school district (secondary) GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_school_district_unified_geoid",
+      "fieldName": "census_school_district_unified_geoid",
+      "dataTypeName": "text",
+      "description": "Census school district (unified) GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_state_representative_geoid",
+      "fieldName": "census_state_representative_geoid",
+      "dataTypeName": "text",
+      "description": "Census state representative GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_state_senate_geoid",
+      "fieldName": "census_state_senate_geoid",
+      "dataTypeName": "text",
+      "description": "Census state senate GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_tract_geoid",
+      "fieldName": "census_tract_geoid",
+      "dataTypeName": "text",
+      "description": "Census tract GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_zcta_geoid",
+      "fieldName": "census_zcta_geoid",
+      "dataTypeName": "text",
+      "description": "Census ZCTA GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_data_year",
+      "fieldName": "census_data_year",
+      "dataTypeName": "number",
+      "description": "Census data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_acs5_congressional_district_geoid",
+      "fieldName": "census_acs5_congressional_district_geoid",
+      "dataTypeName": "text",
+      "description": "Census ACS5 congressional district GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_acs5_county_subdivision_geoid",
+      "fieldName": "census_acs5_county_subdivision_geoid",
+      "dataTypeName": "text",
+      "description": "Census ACS5 county subdivision GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_acs5_place_geoid",
+      "fieldName": "census_acs5_place_geoid",
+      "dataTypeName": "text",
+      "description": "Census ACS5 place GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_acs5_puma_geoid",
+      "fieldName": "census_acs5_puma_geoid",
+      "dataTypeName": "text",
+      "description": "Census ACS5 PUMA GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_acs5_school_district_elementary_geoid",
+      "fieldName": "census_acs5_school_district_elementary_geoid",
+      "dataTypeName": "text",
+      "description": "Census ACS5 school district (elementary) GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_acs5_school_district_secondary_geoid",
+      "fieldName": "census_acs5_school_district_secondary_geoid",
+      "dataTypeName": "text",
+      "description": "Census ACS5 school district (secondary) GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_acs5_school_district_unified_geoid",
+      "fieldName": "census_acs5_school_district_unified_geoid",
+      "dataTypeName": "text",
+      "description": "Census ACS5 school district (unified) GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_acs5_state_representative_geoid",
+      "fieldName": "census_acs5_state_representative_geoid",
+      "dataTypeName": "text",
+      "description": "Census ACS5 state representative GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_acs5_state_senate_geoid",
+      "fieldName": "census_acs5_state_senate_geoid",
+      "dataTypeName": "text",
+      "description": "Census ACS5 state senate GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_acs5_tract_geoid",
+      "fieldName": "census_acs5_tract_geoid",
+      "dataTypeName": "text",
+      "description": "Census ACS5 tract GEOID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "census_acs5_data_year",
+      "fieldName": "census_acs5_data_year",
+      "dataTypeName": "number",
+      "description": "Census ACS5 data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "board_of_review_district_num",
+      "fieldName": "cook_board_of_review_district_num",
+      "dataTypeName": "text",
+      "description": "Board of Review district number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "board_of_review_district_data_year",
+      "fieldName": "cook_board_of_review_district_data_year",
+      "dataTypeName": "number",
+      "description": "Board of Review district data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "commissioner_district_num",
+      "fieldName": "cook_commissioner_district_num",
+      "dataTypeName": "text",
+      "description": "Commissioner district number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "commissioner_district_data_year",
+      "fieldName": "cook_commissioner_district_data_year",
+      "dataTypeName": "number",
+      "description": "Commissioner district data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "judicial_district_num",
+      "fieldName": "cook_judicial_district_num",
+      "dataTypeName": "text",
+      "description": "Judicial district number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "judicial_district_data_year",
+      "fieldName": "cook_judicial_district_data_year",
+      "dataTypeName": "number",
+      "description": "Judicial district data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "municipality_num",
+      "fieldName": "cook_municipality_num",
+      "dataTypeName": "text",
+      "description": "Municipality number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "municipality_name",
+      "fieldName": "cook_municipality_name",
+      "dataTypeName": "text",
+      "description": "Municipality name",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "municipality_data_year",
+      "fieldName": "cook_municipality_data_year",
+      "dataTypeName": "number",
+      "description": "Municipality data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "ward_num",
+      "fieldName": "ward_num",
+      "dataTypeName": "text",
+      "description": "Ward number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "ward_data_year",
+      "fieldName": "ward_data_year",
+      "dataTypeName": "number",
+      "description": "Ward data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "chicago_community_area_num",
+      "fieldName": "chicago_community_area_num",
+      "dataTypeName": "text",
+      "description": "Chicago community area number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "chicago_community_area_name",
+      "fieldName": "chicago_community_area_name",
+      "dataTypeName": "text",
+      "description": "Chicago community area name",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "chicago_community_area_data_year",
+      "fieldName": "chicago_community_area_data_year",
+      "dataTypeName": "number",
+      "description": "Chicago community area data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "chicago_industrial_corridor_num",
+      "fieldName": "chicago_industrial_corridor_num",
+      "dataTypeName": "text",
+      "description": "Chicago industrial corridor number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "chicago_industrial_corridor_name",
+      "fieldName": "chicago_industrial_corridor_name",
+      "dataTypeName": "text",
+      "description": "Chicago industrial corridor name",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "chicago_industrial_corridor_data_year",
+      "fieldName": "chicago_industrial_corridor_data_year",
+      "dataTypeName": "number",
+      "description": "Chicago industrial corridor data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "chicago_police_district_num",
+      "fieldName": "chicago_police_district_num",
+      "dataTypeName": "text",
+      "description": "Chicago police district number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "chicago_police_district_data_year",
+      "fieldName": "chicago_police_district_data_year",
+      "dataTypeName": "number",
+      "description": "Chicago police district data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "coordinated_care_area_num",
+      "fieldName": "econ_coordinated_care_area_num",
+      "dataTypeName": "text",
+      "description": "Coordinated Care Area number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "coordinated_care_area_data_year",
+      "fieldName": "econ_coordinated_care_area_data_year",
+      "dataTypeName": "number",
+      "description": "Coordinated Care Area data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "enterprise_zone_num",
+      "fieldName": "econ_enterprise_zone_num",
+      "dataTypeName": "text",
+      "description": "Enterprise Zone number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "enterprise_zone_data_year",
+      "fieldName": "econ_enterprise_zone_data_year",
+      "dataTypeName": "number",
+      "description": "Enterprise Zone data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "industrial_growth_zone_num",
+      "fieldName": "econ_industrial_growth_zone_num",
+      "dataTypeName": "text",
+      "description": "Industrial Growth Zone number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "industrial_growth_zone_data_year",
+      "fieldName": "econ_industrial_growth_zone_data_year",
+      "dataTypeName": "number",
+      "description": "Industrial Growth Zone data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "qualified_opportunity_zone_num",
+      "fieldName": "econ_qualified_opportunity_zone_num",
+      "dataTypeName": "text",
+      "description": "Qualified Opportunity Zone number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "qualified_opportunity_zone_data_year",
+      "fieldName": "econ_qualified_opportunity_zone_data_year",
+      "dataTypeName": "number",
+      "description": "Qualified Opportunity Zone data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "flood_fema_sfha",
+      "fieldName": "env_flood_fema_sfha",
+      "dataTypeName": "checkbox",
+      "description": "FEMA Special Flood Hazard Area (SFHA) indicator",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "flood_fema_data_year",
+      "fieldName": "env_flood_fema_data_year",
+      "dataTypeName": "number",
+      "description": "FEMA Special Flood Hazard Area (SFHA) data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "flood_fs_factor",
+      "fieldName": "env_flood_fs_factor",
+      "dataTypeName": "number",
+      "description": "First Street Flood Factor",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "flood_fs_risk_direction",
+      "fieldName": "env_flood_fs_risk_direction",
+      "dataTypeName": "number",
+      "description": "First Street flood risk direction",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "flood_fs_data_year",
+      "fieldName": "env_flood_fs_data_year",
+      "dataTypeName": "number",
+      "description": "First Street data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "ohare_noise_contour_no_buffer_bool",
+      "fieldName": "env_ohare_noise_contour_no_buffer_bool",
+      "dataTypeName": "checkbox",
+      "description": "O'Hare noise contour indicator (no buffer). Indicates whether or not a parcel's centroid is within O'Hare's 65 DNL noise contour",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "ohare_noise_contour_half_mile_buffer_bool",
+      "fieldName": "env_ohare_noise_contour_half_mile_buffer_bool",
+      "dataTypeName": "checkbox",
+      "description": "O'Hare noise contour indicator (1/2 mile buffer). Indicates whether or not a parcel's centroid is within O'Hare's 65 DNL noise contour, buffered by 1/2 mile",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "ohare_noise_contour_data_year",
+      "fieldName": "env_ohare_noise_contour_data_year",
+      "dataTypeName": "number",
+      "description": "O'Hare noise contour data year. The \"omp\" value corresponds to the projected noise contour upon completion of the O'Hare Modernization Project",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "airport_noise_dnl",
+      "fieldName": "env_airport_noise_dnl",
+      "dataTypeName": "number",
+      "description": "Airport continuous noise surface estimated DNL",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "airport_noise_data_year",
+      "fieldName": "env_airport_noise_data_year",
+      "dataTypeName": "text",
+      "description": "Airport continuous noise surface estimated data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "school_elementary_district_geoid",
+      "fieldName": "school_elementary_district_geoid",
+      "dataTypeName": "text",
+      "description": "School district (elementary) GEOID. Chicago Public Schools are associated with attendance areas where suburban schools are associated with districts.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "school_elementary_district_name",
+      "fieldName": "school_elementary_district_name",
+      "dataTypeName": "text",
+      "description": "School district (elementary) name. Chicago Public Schools are associated with attendance areas where suburban schools are associated with districts.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "school_secondary_district_geoid",
+      "fieldName": "school_secondary_district_geoid",
+      "dataTypeName": "text",
+      "description": "School district (secondary) GEOID. Chicago Public Schools are associated with attendance areas where suburban schools are associated with districts.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "school_secondary_district_name",
+      "fieldName": "school_secondary_district_name",
+      "dataTypeName": "text",
+      "description": "School district (secondary) name. Chicago Public Schools are associated with attendance areas where suburban schools are associated with districts.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "school_unified_district_geoid",
+      "fieldName": "school_unified_district_geoid",
+      "dataTypeName": "text",
+      "description": "School district (unified) GEOID. Chicago Public Schools are associated with attendance areas where suburban schools are associated with districts.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "school_unified_district_name",
+      "fieldName": "school_unified_district_name",
+      "dataTypeName": "text",
+      "description": "School district (unified) name. Chicago Public Schools are associated with attendance areas where suburban schools are associated with districts.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "school_year",
+      "fieldName": "school_school_year",
+      "dataTypeName": "text",
+      "description": "School year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "school_data_year",
+      "fieldName": "school_data_year",
+      "dataTypeName": "number",
+      "description": "School data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "community_college_district_num",
+      "fieldName": "tax_community_college_district",
+      "dataTypeName": "text",
+      "description": "Community college district number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "community_college_district_name",
+      "fieldName": "tax_community_college_district_name",
+      "dataTypeName": "text",
+      "description": "Community college district name",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "community_college_district_data_year",
+      "fieldName": "tax_community_college_district_data_year",
+      "dataTypeName": "number",
+      "description": "Community College district data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "fire_protection_district_num",
+      "fieldName": "tax_fire_protection_district_num",
+      "dataTypeName": "text",
+      "description": "Fire protection district number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "fire_protection_district_name",
+      "fieldName": "tax_fire_protection_district_name",
+      "dataTypeName": "text",
+      "description": "Fire protection district name",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "fire_protection_district_data_year",
+      "fieldName": "tax_fire_protection_district_data_year",
+      "dataTypeName": "number",
+      "description": "Fire protection district data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "library_district_num",
+      "fieldName": "tax_library_district_num",
+      "dataTypeName": "text",
+      "description": "Library district number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "library_district_name",
+      "fieldName": "tax_library_district_name",
+      "dataTypeName": "text",
+      "description": "Library district name",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "library_district_data_year",
+      "fieldName": "tax_library_district_data_year",
+      "dataTypeName": "number",
+      "description": "Library district data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "park_district_num",
+      "fieldName": "tax_park_district_num",
+      "dataTypeName": "text",
+      "description": "Park district number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "park_district_name",
+      "fieldName": "tax_park_district_name",
+      "dataTypeName": "text",
+      "description": "Park district name",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "park_district_data_year",
+      "fieldName": "tax_park_district_data_year",
+      "dataTypeName": "number",
+      "description": "Park district data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "sanitation_district_num",
+      "fieldName": "tax_sanitation_district_num",
+      "dataTypeName": "text",
+      "description": "Sanitation district number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "sanitation_district_name",
+      "fieldName": "tax_sanitation_district_name",
+      "dataTypeName": "text",
+      "description": "Sanitation district name",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "sanitation_district_data_year",
+      "fieldName": "tax_sanitation_district_data_year",
+      "dataTypeName": "number",
+      "description": "Sanitation district data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "special_service_area_num",
+      "fieldName": "tax_special_service_area_num",
+      "dataTypeName": "text",
+      "description": "Special Service Area number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "special_service_area_name",
+      "fieldName": "tax_special_service_area_name",
+      "dataTypeName": "text",
+      "description": "Special Service Area name",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "special_service_area_data_year",
+      "fieldName": "tax_special_service_area_data_year",
+      "dataTypeName": "number",
+      "description": "Special Service Area data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "tif_district_num",
+      "fieldName": "tax_tif_district_num",
+      "dataTypeName": "text",
+      "description": "TIF district number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "tif_district_name",
+      "fieldName": "tax_tif_district_name",
+      "dataTypeName": "text",
+      "description": "TIF district name",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "tif_district_data_year",
+      "fieldName": "tax_tif_district_data_year",
+      "dataTypeName": "number",
+      "description": "TIF district data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "cmap_walkability_grid_id",
+      "fieldName": "access_cmap_walk_id",
+      "dataTypeName": "text",
+      "description": "CMAP walkability grid ID. From CMAP's ON TO 2050 spatial data files",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "cmap_walkability_no_transit_score",
+      "fieldName": "access_cmap_walk_nta_score",
+      "dataTypeName": "number",
+      "description": "CMAP walkability score (no transit). From CMAP's ON TO 2050 spatial data files",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "cmap_walkability_total_score",
+      "fieldName": "access_cmap_walk_total_score",
+      "dataTypeName": "number",
+      "description": "CMAP walkability total score. From CMAP's ON TO 2050 spatial data files",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "cmap_walkability_data_year",
+      "fieldName": "access_cmap_walk_data_year",
+      "dataTypeName": "number",
+      "description": "CMAP walkability data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "subdivision_id",
+      "fieldName": "misc_subdivision_id",
+      "dataTypeName": "text",
+      "description": "Subdivision ID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "subdivision_data_year",
+      "fieldName": "misc_subdivision_data_year",
+      "dataTypeName": "number",
+      "description": "Subdivision data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "num_pin_in_half_mile",
+      "fieldName": "num_pin_in_half_mile",
+      "dataTypeName": "number",
+      "description": "Number of PINs in half mile",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "num_bus_stop_in_half_mile",
+      "fieldName": "num_bus_stop_in_half_mile",
+      "dataTypeName": "number",
+      "description": "Number of bus stops in half mile, including CTA and PACE",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "num_bus_stop_data_year",
+      "fieldName": "num_bus_stop_data_year",
+      "dataTypeName": "number",
+      "description": "Number of bus stops data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "num_foreclosure_in_half_mile_past_5_years",
+      "fieldName": "num_foreclosure_in_half_mile_past_5_years",
+      "dataTypeName": "number",
+      "description": "Number of foreclosures in half mile (past 5 years), sourced from Illinois Public Records, reported on a long lag",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "num_foreclosure_per_1000_pin_past_5_years",
+      "fieldName": "num_foreclosure_per_1000_pin_past_5_years",
+      "dataTypeName": "number",
+      "description": "Number of foreclosures per 1000 PINs (past 5 years), sourced from Illinois Public Records, reported on a long lag",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "num_foreclosure_data_year",
+      "fieldName": "num_foreclosure_data_year",
+      "dataTypeName": "text",
+      "description": "Number of foreclosures data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "num_school_in_half_mile",
+      "fieldName": "num_school_in_half_mile",
+      "dataTypeName": "number",
+      "description": "Number of schools in half mile, sourced from GreatSchools",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "num_school_data_year",
+      "fieldName": "num_school_data_year",
+      "dataTypeName": "number",
+      "description": "Number of schools data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_bike_trail_id",
+      "fieldName": "nearest_bike_trail_id",
+      "dataTypeName": "text",
+      "description": "Nearest bike trail ID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_bike_trail_name",
+      "fieldName": "nearest_bike_trail_name",
+      "dataTypeName": "text",
+      "description": "Nearest bike trail name",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_bike_trail_dist_ft",
+      "fieldName": "nearest_bike_trail_dist_ft",
+      "dataTypeName": "number",
+      "description": "Nearest bike trail distance (feet)",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_bike_trail_data_year",
+      "fieldName": "nearest_bike_trail_data_year",
+      "dataTypeName": "number",
+      "description": "Nearest bike trail data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_cemetery_gnis_code",
+      "fieldName": "nearest_cemetery_gnis_code",
+      "dataTypeName": "text",
+      "description": "Nearest cemetery GNIS code",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_cemetery_name",
+      "fieldName": "nearest_cemetery_name",
+      "dataTypeName": "text",
+      "description": "Nearest cemetery name",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_cemetery_dist_ft",
+      "fieldName": "nearest_cemetery_dist_ft",
+      "dataTypeName": "number",
+      "description": "Nearest cemetery distance (feet)",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_cemetery_data_year",
+      "fieldName": "nearest_cemetery_data_year",
+      "dataTypeName": "number",
+      "description": "Nearest cemetery data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_cta_route_id",
+      "fieldName": "nearest_cta_route_id",
+      "dataTypeName": "text",
+      "description": "Nearest CTA route ID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_cta_route_name",
+      "fieldName": "nearest_cta_route_name",
+      "dataTypeName": "text",
+      "description": "Nearest CTA route name",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_cta_route_dist_ft",
+      "fieldName": "nearest_cta_route_dist_ft",
+      "dataTypeName": "number",
+      "description": "Nearest CTA route distance (feet)",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_cta_route_data_year",
+      "fieldName": "nearest_cta_route_data_year",
+      "dataTypeName": "number",
+      "description": "Nearest CTA route data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_cta_stop_id",
+      "fieldName": "nearest_cta_stop_id",
+      "dataTypeName": "text",
+      "description": "Nearest CTA stop ID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_cta_stop_name",
+      "fieldName": "nearest_cta_stop_name",
+      "dataTypeName": "text",
+      "description": "Nearest CTA stop name",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_cta_stop_dist_ft",
+      "fieldName": "nearest_cta_stop_dist_ft",
+      "dataTypeName": "number",
+      "description": "Nearest CTA stop distance (feet)",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_cta_stop_data_year",
+      "fieldName": "nearest_cta_stop_data_year",
+      "dataTypeName": "number",
+      "description": "Nearest CTA stop data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_golf_course_id",
+      "fieldName": "nearest_golf_course_id",
+      "dataTypeName": "text",
+      "description": "Nearest golf course ID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_golf_course_dist_ft",
+      "fieldName": "nearest_golf_course_dist_ft",
+      "dataTypeName": "number",
+      "description": "Nearest golf course distance (feet)",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_golf_course_data_year",
+      "fieldName": "nearest_golf_course_data_year",
+      "dataTypeName": "number",
+      "description": "Nearest golf course data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_hospital_gnis_code",
+      "fieldName": "nearest_hospital_gnis_code",
+      "dataTypeName": "text",
+      "description": "Nearest hospital GNIS code",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_hospital_name",
+      "fieldName": "nearest_hospital_name",
+      "dataTypeName": "text",
+      "description": "Nearest hospital name",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_hospital_dist_ft",
+      "fieldName": "nearest_hospital_dist_ft",
+      "dataTypeName": "number",
+      "description": "Nearest hospital distance (feet)",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_hospital_data_year",
+      "fieldName": "nearest_hospital_data_year",
+      "dataTypeName": "number",
+      "description": "Nearest hospital data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "lake_michigan_dist_ft",
+      "fieldName": "lake_michigan_dist_ft",
+      "dataTypeName": "number",
+      "description": "Lake Michigan distance (feet)",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "lake_michigan_data_year",
+      "fieldName": "lake_michigan_data_year",
+      "dataTypeName": "number",
+      "description": "Lake Michigan data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_major_road_osm_id",
+      "fieldName": "nearest_major_road_osm_id",
+      "dataTypeName": "text",
+      "description": "Nearest major road OSM ID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_major_road_name",
+      "fieldName": "nearest_major_road_name",
+      "dataTypeName": "text",
+      "description": "Nearest major road name",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_major_road_dist_ft",
+      "fieldName": "nearest_major_road_dist_ft",
+      "dataTypeName": "number",
+      "description": "Nearest major road distance (feet)",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_major_road_data_year",
+      "fieldName": "nearest_major_road_data_year",
+      "dataTypeName": "number",
+      "description": "Nearest major road data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_metra_route_id",
+      "fieldName": "nearest_metra_route_id",
+      "dataTypeName": "text",
+      "description": "Nearest Metra route ID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_metra_route_name",
+      "fieldName": "nearest_metra_route_name",
+      "dataTypeName": "text",
+      "description": "Nearest Metra route name",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_metra_route_dist_ft",
+      "fieldName": "nearest_metra_route_dist_ft",
+      "dataTypeName": "number",
+      "description": "Nearest Metra route distance (feet)",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_metra_route_data_year",
+      "fieldName": "nearest_metra_route_data",
+      "dataTypeName": "number",
+      "description": "Nearest Metra route data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_metra_stop_id",
+      "fieldName": "nearest_metra_stop_id",
+      "dataTypeName": "text",
+      "description": "Nearest Metra stop ID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_metra_stop_name",
+      "fieldName": "nearest_metra_stop_name",
+      "dataTypeName": "text",
+      "description": "Nearest Metra stop name",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_metra_stop_dist_ft",
+      "fieldName": "nearest_metra_stop_dist_ft",
+      "dataTypeName": "number",
+      "description": "Nearest Metra stop distance (feet)",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_metra_stop_data_year",
+      "fieldName": "nearest_metra_stop_data_year",
+      "dataTypeName": "number",
+      "description": "Nearest Metra stop data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_park_osm_id",
+      "fieldName": "nearest_park_osm_id",
+      "dataTypeName": "text",
+      "description": "Nearest park OSM ID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_park_name",
+      "fieldName": "nearest_park_name",
+      "dataTypeName": "text",
+      "description": "Nearest park name",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_park_dist_ft",
+      "fieldName": "nearest_park_dist_ft",
+      "dataTypeName": "number",
+      "description": "Nearest park distance (feet)",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_park_data_year",
+      "fieldName": "nearest_park_data_year",
+      "dataTypeName": "number",
+      "description": "Nearest park data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_railroad_id",
+      "fieldName": "nearest_railroad_id",
+      "dataTypeName": "text",
+      "description": "Nearest railroad ID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_railroad_name",
+      "fieldName": "nearest_railroad_name",
+      "dataTypeName": "text",
+      "description": "Nearest railroad name",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_railroad_dist_ft",
+      "fieldName": "nearest_railroad_dist_ft",
+      "dataTypeName": "number",
+      "description": "Nearest railroad distance (feet)",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_railroad_data_year",
+      "fieldName": "nearest_railroad_data_year",
+      "dataTypeName": "number",
+      "description": "Nearest railroad data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_water_id",
+      "fieldName": "nearest_water_id",
+      "dataTypeName": "text",
+      "description": "Nearest water ID",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_water_name",
+      "fieldName": "nearest_water_name",
+      "dataTypeName": "text",
+      "description": "Nearest water name",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_water_dist_ft",
+      "fieldName": "nearest_water_dist_ft",
+      "dataTypeName": "number",
+      "description": "Nearest water distance (feet)",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_water_data_year",
+      "fieldName": "nearest_water_data_year",
+      "dataTypeName": "number",
+      "description": "Nearest water data year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_neighbor_1_pin10",
+      "fieldName": "nearest_neighbor_1_pin10",
+      "dataTypeName": "text",
+      "description": "Nearest neighbor 1 (PIN10)",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_neighbor_1_dist_ft",
+      "fieldName": "nearest_neighbor_1_dist_ft",
+      "dataTypeName": "number",
+      "description": "Nearest neighbor 1 distance (feet)",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_neighbor_2_pin10",
+      "fieldName": "nearest_neighbor_2_pin10",
+      "dataTypeName": "text",
+      "description": "Nearest neighbor 2 (PIN10)",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_neighbor_2_dist_ft",
+      "fieldName": "nearest_neighbor_2_dist_ft",
+      "dataTypeName": "number",
+      "description": "Nearest neighbor 2 distance (feet)",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_neighbor_3_pin10",
+      "fieldName": "nearest_neighbor_3_pin10",
+      "dataTypeName": "text",
+      "description": "Nearest neighbor 3 (PIN10)",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nearest_neighbor_3_dist_ft",
+      "fieldName": "nearest_neighbor_3_dist_ft",
+      "dataTypeName": "number",
+      "description": "Nearest neighbor 3 distance (feet)",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:50.860Z"
+}

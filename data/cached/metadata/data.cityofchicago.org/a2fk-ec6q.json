@@ -1,0 +1,378 @@
+{
+  "id": "a2fk-ec6q",
+  "name": "Census Data - Languages spoken in Chicago, 2008 – 2012",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 78,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1325778035,
+  "publicationDate": 1410556362,
+  "rowsUpdatedAt": 1410556180,
+  "viewLastModified": 1788212941,
+  "viewCount": 31974,
+  "downloadCount": 14182,
+  "category": "Health & Human Services",
+  "tags": [
+    "english",
+    "spanish",
+    "language",
+    "census",
+    "federal"
+  ],
+  "attribution": "U.S. Census Bureau",
+  "attributionLink": "http://factfinder2.census.gov/",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2008 - 2012",
+      "Frequency": "Updated as new data becomes available",
+      "Data Owner": "Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "Community Area",
+      "fieldName": "community_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 78
+    },
+    {
+      "name": "Community Area Name",
+      "fieldName": "community_area_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 78
+    },
+    {
+      "name": "PREDOMINANT NON-ENGLISH LANGUAGE (%)",
+      "fieldName": "predominant_non_english_language_",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 65
+    },
+    {
+      "name": "AFRICAN LANGUAGES",
+      "fieldName": "african_languages",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 36
+    },
+    {
+      "name": "ARABIC",
+      "fieldName": "arabic",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 40
+    },
+    {
+      "name": "ARMENIAN",
+      "fieldName": "armenian",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11
+    },
+    {
+      "name": "CAMBODIAN (MON-KHMER)",
+      "fieldName": "cambodian_mon_khmer_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11
+    },
+    {
+      "name": "CHINESE",
+      "fieldName": "chinese",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 48
+    },
+    {
+      "name": "CREOLE",
+      "fieldName": "creole",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "FRENCH",
+      "fieldName": "french",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 39
+    },
+    {
+      "name": "GERMAN",
+      "fieldName": "german",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 33
+    },
+    {
+      "name": "GREEK",
+      "fieldName": "greek",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 29
+    },
+    {
+      "name": "GUJARATI",
+      "fieldName": "gujarati",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 18
+    },
+    {
+      "name": "HEBREW",
+      "fieldName": "hebrew",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 13
+    },
+    {
+      "name": "HINDI",
+      "fieldName": "hindi",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24
+    },
+    {
+      "name": "HMONG",
+      "fieldName": "hmong",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "HUNGARIAN",
+      "fieldName": "hungarian",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 14
+    },
+    {
+      "name": "ITALIAN",
+      "fieldName": "italian",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 34
+    },
+    {
+      "name": "JAPANESE",
+      "fieldName": "japanese",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 26
+    },
+    {
+      "name": "KOREAN",
+      "fieldName": "korean",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 37
+    },
+    {
+      "name": "LAOTIAN",
+      "fieldName": "laotian",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "NAVAJO",
+      "fieldName": "navajo",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "OTHER ASIAN",
+      "fieldName": "other_asian",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 32
+    },
+    {
+      "name": "OTHER INDIC",
+      "fieldName": "other_indic",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 16
+    },
+    {
+      "name": "OTHER INDO EURPOEAN",
+      "fieldName": "other_indo_eurpoean",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 40
+    },
+    {
+      "name": "OTHER NATIVE NORTH AMERICAN",
+      "fieldName": "other_native_north_american",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "OTHER PACIFIC ISLAND",
+      "fieldName": "other_pacific_island",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 16
+    },
+    {
+      "name": "OTHER SLAVIC",
+      "fieldName": "other_slavic",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 33
+    },
+    {
+      "name": "OTHER WEST GERMANIC",
+      "fieldName": "other_west_germanic",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "PERSIAN",
+      "fieldName": "persian",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 13
+    },
+    {
+      "name": "POLISH",
+      "fieldName": "polish",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 55
+    },
+    {
+      "name": "PORTUGUESE",
+      "fieldName": "portuguese",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 18
+    },
+    {
+      "name": "RUSSIAN",
+      "fieldName": "russian",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 35
+    },
+    {
+      "name": "SCANDINAVIAN",
+      "fieldName": "scandinavian",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "SERBO-CROATIAN",
+      "fieldName": "serbo_croatian",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 37
+    },
+    {
+      "name": "SPANISH",
+      "fieldName": "spanish",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": "TAGALOG",
+      "fieldName": "tagalog",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 46
+    },
+    {
+      "name": "THAI",
+      "fieldName": "thai",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 27
+    },
+    {
+      "name": "UNSPECIFIED",
+      "fieldName": "unspecified",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 16
+    },
+    {
+      "name": "URDU",
+      "fieldName": "urdu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 23
+    },
+    {
+      "name": "VIETNAMESE",
+      "fieldName": "vietnamese",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 26
+    },
+    {
+      "name": "YIDDISH",
+      "fieldName": "yiddish",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:07.354Z"
+}

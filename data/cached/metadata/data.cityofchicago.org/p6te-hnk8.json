@@ -1,0 +1,77 @@
+{
+  "id": "p6te-hnk8",
+  "name": "Chicago Public Schools - High School Geographic Networks (Deprecated August 2021)",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 4,
+  "rowCountSource": "cached",
+  "rowLabel": "Geographic Network",
+  "hasRowIdentifier": false,
+  "createdAt": 1564688568,
+  "publicationDate": 1564692035,
+  "rowsUpdatedAt": 1564692035,
+  "viewLastModified": 1641936258,
+  "viewCount": 884,
+  "downloadCount": 1467,
+  "category": "Education",
+  "tags": [
+    "high school",
+    "cps",
+    "2019",
+    "2020",
+    "schools",
+    "geo_layer",
+    "gis",
+    "deprecated"
+  ],
+  "attribution": "Chicago Public Schools",
+  "attributionLink": "https://cps.edu",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Current as of August 2019",
+      "Frequency": "None",
+      "Data Owner": "Adam Jentleson"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "OBJECTID",
+      "fieldName": "objectid",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "NetworkNum",
+      "fieldName": "networknum",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "NetworkNam",
+      "fieldName": "networknam",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:21.672Z"
+}

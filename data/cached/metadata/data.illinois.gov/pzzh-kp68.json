@@ -1,0 +1,280 @@
+{
+  "id": "pzzh-kp68",
+  "name": "Professional Licensing",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 4572745,
+  "rowCountSource": "cached",
+  "rowLabel": "license transaction",
+  "hasRowIdentifier": false,
+  "createdAt": 1710250620,
+  "publicationDate": 1736300405,
+  "rowsUpdatedAt": 1791971919,
+  "viewLastModified": 1744476071,
+  "viewCount": 2781052,
+  "downloadCount": 64242,
+  "category": "Business and Workforce",
+  "tags": [
+    "licenses"
+  ],
+  "attribution": "IDFPR",
+  "attributionLink": null,
+  "licenseId": "ODBL",
+  "license": "Open Data Commons Open Database License",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Financial and Professional Regulation"
+    },
+    "Data Management": {
+      "Maintainer": "State Data Practice",
+      "Maintainer Email": "doit.sdp.support@illinois.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "License Type",
+      "fieldName": "license_type",
+      "dataTypeName": "text",
+      "description": "The category or class of the professional license (e.g., medical, dental, nursing).",
+      "nullCount": 0,
+      "cardinality": 4572745
+    },
+    {
+      "name": "Description",
+      "fieldName": "description",
+      "dataTypeName": "text",
+      "description": "Description",
+      "nullCount": 0,
+      "cardinality": 4572745
+    },
+    {
+      "name": "License Number",
+      "fieldName": "license_number",
+      "dataTypeName": "text",
+      "description": "License Number",
+      "nullCount": 0,
+      "cardinality": 4572745
+    },
+    {
+      "name": "License Status",
+      "fieldName": "license_status",
+      "dataTypeName": "text",
+      "description": "License Status",
+      "nullCount": 0,
+      "cardinality": 4572745
+    },
+    {
+      "name": "Business",
+      "fieldName": "business",
+      "dataTypeName": "text",
+      "description": "Business",
+      "nullCount": 0,
+      "cardinality": 4572745
+    },
+    {
+      "name": "Title",
+      "fieldName": "title",
+      "dataTypeName": "text",
+      "description": "Title",
+      "nullCount": 0,
+      "cardinality": 4572745
+    },
+    {
+      "name": "First Name",
+      "fieldName": "first_name",
+      "dataTypeName": "text",
+      "description": "First Name",
+      "nullCount": 0,
+      "cardinality": 4572745
+    },
+    {
+      "name": "Middle",
+      "fieldName": "middle",
+      "dataTypeName": "text",
+      "description": "Middle",
+      "nullCount": 0,
+      "cardinality": 4572745
+    },
+    {
+      "name": "Last Name",
+      "fieldName": "last_name",
+      "dataTypeName": "text",
+      "description": "Last Name",
+      "nullCount": 0,
+      "cardinality": 4572745
+    },
+    {
+      "name": "Prefix",
+      "fieldName": "prefix",
+      "dataTypeName": "text",
+      "description": "Prefix",
+      "nullCount": 0,
+      "cardinality": 4572745
+    },
+    {
+      "name": "Suffix",
+      "fieldName": "suffix",
+      "dataTypeName": "text",
+      "description": "Suffix",
+      "nullCount": 0,
+      "cardinality": 4572745
+    },
+    {
+      "name": "Business Name",
+      "fieldName": "business_name",
+      "dataTypeName": "text",
+      "description": "Business Name",
+      "nullCount": 0,
+      "cardinality": 4572745
+    },
+    {
+      "name": "BusinessDBA",
+      "fieldName": "businessdba",
+      "dataTypeName": "text",
+      "description": "BusinessDBA",
+      "nullCount": 0,
+      "cardinality": 4572745
+    },
+    {
+      "name": "Original Issue Date",
+      "fieldName": "original_issue_date",
+      "dataTypeName": "text",
+      "description": "Original Issue Date",
+      "nullCount": 16900,
+      "cardinality": 4572745
+    },
+    {
+      "name": "Effective Date",
+      "fieldName": "effective_date",
+      "dataTypeName": "text",
+      "description": "Effective Date",
+      "nullCount": 321548,
+      "cardinality": 4572745
+    },
+    {
+      "name": "Expiration Date",
+      "fieldName": "expiration_date",
+      "dataTypeName": "text",
+      "description": "Expiration Date",
+      "nullCount": 218880,
+      "cardinality": 4572745
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": "City",
+      "nullCount": 0,
+      "cardinality": 4572745
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": "State",
+      "nullCount": 0,
+      "cardinality": 4572745
+    },
+    {
+      "name": "Zip",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": "Zip",
+      "nullCount": 0,
+      "cardinality": 4572745
+    },
+    {
+      "name": "County",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": "County",
+      "nullCount": 0,
+      "cardinality": 4572745
+    },
+    {
+      "name": "Specialty/Qualifier",
+      "fieldName": "specialty_qualifier",
+      "dataTypeName": "text",
+      "description": "Specialty/Qualifier",
+      "nullCount": 4204173,
+      "cardinality": 4572745
+    },
+    {
+      "name": "Controlled Substance Schedule",
+      "fieldName": "controlled_substance_schedule",
+      "dataTypeName": "text",
+      "description": "Controlled Substance Schedule",
+      "nullCount": 4377405,
+      "cardinality": 4572745
+    },
+    {
+      "name": "Delegated Controlled Substance Schedule",
+      "fieldName": "delegated_controlled_substance",
+      "dataTypeName": "text",
+      "description": "Delegated Controlled Substance Schedule",
+      "nullCount": 4538212,
+      "cardinality": 4572745
+    },
+    {
+      "name": "Ever Disciplined",
+      "fieldName": "ever_disciplined",
+      "dataTypeName": "text",
+      "description": "Ever Disciplined",
+      "nullCount": 0,
+      "cardinality": 4572745
+    },
+    {
+      "name": "LastModifiedDate",
+      "fieldName": "lastmodifieddate",
+      "dataTypeName": "text",
+      "description": "LastModifiedDate",
+      "nullCount": 0,
+      "cardinality": 4572745
+    },
+    {
+      "name": "Case Number",
+      "fieldName": "case_number",
+      "dataTypeName": "text",
+      "description": "Case Number",
+      "nullCount": 4469781,
+      "cardinality": 4572745
+    },
+    {
+      "name": "Action",
+      "fieldName": "action",
+      "dataTypeName": "text",
+      "description": "Action",
+      "nullCount": 4469781,
+      "cardinality": 4572745
+    },
+    {
+      "name": "Discipline Start Date",
+      "fieldName": "discipline_start_date",
+      "dataTypeName": "text",
+      "description": "Discipline Start Date",
+      "nullCount": 4470129,
+      "cardinality": 4572745
+    },
+    {
+      "name": "Discipline End Date",
+      "fieldName": "discipline_end_date",
+      "dataTypeName": "text",
+      "description": "Discipline End Date",
+      "nullCount": 4529170,
+      "cardinality": 4572745
+    },
+    {
+      "name": "Discipline Reason",
+      "fieldName": "discipline_reason",
+      "dataTypeName": "text",
+      "description": "Discipline Reason",
+      "nullCount": 4483052,
+      "cardinality": 4572745
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:28.389Z"
+}

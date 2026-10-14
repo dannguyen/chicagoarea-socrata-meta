@@ -1,0 +1,56 @@
+{
+  "id": "kmuq-337u",
+  "name": "Medical Examiner--2009 Manner Of Death, by Type",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 7,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1316707610,
+  "publicationDate": 1414428128,
+  "rowsUpdatedAt": 1414428124,
+  "viewLastModified": 1769546271,
+  "viewCount": 816,
+  "downloadCount": 2010,
+  "category": "Health & Human Services",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Medical Examiner",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "MANNER OF DEATH",
+      "fieldName": "manner_of_death",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "COUNT   ",
+      "fieldName": "count_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "PERCENT             ",
+      "fieldName": "percent_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:06.012Z"
+}

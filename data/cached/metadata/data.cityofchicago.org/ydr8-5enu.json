@@ -1,0 +1,1016 @@
+{
+  "id": "ydr8-5enu",
+  "name": "Building Permits",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 847004,
+  "rowCountSource": "cached",
+  "rowLabel": "Building Permit",
+  "hasRowIdentifier": true,
+  "createdAt": 1317384008,
+  "publicationDate": 1760480052,
+  "rowsUpdatedAt": 1791979744,
+  "viewLastModified": 1780080970,
+  "viewCount": 5376129,
+  "downloadCount": 169837,
+  "category": "Buildings",
+  "tags": [
+    "permits",
+    "buildings"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2006 to present",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"ydr8-5enu\"",
+      "Frequency": "Data are updated daily",
+      "Data Owner": "Department of Buildings"
+    }
+  },
+  "columns": [
+    {
+      "name": "ID",
+      "fieldName": "id",
+      "dataTypeName": "text",
+      "description": "Unique database record identifier",
+      "nullCount": 0,
+      "cardinality": 847004
+    },
+    {
+      "name": "PERMIT#",
+      "fieldName": "permit_",
+      "dataTypeName": "text",
+      "description": "Tracking number assigned at beginning of permit application process",
+      "nullCount": 0,
+      "cardinality": 847004
+    },
+    {
+      "name": "PERMIT_STATUS",
+      "fieldName": "permit_status",
+      "dataTypeName": "text",
+      "description": "Current status of permit (not available for all permit types).",
+      "nullCount": 302443,
+      "cardinality": 847004
+    },
+    {
+      "name": "PERMIT_MILESTONE",
+      "fieldName": "permit_milestone",
+      "dataTypeName": "text",
+      "description": "Current milestone of permit (not available for all permit types).",
+      "nullCount": 302443,
+      "cardinality": 847004
+    },
+    {
+      "name": "PERMIT_TYPE",
+      "fieldName": "permit_type",
+      "dataTypeName": "text",
+      "description": "Type of permit",
+      "nullCount": 0,
+      "cardinality": 847004
+    },
+    {
+      "name": "REVIEW_TYPE",
+      "fieldName": "review_type",
+      "dataTypeName": "text",
+      "description": "Process used to review permit application",
+      "nullCount": 8,
+      "cardinality": 847004
+    },
+    {
+      "name": "APPLICATION_START_DATE",
+      "fieldName": "application_start_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date when City began reviewing permit application",
+      "nullCount": 349,
+      "cardinality": 847004
+    },
+    {
+      "name": "ISSUE_DATE",
+      "fieldName": "issue_date",
+      "dataTypeName": "calendar_date",
+      "description": "For most permit types, date when City determined permit was ready to issue, subject to payment of permit fees; For Express Permit Program, date when permit issued based on full payment of applicable permit fee",
+      "nullCount": 0,
+      "cardinality": 846817
+    },
+    {
+      "name": "PROCESSING_TIME",
+      "fieldName": "processing_time",
+      "dataTypeName": "number",
+      "description": "Number of days between APPLICATION_START_DATE and ISSUE_DATE",
+      "nullCount": 349,
+      "cardinality": 846817
+    },
+    {
+      "name": "STREET_NUMBER",
+      "fieldName": "street_number",
+      "dataTypeName": "number",
+      "description": "Address number - for buildings with address ranges, primary address is used",
+      "nullCount": 51,
+      "cardinality": 846817
+    },
+    {
+      "name": "STREET_DIRECTION",
+      "fieldName": "street_direction",
+      "dataTypeName": "text",
+      "description": "Street direction",
+      "nullCount": 51,
+      "cardinality": 846817
+    },
+    {
+      "name": "STREET_NAME",
+      "fieldName": "street_name",
+      "dataTypeName": "text",
+      "description": "Street name",
+      "nullCount": 51,
+      "cardinality": 846817
+    },
+    {
+      "name": "WORK_TYPE",
+      "fieldName": "work_type",
+      "dataTypeName": "text",
+      "description": "Classification of activity authorized by permit (not available for all permit types).",
+      "nullCount": 523793,
+      "cardinality": 847004
+    },
+    {
+      "name": "WORK_DESCRIPTION",
+      "fieldName": "work_description",
+      "dataTypeName": "text",
+      "description": "Description of work authorized by the permit",
+      "nullCount": 879,
+      "cardinality": 847004
+    },
+    {
+      "name": "PERMIT_CONDITION",
+      "fieldName": "permit_condition",
+      "dataTypeName": "text",
+      "description": "Conditions or comments added by reviewing department(s)",
+      "nullCount": 829531,
+      "cardinality": 847004
+    },
+    {
+      "name": "BUILDING_FEE_PAID",
+      "fieldName": "building_fee_paid",
+      "dataTypeName": "number",
+      "description": "Amount of building permit fees received",
+      "nullCount": 0,
+      "cardinality": 847004
+    },
+    {
+      "name": "ZONING_FEE_PAID",
+      "fieldName": "zoning_fee_paid",
+      "dataTypeName": "number",
+      "description": "Amount of zoning review fees received",
+      "nullCount": 0,
+      "cardinality": 847004
+    },
+    {
+      "name": "OTHER_FEE_PAID",
+      "fieldName": "other_fee_paid",
+      "dataTypeName": "number",
+      "description": "Amount of other permit-related fees received",
+      "nullCount": 0,
+      "cardinality": 847004
+    },
+    {
+      "name": "SUBTOTAL_PAID",
+      "fieldName": "subtotal_paid",
+      "dataTypeName": "number",
+      "description": "Sum of BUILDING_FEE_PAID, ZONING_FEE_PAID and OTHER_FEE_PAID",
+      "nullCount": 0,
+      "cardinality": 847004
+    },
+    {
+      "name": "BUILDING_FEE_UNPAID",
+      "fieldName": "building_fee_unpaid",
+      "dataTypeName": "number",
+      "description": "Amount of building permit fees due",
+      "nullCount": 0,
+      "cardinality": 847004
+    },
+    {
+      "name": "ZONING_FEE_UNPAID",
+      "fieldName": "zoning_fee_unpaid",
+      "dataTypeName": "number",
+      "description": "Amount of zoning review fees due",
+      "nullCount": 0,
+      "cardinality": 847004
+    },
+    {
+      "name": "OTHER_FEE_UNPAID",
+      "fieldName": "other_fee_unpaid",
+      "dataTypeName": "number",
+      "description": "Amount of other permit-related fees due",
+      "nullCount": 0,
+      "cardinality": 847004
+    },
+    {
+      "name": "SUBTOTAL_UNPAID",
+      "fieldName": "subtotal_unpaid",
+      "dataTypeName": "number",
+      "description": "Sum of BUILDING_FEE_UNPAID, ZONING_FEE_UNPAID and OTHER_FEE_UNPAID",
+      "nullCount": 0,
+      "cardinality": 847004
+    },
+    {
+      "name": "BUILDING_FEE_WAIVED",
+      "fieldName": "building_fee_waived",
+      "dataTypeName": "number",
+      "description": "Amount of building permit fees waived",
+      "nullCount": 0,
+      "cardinality": 847004
+    },
+    {
+      "name": "BUILDING_FEE_SUBTOTAL",
+      "fieldName": "building_fee_subtotal",
+      "dataTypeName": "number",
+      "description": "Sum of BUILDING_FEE_PAID, BUILDING_FEE_UNPAID and BUILDING_FEE_WAIVED",
+      "nullCount": 0,
+      "cardinality": 847004
+    },
+    {
+      "name": "ZONING_FEE_SUBTOTAL",
+      "fieldName": "zoning_fee_subtotal",
+      "dataTypeName": "number",
+      "description": "Sum of ZONING_FEE_PAID, ZONING _FEE_UNPAID and ZONING _FEE_WAIVED",
+      "nullCount": 0,
+      "cardinality": 847004
+    },
+    {
+      "name": "OTHER_FEE_SUBTOTAL",
+      "fieldName": "other_fee_subtotal",
+      "dataTypeName": "number",
+      "description": "Sum of OTHER_FEE_PAID, OTHER _FEE_UNPAID and OTHER _FEE_WAIVED",
+      "nullCount": 0,
+      "cardinality": 847004
+    },
+    {
+      "name": "ZONING_FEE_WAIVED",
+      "fieldName": "zoning_fee_waived",
+      "dataTypeName": "number",
+      "description": "Amount of zoning review fees waived",
+      "nullCount": 0,
+      "cardinality": 847004
+    },
+    {
+      "name": "OTHER_FEE_WAIVED",
+      "fieldName": "other_fee_waived",
+      "dataTypeName": "number",
+      "description": "Amount of other permit-related fees waived",
+      "nullCount": 0,
+      "cardinality": 847004
+    },
+    {
+      "name": "SUBTOTAL_WAIVED",
+      "fieldName": "subtotal_waived",
+      "dataTypeName": "number",
+      "description": "Sum of BUILDING_FEE_WAIVED, ZONING_FEE_WAIVED and OTHER_FEE_WAIVED",
+      "nullCount": 0,
+      "cardinality": 847004
+    },
+    {
+      "name": "TOTAL_FEE",
+      "fieldName": "total_fee",
+      "dataTypeName": "number",
+      "description": "Sum of SUBTOTAL_PAID, SUBTOTAL_UNPAID and SUBTOTAL_WAIVED",
+      "nullCount": 0,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_1_TYPE",
+      "fieldName": "contact_1_type",
+      "dataTypeName": "text",
+      "description": "Contact 1's relationship to permit",
+      "nullCount": 2084,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_1_NAME",
+      "fieldName": "contact_1_name",
+      "dataTypeName": "text",
+      "description": "Contact 1's full name",
+      "nullCount": 2084,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_1_CITY",
+      "fieldName": "contact_1_city",
+      "dataTypeName": "text",
+      "description": "Contact 1's primary address city",
+      "nullCount": 7890,
+      "cardinality": 846817
+    },
+    {
+      "name": "CONTACT_1_STATE",
+      "fieldName": "contact_1_state",
+      "dataTypeName": "text",
+      "description": "Contact 1's primary address state",
+      "nullCount": 4770,
+      "cardinality": 846817
+    },
+    {
+      "name": "CONTACT_1_ZIPCODE",
+      "fieldName": "contact_1_zipcode",
+      "dataTypeName": "text",
+      "description": "Contact 1's primary address ZIP code",
+      "nullCount": 11297,
+      "cardinality": 846817
+    },
+    {
+      "name": "CONTACT_2_TYPE",
+      "fieldName": "contact_2_type",
+      "dataTypeName": "text",
+      "description": "Contact 2's relationship to permit",
+      "nullCount": 48650,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_2_NAME",
+      "fieldName": "contact_2_name",
+      "dataTypeName": "text",
+      "description": "Contact 2's full name",
+      "nullCount": 48650,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_2_CITY",
+      "fieldName": "contact_2_city",
+      "dataTypeName": "text",
+      "description": "Contact 2's primary address city",
+      "nullCount": 51710,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_2_STATE",
+      "fieldName": "contact_2_state",
+      "dataTypeName": "text",
+      "description": "Contact 2's primary address state",
+      "nullCount": 52265,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_2_ZIPCODE",
+      "fieldName": "contact_2_zipcode",
+      "dataTypeName": "text",
+      "description": "Contact 2's primary address ZIP code",
+      "nullCount": 62549,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_3_TYPE",
+      "fieldName": "contact_3_type",
+      "dataTypeName": "text",
+      "description": "Contact 3's relationship to permit",
+      "nullCount": 264207,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_3_NAME",
+      "fieldName": "contact_3_name",
+      "dataTypeName": "text",
+      "description": "Contact 3's full name",
+      "nullCount": 264207,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_3_CITY",
+      "fieldName": "contact_3_city",
+      "dataTypeName": "text",
+      "description": "Contact 3's primary address city",
+      "nullCount": 265386,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_3_STATE",
+      "fieldName": "contact_3_state",
+      "dataTypeName": "text",
+      "description": "Contact 3's primary address state",
+      "nullCount": 265446,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_3_ZIPCODE",
+      "fieldName": "contact_3_zipcode",
+      "dataTypeName": "text",
+      "description": "Contact 3's primary address ZIP code",
+      "nullCount": 270713,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_4_TYPE",
+      "fieldName": "contact_4_type",
+      "dataTypeName": "text",
+      "description": "Contact 4's relationship to permit",
+      "nullCount": 586132,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_4_NAME",
+      "fieldName": "contact_4_name",
+      "dataTypeName": "text",
+      "description": "Contact 4's full name",
+      "nullCount": 586132,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_4_CITY",
+      "fieldName": "contact_4_city",
+      "dataTypeName": "text",
+      "description": "Contact 4's primary address city",
+      "nullCount": 587438,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_4_STATE",
+      "fieldName": "contact_4_state",
+      "dataTypeName": "text",
+      "description": "Contact 4's primary address state",
+      "nullCount": 587510,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_4_ZIPCODE",
+      "fieldName": "contact_4_zipcode",
+      "dataTypeName": "text",
+      "description": "Contact 4's primary address ZIP code",
+      "nullCount": 589579,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_5_TYPE",
+      "fieldName": "contact_5_type",
+      "dataTypeName": "text",
+      "description": "Contact 5's relationship to permit",
+      "nullCount": 682769,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_5_NAME",
+      "fieldName": "contact_5_name",
+      "dataTypeName": "text",
+      "description": "Contact 5's full name",
+      "nullCount": 682769,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_5_CITY",
+      "fieldName": "contact_5_city",
+      "dataTypeName": "text",
+      "description": "Contact 5's primary address city",
+      "nullCount": 683772,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_5_STATE",
+      "fieldName": "contact_5_state",
+      "dataTypeName": "text",
+      "description": "Contact 5's primary address state",
+      "nullCount": 683827,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_5_ZIPCODE",
+      "fieldName": "contact_5_zipcode",
+      "dataTypeName": "text",
+      "description": "Contact 5's primary address ZIP code",
+      "nullCount": 684527,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_6_TYPE",
+      "fieldName": "contact_6_type",
+      "dataTypeName": "text",
+      "description": "Contact 6's relationship to permit",
+      "nullCount": 730696,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_6_NAME",
+      "fieldName": "contact_6_name",
+      "dataTypeName": "text",
+      "description": "Contact 6's full name",
+      "nullCount": 730696,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_6_CITY",
+      "fieldName": "contact_6_city",
+      "dataTypeName": "text",
+      "description": "Contact 6's primary address city",
+      "nullCount": 731145,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_6_STATE",
+      "fieldName": "contact_6_state",
+      "dataTypeName": "text",
+      "description": "Contact 6's primary address state",
+      "nullCount": 731227,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_6_ZIPCODE",
+      "fieldName": "contact_6_zipcode",
+      "dataTypeName": "text",
+      "description": "Contact 6's primary address ZIP code",
+      "nullCount": 732108,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_7_TYPE",
+      "fieldName": "contact_7_type",
+      "dataTypeName": "text",
+      "description": "Contact 7's relationship to permit",
+      "nullCount": 763731,
+      "cardinality": 846817
+    },
+    {
+      "name": "CONTACT_7_NAME",
+      "fieldName": "contact_7_name",
+      "dataTypeName": "text",
+      "description": "Contact 7's full name",
+      "nullCount": 763883,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_7_CITY",
+      "fieldName": "contact_7_city",
+      "dataTypeName": "text",
+      "description": "Contact 7's primary address city",
+      "nullCount": 764056,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_7_STATE",
+      "fieldName": "contact_7_state",
+      "dataTypeName": "text",
+      "description": "Contact 7's primary address state",
+      "nullCount": 764008,
+      "cardinality": 846817
+    },
+    {
+      "name": "CONTACT_7_ZIPCODE",
+      "fieldName": "contact_7_zipcode",
+      "dataTypeName": "text",
+      "description": "Contact 7's primary address ZIP code",
+      "nullCount": 765159,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_8_TYPE",
+      "fieldName": "contact_8_type",
+      "dataTypeName": "text",
+      "description": "Contact 8's relationship to permit",
+      "nullCount": 798765,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_8_NAME",
+      "fieldName": "contact_8_name",
+      "dataTypeName": "text",
+      "description": "Contact 8's full name",
+      "nullCount": 798765,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_8_CITY",
+      "fieldName": "contact_8_city",
+      "dataTypeName": "text",
+      "description": "Contact 8's primary address city",
+      "nullCount": 798881,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_8_STATE",
+      "fieldName": "contact_8_state",
+      "dataTypeName": "text",
+      "description": "Contact 8's primary address state",
+      "nullCount": 798935,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_8_ZIPCODE",
+      "fieldName": "contact_8_zipcode",
+      "dataTypeName": "text",
+      "description": "Contact 8's primary address ZIP code",
+      "nullCount": 799631,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_9_TYPE",
+      "fieldName": "contact_9_type",
+      "dataTypeName": "text",
+      "description": "Contact 9's relationship to permit",
+      "nullCount": 825242,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_9_NAME",
+      "fieldName": "contact_9_name",
+      "dataTypeName": "text",
+      "description": "Contact 9's full name",
+      "nullCount": 825242,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_9_CITY",
+      "fieldName": "contact_9_city",
+      "dataTypeName": "text",
+      "description": "Contact 9's primary address city",
+      "nullCount": 825120,
+      "cardinality": 846817
+    },
+    {
+      "name": "CONTACT_9_STATE",
+      "fieldName": "contact_9_state",
+      "dataTypeName": "text",
+      "description": "Contact 9's primary address state",
+      "nullCount": 825352,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_9_ZIPCODE",
+      "fieldName": "contact_9_zipcode",
+      "dataTypeName": "text",
+      "description": "Contact 9's primary address ZIP code",
+      "nullCount": 825424,
+      "cardinality": 846817
+    },
+    {
+      "name": "CONTACT_10_TYPE",
+      "fieldName": "contact_10_type",
+      "dataTypeName": "text",
+      "description": "Contact 10's relationship to permit",
+      "nullCount": 840503,
+      "cardinality": 846817
+    },
+    {
+      "name": "CONTACT_10_NAME",
+      "fieldName": "contact_10_name",
+      "dataTypeName": "text",
+      "description": "Contact 10's full name",
+      "nullCount": 840503,
+      "cardinality": 846817
+    },
+    {
+      "name": "CONTACT_10_CITY",
+      "fieldName": "contact_10_city",
+      "dataTypeName": "text",
+      "description": "Contact 10's primary address city",
+      "nullCount": 840708,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_10_STATE",
+      "fieldName": "contact_10_state",
+      "dataTypeName": "text",
+      "description": "Contact 10's primary address state",
+      "nullCount": 840543,
+      "cardinality": 846817
+    },
+    {
+      "name": "CONTACT_10_ZIPCODE",
+      "fieldName": "contact_10_zipcode",
+      "dataTypeName": "text",
+      "description": "Contact 10's primary address ZIP code",
+      "nullCount": 840809,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_11_TYPE",
+      "fieldName": "contact_11_type",
+      "dataTypeName": "text",
+      "description": "Contact 11's relationship to permit",
+      "nullCount": 845648,
+      "cardinality": 846817
+    },
+    {
+      "name": "CONTACT_11_NAME",
+      "fieldName": "contact_11_name",
+      "dataTypeName": "text",
+      "description": "Contact 11's full name",
+      "nullCount": 845648,
+      "cardinality": 846817
+    },
+    {
+      "name": "CONTACT_11_CITY",
+      "fieldName": "contact_11_city",
+      "dataTypeName": "text",
+      "description": "Contact 11's primary address city",
+      "nullCount": 845840,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_11_STATE",
+      "fieldName": "contact_11_state",
+      "dataTypeName": "text",
+      "description": "Contact 11's primary address state",
+      "nullCount": 845840,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_11_ZIPCODE",
+      "fieldName": "contact_11_zipcode",
+      "dataTypeName": "text",
+      "description": "Contact 11's primary address ZIP code",
+      "nullCount": 845674,
+      "cardinality": 846817
+    },
+    {
+      "name": "CONTACT_12_TYPE",
+      "fieldName": "contact_12_type",
+      "dataTypeName": "text",
+      "description": "Contact 12's relationship to permit",
+      "nullCount": 846777,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_12_NAME",
+      "fieldName": "contact_12_name",
+      "dataTypeName": "text",
+      "description": "Contact 12's full name",
+      "nullCount": 846777,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_12_CITY",
+      "fieldName": "contact_12_city",
+      "dataTypeName": "text",
+      "description": "Contact 12's primary address city",
+      "nullCount": 846777,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_12_STATE",
+      "fieldName": "contact_12_state",
+      "dataTypeName": "text",
+      "description": "Contact 12's primary address state",
+      "nullCount": 846778,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_12_ZIPCODE",
+      "fieldName": "contact_12_zipcode",
+      "dataTypeName": "text",
+      "description": "Contact 12's primary address ZIP code",
+      "nullCount": 846781,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_13_TYPE",
+      "fieldName": "contact_13_type",
+      "dataTypeName": "text",
+      "description": "Contact 13's relationship to permit",
+      "nullCount": 846930,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_13_NAME",
+      "fieldName": "contact_13_name",
+      "dataTypeName": "text",
+      "description": "Contact 13's full name",
+      "nullCount": 846930,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_13_CITY",
+      "fieldName": "contact_13_city",
+      "dataTypeName": "text",
+      "description": "Contact 13's primary address city",
+      "nullCount": 846930,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_13_STATE",
+      "fieldName": "contact_13_state",
+      "dataTypeName": "text",
+      "description": "Contact 13's primary address state",
+      "nullCount": 846930,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_13_ZIPCODE",
+      "fieldName": "contact_13_zipcode",
+      "dataTypeName": "text",
+      "description": "Contact 13's primary address ZIP code",
+      "nullCount": 846743,
+      "cardinality": 846817
+    },
+    {
+      "name": "CONTACT_14_TYPE",
+      "fieldName": "contact_14_type",
+      "dataTypeName": "text",
+      "description": "Contact 14's relationship to permit",
+      "nullCount": 846789,
+      "cardinality": 846817
+    },
+    {
+      "name": "CONTACT_14_NAME",
+      "fieldName": "contact_14_name",
+      "dataTypeName": "text",
+      "description": "Contact 14's full name",
+      "nullCount": 846789,
+      "cardinality": 846817
+    },
+    {
+      "name": "CONTACT_14_CITY",
+      "fieldName": "contact_14_city",
+      "dataTypeName": "text",
+      "description": "Contact 14's primary address city",
+      "nullCount": 846976,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_14_STATE",
+      "fieldName": "contact_14_state",
+      "dataTypeName": "text",
+      "description": "Contact 14's primary address state",
+      "nullCount": 846976,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_14_ZIPCODE",
+      "fieldName": "contact_14_zipcode",
+      "dataTypeName": "text",
+      "description": "Contact 14's primary address ZIP code",
+      "nullCount": 846789,
+      "cardinality": 846817
+    },
+    {
+      "name": "CONTACT_15_TYPE",
+      "fieldName": "contact_15_type",
+      "dataTypeName": "text",
+      "description": "Contact 15's relationship to permit",
+      "nullCount": 846999,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_15_NAME",
+      "fieldName": "contact_15_name",
+      "dataTypeName": "text",
+      "description": "Contact 15's full name",
+      "nullCount": 846999,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_15_CITY",
+      "fieldName": "contact_15_city",
+      "dataTypeName": "text",
+      "description": "Contact 15's primary address city",
+      "nullCount": 846999,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_15_STATE",
+      "fieldName": "contact_15_state",
+      "dataTypeName": "text",
+      "description": "Contact 15's primary address state",
+      "nullCount": 846999,
+      "cardinality": 847004
+    },
+    {
+      "name": "CONTACT_15_ZIPCODE",
+      "fieldName": "contact_15_zipcode",
+      "dataTypeName": "text",
+      "description": "Contact 15's primary address ZIP code",
+      "nullCount": 846999,
+      "cardinality": 847004
+    },
+    {
+      "name": "REPORTED_COST",
+      "fieldName": "reported_cost",
+      "dataTypeName": "number",
+      "description": "Estimated cost of work provided by applicant (not available for all permits)",
+      "nullCount": 37826,
+      "cardinality": 847004
+    },
+    {
+      "name": "PIN_LIST",
+      "fieldName": "pin_list",
+      "dataTypeName": "text",
+      "description": "Property index number(s) (PINs) disclosed by applicant and verified by city staff as part of permit application review (not available for all permits); PINs are assigned to parcels of land for property tax purposes. This column replaces columns PIN1 through PIN10, which will be removed soon, no earlier than 6/1/2024.",
+      "nullCount": 464996,
+      "cardinality": 847004
+    },
+    {
+      "name": "COMMUNITY_AREA",
+      "fieldName": "community_area",
+      "dataTypeName": "number",
+      "description": "The Chicago community area of the property's primary address. The community area map is available in a separate dataset.",
+      "nullCount": 72222,
+      "cardinality": 847004
+    },
+    {
+      "name": "CENSUS_TRACT",
+      "fieldName": "census_tract",
+      "dataTypeName": "number",
+      "description": "The census tract of the property's primary address. The census tract map is available in a separate dataset.",
+      "nullCount": 77408,
+      "cardinality": 847004
+    },
+    {
+      "name": "WARD",
+      "fieldName": "ward",
+      "dataTypeName": "number",
+      "description": "The ward (city council district) of the property's primary address at the time of permit issuance. The ward map is available in a separate dataset.",
+      "nullCount": 72357,
+      "cardinality": 847004
+    },
+    {
+      "name": "XCOORDINATE",
+      "fieldName": "xcoordinate",
+      "dataTypeName": "number",
+      "description": "The east-west coordinate of the property's primary address, defined in feet, based on NAD 83 - State Plane Eastern IL",
+      "nullCount": 1141,
+      "cardinality": 847004
+    },
+    {
+      "name": "YCOORDINATE",
+      "fieldName": "ycoordinate",
+      "dataTypeName": "number",
+      "description": "The north-south coordinate of the property's primary address, defined in feet, based on NAD 83 - State Plane Eastern IL",
+      "nullCount": 1141,
+      "cardinality": 846817
+    },
+    {
+      "name": "LATITUDE",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": "The latitude of the property's primary address",
+      "nullCount": 13042,
+      "cardinality": 847004
+    },
+    {
+      "name": "LONGITUDE",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": "The longitude of the property's primary address",
+      "nullCount": 13042,
+      "cardinality": 847004
+    },
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": "The location of the property's primary address in a format that allows for creation of maps and other geographic operations on this data portal",
+      "nullCount": 13042,
+      "cardinality": 847004
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:26:19.143Z"
+}

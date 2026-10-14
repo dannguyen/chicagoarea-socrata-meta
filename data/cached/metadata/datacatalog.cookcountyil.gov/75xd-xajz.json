@@ -1,0 +1,78 @@
+{
+  "id": "75xd-xajz",
+  "name": "Zoning Board of Appeals Public Hearings",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 210,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1738179490,
+  "publicationDate": 1741719489,
+  "rowsUpdatedAt": 1790865973,
+  "viewLastModified": 1790865973,
+  "viewCount": 5500,
+  "downloadCount": 2972,
+  "category": "Economic Development",
+  "tags": [
+    "zba"
+  ],
+  "attribution": "Cook County Zoning Board of Appeals",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Bureau of Technology Data Services"
+    },
+    "Metadata": {
+      "Update Frequency": "As Needed"
+    },
+    "Detailed Descriptive": {
+      "Temporal coverage": "2015-present"
+    },
+    "Publishing Details": {
+      "Data change frequency": "As needed",
+      "Publishing frequency": "As needed"
+    }
+  },
+  "columns": [
+    {
+      "name": "Date",
+      "fieldName": "date",
+      "dataTypeName": "calendar_date",
+      "description": "date and time of the hearing",
+      "nullCount": 0,
+      "cardinality": 210
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "text",
+      "description": "location the hearing is taking place",
+      "nullCount": 4,
+      "cardinality": 210
+    },
+    {
+      "name": "Hearing",
+      "fieldName": "hearing",
+      "dataTypeName": "url",
+      "description": "pdf link to the hearing agenda",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Minutes",
+      "fieldName": "minutes",
+      "dataTypeName": "url",
+      "description": "pdf link to the hearing minutes",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:52.537Z"
+}

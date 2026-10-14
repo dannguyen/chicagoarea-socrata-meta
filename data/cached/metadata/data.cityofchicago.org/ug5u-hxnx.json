@@ -1,0 +1,265 @@
+{
+  "id": "ug5u-hxnx",
+  "name": "DOE Environmental Storage Tanks",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 46441,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1346173191,
+  "publicationDate": 1724241571,
+  "rowsUpdatedAt": 1724241344,
+  "viewLastModified": 1786746176,
+  "viewCount": 33939,
+  "downloadCount": 70376,
+  "category": "Environment & Sustainable Development",
+  "tags": [
+    "ust",
+    "ast",
+    "tanks",
+    "environmental health",
+    "historical"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"ug5u-hxnx\"",
+      "Data Owner": "Department of Environment"
+    }
+  },
+  "columns": [
+    {
+      "name": "ADDRESS",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20677
+    },
+    {
+      "name": "STREET NUMBER FROM",
+      "fieldName": "street_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6080
+    },
+    {
+      "name": "STREET NUMBER TO",
+      "fieldName": "street_number_to",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1421,
+      "cardinality": 6237
+    },
+    {
+      "name": "DIRECTION",
+      "fieldName": "direction",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "STREET NAME",
+      "fieldName": "street_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 884
+    },
+    {
+      "name": "STREET TYPE",
+      "fieldName": "street_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 696,
+      "cardinality": 12
+    },
+    {
+      "name": "TANK TYPE",
+      "fieldName": "tank_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "FACILITY ID",
+      "fieldName": "facility_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 36768
+    },
+    {
+      "name": "OWNER",
+      "fieldName": "applicant",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 29809,
+      "cardinality": 926
+    },
+    {
+      "name": "FACILITY NAME",
+      "fieldName": "facility",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 115,
+      "cardinality": 18468
+    },
+    {
+      "name": "Tank ID",
+      "fieldName": "tank_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 31052,
+      "cardinality": 136
+    },
+    {
+      "name": "TANK MATERIAL",
+      "fieldName": "tank_material",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 43361,
+      "cardinality": 32
+    },
+    {
+      "name": "TANK CONSTRUCTION",
+      "fieldName": "tank_construction",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 43222,
+      "cardinality": 141
+    },
+    {
+      "name": "TANK PRODUCT",
+      "fieldName": "tank_product",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 30882,
+      "cardinality": 506
+    },
+    {
+      "name": "TANK CAPACITY",
+      "fieldName": "tank_capacity",
+      "dataTypeName": "text",
+      "description": "In Gallons unless otherwise specified in record.",
+      "nullCount": 29912,
+      "cardinality": 779
+    },
+    {
+      "name": "INSTALLATION DATE",
+      "fieldName": "installation_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 15600,
+      "cardinality": 9577
+    },
+    {
+      "name": "REMOVAL DATE",
+      "fieldName": "removal_abandoned_date",
+      "dataTypeName": "calendar_date",
+      "description": "Removal or abandoned date",
+      "nullCount": 46160,
+      "cardinality": 175
+    },
+    {
+      "name": "LAST USED DATE",
+      "fieldName": "last_used_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 42594,
+      "cardinality": 338
+    },
+    {
+      "name": "COMMENT",
+      "fieldName": "comment",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 224,
+      "cardinality": 35591
+    },
+    {
+      "name": "DATA SOURCE",
+      "fieldName": "data_source",
+      "dataTypeName": "text",
+      "description": "City department that collected the data.",
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "LATITUDE",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 657,
+      "cardinality": 20123
+    },
+    {
+      "name": "LONGITUDE",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 657,
+      "cardinality": 20123
+    },
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": null,
+      "nullCount": 657,
+      "cardinality": 20123
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:06.957Z"
+}

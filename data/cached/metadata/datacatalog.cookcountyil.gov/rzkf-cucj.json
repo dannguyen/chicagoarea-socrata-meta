@@ -1,0 +1,56 @@
+{
+  "id": "rzkf-cucj",
+  "name": "Health & Hospitals - Outpatient Registrations, by Zip Code - 2011",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 330,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1346347654,
+  "publicationDate": 1686671713,
+  "rowsUpdatedAt": 1412893766,
+  "viewLastModified": 1769545186,
+  "viewCount": 1204,
+  "downloadCount": 2228,
+  "category": "Health & Human Services",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Health & Hospitals System",
+  "attributionLink": "http://www.cookcountyhhs.org/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "ZIPCODE",
+      "fieldName": "zipcode",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 328
+    },
+    {
+      "name": "2011 YTD through June 2011",
+      "fieldName": "ytd_through_june_2011",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 245
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:01.963Z"
+}

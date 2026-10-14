@@ -1,0 +1,89 @@
+{
+  "id": "ruvz-nczq",
+  "name": "Boundaries - Ward Precincts (2022)",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1290,
+  "rowCountSource": "cached",
+  "rowLabel": "Precinct",
+  "hasRowIdentifier": true,
+  "createdAt": 1773771079,
+  "publicationDate": 1773773095,
+  "rowsUpdatedAt": 1773773074,
+  "viewLastModified": 1773777977,
+  "viewCount": 933,
+  "downloadCount": 566,
+  "category": "Facilities & Geographic Boundaries",
+  "tags": [
+    "geo_layer",
+    "boundaries",
+    "gis",
+    "elections",
+    "historical"
+  ],
+  "attribution": "Chicago Board of Election Commissioners",
+  "attributionLink": "http://www.chicagoelections.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "November 2022",
+      "Data Owner": "Chicago Board of Election Commissioners"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Ward_Precinct",
+      "fieldName": "ward_precinct",
+      "dataTypeName": "text",
+      "description": "The combination of ward (first two characters) and precinct within that ward (last three characters) that uniquely identify that precinct.",
+      "nullCount": 0,
+      "cardinality": 1290
+    },
+    {
+      "name": "Ward",
+      "fieldName": "ward",
+      "dataTypeName": "number",
+      "description": "The ward (City Council district) in which the precinct falls.",
+      "nullCount": 0,
+      "cardinality": 1290
+    },
+    {
+      "name": "Precinct",
+      "fieldName": "precinct",
+      "dataTypeName": "number",
+      "description": "The precinct number within the ward.",
+      "nullCount": 0,
+      "cardinality": 1290
+    },
+    {
+      "name": "Shape_Length",
+      "fieldName": "shape_length",
+      "dataTypeName": "number",
+      "description": "Miles",
+      "nullCount": 0,
+      "cardinality": 1290
+    },
+    {
+      "name": "Shape_Area",
+      "fieldName": "shape_area",
+      "dataTypeName": "number",
+      "description": "Square Miles",
+      "nullCount": 0,
+      "cardinality": 1290
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:21.568Z"
+}

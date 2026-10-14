@@ -1,0 +1,79 @@
+{
+  "id": "p4j4-pzyn",
+  "name": "FOIA Request Log - Water",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 11276,
+  "rowCountSource": "cached",
+  "rowLabel": "FOIA Request",
+  "hasRowIdentifier": false,
+  "createdAt": 1537207337,
+  "publicationDate": 1537207627,
+  "rowsUpdatedAt": 1740156432,
+  "viewLastModified": 1740156431,
+  "viewCount": 6291,
+  "downloadCount": 183108,
+  "category": "FOIA",
+  "tags": [
+    "foia",
+    "water"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "May 2010 - present",
+      "Frequency": "Data is updated as needed",
+      "Data Owner": "Water"
+    }
+  },
+  "columns": [
+    {
+      "name": "REQUESTOR NAME",
+      "fieldName": "requestor_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 31,
+      "cardinality": 4729
+    },
+    {
+      "name": "ORGANIZATION",
+      "fieldName": "organization",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2549,
+      "cardinality": 2365
+    },
+    {
+      "name": "DESCRIPTION OF REQUEST",
+      "fieldName": "description_of_request",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 25,
+      "cardinality": 10076
+    },
+    {
+      "name": "DATE RECEIVED",
+      "fieldName": "date_received",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 3148
+    },
+    {
+      "name": "DUE DATE",
+      "fieldName": "due_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 16,
+      "cardinality": 3144
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:02.688Z"
+}

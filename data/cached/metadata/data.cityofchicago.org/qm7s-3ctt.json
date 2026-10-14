@@ -1,0 +1,287 @@
+{
+  "id": "qm7s-3ctt",
+  "name": "Tax Increment Financing (TIF) Annual Report - Analysis of Special Tax Allocation Fund",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1181,
+  "rowCountSource": "cached",
+  "rowLabel": "TIF Report Year",
+  "hasRowIdentifier": false,
+  "createdAt": 1565807623,
+  "publicationDate": 1566336551,
+  "rowsUpdatedAt": 1788189523,
+  "viewLastModified": 1788291826,
+  "viewCount": 5061,
+  "downloadCount": 11483,
+  "category": "Community & Economic Development",
+  "tags": [
+    "tif",
+    "tif annual report"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2017-2025",
+      "Frequency": "Data are updated annually",
+      "Data Owner": "Department of Planning and Development"
+    }
+  },
+  "columns": [
+    {
+      "name": "TIF Number",
+      "fieldName": "tif_number",
+      "dataTypeName": "text",
+      "description": "The unique, numeric ID assigned to the TIF district.",
+      "nullCount": 0,
+      "cardinality": 1181
+    },
+    {
+      "name": "TIF District",
+      "fieldName": "tif_district",
+      "dataTypeName": "text",
+      "description": "Redevelopment project area",
+      "nullCount": 0,
+      "cardinality": 1181
+    },
+    {
+      "name": "Report Year",
+      "fieldName": "report_year",
+      "dataTypeName": "number",
+      "description": "Calendar year to which the record applies",
+      "nullCount": 0,
+      "cardinality": 1181
+    },
+    {
+      "name": "Tax Allocation Fund Balance",
+      "fieldName": "tax_allocation_fund_balance",
+      "dataTypeName": "number",
+      "description": "The TIF balance at beginning of report year.",
+      "nullCount": 1,
+      "cardinality": 1181
+    },
+    {
+      "name": "Property Tax Increment - Current",
+      "fieldName": "property_tax_increment_current",
+      "dataTypeName": "number",
+      "description": "Amount of increment property tax revenue generated in a redevelopment area in a given report year",
+      "nullCount": 1,
+      "cardinality": 1181
+    },
+    {
+      "name": "Property Tax Increment - Cumulative",
+      "fieldName": "property_tax_increment_cumulative",
+      "dataTypeName": "number",
+      "description": "Sum of all property tax incremental revenue generated from creation through the end of the report year",
+      "nullCount": 0,
+      "cardinality": 1181
+    },
+    {
+      "name": "Interest - Current",
+      "fieldName": "interest_current",
+      "dataTypeName": "number",
+      "description": "Interest earnings on the Tax Allocation Fund Balance in the report year",
+      "nullCount": 0,
+      "cardinality": 1181
+    },
+    {
+      "name": "Interest - Cumulative",
+      "fieldName": "interest_cumulative",
+      "dataTypeName": "number",
+      "description": "Sum of all interest earnings to date",
+      "nullCount": 0,
+      "cardinality": 1181
+    },
+    {
+      "name": "Land/Building - Current",
+      "fieldName": "land_building_current",
+      "dataTypeName": "number",
+      "description": "Revenue from the sale of land/buildings that was used for industrial, residential, commercial or institutional purposes in the report year",
+      "nullCount": 0,
+      "cardinality": 1181
+    },
+    {
+      "name": "Land/Building - Cumulative",
+      "fieldName": "land_building_cumulative",
+      "dataTypeName": "number",
+      "description": "Sum of all land/building sales revenue to date",
+      "nullCount": 0,
+      "cardinality": 1181
+    },
+    {
+      "name": "Bond - Current",
+      "fieldName": "bond_current",
+      "dataTypeName": "number",
+      "description": "Proceeds from municipal and/or alternate revenue bonds deposited in the report year",
+      "nullCount": 0,
+      "cardinality": 1181
+    },
+    {
+      "name": "Bond - Cumulative",
+      "fieldName": "bond_cumulative",
+      "dataTypeName": "number",
+      "description": "Bond proceeds deposited from creation through the report year",
+      "nullCount": 0,
+      "cardinality": 1181
+    },
+    {
+      "name": "Note - Current",
+      "fieldName": "note_current",
+      "dataTypeName": "number",
+      "description": "Proceeds from Notes deposited in the report year",
+      "nullCount": 0,
+      "cardinality": 1181
+    },
+    {
+      "name": "Note - Cumulative",
+      "fieldName": "note_cumulative",
+      "dataTypeName": "number",
+      "description": "Note proceeds deposited from creation through the report year",
+      "nullCount": 0,
+      "cardinality": 1181
+    },
+    {
+      "name": "Municipal - Current",
+      "fieldName": "municipal_current",
+      "dataTypeName": "number",
+      "description": "Revenue from property, sales, and other taxes and transfers from federal and state governments in the report year",
+      "nullCount": 0,
+      "cardinality": 1181
+    },
+    {
+      "name": "Municipal - Cumulative",
+      "fieldName": "municipal_cumulative",
+      "dataTypeName": "number",
+      "description": "Sum of Revenue from Municipal to date",
+      "nullCount": 0,
+      "cardinality": 1181
+    },
+    {
+      "name": "Revenue from Other Sources",
+      "fieldName": "revenue_from_other_sources",
+      "dataTypeName": "number",
+      "description": "Revenue from miscellaneous including note process, bond subsidiaries, non-compliance payment",
+      "nullCount": 52,
+      "cardinality": 1181
+    },
+    {
+      "name": "Revenue from Private Sources",
+      "fieldName": "revenue_from_private_sources",
+      "dataTypeName": "number",
+      "description": "Sum of all private sector revenue to date",
+      "nullCount": 0,
+      "cardinality": 1181
+    },
+    {
+      "name": "Private - Current",
+      "fieldName": "private_current",
+      "dataTypeName": "number",
+      "description": "Revenue generated from a private sector entity in given report year",
+      "nullCount": 0,
+      "cardinality": 1181
+    },
+    {
+      "name": "Cash Expenses",
+      "fieldName": "cash_expenses",
+      "dataTypeName": "number",
+      "description": "Total amount of cash expenditures in the report year",
+      "nullCount": 0,
+      "cardinality": 1181
+    },
+    {
+      "name": "Distribution of Surplus",
+      "fieldName": "distribution_of_surplus",
+      "dataTypeName": "number",
+      "description": "Property tax increment, not required for the payment of debt obligations or anticipated redevelopment project costs, that is returned to the County Collector for distribution to the taxing districts",
+      "nullCount": 0,
+      "cardinality": 1181
+    },
+    {
+      "name": "Transfers - Municipal",
+      "fieldName": "transfers_municipal",
+      "dataTypeName": "number",
+      "description": "Revenue transferred from other municipal sources in the report year",
+      "nullCount": 0,
+      "cardinality": 1181
+    },
+    {
+      "name": "Total Expenditure",
+      "fieldName": "total_expenditure",
+      "dataTypeName": "number",
+      "description": "Total amount of expenditures in the report year",
+      "nullCount": 0,
+      "cardinality": 1181
+    },
+    {
+      "name": "Net Income",
+      "fieldName": "net_income",
+      "dataTypeName": "number",
+      "description": "Gross income minus taxes and other deductions in the report year",
+      "nullCount": 0,
+      "cardinality": 1181
+    },
+    {
+      "name": "Fund Balance",
+      "fieldName": "fund_balance",
+      "dataTypeName": "number",
+      "description": "The TIF balance at end of report Year",
+      "nullCount": 0,
+      "cardinality": 1181
+    },
+    {
+      "name": "Description of Debt Obligations",
+      "fieldName": "description_of_debt_obligations",
+      "dataTypeName": "text",
+      "description": "Type of debt owed by municipality in the report year",
+      "nullCount": 534,
+      "cardinality": 1181
+    },
+    {
+      "name": "Amount of Original Debt Issuance",
+      "fieldName": "amount_of_original_debt_issuance",
+      "dataTypeName": "number",
+      "description": "The original amount of debt issued ",
+      "nullCount": 0,
+      "cardinality": 1181
+    },
+    {
+      "name": "Amount Designated - Debt Obligations",
+      "fieldName": "amount_designated_debt_obligations",
+      "dataTypeName": "number",
+      "description": "Total amount of funding allocated for debt obligations",
+      "nullCount": 0,
+      "cardinality": 1181
+    },
+    {
+      "name": "Descriptions of Project Costs to be Paid",
+      "fieldName": "descriptions_of_project_costs_to_be_paid",
+      "dataTypeName": "text",
+      "description": "Type of project to where funds were previously allocated but not yet spent",
+      "nullCount": 51,
+      "cardinality": 1181
+    },
+    {
+      "name": "Amount Designated - Project Costs",
+      "fieldName": "amount_designated_project_costs",
+      "dataTypeName": "number",
+      "description": "Total amount of funding allocated for projects costs",
+      "nullCount": 0,
+      "cardinality": 1181
+    },
+    {
+      "name": "Surplus/Deficit",
+      "fieldName": "surplus_deficit",
+      "dataTypeName": "number",
+      "description": "The amount of unspent TIF funds returned to the taxing bodies at the end of the year",
+      "nullCount": 0,
+      "cardinality": 1181
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:04.789Z"
+}

@@ -1,0 +1,145 @@
+{
+  "id": "bi66-5gy5",
+  "name": "Police ANOV/Misdemeanor Report - ANOVs",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 649745,
+  "rowCountSource": "cached",
+  "rowLabel": "Administrative Notice of Violation",
+  "hasRowIdentifier": false,
+  "createdAt": 1606247447,
+  "publicationDate": 1623429546,
+  "rowsUpdatedAt": 1628195019,
+  "viewLastModified": 1631559400,
+  "viewCount": 2797,
+  "downloadCount": 6217,
+  "category": "Public Safety",
+  "tags": [
+    "ordinance violations",
+    "police",
+    "public safety",
+    "consent decree"
+  ],
+  "attribution": "Chicago Police Department",
+  "attributionLink": "https://home.chicagopolice.org/",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2015-2020",
+      "Frequency": "Data are updated annually.",
+      "Data Owner": "Chicago Police Department"
+    }
+  },
+  "columns": [
+    {
+      "name": "NOV NUMBER",
+      "fieldName": "nov_number",
+      "dataTypeName": "text",
+      "description": "ANOV number – identifies the ANOV report",
+      "nullCount": 2,
+      "cardinality": 649743
+    },
+    {
+      "name": "ISSUED DATE",
+      "fieldName": "issued_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date the ANOV was issued",
+      "nullCount": 0,
+      "cardinality": 2192
+    },
+    {
+      "name": "STREET NUMBER",
+      "fieldName": "street_number",
+      "dataTypeName": "number",
+      "description": "Street number – location where ANOV was issued. This number has been altered to show the range of 100 addresses but not the specific address.",
+      "nullCount": 0,
+      "cardinality": 427
+    },
+    {
+      "name": "STREET DIRECTION",
+      "fieldName": "street_direction",
+      "dataTypeName": "text",
+      "description": "Street direction – location where ANOV was issued",
+      "nullCount": 5623,
+      "cardinality": 5
+    },
+    {
+      "name": "STREET NAME",
+      "fieldName": "street_name",
+      "dataTypeName": "text",
+      "description": "Street name  – location where ANOV was issued",
+      "nullCount": 0,
+      "cardinality": 8477
+    },
+    {
+      "name": "UNIT NUMBER",
+      "fieldName": "unit_number",
+      "dataTypeName": "number",
+      "description": "CPD Unit which issued the ANOV.  A CPD unit is any bureau, division, group, section, unit, or other subset of the Department that is officially established in the Department directive.",
+      "nullCount": 0,
+      "cardinality": 354
+    },
+    {
+      "name": "VIOLATION DESCRIPTION",
+      "fieldName": "violation_description",
+      "dataTypeName": "text",
+      "description": "Municipal Code of Chicago ordinance that was violated. A code of '1' stands for 'OTHER', and means that the code entered didn't match any code that the Department of Administrative Hearings uses to identify a violation. ",
+      "nullCount": 0,
+      "cardinality": 1356
+    },
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": "The location (modified in the same manner as STREET NUMBER) where the ANOV was issued in a format that allows for mapping and other geographic analysis on this portal.",
+      "nullCount": 87953,
+      "cardinality": 22121
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Boundaries - ZIP Codes' (rpca-8um6) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Community Areas' (vrxf-vc4k) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Zip Codes' (6mkv-f3dw) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Census Tracts' (bdys-3d7i) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Wards' (43wa-7qmu) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:09.314Z"
+}

@@ -1,0 +1,114 @@
+{
+  "id": "s6n6-yr7v",
+  "name": "Annual Budget Appropriations",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 3560,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1581716189,
+  "publicationDate": 1582325698,
+  "rowsUpdatedAt": 1587137854,
+  "viewLastModified": 1769543585,
+  "viewCount": 1813,
+  "downloadCount": 1864,
+  "category": "Finance & Operations",
+  "tags": [
+    "fy2020"
+  ],
+  "attribution": "Department of Budget and Management Services",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Department of Budget and Management Services"
+    },
+    "Metadata": {
+      "Update Frequency": "Yearly"
+    },
+    "Publishing Details": {
+      "Publishing frequency": "Annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "Type",
+      "fieldName": "type",
+      "dataTypeName": "text",
+      "description": "Annual Adopted Expenditures",
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Funds",
+      "fieldName": "funds",
+      "dataTypeName": "text",
+      "description": "An independent, self-balancing accounts used to record revenue and expenditures within the budget",
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "Function Area",
+      "fieldName": "_1_function_area",
+      "dataTypeName": "text",
+      "description": "Specific activities or organizational units directed at attaining specific purposes and objectives",
+      "nullCount": 0,
+      "cardinality": 14
+    },
+    {
+      "name": "Offices Grouping",
+      "fieldName": "_1_offices_grouping",
+      "dataTypeName": "text",
+      "description": "The County's main four office grouping (Offices under the President, Cook County Health, Other Electeds and Other major expenditures)",
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Modified Bureau Hierachy",
+      "fieldName": "_2_modified_bureau_hierachy",
+      "dataTypeName": "text",
+      "description": "Organizational unit in which departments with related missions report to single executive such is Bureau Chief",
+      "nullCount": 0,
+      "cardinality": 41
+    },
+    {
+      "name": "Modified Department Hierarchy",
+      "fieldName": "_3_modified_department",
+      "dataTypeName": "text",
+      "description": "A division or agency with a specific mission and reporting to an organizational unit ",
+      "nullCount": 0,
+      "cardinality": 72
+    },
+    {
+      "name": "Expense Type",
+      "fieldName": "_4_expense_type",
+      "dataTypeName": "text",
+      "description": "Expenses associated with specific categories",
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "text",
+      "description": "Fiscal year beginning December 1 - November 30",
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Amount",
+      "fieldName": "amount",
+      "dataTypeName": "number",
+      "description": "Annual Appropriation amount",
+      "nullCount": 549,
+      "cardinality": 2630
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:57.566Z"
+}

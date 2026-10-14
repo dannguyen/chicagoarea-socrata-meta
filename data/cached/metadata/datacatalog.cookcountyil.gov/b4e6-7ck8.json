@@ -1,0 +1,73 @@
+{
+  "id": "b4e6-7ck8",
+  "name": "Environmental Control - Asbestos Removal Permits - 2010",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 12087,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1316526860,
+  "publicationDate": 1316526860,
+  "rowsUpdatedAt": 1316527366,
+  "viewLastModified": 1769543051,
+  "viewCount": 2256,
+  "downloadCount": 4511,
+  "category": "Environment",
+  "tags": [
+    "environmental control",
+    "asbestos removal",
+    "permits",
+    "demolition",
+    "buildings hazardous materials",
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Environmental Control",
+  "attributionLink": "http://www.cookcountygov.com/portal/server.pt/community/environmental_control/291",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Update Frequency": "No updates"
+    }
+  },
+  "columns": [
+    {
+      "name": "Permit Fee",
+      "fieldName": "permit_fee",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 851,
+      "cardinality": 34
+    },
+    {
+      "name": "Building Address",
+      "fieldName": "building_address",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Building City",
+      "fieldName": "building_city",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Building Zip",
+      "fieldName": "building_zip",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:56.249Z"
+}

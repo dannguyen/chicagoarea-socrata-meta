@@ -1,0 +1,106 @@
+{
+  "id": "wyzt-dzf8",
+  "name": "Assessor [Archived 05-11-2022] - Residential Neighborhood Boundaries",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 846,
+  "rowCountSource": "cached",
+  "rowLabel": "Cook County Assessor Neighborhood",
+  "hasRowIdentifier": false,
+  "createdAt": 1590074869,
+  "publicationDate": 1590075491,
+  "rowsUpdatedAt": 1590075491,
+  "viewLastModified": 1769546259,
+  "viewCount": 4371,
+  "downloadCount": 1855,
+  "category": "Property & Taxation",
+  "tags": [
+    "cook county assessor",
+    "property tax",
+    "archive"
+  ],
+  "attribution": "Cook County Assessor's Office",
+  "attributionLink": "https://www.cookcountyassessor.com/",
+  "licenseId": "CC0_10",
+  "license": "Creative Commons 1.0 Universal (Public Domain Dedication)",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Data Science"
+    },
+    "Metadata": {
+      "Update Frequency": "As Needed"
+    },
+    "Detailed Descriptive": {
+      "Data notes": "These boundaries were created by extracting layer data from CCAO historical maps. In cases where maps were unavailable, boundaries were imputed from Cook County GIS records by drawing concave hulls around neighborhood multipolygons. These boundaries have been simplified and should only be used for thematic mapping.",
+      "Geographic coverage": "Countywide",
+      "Geographic unit": "Other"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Not updated (historical only)",
+      "Publishing frequency": "Not updated (historical only)"
+    }
+  },
+  "columns": [
+    {
+      "name": "multipolygon",
+      "fieldName": "multipolygon",
+      "dataTypeName": "multipolygon",
+      "description": "Neighborhood Shape",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "nbhd",
+      "fieldName": "nbhd",
+      "dataTypeName": "text",
+      "description": "Neighborhood code, not unique",
+      "nullCount": 0,
+      "cardinality": 196
+    },
+    {
+      "name": "town_nbhd",
+      "fieldName": "town_nbhd",
+      "dataTypeName": "text",
+      "description": "Town code + neighborhood code, unique identifier",
+      "nullCount": 0,
+      "cardinality": 845
+    },
+    {
+      "name": "township_code",
+      "fieldName": "township_code",
+      "dataTypeName": "text",
+      "description": "Town code",
+      "nullCount": 0,
+      "cardinality": 38
+    },
+    {
+      "name": "township_name",
+      "fieldName": "township_name",
+      "dataTypeName": "text",
+      "description": "Town name",
+      "nullCount": 0,
+      "cardinality": 38
+    },
+    {
+      "name": "triad_code",
+      "fieldName": "triad_code",
+      "dataTypeName": "text",
+      "description": "Triad code",
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "triad_name",
+      "fieldName": "triad_name",
+      "dataTypeName": "text",
+      "description": "Triad name",
+      "nullCount": 0,
+      "cardinality": 3
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:53.431Z"
+}

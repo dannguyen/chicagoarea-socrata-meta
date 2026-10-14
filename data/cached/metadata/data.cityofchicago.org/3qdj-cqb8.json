@@ -1,0 +1,130 @@
+{
+  "id": "3qdj-cqb8",
+  "name": "Public Health Statistics - Life Expectancy By Race Ethnicity - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 12,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1402952511,
+  "publicationDate": 1409152493,
+  "rowsUpdatedAt": 1402952522,
+  "viewLastModified": 1788212959,
+  "viewCount": 6380,
+  "downloadCount": 13431,
+  "category": "Health & Human Services",
+  "tags": [
+    "health",
+    "life",
+    "death",
+    "race",
+    "ethnicity",
+    "historical"
+  ],
+  "attribution": "Vital statistics files produced by the Illinois Department of Public Health (IDPH)",
+  "attributionLink": null,
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "1990, 2000, 2010",
+      "Data Owner": "Epidemiology & Public Health Informatics"
+    }
+  },
+  "columns": [
+    {
+      "name": "Race-ethnicity",
+      "fieldName": "race_ethnicity",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Sex",
+      "fieldName": "sex",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "1990 Life Expectancy",
+      "fieldName": "_1990_life_expectancy",
+      "dataTypeName": "number",
+      "description": "Life expectancy by race/ethnicity for the year of 1990",
+      "nullCount": 0,
+      "cardinality": 11
+    },
+    {
+      "name": "1990 Lower 95% CI",
+      "fieldName": "_1990_lower_95_ci",
+      "dataTypeName": "number",
+      "description": "Life expectancy lower confidence interval for the year of 1990",
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "1990 Upper 95% CI",
+      "fieldName": "_1990_upper_95_ci",
+      "dataTypeName": "number",
+      "description": "Life expectancy upper confidence interval for the year of 1990",
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "2000 Life Expectancy",
+      "fieldName": "_2000_life_expectancy",
+      "dataTypeName": "number",
+      "description": "Life expectancy by race/ethnicity for the year of 2000",
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "2000 Lower 95% CI",
+      "fieldName": "_2000_lower_95_ci",
+      "dataTypeName": "number",
+      "description": "Life expectancy lower confidence interval for the year of 2000",
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "2000 Upper 95% CI",
+      "fieldName": "_2000_upper_95_ci",
+      "dataTypeName": "number",
+      "description": "Life expectancy upper confidence interval for the year of 2000",
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "2010 Life Expectancy",
+      "fieldName": "_2010_life_expectancy",
+      "dataTypeName": "number",
+      "description": "Life expectancy by race/ethnicity for the year of 2010",
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "2010 Lower 95% CI",
+      "fieldName": "_2010_lower_95_ci",
+      "dataTypeName": "number",
+      "description": "Life expectancy lower confidence interval for the year of 2010\n",
+      "nullCount": 0,
+      "cardinality": 11
+    },
+    {
+      "name": "2010 Upper 95% CI",
+      "fieldName": "_2010_upper_95_ci",
+      "dataTypeName": "number",
+      "description": "Life expectancy upper confidence interval for the year of 2010",
+      "nullCount": 0,
+      "cardinality": 11
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:02.689Z"
+}

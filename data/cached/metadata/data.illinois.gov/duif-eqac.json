@@ -1,0 +1,218 @@
+{
+  "id": "duif-eqac",
+  "name": "IDPH Asbestos Licensed Professionals",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1460,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1741718908,
+  "publicationDate": 1741720765,
+  "rowsUpdatedAt": 1788362472,
+  "viewLastModified": 1788362470,
+  "viewCount": 7572,
+  "downloadCount": 6103,
+  "category": "Health and Human Services",
+  "tags": [
+    "asbestos",
+    "professional-licensing",
+    "licensed professionals"
+  ],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "DPH Asbestos Team",
+      "Maintainer Email": "dph.asbestos@illinois.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "ID",
+      "fieldName": "id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1460
+    },
+    {
+      "name": "First Name",
+      "fieldName": "first_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1460
+    },
+    {
+      "name": "Last Name",
+      "fieldName": "last_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1460
+    },
+    {
+      "name": "Home Address",
+      "fieldName": "home_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1460
+    },
+    {
+      "name": "Home City",
+      "fieldName": "home_city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1460
+    },
+    {
+      "name": "Home State",
+      "fieldName": "home_state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1460
+    },
+    {
+      "name": "Home Zip",
+      "fieldName": "home_zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1460
+    },
+    {
+      "name": "Home Phone",
+      "fieldName": "home_phone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 1460
+    },
+    {
+      "name": "Company Name",
+      "fieldName": "company_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 1460
+    },
+    {
+      "name": "Company Address",
+      "fieldName": "company_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1460
+    },
+    {
+      "name": "Company City",
+      "fieldName": "company_city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 7,
+      "cardinality": 1460
+    },
+    {
+      "name": "Company State",
+      "fieldName": "company_state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 7,
+      "cardinality": 1460
+    },
+    {
+      "name": "Company Zip",
+      "fieldName": "company_zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 14,
+      "cardinality": 1460
+    },
+    {
+      "name": "Company Phone",
+      "fieldName": "company_phone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 16,
+      "cardinality": 1460
+    },
+    {
+      "name": "County",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1008,
+      "cardinality": 1460
+    },
+    {
+      "name": "Supervisor",
+      "fieldName": "supervisor",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 666,
+      "cardinality": 1460
+    },
+    {
+      "name": "Inspector",
+      "fieldName": "inspector",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 716,
+      "cardinality": 1460
+    },
+    {
+      "name": "Manager Position",
+      "fieldName": "manager_position",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1327,
+      "cardinality": 1460
+    },
+    {
+      "name": "Project Director",
+      "fieldName": "project_director",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1381,
+      "cardinality": 1460
+    },
+    {
+      "name": "Project Manager",
+      "fieldName": "project_manager",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1077,
+      "cardinality": 1460
+    },
+    {
+      "name": "Air Sampling Professional",
+      "fieldName": "air_sampling_professional",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1034,
+      "cardinality": 1460
+    },
+    {
+      "name": "Email",
+      "fieldName": "email",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 347,
+      "cardinality": 1460
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:30.295Z"
+}

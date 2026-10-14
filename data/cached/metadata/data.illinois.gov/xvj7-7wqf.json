@@ -1,0 +1,78 @@
+{
+  "id": "xvj7-7wqf",
+  "name": "IDVA -  Veterans Data by County",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 102,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709065154,
+  "publicationDate": 1709140897,
+  "rowsUpdatedAt": 1709140891,
+  "viewLastModified": 1726858045,
+  "viewCount": 64,
+  "downloadCount": 18,
+  "category": null,
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "county",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 102
+    },
+    {
+      "name": "females",
+      "fieldName": "females",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 84
+    },
+    {
+      "name": "males",
+      "fieldName": "males",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 101
+    },
+    {
+      "name": "veterans_per_county",
+      "fieldName": "veterans_per_county",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 99
+    },
+    {
+      "name": "with_dependents",
+      "fieldName": "with_dependents",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 89
+    },
+    {
+      "name": "without_dependents",
+      "fieldName": "without_dependents",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 101
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:36.441Z"
+}

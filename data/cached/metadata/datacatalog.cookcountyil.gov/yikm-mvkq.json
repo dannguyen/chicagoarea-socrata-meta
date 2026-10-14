@@ -1,0 +1,136 @@
+{
+  "id": "yikm-mvkq",
+  "name": "Facilities Management - Closed Cells as of July 15, 2011",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 15,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1318452194,
+  "publicationDate": 1412895810,
+  "rowsUpdatedAt": 1412895795,
+  "viewLastModified": 1769544741,
+  "viewCount": 711,
+  "downloadCount": 2808,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Facilities Management",
+  "attributionLink": "http://www.cookcountygov.com/portal/server.pt/community/facilities_management/294/facilities_management",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "DIVISION ",
+      "fieldName": "division_",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 12
+    },
+    {
+      "name": "TOTAL CELLS",
+      "fieldName": "total_cells",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 10
+    },
+    {
+      "name": "PLUMBING",
+      "fieldName": "plumbing",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 1
+    },
+    {
+      "name": "ELECTRICAL",
+      "fieldName": "electrical",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 1
+    },
+    {
+      "name": "CARPENTRY",
+      "fieldName": "carpentry",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 1
+    },
+    {
+      "name": "ELEC TECH",
+      "fieldName": "elec_tech",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 1
+    },
+    {
+      "name": "TIN",
+      "fieldName": "tin",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 1
+    },
+    {
+      "name": "ENGINEERING",
+      "fieldName": "engineering",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 1
+    },
+    {
+      "name": "BRIC",
+      "fieldName": "bric",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 1
+    },
+    {
+      "name": "IRON",
+      "fieldName": "iron",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 2
+    },
+    {
+      "name": "MISC",
+      "fieldName": "misc",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 1
+    },
+    {
+      "name": "GLAZ",
+      "fieldName": "glaz",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 1
+    },
+    {
+      "name": "OPEN CELLS",
+      "fieldName": "open_cells",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 3
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:07.479Z"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "ar94-c35f",
+  "name": "IDPH Illinois STD Clinics",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 232,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709064626,
+  "publicationDate": 1709144175,
+  "rowsUpdatedAt": 1709144169,
+  "viewLastModified": 1736793945,
+  "viewCount": 122,
+  "downloadCount": 98,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "clinicname",
+      "fieldName": "clinicname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 222
+    },
+    {
+      "name": "county",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 174,
+      "cardinality": 47
+    },
+    {
+      "name": "hours",
+      "fieldName": "hours",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 174,
+      "cardinality": 54
+    },
+    {
+      "name": "phone",
+      "fieldName": "phone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 174,
+      "cardinality": 56
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:34.871Z"
+}

@@ -1,0 +1,121 @@
+{
+  "id": "53nt-jwqq",
+  "name": "IDPH Hospital Directory",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 208,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1737766323,
+  "publicationDate": 1758730995,
+  "rowsUpdatedAt": 1777660705,
+  "viewLastModified": 1777660704,
+  "viewCount": 10470,
+  "downloadCount": 2277,
+  "category": "Health and Human Services",
+  "tags": [
+    "hospital",
+    "healthcare",
+    "illinois",
+    "idph",
+    "licensed facilities",
+    "hospital beds",
+    "hospital service area",
+    "hospital planning area",
+    "health service area",
+    "health planning area",
+    "critical access hospitals"
+  ],
+  "attribution": "IDPH",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "IDPH"
+    }
+  },
+  "columns": [
+    {
+      "name": "Facility Name",
+      "fieldName": "facility_name",
+      "dataTypeName": "text",
+      "description": "Official licensed facility name, including legal entity and DBA designation where applicable",
+      "nullCount": 0,
+      "cardinality": 208
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": "Street address of the facility",
+      "nullCount": 0,
+      "cardinality": 208
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": "City where the facility is located",
+      "nullCount": 0,
+      "cardinality": 208
+    },
+    {
+      "name": "County",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": "Illinois county where the facility is located",
+      "nullCount": 0,
+      "cardinality": 208
+    },
+    {
+      "name": "Zip",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": "5-digit ZIP code",
+      "nullCount": 0,
+      "cardinality": 208
+    },
+    {
+      "name": "Phone",
+      "fieldName": "phone",
+      "dataTypeName": "text",
+      "description": "Main facility phone number",
+      "nullCount": 0,
+      "cardinality": 208
+    },
+    {
+      "name": "License Number",
+      "fieldName": "license_number",
+      "dataTypeName": "text",
+      "description": "IDPH facility identification number",
+      "nullCount": 0,
+      "cardinality": 208
+    },
+    {
+      "name": "Facility Type",
+      "fieldName": "facility_type",
+      "dataTypeName": "text",
+      "description": "License category: General Hospital, Critical Access Hospital, Pediatric Hospital, Psychiatric Hospital, Rehabilitation Hospital, or Long Term Acute Care Hospital",
+      "nullCount": 0,
+      "cardinality": 208
+    },
+    {
+      "name": "Exp. Date",
+      "fieldName": "exp_date",
+      "dataTypeName": "calendar_date",
+      "description": "License expiration date",
+      "nullCount": 4,
+      "cardinality": 208
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:29.764Z"
+}

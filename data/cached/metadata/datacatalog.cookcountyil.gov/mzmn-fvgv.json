@@ -1,0 +1,121 @@
+{
+  "id": "mzmn-fvgv",
+  "name": "Early Voting & Grace Period Registration and Voting - 2014 November 4 Gubernatorial Election",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 43,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1413560623,
+  "publicationDate": 1685659611,
+  "rowsUpdatedAt": 1413561579,
+  "viewLastModified": 1769545135,
+  "viewCount": 2692,
+  "downloadCount": 3926,
+  "category": "Finance & Operations",
+  "tags": [
+    "elections",
+    "voting",
+    "vote",
+    "polling locations",
+    "early voting",
+    "inactive"
+  ],
+  "attribution": "Cook County Clerk",
+  "attributionLink": "http://www.cookcountyclerk.com",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Update Frequency": "No updates"
+    }
+  },
+  "columns": [
+    {
+      "name": "Site",
+      "fieldName": "site",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 43
+    },
+    {
+      "name": "Early Voting - Weekdays",
+      "fieldName": "early_voting_weekdays",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Early Voting - Saturday",
+      "fieldName": "early_voting_saturday",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 1
+    },
+    {
+      "name": "Early Voting - Sunday",
+      "fieldName": "early_voting_sunday",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 25,
+      "cardinality": 1
+    },
+    {
+      "name": "Grace Period Registration & Voting",
+      "fieldName": "grace_period_registration_voting",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Grace Period & In-Person Absentee",
+      "fieldName": "grace_period_in_person_absentee",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 20,
+      "cardinality": 1
+    },
+    {
+      "name": "Election Day Registration & Voting",
+      "fieldName": "election_day_registration_voting",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 25,
+      "cardinality": 1
+    },
+    {
+      "name": "Street",
+      "fieldName": "street",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 43
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 41
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:55.278Z"
+}

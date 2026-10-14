@@ -1,0 +1,70 @@
+{
+  "id": "4u8a-te7p",
+  "name": "Auditor - Reports",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 97,
+  "rowCountSource": "cached",
+  "rowLabel": "Report",
+  "hasRowIdentifier": false,
+  "createdAt": 1466538180,
+  "publicationDate": 1667237220,
+  "rowsUpdatedAt": 1778890758,
+  "viewLastModified": 1778890758,
+  "viewCount": 4436,
+  "downloadCount": 1906,
+  "category": "Finance & Operations",
+  "tags": [
+    "audit"
+  ],
+  "attribution": "Cook County Office of the County Auditor",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Office of the County Auditor"
+    },
+    "Metadata": {
+      "Update Frequency": "As Needed"
+    },
+    "Detailed Descriptive": {
+      "Geographic unit": "Not applicable"
+    },
+    "Publishing Details": {
+      "Data change frequency": "As needed",
+      "Publishing frequency": "As needed"
+    }
+  },
+  "columns": [
+    {
+      "name": "Link",
+      "fieldName": "link",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Report Date",
+      "fieldName": "report_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 97
+    },
+    {
+      "name": "Fiscal Year",
+      "fieldName": "fiscal_year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 97
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:53.282Z"
+}

@@ -1,0 +1,823 @@
+{
+  "id": "e68t-c7fv",
+  "name": "COVID-19 Daily Rolling Average Case, Death, and Hospitalization Rates - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1525,
+  "rowCountSource": "cached",
+  "rowLabel": "End Date of a Seven-Day Period",
+  "hasRowIdentifier": true,
+  "createdAt": 1590084259,
+  "publicationDate": 1605555548,
+  "rowsUpdatedAt": 1716416230,
+  "viewLastModified": 1788212430,
+  "viewCount": 18415,
+  "downloadCount": 20374,
+  "category": "Health & Human Services",
+  "tags": [
+    "covid-19",
+    "death",
+    "hospitalization",
+    "health",
+    "public health",
+    "race",
+    "ethnicity",
+    "gender",
+    "link to article present",
+    "historical"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://chicago.gov/coronavirus",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "March 2020 - May 2024",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"e68t-c7fv\"",
+      "Data Owner": "Department of Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "Date",
+      "fieldName": "date",
+      "dataTypeName": "calendar_date",
+      "description": "The end date of the seven-day period averaged.",
+      "nullCount": 0,
+      "cardinality": 1525
+    },
+    {
+      "name": "Cases Rate - Total",
+      "fieldName": "cases_rate_total",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1190
+    },
+    {
+      "name": "Deaths Rate - Total",
+      "fieldName": "deaths_rate_total",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 141
+    },
+    {
+      "name": "Hospitalizations Rate - Total",
+      "fieldName": "hospitalizations_rate_total",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 367
+    },
+    {
+      "name": "Cases Rate - Age 0-17",
+      "fieldName": "cases_rate_age_0_17",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 838
+    },
+    {
+      "name": "Cases Rate - Age 18-29",
+      "fieldName": "cases_rate_age_18_29",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 940
+    },
+    {
+      "name": "Cases Rate - Age 30-39",
+      "fieldName": "cases_rate_age_30_39",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 885
+    },
+    {
+      "name": "Cases Rate - Age 40-49",
+      "fieldName": "cases_rate_age_40_49",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 778
+    },
+    {
+      "name": "Cases Rate - Age 50-59",
+      "fieldName": "cases_rate_age_50_59",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 728
+    },
+    {
+      "name": "Cases Rate - Age 60-69",
+      "fieldName": "cases_rate_age_60_69",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 623
+    },
+    {
+      "name": "Cases Rate - Age 70-79",
+      "fieldName": "cases_rate_age_70_79",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 444
+    },
+    {
+      "name": "Cases Rate -  Age 80+",
+      "fieldName": "cases_rate_age_80",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 329
+    },
+    {
+      "name": "Cases Rate - Female",
+      "fieldName": "cases_rate_female",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1200
+    },
+    {
+      "name": "Cases Rate - Male",
+      "fieldName": "cases_rate_male",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1145
+    },
+    {
+      "name": "Cases Rate - Latinx",
+      "fieldName": "cases_rate_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1000
+    },
+    {
+      "name": "Cases Rate - Asian Non-Latinx",
+      "fieldName": "cases_rate_asian_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 426
+    },
+    {
+      "name": "Cases Rate - Black Non-Latinx",
+      "fieldName": "cases_rate_black_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 966
+    },
+    {
+      "name": "Cases Rate - White Non-Latinx",
+      "fieldName": "cases_rate_white_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 966
+    },
+    {
+      "name": "Cases Rate - Other Race Non-Latinx",
+      "fieldName": "cases_rate_other_race_non",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 455
+    },
+    {
+      "name": "Deaths Rate - Age 0-17",
+      "fieldName": "deaths_rate_age_0_17",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Deaths Rate - Age 18-29",
+      "fieldName": "deaths_rate_age_18_29",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Deaths Rate - Age 30-39",
+      "fieldName": "deaths_rate_age_30_39",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 16
+    },
+    {
+      "name": "Deaths Rate - Age 40-49",
+      "fieldName": "deaths_rate_age_40_49",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "Deaths Rate - Age 50-59",
+      "fieldName": "deaths_rate_age_50_59",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 36
+    },
+    {
+      "name": "Deaths Rate - Age 60-69",
+      "fieldName": "deaths_rate_age_60_69",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 73
+    },
+    {
+      "name": "Deaths Rate - Age 70-79",
+      "fieldName": "deaths_rate_age_70_79",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 76
+    },
+    {
+      "name": "Deaths Rate - Age 80+",
+      "fieldName": "deaths_rate_age_80",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 103
+    },
+    {
+      "name": "Deaths Rate - Female",
+      "fieldName": "deaths_rate_female",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 120
+    },
+    {
+      "name": "Deaths Rate - Male",
+      "fieldName": "deaths_rate_male",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 150
+    },
+    {
+      "name": "Deaths Rate - Latinx",
+      "fieldName": "deaths_rate_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 104
+    },
+    {
+      "name": "Deaths Rate - Asian Non-Latinx",
+      "fieldName": "deaths_rate_asian_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "Deaths Rate - Black Non-Latinx",
+      "fieldName": "deaths_rate_black_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 117
+    },
+    {
+      "name": "Deaths Rate - White Non-Latinx",
+      "fieldName": "deaths_rate_white_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 70
+    },
+    {
+      "name": "Deaths Rate - Other Race Non-Latinx",
+      "fieldName": "deaths_rate_other_race_non",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Hospitalizations Rate -  Age 0-17",
+      "fieldName": "hospitalizations_rate_age_0_17",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 55
+    },
+    {
+      "name": "Hospitalizations Rate -  Age 18-29",
+      "fieldName": "hospitalizations_rate_age_18_29",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 97
+    },
+    {
+      "name": "Hospitalizations Rate -  Age 30-39",
+      "fieldName": "hospitalizations_rate_age_30_39",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 117
+    },
+    {
+      "name": "Hospitalizations Rate -  Age 40-49",
+      "fieldName": "hospitalizations_rate_age_40_49",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 142
+    },
+    {
+      "name": "Hospitalizations Rate -  Age 50-59",
+      "fieldName": "hospitalizations_rate_age_50_59",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 196
+    },
+    {
+      "name": "Hospitalizations Rate -  Age 60-69",
+      "fieldName": "hospitalizations_rate_age_60_69",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 217
+    },
+    {
+      "name": "Hospitalizations Rate -  Age 70-79",
+      "fieldName": "hospitalizations_rate_age_70_79",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 200
+    },
+    {
+      "name": "Hospitalizations Rate -  Age 80+",
+      "fieldName": "hospitalizations_rate_age_80_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 190
+    },
+    {
+      "name": "Hospitalizations Rate -  Female",
+      "fieldName": "hospitalizations_rate_female",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 362
+    },
+    {
+      "name": "Hospitalizations Rate -  Male",
+      "fieldName": "hospitalizations_rate_male",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 363
+    },
+    {
+      "name": "Hospitalizations Rate -  Latinx",
+      "fieldName": "hospitalizations_rate_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 250
+    },
+    {
+      "name": "Hospitalizations Rate -  Asian Non-Latinx",
+      "fieldName": "hospitalizations_rate_asian_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "Hospitalizations Rate -  Black Non-Latinx",
+      "fieldName": "hospitalizations_rate_black_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 345
+    },
+    {
+      "name": "Hospitalizations Rate -  White Non-Latinx",
+      "fieldName": "hospitalizations_rate_white_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 205
+    },
+    {
+      "name": "Hospitalizations Rate -  Other Race Non-Latinx",
+      "fieldName": "hospitalizations_rate_other_race_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 86
+    },
+    {
+      "name": "Cases - Total",
+      "fieldName": "cases_total",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1329
+    },
+    {
+      "name": "Deaths - Total",
+      "fieldName": "deaths_total",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 211
+    },
+    {
+      "name": "Hospitalizations - Total",
+      "fieldName": "hospitalizations_total",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 534
+    },
+    {
+      "name": "Cases - Age 0-17",
+      "fieldName": "cases_age_0_17",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 838
+    },
+    {
+      "name": "Cases - Age 18-29",
+      "fieldName": "cases_age_18_29",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 940
+    },
+    {
+      "name": "Cases - Age 30-39",
+      "fieldName": "cases_age_30_39",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 886
+    },
+    {
+      "name": "Cases - Age 40-49",
+      "fieldName": "cases_age_40_49",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 779
+    },
+    {
+      "name": "Cases - Age 50-59",
+      "fieldName": "cases_age_50_59",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 728
+    },
+    {
+      "name": "Cases - Age 60-69",
+      "fieldName": "cases_age_60_69",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 624
+    },
+    {
+      "name": "Cases - Age 70-79",
+      "fieldName": "cases_age_70_79",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 444
+    },
+    {
+      "name": "Cases -  Age 80+",
+      "fieldName": "cases_age_80",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 329
+    },
+    {
+      "name": "Cases - Female",
+      "fieldName": "cases_female",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1200
+    },
+    {
+      "name": "Cases - Male",
+      "fieldName": "cases_male",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1146
+    },
+    {
+      "name": "Cases - Latinx",
+      "fieldName": "cases_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1000
+    },
+    {
+      "name": "Cases - Asian Non-Latinx",
+      "fieldName": "cases_asian_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 426
+    },
+    {
+      "name": "Cases - Black Non-Latinx",
+      "fieldName": "cases_black_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 966
+    },
+    {
+      "name": "Cases - White Non-Latinx",
+      "fieldName": "cases_white_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 967
+    },
+    {
+      "name": "Cases - Other Race Non-Latinx",
+      "fieldName": "cases_other_race_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 455
+    },
+    {
+      "name": "Deaths - Age 0-17",
+      "fieldName": "deaths_age_0_17",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Deaths - Age 18-29",
+      "fieldName": "deaths_age_18_29",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Deaths - Age 30-39",
+      "fieldName": "deaths_age_30_39",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 16
+    },
+    {
+      "name": "Deaths - Age 40-49",
+      "fieldName": "deaths_age_40_49",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "Deaths - Age 50-59",
+      "fieldName": "deaths_age_50_59",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 36
+    },
+    {
+      "name": "Deaths - Age 60-69",
+      "fieldName": "deaths_age_60_69",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 73
+    },
+    {
+      "name": "Deaths - Age 70-79",
+      "fieldName": "deaths_age_70_79",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 76
+    },
+    {
+      "name": "Deaths - Age 80+",
+      "fieldName": "deaths_age_80",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 103
+    },
+    {
+      "name": "Deaths - Female",
+      "fieldName": "deaths_female",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 120
+    },
+    {
+      "name": "Deaths - Male",
+      "fieldName": "deaths_male",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 150
+    },
+    {
+      "name": "Deaths - Latinx",
+      "fieldName": "deaths_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 104
+    },
+    {
+      "name": "Deaths - Asian Non-Latinx",
+      "fieldName": "deaths_asian_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "Deaths - Black Non-Latinx",
+      "fieldName": "deaths_black_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 117
+    },
+    {
+      "name": "Deaths - White Non-Latinx",
+      "fieldName": "deaths_white_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 70
+    },
+    {
+      "name": "Deaths - Other Race Non-Latinx",
+      "fieldName": "deaths_other_race_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Hospitalizations - Age 0-17",
+      "fieldName": "hospitalizations_age_0_17",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 55
+    },
+    {
+      "name": "Hospitalizations - Age 18-29",
+      "fieldName": "hospitalizations_age_18_29",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 97
+    },
+    {
+      "name": "Hospitalizations - Age 30-39",
+      "fieldName": "hospitalizations_age_30_39",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 115
+    },
+    {
+      "name": "Hospitalizations - Age 40-49",
+      "fieldName": "hospitalizations_age_40_49",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 141
+    },
+    {
+      "name": "Hospitalizations - Age 50-59",
+      "fieldName": "hospitalizations_age_50_59",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 195
+    },
+    {
+      "name": "Hospitalizations - Age 60-69",
+      "fieldName": "hospitalizations_age_60_69",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 217
+    },
+    {
+      "name": "Hospitalizations - Age 70-79",
+      "fieldName": "hospitalizations_age_70_79",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 198
+    },
+    {
+      "name": "Hospitalizations - Age 80+",
+      "fieldName": "hospitalizations_age_80_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 188
+    },
+    {
+      "name": "Hospitalizations - Female",
+      "fieldName": "hospitalizations_female",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 363
+    },
+    {
+      "name": "Hospitalizations - Male",
+      "fieldName": "hospitalizations_male",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 365
+    },
+    {
+      "name": "Hospitalizations - Latinx",
+      "fieldName": "hospitalizations_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 252
+    },
+    {
+      "name": "Hospitalizations - Asian Non-Latinx",
+      "fieldName": "hospitalizations_asian_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "Hospitalizations - Black Non-Latinx",
+      "fieldName": "hospitalizations_black_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 344
+    },
+    {
+      "name": "Hospitalizations - White Non-Latinx",
+      "fieldName": "hospitalizations_white_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 206
+    },
+    {
+      "name": "Hospitalizations - Other Race Non-Latinx",
+      "fieldName": "hospitalizations_other_race_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 85
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:37:48.565Z"
+}

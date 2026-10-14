@@ -1,0 +1,123 @@
+{
+  "id": "qwib-edaw",
+  "name": "COVID-Like Illness (CLI) and COVID-19 Diagnosis Emergency Department Visits - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1692,
+  "rowCountSource": "cached",
+  "rowLabel": "Day",
+  "hasRowIdentifier": false,
+  "createdAt": 1612993888,
+  "publicationDate": 1624469888,
+  "rowsUpdatedAt": 1729261810,
+  "viewLastModified": 1788212742,
+  "viewCount": 4584,
+  "downloadCount": 3365,
+  "category": "Health & Human Services",
+  "tags": [
+    "covid-19",
+    "public health",
+    "health",
+    "syndromic surveillance",
+    "link to article present",
+    "historical"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://chicago.gov/coronavirus",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2020 - 2024",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"qwib-edaw\"",
+      "Data Owner": "Department of Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "Date",
+      "fieldName": "date",
+      "dataTypeName": "calendar_date",
+      "description": "Date of ED visit",
+      "nullCount": 0,
+      "cardinality": 1692
+    },
+    {
+      "name": "Total CLI - Daily",
+      "fieldName": "total_cli_daily",
+      "dataTypeName": "number",
+      "description": "Total number of CLI ED visits on the date.",
+      "nullCount": 1213,
+      "cardinality": 196
+    },
+    {
+      "name": "Total ED Visits - Daily",
+      "fieldName": "total_ed_visits_daily",
+      "dataTypeName": "number",
+      "description": "Total number of ED visits on the date.",
+      "nullCount": 0,
+      "cardinality": 1027
+    },
+    {
+      "name": "CLI Count - 7 day average",
+      "fieldName": "cli_count_7_day_average",
+      "dataTypeName": "number",
+      "description": "7-day rolling average of CLI counts",
+      "nullCount": 1213,
+      "cardinality": 183
+    },
+    {
+      "name": "CLI Percent - Daily",
+      "fieldName": "cli_percent_daily",
+      "dataTypeName": "number",
+      "description": "Percentage of ED visits attributed to CLI",
+      "nullCount": 1213,
+      "cardinality": 479
+    },
+    {
+      "name": "CLI Percent - 7 day average",
+      "fieldName": "cli_percent_7_day_average",
+      "dataTypeName": "number",
+      "description": "7-day rolling average of CLI percentage",
+      "nullCount": 1213,
+      "cardinality": 332
+    },
+    {
+      "name": "Total COVID - Daily",
+      "fieldName": "total_covid_daily",
+      "dataTypeName": "number",
+      "description": "Total number of COVID-19 cases diagnosed in EDs on the date",
+      "nullCount": 0,
+      "cardinality": 239
+    },
+    {
+      "name": "COVID Count - 7 day average",
+      "fieldName": "covid_count_7_day_average",
+      "dataTypeName": "number",
+      "description": "7-day rolling average of COVID-19 diagnosis counts",
+      "nullCount": 6,
+      "cardinality": 234
+    },
+    {
+      "name": "COVID Percent - Daily",
+      "fieldName": "covid_percent_daily",
+      "dataTypeName": "number",
+      "description": "Percentage of ED visits that are COVID-19 diagnoses",
+      "nullCount": 0,
+      "cardinality": 1669
+    },
+    {
+      "name": "COVID Percent - 7 day average",
+      "fieldName": "covid_percent_7_day_average",
+      "dataTypeName": "number",
+      "description": "7-day rolling average of COVID-19 diagnosis percentage",
+      "nullCount": 6,
+      "cardinality": 543
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:05.428Z"
+}

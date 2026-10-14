@@ -1,0 +1,104 @@
+{
+  "id": "avd9-rtph",
+  "name": "ccgisdata - Right of Way 2015",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 24782,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1470328566,
+  "publicationDate": null,
+  "rowsUpdatedAt": 1470329160,
+  "viewLastModified": 1769543389,
+  "viewCount": 436,
+  "downloadCount": 2038,
+  "category": "Boundaries & Districts",
+  "tags": [
+    "cadastral",
+    "tax map",
+    "property",
+    "lot",
+    "cook",
+    "gis",
+    "clerk",
+    "transportation",
+    "inactive"
+  ],
+  "attribution": "Cook County Clerk / Map Department",
+  "attributionLink": "http://www.cookcountyclerk.com/tsd/maps/Pages/default.aspx",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Update Frequency": "No updates"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Annually",
+      "Publishing frequency": "Not updated (historical only)"
+    }
+  },
+  "columns": [
+    {
+      "name": "ROWTYPE",
+      "fieldName": "rowtype",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "ROWREC_DAT",
+      "fieldName": "rowrec_dat",
+      "dataTypeName": "date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2443
+    },
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "JOB_NO",
+      "fieldName": "job_no",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3473
+    },
+    {
+      "name": "ROWDOC_NO",
+      "fieldName": "rowdoc_no",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 788,
+      "cardinality": 5266
+    },
+    {
+      "name": "SHAPE_STAr",
+      "fieldName": "shape_star",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24780
+    },
+    {
+      "name": "SHAPE_STLe",
+      "fieldName": "shape_stle",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24780
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:10.574Z"
+}

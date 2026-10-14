@@ -1,0 +1,158 @@
+{
+  "id": "kf57-tcn8",
+  "name": "IDPH National Rankings by State",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 850,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1718207943,
+  "publicationDate": 1718209420,
+  "rowsUpdatedAt": 1718209414,
+  "viewLastModified": 1736793942,
+  "viewCount": 29,
+  "downloadCount": 77,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "Sort",
+      "fieldName": "sort",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 17
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "Chlamydia_Count",
+      "fieldName": "chlamydia_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 841
+    },
+    {
+      "name": "Chlamydia_Rate",
+      "fieldName": "chlamydia_rate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 780
+    },
+    {
+      "name": "Chlamydia_RankByCount",
+      "fieldName": "chlamydia_rankbycount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "Chlamydia_RankByRate",
+      "fieldName": "chlamydia_rankbyrate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "Gonorrhea_Count",
+      "fieldName": "gonorrhea_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 809
+    },
+    {
+      "name": "Gonorrhea_Rate",
+      "fieldName": "gonorrhea_rate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 696
+    },
+    {
+      "name": "Gonorrhea_RankByCount",
+      "fieldName": "gonorrhea_rankbycount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "Gonorrhea_RankByRate",
+      "fieldName": "gonorrhea_rankbyrate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "Primary_Secondary_Syphilis_Count",
+      "fieldName": "primary_secondary_syphilis",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 412
+    },
+    {
+      "name": "Primary_Secondary_Syphilis_Rate",
+      "fieldName": "primary_secondary_syphilis_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 119
+    },
+    {
+      "name": "Primary_Secondary_Syphilis_RankByCount",
+      "fieldName": "primary_secondary_syphilis_2",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "Primary_Secondary_Syphilis_RankByRate",
+      "fieldName": "primary_secondary_syphilis_3",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 26,
+      "cardinality": 50
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:41.616Z"
+}

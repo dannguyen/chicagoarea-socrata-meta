@@ -1,0 +1,198 @@
+{
+  "id": "wmmc-pmy6",
+  "name": "IDPH - Intermediate Care Facilities for Individuals with Intellectual Disabilities",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 318,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709064717,
+  "publicationDate": 1709144011,
+  "rowsUpdatedAt": 1709144005,
+  "viewLastModified": 1736793959,
+  "viewCount": 179,
+  "downloadCount": 53,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "certification_number",
+      "fieldName": "certification_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 28,
+      "cardinality": 290
+    },
+    {
+      "name": "community_living_beds",
+      "fieldName": "community_living_beds",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 38,
+      "cardinality": 1
+    },
+    {
+      "name": "county",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 69
+    },
+    {
+      "name": "expiration_date",
+      "fieldName": "expiration_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 7,
+      "cardinality": 206
+    },
+    {
+      "name": "facility_id",
+      "fieldName": "facility_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 318
+    },
+    {
+      "name": "facility_name",
+      "fieldName": "facility_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 318
+    },
+    {
+      "name": "facility_status",
+      "fieldName": "facility_status",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "fax",
+      "fieldName": "fax",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 254
+    },
+    {
+      "name": "icf_dd_beds",
+      "fieldName": "icf_dd_beds",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 35
+    },
+    {
+      "name": "intermediate_beds",
+      "fieldName": "intermediate_beds",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "last_survey_date",
+      "fieldName": "last_survey_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 142
+    },
+    {
+      "name": "license_status",
+      "fieldName": "license_status",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "licensee_id",
+      "fieldName": "licensee_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 318
+    },
+    {
+      "name": "location",
+      "fieldName": "location",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 294
+    },
+    {
+      "name": "ownership_desc",
+      "fieldName": "ownership_desc",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "region",
+      "fieldName": "region",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "sheltered_care_beds",
+      "fieldName": "sheltered_care_beds",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "skilled_beds",
+      "fieldName": "skilled_beds",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "telephone",
+      "fieldName": "telephone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 275
+    },
+    {
+      "name": "under_22_beds",
+      "fieldName": "under_22_beds",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:34.267Z"
+}

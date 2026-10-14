@@ -1,0 +1,56 @@
+{
+  "id": "5rda-zdwv",
+  "name": "Board of Review - Aggregate PINs Filed by Year, 2008-2010",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 3,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1312908679,
+  "publicationDate": 1412891135,
+  "rowsUpdatedAt": 1412891124,
+  "viewLastModified": 1769547254,
+  "viewCount": 873,
+  "downloadCount": 2094,
+  "category": "Property & Taxation",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Board of Review",
+  "attributionLink": "http://www.cookcountyboardofreview.com/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "PINs",
+      "fieldName": "pins",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Notes",
+      "fieldName": "notes",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:05.410Z"
+}

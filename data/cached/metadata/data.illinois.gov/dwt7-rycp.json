@@ -1,0 +1,52 @@
+{
+  "id": "dwt7-rycp",
+  "name": "PTAX-203 Additional Buyers",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1257076,
+  "rowCountSource": "cached",
+  "rowLabel": "Additional Buyer",
+  "hasRowIdentifier": false,
+  "createdAt": 1744127621,
+  "publicationDate": 1744127704,
+  "rowsUpdatedAt": 1791716410,
+  "viewLastModified": 1789609679,
+  "viewCount": 368,
+  "downloadCount": 155,
+  "category": "Government and Public Employees",
+  "tags": [
+    "property tax"
+  ],
+  "attribution": "Illinois Department of Revenue",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Revenue"
+    }
+  },
+  "columns": [
+    {
+      "name": "Declaration ID",
+      "fieldName": "declaration_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1257076
+    },
+    {
+      "name": "Buyer Name",
+      "fieldName": "buyer_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1208,
+      "cardinality": 1257076
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:33.429Z"
+}

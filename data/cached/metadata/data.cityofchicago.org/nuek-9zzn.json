@@ -1,0 +1,185 @@
+{
+  "id": "nuek-9zzn",
+  "name": "Emergency Temporary Shelters - Grievances Filed - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 262,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": true,
+  "createdAt": 1715796724,
+  "publicationDate": 1727891877,
+  "rowsUpdatedAt": 1741972848,
+  "viewLastModified": 1762370574,
+  "viewCount": 628,
+  "downloadCount": 766,
+  "category": "Health & Human Services",
+  "tags": [
+    "migrants",
+    "new arrivals",
+    "temporary shelters",
+    "so2024-0008386",
+    "historical"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "4/22/2024 - 12/31/2024",
+      "Data Owner": "Department of Family and Support Services"
+    }
+  },
+  "columns": [
+    {
+      "name": "Emergency Temporary Shelter",
+      "fieldName": "emergency_temporary_shelter",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 21
+    },
+    {
+      "name": "Period Start",
+      "fieldName": "period_start",
+      "dataTypeName": "calendar_date",
+      "description": "The start of the two-week reporting period",
+      "nullCount": 0,
+      "cardinality": 19
+    },
+    {
+      "name": "Period End",
+      "fieldName": "period_end",
+      "dataTypeName": "calendar_date",
+      "description": "The end of the two-week reporting period",
+      "nullCount": 0,
+      "cardinality": 19
+    },
+    {
+      "name": "Food",
+      "fieldName": "food",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 210,
+      "cardinality": 5
+    },
+    {
+      "name": "Medical",
+      "fieldName": "medical",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 244,
+      "cardinality": 3
+    },
+    {
+      "name": "Policy",
+      "fieldName": "policy",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 235,
+      "cardinality": 2
+    },
+    {
+      "name": "Resident",
+      "fieldName": "resident",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 227,
+      "cardinality": 4
+    },
+    {
+      "name": "Security Issue",
+      "fieldName": "security_issue",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 230,
+      "cardinality": 4
+    },
+    {
+      "name": "Shelter Staff",
+      "fieldName": "shelter_staff",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 145,
+      "cardinality": 15
+    },
+    {
+      "name": "Supplies / Donations",
+      "fieldName": "supplies_donations",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 241,
+      "cardinality": 3
+    },
+    {
+      "name": "Vendor",
+      "fieldName": "vendor",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 240,
+      "cardinality": 3
+    },
+    {
+      "name": "Work Authorization",
+      "fieldName": "work_authorization",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 239,
+      "cardinality": 3
+    },
+    {
+      "name": "Facility",
+      "fieldName": "facility",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 234,
+      "cardinality": 5
+    },
+    {
+      "name": "Benefits",
+      "fieldName": "benefits",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 243,
+      "cardinality": 3
+    },
+    {
+      "name": "Other",
+      "fieldName": "other",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 235,
+      "cardinality": 3
+    },
+    {
+      "name": "Unknown / Pending",
+      "fieldName": "unknown_pending",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 156,
+      "cardinality": 10
+    },
+    {
+      "name": "Total",
+      "fieldName": "total",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 18
+    },
+    {
+      "name": "Record ID",
+      "fieldName": "record_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 262
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:23.294Z"
+}

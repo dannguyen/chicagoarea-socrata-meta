@@ -1,0 +1,182 @@
+{
+  "id": "yhcw-iu53",
+  "name": "Foreclosed Rental Property",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 582,
+  "rowCountSource": "cached",
+  "rowLabel": "Foreclosure Report",
+  "hasRowIdentifier": true,
+  "createdAt": 1649973340,
+  "publicationDate": 1670953360,
+  "rowsUpdatedAt": 1791328185,
+  "viewLastModified": 1670956605,
+  "viewCount": 19175,
+  "downloadCount": 3970,
+  "category": "Community & Economic Development",
+  "tags": [
+    "housing"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Current",
+      "Frequency": "Data are updated daily",
+      "Data Owner": "Department of Housing"
+    }
+  },
+  "columns": [
+    {
+      "name": "ID",
+      "fieldName": "id",
+      "dataTypeName": "number",
+      "description": "A unique identifier for the submission",
+      "nullCount": 0,
+      "cardinality": 582
+    },
+    {
+      "name": "PROPERTY ADDRESS",
+      "fieldName": "property_address",
+      "dataTypeName": "text",
+      "description": "Address of foreclosed rental property",
+      "nullCount": 0,
+      "cardinality": 582
+    },
+    {
+      "name": "SUBMISSION DATE",
+      "fieldName": "submission_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 582
+    },
+    {
+      "name": "OWNER NAME",
+      "fieldName": "owner_name",
+      "dataTypeName": "text",
+      "description": "Owner of foreclosed rental property",
+      "nullCount": 0,
+      "cardinality": 582
+    },
+    {
+      "name": "OWNER DATE",
+      "fieldName": "owner_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date the new ownership began",
+      "nullCount": 0,
+      "cardinality": 582
+    },
+    {
+      "name": "OWNER MANAGEMENT AGENT NAME",
+      "fieldName": "owner_management_agent_name",
+      "dataTypeName": "text",
+      "description": "Owner's agent for the purpose of managing, controlling or collecting rent at the foreclosed rental property",
+      "nullCount": 0,
+      "cardinality": 582
+    },
+    {
+      "name": "OWNER NOTICES AGENT NAME",
+      "fieldName": "owner_notices_agent_name",
+      "dataTypeName": "text",
+      "description": "Owner's agent responsible for receiving notices of code violations and enforcement proceedings",
+      "nullCount": 0,
+      "cardinality": 582
+    },
+    {
+      "name": "OWNER NOTICES AGENT PHONE",
+      "fieldName": "owner_notices_agent_phone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 582
+    },
+    {
+      "name": "OWNER NOTICES AGENT EMAIL",
+      "fieldName": "owner_notices_agent_email",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 582
+    },
+    {
+      "name": "OWNER ADDRESS",
+      "fieldName": "owner_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 582
+    },
+    {
+      "name": "OWNER CITY",
+      "fieldName": "owner_city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 582
+    },
+    {
+      "name": "OWNER STATE",
+      "fieldName": "owner_state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 582
+    },
+    {
+      "name": "OWNER ZIP",
+      "fieldName": "owner_zip",
+      "dataTypeName": "text",
+      "description": "Only available for submissions on or after 12/12/2022",
+      "nullCount": 158,
+      "cardinality": 582
+    },
+    {
+      "name": "OWNER MANAGEMENT AGENT ADDRESS",
+      "fieldName": "owner_management_agent_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 582
+    },
+    {
+      "name": "OWNER MANAGEMENT AGENT CITY",
+      "fieldName": "owner_management_agent_city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 582
+    },
+    {
+      "name": "OWNER MANAGEMENT AGENT STATE",
+      "fieldName": "owner_management_agent_state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 582
+    },
+    {
+      "name": "OWNER MANAGEMENT AGENT ZIP",
+      "fieldName": "owner_management_agent_zip",
+      "dataTypeName": "text",
+      "description": "Only available for submissions on or after 12/12/2022",
+      "nullCount": 158,
+      "cardinality": 582
+    },
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "text",
+      "description": "The location of the property in a format that allows for mapping and other geographic analysis on this portal.",
+      "nullCount": 0,
+      "cardinality": 582
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:37:48.349Z"
+}

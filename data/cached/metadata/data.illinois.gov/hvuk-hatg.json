@@ -1,0 +1,123 @@
+{
+  "id": "hvuk-hatg",
+  "name": "IDPH Free Standing Emergency Center Directory",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 5,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1737769547,
+  "publicationDate": 1777397536,
+  "rowsUpdatedAt": 1777397525,
+  "viewLastModified": 1777397536,
+  "viewCount": 1666,
+  "downloadCount": 407,
+  "category": "Health and Human Services",
+  "tags": [
+    "fec",
+    "freestanding emergency center",
+    "emergency department",
+    "healthcare facilities",
+    "hospital licensing",
+    "hfsrb",
+    "idph",
+    "certificate of need",
+    "emergency medical services",
+    "healthcare directory",
+    "licensed facilities",
+    "illinois health",
+    "off-campus emergency department"
+  ],
+  "attribution": "IDPH",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "IDPH"
+    }
+  },
+  "columns": [
+    {
+      "name": "Facility Name",
+      "fieldName": "facility_name",
+      "dataTypeName": "text",
+      "description": "Legal name of the licensed Freestanding Emergency Center",
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": "Street address of the facility's physical location. Suite or building numbers are included where applicable.",
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": "Municipality in which the facility is physically located.",
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "County",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": "Illinois county in which the facility is physically located. Used for Health Service Area (HSA) and regional planning analyses.",
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Zip",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": "Five-digit U.S. Postal Service ZIP code of the facility's physical location.",
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Contact Name",
+      "fieldName": "contact_name",
+      "dataTypeName": "text",
+      "description": "Primary administrative or compliance contact at the facility, designated for HFSRB correspondence. Not necessarily the medical director or facility administrator.",
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Phone",
+      "fieldName": "phone",
+      "dataTypeName": "text",
+      "description": "Main published telephone number for the facility, including area code. Format: (XXX) XXX-XXXX.",
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "License Number",
+      "fieldName": "license_number",
+      "dataTypeName": "text",
+      "description": "License number issued by HFSRB authorizing the facility to operate as a Freestanding Emergency Center under the Illinois Health Facilities Planning Act.",
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Exp. Date",
+      "fieldName": "exp_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date on which the facility's current license expires. Facilities must submit a renewal application prior to this date to maintain authority to operate. Format: YYYY-MM-DD.",
+      "nullCount": 0,
+      "cardinality": 5
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:32.173Z"
+}

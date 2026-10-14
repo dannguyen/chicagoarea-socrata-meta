@@ -1,0 +1,377 @@
+{
+  "id": "reqf-x8fs",
+  "name": "Campaign Contributions - Restricted Contractors",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 4382,
+  "rowCountSource": "cached",
+  "rowLabel": "vendor",
+  "hasRowIdentifier": false,
+  "createdAt": 1710347850,
+  "publicationDate": 1782750415,
+  "rowsUpdatedAt": 1791810056,
+  "viewLastModified": 1791810055,
+  "viewCount": 2314,
+  "downloadCount": 64626,
+  "category": "Finance & Operations",
+  "tags": [],
+  "attribution": "Office of the Chief Procurement Officer",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Update Frequency": "As Needed"
+    },
+    "Detailed Descriptive": {
+      "Ordinance Link": "https://library.municode.com/il/cook_county/codes/code_of_ordinances?nodeId=PTIGEOR_CH2AD_ARTVIIET_DIV2COETCO_SDIICOETCO_S2-585LICOCAELOF",
+      "Ordinance": "Sec. 2-585. - Limitations of contributions to candidates and elected officials."
+    },
+    "Publishing Details": {
+      "Publishing frequency": "Quarterly"
+    }
+  },
+  "columns": [
+    {
+      "name": "Vendor Name",
+      "fieldName": "vendor",
+      "dataTypeName": "text",
+      "description": "name of vendor or business",
+      "nullCount": 0,
+      "cardinality": 4382
+    },
+    {
+      "name": "Total Paid Amount",
+      "fieldName": "total_paid_amount",
+      "dataTypeName": "number",
+      "description": "total contract amount between the County and the vendor from the last 4 years",
+      "nullCount": 0,
+      "cardinality": 4382
+    },
+    {
+      "name": "Address 1",
+      "fieldName": "address_1",
+      "dataTypeName": "text",
+      "description": "address associated with payment to vendor; there is no significance to the order in which addresses are listed in the dataset",
+      "nullCount": 0,
+      "cardinality": 4382
+    },
+    {
+      "name": "Address 2",
+      "fieldName": "address_2",
+      "dataTypeName": "text",
+      "description": "address associated with payment to vendor; there is no significance to the order in which addresses are listed in the dataset",
+      "nullCount": 3244,
+      "cardinality": 4382
+    },
+    {
+      "name": "Address 3",
+      "fieldName": "address_3",
+      "dataTypeName": "text",
+      "description": "address associated with payment to vendor; there is no significance to the order in which addresses are listed in the dataset",
+      "nullCount": 4082,
+      "cardinality": 4382
+    },
+    {
+      "name": "Address 4",
+      "fieldName": "address_4",
+      "dataTypeName": "text",
+      "description": "address associated with payment to vendor; there is no significance to the order in which addresses are listed in the dataset",
+      "nullCount": 4287,
+      "cardinality": 4382
+    },
+    {
+      "name": "Address 5",
+      "fieldName": "address_5",
+      "dataTypeName": "text",
+      "description": "address associated with payment to vendor; there is no significance to the order in which addresses are listed in the dataset",
+      "nullCount": 4336,
+      "cardinality": 4382
+    },
+    {
+      "name": "Address 6",
+      "fieldName": "address_6",
+      "dataTypeName": "text",
+      "description": "address associated with payment to vendor; there is no significance to the order in which addresses are listed in the dataset",
+      "nullCount": 4356,
+      "cardinality": 4382
+    },
+    {
+      "name": "Address 7",
+      "fieldName": "address_7",
+      "dataTypeName": "text",
+      "description": "address associated with payment to vendor; there is no significance to the order in which addresses are listed in the dataset",
+      "nullCount": 4365,
+      "cardinality": 4382
+    },
+    {
+      "name": "Address 8",
+      "fieldName": "address_8",
+      "dataTypeName": "text",
+      "description": "address associated with payment to vendor; there is no significance to the order in which addresses are listed in the dataset",
+      "nullCount": 4370,
+      "cardinality": 4382
+    },
+    {
+      "name": "Address 9",
+      "fieldName": "address_9",
+      "dataTypeName": "text",
+      "description": "address associated with payment to vendor; there is no significance to the order in which addresses are listed in the dataset",
+      "nullCount": 4372,
+      "cardinality": 4382
+    },
+    {
+      "name": "Address 10",
+      "fieldName": "address_10",
+      "dataTypeName": "text",
+      "description": "address associated with payment to vendor; there is no significance to the order in which addresses are listed in the dataset",
+      "nullCount": 4373,
+      "cardinality": 4382
+    },
+    {
+      "name": "Address 11",
+      "fieldName": "address_11",
+      "dataTypeName": "text",
+      "description": "address associated with payment to vendor; there is no significance to the order in which addresses are listed in the dataset",
+      "nullCount": 4374,
+      "cardinality": 4382
+    },
+    {
+      "name": "Address 12",
+      "fieldName": "address_12",
+      "dataTypeName": "text",
+      "description": "address associated with payment to vendor; there is no significance to the order in which addresses are listed in the dataset",
+      "nullCount": 4375,
+      "cardinality": 4382
+    },
+    {
+      "name": "Address 13",
+      "fieldName": "address_13",
+      "dataTypeName": "text",
+      "description": "address associated with payment to vendor; there is no significance to the order in which addresses are listed in the dataset",
+      "nullCount": 4377,
+      "cardinality": 4382
+    },
+    {
+      "name": "Address 14",
+      "fieldName": "address_14",
+      "dataTypeName": "text",
+      "description": "address associated with payment to vendor; there is no significance to the order in which addresses are listed in the dataset",
+      "nullCount": 4377,
+      "cardinality": 4382
+    },
+    {
+      "name": "Address 15",
+      "fieldName": "address_15",
+      "dataTypeName": "text",
+      "description": "address associated with payment to vendor; there is no significance to the order in which addresses are listed in the dataset",
+      "nullCount": 4377,
+      "cardinality": 4382
+    },
+    {
+      "name": "Address 16",
+      "fieldName": "address_16",
+      "dataTypeName": "text",
+      "description": "address associated with payment to vendor; there is no significance to the order in which addresses are listed in the dataset",
+      "nullCount": 4379,
+      "cardinality": 4382
+    },
+    {
+      "name": "Address 17",
+      "fieldName": "address_17",
+      "dataTypeName": "text",
+      "description": "address associated with payment to vendor; there is no significance to the order in which addresses are listed in the dataset",
+      "nullCount": 4379,
+      "cardinality": 4382
+    },
+    {
+      "name": "Address 18",
+      "fieldName": "address_18",
+      "dataTypeName": "text",
+      "description": "address associated with payment to vendor; there is no significance to the order in which addresses are listed in the dataset",
+      "nullCount": 4379,
+      "cardinality": 4382
+    },
+    {
+      "name": "Address 19",
+      "fieldName": "address_19",
+      "dataTypeName": "text",
+      "description": "address associated with payment to vendor; there is no significance to the order in which addresses are listed in the dataset",
+      "nullCount": 4380,
+      "cardinality": 4382
+    },
+    {
+      "name": "Address 20",
+      "fieldName": "address_20",
+      "dataTypeName": "text",
+      "description": "address associated with payment to vendor; there is no significance to the order in which addresses are listed in the dataset",
+      "nullCount": 4380,
+      "cardinality": 4382
+    },
+    {
+      "name": "Address 21",
+      "fieldName": "address_21",
+      "dataTypeName": "text",
+      "description": "address associated with payment to vendor; there is no significance to the order in which addresses are listed in the dataset",
+      "nullCount": 4380,
+      "cardinality": 4382
+    },
+    {
+      "name": "Address 22",
+      "fieldName": "address_22",
+      "dataTypeName": "text",
+      "description": "address associated with payment to vendor; there is no significance to the order in which addresses are listed in the dataset",
+      "nullCount": 4380,
+      "cardinality": 4382
+    },
+    {
+      "name": "Address 23",
+      "fieldName": "address_23",
+      "dataTypeName": "text",
+      "description": "address associated with payment to vendor; there is no significance to the order in which addresses are listed in the dataset",
+      "nullCount": 4381,
+      "cardinality": 4382
+    },
+    {
+      "name": "Address 24",
+      "fieldName": "address_24",
+      "dataTypeName": "text",
+      "description": "address associated with payment to vendor; there is no significance to the order in which addresses are listed in the dataset",
+      "nullCount": 4381,
+      "cardinality": 4382
+    },
+    {
+      "name": "Address 25",
+      "fieldName": "address_25",
+      "dataTypeName": "text",
+      "description": "address associated with payment to vendor; there is no significance to the order in which addresses are listed in the dataset",
+      "nullCount": 4381,
+      "cardinality": 4382
+    },
+    {
+      "name": "Address 26",
+      "fieldName": "address_26",
+      "dataTypeName": "text",
+      "description": "address associated with payment to vendor; there is no significance to the order in which addresses are listed in the dataset",
+      "nullCount": 4381,
+      "cardinality": 4382
+    },
+    {
+      "name": "Address 27",
+      "fieldName": "address_27",
+      "dataTypeName": "text",
+      "description": "address associated with payment to vendor; there is no significance to the order in which addresses are listed in the dataset",
+      "nullCount": 4381,
+      "cardinality": 4382
+    },
+    {
+      "name": "Address 28",
+      "fieldName": "address_28",
+      "dataTypeName": "text",
+      "description": "address associated with payment to vendor; there is no significance to the order in which addresses are listed in the dataset",
+      "nullCount": 4381,
+      "cardinality": 4382
+    },
+    {
+      "name": "Address 29",
+      "fieldName": "address_29",
+      "dataTypeName": "text",
+      "description": "address associated with payment to vendor; there is no significance to the order in which addresses are listed in the dataset",
+      "nullCount": 4381,
+      "cardinality": 4382
+    },
+    {
+      "name": "Address 30",
+      "fieldName": "address_30",
+      "dataTypeName": "text",
+      "description": "address associated with payment to vendor; there is no significance to the order in which addresses are listed in the dataset",
+      "nullCount": 4381,
+      "cardinality": 4382
+    },
+    {
+      "name": "Address 31",
+      "fieldName": "address_31",
+      "dataTypeName": "text",
+      "description": "address associated with payment to vendor; there is no significance to the order in which addresses are listed in the dataset",
+      "nullCount": 4381,
+      "cardinality": 4382
+    },
+    {
+      "name": "Address 32",
+      "fieldName": "address_32",
+      "dataTypeName": "text",
+      "description": "address associated with payment to vendor; there is no significance to the order in which addresses are listed in the dataset",
+      "nullCount": 4381,
+      "cardinality": 4382
+    },
+    {
+      "name": "Address 33",
+      "fieldName": "address_33",
+      "dataTypeName": "text",
+      "description": "address associated with payment to vendor; there is no significance to the order in which addresses are listed in the dataset",
+      "nullCount": 4381,
+      "cardinality": 4382
+    },
+    {
+      "name": "Address 34",
+      "fieldName": "address_34",
+      "dataTypeName": "text",
+      "description": "address associated with payment to vendor; there is no significance to the order in which addresses are listed in the dataset",
+      "nullCount": 4381,
+      "cardinality": 4382
+    },
+    {
+      "name": "Address 35",
+      "fieldName": "address_35",
+      "dataTypeName": "text",
+      "description": "address associated with payment to vendor; there is no significance to the order in which addresses are listed in the dataset",
+      "nullCount": 4381,
+      "cardinality": 4382
+    },
+    {
+      "name": "Address 36",
+      "fieldName": "address_36",
+      "dataTypeName": "text",
+      "description": "address associated with payment to vendor; there is no significance to the order in which addresses are listed in the dataset",
+      "nullCount": 4381,
+      "cardinality": 4382
+    },
+    {
+      "name": "Address 37",
+      "fieldName": "address_37",
+      "dataTypeName": "text",
+      "description": "\t address associated with payment to vendor; there is no significance to the order in which addresses are listed in the dataset",
+      "nullCount": 4381,
+      "cardinality": 4382
+    },
+    {
+      "name": "Address 38",
+      "fieldName": "address_38",
+      "dataTypeName": "text",
+      "description": "address associated with payment to vendor; there is no significance to the order in which addresses are listed in the dataset",
+      "nullCount": 4381,
+      "cardinality": 4382
+    },
+    {
+      "name": "Address 39",
+      "fieldName": "address_39",
+      "dataTypeName": "text",
+      "description": "address associated with payment to vendor; there is no significance to the order in which addresses are listed in the dataset",
+      "nullCount": 4381,
+      "cardinality": 4382
+    },
+    {
+      "name": "Address 40",
+      "fieldName": "address_40",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 4381,
+      "cardinality": 4382
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:56.138Z"
+}

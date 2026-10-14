@@ -1,0 +1,392 @@
+{
+  "id": "hd8u-wzhx",
+  "name": "Cook County Budget 1993-2011",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 160,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1313683348,
+  "publicationDate": 1414425995,
+  "rowsUpdatedAt": 1414425958,
+  "viewLastModified": 1769548005,
+  "viewCount": 4866,
+  "downloadCount": 4348,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County, IL",
+  "attributionLink": "http://data.cookcountyil.gov",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Fund",
+      "fieldName": "fund",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Department ID",
+      "fieldName": "department_id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 159
+    },
+    {
+      "name": "Department",
+      "fieldName": "department",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 157
+    },
+    {
+      "name": "Short Title",
+      "fieldName": "short_title",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 149
+    },
+    {
+      "name": "Link to Website",
+      "fieldName": "link_to_website",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": 87,
+      "cardinality": null
+    },
+    {
+      "name": "Department Description",
+      "fieldName": "department_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 124
+    },
+    {
+      "name": "Control Officer",
+      "fieldName": "control_officer",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "Appropriations 1993",
+      "fieldName": "appropriations_1993",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 64,
+      "cardinality": 96
+    },
+    {
+      "name": "Appropriations 1994",
+      "fieldName": "appropriations_1994",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 61,
+      "cardinality": 99
+    },
+    {
+      "name": "Appropriations 1995",
+      "fieldName": "appropriations_1995",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 64,
+      "cardinality": 96
+    },
+    {
+      "name": "Appropriations 1996",
+      "fieldName": "appropriations_1996",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 61,
+      "cardinality": 99
+    },
+    {
+      "name": "Appropriations 1997",
+      "fieldName": "appropriations_1997",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 56,
+      "cardinality": 104
+    },
+    {
+      "name": "Appropriations 1998",
+      "fieldName": "appropriations_1998",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 55,
+      "cardinality": 105
+    },
+    {
+      "name": "Appropriations 1999",
+      "fieldName": "appropriations_1999",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 52,
+      "cardinality": 107
+    },
+    {
+      "name": "Appropriations 2000",
+      "fieldName": "appropriations_2000",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 50,
+      "cardinality": 110
+    },
+    {
+      "name": "Appropriations 2001",
+      "fieldName": "appropriations_2001",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 50,
+      "cardinality": 110
+    },
+    {
+      "name": "Appropriations 2002",
+      "fieldName": "appropriations_2002",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 49,
+      "cardinality": 101
+    },
+    {
+      "name": "Appropriations 2003",
+      "fieldName": "appropriations_2003",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 48,
+      "cardinality": 103
+    },
+    {
+      "name": "Appropriations 2004",
+      "fieldName": "appropriations_2004",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 46,
+      "cardinality": 105
+    },
+    {
+      "name": "Appropriations 2005",
+      "fieldName": "appropriations_2005",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 44,
+      "cardinality": 106
+    },
+    {
+      "name": "Appropriations 2006",
+      "fieldName": "appropriations_2006",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 42,
+      "cardinality": 108
+    },
+    {
+      "name": "Appropriations 2007",
+      "fieldName": "appropriations_2007",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 41,
+      "cardinality": 103
+    },
+    {
+      "name": "Appropriations 2008",
+      "fieldName": "appropriations_2008",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 21,
+      "cardinality": 118
+    },
+    {
+      "name": "Appropriations 2009",
+      "fieldName": "appropriations_2009",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 17,
+      "cardinality": 121
+    },
+    {
+      "name": "Appropriations 2010",
+      "fieldName": "appropriations_2010",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 12,
+      "cardinality": 125
+    },
+    {
+      "name": "Appropriations 2011",
+      "fieldName": "appropriations_2011",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 8,
+      "cardinality": 110
+    },
+    {
+      "name": "Expenditures 1993",
+      "fieldName": "expenditures_1993",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 65,
+      "cardinality": 95
+    },
+    {
+      "name": "Expenditures 1994",
+      "fieldName": "expenditures_1994",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 62,
+      "cardinality": 98
+    },
+    {
+      "name": "Expenditures 1995",
+      "fieldName": "expenditures_1995",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 65,
+      "cardinality": 95
+    },
+    {
+      "name": "Expenditures 1996",
+      "fieldName": "expenditures_1996",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 63,
+      "cardinality": 97
+    },
+    {
+      "name": "Expenditures 1997",
+      "fieldName": "expenditures_1997",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 57,
+      "cardinality": 103
+    },
+    {
+      "name": "Expenditures 1998",
+      "fieldName": "expenditures_1998",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 56,
+      "cardinality": 104
+    },
+    {
+      "name": "Expenditures 1999",
+      "fieldName": "expenditures_1999",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 53,
+      "cardinality": 106
+    },
+    {
+      "name": "Expenditures 2000",
+      "fieldName": "expenditures_2000",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 53,
+      "cardinality": 107
+    },
+    {
+      "name": "Expenditures 2001",
+      "fieldName": "expenditures_2001",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 52,
+      "cardinality": 108
+    },
+    {
+      "name": "Expenditures 2002",
+      "fieldName": "expenditures_2002",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 51,
+      "cardinality": 100
+    },
+    {
+      "name": "Expenditures 2003",
+      "fieldName": "expenditures_2003",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 49,
+      "cardinality": 102
+    },
+    {
+      "name": "Expenditures 2004",
+      "fieldName": "expenditures_2004",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 46,
+      "cardinality": 105
+    },
+    {
+      "name": "Expenditures 2005",
+      "fieldName": "expenditures_2005",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 44,
+      "cardinality": 106
+    },
+    {
+      "name": "Expenditures 2006",
+      "fieldName": "expenditures_2006",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 43,
+      "cardinality": 107
+    },
+    {
+      "name": "Expenditures 2007",
+      "fieldName": "expenditures_2007",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 54,
+      "cardinality": 102
+    },
+    {
+      "name": "Expenditures 2008",
+      "fieldName": "expenditures_2008",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 21,
+      "cardinality": 117
+    },
+    {
+      "name": "Expenditures 2009",
+      "fieldName": "expenditures_2009",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 17,
+      "cardinality": 121
+    },
+    {
+      "name": "Expenditures 2010",
+      "fieldName": "expenditures_2010",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 12,
+      "cardinality": 123
+    },
+    {
+      "name": "Expenditures 2011",
+      "fieldName": "expenditures_2011",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 160,
+      "cardinality": 0
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:52.905Z"
+}

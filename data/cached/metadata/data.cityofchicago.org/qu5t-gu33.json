@@ -1,0 +1,81 @@
+{
+  "id": "qu5t-gu33",
+  "name": "Emergency Temporary Shelters - Limited Stay Exits - By Age Range - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 504,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": true,
+  "createdAt": 1715787162,
+  "publicationDate": 1715787850,
+  "rowsUpdatedAt": 1741972233,
+  "viewLastModified": 1762370795,
+  "viewCount": 530,
+  "downloadCount": 1188,
+  "category": "Health & Human Services",
+  "tags": [
+    "migrants",
+    "new arrivals",
+    "temporary shelters",
+    "so2024-0008386",
+    "historical"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "3/11/2024 - 1/3/2025",
+      "Data Owner": "Department of Family and Support Services"
+    }
+  },
+  "columns": [
+    {
+      "name": "Age Range",
+      "fieldName": "age_range",
+      "dataTypeName": "text",
+      "description": "Ages below 10 have a leading 0 in order to facilitate proper sorting.",
+      "nullCount": 0,
+      "cardinality": 14
+    },
+    {
+      "name": "Week Start",
+      "fieldName": "week_start",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 36
+    },
+    {
+      "name": "Week End",
+      "fieldName": "week_end",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 36
+    },
+    {
+      "name": "Count of Exits",
+      "fieldName": "count_of_exits",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 44
+    },
+    {
+      "name": "Record ID",
+      "fieldName": "record_id",
+      "dataTypeName": "text",
+      "description": "A unique ID for the record.",
+      "nullCount": 0,
+      "cardinality": 504
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:23.891Z"
+}

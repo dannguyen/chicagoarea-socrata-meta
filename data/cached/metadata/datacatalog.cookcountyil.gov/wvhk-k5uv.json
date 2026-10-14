@@ -1,0 +1,209 @@
+{
+  "id": "wvhk-k5uv",
+  "name": "Assessor - Parcel Sales",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2688811,
+  "rowCountSource": "cached",
+  "rowLabel": "Sale",
+  "hasRowIdentifier": true,
+  "createdAt": 1650289055,
+  "publicationDate": 1739485552,
+  "rowsUpdatedAt": 1790857503,
+  "viewLastModified": 1783621394,
+  "viewCount": 51817,
+  "downloadCount": 95635,
+  "category": "Property & Taxation",
+  "tags": [
+    "cook county assessor",
+    "property tax"
+  ],
+  "attribution": "Cook County Assessor's Office",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Data Department"
+    },
+    "Source Details": {
+      "Source System": "iasWorld"
+    },
+    "Detailed Descriptive": {
+      "Temporal coverage": "1999-Present",
+      "Geographic coverage": "Countywide",
+      "Geographic unit": "Parcel"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Bi-weekly",
+      "Publishing frequency": "Bi-weekly"
+    }
+  },
+  "columns": [
+    {
+      "name": "pin",
+      "fieldName": "pin",
+      "dataTypeName": "text",
+      "description": "Parcel Identification Number (PIN)",
+      "nullCount": 0,
+      "cardinality": 2688811
+    },
+    {
+      "name": "year",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": "Year",
+      "nullCount": 0,
+      "cardinality": 2688811
+    },
+    {
+      "name": "township_code",
+      "fieldName": "township_code",
+      "dataTypeName": "text",
+      "description": "Township code",
+      "nullCount": 0,
+      "cardinality": 2688811
+    },
+    {
+      "name": "neighborhood_code",
+      "fieldName": "nbhd",
+      "dataTypeName": "text",
+      "description": "Assessor neighborhood code, first two digits are township, last three are neighborhood",
+      "nullCount": 0,
+      "cardinality": 2688811
+    },
+    {
+      "name": "class",
+      "fieldName": "class",
+      "dataTypeName": "text",
+      "description": "Property class",
+      "nullCount": 0,
+      "cardinality": 2688811
+    },
+    {
+      "name": "sale_date",
+      "fieldName": "sale_date",
+      "dataTypeName": "calendar_date",
+      "description": "Sale date (recorded, not executed)",
+      "nullCount": 0,
+      "cardinality": 2688811
+    },
+    {
+      "name": "is_mydec_date",
+      "fieldName": "is_mydec_date",
+      "dataTypeName": "checkbox",
+      "description": "Indicates whether the sale date has been overwritten with a more precise value from IDOR (Illinois Department of Revenue). In the past the Assessor's ingest process truncated sale dates to the first of the month. Not all sales can be updated with dates from IDOR.",
+      "nullCount": 0,
+      "cardinality": 2688811
+    },
+    {
+      "name": "sale_price",
+      "fieldName": "sale_price",
+      "dataTypeName": "number",
+      "description": "Sale price",
+      "nullCount": 0,
+      "cardinality": 2688811
+    },
+    {
+      "name": "sale_document_num",
+      "fieldName": "doc_no",
+      "dataTypeName": "text",
+      "description": "Sale document number. Corresponds to Clerk's document number",
+      "nullCount": 0,
+      "cardinality": 2688811
+    },
+    {
+      "name": "sale_deed_type",
+      "fieldName": "deed_type",
+      "dataTypeName": "text",
+      "description": "Sale deed type",
+      "nullCount": 1159,
+      "cardinality": 2688811
+    },
+    {
+      "name": "mydec_deed_type",
+      "fieldName": "mydec_deed_type",
+      "dataTypeName": "text",
+      "description": "Deed type from MyDec, more granular than CCAO deed type.",
+      "nullCount": 1757477,
+      "cardinality": 2688811
+    },
+    {
+      "name": "sale_seller_name",
+      "fieldName": "seller_name",
+      "dataTypeName": "text",
+      "description": "Sale seller name",
+      "nullCount": 183816,
+      "cardinality": 2688811
+    },
+    {
+      "name": "is_multisale",
+      "fieldName": "is_multisale",
+      "dataTypeName": "checkbox",
+      "description": "Indicates whether a parcel was sold individually or as part of a larger group of PINs",
+      "nullCount": 0,
+      "cardinality": 2688811
+    },
+    {
+      "name": "num_parcels_sale",
+      "fieldName": "num_parcels_sale",
+      "dataTypeName": "number",
+      "description": "The number of parcels that were part of the sale",
+      "nullCount": 0,
+      "cardinality": 2688811
+    },
+    {
+      "name": "sale_buyer_name",
+      "fieldName": "buyer_name",
+      "dataTypeName": "text",
+      "description": "Sale buyer name",
+      "nullCount": 166417,
+      "cardinality": 2688811
+    },
+    {
+      "name": "sale_type",
+      "fieldName": "sale_type",
+      "dataTypeName": "text",
+      "description": "Sale type",
+      "nullCount": 514661,
+      "cardinality": 2688811
+    },
+    {
+      "name": "sale_filter_same_sale_within_365",
+      "fieldName": "sale_filter_same_sale_within_365",
+      "dataTypeName": "checkbox",
+      "description": "Remove sale with the same value (for the same PIN) within 365 days",
+      "nullCount": 0,
+      "cardinality": 2688811
+    },
+    {
+      "name": "sale_filter_less_than_10k",
+      "fieldName": "sale_filter_less_than_10k",
+      "dataTypeName": "checkbox",
+      "description": "Indicator for whether sale is less than $10K FMW",
+      "nullCount": 0,
+      "cardinality": 2688811
+    },
+    {
+      "name": "sale_filter_deed_type",
+      "fieldName": "sale_filter_deed_type",
+      "dataTypeName": "checkbox",
+      "description": "Indicator for quit claim, executor, beneficiary and missing deed types",
+      "nullCount": 0,
+      "cardinality": 2688811
+    },
+    {
+      "name": "row_id",
+      "fieldName": "row_id",
+      "dataTypeName": "text",
+      "description": "Unique row key for API",
+      "nullCount": 0,
+      "cardinality": 2688811
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:45.908Z"
+}

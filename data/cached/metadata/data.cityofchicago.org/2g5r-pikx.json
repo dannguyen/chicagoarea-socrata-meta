@@ -1,0 +1,102 @@
+{
+  "id": "2g5r-pikx",
+  "name": "Lobbyist Data - Historical - Lobbyist Agency Report - 2010",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 4504,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1307465846,
+  "publicationDate": 1307465846,
+  "rowsUpdatedAt": 1314743552,
+  "viewLastModified": 1445633952,
+  "viewCount": 3797,
+  "downloadCount": 6024,
+  "category": "Ethics",
+  "tags": [
+    "lobbyists",
+    "historical"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2010",
+      "Data Owner": "Ethics"
+    }
+  },
+  "columns": [
+    {
+      "name": "LOBBYIST  LAST NAME",
+      "fieldName": "lobbyist_last_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 324
+    },
+    {
+      "name": "LOBBYIST  FIRST NAME",
+      "fieldName": "lobbyist_first_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 186
+    },
+    {
+      "name": "LOBBYIST MIDDLE INITIAL",
+      "fieldName": "lobbyist_middle_initial",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1307,
+      "cardinality": 22
+    },
+    {
+      "name": "AGENCY NAME",
+      "fieldName": "agency_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 51
+    },
+    {
+      "name": "ADMIN ACTION",
+      "fieldName": "admin_action",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "LEGISLATIVE ACTION",
+      "fieldName": "legislative_action",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "ACTION SOUGHT",
+      "fieldName": "action_sought",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 766
+    },
+    {
+      "name": "CLIENT NAME",
+      "fieldName": "client_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 774
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:06.886Z"
+}

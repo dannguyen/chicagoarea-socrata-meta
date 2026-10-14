@@ -1,0 +1,138 @@
+{
+  "id": "gxzc-43gg",
+  "name": "Vendor Payments - New Arrivals",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 4206,
+  "rowCountSource": "cached",
+  "rowLabel": "Payment",
+  "hasRowIdentifier": false,
+  "createdAt": 1702995427,
+  "publicationDate": 1704904076,
+  "rowsUpdatedAt": 1752157239,
+  "viewLastModified": 1752157238,
+  "viewCount": 4684,
+  "downloadCount": 2597,
+  "category": "Administration & Finance",
+  "tags": [
+    "payments",
+    "vendors",
+    "new arrivals",
+    "migrants",
+    "asylum"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov/city/en/sites/texas-new-arrivals/home/cost-dashboard.html",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "10/2022 - Current",
+      "Frequency": "Data is updated on 10th of each month or as available. ",
+      "Data Owner": "Office of Budget and Management"
+    }
+  },
+  "columns": [
+    {
+      "name": "AMOUNT (DOLLARS)",
+      "fieldName": "amount_dollars",
+      "dataTypeName": "number",
+      "description": "Amount in $ USD",
+      "nullCount": 0,
+      "cardinality": 3365
+    },
+    {
+      "name": "DATE OF CHECK",
+      "fieldName": "date_of_check",
+      "dataTypeName": "calendar_date",
+      "description": "Date Associated with the Check",
+      "nullCount": 362,
+      "cardinality": 435
+    },
+    {
+      "name": "DATE OF INVOICE",
+      "fieldName": "date_of_invoice",
+      "dataTypeName": "calendar_date",
+      "description": "Date Associated with the Invoice",
+      "nullCount": 0,
+      "cardinality": 543
+    },
+    {
+      "name": "DATE OF GOODS RECEIVED",
+      "fieldName": "date_of_goods_received",
+      "dataTypeName": "calendar_date",
+      "description": "Date associated with the confirmed delivery of goods or services as specified in the vendor, invoice details.  ",
+      "nullCount": 4,
+      "cardinality": 564
+    },
+    {
+      "name": "FUND (GROUPED)",
+      "fieldName": "fund_grouped_",
+      "dataTypeName": "text",
+      "description": "Fund (Grouped) is an field exclusive to this dataset and related dashboards to improve ease of use  for audience.  This field is not an official data point or record in the City's financial management system (FMPS).  The groupings are subject to change. ",
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "FUND (CODE)",
+      "fieldName": "fund_code",
+      "dataTypeName": "text",
+      "description": "Code associated with the Fund.  Designated with the Budget Ordinance and aligns with City financial management systems.  ",
+      "nullCount": 0,
+      "cardinality": 13
+    },
+    {
+      "name": "FUND (DESCRIPTION)",
+      "fieldName": "fund_description",
+      "dataTypeName": "text",
+      "description": "Also known as Fund Name.  Description of the Fund.  Designated with the Budget Ordinance and aligns with City financial management systems.  ",
+      "nullCount": 0,
+      "cardinality": 11
+    },
+    {
+      "name": "FUND TYPE (DESCRIPTION)",
+      "fieldName": "fund_type_description",
+      "dataTypeName": "text",
+      "description": "Funding Type.  Designated with the Budget Ordinance.  (e.g. Grant Funds, compared to Corporate Fund)",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "INVOICE (CODE)",
+      "fieldName": "invoice_code",
+      "dataTypeName": "text",
+      "description": "Also known as Invoice Number.  This code acts as an identifier for an associated invoice. Aligns with City financial management systems.",
+      "nullCount": 0,
+      "cardinality": 4183
+    },
+    {
+      "name": "INVOICE (DESCRIPTION)",
+      "fieldName": "invoice_description",
+      "dataTypeName": "text",
+      "description": "This is the description associated with the particular invoice.  Aligns with City financial management systems. ",
+      "nullCount": 0,
+      "cardinality": 736
+    },
+    {
+      "name": "VENDOR (CODE)",
+      "fieldName": "vendor_code",
+      "dataTypeName": "text",
+      "description": "Also known as Vendor ID. This code acts as an identifier for an associated Vendor. Aligns with City financial management systems. ",
+      "nullCount": 1,
+      "cardinality": 85
+    },
+    {
+      "name": "VENDOR (DESCRIPTION)",
+      "fieldName": "vendor_description",
+      "dataTypeName": "text",
+      "description": "Also known as Vendor Name.  This is the description associated with the particular Vendor Code.  Aligns with City financial management systems. ",
+      "nullCount": 0,
+      "cardinality": 86
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:05.228Z"
+}

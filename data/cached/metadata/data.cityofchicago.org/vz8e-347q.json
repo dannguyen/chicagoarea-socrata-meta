@@ -1,0 +1,144 @@
+{
+  "id": "vz8e-347q",
+  "name": "Performance Metrics - City Colleges of Chicago - Course Success Rates",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 22,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1314307070,
+  "publicationDate": 1341872745,
+  "rowsUpdatedAt": 1341872735,
+  "viewLastModified": 1341872745,
+  "viewCount": 2878,
+  "downloadCount": 4057,
+  "category": "Administration & Finance",
+  "tags": [
+    "performance metrics",
+    "education"
+  ],
+  "attribution": "City Colleges of Chicago",
+  "attributionLink": "http://www.ccc.edu/",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "2004 to present",
+      "Frequency": "Data is updated biannually",
+      "Data Owner": "City Colleges of Chicago"
+    }
+  },
+  "columns": [
+    {
+      "name": "Sort",
+      "fieldName": "sort",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 22
+    },
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 22
+    },
+    {
+      "name": "Term",
+      "fieldName": "term",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Remedial Number Successfully Completing Courses",
+      "fieldName": "remedial_number_successfully_completing_courses",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 22
+    },
+    {
+      "name": "Remedial Total Enrollment",
+      "fieldName": "remedial_total_enrollment",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 22
+    },
+    {
+      "name": "Remedial Course Success Rate",
+      "fieldName": "remedial_course_success_rate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 22
+    },
+    {
+      "name": "Occupational/Workforce Number Successfully Completing Courses",
+      "fieldName": "occupational_workforce_number_successfully_completing_courses",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 22
+    },
+    {
+      "name": "Occupational/Workforce Total Enrollment",
+      "fieldName": "occupational_workforce_total_enrollment",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 22
+    },
+    {
+      "name": "Occupational/Workforce Course Success Rate",
+      "fieldName": "occupational_workforce_course_success_rate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "Baccalaureate/Transfer Number Successfully Completing Courses",
+      "fieldName": "baccalaureate_transfer_number_successfully_completing_courses",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 22
+    },
+    {
+      "name": "Baccalaureate/Transfer Total Enrollment",
+      "fieldName": "baccalaureate_transfer_total_enrollment",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 22
+    },
+    {
+      "name": "Baccalaureate/Transfer Course Success Rate",
+      "fieldName": "baccalaureate_transfer_course_success_rate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Row Order",
+      "fieldName": "row_order",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 22
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:09.082Z"
+}

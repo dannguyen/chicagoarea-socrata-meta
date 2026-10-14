@@ -1,0 +1,71 @@
+{
+  "id": "cwbp-97aa",
+  "name": "CPS_Network_Boundaries_SY1415",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 13,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1407771238,
+  "publicationDate": 1471961444,
+  "rowsUpdatedAt": 1471961443,
+  "viewLastModified": 1731519925,
+  "viewCount": 318,
+  "downloadCount": 6391,
+  "category": "Education",
+  "tags": [
+    "boundaries",
+    "network",
+    "cps",
+    "schools",
+    "map_layer",
+    "gis",
+    "kml",
+    "kmz",
+    "shapefiles",
+    "deprecated"
+  ],
+  "attribution": "Chicago Public Schools",
+  "attributionLink": "http://cps.edu",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Data is current as of the 2018-2019 school year",
+      "Frequency": "Data is updated as needed",
+      "Data Owner": "Chicago Public Schools"
+    }
+  },
+  "columns": [
+    {
+      "name": "PlanningZo",
+      "fieldName": "planning_zo",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 13
+    },
+    {
+      "name": "NetworkNum",
+      "fieldName": "network_num",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 13
+    },
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:25.975Z"
+}

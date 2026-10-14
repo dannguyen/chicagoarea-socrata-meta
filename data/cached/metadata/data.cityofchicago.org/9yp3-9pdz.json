@@ -1,0 +1,71 @@
+{
+  "id": "9yp3-9pdz",
+  "name": "ARPA Road to Recovery Grants Summary Report",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 67,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1729542726,
+  "publicationDate": 1730138560,
+  "rowsUpdatedAt": 1785509181,
+  "viewLastModified": 1785509181,
+  "viewCount": 1015,
+  "downloadCount": 900,
+  "category": "Administration & Finance",
+  "tags": [
+    "budget",
+    "arpa"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "3/3/2021 – Present",
+      "Frequency": "Data is updated quarterly",
+      "Data Owner": "Budget & Management"
+    }
+  },
+  "columns": [
+    {
+      "name": "Cost Center",
+      "fieldName": "cost_center",
+      "dataTypeName": "text",
+      "description": "A unique identifier to differentiate financial information by program.",
+      "nullCount": 0,
+      "cardinality": 67
+    },
+    {
+      "name": "Amount Allocated",
+      "fieldName": "amount_allocated",
+      "dataTypeName": "number",
+      "description": "A dollar amount representing the total budget for each program at the time the report is generated.",
+      "nullCount": 0,
+      "cardinality": 67
+    },
+    {
+      "name": "Amount Obligated",
+      "fieldName": "amount_obligated",
+      "dataTypeName": "number",
+      "description": "A dollar amount representing the total money that has been obligated to each program at the time the report is generated.",
+      "nullCount": 0,
+      "cardinality": 67
+    },
+    {
+      "name": "Amount Expended",
+      "fieldName": "amount_expended",
+      "dataTypeName": "number",
+      "description": "A dollar amount representing the total money that has been spent by each program at the time the report is generated.",
+      "nullCount": 0,
+      "cardinality": 67
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:20.729Z"
+}

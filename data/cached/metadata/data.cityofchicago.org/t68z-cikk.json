@@ -1,0 +1,280 @@
+{
+  "id": "t68z-cikk",
+  "name": "ACS 5 Year Data by Community Area",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 77,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": true,
+  "createdAt": 1736179014,
+  "publicationDate": 1738865666,
+  "rowsUpdatedAt": 1737648600,
+  "viewLastModified": 1738865666,
+  "viewCount": 18503,
+  "downloadCount": 23323,
+  "category": "Community & Economic Development",
+  "tags": [
+    "population",
+    "census",
+    "community area",
+    "federal"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "As indicated by Year column",
+      "Data Owner": "Department of Technology and Innovation"
+    }
+  },
+  "columns": [
+    {
+      "name": "ACS Year",
+      "fieldName": "acs_year",
+      "dataTypeName": "number",
+      "description": "The version of the ACS represented by the record.",
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Community Area",
+      "fieldName": "community_area",
+      "dataTypeName": "text",
+      "description": "Name of Community Area",
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": "Under $25,000",
+      "fieldName": "under_25_000",
+      "dataTypeName": "number",
+      "description": "Total # of Families w/ income under $25,000",
+      "nullCount": 0,
+      "cardinality": 76
+    },
+    {
+      "name": "$25,000 to $49,999",
+      "fieldName": "_25_000_to_49_999",
+      "dataTypeName": "number",
+      "description": "Total # of Families w/ income between $25,000 and $49,999",
+      "nullCount": 0,
+      "cardinality": 75
+    },
+    {
+      "name": "$50,000 to $74,999",
+      "fieldName": "_50_000_to_74_999",
+      "dataTypeName": "number",
+      "description": "Total # of Families w/ income between $50,000 and $74,999",
+      "nullCount": 0,
+      "cardinality": 74
+    },
+    {
+      "name": "$75,000 to $125,000",
+      "fieldName": "_75_000_to_125_000",
+      "dataTypeName": "number",
+      "description": "Total # of Families w/ income between $75,000 and $125,000",
+      "nullCount": 0,
+      "cardinality": 76
+    },
+    {
+      "name": "$125,000 +",
+      "fieldName": "_125_000",
+      "dataTypeName": "number",
+      "description": "Total # of Families w/ income over $125,000 +",
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": "Male 0 to 17",
+      "fieldName": "male_0_to_17",
+      "dataTypeName": "number",
+      "description": "Total # of Individual Males 0 to 17",
+      "nullCount": 0,
+      "cardinality": 76
+    },
+    {
+      "name": "Male 18 to 24",
+      "fieldName": "male_18_to_24",
+      "dataTypeName": "number",
+      "description": "Total # of Individual Males 18 to 24",
+      "nullCount": 0,
+      "cardinality": 74
+    },
+    {
+      "name": "Male 25 to 34",
+      "fieldName": "male_25_to_34",
+      "dataTypeName": "number",
+      "description": "Total # of Individual Males 25 to 34",
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": "Male 35 to 49",
+      "fieldName": "male_35_to_49",
+      "dataTypeName": "number",
+      "description": "Total # of Individual Males 35 to 49",
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": "Male 50 to 64",
+      "fieldName": "male_50_to_64",
+      "dataTypeName": "number",
+      "description": "Total # of Individual Males 50 to 64",
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": "Male 65+",
+      "fieldName": "male_65",
+      "dataTypeName": "number",
+      "description": "Total # of Individual Males 65+",
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": "Female 0 to 17",
+      "fieldName": "female_0_to_17",
+      "dataTypeName": "number",
+      "description": "Total # of Individual Females 0 to 17",
+      "nullCount": 0,
+      "cardinality": 76
+    },
+    {
+      "name": "Female 18 to 24",
+      "fieldName": "female_18_to_24",
+      "dataTypeName": "number",
+      "description": "Total # of Individual Females 18 to 24",
+      "nullCount": 0,
+      "cardinality": 75
+    },
+    {
+      "name": "Female 25 to 34",
+      "fieldName": "female_25_to_34",
+      "dataTypeName": "number",
+      "description": "Total # of Individual Females 25 to 34",
+      "nullCount": 0,
+      "cardinality": 76
+    },
+    {
+      "name": "Female 35 to 49",
+      "fieldName": "female_35_to_49",
+      "dataTypeName": "number",
+      "description": "Total # of Individual Females 35 to 49",
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": "Female 50 to 64",
+      "fieldName": "female_50_to_64",
+      "dataTypeName": "number",
+      "description": "Total # of Individual Females 50 to 64",
+      "nullCount": 0,
+      "cardinality": 76
+    },
+    {
+      "name": "Female 65 +",
+      "fieldName": "female_65",
+      "dataTypeName": "number",
+      "description": "Total # of Individual Females 65+",
+      "nullCount": 0,
+      "cardinality": 76
+    },
+    {
+      "name": "Total Population",
+      "fieldName": "total_population",
+      "dataTypeName": "number",
+      "description": "Total # of Individuals in Community Area",
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": "White",
+      "fieldName": "white",
+      "dataTypeName": "number",
+      "description": "Total # of Individuals in Community Area: White",
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": "Black or African American",
+      "fieldName": "black_or_african_american",
+      "dataTypeName": "number",
+      "description": "Total # of Individuals in Community Area: Black or African American",
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": "American Indian or Alaska Native",
+      "fieldName": "american_indian_or_alaska",
+      "dataTypeName": "number",
+      "description": "Total # of Individuals in Community Area: American Indian or Alaska Native",
+      "nullCount": 0,
+      "cardinality": 66
+    },
+    {
+      "name": "Asian",
+      "fieldName": "asian",
+      "dataTypeName": "number",
+      "description": "Total # of Individuals in Community Area: Asian",
+      "nullCount": 0,
+      "cardinality": 72
+    },
+    {
+      "name": "Native Hawaiian or Pacific Islander",
+      "fieldName": "native_hawaiin_or_pacific",
+      "dataTypeName": "number",
+      "description": "Total # of Individuals in Community Area: Native Hawaiian or Pacific Islander",
+      "nullCount": 0,
+      "cardinality": 29
+    },
+    {
+      "name": "Other Race",
+      "fieldName": "other_race",
+      "dataTypeName": "number",
+      "description": "Total # of Individuals in Community Area: Other Race",
+      "nullCount": 0,
+      "cardinality": 76
+    },
+    {
+      "name": "Multiracial",
+      "fieldName": "multiracial",
+      "dataTypeName": "number",
+      "description": "Total # of Individuals in Community Area: Multiracial",
+      "nullCount": 0,
+      "cardinality": 76
+    },
+    {
+      "name": "White Not Hispanic or Latino",
+      "fieldName": "white_not_hispanic_or_latino",
+      "dataTypeName": "number",
+      "description": "Total # of Individuals in Community Area: White Not Hispanic or Latino",
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": "Hispanic or Latino",
+      "fieldName": "hispanic_or_latino",
+      "dataTypeName": "number",
+      "description": "Total # of Individuals in Community Area: Hispanic or Latino",
+      "nullCount": 0,
+      "cardinality": 76
+    },
+    {
+      "name": "Record ID",
+      "fieldName": "record_id",
+      "dataTypeName": "text",
+      "description": "A unique identifier for this record.",
+      "nullCount": 0,
+      "cardinality": 77
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:37:48.469Z"
+}

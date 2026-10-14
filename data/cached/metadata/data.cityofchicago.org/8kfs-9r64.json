@@ -1,0 +1,73 @@
+{
+  "id": "8kfs-9r64",
+  "name": "Libraries - Summer Reads for Adults",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1316124771,
+  "publicationDate": 1349982925,
+  "rowsUpdatedAt": 1349982917,
+  "viewLastModified": 1349982925,
+  "viewCount": 1435,
+  "downloadCount": 2670,
+  "category": "Education",
+  "tags": [
+    "libraries",
+    "programs",
+    "summer reading"
+  ],
+  "attribution": "Chicago Public Library",
+  "attributionLink": "http://chipublib.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "Summer 2011",
+      "Frequency": "Data is updated annually",
+      "Data Owner": "Chicago Public Library"
+    }
+  },
+  "columns": [
+    {
+      "name": "YEAR",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "BOOKS READ",
+      "fieldName": "books_read",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "PROGRAMS HELD",
+      "fieldName": "programs_held",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "PROGRAM ATTENDEES",
+      "fieldName": "program_attendees",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:17.540Z"
+}

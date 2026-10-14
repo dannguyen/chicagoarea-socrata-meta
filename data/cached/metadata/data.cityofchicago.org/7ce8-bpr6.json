@@ -1,0 +1,154 @@
+{
+  "id": "7ce8-bpr6",
+  "name": "Inpatient, Emergency Department, and Outpatient Visits for Respiratory Illnesses",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 61683,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1695333483,
+  "publicationDate": 1777389196,
+  "rowsUpdatedAt": 1791567259,
+  "viewLastModified": 1788971576,
+  "viewCount": 4246,
+  "downloadCount": 5171,
+  "category": "Health & Human Services",
+  "tags": [
+    "health",
+    "public health",
+    "respiratory",
+    "flu",
+    "syndromic surveillance",
+    "covid-19"
+  ],
+  "attribution": "Chicago Department of Public Health",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2015-Present",
+      "Frequency": "Data are updated weekly"
+    }
+  },
+  "columns": [
+    {
+      "name": "mmwr_week",
+      "fieldName": "mmwr_week",
+      "dataTypeName": "number",
+      "description": "A weekly counting system within a calendar year standardized by the U.S. Centers for Disease Control and Prevention",
+      "nullCount": 0,
+      "cardinality": 61683
+    },
+    {
+      "name": "week",
+      "fieldName": "week",
+      "dataTypeName": "number",
+      "description": "The calendar week standardized by the U.S. Centers for Disease Control and Prevention",
+      "nullCount": 0,
+      "cardinality": 61683
+    },
+    {
+      "name": "week_start",
+      "fieldName": "week_start",
+      "dataTypeName": "calendar_date",
+      "description": "Beginning date of the MMWR week",
+      "nullCount": 9,
+      "cardinality": 61683
+    },
+    {
+      "name": "week_end",
+      "fieldName": "week_end",
+      "dataTypeName": "calendar_date",
+      "description": "Ending date of the MMWR week",
+      "nullCount": 9,
+      "cardinality": 61683
+    },
+    {
+      "name": "season",
+      "fieldName": "season",
+      "dataTypeName": "text",
+      "description": "Annually recurring reporting period for which estimates are calculated, beginning during MMWR week 40 and ending with week 39 of the following year",
+      "nullCount": 0,
+      "cardinality": 61683
+    },
+    {
+      "name": "data_source",
+      "fieldName": "data_source",
+      "dataTypeName": "text",
+      "description": "The U.S. Centers for Disease Control and Prevention system that the data is obtained from",
+      "nullCount": 0,
+      "cardinality": 61683
+    },
+    {
+      "name": "essence_category",
+      "fieldName": "essence_category",
+      "dataTypeName": "text",
+      "description": "The CDC National Syndromic Surveillance Program (NSSP) query name used in ESSENCE to generate the data in respiratory category column",
+      "nullCount": 0,
+      "cardinality": 61683
+    },
+    {
+      "name": "respiratory_category",
+      "fieldName": "respiratory_category",
+      "dataTypeName": "text",
+      "description": "Shortened name for the ESSENCE category column",
+      "nullCount": 0,
+      "cardinality": 61683
+    },
+    {
+      "name": "visit_type",
+      "fieldName": "visit_type",
+      "dataTypeName": "text",
+      "description": "The clinical encounter location",
+      "nullCount": 0,
+      "cardinality": 61683
+    },
+    {
+      "name": "demographic_category",
+      "fieldName": "demographic_category",
+      "dataTypeName": "text",
+      "description": "Overall population characteristic ",
+      "nullCount": 0,
+      "cardinality": 61683
+    },
+    {
+      "name": "demographic_group",
+      "fieldName": "demographic_group",
+      "dataTypeName": "text",
+      "description": "Specific population characteristic",
+      "nullCount": 0,
+      "cardinality": 61683
+    },
+    {
+      "name": "percent",
+      "fieldName": "percent",
+      "dataTypeName": "number",
+      "description": "Percent of total visits in the specified visit type and demographic group for the specified respiratory category",
+      "nullCount": 36,
+      "cardinality": 61683
+    },
+    {
+      "name": "activity_level",
+      "fieldName": "activity_level",
+      "dataTypeName": "text",
+      "description": "Indicator of how much people are seeking healthcare in emergency departments for respiratory illnesses. Five levels range from minimal to very high",
+      "nullCount": 61211,
+      "cardinality": 61683
+    },
+    {
+      "name": "current_week_ending",
+      "fieldName": "current_week_ending",
+      "dataTypeName": "calendar_date",
+      "description": "Ending date of the the MMWR week for the current season",
+      "nullCount": 0,
+      "cardinality": 61683
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:05.953Z"
+}

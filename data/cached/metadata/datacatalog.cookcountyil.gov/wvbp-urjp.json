@@ -1,0 +1,80 @@
+{
+  "id": "wvbp-urjp",
+  "name": "State's Attorney Felony Cases - Average Case Length and Sum of Length, By Offense Type",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 502,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1506528529,
+  "publicationDate": 1506533924,
+  "rowsUpdatedAt": 1506533846,
+  "viewLastModified": 1769546855,
+  "viewCount": 1313,
+  "downloadCount": 2235,
+  "category": "Legal & Judicial",
+  "tags": [
+    "state's attorney baseline data report",
+    "inactive"
+  ],
+  "attribution": "Cook County State's Attorney Office",
+  "attributionLink": "https://www.cookcountystatesattorney.org/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County State's Attorney Office"
+    },
+    "Publishing Details": {
+      "Publishing frequency": "Annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "YEAR",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": "The year in which time was spent on the case.",
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "OFFENSE TYPE",
+      "fieldName": "offense_type",
+      "dataTypeName": "text",
+      "description": "Type of offense for the “Topline” charge. Many cases involve multiple charges stemming from the same incident. On a charging document, these various charges are called “counts.” This data report is based on Count 1 for each case, which is generally the most serious charge in a given case, and is commonly referred to as the “topline charge.” ",
+      "nullCount": 0,
+      "cardinality": 88
+    },
+    {
+      "name": "AVERAGE CASE LENGTH",
+      "fieldName": "average_case_length",
+      "dataTypeName": "number",
+      "description": "Average length in days of the case from initiation to sentencing",
+      "nullCount": 0,
+      "cardinality": 497
+    },
+    {
+      "name": "SUM OF LENGTH",
+      "fieldName": "sum_of_length",
+      "dataTypeName": "number",
+      "description": "The sum length in days of cases from initiation to sentencing",
+      "nullCount": 0,
+      "cardinality": 501
+    },
+    {
+      "name": "DEFENDANT COUNT",
+      "fieldName": "defendant_count",
+      "dataTypeName": "number",
+      "description": "Count of defendants",
+      "nullCount": 0,
+      "cardinality": 231
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:00.721Z"
+}

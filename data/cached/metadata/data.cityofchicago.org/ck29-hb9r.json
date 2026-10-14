@@ -1,0 +1,265 @@
+{
+  "id": "ck29-hb9r",
+  "name": "Chicago Early Learning Programs",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 706,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1381948876,
+  "publicationDate": 1437749887,
+  "rowsUpdatedAt": 1513339337,
+  "viewLastModified": 1437749887,
+  "viewCount": 7827,
+  "downloadCount": 25830,
+  "category": "Education",
+  "tags": [
+    "cps",
+    "education",
+    "facilities"
+  ],
+  "attribution": "Smart Chicago Collaborative",
+  "attributionLink": "http://chicagoearlylearning.org/en/api/location",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "Current",
+      "Frequency": "Daily",
+      "Data Owner": "Smart Chicago Collaborative"
+    }
+  },
+  "columns": [
+    {
+      "name": "Key",
+      "fieldName": "key",
+      "dataTypeName": "number",
+      "description": "A unique ID for each site.",
+      "nullCount": 0,
+      "cardinality": 706
+    },
+    {
+      "name": "Site Name",
+      "fieldName": "site_name",
+      "dataTypeName": "text",
+      "description": "Name of location",
+      "nullCount": 0,
+      "cardinality": 699
+    },
+    {
+      "name": "Description",
+      "fieldName": "description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 97,
+      "cardinality": 211
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": "Street Address of location. Please note: this address has not been normalized.",
+      "nullCount": 0,
+      "cardinality": 698
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": "City of program, will always be located in Chicago.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": "State, will also be listed as IL",
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "ZIP",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": "Zip code",
+      "nullCount": 0,
+      "cardinality": 54
+    },
+    {
+      "name": "Phone Number",
+      "fieldName": "phone_number",
+      "dataTypeName": "text",
+      "description": "Phone number for program.",
+      "nullCount": 10,
+      "cardinality": 685
+    },
+    {
+      "name": "URL",
+      "fieldName": "url",
+      "dataTypeName": "text",
+      "description": "Website address of program",
+      "nullCount": 72,
+      "cardinality": 520
+    },
+    {
+      "name": "Ages Served",
+      "fieldName": "ages_served",
+      "dataTypeName": "text",
+      "description": "Ages of children served.",
+      "nullCount": 0,
+      "cardinality": 65
+    },
+    {
+      "name": "Ages 0-3",
+      "fieldName": "ages_0_3",
+      "dataTypeName": "checkbox",
+      "description": "Ages 0-3 served.",
+      "nullCount": 27,
+      "cardinality": 2
+    },
+    {
+      "name": "Ages 3-5",
+      "fieldName": "ages_3_5",
+      "dataTypeName": "checkbox",
+      "description": "Ages 3-5 served.",
+      "nullCount": 1,
+      "cardinality": 2
+    },
+    {
+      "name": "Weekday Availability",
+      "fieldName": "weekday_availability",
+      "dataTypeName": "text",
+      "description": "Availability of program: including full week, full day, or part day programs.",
+      "nullCount": 0,
+      "cardinality": 14
+    },
+    {
+      "name": "Duration/Hours",
+      "fieldName": "duration_hours",
+      "dataTypeName": "text",
+      "description": "The availability of the program throughout the year and hours of operation. The hours of operation will correspond to the WEEKDAY AVAILABILITY column.",
+      "nullCount": 706,
+      "cardinality": 0
+    },
+    {
+      "name": "Program Information",
+      "fieldName": "program_information",
+      "dataTypeName": "text",
+      "description": "Indicates whether the program is administered by community-based organizations (e.g., YMCA), Chicago Public Schools (CPS), or other organizations.",
+      "nullCount": 0,
+      "cardinality": 13
+    },
+    {
+      "name": "Languages other than English",
+      "fieldName": "languages_other_than_english",
+      "dataTypeName": "text",
+      "description": "Languages spoken other than English, comma separated.",
+      "nullCount": 706,
+      "cardinality": 0
+    },
+    {
+      "name": "Other Features",
+      "fieldName": "other_features",
+      "dataTypeName": "text",
+      "description": "Other features of the program.\n\nCCAP indicates the Child Care Assistance Program. The program is administered by DHS and helps qualifying families help for childcare. See more at http://www.dhs.state.il.us/page.aspx?item=30355",
+      "nullCount": 465,
+      "cardinality": 1
+    },
+    {
+      "name": "Accreditation",
+      "fieldName": "accreditation",
+      "dataTypeName": "text",
+      "description": "Indicates if the program is accredited by  the National Association for the Education of Young Children (NAEYC), National Early Childhood Program Accreditation (NEPCA), or the Council on Accreditation (COA).",
+      "nullCount": 0,
+      "cardinality": 29
+    },
+    {
+      "name": "Quality",
+      "fieldName": "quality",
+      "dataTypeName": "text",
+      "description": "Will be available in January 2014.",
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Quality Rating",
+      "fieldName": "quality_rating",
+      "dataTypeName": "text",
+      "description": "Will be available in 2014.",
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": "Latitude coordinates based on WGS84.",
+      "nullCount": 0,
+      "cardinality": 701
+    },
+    {
+      "name": "Longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": "Longitude coordinates based on WGS84.",
+      "nullCount": 0,
+      "cardinality": 699
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": "The latitude and longitude coordinates based on the LATITUDE and LONGITUDE fields in this dataset.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:01.455Z"
+}

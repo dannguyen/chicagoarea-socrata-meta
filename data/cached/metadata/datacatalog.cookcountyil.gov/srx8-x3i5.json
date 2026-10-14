@@ -1,0 +1,68 @@
+{
+  "id": "srx8-x3i5",
+  "name": "Treasurer - 2009 Scavenger Sale No-bid PINS",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 112290,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1319580792,
+  "publicationDate": 1319581217,
+  "rowsUpdatedAt": 1319580822,
+  "viewLastModified": 1769546331,
+  "viewCount": 2189,
+  "downloadCount": 2925,
+  "category": "Property & Taxation",
+  "tags": [
+    "cook county treasurer",
+    "2009 scavenger sale",
+    "tax sale",
+    "no bid pin",
+    "inactive"
+  ],
+  "attribution": "Cook County Treasurer's Office",
+  "attributionLink": "http://www.cookcountytreasurer.com/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "PIN",
+      "fieldName": "pin",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 8659
+    },
+    {
+      "name": "Tax Type",
+      "fieldName": "tax_type",
+      "dataTypeName": "number",
+      "description": "0 = General Tax\n1 = Back Tax\n3 = Air Pollution\n4 = Arrerage Tax\n5 = Circulator\n6 = Special Assessment",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Tax Year",
+      "fieldName": "tax_year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 19
+    },
+    {
+      "name": "Zip Code",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 160
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:56.495Z"
+}

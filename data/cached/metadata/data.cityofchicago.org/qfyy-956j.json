@@ -1,0 +1,104 @@
+{
+  "id": "qfyy-956j",
+  "name": "Active Shared Housing Registrations",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 3814,
+  "rowCountSource": "cached",
+  "rowLabel": "Registration",
+  "hasRowIdentifier": true,
+  "createdAt": 1701207627,
+  "publicationDate": 1754005578,
+  "rowsUpdatedAt": 1791955348,
+  "viewLastModified": 1774467941,
+  "viewCount": 17008,
+  "downloadCount": 8228,
+  "category": "Community & Economic Development",
+  "tags": [
+    "house share",
+    "regulation"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Current",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"qfyy-956j\"",
+      "Frequency": "Data are updated daily",
+      "Data Owner": "Department of Business Affairs & Consumer Protection"
+    }
+  },
+  "columns": [
+    {
+      "name": "REGISTRATION_NUMBER",
+      "fieldName": "registration_number",
+      "dataTypeName": "text",
+      "description": "Registration number of approved application.",
+      "nullCount": 0,
+      "cardinality": 3814
+    },
+    {
+      "name": "HOST_NAME",
+      "fieldName": "host_name",
+      "dataTypeName": "text",
+      "description": "Name of the registered host.",
+      "nullCount": 0,
+      "cardinality": 3806
+    },
+    {
+      "name": "STREET_ADDRESS",
+      "fieldName": "street_address",
+      "dataTypeName": "text",
+      "description": "Address of the housing unit.",
+      "nullCount": 0,
+      "cardinality": 3806
+    },
+    {
+      "name": "CURRENT_STATUS",
+      "fieldName": "current_status",
+      "dataTypeName": "text",
+      "description": "Status of the application.",
+      "nullCount": 0,
+      "cardinality": 3806
+    },
+    {
+      "name": "CURRENT_STATUS_DATE",
+      "fieldName": "current_status_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date the status of the application last changed.",
+      "nullCount": 0,
+      "cardinality": 3806
+    },
+    {
+      "name": "EXPIRATION_DATE",
+      "fieldName": "expiration_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date shared housing registration expires.",
+      "nullCount": 1,
+      "cardinality": 3806
+    },
+    {
+      "name": "WARD",
+      "fieldName": "ward",
+      "dataTypeName": "text",
+      "description": "Ward of the shared housing unit.",
+      "nullCount": 0,
+      "cardinality": 3806
+    },
+    {
+      "name": "PRECINCT",
+      "fieldName": "precinct",
+      "dataTypeName": "text",
+      "description": "The precinct within the ward.",
+      "nullCount": 0,
+      "cardinality": 3806
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:37:48.871Z"
+}

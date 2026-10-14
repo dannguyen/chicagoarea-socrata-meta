@@ -1,0 +1,119 @@
+{
+  "id": "3qsz-jemf",
+  "name": "TIF Status and Eligibility",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 185,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1339694543,
+  "publicationDate": 1580929678,
+  "rowsUpdatedAt": 1667231971,
+  "viewLastModified": 1667231970,
+  "viewCount": 4654,
+  "downloadCount": 6389,
+  "category": "Community & Economic Development",
+  "tags": [
+    "tif"
+  ],
+  "attribution": "City of Chicago - Office of Budget and Management",
+  "attributionLink": "http://www.cityofchicago.org/city/en/depts/dcd/supp_info/redevelopment_plans.html",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "1984 - 2011",
+      "Frequency": "",
+      "Data Owner": "City of Chicago - Office of Budget and Management"
+    }
+  },
+  "columns": [
+    {
+      "name": "Status",
+      "fieldName": "status",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Ref. Number",
+      "fieldName": "ref_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 184
+    },
+    {
+      "name": "TIF District",
+      "fieldName": "tif_district_name",
+      "dataTypeName": "text",
+      "description": "TIF District Name",
+      "nullCount": 0,
+      "cardinality": 185
+    },
+    {
+      "name": "Designation Date",
+      "fieldName": "designation_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 122
+    },
+    {
+      "name": "Designation Year",
+      "fieldName": "designation_year",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 32
+    },
+    {
+      "name": "End Date",
+      "fieldName": "end_expiration_date",
+      "dataTypeName": "calendar_date",
+      "description": "End date of TIF based on plan expiration or termination/repeal date.",
+      "nullCount": 0,
+      "cardinality": 35
+    },
+    {
+      "name": "Final Year",
+      "fieldName": "expiration_year",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 34
+    },
+    {
+      "name": "Blighting Factors",
+      "fieldName": "blighting_factors",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Conservation Factors",
+      "fieldName": "conservation_factors",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Redevelopment Plan",
+      "fieldName": "tif_eligiblity_study_plan",
+      "dataTypeName": "url",
+      "description": "TIF Eligibility Study & Plan",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:05.313Z"
+}

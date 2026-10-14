@@ -1,0 +1,640 @@
+{
+  "id": "28me-84fj",
+  "name": "Police Sentiment Scores",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 7557,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1618347858,
+  "publicationDate": 1619476654,
+  "rowsUpdatedAt": 1738749908,
+  "viewLastModified": 1619649660,
+  "viewCount": 6902,
+  "downloadCount": 6505,
+  "category": "Public Safety",
+  "tags": [
+    "police",
+    "public safety",
+    "consent decree"
+  ],
+  "attribution": "Chicago Police Department",
+  "attributionLink": "https://home.chicagopolice.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "November 2017 - Present",
+      "Frequency": "Data are updated monthly",
+      "Data Owner": "Chicago Police Department"
+    }
+  },
+  "columns": [
+    {
+      "name": "ORG_LEVEL",
+      "fieldName": "org_level",
+      "dataTypeName": "text",
+      "description": "The type of organizational unit represented by the record.",
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "CITY",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "AREA",
+      "fieldName": "area",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 225,
+      "cardinality": 8
+    },
+    {
+      "name": "DISTRICT",
+      "fieldName": "district",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 823,
+      "cardinality": 22
+    },
+    {
+      "name": "SECTOR",
+      "fieldName": "sector",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2451,
+      "cardinality": 69
+    },
+    {
+      "name": "SAFETY",
+      "fieldName": "safety",
+      "dataTypeName": "number",
+      "description": "Overall score for the question: \"When it comes to the threat of crime, how safe do you feel in your neighborhood? (Level of safety from 0-10)\"",
+      "nullCount": 0,
+      "cardinality": 2772
+    },
+    {
+      "name": "S_RACE_AFRICAN_AMERICAN",
+      "fieldName": "s_race_african_american",
+      "dataTypeName": "number",
+      "description": "Safety score for Non-Hispanic Black/African American respondents. ",
+      "nullCount": 0,
+      "cardinality": 3206
+    },
+    {
+      "name": "S_RACE_ASIAN_AMERICAN",
+      "fieldName": "s_race_asian_american",
+      "dataTypeName": "number",
+      "description": "Safety score for Non-Hispanic Asian American respondents.",
+      "nullCount": 0,
+      "cardinality": 3034
+    },
+    {
+      "name": "S_RACE_HISPANIC",
+      "fieldName": "s_race_hispanic",
+      "dataTypeName": "number",
+      "description": "Safety score for Hispanic respondents.",
+      "nullCount": 0,
+      "cardinality": 3178
+    },
+    {
+      "name": "S_RACE_WHITE",
+      "fieldName": "s_race_white",
+      "dataTypeName": "number",
+      "description": "Safety score for Non-Hispanic White respondents.",
+      "nullCount": 0,
+      "cardinality": 2872
+    },
+    {
+      "name": "S_RACE_OTHER",
+      "fieldName": "s_race_other",
+      "dataTypeName": "number",
+      "description": "Safety score for Non-Hispanic respondents of other races.",
+      "nullCount": 0,
+      "cardinality": 3107
+    },
+    {
+      "name": "S_AGE_LOW",
+      "fieldName": "s_age_low",
+      "dataTypeName": "number",
+      "description": "Safety score for respondents age 18-34.",
+      "nullCount": 0,
+      "cardinality": 3253
+    },
+    {
+      "name": "S_AGE_MEDIUM",
+      "fieldName": "s_age_medium",
+      "dataTypeName": "number",
+      "description": "Safety score for respondents age 35-54.",
+      "nullCount": 0,
+      "cardinality": 3303
+    },
+    {
+      "name": "S_AGE_HIGH",
+      "fieldName": "s_age_high",
+      "dataTypeName": "number",
+      "description": "Safety score for respondents age 55+.",
+      "nullCount": 0,
+      "cardinality": 3045
+    },
+    {
+      "name": "S_SEX_FEMALE",
+      "fieldName": "s_sex_female",
+      "dataTypeName": "number",
+      "description": "Safety score for Female respondents.",
+      "nullCount": 0,
+      "cardinality": 2970
+    },
+    {
+      "name": "S_SEX_MALE",
+      "fieldName": "s_sex_male",
+      "dataTypeName": "number",
+      "description": "Safety score for Male respondents.",
+      "nullCount": 0,
+      "cardinality": 3099
+    },
+    {
+      "name": "S_EDUCATION_LOW",
+      "fieldName": "s_education_low",
+      "dataTypeName": "number",
+      "description": "Safety score for respondents with an education level up to high school graduate.",
+      "nullCount": 453,
+      "cardinality": 3176
+    },
+    {
+      "name": "S_EDUCATION_MEDIUM",
+      "fieldName": "s_education_medium",
+      "dataTypeName": "number",
+      "description": "Safety score for respondents with some college or a college degree.",
+      "nullCount": 453,
+      "cardinality": 2955
+    },
+    {
+      "name": "S_EDUCATION_HIGH",
+      "fieldName": "s_education_high",
+      "dataTypeName": "number",
+      "description": "Safety score for respondents with an advanced degree.",
+      "nullCount": 453,
+      "cardinality": 3059
+    },
+    {
+      "name": "S_INCOME_LOW",
+      "fieldName": "s_income_low",
+      "dataTypeName": "number",
+      "description": "Safety score for respondents with an annual household income up to $29,999.",
+      "nullCount": 453,
+      "cardinality": 3116
+    },
+    {
+      "name": "S_INCOME_MEDIUM",
+      "fieldName": "s_income_medium",
+      "dataTypeName": "number",
+      "description": "Safety score for respondents with an annual household income of $30,000 to $99,999.",
+      "nullCount": 453,
+      "cardinality": 2980
+    },
+    {
+      "name": "S_INCOME_HIGH",
+      "fieldName": "s_income_high",
+      "dataTypeName": "number",
+      "description": "Safety score for respondents with an annual household income of $100,000 or more.",
+      "nullCount": 453,
+      "cardinality": 3126
+    },
+    {
+      "name": "TRUST",
+      "fieldName": "trust",
+      "dataTypeName": "number",
+      "description": "Overall score for the questions: \"1.\tHow much do you agree with this statement? The police in my neighborhood listen to and take into account the concerns of local residents. (Level of  agreement from 0-10) and  2. How much do you agree with this statement? The police in my neighborhood treat local residents with respect. (Level of agreement from 0-10)",
+      "nullCount": 0,
+      "cardinality": 3109
+    },
+    {
+      "name": "T_RACE_AFRICAN_AMERICAN",
+      "fieldName": "t_race_african_american",
+      "dataTypeName": "number",
+      "description": "Trust score for Non-Hispanic Black/African American respondents. ",
+      "nullCount": 0,
+      "cardinality": 3366
+    },
+    {
+      "name": "T_RACE_ASIAN_AMERICAN",
+      "fieldName": "t_race_asian_american",
+      "dataTypeName": "number",
+      "description": "Trust score for Non-Hispanic Asian American respondents.",
+      "nullCount": 0,
+      "cardinality": 2907
+    },
+    {
+      "name": "T_RACE_HISPANIC",
+      "fieldName": "t_race_hispanic",
+      "dataTypeName": "number",
+      "description": "Trust score for Hispanic respondents.",
+      "nullCount": 0,
+      "cardinality": 3159
+    },
+    {
+      "name": "T_RACE_WHITE",
+      "fieldName": "t_race_white",
+      "dataTypeName": "number",
+      "description": "Trust score for Non-Hispanic White respondents.",
+      "nullCount": 0,
+      "cardinality": 3158
+    },
+    {
+      "name": "T_RACE_OTHER",
+      "fieldName": "t_race_other",
+      "dataTypeName": "number",
+      "description": "Trust score for Non-Hispanic respondents of other races.",
+      "nullCount": 0,
+      "cardinality": 3450
+    },
+    {
+      "name": "T_AGE_LOW",
+      "fieldName": "t_age_low",
+      "dataTypeName": "number",
+      "description": "Trust score for respondents age 18-34.",
+      "nullCount": 0,
+      "cardinality": 3307
+    },
+    {
+      "name": "T_AGE_MEDIUM",
+      "fieldName": "t_age_medium",
+      "dataTypeName": "number",
+      "description": "Trust score for respondents age 35-54.",
+      "nullCount": 0,
+      "cardinality": 3585
+    },
+    {
+      "name": "T_AGE_HIGH",
+      "fieldName": "t_age_high",
+      "dataTypeName": "number",
+      "description": "Trust score for respondents age 55+.",
+      "nullCount": 0,
+      "cardinality": 3366
+    },
+    {
+      "name": "T_SEX_FEMALE",
+      "fieldName": "t_sex_female",
+      "dataTypeName": "number",
+      "description": "Trust score for Female respondents.",
+      "nullCount": 0,
+      "cardinality": 3343
+    },
+    {
+      "name": "T_SEX_MALE",
+      "fieldName": "t_sex_male",
+      "dataTypeName": "number",
+      "description": "Trust score for Male respondents.",
+      "nullCount": 0,
+      "cardinality": 3389
+    },
+    {
+      "name": "T_EDUCATION_LOW",
+      "fieldName": "t_education_low",
+      "dataTypeName": "number",
+      "description": "Trust score for respondents with an education level up to high school graduate.",
+      "nullCount": 453,
+      "cardinality": 3400
+    },
+    {
+      "name": "T_EDUCATION_MEDIUM",
+      "fieldName": "t_education_medium",
+      "dataTypeName": "number",
+      "description": "Trust score for respondents with some college or a college degree.",
+      "nullCount": 453,
+      "cardinality": 3248
+    },
+    {
+      "name": "T_EDUCATION_HIGH",
+      "fieldName": "t_education_high",
+      "dataTypeName": "number",
+      "description": "Trust score for respondents with an advanced degree.",
+      "nullCount": 453,
+      "cardinality": 3280
+    },
+    {
+      "name": "T_INCOME_LOW",
+      "fieldName": "t_income_low",
+      "dataTypeName": "number",
+      "description": "Trust score for respondents with an annual household income up to $29,999.",
+      "nullCount": 453,
+      "cardinality": 3308
+    },
+    {
+      "name": "T_INCOME_MEDIUM",
+      "fieldName": "t_income_medium",
+      "dataTypeName": "number",
+      "description": "Trust score for respondents with an annual household income of $30,000 to $99,999.",
+      "nullCount": 453,
+      "cardinality": 3303
+    },
+    {
+      "name": "T_INCOME_HIGH",
+      "fieldName": "t_income_high",
+      "dataTypeName": "number",
+      "description": "Trust score for respondents with an annual household income of $100,000 or more.",
+      "nullCount": 453,
+      "cardinality": 3170
+    },
+    {
+      "name": "T_LISTEN",
+      "fieldName": "t_listen",
+      "dataTypeName": "number",
+      "description": "Overall score for the Trust question: \"1. How much do you agree with this statement? The police in my neighborhood listen to and take into account the concerns of local residents. (Level of  agreement from 0-10)\"",
+      "nullCount": 3386,
+      "cardinality": 2327
+    },
+    {
+      "name": "T_LISTEN_RACE_AFRICAN_AMERICAN",
+      "fieldName": "t_listen_race_african_american",
+      "dataTypeName": "number",
+      "description": "Trust/Listen score for Non-Hispanic Black/African American respondents.",
+      "nullCount": 3386,
+      "cardinality": 2555
+    },
+    {
+      "name": "T_LISTEN_RACE_ASIAN_AMERICAN",
+      "fieldName": "t_listen_race_asian_american",
+      "dataTypeName": "number",
+      "description": "Trust/Listen score for Non-Hispanic Asian American respondents.",
+      "nullCount": 3386,
+      "cardinality": 2282
+    },
+    {
+      "name": "T_LISTEN_RACE_HISPANIC",
+      "fieldName": "t_listen_race_hispanic",
+      "dataTypeName": "number",
+      "description": "Trust/Listen score for Hispanic respondents.",
+      "nullCount": 3386,
+      "cardinality": 2479
+    },
+    {
+      "name": "T_LISTEN_RACE_WHITE",
+      "fieldName": "t_listen_race_white",
+      "dataTypeName": "number",
+      "description": "Trust/Listen score for Non-Hispanic White respondents.",
+      "nullCount": 3386,
+      "cardinality": 2513
+    },
+    {
+      "name": "T_LISTEN_RACE_OTHER",
+      "fieldName": "t_listen_race_other",
+      "dataTypeName": "number",
+      "description": "Trust/Listen score for Non-Hispanic respondents of other races.",
+      "nullCount": 3386,
+      "cardinality": 2467
+    },
+    {
+      "name": "T_LISTEN_AGE_LOW",
+      "fieldName": "t_listen_age_low",
+      "dataTypeName": "number",
+      "description": "Trust/Listen score for respondents age 18-34.",
+      "nullCount": 3386,
+      "cardinality": 2400
+    },
+    {
+      "name": "T_LISTEN_AGE_MEDIUM",
+      "fieldName": "t_listen_age_medium",
+      "dataTypeName": "number",
+      "description": "Trust/Listen score for respondents age 35-54.",
+      "nullCount": 3386,
+      "cardinality": 2632
+    },
+    {
+      "name": "T_LISTEN_AGE_HIGH",
+      "fieldName": "t_listen_age_high",
+      "dataTypeName": "number",
+      "description": "Trust/Listen score for respondents age 55+.",
+      "nullCount": 3386,
+      "cardinality": 2558
+    },
+    {
+      "name": "T_LISTEN_SEX_FEMALE",
+      "fieldName": "t_listen_sex_female",
+      "dataTypeName": "number",
+      "description": "Trust/Listen score for Female respondents.",
+      "nullCount": 3386,
+      "cardinality": 2461
+    },
+    {
+      "name": "T_LISTEN_SEX_MALE",
+      "fieldName": "t_listen_sex_male",
+      "dataTypeName": "number",
+      "description": "Trust/Listen score for Male respondents.",
+      "nullCount": 3386,
+      "cardinality": 2489
+    },
+    {
+      "name": "T_LISTEN_EDUCATION_LOW",
+      "fieldName": "t_listen_education_low",
+      "dataTypeName": "number",
+      "description": "Trust/Listen score for respondents with an education level up to high school graduate.",
+      "nullCount": 3386,
+      "cardinality": 2569
+    },
+    {
+      "name": "T_LISTEN_EDUCATION_MEDIUM",
+      "fieldName": "t_listen_education_medium",
+      "dataTypeName": "number",
+      "description": "Trust/Listen score for respondents with some college or a college degree.",
+      "nullCount": 3386,
+      "cardinality": 2489
+    },
+    {
+      "name": "T_LISTEN_EDUCATION_HIGH",
+      "fieldName": "t_listen_education_high",
+      "dataTypeName": "number",
+      "description": "Trust/Listen score for respondents with an advanced degree.",
+      "nullCount": 3386,
+      "cardinality": 2554
+    },
+    {
+      "name": "T_LISTEN_INCOME_LOW",
+      "fieldName": "t_listen_income_low",
+      "dataTypeName": "number",
+      "description": "Trust/Listen score for respondents with an annual household income up to $29,999.",
+      "nullCount": 3386,
+      "cardinality": 2462
+    },
+    {
+      "name": "T_LISTEN_INCOME_MEDIUM",
+      "fieldName": "t_listen_income_medium",
+      "dataTypeName": "number",
+      "description": "Trust/Listen score for respondents with an annual household income of $30,000 to $99,999.",
+      "nullCount": 3386,
+      "cardinality": 2490
+    },
+    {
+      "name": "T_LISTEN_INCOME_HIGH",
+      "fieldName": "t_listen_income_high",
+      "dataTypeName": "number",
+      "description": "Trust/Listen score for respondents with an annual household income of $100,000 or more.",
+      "nullCount": 3386,
+      "cardinality": 2518
+    },
+    {
+      "name": "T_RESPECT",
+      "fieldName": "t_respect",
+      "dataTypeName": "number",
+      "description": "Overall score for the Trust/Respect question: \"2. How much do you agree with this statement? The police in my neighborhood treat local residents with respect. (Level of agreement from 0-10)\".",
+      "nullCount": 3386,
+      "cardinality": 2342
+    },
+    {
+      "name": "T_RESPECT_RACE_AFRICAN_AMERICAN",
+      "fieldName": "t_respect_race_african_american",
+      "dataTypeName": "number",
+      "description": "Trust/Respect score for Non-Hispanic Black/African American respondents. ",
+      "nullCount": 3386,
+      "cardinality": 2541
+    },
+    {
+      "name": "T_RESPECT_RACE_ASIAN_AMERICAN",
+      "fieldName": "t_respect_race_asian_american",
+      "dataTypeName": "number",
+      "description": "Trust/Respect score for Non-Hispanic Asian American respondents.",
+      "nullCount": 3386,
+      "cardinality": 2349
+    },
+    {
+      "name": "T_RESPECT_RACE_HISPANIC",
+      "fieldName": "t_respect_race_hispanic",
+      "dataTypeName": "number",
+      "description": "Trust/Respect score for Hispanic respondents.",
+      "nullCount": 3386,
+      "cardinality": 2498
+    },
+    {
+      "name": "T_RESPECT_RACE_WHITE",
+      "fieldName": "t_respect_race_white",
+      "dataTypeName": "number",
+      "description": "Trust/Respect score for Non-Hispanic White respondents.",
+      "nullCount": 3386,
+      "cardinality": 2473
+    },
+    {
+      "name": "T_RESPECT_RACE_OTHER",
+      "fieldName": "t_respect_race_other",
+      "dataTypeName": "number",
+      "description": "Trust/Respect score for Non-Hispanic respondents of other races.",
+      "nullCount": 3386,
+      "cardinality": 2487
+    },
+    {
+      "name": "T_RESPECT_AGE_LOW",
+      "fieldName": "t_respect_age_low",
+      "dataTypeName": "number",
+      "description": "Trust/Respect score for respondents age 18-34.",
+      "nullCount": 3386,
+      "cardinality": 2423
+    },
+    {
+      "name": "T_RESPECT_AGE_MEDIUM",
+      "fieldName": "t_respect_age_medium",
+      "dataTypeName": "number",
+      "description": "Trust/Respect score for respondents age 35-54.",
+      "nullCount": 3386,
+      "cardinality": 2699
+    },
+    {
+      "name": "T_RESPECT_AGE_HIGH",
+      "fieldName": "t_respect_age_high",
+      "dataTypeName": "number",
+      "description": "Trust/Respect score for respondents age 55+.",
+      "nullCount": 3386,
+      "cardinality": 2552
+    },
+    {
+      "name": "T_RESPECT_SEX_FEMALE",
+      "fieldName": "t_respect_sex_female",
+      "dataTypeName": "number",
+      "description": "Trust/Respect score for Female respondents.",
+      "nullCount": 3386,
+      "cardinality": 2476
+    },
+    {
+      "name": "T_RESPECT_SEX_MALE",
+      "fieldName": "t_respect_sex_male",
+      "dataTypeName": "number",
+      "description": "Trust/Respect score for Male respondents.",
+      "nullCount": 3386,
+      "cardinality": 2520
+    },
+    {
+      "name": "T_RESPECT_EDUCATION_LOW",
+      "fieldName": "t_respect_education_low",
+      "dataTypeName": "number",
+      "description": "Trust/Respect score for respondents with an education level up to high school graduate.",
+      "nullCount": 3386,
+      "cardinality": 2616
+    },
+    {
+      "name": "T_RESPECT_EDUCATION_MEDIUM",
+      "fieldName": "t_respect_education_medium",
+      "dataTypeName": "number",
+      "description": "Trust/Respect score for respondents with some college or a college degree.",
+      "nullCount": 3386,
+      "cardinality": 2538
+    },
+    {
+      "name": "T_RESPECT_EDUCATION_HIGH",
+      "fieldName": "t_respect_education_high",
+      "dataTypeName": "number",
+      "description": "Trust/Respect score for respondents with an advanced degree.",
+      "nullCount": 3386,
+      "cardinality": 2511
+    },
+    {
+      "name": "T_RESPECT_INCOME_LOW",
+      "fieldName": "t_respect_income_low",
+      "dataTypeName": "number",
+      "description": "Trust/Respect score for respondents with an annual household income up to $29,999.",
+      "nullCount": 3386,
+      "cardinality": 2499
+    },
+    {
+      "name": "T_RESPECT_INCOME_MEDIUM",
+      "fieldName": "t_respect_income_medium",
+      "dataTypeName": "number",
+      "description": "Trust/Respect score for respondents with an annual household income of $30,000 to $99,999.",
+      "nullCount": 3386,
+      "cardinality": 2547
+    },
+    {
+      "name": "T_RESPECT_INCOME_HIGH",
+      "fieldName": "t_respect_income_high",
+      "dataTypeName": "number",
+      "description": "Trust/Respect score for respondents with an annual household income of $100,000 or more.",
+      "nullCount": 3386,
+      "cardinality": 2457
+    },
+    {
+      "name": "START_DATE",
+      "fieldName": "start_date",
+      "dataTypeName": "calendar_date",
+      "description": "The beginning of the month the score represents.",
+      "nullCount": 0,
+      "cardinality": 152
+    },
+    {
+      "name": "END_DATE",
+      "fieldName": "end_date",
+      "dataTypeName": "calendar_date",
+      "description": "The end of the month the score object represents.",
+      "nullCount": 0,
+      "cardinality": 152
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:02.166Z"
+}

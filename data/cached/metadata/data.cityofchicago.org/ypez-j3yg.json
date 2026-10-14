@@ -1,0 +1,488 @@
+{
+  "id": "ypez-j3yg",
+  "name": "Lobbyist Data - Lobbyist Registry - 2012 to present (Deprecated October 2015)",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 28249,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1339010791,
+  "publicationDate": 1481279671,
+  "rowsUpdatedAt": 1481279505,
+  "viewLastModified": 1481279671,
+  "viewCount": 28777,
+  "downloadCount": 15849,
+  "category": "Ethics",
+  "tags": [
+    "lobbyists",
+    "ethics",
+    "deprecated"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "January 2012 to present",
+      "Frequency": "Data is updated daily",
+      "Data Owner": "Ethics"
+    }
+  },
+  "columns": [
+    {
+      "name": "FILING YEAR",
+      "fieldName": "filing_year",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "LOBBYIST ID",
+      "fieldName": "lobbyist_id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3131
+    },
+    {
+      "name": "LOBBYIST SALUTATION",
+      "fieldName": "lobbyist_salutation",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 4938,
+      "cardinality": 11
+    },
+    {
+      "name": "LOBBYIST LAST NAME",
+      "fieldName": "lobbyist_last_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 931
+    },
+    {
+      "name": "LOBBYIST FIRST NAME",
+      "fieldName": "lobbyist_first_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 497
+    },
+    {
+      "name": "LOBBYIST MIDDLE INITIAL",
+      "fieldName": "lobbyist_middle_initial",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 8957,
+      "cardinality": 48
+    },
+    {
+      "name": "LOBBYIST ADDRESS",
+      "fieldName": "lobbyist_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1013
+    },
+    {
+      "name": "LOBBYIST ADDRESS 2",
+      "fieldName": "lobbyist_address_2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 17694,
+      "cardinality": 330
+    },
+    {
+      "name": "LOBBYIST CITY",
+      "fieldName": "lobbyist_city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 198
+    },
+    {
+      "name": "LOBBYIST STATE",
+      "fieldName": "lobbyist_state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 37
+    },
+    {
+      "name": "LOBBYIST ZIP",
+      "fieldName": "lobbyist_zip",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 229,
+      "cardinality": 264
+    },
+    {
+      "name": "LOBBYIST COUNTRY",
+      "fieldName": "lobbyist_country",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "LOBBYIST PHONE",
+      "fieldName": "lobbyist_phone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1012
+    },
+    {
+      "name": "LOBBYIST FAX",
+      "fieldName": "lobbyist_fax",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 5481,
+      "cardinality": 568
+    },
+    {
+      "name": "LOBBYIST EMAIL",
+      "fieldName": "lobbyist_email",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1169
+    },
+    {
+      "name": "EMAIL",
+      "fieldName": "email",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1062
+    },
+    {
+      "name": "EMPLOYER NAME",
+      "fieldName": "employer_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 738
+    },
+    {
+      "name": "EMPLOYER ADDRESS",
+      "fieldName": "employer_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 28,
+      "cardinality": 817
+    },
+    {
+      "name": "EMPLOYER ADDRESS 2",
+      "fieldName": "employer_address_2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 19295,
+      "cardinality": 227
+    },
+    {
+      "name": "EMPLOYER CITY",
+      "fieldName": "employer_city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 28,
+      "cardinality": 180
+    },
+    {
+      "name": "EMPLOYER STATE",
+      "fieldName": "employer_state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 28,
+      "cardinality": 41
+    },
+    {
+      "name": "EMPLOYER ZIP",
+      "fieldName": "employer_zip",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 118,
+      "cardinality": 247
+    },
+    {
+      "name": "EMPLOYER COUNTRY",
+      "fieldName": "employer_country",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "EMPLOYER PHONE",
+      "fieldName": "employer_phone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 28,
+      "cardinality": 762
+    },
+    {
+      "name": "EMPLOYER FAX",
+      "fieldName": "employer_fax",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 5079,
+      "cardinality": 608
+    },
+    {
+      "name": "CORRESPONDENT SALUTATION",
+      "fieldName": "correspondent_salutation",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 4162,
+      "cardinality": 12
+    },
+    {
+      "name": "CORRESPONDENT LAST NAME",
+      "fieldName": "correspondent_last_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 935
+    },
+    {
+      "name": "CORRESPONDENT FIRST NAME",
+      "fieldName": "correspondent_first_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 534
+    },
+    {
+      "name": "CORRESPONDENT MIDDLE INITIAL",
+      "fieldName": "correspondent_middle_initial",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 10987,
+      "cardinality": 45
+    },
+    {
+      "name": "CORRESPONDENT ADDRESS",
+      "fieldName": "correspondent_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1065
+    },
+    {
+      "name": "CORRESPONDENT ADDRESS 2",
+      "fieldName": "correspondent_address_2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 17186,
+      "cardinality": 355
+    },
+    {
+      "name": "CORRESPONDENT CITY",
+      "fieldName": "correspondent_city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 201
+    },
+    {
+      "name": "CORRESPONDENT STATE",
+      "fieldName": "correspondent_state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 37
+    },
+    {
+      "name": "CORRESPONDENT ZIP",
+      "fieldName": "correspondent_zip",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 226,
+      "cardinality": 265
+    },
+    {
+      "name": "CORRESPONDENT COUNTRY",
+      "fieldName": "correspondent_country",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "CORRESPONDENT PHONE",
+      "fieldName": "correspondent_phone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1002
+    },
+    {
+      "name": "CORRESPONDENT FAX",
+      "fieldName": "correspondent_fax",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 5581,
+      "cardinality": 561
+    },
+    {
+      "name": "CORRESPONDENT EMAIL",
+      "fieldName": "correspondent_email",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 1125
+    },
+    {
+      "name": "CLIENT NAME",
+      "fieldName": "client_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3005
+    },
+    {
+      "name": "CLIENT INDUSTRY",
+      "fieldName": "client_industry",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 34
+    },
+    {
+      "name": "CLIENT OTHER INDUSTRY",
+      "fieldName": "client_other_industry",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 26088,
+      "cardinality": 277
+    },
+    {
+      "name": "CLIENT ADDRESS",
+      "fieldName": "client_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3048
+    },
+    {
+      "name": "CLIENT ADDRESS 2",
+      "fieldName": "client_address_2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 18739,
+      "cardinality": 638
+    },
+    {
+      "name": "CLIENT CITY",
+      "fieldName": "client_city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 473
+    },
+    {
+      "name": "CLIENT STATE",
+      "fieldName": "client_state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 51
+    },
+    {
+      "name": "CLIENT ZIP",
+      "fieldName": "client_zip",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 268,
+      "cardinality": 616
+    },
+    {
+      "name": "CLIENT PHONE",
+      "fieldName": "client_phone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 28249,
+      "cardinality": 0
+    },
+    {
+      "name": "REGISTRATION VERSION",
+      "fieldName": "registration_version",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 17
+    },
+    {
+      "name": "REGISTRATION FILED DATE",
+      "fieldName": "registration_filed_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 1106,
+      "cardinality": 642
+    },
+    {
+      "name": "LOBBYIST TERMINATED DATE",
+      "fieldName": "lobbyist_terminated_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 25098,
+      "cardinality": 220
+    },
+    {
+      "name": "LISTED DEPARTMENT NAME",
+      "fieldName": "lobbied_department_name",
+      "dataTypeName": "text",
+      "description": "The name of the department which the registrant is expected to lobby.",
+      "nullCount": 0,
+      "cardinality": 62
+    },
+    {
+      "name": "OTHER LOBBIED DEPARTMENT NAME",
+      "fieldName": "other_lobbied_department_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 28237,
+      "cardinality": 4
+    },
+    {
+      "name": "CLIENT CONTRACT DATE",
+      "fieldName": "client_contract_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1463
+    },
+    {
+      "name": "INCURRED EXPENSES?",
+      "fieldName": "incured_expenses",
+      "dataTypeName": "text",
+      "description": "Indicates the answer to the following question on the Lobbyist Registration: Have you incurred or do you anticipate incurring expenses on behalf of this client, whether or not you are reimbursed?",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "RECEIVED COMPENSATION?",
+      "fieldName": "received_compensation",
+      "dataTypeName": "text",
+      "description": "Indicates the answer to the following question on the Lobbyist Registration: Have you received or do you anticipate receiving compensation for lobbying for this client?",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "WRITTEN AGREEMENT?",
+      "fieldName": "written_agreement",
+      "dataTypeName": "text",
+      "description": "Indicates whether there is a written or oral agreement in place.  A value of \"Y\" indicates a written agreement.  A value of \"N\" or blank indicates an oral agreement.",
+      "nullCount": 0,
+      "cardinality": 2
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:07.595Z"
+}

@@ -1,0 +1,88 @@
+{
+  "id": "8tar-cztq",
+  "name": "Human Resources - Collective Bargaining Agreements",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 380,
+  "rowCountSource": "cached",
+  "rowLabel": "agreement",
+  "hasRowIdentifier": false,
+  "createdAt": 1472075542,
+  "publicationDate": 1634836347,
+  "rowsUpdatedAt": 1779200247,
+  "viewLastModified": 1779200246,
+  "viewCount": 64866,
+  "downloadCount": 4163,
+  "category": "Finance & Operations",
+  "tags": [
+    "cba",
+    "labor agreement",
+    "union"
+  ],
+  "attribution": "Bureau of Human Resources",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Bureau of Human Resources"
+    },
+    "Metadata": {
+      "Update Frequency": "As Needed"
+    },
+    "Detailed Descriptive": {
+      "Temporal coverage": "2004-present"
+    },
+    "Publishing Details": {
+      "Data change frequency": "As needed",
+      "Publishing frequency": "As needed"
+    }
+  },
+  "columns": [
+    {
+      "name": "Agreement Period",
+      "fieldName": "folder",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 380
+    },
+    {
+      "name": "Bargaining Unit",
+      "fieldName": "bargaining_unit",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 380
+    },
+    {
+      "name": "Link",
+      "fieldName": "link",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Locals",
+      "fieldName": "locals",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 83,
+      "cardinality": 380
+    },
+    {
+      "name": "Bargaining Unit Full Name",
+      "fieldName": "bargaining_unit_full_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 380
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:45.297Z"
+}

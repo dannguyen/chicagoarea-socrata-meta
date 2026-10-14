@@ -1,0 +1,60 @@
+{
+  "id": "vsvk-kdvu",
+  "name": "Do I Need an Account?",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 11,
+  "rowCountSource": "cached",
+  "rowLabel": "action",
+  "hasRowIdentifier": false,
+  "createdAt": 1752590286,
+  "publicationDate": 1752591263,
+  "rowsUpdatedAt": 1752591246,
+  "viewLastModified": 1769544666,
+  "viewCount": 444,
+  "downloadCount": 840,
+  "category": "Site Resources",
+  "tags": [
+    "how-to",
+    "user resource"
+  ],
+  "attribution": "Tyler Technologies",
+  "attributionLink": "https://support.socrata.com/hc/en-us/articles/202950278-Understanding-User-Roles",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Data Analytics"
+    },
+    "Metadata": {
+      "Update Frequency": "As Needed"
+    },
+    "Publishing Details": {
+      "Data change frequency": "As needed",
+      "Publishing frequency": "As needed"
+    }
+  },
+  "columns": [
+    {
+      "name": "I want to…",
+      "fieldName": "i_want_to",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11
+    },
+    {
+      "name": "Do I need an account?",
+      "fieldName": "do_i_need_an_account",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:10.181Z"
+}

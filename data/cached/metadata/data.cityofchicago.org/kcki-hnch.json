@@ -1,0 +1,263 @@
+{
+  "id": "kcki-hnch",
+  "name": "Chicago Department of Public Health Clinic Locations",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 24,
+  "rowCountSource": "cached",
+  "rowLabel": "Clinic",
+  "hasRowIdentifier": false,
+  "createdAt": 1464123053,
+  "publicationDate": 1501777199,
+  "rowsUpdatedAt": 1501776782,
+  "viewLastModified": 1501777199,
+  "viewCount": 32630,
+  "downloadCount": 8673,
+  "category": "Health & Human Services",
+  "tags": [
+    "facilities",
+    "public health",
+    "clinics",
+    "sti",
+    "std",
+    "wic",
+    "mental health",
+    "case management",
+    "healthy start",
+    "healthy families"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Current as of June 2016",
+      "Frequency": "Data are updated as needed",
+      "Data Owner": "Chicago Department of Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "Site Name",
+      "fieldName": "site_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 23
+    },
+    {
+      "name": "Clinic Type",
+      "fieldName": "clinic_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Site Number",
+      "fieldName": "site_number",
+      "dataTypeName": "number",
+      "description": "Chicago Department of Public Health Site Number. Not all sites have Site Numbers.",
+      "nullCount": 13,
+      "cardinality": 11
+    },
+    {
+      "name": "Hours of Operation",
+      "fieldName": "hours_of_operation",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 13
+    },
+    {
+      "name": "Street Address",
+      "fieldName": "street_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "ZIP",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 17
+    },
+    {
+      "name": "Phone 1",
+      "fieldName": "phone_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24
+    },
+    {
+      "name": "Phone 2",
+      "fieldName": "phone_2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 12,
+      "cardinality": 12
+    },
+    {
+      "name": "Phone 3",
+      "fieldName": "phone_3",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 17,
+      "cardinality": 7
+    },
+    {
+      "name": "Phone 4",
+      "fieldName": "phone_4",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 20,
+      "cardinality": 4
+    },
+    {
+      "name": "Phone 5",
+      "fieldName": "phone_5",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 21,
+      "cardinality": 3
+    },
+    {
+      "name": "Fax ",
+      "fieldName": "fax",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 19
+    },
+    {
+      "name": "Public Health Nursing",
+      "fieldName": "public_health_nursing",
+      "dataTypeName": "text",
+      "description": "Are Public Health Nursing services available?",
+      "nullCount": 22,
+      "cardinality": 1
+    },
+    {
+      "name": "Family Case Management",
+      "fieldName": "family_case_management",
+      "dataTypeName": "text",
+      "description": "Are Family Case Management services available?",
+      "nullCount": 19,
+      "cardinality": 1
+    },
+    {
+      "name": "Healthy Start Program",
+      "fieldName": "healthy_start_program",
+      "dataTypeName": "text",
+      "description": "Are Healthy Start Program services available?",
+      "nullCount": 23,
+      "cardinality": 1
+    },
+    {
+      "name": "Healthy Families Program",
+      "fieldName": "healthy_families_program",
+      "dataTypeName": "text",
+      "description": "Are Healthy Families Program services available?",
+      "nullCount": 23,
+      "cardinality": 1
+    },
+    {
+      "name": "WIC",
+      "fieldName": "wic",
+      "dataTypeName": "text",
+      "description": "Are WIC services available?",
+      "nullCount": 9,
+      "cardinality": 1
+    },
+    {
+      "name": "Latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "Longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:07.233Z"
+}

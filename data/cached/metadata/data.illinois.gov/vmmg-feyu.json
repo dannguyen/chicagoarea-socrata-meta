@@ -1,0 +1,118 @@
+{
+  "id": "vmmg-feyu",
+  "name": "IDPH Licensed Youth Camps",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 101,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1708036746,
+  "publicationDate": 1708095843,
+  "rowsUpdatedAt": 1708095837,
+  "viewLastModified": 1736793996,
+  "viewCount": 1089,
+  "downloadCount": 209,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "Andrew Frierdich",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "LCIDNO",
+      "fieldName": "lcidno",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 101
+    },
+    {
+      "name": "LCFACNAME",
+      "fieldName": "lcfacname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 101
+    },
+    {
+      "name": "LCFACADDRESS",
+      "fieldName": "lcfacaddress",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 96
+    },
+    {
+      "name": "LCFACCITY",
+      "fieldName": "lcfaccity",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 88
+    },
+    {
+      "name": "LCFACST",
+      "fieldName": "lcfacst",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "LCFACZIPCODE",
+      "fieldName": "lcfaczipcode",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 89
+    },
+    {
+      "name": "LCFACCOUNTY",
+      "fieldName": "lcfaccounty",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 17,
+      "cardinality": 45
+    },
+    {
+      "name": "LCFACCONAME",
+      "fieldName": "lcfacconame",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 61
+    },
+    {
+      "name": "LCLICENSESTATUS",
+      "fieldName": "lclicensestatus",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "LCEXPIREDATE",
+      "fieldName": "lcexpiredate",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:32.771Z"
+}

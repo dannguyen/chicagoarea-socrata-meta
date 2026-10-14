@@ -1,0 +1,83 @@
+{
+  "id": "n9it-hstw",
+  "name": "PoliceBeatDec2012",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 277,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1360734616,
+  "publicationDate": 1360734617,
+  "rowsUpdatedAt": 1360734616,
+  "viewLastModified": 1731519925,
+  "viewCount": 1063,
+  "downloadCount": 5131,
+  "category": "Public Safety",
+  "tags": [
+    "police",
+    "boundaries",
+    "gis",
+    "shapefiles",
+    "kml"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "Updated when police beat boundaries are updated and implemented.",
+      "Frequency": "As needed.",
+      "Data Owner": "Police"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "DISTRICT",
+      "fieldName": "district",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 23
+    },
+    {
+      "name": "SECTOR",
+      "fieldName": "sector",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "BEAT",
+      "fieldName": "beat",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "BEAT_NUM",
+      "fieldName": "beat_num",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 275
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:20.233Z"
+}

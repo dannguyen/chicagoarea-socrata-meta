@@ -1,0 +1,515 @@
+{
+  "id": "gkdw-2tgv",
+  "name": "COVID-19 Daily Testing - By Test - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1540,
+  "rowCountSource": "cached",
+  "rowLabel": "Day",
+  "hasRowIdentifier": false,
+  "createdAt": 1595279907,
+  "publicationDate": 1604074252,
+  "rowsUpdatedAt": 1716416349,
+  "viewLastModified": 1788212705,
+  "viewCount": 8769,
+  "downloadCount": 31958,
+  "category": "Health & Human Services",
+  "tags": [
+    "covid-19",
+    "public health",
+    "health",
+    "testing",
+    "link to article present",
+    "historical"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://chicago.gov/coronavirus",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "March 2020 - May 2024",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"gkdw-2tgv\"",
+      "Data Owner": "Department of Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "Date",
+      "fieldName": "date",
+      "dataTypeName": "calendar_date",
+      "description": "Test specimen collection date. Blank indicates unknown date.",
+      "nullCount": 1,
+      "cardinality": 1539
+    },
+    {
+      "name": "Day",
+      "fieldName": "day",
+      "dataTypeName": "text",
+      "description": "Day of the week.",
+      "nullCount": 1,
+      "cardinality": 7
+    },
+    {
+      "name": "Positive Tests",
+      "fieldName": "positive_tests",
+      "dataTypeName": "number",
+      "description": "Number of tests with a positive result.",
+      "nullCount": 0,
+      "cardinality": 836
+    },
+    {
+      "name": "Not Positive Tests",
+      "fieldName": "not_positive_tests",
+      "dataTypeName": "number",
+      "description": "Number of tests with a not positive result.",
+      "nullCount": 0,
+      "cardinality": 1464
+    },
+    {
+      "name": "Total Tests",
+      "fieldName": "total_tests",
+      "dataTypeName": "number",
+      "description": "Total number of tests (positive plus not positive).",
+      "nullCount": 0,
+      "cardinality": 1471
+    },
+    {
+      "name": "Tests - Age 0-17",
+      "fieldName": "tests_age_0_17",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1175
+    },
+    {
+      "name": "Tests - Age 18-29",
+      "fieldName": "tests_age_18_29",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1181
+    },
+    {
+      "name": "Tests - Age 30-39",
+      "fieldName": "tests_age_30_39",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1179
+    },
+    {
+      "name": "Tests - Age 40-49",
+      "fieldName": "tests_age_40_49",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1107
+    },
+    {
+      "name": "Tests - Age 50-59",
+      "fieldName": "tests_age_50_59",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1092
+    },
+    {
+      "name": "Tests - Age 60-69",
+      "fieldName": "tests_age_60_69",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1050
+    },
+    {
+      "name": "Tests - Age 70-79",
+      "fieldName": "tests_age_70_79",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 803
+    },
+    {
+      "name": "Tests - Age 80+",
+      "fieldName": "tests_age_80_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 654
+    },
+    {
+      "name": "Tests - Age Unknown",
+      "fieldName": "tests_age_unknown",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 64
+    },
+    {
+      "name": "Tests - Female",
+      "fieldName": "tests_female",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1414
+    },
+    {
+      "name": "Tests - Male",
+      "fieldName": "tests_male",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1394
+    },
+    {
+      "name": "Tests - Gender Unknown",
+      "fieldName": "tests_gender_unknown",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 453
+    },
+    {
+      "name": "Tests - Latinx",
+      "fieldName": "tests_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1234
+    },
+    {
+      "name": "Tests - Asian Non-Latinx",
+      "fieldName": "tests_asian_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 817
+    },
+    {
+      "name": "Tests - Black Non-Latinx",
+      "fieldName": "tests_black_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1300
+    },
+    {
+      "name": "Tests - White Non-Latinx",
+      "fieldName": "tests_white_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1268
+    },
+    {
+      "name": "Tests - Other Race Non-Latinx",
+      "fieldName": "tests_other_race_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 803
+    },
+    {
+      "name": "Tests - Unknown Race/Ethnicity",
+      "fieldName": "tests_unknown_race_ethnicity",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1256
+    },
+    {
+      "name": "Positive Tests - Age 0-17",
+      "fieldName": "positive_tests_age_0_17",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 311
+    },
+    {
+      "name": "Positive Tests - Age 18-29",
+      "fieldName": "positive_tests_age_18_29",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 377
+    },
+    {
+      "name": "Positive Tests - Age 30-39",
+      "fieldName": "positive_tests_age_30_39",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 353
+    },
+    {
+      "name": "Positive Tests - Age 40-49",
+      "fieldName": "positive_tests_age_40_49",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 290
+    },
+    {
+      "name": "Positive Tests - Age 50-59",
+      "fieldName": "positive_tests_age_50_59",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 266
+    },
+    {
+      "name": "Positive Tests - Age 60-69",
+      "fieldName": "positive_tests_age_60_69",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 215
+    },
+    {
+      "name": "Positive Tests - Age 70-79",
+      "fieldName": "positive_tests_age_70_79",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 136
+    },
+    {
+      "name": "Positive Tests - Age 80+",
+      "fieldName": "positive_tests_age_80_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 99
+    },
+    {
+      "name": "Positive Tests - Age Unknown",
+      "fieldName": "positive_tests_age_unknown",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 14
+    },
+    {
+      "name": "Positive Tests - Female",
+      "fieldName": "positive_tests_female",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 635
+    },
+    {
+      "name": "Positive Tests - Male",
+      "fieldName": "positive_tests_male",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 571
+    },
+    {
+      "name": "Positive Tests - Unknown Gender",
+      "fieldName": "positive_tests_unknown_gender",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24
+    },
+    {
+      "name": "Positive Tests - Latinx",
+      "fieldName": "positive_tests_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 442
+    },
+    {
+      "name": "Positive Tests - Asian Non-Latinx",
+      "fieldName": "positive_tests_asian_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 149
+    },
+    {
+      "name": "Positive Tests - Black Non-Latinx",
+      "fieldName": "positive_tests_black_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 377
+    },
+    {
+      "name": "Positive Tests - White Non-Latinx",
+      "fieldName": "positive_tests_white_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 422
+    },
+    {
+      "name": "Positive Tests - Other Race Non-Latinx",
+      "fieldName": "positive_tests_other_race_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 158
+    },
+    {
+      "name": "Positive Tests - Unknown Race/Ethnicity",
+      "fieldName": "positive_tests_unknown_race_ethnicity",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 275
+    },
+    {
+      "name": "Not-Positive Tests - Age 0-17",
+      "fieldName": "not_positive_tests_age_0_17",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1172
+    },
+    {
+      "name": "Not-Positive Tests - Age 18-29",
+      "fieldName": "not_positive_tests_age_18_29",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1148
+    },
+    {
+      "name": "Not-Positive Tests - Age 30-39",
+      "fieldName": "not_positive_tests_age_30_39",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1169
+    },
+    {
+      "name": "Not-Positive Tests - Age 40-49",
+      "fieldName": "not_positive_tests_age_40_49",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1067
+    },
+    {
+      "name": "Not-Positive Tests - Age 50-59",
+      "fieldName": "not_positive_tests_age_50_59",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1077
+    },
+    {
+      "name": "Not-Positive Tests - Age 60-69",
+      "fieldName": "not_positive_tests_age_60_69",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 988
+    },
+    {
+      "name": "Not-Positive Tests - Age 70-79",
+      "fieldName": "not_positive_tests_age_70_79",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 763
+    },
+    {
+      "name": "Not-Positive Tests - Age 80+",
+      "fieldName": "not_positive_tests_age_80_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 648
+    },
+    {
+      "name": "Not-Positive Tests - Age Unknown",
+      "fieldName": "not_positive_tests_age_unknown",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 63
+    },
+    {
+      "name": "Not-Positive Tests - Female",
+      "fieldName": "not_positive_tests_female",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1390
+    },
+    {
+      "name": "Not-Positive Tests - Male",
+      "fieldName": "not_positive_tests_male",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1391
+    },
+    {
+      "name": "Not-Positive Tests - Gender Unknown",
+      "fieldName": "not_positive_tests_gender_unknown",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 454
+    },
+    {
+      "name": "Not-Positive Tests - Latinx",
+      "fieldName": "not_positive_tests_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1199
+    },
+    {
+      "name": "Not-Positive Tests - Asian Non-Latinx",
+      "fieldName": "not_positive_tests_asian_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 804
+    },
+    {
+      "name": "Not-Positive Tests - Black Non-Latinx",
+      "fieldName": "not_positive_tests_black_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1289
+    },
+    {
+      "name": "Not-Positive Tests - White Non-Latinx",
+      "fieldName": "not_positive_tests_white_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1247
+    },
+    {
+      "name": "Not-Positive Tests - Other Race Non-Latinx",
+      "fieldName": "not_positive_tests_other_race_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 806
+    },
+    {
+      "name": "Not-Positive Tests - Unknown Race/Ethnicity",
+      "fieldName": "not_positive_tests_unknown_race_ethnicity",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1237
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:00.409Z"
+}

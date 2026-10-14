@@ -1,0 +1,217 @@
+{
+  "id": "fg6s-gzvg",
+  "name": "Divvy Trips",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 21242740,
+  "rowCountSource": "cached",
+  "rowLabel": "Trip",
+  "hasRowIdentifier": true,
+  "createdAt": 1464894640,
+  "publicationDate": 1472854094,
+  "rowsUpdatedAt": 1589911686,
+  "viewLastModified": 1774040784,
+  "viewCount": 43628,
+  "downloadCount": 15720,
+  "category": "Transportation",
+  "tags": [
+    "transportation",
+    "divvy",
+    "bike sharing",
+    "link to article present"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2013 to 2019",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"fg6s-gzvg\"",
+      "Data Owner": "Transportation"
+    }
+  },
+  "columns": [
+    {
+      "name": "TRIP ID",
+      "fieldName": "trip_id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 21242740
+    },
+    {
+      "name": "START TIME",
+      "fieldName": "start_time",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7913242
+    },
+    {
+      "name": "STOP TIME",
+      "fieldName": "stop_time",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7747370
+    },
+    {
+      "name": "BIKE ID",
+      "fieldName": "bike_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6525
+    },
+    {
+      "name": "TRIP DURATION",
+      "fieldName": "trip_duration",
+      "dataTypeName": "number",
+      "description": "Duration of the trip in seconds.",
+      "nullCount": 0,
+      "cardinality": 41360
+    },
+    {
+      "name": "FROM STATION ID",
+      "fieldName": "from_station_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 631
+    },
+    {
+      "name": "FROM STATION NAME",
+      "fieldName": "from_station_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 748
+    },
+    {
+      "name": "TO STATION ID",
+      "fieldName": "to_station_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 632
+    },
+    {
+      "name": "TO STATION NAME",
+      "fieldName": "to_station_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 749
+    },
+    {
+      "name": "USER TYPE",
+      "fieldName": "user_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "GENDER",
+      "fieldName": "gender",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 4894870,
+      "cardinality": 2
+    },
+    {
+      "name": "BIRTH YEAR",
+      "fieldName": "birth_year",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4866714,
+      "cardinality": 107
+    },
+    {
+      "name": "FROM LATITUDE",
+      "fieldName": "from_latitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 264,
+      "cardinality": 811
+    },
+    {
+      "name": "FROM LONGITUDE",
+      "fieldName": "from_longitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 264,
+      "cardinality": 808
+    },
+    {
+      "name": "FROM LOCATION",
+      "fieldName": "from_location",
+      "dataTypeName": "point",
+      "description": null,
+      "nullCount": 264,
+      "cardinality": 975
+    },
+    {
+      "name": "TO LATITUDE",
+      "fieldName": "to_latitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 677,
+      "cardinality": 810
+    },
+    {
+      "name": "TO LONGITUDE",
+      "fieldName": "to_longitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 677,
+      "cardinality": 807
+    },
+    {
+      "name": "TO LOCATION",
+      "fieldName": "to_location",
+      "dataTypeName": "point",
+      "description": null,
+      "nullCount": 677,
+      "cardinality": 974
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:06.410Z"
+}

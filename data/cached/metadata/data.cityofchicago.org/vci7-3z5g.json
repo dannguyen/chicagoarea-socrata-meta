@@ -1,0 +1,120 @@
+{
+  "id": "vci7-3z5g",
+  "name": "Tax Increment Financing (TIF) Annual Report - Job and Increment Creation",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 109,
+  "rowCountSource": "cached",
+  "rowLabel": "TIF District",
+  "hasRowIdentifier": false,
+  "createdAt": 1690570752,
+  "publicationDate": 1724962611,
+  "rowsUpdatedAt": 1788982624,
+  "viewLastModified": 1788982623,
+  "viewCount": 1227,
+  "downloadCount": 1314,
+  "category": "Community & Economic Development",
+  "tags": [
+    "tif",
+    "tif annual report",
+    "workforce"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2022-2025",
+      "Frequency": "Data are updated annually",
+      "Data Owner": "Department of Planning and Development"
+    }
+  },
+  "columns": [
+    {
+      "name": "TIF Number",
+      "fieldName": "tif_number",
+      "dataTypeName": "text",
+      "description": "The unique, numeric ID assigned to the TIF district.",
+      "nullCount": 0,
+      "cardinality": 109
+    },
+    {
+      "name": "TIF District",
+      "fieldName": "tif_district",
+      "dataTypeName": "text",
+      "description": "Redevelopment project area.",
+      "nullCount": 0,
+      "cardinality": 109
+    },
+    {
+      "name": "Report Year",
+      "fieldName": "report_year",
+      "dataTypeName": "number",
+      "description": "Calendar year to which the record applies.",
+      "nullCount": 0,
+      "cardinality": 109
+    },
+    {
+      "name": "Redevelopment Agreement",
+      "fieldName": "redevelopment_agreement",
+      "dataTypeName": "text",
+      "description": "Legal name of the agreement executed by the City of Chicago.",
+      "nullCount": 0,
+      "cardinality": 109
+    },
+    {
+      "name": "Jobs Projected (Temporary)",
+      "fieldName": "jobs_projected_temporary_",
+      "dataTypeName": "number",
+      "description": "The temporary (i.e. construction, part-time, etc.) number of jobs projected to be created during construction of the project",
+      "nullCount": 0,
+      "cardinality": 109
+    },
+    {
+      "name": "Jobs Projected (Permanent)",
+      "fieldName": "jobs_projected",
+      "dataTypeName": "number",
+      "description": "The permanent (i.e. full-time) number of jobs projected to be created or retained at some time during the term of the RDA",
+      "nullCount": 0,
+      "cardinality": 109
+    },
+    {
+      "name": "Jobs Actual (Temporary)",
+      "fieldName": "jobs_actual_temporary_",
+      "dataTypeName": "number",
+      "description": "The temporary (i.e. construction, part-time, etc.) number of jobs created during the construction of the project",
+      "nullCount": 0,
+      "cardinality": 109
+    },
+    {
+      "name": "Jobs Actual (Permanent)",
+      "fieldName": "jobs_actual",
+      "dataTypeName": "number",
+      "description": "The permanent (i.e. full-time) number of jobs created or retained at some time during the term of the RDA",
+      "nullCount": 0,
+      "cardinality": 109
+    },
+    {
+      "name": "Increment Projected",
+      "fieldName": "increment_projected",
+      "dataTypeName": "number",
+      "description": "The increment projected to be created at the time of approval of the redevelopment agreement.  Blanks indicate that the number is not available.",
+      "nullCount": 0,
+      "cardinality": 109
+    },
+    {
+      "name": "Increment Actual",
+      "fieldName": "increment_actual",
+      "dataTypeName": "number",
+      "description": "Actual amount of increment created during the report year.  Blanks indicate that the number is not available.",
+      "nullCount": 0,
+      "cardinality": 109
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:19.087Z"
+}

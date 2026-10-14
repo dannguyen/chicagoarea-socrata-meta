@@ -1,0 +1,168 @@
+{
+  "id": "92xk-4rg9",
+  "name": "Employee Overtime and Supplemental Earnings 2012",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 24270,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1310685088,
+  "publicationDate": 1449251429,
+  "rowsUpdatedAt": 1449251350,
+  "viewLastModified": 1458936781,
+  "viewCount": 28819,
+  "downloadCount": 6600,
+  "category": "Administration & Finance",
+  "tags": [
+    "budget",
+    "overtime",
+    "supplemental earnings"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org/city/en/depts/obm/provdrs/perf_mang/svcs/overtime_reports.html",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "January 2012 to December 2012",
+      "Frequency": "Data is updated monthly",
+      "Data Owner": "Budget & Management"
+    }
+  },
+  "columns": [
+    {
+      "name": "Department Name",
+      "fieldName": "department_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 25
+    },
+    {
+      "name": "Employee Name",
+      "fieldName": "employee_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 23186
+    },
+    {
+      "name": "Title",
+      "fieldName": "title",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 380
+    },
+    {
+      "name": "Jan 2012",
+      "fieldName": "jan_ot",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 2267
+    },
+    {
+      "name": "Feb 2012",
+      "fieldName": "feb_ot",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 2448
+    },
+    {
+      "name": "Mar 2012",
+      "fieldName": "mar_ot",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 2264
+    },
+    {
+      "name": "Apr 2012",
+      "fieldName": "apr_ot",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 23,
+      "cardinality": 2591
+    },
+    {
+      "name": "May 2012",
+      "fieldName": "may_ot",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 2088
+    },
+    {
+      "name": "Jun 2012",
+      "fieldName": "jun_ot",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 2626
+    },
+    {
+      "name": "Jul 2012",
+      "fieldName": "jul_ot",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 9,
+      "cardinality": 2368
+    },
+    {
+      "name": "Aug 2012",
+      "fieldName": "aug_ot",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 28,
+      "cardinality": 2410
+    },
+    {
+      "name": "Sept 2012",
+      "fieldName": "sept_ot",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 2392
+    },
+    {
+      "name": "Oct 2012",
+      "fieldName": "oct_2012",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 2871
+    },
+    {
+      "name": "Nov 2012",
+      "fieldName": "nov_2012",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 19,
+      "cardinality": 2556
+    },
+    {
+      "name": "Dec 2012",
+      "fieldName": "dec_2012",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 2650
+    },
+    {
+      "name": "2012 Total",
+      "fieldName": "_2012_total",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 10040
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:07.511Z"
+}

@@ -1,0 +1,136 @@
+{
+  "id": "phn5-wths",
+  "name": "Facilities Management - Closed Cells as of July 8th, 2011",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 17,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1318343395,
+  "publicationDate": 1412893731,
+  "rowsUpdatedAt": 1412893710,
+  "viewLastModified": 1769544627,
+  "viewCount": 635,
+  "downloadCount": 2310,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Facilities Management",
+  "attributionLink": "http://www.cookcountygov.com/portal/server.pt/community/facilities_management/294/facilities_management",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "DIV",
+      "fieldName": "div",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 13
+    },
+    {
+      "name": "TOTAL CELLS",
+      "fieldName": "total_cells",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 8,
+      "cardinality": 9
+    },
+    {
+      "name": "Plumbing",
+      "fieldName": "plumbin",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 1
+    },
+    {
+      "name": "Electrician",
+      "fieldName": "electrician",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 1
+    },
+    {
+      "name": "Carpenter",
+      "fieldName": "carpenter",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 1
+    },
+    {
+      "name": "Electrical Technician",
+      "fieldName": "electrical_technician",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 1
+    },
+    {
+      "name": "Tinsmith",
+      "fieldName": "tinsmith",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 1
+    },
+    {
+      "name": "Engineer",
+      "fieldName": "engineer",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 1
+    },
+    {
+      "name": "Brick Mason",
+      "fieldName": "brick_mason",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 1
+    },
+    {
+      "name": "Iron Worker",
+      "fieldName": "iron_worker",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 2
+    },
+    {
+      "name": "Miscellaneous",
+      "fieldName": "miscellaneous",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 1
+    },
+    {
+      "name": "Glazier",
+      "fieldName": "glazier",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 1
+    },
+    {
+      "name": "Total Cells Open",
+      "fieldName": "total_cells_open",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 3
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:08.917Z"
+}

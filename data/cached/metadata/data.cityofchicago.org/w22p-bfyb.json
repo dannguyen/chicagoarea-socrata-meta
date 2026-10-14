@@ -1,0 +1,402 @@
+{
+  "id": "w22p-bfyb",
+  "name": "My CHI. My Future. Programs",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1137716,
+  "rowCountSource": "cached",
+  "rowLabel": "Youth Program",
+  "hasRowIdentifier": false,
+  "createdAt": 1619819226,
+  "publicationDate": 1685124563,
+  "rowsUpdatedAt": 1791959529,
+  "viewLastModified": 1791958787,
+  "viewCount": 6168,
+  "downloadCount": 62911,
+  "category": "Events",
+  "tags": [
+    "youth",
+    "programs",
+    "children",
+    "my chi my future",
+    "events"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://mychimyfuture.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Current",
+      "Frequency": "Data are updated daily.",
+      "Data Owner": "My CHI. My Future."
+    }
+  },
+  "columns": [
+    {
+      "name": "Program ID",
+      "fieldName": "program_id",
+      "dataTypeName": "number",
+      "description": "A unique ID for the program.",
+      "nullCount": 0,
+      "cardinality": 1137716
+    },
+    {
+      "name": "Program Name",
+      "fieldName": "program_name",
+      "dataTypeName": "text",
+      "description": "The name of the program. Note that what are technically different programs can have the same name so Program ID is the more reliable way of matching programs.",
+      "nullCount": 0,
+      "cardinality": 1137716
+    },
+    {
+      "name": "Description",
+      "fieldName": "description",
+      "dataTypeName": "text",
+      "description": "Additional details about a program",
+      "nullCount": 0,
+      "cardinality": 1137716
+    },
+    {
+      "name": "Org Name",
+      "fieldName": "org_name",
+      "dataTypeName": "text",
+      "description": "Name of the host organization",
+      "nullCount": 0,
+      "cardinality": 1137716
+    },
+    {
+      "name": "Category Name",
+      "fieldName": "category_name",
+      "dataTypeName": "text",
+      "description": "Denotes the \"type\" of program based on interest",
+      "nullCount": 1,
+      "cardinality": 1137716
+    },
+    {
+      "name": "Capacity",
+      "fieldName": "capacity",
+      "dataTypeName": "number",
+      "description": "The maximum number of attendees",
+      "nullCount": 190365,
+      "cardinality": 1137716
+    },
+    {
+      "name": "Min Age",
+      "fieldName": "min_age",
+      "dataTypeName": "number",
+      "description": "The minimum age to participate",
+      "nullCount": 0,
+      "cardinality": 1137716
+    },
+    {
+      "name": "Max Age",
+      "fieldName": "max_age",
+      "dataTypeName": "number",
+      "description": "The maximum age to participate",
+      "nullCount": 0,
+      "cardinality": 1137716
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 11129,
+      "cardinality": 1137716
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 8054,
+      "cardinality": 1137716
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 8096,
+      "cardinality": 1137716
+    },
+    {
+      "name": "ZIP Code",
+      "fieldName": "zip_code",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 11985,
+      "cardinality": 1137716
+    },
+    {
+      "name": "Program Type",
+      "fieldName": "program_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1137716
+    },
+    {
+      "name": "Program URL",
+      "fieldName": "program_url",
+      "dataTypeName": "url",
+      "description": "The web address to find out more information",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Online Address",
+      "fieldName": "online_address",
+      "dataTypeName": "url",
+      "description": "A secondary web address to provide the user with additional information",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Registration URL",
+      "fieldName": "registration_url",
+      "dataTypeName": "url",
+      "description": "The web address to access registration forms and applications",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Registration Open",
+      "fieldName": "registration_open",
+      "dataTypeName": "calendar_date",
+      "description": "The date registration is available",
+      "nullCount": 1137716,
+      "cardinality": 1137716
+    },
+    {
+      "name": "Registration Deadline",
+      "fieldName": "registration_deadline",
+      "dataTypeName": "calendar_date",
+      "description": "The date registration is closed",
+      "nullCount": 1137716,
+      "cardinality": 1137716
+    },
+    {
+      "name": "Start Date",
+      "fieldName": "start_date_and_time",
+      "dataTypeName": "calendar_date",
+      "description": "The beginning date of a program",
+      "nullCount": 0,
+      "cardinality": 1137716
+    },
+    {
+      "name": "End Date",
+      "fieldName": "end_date_and_time",
+      "dataTypeName": "calendar_date",
+      "description": "The end date of a program",
+      "nullCount": 1137716,
+      "cardinality": 1137716
+    },
+    {
+      "name": "Start Time",
+      "fieldName": "start_time",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 132037,
+      "cardinality": 1137716
+    },
+    {
+      "name": "End Time",
+      "fieldName": "end_time",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 132128,
+      "cardinality": 1137716
+    },
+    {
+      "name": "Contact Name",
+      "fieldName": "contact_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 135931,
+      "cardinality": 1137716
+    },
+    {
+      "name": "Contact Email",
+      "fieldName": "contact_email",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 184689,
+      "cardinality": 1137716
+    },
+    {
+      "name": "Contact Phone",
+      "fieldName": "contact_phone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 222664,
+      "cardinality": 1137716
+    },
+    {
+      "name": "Program Price",
+      "fieldName": "program_price",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1137716
+    },
+    {
+      "name": "Geographic Cluster Name",
+      "fieldName": "geographic_cluster_name",
+      "dataTypeName": "text",
+      "description": "The community name",
+      "nullCount": 215647,
+      "cardinality": 1137716
+    },
+    {
+      "name": "Scholarship Available",
+      "fieldName": "scholarship_available",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1137716
+    },
+    {
+      "name": "Participants Paid",
+      "fieldName": "participants_paid",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1137716
+    },
+    {
+      "name": "Transport Provided",
+      "fieldName": "transport_provided",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 13437,
+      "cardinality": 1137716
+    },
+    {
+      "name": "Has Free Food",
+      "fieldName": "has_free_food",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 5985,
+      "cardinality": 1137716
+    },
+    {
+      "name": "Meeting Type",
+      "fieldName": "meeting_type",
+      "dataTypeName": "text",
+      "description": "Denotes whether a program is in-person or virtual",
+      "nullCount": 0,
+      "cardinality": 1137716
+    },
+    {
+      "name": "Image",
+      "fieldName": "image",
+      "dataTypeName": "url",
+      "description": "Provides a program image link",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Hidden Programs",
+      "fieldName": "hidden_programs",
+      "dataTypeName": "checkbox",
+      "description": "Denotes whether a program is hidden on the MCMF platform. Hidden programs must remain invisible on any maps, visualizations, and mobile apps. ",
+      "nullCount": 0,
+      "cardinality": 1137716
+    },
+    {
+      "name": "Featured",
+      "fieldName": "featured",
+      "dataTypeName": "checkbox",
+      "description": "Denotes whether the program is a featured program.",
+      "nullCount": 0,
+      "cardinality": 1137716
+    },
+    {
+      "name": "Custom Categories",
+      "fieldName": "custom_categories",
+      "dataTypeName": "text",
+      "description": "Additional program labels, specifically for the My CHI. My Future. app (available in the Google and Apple app stores). Multiple categories are separated by the | character.",
+      "nullCount": 0,
+      "cardinality": 1137716
+    },
+    {
+      "name": "Tag",
+      "fieldName": "tag",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1137716
+    },
+    {
+      "name": "Latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": "The program location latitude.",
+      "nullCount": 11938,
+      "cardinality": 1137716
+    },
+    {
+      "name": "Longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": "The program location longitude.",
+      "nullCount": 11938,
+      "cardinality": 1137716
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": "The program location in a form that allows for mapping and other geographic analysis on this data portal.",
+      "nullCount": 11938,
+      "cardinality": 1137716
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Community Areas' (vrxf-vc4k) the point in column 'locations' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Zip Codes' (6mkv-f3dw) the point in column 'locations' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Census Tracts' (bdys-3d7i) the point in column 'locations' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Wards' (43wa-7qmu) the point in column 'locations' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Boundaries - ZIP Codes' (rpca-8um6) the point in column 'locations' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:02.924Z"
+}

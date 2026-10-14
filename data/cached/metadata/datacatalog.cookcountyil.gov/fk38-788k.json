@@ -1,0 +1,129 @@
+{
+  "id": "fk38-788k",
+  "name": "Sweetened Beverage Distributors Registered with the Cook County Department of Revenue",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2155,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1498145808,
+  "publicationDate": 1685139853,
+  "rowsUpdatedAt": 1508940643,
+  "viewLastModified": 1769546923,
+  "viewCount": 201747,
+  "downloadCount": 10838,
+  "category": "Finance & Operations",
+  "tags": [
+    "sweetened beverage",
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Revenue",
+  "attributionLink": "http://www.cookcountyil.gov/department-of-revenue/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Department of Revenue"
+    },
+    "Metadata": {
+      "Update Frequency": "No updates"
+    },
+    "Detailed Descriptive": {
+      "Program link": "https://www.cookcountyil.gov/service/sweetened-beverage-tax",
+      "Geographic coverage": "Countywide",
+      "Geographic unit": "Street Address"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Not updated (historical only)",
+      "Publishing frequency": "Not updated (historical only)"
+    }
+  },
+  "columns": [
+    {
+      "name": "Company",
+      "fieldName": "company",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2108
+    },
+    {
+      "name": "Doing Business As",
+      "fieldName": "doing_business_as",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1100,
+      "cardinality": 835
+    },
+    {
+      "name": "Address Line 1",
+      "fieldName": "address_line_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2121
+    },
+    {
+      "name": "Address Line 2",
+      "fieldName": "address_line_2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2155,
+      "cardinality": 0
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 271
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 27
+    },
+    {
+      "name": "Zip code",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 329
+    },
+    {
+      "name": " Registration/Account #",
+      "fieldName": "registration_account",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2153
+    },
+    {
+      "name": "Tax Type",
+      "fieldName": "tax_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:44.582Z"
+}

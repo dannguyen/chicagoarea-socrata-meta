@@ -1,0 +1,95 @@
+{
+  "id": "r9u9-s9h7",
+  "name": "ccgisdata - Cook County Cooling Centers",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 50,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1528725218,
+  "publicationDate": 1528728603,
+  "rowsUpdatedAt": 1528728602,
+  "viewLastModified": 1769547882,
+  "viewCount": 563,
+  "downloadCount": 1454,
+  "category": "Health & Human Services",
+  "tags": [
+    "cool",
+    "shelter",
+    "cooling shelter",
+    "warm temperatures",
+    "places of interest"
+  ],
+  "attribution": "Cook County GIS Department",
+  "attributionLink": "https://hub-cookcountyil.opendata.arcgis.com/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Department of Homeland Security and Emergency Management"
+    },
+    "Metadata": {
+      "Update Frequency": "Yearly"
+    },
+    "Publishing Details": {
+      "Data change frequency": "As needed",
+      "Publishing frequency": "As needed"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "point",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 49
+    },
+    {
+      "name": "Township__",
+      "fieldName": "township",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 34
+    },
+    {
+      "name": "Address_De",
+      "fieldName": "address_de",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 49
+    },
+    {
+      "name": "Hours_of_O",
+      "fieldName": "hours_of_o",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 42
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 31
+    },
+    {
+      "name": "Transporta",
+      "fieldName": "transporta",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 11
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:09.612Z"
+}

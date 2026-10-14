@@ -1,0 +1,17 @@
+{
+  "name": "socrata-meta-chicago",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch:catalogs": "node scripts/fetch-catalogs.mjs",
+    "fetch:metadata": "node scripts/fetch-metadata.mjs",
+    "fetch:metadata:oldest": "node scripts/fetch-metadata.mjs --oldest 50",
+    "fetch:metadata:discover": "node scripts/fetch-metadata.mjs --discover",
+    "build": "node scripts/build.mjs",
+    "discover": "npm run fetch:catalogs && npm run fetch:metadata:discover",
+    "refresh": "npm run fetch:catalogs && npm run fetch:metadata && npm run build"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

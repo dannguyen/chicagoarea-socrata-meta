@@ -1,0 +1,128 @@
+{
+  "id": "qjr3-bm53",
+  "name": "Public Health Statistics - Life Expectancy By Community Area - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 78,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1402938147,
+  "publicationDate": 1409154214,
+  "rowsUpdatedAt": 1402938157,
+  "viewLastModified": 1788212999,
+  "viewCount": 16050,
+  "downloadCount": 10428,
+  "category": "Health & Human Services",
+  "tags": [
+    "health",
+    "life",
+    "death",
+    "historical"
+  ],
+  "attribution": "Vital statistics files produced by the Illinois Department of Public Health (IDPH)",
+  "attributionLink": null,
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "1990, 2000, 2010",
+      "Data Owner": "Epidemiology & Public Health Informatics, Chicago Department of Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "Community Area Number",
+      "fieldName": "ca",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 77
+    },
+    {
+      "name": "Community Area",
+      "fieldName": "community_area",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 78
+    },
+    {
+      "name": "1990 Life Expectancy",
+      "fieldName": "_1990_life_expectancy",
+      "dataTypeName": "number",
+      "description": "Life expectancy for the year of 1990",
+      "nullCount": 0,
+      "cardinality": 60
+    },
+    {
+      "name": "1990 Lower 95% CI",
+      "fieldName": "_1990_lower_95_ci",
+      "dataTypeName": "number",
+      "description": "Lower 95% confidence interval for the year of 1990",
+      "nullCount": 0,
+      "cardinality": 61
+    },
+    {
+      "name": "1990 Upper 95% CI",
+      "fieldName": "_1990_upper_95_ci",
+      "dataTypeName": "number",
+      "description": "Upper 95% confidence interval for the year of 1990",
+      "nullCount": 0,
+      "cardinality": 62
+    },
+    {
+      "name": "2000 Life Expectancy",
+      "fieldName": "_2000_life_expectancy",
+      "dataTypeName": "number",
+      "description": "Life expectancy for the year of 2000",
+      "nullCount": 0,
+      "cardinality": 61
+    },
+    {
+      "name": "2000 Lower 95% CI",
+      "fieldName": "_2000_lower_95_ci",
+      "dataTypeName": "number",
+      "description": "Lower 95% confidence interval for the year of 2000",
+      "nullCount": 0,
+      "cardinality": 61
+    },
+    {
+      "name": "2000 Upper 95% CI",
+      "fieldName": "_2000_upper_95_ci",
+      "dataTypeName": "number",
+      "description": "Upper 95% confidence interval for the year of 2000",
+      "nullCount": 0,
+      "cardinality": 64
+    },
+    {
+      "name": "2010 Life Expectancy",
+      "fieldName": "_2010_life_expectancy",
+      "dataTypeName": "number",
+      "description": "Life expectancy for the year of 2010",
+      "nullCount": 0,
+      "cardinality": 56
+    },
+    {
+      "name": "2010 Lower 95% CI",
+      "fieldName": "_2010_lower_95_ci",
+      "dataTypeName": "number",
+      "description": "Lower 95% confidence interval for the year of 2010",
+      "nullCount": 0,
+      "cardinality": 61
+    },
+    {
+      "name": "2010 Upper 95% CI",
+      "fieldName": "_2010_upper_95_ci",
+      "dataTypeName": "number",
+      "description": "Upper 95% confidence interval for the year of 2010",
+      "nullCount": 0,
+      "cardinality": 60
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:37:48.957Z"
+}

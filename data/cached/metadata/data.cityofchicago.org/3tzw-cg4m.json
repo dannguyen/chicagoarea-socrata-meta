@@ -1,0 +1,162 @@
+{
+  "id": "3tzw-cg4m",
+  "name": "CTA - 'L' (Rail) Stations",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 145,
+  "rowCountSource": "cached",
+  "rowLabel": "Station",
+  "hasRowIdentifier": false,
+  "createdAt": 1723240128,
+  "publicationDate": 1723753949,
+  "rowsUpdatedAt": 1723842174,
+  "viewLastModified": 1723842174,
+  "viewCount": 4796,
+  "downloadCount": 2243,
+  "category": "Transportation",
+  "tags": [
+    "geo_layer",
+    "cta",
+    "rail",
+    "sustainability",
+    "transportation",
+    "public transit"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.transitchicago.com/",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "August 2024",
+      "Data Owner": "Chicago Transit Authority"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "point",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 145
+    },
+    {
+      "name": "STATION_ID",
+      "fieldName": "station_id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 145
+    },
+    {
+      "name": "LONGNAME",
+      "fieldName": "longname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 145
+    },
+    {
+      "name": "LINES",
+      "fieldName": "lines",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 21
+    },
+    {
+      "name": "ADDRESS",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 145
+    },
+    {
+      "name": "ADA",
+      "fieldName": "ada",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "PKNRD",
+      "fieldName": "pknrd",
+      "dataTypeName": "checkbox",
+      "description": "Park and Ride",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "POINT_X",
+      "fieldName": "point_x",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 145
+    },
+    {
+      "name": "POINT_Y",
+      "fieldName": "point_y",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 145
+    },
+    {
+      "name": "LEGEND",
+      "fieldName": "legend",
+      "dataTypeName": "text",
+      "description": "\t\nCorresponds to the LINES column, for mapping.",
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Community Areas' (vrxf-vc4k) the point in column 'the_geom' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Zip Codes' (6mkv-f3dw) the point in column 'the_geom' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Census Tracts' (bdys-3d7i) the point in column 'the_geom' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards 2023-",
+      "fieldName": ":@computed_region_8hcu_yrd4",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Wards 2023-' (8hcu-yrd4) the point in column 'the_geom' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Boundaries - ZIP Codes' (rpca-8um6) the point in column 'the_geom' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:05.121Z"
+}

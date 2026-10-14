@@ -1,0 +1,61 @@
+{
+  "id": "tw3a-q9j2",
+  "name": "Libraries - 2019 Wi Fi Usage",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 12,
+  "rowCountSource": "cached",
+  "rowLabel": "Month",
+  "hasRowIdentifier": false,
+  "createdAt": 1551369449,
+  "publicationDate": 1551369534,
+  "rowsUpdatedAt": 1595884297,
+  "viewLastModified": 1782944625,
+  "viewCount": 1021,
+  "downloadCount": 1798,
+  "category": "Education",
+  "tags": [
+    "wi-fi",
+    "libraries"
+  ],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2019"
+    }
+  },
+  "columns": [
+    {
+      "name": "MONTH",
+      "fieldName": "month",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "NUMBER OF SESSIONS",
+      "fieldName": "number_of_sessions",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "YTD",
+      "fieldName": "ytd",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:20.698Z"
+}

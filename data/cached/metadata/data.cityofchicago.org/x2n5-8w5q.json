@@ -1,0 +1,224 @@
+{
+  "id": "x2n5-8w5q",
+  "name": "Crimes - One Year Prior to Present",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 230552,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1317376862,
+  "publicationDate": 1568321574,
+  "rowsUpdatedAt": 1791972163,
+  "viewLastModified": 1788892317,
+  "viewCount": 153910,
+  "downloadCount": 74995,
+  "category": "Public Safety",
+  "tags": [
+    "crime",
+    "police"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.chicagopolice.org/",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "One year minus the most recent seven days",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"x2n5-8w5q\"",
+      "Frequency": "Data are updated daily.",
+      "Data Owner": "Chicago Police Department"
+    }
+  },
+  "columns": [
+    {
+      "name": "CASE#",
+      "fieldName": "case_",
+      "dataTypeName": "text",
+      "description": "The Chicago Police Department RD Number (Records Division Number), which is unique to the incident.  ",
+      "nullCount": 0,
+      "cardinality": 230552
+    },
+    {
+      "name": "DATE  OF OCCURRENCE",
+      "fieldName": "date_of_occurrence",
+      "dataTypeName": "calendar_date",
+      "description": "Date when the incident occurred. This is sometimes a best estimate. ",
+      "nullCount": 0,
+      "cardinality": 230552
+    },
+    {
+      "name": "BLOCK",
+      "fieldName": "block",
+      "dataTypeName": "text",
+      "description": "The partially redacted address where the incident occurred, placing it on the same block as the actual address. ",
+      "nullCount": 0,
+      "cardinality": 230552
+    },
+    {
+      "name": " IUCR",
+      "fieldName": "_iucr",
+      "dataTypeName": "text",
+      "description": "The Illinois Uniform Crime Reporting Code. This is directly linked to the Primary Type and Description. See the list of IUCR codes at https://data.cityofchicago.org/d/c7ck-438e.",
+      "nullCount": 0,
+      "cardinality": 230552
+    },
+    {
+      "name": " PRIMARY DESCRIPTION",
+      "fieldName": "_primary_decsription",
+      "dataTypeName": "text",
+      "description": "The primary description of the IUCR code. ",
+      "nullCount": 0,
+      "cardinality": 230552
+    },
+    {
+      "name": " SECONDARY DESCRIPTION",
+      "fieldName": "_secondary_description",
+      "dataTypeName": "text",
+      "description": "The secondary description of the IUCR code, a subcategory of the primary description.",
+      "nullCount": 0,
+      "cardinality": 230552
+    },
+    {
+      "name": " LOCATION DESCRIPTION",
+      "fieldName": "_location_description",
+      "dataTypeName": "text",
+      "description": "Description of the location where the incident occurred. ",
+      "nullCount": 1111,
+      "cardinality": 230552
+    },
+    {
+      "name": "ARREST",
+      "fieldName": "arrest",
+      "dataTypeName": "text",
+      "description": "Indicates whether an arrest was made. ",
+      "nullCount": 0,
+      "cardinality": 230552
+    },
+    {
+      "name": "DOMESTIC",
+      "fieldName": "domestic",
+      "dataTypeName": "text",
+      "description": "Indicates whether the incident was domestic-related as defined by the Illinois Domestic Violence Act. ",
+      "nullCount": 0,
+      "cardinality": 230552
+    },
+    {
+      "name": "BEAT",
+      "fieldName": "beat",
+      "dataTypeName": "number",
+      "description": "Indicates the beat where the incident occurred. A beat is the smallest police geographic area - each beat has a dedicated police beat car. Three to five beats make up a police sector, and three sectors make up a police district. The Chicago Police Department has 22 police districts. See the beats at https://data.cityofchicago.org/d/aerh-rz74.",
+      "nullCount": 0,
+      "cardinality": 230552
+    },
+    {
+      "name": "WARD",
+      "fieldName": "ward",
+      "dataTypeName": "number",
+      "description": "The ward (City Council district) where the incident occurred. See the wards at https://data.cityofchicago.org/d/sp34-6z76.",
+      "nullCount": 0,
+      "cardinality": 230552
+    },
+    {
+      "name": "FBI CD",
+      "fieldName": "fbi_cd",
+      "dataTypeName": "text",
+      "description": "Indicates the crime classification as outlined in the FBI's National Incident-Based Reporting System (NIBRS). See the Chicago Police Department listing of these classifications at https://gis.chicagopolice.org/pages/crime_details.",
+      "nullCount": 0,
+      "cardinality": 230552
+    },
+    {
+      "name": "X COORDINATE",
+      "fieldName": "x_coordinate",
+      "dataTypeName": "text",
+      "description": "The x coordinate of the location where the incident occurred in State Plane Illinois East NAD 1983 projection. This location is shifted from the actual location for partial redaction but falls on the same block. ",
+      "nullCount": 426,
+      "cardinality": 230552
+    },
+    {
+      "name": "Y COORDINATE",
+      "fieldName": "y_coordinate",
+      "dataTypeName": "text",
+      "description": "The y coordinate of the location where the incident occurred in State Plane Illinois East NAD 1983 projection. This location is shifted from the actual location for partial redaction but falls on the same block. ",
+      "nullCount": 426,
+      "cardinality": 230552
+    },
+    {
+      "name": "LATITUDE",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": "The latitude of the location where the incident occurred. This location is shifted from the actual location for partial redaction but falls on the same block. ",
+      "nullCount": 426,
+      "cardinality": 230552
+    },
+    {
+      "name": "LONGITUDE",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": "The longitude of the location where the incident occurred. This location is shifted from the actual location for partial redaction but falls on the same block. ",
+      "nullCount": 426,
+      "cardinality": 230552
+    },
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": "The location where the incident occurred in a format that allows for creation of maps and other geographic operations on this data portal. This location is shifted from the actual location for partial redaction but falls on the same block.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:26:21.470Z"
+}

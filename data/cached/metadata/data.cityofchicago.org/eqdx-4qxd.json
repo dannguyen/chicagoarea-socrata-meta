@@ -1,0 +1,167 @@
+{
+  "id": "eqdx-4qxd",
+  "name": "Lobbyist Data - Expenditures - Small",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2675,
+  "rowCountSource": "cached",
+  "rowLabel": "Expenditure",
+  "hasRowIdentifier": false,
+  "createdAt": 1434659347,
+  "publicationDate": 1445374764,
+  "rowsUpdatedAt": 1791969853,
+  "viewLastModified": 1445637234,
+  "viewCount": 3043,
+  "downloadCount": 7574,
+  "category": "Ethics",
+  "tags": [
+    "ethics",
+    "lobbyists"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2012 - Current",
+      "Frequency": "Data are updated daily. Lobbyist reporting is quarterly.",
+      "Data Owner": "Board of Ethics"
+    }
+  },
+  "columns": [
+    {
+      "name": "COMPENSATION_ID",
+      "fieldName": "compensation_id",
+      "dataTypeName": "number",
+      "description": "A unique identifier for the expenditures record. This ID can be used to link records in other datasets that contain an ID column with the same name, including the compensation dataset because of how small expenditures are reported.",
+      "nullCount": 0,
+      "cardinality": 2675
+    },
+    {
+      "name": "PERIOD_START",
+      "fieldName": "period_start",
+      "dataTypeName": "calendar_date",
+      "description": "Start of the reporting period for which this record was created.",
+      "nullCount": 0,
+      "cardinality": 2675
+    },
+    {
+      "name": "PERIOD_END",
+      "fieldName": "period_end",
+      "dataTypeName": "calendar_date",
+      "description": "End of the reporting period for which this record was created.\n",
+      "nullCount": 0,
+      "cardinality": 2675
+    },
+    {
+      "name": "LOBBYIST_ID",
+      "fieldName": "lobbyist_id",
+      "dataTypeName": "number",
+      "description": "A unique identifier for the lobbyist record. This ID can be used to link records in other datasets that contain an ID column with the same name.",
+      "nullCount": 0,
+      "cardinality": 2675
+    },
+    {
+      "name": "LOBBYIST_FIRST_NAME",
+      "fieldName": "lobbyist_first_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2675
+    },
+    {
+      "name": "LOBBYIST_MIDDLE_INITIAL",
+      "fieldName": "lobbyist_middle_initial",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1583,
+      "cardinality": 2675
+    },
+    {
+      "name": "LOBBYIST_LAST_NAME",
+      "fieldName": "lobbyist_last_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2675
+    },
+    {
+      "name": "COMPENSATION_TO_OTHERS_EXPENSE",
+      "fieldName": "compensation_to_others_expense",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2675
+    },
+    {
+      "name": "OFFICE_EXPENSE",
+      "fieldName": "office_expense",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2675
+    },
+    {
+      "name": "PERSONAL_SUSTENANCE_EXPENSE",
+      "fieldName": "personal_sustenance_expense",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2675
+    },
+    {
+      "name": "PUBLIC_EDUCATION_EXPENSE",
+      "fieldName": "public_education_expense",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2675
+    },
+    {
+      "name": "OTHER_EXPENSES",
+      "fieldName": "other_expenses",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2675
+    },
+    {
+      "name": "TOTAL_EXPENSES",
+      "fieldName": "total_expenses",
+      "dataTypeName": "number",
+      "description": "Sum of the expense columns.",
+      "nullCount": 0,
+      "cardinality": 2675
+    },
+    {
+      "name": "CLIENT_ID",
+      "fieldName": "client_id",
+      "dataTypeName": "number",
+      "description": "A unique ID for the client that can be used to link to the same column name in other datasets.",
+      "nullCount": 0,
+      "cardinality": 2675
+    },
+    {
+      "name": "CLIENT_NAME",
+      "fieldName": "client_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2675
+    },
+    {
+      "name": "CREATED_DATE",
+      "fieldName": "created_date",
+      "dataTypeName": "calendar_date",
+      "description": "The date the record was created.",
+      "nullCount": 0,
+      "cardinality": 2675
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:08.458Z"
+}

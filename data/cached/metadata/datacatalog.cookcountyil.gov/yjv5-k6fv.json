@@ -1,0 +1,54 @@
+{
+  "id": "yjv5-k6fv",
+  "name": "Inspector General - Employment Plan Officer Semi-Annual Reports",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 26,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1469557006,
+  "publicationDate": 1552927569,
+  "rowsUpdatedAt": 1775868903,
+  "viewLastModified": 1775868902,
+  "viewCount": 32237,
+  "downloadCount": 2170,
+  "category": "Finance & Operations",
+  "tags": [],
+  "attribution": "Cook County Office of the Independent Inspector General",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Office of the Independent Inspector General"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Bi-annually",
+      "Publishing frequency": "Bi-annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "Link",
+      "fieldName": "link",
+      "dataTypeName": "url",
+      "description": "Link to a PDF file of the Inspector General's semi-annual Employment Plan Report",
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": "Date",
+      "fieldName": "date",
+      "dataTypeName": "calendar_date",
+      "description": "Date the report was published",
+      "nullCount": 0,
+      "cardinality": 26
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:46.641Z"
+}

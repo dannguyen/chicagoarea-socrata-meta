@@ -1,0 +1,214 @@
+{
+  "id": "dqkx-dat5",
+  "name": "City Of Urbana: City Budget and Spending (last 3 years)",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 6573,
+  "rowCountSource": "cached",
+  "rowLabel": "Account Line",
+  "hasRowIdentifier": false,
+  "createdAt": 1731013372,
+  "publicationDate": 1731013606,
+  "rowsUpdatedAt": 1766174244,
+  "viewLastModified": 1766174243,
+  "viewCount": 741,
+  "downloadCount": 157,
+  "category": "Local Government",
+  "tags": [],
+  "attribution": "City of Urbana",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "City of Urbana"
+    },
+    "Data Management": {
+      "Maintainer": "Mayank Patel",
+      "Maintainer Email": "mac.patel@urbanail.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "Full Account",
+      "fieldName": "full_account",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6573
+    },
+    {
+      "name": "Account Description",
+      "fieldName": "account_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6573
+    },
+    {
+      "name": "Budget Year",
+      "fieldName": "budget_year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6573
+    },
+    {
+      "name": "Account Type",
+      "fieldName": "account_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6573
+    },
+    {
+      "name": "Organization Code",
+      "fieldName": "organization_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6573
+    },
+    {
+      "name": "Object Code",
+      "fieldName": "object_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6573
+    },
+    {
+      "name": "Object Description",
+      "fieldName": "object_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6573
+    },
+    {
+      "name": "Project Code",
+      "fieldName": "project_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 5680,
+      "cardinality": 6573
+    },
+    {
+      "name": "Project Description",
+      "fieldName": "project_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 5680,
+      "cardinality": 6573
+    },
+    {
+      "name": "Fund Code",
+      "fieldName": "fund_code",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6573
+    },
+    {
+      "name": "Fund Description",
+      "fieldName": "fund_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6573
+    },
+    {
+      "name": "Function Code",
+      "fieldName": "function_code",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6573
+    },
+    {
+      "name": "Function Description",
+      "fieldName": "function_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 870,
+      "cardinality": 6573
+    },
+    {
+      "name": "Department Code",
+      "fieldName": "department_code",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6573
+    },
+    {
+      "name": "Department Description",
+      "fieldName": "department_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 870,
+      "cardinality": 6573
+    },
+    {
+      "name": "Program Code",
+      "fieldName": "program_code",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6573
+    },
+    {
+      "name": "Program Description",
+      "fieldName": "program_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 870,
+      "cardinality": 6573
+    },
+    {
+      "name": "Original Budget",
+      "fieldName": "original_budget",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6573
+    },
+    {
+      "name": "Revised Budget",
+      "fieldName": "revised_budget",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6573
+    },
+    {
+      "name": "Actual Balance",
+      "fieldName": "actual_balance",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6573
+    },
+    {
+      "name": "Budget Remaining",
+      "fieldName": "budget_remaining",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6573
+    },
+    {
+      "name": "Percent Remaining",
+      "fieldName": "percent_remaining",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6573
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:32.912Z"
+}

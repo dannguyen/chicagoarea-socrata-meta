@@ -1,0 +1,144 @@
+{
+  "id": "7k2b-3t45",
+  "name": "Adoption & Child Custody Advocacy - Performance Measures Custody Investigations - 2008",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 12,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1318434024,
+  "publicationDate": 1412895680,
+  "rowsUpdatedAt": 1412895666,
+  "viewLastModified": 1769546287,
+  "viewCount": 723,
+  "downloadCount": 2484,
+  "category": "Legal & Judicial",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Adoption & Child Custody Advocacy",
+  "attributionLink": "http://www.cookcountygov.com/portal/server.pt/community/adoption___child_custody_advocacy/245",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Statistics  ",
+      "fieldName": "statistics_",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 6
+    },
+    {
+      "name": " Dec  ",
+      "fieldName": "_dec_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 4
+    },
+    {
+      "name": " Jan  ",
+      "fieldName": "_jan_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 4
+    },
+    {
+      "name": " Feb  ",
+      "fieldName": "_feb_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 4
+    },
+    {
+      "name": " Mar  ",
+      "fieldName": "_mar_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 5
+    },
+    {
+      "name": " Apr  ",
+      "fieldName": "_apr_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 5
+    },
+    {
+      "name": " May  ",
+      "fieldName": "_may_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 5
+    },
+    {
+      "name": " Jun  ",
+      "fieldName": "_jun_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 4
+    },
+    {
+      "name": " Jul  ",
+      "fieldName": "_jul_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 5
+    },
+    {
+      "name": " Aug  ",
+      "fieldName": "_aug_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 5
+    },
+    {
+      "name": " Sep  ",
+      "fieldName": "_sep_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 5
+    },
+    {
+      "name": " Oct  ",
+      "fieldName": "_oct_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 5
+    },
+    {
+      "name": " Nov  ",
+      "fieldName": "_nov_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 5
+    },
+    {
+      "name": " Est. 2008  ",
+      "fieldName": "_est_2008_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 5
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:07.361Z"
+}

@@ -1,0 +1,167 @@
+{
+  "id": "ajbe-scz3",
+  "name": "Budget - Fiscal Year 2015 Budget Executive Recommendation - Summary By Object Classification",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 4022,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1413581202,
+  "publicationDate": 1413581831,
+  "rowsUpdatedAt": 1413581269,
+  "viewLastModified": 1769543800,
+  "viewCount": 2425,
+  "downloadCount": 3143,
+  "category": "Finance & Operations",
+  "tags": [
+    "budget",
+    "executive recommendation",
+    "fiscal year 2015",
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Budget & Management Services",
+  "attributionLink": "http://www.cookcountyil.gov/budget/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Update Frequency": "Yearly"
+    }
+  },
+  "columns": [
+    {
+      "name": "FundType",
+      "fieldName": "fundtype",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "GenFundType",
+      "fieldName": "genfundtype",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Bureau",
+      "fieldName": "bureau",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 55
+    },
+    {
+      "name": "Department Number",
+      "fieldName": "department_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 269
+    },
+    {
+      "name": "Department Title",
+      "fieldName": "department_title",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 288
+    },
+    {
+      "name": "Object Classification",
+      "fieldName": "object_classification",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Account",
+      "fieldName": "account",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 142
+    },
+    {
+      "name": "Object Account",
+      "fieldName": "object_account",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 149
+    },
+    {
+      "name": "Description",
+      "fieldName": "description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 149
+    },
+    {
+      "name": "FY2014 Adopted Appropriation",
+      "fieldName": "fy2014_adopted_appropriation",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 629,
+      "cardinality": 1762
+    },
+    {
+      "name": "FY2014 Adjusted Appropriation",
+      "fieldName": "fy2014_adjusted_appropriation",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 629,
+      "cardinality": 2041
+    },
+    {
+      "name": "FY2015 Department Request",
+      "fieldName": "fy2015_department_request",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 734,
+      "cardinality": 1857
+    },
+    {
+      "name": "FY2015 President's Recommendation",
+      "fieldName": "fy2015_president_s_recommendation",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 732,
+      "cardinality": 1858
+    },
+    {
+      "name": "FY2015 Approved & Adopted Budget",
+      "fieldName": "fy2015_approved_adopted_budget",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4022,
+      "cardinality": 0
+    },
+    {
+      "name": "FY2014 Expenditures as of 09/30/2014",
+      "fieldName": "fy2014_expenditures_as_of_09_30_2014",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 238,
+      "cardinality": 1860
+    },
+    {
+      "name": "FY2014 Build Date",
+      "fieldName": "fy2014_build_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:55.941Z"
+}

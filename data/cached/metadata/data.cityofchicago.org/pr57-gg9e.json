@@ -1,0 +1,441 @@
+{
+  "id": "pr57-gg9e",
+  "name": "transportation",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 56338,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1414088460,
+  "publicationDate": 1623448550,
+  "rowsUpdatedAt": 1623448549,
+  "viewLastModified": 1712775979,
+  "viewCount": 3549,
+  "downloadCount": 4720,
+  "category": "Transportation",
+  "tags": [
+    "gis",
+    "kml",
+    "shapefiles",
+    "transportation",
+    "map_layer",
+    "streets"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "August 2016"
+    }
+  },
+  "columns": [
+    {
+      "name": "FNODE_ID",
+      "fieldName": "fnode_id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 35736
+    },
+    {
+      "name": "TNODE_ID",
+      "fieldName": "tnode_id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 35957
+    },
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multiline",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "OBJECTID",
+      "fieldName": "objectid",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 56338
+    },
+    {
+      "name": "TRANS_ID",
+      "fieldName": "trans_id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 56337
+    },
+    {
+      "name": "PRE_DIR",
+      "fieldName": "pre_dir",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 336,
+      "cardinality": 4
+    },
+    {
+      "name": "STREET_NAM",
+      "fieldName": "street_nam",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 336,
+      "cardinality": 1697
+    },
+    {
+      "name": "STREET_TYP",
+      "fieldName": "street_typ",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1140,
+      "cardinality": 23
+    },
+    {
+      "name": "SUF_DIR",
+      "fieldName": "suf_dir",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 54067,
+      "cardinality": 11
+    },
+    {
+      "name": "STREETNAME",
+      "fieldName": "streetname",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2611
+    },
+    {
+      "name": "L_F_ADD",
+      "fieldName": "l_f_add",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5429
+    },
+    {
+      "name": "L_T_ADD",
+      "fieldName": "l_t_add",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7271
+    },
+    {
+      "name": "R_F_ADD",
+      "fieldName": "r_f_add",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5394
+    },
+    {
+      "name": "R_T_ADD",
+      "fieldName": "r_t_add",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7278
+    },
+    {
+      "name": "LOGICLF",
+      "fieldName": "logiclf",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5270
+    },
+    {
+      "name": "LOGICLT",
+      "fieldName": "logiclt",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5314
+    },
+    {
+      "name": "LOGICRF",
+      "fieldName": "logicrf",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5245
+    },
+    {
+      "name": "LOGICRT",
+      "fieldName": "logicrt",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5273
+    },
+    {
+      "name": "CLASS",
+      "fieldName": "class",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 11
+    },
+    {
+      "name": "STATUS",
+      "fieldName": "status",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 21,
+      "cardinality": 5
+    },
+    {
+      "name": "STATUS_DAT",
+      "fieldName": "status_dat",
+      "dataTypeName": "date",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 177
+    },
+    {
+      "name": "TIERED",
+      "fieldName": "tiered",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 2
+    },
+    {
+      "name": "ONEWAY_DIR",
+      "fieldName": "oneway_dir",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 36845,
+      "cardinality": 4
+    },
+    {
+      "name": "DIR_TRAVEL",
+      "fieldName": "dir_travel",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 3
+    },
+    {
+      "name": "EWNS",
+      "fieldName": "ewns",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 827
+    },
+    {
+      "name": "L_PARITY",
+      "fieldName": "l_parity",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 279,
+      "cardinality": 2
+    },
+    {
+      "name": "R_PARITY",
+      "fieldName": "r_parity",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 279,
+      "cardinality": 2
+    },
+    {
+      "name": "F_ZLEV",
+      "fieldName": "f_zlev",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "T_ZLEV",
+      "fieldName": "t_zlev",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "L_FIPS",
+      "fieldName": "l_fips",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 25
+    },
+    {
+      "name": "R_FIPS",
+      "fieldName": "r_fips",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24
+    },
+    {
+      "name": "R_ZIP",
+      "fieldName": "r_zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 204,
+      "cardinality": 64
+    },
+    {
+      "name": "L_ZIP",
+      "fieldName": "l_zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 205,
+      "cardinality": 64
+    },
+    {
+      "name": "R_CENSUSBL",
+      "fieldName": "r_censusbl",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 22832
+    },
+    {
+      "name": "L_CENSUSBL",
+      "fieldName": "l_censusbl",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 22869
+    },
+    {
+      "name": "F_CROSS",
+      "fieldName": "f_cross",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 48747
+    },
+    {
+      "name": "F_CROSS_ST",
+      "fieldName": "f_cross_st",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2474
+    },
+    {
+      "name": "T_CROSS",
+      "fieldName": "t_cross",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 48774
+    },
+    {
+      "name": "T_CROSS_ST",
+      "fieldName": "t_cross_st",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2498
+    },
+    {
+      "name": "LENGTH",
+      "fieldName": "length",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 56336
+    },
+    {
+      "name": "EDIT_DATE",
+      "fieldName": "edit_date",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 622
+    },
+    {
+      "name": "EDIT_TYPE",
+      "fieldName": "edit_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 47872,
+      "cardinality": 21
+    },
+    {
+      "name": "FLAG_STRIN",
+      "fieldName": "flag_strin",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 55793,
+      "cardinality": 25
+    },
+    {
+      "name": "EWNS_DIR",
+      "fieldName": "ewns_dir",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 7964,
+      "cardinality": 4
+    },
+    {
+      "name": "EWNS_COORD",
+      "fieldName": "ewns_coord",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 650
+    },
+    {
+      "name": "CREATE_USE",
+      "fieldName": "create_use",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 3
+    },
+    {
+      "name": "CREATE_TIM",
+      "fieldName": "create_tim",
+      "dataTypeName": "date",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 197
+    },
+    {
+      "name": "UPDATE_USE",
+      "fieldName": "update_use",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 4
+    },
+    {
+      "name": "UPDATE_TIM",
+      "fieldName": "update_tim",
+      "dataTypeName": "date",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 622
+    },
+    {
+      "name": "SHAPE_LEN",
+      "fieldName": "shape_len",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 56336
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:07.415Z"
+}

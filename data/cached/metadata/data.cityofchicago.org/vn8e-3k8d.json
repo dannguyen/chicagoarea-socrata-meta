@@ -1,0 +1,95 @@
+{
+  "id": "vn8e-3k8d",
+  "name": "ARPA Road to Recovery Program Key Performance Indicators",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 269,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1746822368,
+  "publicationDate": 1747153237,
+  "rowsUpdatedAt": 1789758595,
+  "viewLastModified": 1789758745,
+  "viewCount": 532,
+  "downloadCount": 2428,
+  "category": "Administration & Finance",
+  "tags": [
+    "arpa",
+    "budget"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "3/3/2021 – 6/30/2026",
+      "Frequency": "Data are updated as needed",
+      "Data Owner": "Budget & Management"
+    }
+  },
+  "columns": [
+    {
+      "name": "Cost Center",
+      "fieldName": "cost_center",
+      "dataTypeName": "text",
+      "description": "A unique identifier to differentiate program impact information by program.",
+      "nullCount": 0,
+      "cardinality": 269
+    },
+    {
+      "name": "Program Name",
+      "fieldName": "program_name",
+      "dataTypeName": "text",
+      "description": "Official name of the program.",
+      "nullCount": 0,
+      "cardinality": 269
+    },
+    {
+      "name": "Department",
+      "fieldName": "department",
+      "dataTypeName": "text",
+      "description": "Identified department in the City of Chicago for administering the program.",
+      "nullCount": 0,
+      "cardinality": 269
+    },
+    {
+      "name": "KPI Metric ID",
+      "fieldName": "kpi_metric_id",
+      "dataTypeName": "text",
+      "description": "A unique identifier for each KPI.",
+      "nullCount": 0,
+      "cardinality": 269
+    },
+    {
+      "name": "KPI Description",
+      "fieldName": "kpi_description",
+      "dataTypeName": "text",
+      "description": "The specific KPI metric and its attributes.",
+      "nullCount": 0,
+      "cardinality": 269
+    },
+    {
+      "name": "KPI Value",
+      "fieldName": "kpi_value",
+      "dataTypeName": "text",
+      "description": "The amount of the given KPI metric.",
+      "nullCount": 0,
+      "cardinality": 269
+    },
+    {
+      "name": "KPI Type",
+      "fieldName": "kpi_type",
+      "dataTypeName": "text",
+      "description": "The nature of the KPI and its intended purpose.",
+      "nullCount": 0,
+      "cardinality": 269
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:23.891Z"
+}

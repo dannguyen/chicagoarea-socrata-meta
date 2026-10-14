@@ -1,0 +1,172 @@
+{
+  "id": "bgq7-v7ms",
+  "name": "Procurement - Intent to Award",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2068,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1464725938,
+  "publicationDate": 1547821953,
+  "rowsUpdatedAt": 1790097308,
+  "viewLastModified": 1790097307,
+  "viewCount": 33166,
+  "downloadCount": 16112,
+  "category": "Finance & Operations",
+  "tags": [
+    "procurement",
+    "purchase",
+    "contract",
+    "bid",
+    "rfp",
+    "rfi",
+    "award"
+  ],
+  "attribution": "Office of the Chief Procurement Officer",
+  "attributionLink": "http://www.cookcountyil.gov/procurement",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Office of the Chief Procurement Officer"
+    },
+    "Metadata": {
+      "Update Frequency": "Monthly"
+    },
+    "Detailed Descriptive": {
+      "Geographic unit": "Not applicable"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Monthly",
+      "Publishing frequency": "Monthly"
+    }
+  },
+  "columns": [
+    {
+      "name": "Posting Date",
+      "fieldName": "posting_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2068
+    },
+    {
+      "name": "Contract Number",
+      "fieldName": "contract_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 11,
+      "cardinality": 2068
+    },
+    {
+      "name": "Description",
+      "fieldName": "description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 783,
+      "cardinality": 2068
+    },
+    {
+      "name": "Department",
+      "fieldName": "department",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 783,
+      "cardinality": 2068
+    },
+    {
+      "name": "Recommended Action",
+      "fieldName": "recommended_action",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 783,
+      "cardinality": 2068
+    },
+    {
+      "name": "Recommended Vendor",
+      "fieldName": "recommended_vendor",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 791,
+      "cardinality": 2068
+    },
+    {
+      "name": "Contract Amount",
+      "fieldName": "contract_amount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 811,
+      "cardinality": 2068
+    },
+    {
+      "name": "MBE/WBE/DBE Participation",
+      "fieldName": "mbe_wbe_dbe_participation",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 780,
+      "cardinality": 2068
+    },
+    {
+      "name": "MBE/WBE/DBE type",
+      "fieldName": "mbe_wbe_dbe_type",
+      "dataTypeName": "text",
+      "description": "M/W/DBE Participation Types\nMBE = Minority Business Enterprise\nWBE = Women Business Enterprise\nDBE = Disadvantaged Business Enterprise\nNative American (4)\nAfrican American (5)\nFemale (7)\nAsian (8)\nHispanic (9)\n\nDNA= Does Not Apply",
+      "nullCount": 686,
+      "cardinality": 2068
+    },
+    {
+      "name": "Direct Participation",
+      "fieldName": "direct_participation",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 840,
+      "cardinality": 2068
+    },
+    {
+      "name": "Indirect Participation",
+      "fieldName": "indirect_participation",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1861,
+      "cardinality": 2068
+    },
+    {
+      "name": "# of Bids Received",
+      "fieldName": "of_bids_received",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 867,
+      "cardinality": 2068
+    },
+    {
+      "name": "# of M/WBE Bids Received",
+      "fieldName": "of_m_wbe_bids_received",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1135,
+      "cardinality": 2068
+    },
+    {
+      "name": "CCA Concurs",
+      "fieldName": "cca_concurs",
+      "dataTypeName": "checkbox",
+      "description": "CCA - Contract Compliance Administrator",
+      "nullCount": 652,
+      "cardinality": 2068
+    },
+    {
+      "name": "Link",
+      "fieldName": "link",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:46.420Z"
+}

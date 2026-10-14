@@ -1,0 +1,316 @@
+{
+  "id": "cjeq-bs86",
+  "name": "Medical Examiner Case Archive",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 99208,
+  "rowCountSource": "cached",
+  "rowLabel": "decedent",
+  "hasRowIdentifier": true,
+  "createdAt": 1515026009,
+  "publicationDate": 1780583561,
+  "rowsUpdatedAt": 1791975353,
+  "viewLastModified": 1791975261,
+  "viewCount": 742473,
+  "downloadCount": 52648,
+  "category": "Health & Human Services",
+  "tags": [
+    "death",
+    "meo",
+    "autopsy"
+  ],
+  "attribution": "Cook County Medical Examiner",
+  "attributionLink": "https://www.cookcountyil.gov/agency/medical-examiner",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Bureau of Technology Geographic Information Services"
+    },
+    "Metadata": {
+      "Update Frequency": "As Needed"
+    },
+    "Detailed Descriptive": {
+      "Temporal coverage": "August 2014 - Present",
+      "Ordinance Link": "https://library.municode.com/il/cook_county/codes/code_of_ordinances?nodeId=PTIGEOR_CH38HEHUSE_ARTVIMEEX_DIV1GE_S38-118DESUIN",
+      "Ordinance": "Sec. 38-118",
+      "Geographic coverage": "Countywide",
+      "Geographic unit": "Street Address"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Streaming",
+      "Publishing frequency": "Daily"
+    }
+  },
+  "columns": [
+    {
+      "name": "Case Number",
+      "fieldName": "casenumber",
+      "dataTypeName": "text",
+      "description": "Case Number assigned by the Medical Examiner's office.",
+      "nullCount": 0,
+      "cardinality": 99208
+    },
+    {
+      "name": "Date of Incident",
+      "fieldName": "incident_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date incident occurred",
+      "nullCount": 2367,
+      "cardinality": 99208
+    },
+    {
+      "name": "Date of Death",
+      "fieldName": "death_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date the deceased was pronounced dead",
+      "nullCount": 75,
+      "cardinality": 99208
+    },
+    {
+      "name": "Age",
+      "fieldName": "age",
+      "dataTypeName": "number",
+      "description": "Age of decedent",
+      "nullCount": 475,
+      "cardinality": 99208
+    },
+    {
+      "name": "Gender",
+      "fieldName": "gender",
+      "dataTypeName": "text",
+      "description": "Gender of decedent",
+      "nullCount": 318,
+      "cardinality": 99208
+    },
+    {
+      "name": "Race",
+      "fieldName": "race",
+      "dataTypeName": "text",
+      "description": "Race of decedent",
+      "nullCount": 514,
+      "cardinality": 99208
+    },
+    {
+      "name": "Latino",
+      "fieldName": "latino",
+      "dataTypeName": "checkbox",
+      "description": "Whether the family of the decedent identified him/her as Latino",
+      "nullCount": 0,
+      "cardinality": 99208
+    },
+    {
+      "name": "Manner of Death",
+      "fieldName": "manner",
+      "dataTypeName": "text",
+      "description": "One of five categories: Homicide, Suicide, Natural, Accident, Undetermined",
+      "nullCount": 657,
+      "cardinality": 99208
+    },
+    {
+      "name": "Primary Cause",
+      "fieldName": "primarycause",
+      "dataTypeName": "text",
+      "description": "Primary reason the person died. This field combines Primary Cause Line A, Line B, and Line C into one field",
+      "nullCount": 703,
+      "cardinality": 99208
+    },
+    {
+      "name": "Primary Cause Line A",
+      "fieldName": "primarycause_linea",
+      "dataTypeName": "text",
+      "description": "Primary reason the person died",
+      "nullCount": 703,
+      "cardinality": 99208
+    },
+    {
+      "name": "Primary Cause Line B",
+      "fieldName": "primarycause_lineb",
+      "dataTypeName": "text",
+      "description": "Primary reason the person died",
+      "nullCount": 69550,
+      "cardinality": 99208
+    },
+    {
+      "name": "Primary Cause Line C",
+      "fieldName": "primarycause_linec",
+      "dataTypeName": "text",
+      "description": "Primary reason the person died",
+      "nullCount": 95636,
+      "cardinality": 99208
+    },
+    {
+      "name": "Secondary Cause",
+      "fieldName": "secondarycause",
+      "dataTypeName": "text",
+      "description": "Secondary reason",
+      "nullCount": 62008,
+      "cardinality": 99208
+    },
+    {
+      "name": "Gun Related",
+      "fieldName": "gunrelated",
+      "dataTypeName": "checkbox",
+      "description": "Whether the death was caused by a gun",
+      "nullCount": 1289,
+      "cardinality": 99208
+    },
+    {
+      "name": "Opioid Related",
+      "fieldName": "opioids",
+      "dataTypeName": "checkbox",
+      "description": "Whether the death was caused by an opioid",
+      "nullCount": 1289,
+      "cardinality": 99208
+    },
+    {
+      "name": "Cold Related",
+      "fieldName": "cold_related",
+      "dataTypeName": "checkbox",
+      "description": "Indicates whether cold weather was a cause or contributing cause of death",
+      "nullCount": 0,
+      "cardinality": 99208
+    },
+    {
+      "name": "Heat Related",
+      "fieldName": "heat_related",
+      "dataTypeName": "checkbox",
+      "description": "Indicates whether hot weather was a cause or contributing cause of death",
+      "nullCount": 0,
+      "cardinality": 99208
+    },
+    {
+      "name": "Transportation Related",
+      "fieldName": "transportation_related",
+      "dataTypeName": "checkbox",
+      "description": "Indicates whether transportation was a cause or contributing cause of death",
+      "nullCount": 1289,
+      "cardinality": 99208
+    },
+    {
+      "name": "Commissioner District",
+      "fieldName": "commissioner_district",
+      "dataTypeName": "number",
+      "description": "Cook County Commissioner District where incident occurred. This reflects the boundaries that went into effect 12/05/2022. ",
+      "nullCount": 12206,
+      "cardinality": 99208
+    },
+    {
+      "name": "Incident Address",
+      "fieldName": "incident_street",
+      "dataTypeName": "text",
+      "description": "Address where incident occurred",
+      "nullCount": 1125,
+      "cardinality": 99208
+    },
+    {
+      "name": "Incident City",
+      "fieldName": "incident_city",
+      "dataTypeName": "text",
+      "description": "City where incident occurred",
+      "nullCount": 2155,
+      "cardinality": 99208
+    },
+    {
+      "name": "Incident Zip Code",
+      "fieldName": "incident_zip",
+      "dataTypeName": "text",
+      "description": "Incident Location Zip Code",
+      "nullCount": 2389,
+      "cardinality": 99208
+    },
+    {
+      "name": "longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": "Incident Location Longitude",
+      "nullCount": 12195,
+      "cardinality": 99208
+    },
+    {
+      "name": "latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": "Incident Location Latitude",
+      "nullCount": 12195,
+      "cardinality": 99208
+    },
+    {
+      "name": "location",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": "Incident Location",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Residence City",
+      "fieldName": "residence_city",
+      "dataTypeName": "text",
+      "description": "City where decedent resided",
+      "nullCount": 2892,
+      "cardinality": 99208
+    },
+    {
+      "name": "Residence Zip",
+      "fieldName": "residence_zip",
+      "dataTypeName": "text",
+      "description": "Zip code where decedent resided",
+      "nullCount": 2776,
+      "cardinality": 99208
+    },
+    {
+      "name": "OBJECTID",
+      "fieldName": "objectid",
+      "dataTypeName": "number",
+      "description": "Internal unique ID corresponding to Medical Examiner case or decedent",
+      "nullCount": 0,
+      "cardinality": 99208
+    },
+    {
+      "name": "Chicago Ward",
+      "fieldName": "chi_ward",
+      "dataTypeName": "number",
+      "description": "Chicago Ward for incident address. This is the current ward number, reflecting the ward boundaries that went into effect in 2023.",
+      "nullCount": 43827,
+      "cardinality": 99208
+    },
+    {
+      "name": "Chicago Community Area",
+      "fieldName": "chi_commarea",
+      "dataTypeName": "text",
+      "description": "Chicago Community Area for incident address",
+      "nullCount": 43826,
+      "cardinality": 99208
+    },
+    {
+      "name": "COVID Related",
+      "fieldName": "covid_related",
+      "dataTypeName": "checkbox",
+      "description": "Indicates whether COVID-19 was a cause or contributing cause of death",
+      "nullCount": 632,
+      "cardinality": 99208
+    },
+    {
+      "name": "Transportation Related Vehicle Type",
+      "fieldName": "transportation_related_type",
+      "dataTypeName": "text",
+      "description": "Transportation related vehicle type",
+      "nullCount": 93781,
+      "cardinality": 99208
+    },
+    {
+      "name": "Transportation Related Decedent Status",
+      "fieldName": "transportation_status",
+      "dataTypeName": "text",
+      "description": "For Transportation Related cases, identifies if decedent was a driver, passenger, pedestrian, or other.",
+      "nullCount": 93782,
+      "cardinality": 99208
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:45.816Z"
+}

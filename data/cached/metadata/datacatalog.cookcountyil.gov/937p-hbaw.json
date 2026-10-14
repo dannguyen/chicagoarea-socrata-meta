@@ -1,0 +1,102 @@
+{
+  "id": "937p-hbaw",
+  "name": "Fiscal Year 2018 Preliminary Budget - Fiscal Year 2018 Projected Expenses",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 85,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1498597880,
+  "publicationDate": 1498750593,
+  "rowsUpdatedAt": 1498598268,
+  "viewLastModified": 1769543985,
+  "viewCount": 782,
+  "downloadCount": 2071,
+  "category": "Finance & Operations",
+  "tags": [
+    "fy2018",
+    "2018 budget",
+    "preliminary budget",
+    "fy2018 preliminary budget",
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Budget and Management Services",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Department of Budget and Management Services"
+    },
+    "Metadata": {
+      "Update Frequency": "Yearly"
+    },
+    "Publishing Details": {
+      "Publishing frequency": "Annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "Fund",
+      "fieldName": "fund",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Department Number",
+      "fieldName": "department_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 85
+    },
+    {
+      "name": "Description",
+      "fieldName": "description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 84
+    },
+    {
+      "name": "FY2017 Approved & Adopted Expenditures",
+      "fieldName": "fy2017_approved_adopted_expenditures",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 70
+    },
+    {
+      "name": "FY2017 Estimated Expenditures",
+      "fieldName": "fy2017_estimated_expenditures",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 85
+    },
+    {
+      "name": "Department Estimated FY2018 Expenditures",
+      "fieldName": "department_estimated_fy2018_expenditures",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 70
+    },
+    {
+      "name": "Executive FY2018 Estimate Expenditures",
+      "fieldName": "executive_fy2018_estimate_expenditures",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 70
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:06.578Z"
+}

@@ -1,0 +1,260 @@
+{
+  "id": "nxj5-ix6z",
+  "name": "Sidewalk Cafe Permits",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 25751,
+  "rowCountSource": "cached",
+  "rowLabel": "Permit",
+  "hasRowIdentifier": true,
+  "createdAt": 1492023955,
+  "publicationDate": 1626385532,
+  "rowsUpdatedAt": 1791885008,
+  "viewLastModified": 1626385532,
+  "viewCount": 11358,
+  "downloadCount": 26408,
+  "category": "Community & Economic Development",
+  "tags": [
+    "business",
+    "licenses",
+    "sidewalk cafes",
+    "summer",
+    "seasonal",
+    "link to article present"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2001 to present",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "http://dev.cityofchicago.org/open%20data/data%20portal/2021/03/17/sidewalk-cafe-permits-precinct.html",
+      "Frequency": "Data are updated daily",
+      "Data Owner": "Business Affairs & Consumer Protection"
+    }
+  },
+  "columns": [
+    {
+      "name": "PERMIT NUMBER",
+      "fieldName": "permit_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 25751
+    },
+    {
+      "name": "ACCOUNT NUMBER",
+      "fieldName": "account_number",
+      "dataTypeName": "number",
+      "description": "The account number of the business owner, which will stay consistent across that owner's licenses and can be used to find the owner in the Business Owners and Business Licenses datasets.",
+      "nullCount": 0,
+      "cardinality": 25751
+    },
+    {
+      "name": "SITE NUMBER",
+      "fieldName": "site_number",
+      "dataTypeName": "number",
+      "description": "An internal database ID indicating the location of this licensed business to account for business owners with more than one location.",
+      "nullCount": 0,
+      "cardinality": 25751
+    },
+    {
+      "name": "LEGAL NAME",
+      "fieldName": "legal_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 25751
+    },
+    {
+      "name": "DOING BUSINESS AS NAME",
+      "fieldName": "doing_business_as_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 25751
+    },
+    {
+      "name": "ISSUED DATE",
+      "fieldName": "issued_date",
+      "dataTypeName": "calendar_date",
+      "description": "The date the permit was issued.",
+      "nullCount": 0,
+      "cardinality": 25751
+    },
+    {
+      "name": "EXPIRATION DATE",
+      "fieldName": "expiration_date",
+      "dataTypeName": "calendar_date",
+      "description": "The date the permit expires.",
+      "nullCount": 5,
+      "cardinality": 25751
+    },
+    {
+      "name": "PAYMENT DATE",
+      "fieldName": "payment_date",
+      "dataTypeName": "calendar_date",
+      "description": "The date the City of Chicago received payment for the permit.",
+      "nullCount": 21,
+      "cardinality": 25751
+    },
+    {
+      "name": "ADDRESS",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 25751
+    },
+    {
+      "name": "ADDRESS NUMBER START",
+      "fieldName": "address_number_start",
+      "dataTypeName": "text",
+      "description": "If the permit covers an address range, this is the beginning of the range.  It is the address used for the LATITUDE, LONGITUDE, and LOCATION columns.",
+      "nullCount": 0,
+      "cardinality": 25751
+    },
+    {
+      "name": "ADDRESS NUMBER",
+      "fieldName": "address_number",
+      "dataTypeName": "text",
+      "description": "The address number or address number range covered by the permit.",
+      "nullCount": 0,
+      "cardinality": 25751
+    },
+    {
+      "name": "STREET DIRECTION",
+      "fieldName": "street_direction",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 25751
+    },
+    {
+      "name": "STREET",
+      "fieldName": "street",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 25751
+    },
+    {
+      "name": "STREET TYPE",
+      "fieldName": "street_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1609,
+      "cardinality": 25751
+    },
+    {
+      "name": "CITY",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 25751
+    },
+    {
+      "name": "STATE",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 25751
+    },
+    {
+      "name": "ZIP CODE",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 25751
+    },
+    {
+      "name": "WARD",
+      "fieldName": "ward",
+      "dataTypeName": "number",
+      "description": "The ward where the business is located.",
+      "nullCount": 0,
+      "cardinality": 25751
+    },
+    {
+      "name": "POLICE DISTRICT",
+      "fieldName": "police_district",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 25751
+    },
+    {
+      "name": "LATITUDE",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 25751
+    },
+    {
+      "name": "LONGITUDE",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 25751
+    },
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:38:05.118Z"
+}

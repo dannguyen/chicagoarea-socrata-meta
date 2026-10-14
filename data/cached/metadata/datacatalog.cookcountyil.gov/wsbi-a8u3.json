@@ -1,0 +1,120 @@
+{
+  "id": "wsbi-a8u3",
+  "name": "Environmental Control - Asbestos Demolition Summary Report - February 2011 to August 2012",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2532,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1346095798,
+  "publicationDate": 1412889950,
+  "rowsUpdatedAt": 1412889939,
+  "viewLastModified": 1769545330,
+  "viewCount": 1591,
+  "downloadCount": 3660,
+  "category": "Environment",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Bureau of Environmental Control",
+  "attributionLink": "http://www.cookcountygov.com/portal/server.pt/community/environmental_control/291",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Permit Number",
+      "fieldName": "permit_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2532
+    },
+    {
+      "name": "Issue Date",
+      "fieldName": "issue_date",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 305
+    },
+    {
+      "name": "Permit Type",
+      "fieldName": "permit_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 48,
+      "cardinality": 199
+    },
+    {
+      "name": "Permit Fee",
+      "fieldName": "permit_fee",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 47,
+      "cardinality": 61
+    },
+    {
+      "name": "Start Date",
+      "fieldName": "start_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 459
+    },
+    {
+      "name": "End Date",
+      "fieldName": "end_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 555
+    },
+    {
+      "name": "Property Type",
+      "fieldName": "property_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1035
+    },
+    {
+      "name": "Property Address",
+      "fieldName": "property_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2235
+    },
+    {
+      "name": "City/Municipality",
+      "fieldName": "city_municipality",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Demolition Contractor",
+      "fieldName": "demolition_contractor",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 74
+    },
+    {
+      "name": "Location 1",
+      "fieldName": "location_1",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:58.747Z"
+}

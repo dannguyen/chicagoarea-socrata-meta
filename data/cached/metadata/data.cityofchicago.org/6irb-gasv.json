@@ -1,0 +1,210 @@
+{
+  "id": "6irb-gasv",
+  "name": "COVID-19 Outcomes by Vaccination Status - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 3753,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1641577656,
+  "publicationDate": 1644334098,
+  "rowsUpdatedAt": 1702509610,
+  "viewLastModified": 1788212412,
+  "viewCount": 10892,
+  "downloadCount": 27786,
+  "category": "Health & Human Services",
+  "tags": [
+    "covid-19",
+    "vaccination",
+    "health",
+    "public health",
+    "death",
+    "historical"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://chicago.gov/coronavirus",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "April 2021 - December 2023",
+      "Data Owner": "Department of Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "Outcome",
+      "fieldName": "outcome",
+      "dataTypeName": "text",
+      "description": "COVID-19 case, hospitalization, or death.",
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Week End",
+      "fieldName": "week_end",
+      "dataTypeName": "calendar_date",
+      "description": "The end date of the week (Sunday-Saturday)",
+      "nullCount": 0,
+      "cardinality": 140
+    },
+    {
+      "name": "Age Group",
+      "fieldName": "age_group",
+      "dataTypeName": "text",
+      "description": "The age group described, in years. Note the presence of an \"All\" value so care should be taken in summing values.",
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "Unvaccinated Rate",
+      "fieldName": "unvaccinated_rate",
+      "dataTypeName": "number",
+      "description": "Rate of the outcome per 100,000 unvaccinated Chicago residents in the age group",
+      "nullCount": 0,
+      "cardinality": 1287
+    },
+    {
+      "name": "Vaccinated Rate",
+      "fieldName": "vaccinated_rate",
+      "dataTypeName": "number",
+      "description": "Rate of the outcome per 100,000 fully vaccinated but not boosted Chicago residents in the age group",
+      "nullCount": 327,
+      "cardinality": 915
+    },
+    {
+      "name": "Boosted Rate",
+      "fieldName": "boosted_rate",
+      "dataTypeName": "number",
+      "description": "Rate of the outcome per 100,000 fully vaccinated and boosted Chicago residents in the age group",
+      "nullCount": 1224,
+      "cardinality": 834
+    },
+    {
+      "name": "Crude Vaccinated Ratio",
+      "fieldName": "crude_vaccinated_ratio",
+      "dataTypeName": "number",
+      "description": "Crude incidence rate ratio  (unvaccinated rate : vaccinated rate).",
+      "nullCount": 1433,
+      "cardinality": 1959
+    },
+    {
+      "name": "Crude Boosted Ratio",
+      "fieldName": "crude_boosted_ratio",
+      "dataTypeName": "number",
+      "description": "Crude incidence rate ratio (unvaccinated rate : boosted rate).",
+      "nullCount": 1992,
+      "cardinality": 1506
+    },
+    {
+      "name": "Age-Adjusted Unvaccinated Rate",
+      "fieldName": "age_adjusted_unvaccinated_rate",
+      "dataTypeName": "number",
+      "description": "Age-adjusted rate of the outcome per 100,000 unvaccinated Chicago residents. Age-adjustment is only calculated for the “All” age group and is blank for all other groups.",
+      "nullCount": 3336,
+      "cardinality": 382
+    },
+    {
+      "name": "Age-Adjusted Vaccinated Rate",
+      "fieldName": "age_adjusted_vaccinated_rate",
+      "dataTypeName": "number",
+      "description": "Age-adjusted rate of the outcome per 100,000 fully vaccinated but not boosted Chicago residents. Age-adjustment is only calculated for the “All” age group and is blank for all other groups.",
+      "nullCount": 3336,
+      "cardinality": 360
+    },
+    {
+      "name": "Age-Adjusted Boosted Rate",
+      "fieldName": "age_adjusted_boosted_rate",
+      "dataTypeName": "number",
+      "description": "Age-adjusted rate of the outcome per 100,000 fully vaccinated and boosted Chicago residents. Age-adjustment is only calculated for the “All” age group and is blank for all other groups.",
+      "nullCount": 3423,
+      "cardinality": 277
+    },
+    {
+      "name": "Age-Adjusted Vaccinated Ratio",
+      "fieldName": "age_adjusted_vaccinated_ratio",
+      "dataTypeName": "number",
+      "description": "Age-adjusted incidence rate ratio  (age-adjusted unvaccinated rate : age-adjusted vaccinated rate). Age-adjustment is only calculated for the “All” age group and is blank for all other groups.",
+      "nullCount": 3373,
+      "cardinality": 372
+    },
+    {
+      "name": "Age-Adjusted Boosted Ratio",
+      "fieldName": "age_adjusted_boosted_ratio",
+      "dataTypeName": "number",
+      "description": "Age-adjusted incidence rate ratio  (age-adjusted unvaccinated rate : age-adjusted boosted rate). Age-adjustment is only calculated for the “All” age group and is blank for all other groups.",
+      "nullCount": 3441,
+      "cardinality": 295
+    },
+    {
+      "name": "Population Unvaccinated",
+      "fieldName": "population_unvaccinated",
+      "dataTypeName": "number",
+      "description": "Total number of unvaccinated people in the age group.",
+      "nullCount": 0,
+      "cardinality": 1088
+    },
+    {
+      "name": "Population Vaccinated",
+      "fieldName": "population_vaccinated",
+      "dataTypeName": "number",
+      "description": "Total number of fully vaccinated people in the age group.",
+      "nullCount": 540,
+      "cardinality": 963
+    },
+    {
+      "name": "Population Boosted",
+      "fieldName": "population_boosted",
+      "dataTypeName": "number",
+      "description": "Total number of boosted people in the age group.",
+      "nullCount": 1224,
+      "cardinality": 785
+    },
+    {
+      "name": "Outcome Unvaccinated",
+      "fieldName": "outcome_unvaccinated",
+      "dataTypeName": "number",
+      "description": "Total number of unvaccinated people in the age group with the outcome.",
+      "nullCount": 0,
+      "cardinality": 513
+    },
+    {
+      "name": "Outcome Vaccinated",
+      "fieldName": "outcome_vaccinated",
+      "dataTypeName": "number",
+      "description": "Total number of vaccinated people in the age group with the outcome.",
+      "nullCount": 327,
+      "cardinality": 408
+    },
+    {
+      "name": "Outcome Boosted",
+      "fieldName": "outcome_boosted",
+      "dataTypeName": "number",
+      "description": "Total number of boosted people in the age group with the outcome.",
+      "nullCount": 1224,
+      "cardinality": 430
+    },
+    {
+      "name": "Age Group Min",
+      "fieldName": "age_group_min",
+      "dataTypeName": "number",
+      "description": "The low end of the age group. This column is used primarily to allow for easier sorting. The \"All\" age group is set to 999.",
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "Age Group Max",
+      "fieldName": "age_group_max",
+      "dataTypeName": "number",
+      "description": "TO BE HIDDEN: The high end of the age group. This column is used primarily to allow for easier sorting. The All age group is set to 999. The 80+ group is set to 200.",
+      "nullCount": 0,
+      "cardinality": 9
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:38:05.258Z"
+}

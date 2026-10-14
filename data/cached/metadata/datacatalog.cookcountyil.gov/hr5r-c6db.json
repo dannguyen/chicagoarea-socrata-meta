@@ -1,0 +1,108 @@
+{
+  "id": "hr5r-c6db",
+  "name": "Cook County Clerk -- Statement of Economic Interests Filers",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 94880,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": true,
+  "createdAt": 1317370939,
+  "publicationDate": 1412896520,
+  "rowsUpdatedAt": 1412896500,
+  "viewLastModified": 1769543062,
+  "viewCount": 14341,
+  "downloadCount": 26034,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Clerk",
+  "attributionLink": "http://ethics.cookcountyclerk.com/PublicSearch/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Update Frequency": "Daily"
+    }
+  },
+  "columns": [
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "FilingID",
+      "fieldName": "filingid",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 94880
+    },
+    {
+      "name": "FilerID",
+      "fieldName": "filerid",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 32128
+    },
+    {
+      "name": "FirstName",
+      "fieldName": "firstname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6956
+    },
+    {
+      "name": "LastName",
+      "fieldName": "lastname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 16730
+    },
+    {
+      "name": "AgencyType",
+      "fieldName": "agencytype",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Agency",
+      "fieldName": "agency",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 925
+    },
+    {
+      "name": "Filed",
+      "fieldName": "filed",
+      "dataTypeName": "date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 85204
+    },
+    {
+      "name": "Title",
+      "fieldName": "title",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 10,
+      "cardinality": 9565
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:50.102Z"
+}

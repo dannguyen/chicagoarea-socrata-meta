@@ -1,0 +1,190 @@
+{
+  "id": "ueaz-2czr",
+  "name": "Parcel_2008",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1413603,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1457636273,
+  "publicationDate": null,
+  "rowsUpdatedAt": 1457637679,
+  "viewLastModified": 1769545723,
+  "viewCount": 733,
+  "downloadCount": 1542,
+  "category": "Property & Taxation",
+  "tags": [
+    "cook",
+    "parcel",
+    "gis",
+    "clerk",
+    "map",
+    "property and land records",
+    "inactive"
+  ],
+  "attribution": "Cook County Clerk / Map Department",
+  "attributionLink": "http://www.cookcountyclerk.com/tsd/maps/Pages/default.aspx",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "PIN14",
+      "fieldName": "pin14",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 41,
+      "cardinality": 1413357
+    },
+    {
+      "name": "PIN10",
+      "fieldName": "pin10",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 41,
+      "cardinality": 1413356
+    },
+    {
+      "name": "PINA",
+      "fieldName": "pina",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 34
+    },
+    {
+      "name": "PINSA",
+      "fieldName": "pinsa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 37
+    },
+    {
+      "name": "PINB",
+      "fieldName": "pinb",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 286
+    },
+    {
+      "name": "PINP",
+      "fieldName": "pinp",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 398
+    },
+    {
+      "name": "PINU",
+      "fieldName": "pinu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "PINAC",
+      "fieldName": "pinac",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4356
+    },
+    {
+      "name": "TAXCODE",
+      "fieldName": "taxcode",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "JOB_NO",
+      "fieldName": "job_no",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 18496
+    },
+    {
+      "name": "PARCELTYPE",
+      "fieldName": "parceltype",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "UPPER_ELEV",
+      "fieldName": "upper_elev",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 55
+    },
+    {
+      "name": "LOWER_ELEV",
+      "fieldName": "lower_elev",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 55
+    },
+    {
+      "name": "SURVEY_CAL",
+      "fieldName": "survey_cal",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "DB2GSE_ST_",
+      "fieldName": "db2_gse_st",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1285601
+    },
+    {
+      "name": "DB2GSE_SDE",
+      "fieldName": "db2_gse_sde",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1317973
+    },
+    {
+      "name": "SHAPE_area",
+      "fieldName": "shape_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1285601
+    },
+    {
+      "name": "SHAPE_len",
+      "fieldName": "shape_len",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1318714
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:07.191Z"
+}

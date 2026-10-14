@@ -1,0 +1,88 @@
+{
+  "id": "uf6g-sr2x",
+  "name": "State's Attorney Felony Cases - Sentences By Offense Type and Location Type",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 10361,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1506528453,
+  "publicationDate": 1506534489,
+  "rowsUpdatedAt": 1506534395,
+  "viewLastModified": 1769543980,
+  "viewCount": 1278,
+  "downloadCount": 2423,
+  "category": "Legal & Judicial",
+  "tags": [
+    "state's attorney baseline data report",
+    "inactive"
+  ],
+  "attribution": "Cook County State's Attorney Office",
+  "attributionLink": "https://www.cookcountystatesattorney.org/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County State's Attorney Office"
+    },
+    "Publishing Details": {
+      "Publishing frequency": "Annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "YEAR",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": "The year in which the sentencing occurred. ",
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "SENTENCING RESULT",
+      "fieldName": "sentencing_result",
+      "dataTypeName": "text",
+      "description": "The resulting action of a guilty verdict or conviction",
+      "nullCount": 448,
+      "cardinality": 14
+    },
+    {
+      "name": "OFFENSE TYPE",
+      "fieldName": "offense_type",
+      "dataTypeName": "text",
+      "description": "Type of offense for the “Topline” charge. Many cases involve multiple charges stemming from the same incident. On a charging document, these various charges are called “counts.” This data report is based on Count 1 for each case, which is generally the most serious charge in a given case, and is commonly referred to as the “topline charge.” ",
+      "nullCount": 0,
+      "cardinality": 88
+    },
+    {
+      "name": "CITY/SUBURB",
+      "fieldName": "city_suburb",
+      "dataTypeName": "text",
+      "description": "Description of the municipality of which the arrest was made, “City” describes cases that originate with an arrest made by the Chicago Police Department; “suburb” designates cases that originate with one of the more than 100 other law enforcement agencies who fall within the jurisdiction of the Cook County State’s Attorney.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "CITY UNIT",
+      "fieldName": "city_unit",
+      "dataTypeName": "text",
+      "description": "Specific district or unit in which the arrest was made",
+      "nullCount": 3351,
+      "cardinality": 90
+    },
+    {
+      "name": "DEFENDANT COUNT",
+      "fieldName": "defendant_count",
+      "dataTypeName": "number",
+      "description": "Count of defendants",
+      "nullCount": 0,
+      "cardinality": 304
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:00.949Z"
+}

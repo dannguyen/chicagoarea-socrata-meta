@@ -1,0 +1,185 @@
+{
+  "id": "g5i5-yz37",
+  "name": "Chicago Energy Benchmarking - Covered Buildings",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 3693,
+  "rowCountSource": "cached",
+  "rowLabel": "Building",
+  "hasRowIdentifier": true,
+  "createdAt": 1457557525,
+  "publicationDate": 1608304458,
+  "rowsUpdatedAt": 1741994956,
+  "viewLastModified": 1741994955,
+  "viewCount": 50390,
+  "downloadCount": 34405,
+  "category": "Environment & Sustainable Development",
+  "tags": [
+    "buildings",
+    "energy",
+    "sustainability",
+    "benchmarks"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Current",
+      "Frequency": "Data are updated as needed",
+      "Data Owner": "City of Chicago Sustainability Program"
+    }
+  },
+  "columns": [
+    {
+      "name": "Building ID",
+      "fieldName": "building_id",
+      "dataTypeName": "number",
+      "description": "A 6-digit unique identifier assigned to each property covered by the Chicago Energy Benchmarking Ordinance for tracking and identification purposes. ",
+      "nullCount": 0,
+      "cardinality": 3693
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": "Property street address.",
+      "nullCount": 0,
+      "cardinality": 3689
+    },
+    {
+      "name": "Zip",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": "Property ZIP code.",
+      "nullCount": 0,
+      "cardinality": 60
+    },
+    {
+      "name": "Cohort - Sector",
+      "fieldName": "cohort_sector",
+      "dataTypeName": "text",
+      "description": "The primary space use type component of the compliance cohort.",
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Cohort - Size",
+      "fieldName": "cohort_size",
+      "dataTypeName": "text",
+      "description": "The gross floor area component of the compliance cohort.",
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Verification Year",
+      "fieldName": "verification_year",
+      "dataTypeName": "number",
+      "description": "Year of next required data verification. Blank indicates a building under construction with unknown verification year.",
+      "nullCount": 64,
+      "cardinality": 5
+    },
+    {
+      "name": "Community Area Name",
+      "fieldName": "community_area_name",
+      "dataTypeName": "text",
+      "description": "Property community area name.",
+      "nullCount": 0,
+      "cardinality": 78
+    },
+    {
+      "name": "Community Area Number",
+      "fieldName": "community_area_number",
+      "dataTypeName": "number",
+      "description": "Property community area number.",
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": "Ward",
+      "fieldName": "ward",
+      "dataTypeName": "number",
+      "description": "Property ward.",
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "Latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": "Property Latitude.",
+      "nullCount": 0,
+      "cardinality": 2264
+    },
+    {
+      "name": "Longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": "Property Longitude.",
+      "nullCount": 0,
+      "cardinality": 2222
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": "Property Location.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:06.141Z"
+}

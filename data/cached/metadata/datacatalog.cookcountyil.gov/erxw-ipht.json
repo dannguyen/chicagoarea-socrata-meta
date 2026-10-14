@@ -1,0 +1,96 @@
+{
+  "id": "erxw-ipht",
+  "name": "Environmental Control - Asbestos Abatement Permits - 2012 Q3",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 357,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1355889518,
+  "publicationDate": 1685662171,
+  "rowsUpdatedAt": 1412889539,
+  "viewLastModified": 1769547311,
+  "viewCount": 1246,
+  "downloadCount": 3873,
+  "category": "Environment",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Bureau of Environmental Control",
+  "attributionLink": "http://www.cookcountygov.com/portal/server.pt/community/environmental_control/291",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Asbestos Abatement  Permit Number",
+      "fieldName": "asbestos_abatement_permit_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 357
+    },
+    {
+      "name": "Permit Issue Date",
+      "fieldName": "permit_issue_date",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 44
+    },
+    {
+      "name": "Inspection Fees",
+      "fieldName": "inspection_fees",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 71
+    },
+    {
+      "name": "Filing Fees",
+      "fieldName": "filing_fees",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 3
+    },
+    {
+      "name": "Abatement Start Date",
+      "fieldName": "abatement_start_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 68
+    },
+    {
+      "name": "Abatement End Date",
+      "fieldName": "abatement_end_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 86
+    },
+    {
+      "name": "Abatement Contractor",
+      "fieldName": "abatement_contractor",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 59
+    },
+    {
+      "name": "Location 1",
+      "fieldName": "location_1",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:01.577Z"
+}

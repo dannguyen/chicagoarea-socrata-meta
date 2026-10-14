@@ -1,0 +1,172 @@
+{
+  "id": "4crb-a32x",
+  "name": "List of Pre-Qualified Architects, Engineers and Contractors for Swimming Facilities",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 329,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1706887000,
+  "publicationDate": 1738364500,
+  "rowsUpdatedAt": 1791574465,
+  "viewLastModified": 1791574464,
+  "viewCount": 7545,
+  "downloadCount": 998,
+  "category": "Health and Human Services",
+  "tags": [
+    "architects",
+    "contractors",
+    "engineers",
+    "pre-qualified",
+    "swimming"
+  ],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "IDPH Swimming Facilities Program",
+      "Maintainer Email": "dph.swimfacilities@illinois.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "Type",
+      "fieldName": "type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 329
+    },
+    {
+      "name": "PreQualification ID",
+      "fieldName": "prequalification_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 329
+    },
+    {
+      "name": "Business Name",
+      "fieldName": "business_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 329
+    },
+    {
+      "name": "First Name",
+      "fieldName": "first_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 329
+    },
+    {
+      "name": "Middle Name",
+      "fieldName": "middle_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 318,
+      "cardinality": 329
+    },
+    {
+      "name": "Last Name",
+      "fieldName": "last_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 329
+    },
+    {
+      "name": "Start Date",
+      "fieldName": "start_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 329
+    },
+    {
+      "name": "Expire Date",
+      "fieldName": "expire_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 329
+    },
+    {
+      "name": "Status",
+      "fieldName": "status",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 329
+    },
+    {
+      "name": "Street Address",
+      "fieldName": "street_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 329
+    },
+    {
+      "name": "Street Address 2",
+      "fieldName": "street_address_2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 326,
+      "cardinality": 329
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 329
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 329
+    },
+    {
+      "name": "ZIP Code",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 329
+    },
+    {
+      "name": "ZIP+4",
+      "fieldName": "zip_4",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 327,
+      "cardinality": 329
+    },
+    {
+      "name": "E-Mail",
+      "fieldName": "e_mail",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 329
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:30.055Z"
+}

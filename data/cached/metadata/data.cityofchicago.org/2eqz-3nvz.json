@@ -1,0 +1,127 @@
+{
+  "id": "2eqz-3nvz",
+  "name": "Lobbyist Data - Lobbyist, Employer, Client Combinations",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 34237,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1433971666,
+  "publicationDate": 1445378655,
+  "rowsUpdatedAt": 1791969988,
+  "viewLastModified": 1445637242,
+  "viewCount": 13481,
+  "downloadCount": 21889,
+  "category": "Ethics",
+  "tags": [
+    "ethics",
+    "lobbyists"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2012 - Current",
+      "Frequency": "Data are updated daily. Lobbyist reporting is quarterly.",
+      "Data Owner": "Board of Ethics"
+    }
+  },
+  "columns": [
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": "The year to which this record applies.",
+      "nullCount": 0,
+      "cardinality": 34237
+    },
+    {
+      "name": "LOBBYIST_ID",
+      "fieldName": "lobbyist_id",
+      "dataTypeName": "number",
+      "description": "A unique identifier for the lobbyist record. This ID can be used to link records in other datasets that contain an ID column with the same name.",
+      "nullCount": 0,
+      "cardinality": 34237
+    },
+    {
+      "name": "EMPLOYER_ID",
+      "fieldName": "employer_id",
+      "dataTypeName": "number",
+      "description": "A unique identifier for the employer record. This ID can be used to link records in other datasets that contain an ID column with the same name.",
+      "nullCount": 0,
+      "cardinality": 34237
+    },
+    {
+      "name": "CLIENT_ID",
+      "fieldName": "client_id",
+      "dataTypeName": "number",
+      "description": "A unique identifier for the client record. This ID can be used to link records in other datasets that contain an ID column with the same name.",
+      "nullCount": 0,
+      "cardinality": 34237
+    },
+    {
+      "name": "LOBBYIST_SALUTATION",
+      "fieldName": "lobbyist_salutation",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 9106,
+      "cardinality": 34237
+    },
+    {
+      "name": "LOBBYIST_FIRST_NAME",
+      "fieldName": "lobbyist_first_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 34237
+    },
+    {
+      "name": "LOBBYIST_MIDDLE_INITIAL",
+      "fieldName": "lobbyist_middle_initial",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 16288,
+      "cardinality": 34237
+    },
+    {
+      "name": "LOBBYIST_LAST_NAME",
+      "fieldName": "lobbyist_last_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 34237
+    },
+    {
+      "name": "LOBBYIST_SUFFIX",
+      "fieldName": "lobbyist_suffix",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 31962,
+      "cardinality": 34237
+    },
+    {
+      "name": "EMPLOYER_NAME",
+      "fieldName": "employer_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 34237
+    },
+    {
+      "name": "CLIENT_NAME",
+      "fieldName": "client_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 34237
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:37:49.699Z"
+}

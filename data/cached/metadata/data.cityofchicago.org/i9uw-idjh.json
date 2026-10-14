@@ -1,0 +1,72 @@
+{
+  "id": "i9uw-idjh",
+  "name": "Performance Metrics - Ethics - Lobbyists Completing Ethics Training",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 27,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1316640839,
+  "publicationDate": 1329498095,
+  "rowsUpdatedAt": 1329498077,
+  "viewLastModified": 1329498095,
+  "viewCount": 1047,
+  "downloadCount": 2794,
+  "category": "Administration & Finance",
+  "tags": [
+    "performance metrics",
+    "ethics",
+    "lobbyists"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org/performance",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "May 2011 - present",
+      "Frequency": "Data is updated weekly",
+      "Data Owner": "Ethics"
+    }
+  },
+  "columns": [
+    {
+      "name": "Week",
+      "fieldName": "week",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 27
+    },
+    {
+      "name": "Number of Lobbyists Trained",
+      "fieldName": "number_of_lobbyists_trained",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 15
+    },
+    {
+      "name": "Percent of Lobbyists Trained (Target: 100% by July 1)",
+      "fieldName": "percent_of_lobbyists_trained_target_100_by_july_1_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "Target",
+      "fieldName": "target",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:20.519Z"
+}

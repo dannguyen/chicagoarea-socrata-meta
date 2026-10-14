@@ -1,0 +1,122 @@
+{
+  "id": "gtpa-7bvk",
+  "name": "Mosquito Counts",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 179,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": true,
+  "createdAt": 1717085866,
+  "publicationDate": 1783625212,
+  "rowsUpdatedAt": 1790839324,
+  "viewLastModified": 1783708814,
+  "viewCount": 2697,
+  "downloadCount": 2084,
+  "category": "Health & Human Services",
+  "tags": [
+    "mosquitoes",
+    "environmental health",
+    "public health",
+    "vector"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2016 to Present",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"gtpa-7bvk\"",
+      "Frequency": "Data are updated daily",
+      "Data Owner": "Chicago Department of Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "SEASON YEAR",
+      "fieldName": "season_year",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 179
+    },
+    {
+      "name": "WEEK",
+      "fieldName": "week",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 179
+    },
+    {
+      "name": "WEEK_START",
+      "fieldName": "week_start",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 179
+    },
+    {
+      "name": "WEEK_END",
+      "fieldName": "week_end",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 179
+    },
+    {
+      "name": "SPECIES_NAME",
+      "fieldName": "species_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 179
+    },
+    {
+      "name": "FEMALE",
+      "fieldName": "female",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 179
+    },
+    {
+      "name": "MALE",
+      "fieldName": "male",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 179
+    },
+    {
+      "name": "UNKNOWN",
+      "fieldName": "unknown",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 179
+    },
+    {
+      "name": "TOTAL",
+      "fieldName": "total",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 179
+    },
+    {
+      "name": "ROW ID",
+      "fieldName": "row_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 179
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:09.733Z"
+}

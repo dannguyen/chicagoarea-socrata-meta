@@ -1,0 +1,320 @@
+{
+  "id": "pfzy-ufvi",
+  "name": "STAR Quarterly Performance Data",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 714,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1741806839,
+  "publicationDate": 1741893586,
+  "rowsUpdatedAt": 1741806846,
+  "viewLastModified": 1774894515,
+  "viewCount": 221,
+  "downloadCount": 399,
+  "category": "Finance & Operations",
+  "tags": [
+    "performance",
+    "archived"
+  ],
+  "attribution": "Office of Research, Operations, and Innovation",
+  "attributionLink": "http://performance.cookcountyil.gov",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Frequency of Data": "Quarterly",
+      "Dataset Update Frequency": "Quarterly",
+      "Dataset Source": "Various Offices and Elected Officials",
+      "Dataset Owner": "Performance Management Office"
+    }
+  },
+  "columns": [
+    {
+      "name": "Department",
+      "fieldName": "department",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 47
+    },
+    {
+      "name": "Bureau",
+      "fieldName": "bureau",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 202,
+      "cardinality": 9
+    },
+    {
+      "name": "Elected Official",
+      "fieldName": "elected_official",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "G#",
+      "fieldName": "g",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "Goal",
+      "fieldName": "goal",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 168
+    },
+    {
+      "name": "M#",
+      "fieldName": "m",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 33
+    },
+    {
+      "name": "Metric",
+      "fieldName": "metric",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 714
+    },
+    {
+      "name": "2012 Actual",
+      "fieldName": "_2012_actual",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 365,
+      "cardinality": 247
+    },
+    {
+      "name": "2013 Actual",
+      "fieldName": "_2013_actual",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 274,
+      "cardinality": 310
+    },
+    {
+      "name": "2014 Actual",
+      "fieldName": "_2014_actual",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 169,
+      "cardinality": 364
+    },
+    {
+      "name": "2015 Actual",
+      "fieldName": "_2015_actual",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 224,
+      "cardinality": 312
+    },
+    {
+      "name": "2016 Actual",
+      "fieldName": "_2016_actual",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 420,
+      "cardinality": 202
+    },
+    {
+      "name": "2016 Target",
+      "fieldName": "_2016_target",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 437,
+      "cardinality": 142
+    },
+    {
+      "name": "2013 Q1 Actual",
+      "fieldName": "_2013_q1_actual",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 314,
+      "cardinality": 255
+    },
+    {
+      "name": "2013 Q2 Actual",
+      "fieldName": "_2013_q2_actual",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 306,
+      "cardinality": 261
+    },
+    {
+      "name": "2013 Q3 Actual",
+      "fieldName": "_2013_q3_actual",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 313,
+      "cardinality": 271
+    },
+    {
+      "name": "2013 Q4 Actual",
+      "fieldName": "_2013_q4_actual",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 300,
+      "cardinality": 270
+    },
+    {
+      "name": "2014 Q1 Actual",
+      "fieldName": "_2014_q1_actual",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 190,
+      "cardinality": 310
+    },
+    {
+      "name": "2014 Q2 Actual",
+      "fieldName": "_2014_q2_actual",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 194,
+      "cardinality": 315
+    },
+    {
+      "name": "2014 Q3 Actual",
+      "fieldName": "_2014_q3_actual",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 236,
+      "cardinality": 307
+    },
+    {
+      "name": "2014 Q4 Actual",
+      "fieldName": "_2014_q4_actual",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 246,
+      "cardinality": 281
+    },
+    {
+      "name": "2015 Q1 Actual",
+      "fieldName": "_2015_q1_actual",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 121,
+      "cardinality": 339
+    },
+    {
+      "name": "2015 Q2 Actual",
+      "fieldName": "_2015_q2_actual",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 113,
+      "cardinality": 350
+    },
+    {
+      "name": "2015 Q3 Actual",
+      "fieldName": "_2015_q3_actual",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 125,
+      "cardinality": 354
+    },
+    {
+      "name": "2015 Q4 Actual",
+      "fieldName": "_2015_q4_actual",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 232,
+      "cardinality": 292
+    },
+    {
+      "name": "2016 Q1 Actual",
+      "fieldName": "_2016_q1_actual",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 322,
+      "cardinality": 242
+    },
+    {
+      "name": "2016 Q2 Actual",
+      "fieldName": "_2016_q2_actual",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 361,
+      "cardinality": 214
+    },
+    {
+      "name": "2016 Q3 Actual",
+      "fieldName": "_2016_q3_actual",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 408,
+      "cardinality": 190
+    },
+    {
+      "name": "2016 Q4 Actual",
+      "fieldName": "_2016_q4_actual",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 433,
+      "cardinality": 175
+    },
+    {
+      "name": "YTD Actual",
+      "fieldName": "ytd_actual",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 419,
+      "cardinality": 202
+    },
+    {
+      "name": "YTD Target",
+      "fieldName": "ytd_target",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 436,
+      "cardinality": 142
+    },
+    {
+      "name": "YTD Variance",
+      "fieldName": "ytd_variance",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 462,
+      "cardinality": 118
+    },
+    {
+      "name": "Favorable Variance",
+      "fieldName": "favorable_variance",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Data Type",
+      "fieldName": "data_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Item Type",
+      "fieldName": "item_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:12.904Z"
+}

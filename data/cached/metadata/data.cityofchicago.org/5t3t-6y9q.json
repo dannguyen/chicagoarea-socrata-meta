@@ -1,0 +1,124 @@
+{
+  "id": "5t3t-6y9q",
+  "name": "Performance Metrics - Public Health - Percent Served at STI Specialty Clinics",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 16,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1311268908,
+  "publicationDate": 1329949124,
+  "rowsUpdatedAt": 1326928241,
+  "viewLastModified": 1497298718,
+  "viewCount": 2274,
+  "downloadCount": 6207,
+  "category": "Administration & Finance",
+  "tags": [
+    "performance metrics",
+    "service delivery",
+    "cdph",
+    "health",
+    "sti",
+    "clinic"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "September 2010 - present",
+      "Frequency": "Data is updated monthly",
+      "Data Owner": "Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "Month",
+      "fieldName": "month",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 16
+    },
+    {
+      "name": "Number of Patients Turned Away From City STI Clinics",
+      "fieldName": "number_of_patients_turned_away_from_city_sti_clinics",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 16
+    },
+    {
+      "name": "Percent Turned Away",
+      "fieldName": "percent_turned_away",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 15
+    },
+    {
+      "name": "Number of Patients Served at City STI Clinics",
+      "fieldName": "number_of_patients_served_at_city_sti_clinics",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 15
+    },
+    {
+      "name": "Percent Served",
+      "fieldName": "percent_served",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 15
+    },
+    {
+      "name": "Total Number of Patients Presenting for Care at City STI Clinics",
+      "fieldName": "total_number_of_patients_presenting_for_care_at_city_sti_clinics",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 14
+    },
+    {
+      "name": "Turn Away Target",
+      "fieldName": "turn_away_target",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 1
+    },
+    {
+      "name": "Service Target",
+      "fieldName": "service_target",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 1
+    },
+    {
+      "name": "Months Target Was Met",
+      "fieldName": "months_target_was_met",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 16,
+      "cardinality": 0
+    },
+    {
+      "name": "Months Target was Not Met",
+      "fieldName": "months_target_was_not_met",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 16,
+      "cardinality": 0
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:12.129Z"
+}

@@ -1,0 +1,224 @@
+{
+  "id": "4u6w-irs9",
+  "name": "Grocery Stores - 2011",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 491,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1377220810,
+  "publicationDate": 1377540594,
+  "rowsUpdatedAt": 1377540520,
+  "viewLastModified": 1531341903,
+  "viewCount": 2963,
+  "downloadCount": 5707,
+  "category": "Community & Economic Development",
+  "tags": [
+    "food",
+    "food desert"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "2011",
+      "Frequency": "",
+      "Data Owner": "Housing and Economic Development"
+    }
+  },
+  "columns": [
+    {
+      "name": "STORE NAME",
+      "fieldName": "store_name",
+      "dataTypeName": "text",
+      "description": "Name of the grocery store. This corresponds to the \"DOING BUSINESS AS NAME\" listed in the business licenses dataset (http://bit.ly/sMFZdN).",
+      "nullCount": 0,
+      "cardinality": 467
+    },
+    {
+      "name": "LICENSE ID",
+      "fieldName": "license_id",
+      "dataTypeName": "number",
+      "description": "License ID is the same as the leading portion of the \"ID\" field (left of the dash) in the business license dataset (http://bit.ly/sMFZdN) ",
+      "nullCount": 0,
+      "cardinality": 491
+    },
+    {
+      "name": "ACCOUNT NUMBER",
+      "fieldName": "account_number",
+      "dataTypeName": "number",
+      "description": "Account Number is the same as the \"Account Number\" field (left of the dash) in the business license dataset (http://bit.ly/sMFZdN)",
+      "nullCount": 0,
+      "cardinality": 378
+    },
+    {
+      "name": "SQUARE FEET",
+      "fieldName": "square_feet",
+      "dataTypeName": "number",
+      "description": "Square feet of the grocery store.",
+      "nullCount": 0,
+      "cardinality": 204
+    },
+    {
+      "name": "BUFFER SIZE",
+      "fieldName": "size_category",
+      "dataTypeName": "text",
+      "description": "A binary variable representing the size-of-store. A: 1-mile buffer. B: 0.5 mile buffer",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "ADDRESS",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": "Address of grocery store",
+      "nullCount": 0,
+      "cardinality": 488
+    },
+    {
+      "name": "ZIP CODE",
+      "fieldName": "zip_code",
+      "dataTypeName": "number",
+      "description": "ZIP code of store's location.",
+      "nullCount": 0,
+      "cardinality": 53
+    },
+    {
+      "name": "COMMUNITY AREA NAME",
+      "fieldName": "community_area_name",
+      "dataTypeName": "text",
+      "description": "Name of the community area where grocery store is located",
+      "nullCount": 0,
+      "cardinality": 73
+    },
+    {
+      "name": "COMMUNITY AREA",
+      "fieldName": "community_area",
+      "dataTypeName": "number",
+      "description": "Numerical indicator of the community area.",
+      "nullCount": 0,
+      "cardinality": 73
+    },
+    {
+      "name": "WARD",
+      "fieldName": "ward",
+      "dataTypeName": "number",
+      "description": "Ward number of where grocery store is located",
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "CENSUS TRACT",
+      "fieldName": "census_tract",
+      "dataTypeName": "number",
+      "description": "The ID corresponding to the U.S. Census Bureau's tract ID. See http://bit.ly/153StpV for a complete list of Census tracts in Chicago.",
+      "nullCount": 0,
+      "cardinality": 343
+    },
+    {
+      "name": "CENSUS BLOCK",
+      "fieldName": "census_block",
+      "dataTypeName": "number",
+      "description": "The ID corresponding to the U.S. Census Bureau's block ID. See http://bit.ly/15f3FNJ for a complete list of Census blocks in Chicago.",
+      "nullCount": 1,
+      "cardinality": 478
+    },
+    {
+      "name": "X COORDINATE",
+      "fieldName": "x_coordinate",
+      "dataTypeName": "number",
+      "description": "The X coordinate of the store's location using the Illinois-East State Plane Coordinate Projections (http://bit.ly/177plfn)",
+      "nullCount": 0,
+      "cardinality": 488
+    },
+    {
+      "name": "Y COORDINATE",
+      "fieldName": "y_coordinate",
+      "dataTypeName": "number",
+      "description": "The Y coordinate of the store's location using the Illinois-East State Plane Coordinate Projections (http://bit.ly/177plfn)",
+      "nullCount": 0,
+      "cardinality": 488
+    },
+    {
+      "name": "LATITUDE",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": "The latitude of the grocery store's location.",
+      "nullCount": 0,
+      "cardinality": 488
+    },
+    {
+      "name": "LONGITUDE",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": "The longitude of the grocery store's location.",
+      "nullCount": 0,
+      "cardinality": 488
+    },
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:08.601Z"
+}

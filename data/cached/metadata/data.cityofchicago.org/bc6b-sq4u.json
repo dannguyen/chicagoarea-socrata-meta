@@ -1,0 +1,115 @@
+{
+  "id": "bc6b-sq4u",
+  "name": "Transportation Network Providers - Vehicles",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 13058455,
+  "rowCountSource": "cached",
+  "rowLabel": "Vehicle",
+  "hasRowIdentifier": false,
+  "createdAt": 1536946030,
+  "publicationDate": 1551384016,
+  "rowsUpdatedAt": 1790192797,
+  "viewLastModified": 1774468540,
+  "viewCount": 21751,
+  "downloadCount": 7030,
+  "category": "Transportation",
+  "tags": [
+    "transportation",
+    "tnp",
+    "transportation network provider",
+    "rideshare",
+    "vehicles"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.cityofchicago.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2015 to present",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"bc6b-sq4u\"",
+      "Frequency": "Data are updated monthly",
+      "Data Owner": "Chicago Department of Business Affairs & Consumer Protection"
+    }
+  },
+  "columns": [
+    {
+      "name": "MONTH_REPORTED",
+      "fieldName": "month_reported",
+      "dataTypeName": "text",
+      "description": "The month in which the vehicle was reported. If a vehicle is reported in multiple months, which is common, it will have multiple records -- one for each month.",
+      "nullCount": 0,
+      "cardinality": 13058455
+    },
+    {
+      "name": "STATE",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": "The state of the license plate",
+      "nullCount": 14025,
+      "cardinality": 13058455
+    },
+    {
+      "name": "MAKE",
+      "fieldName": "make",
+      "dataTypeName": "text",
+      "description": "The make of the vehicle",
+      "nullCount": 5035,
+      "cardinality": 13058455
+    },
+    {
+      "name": "MODEL",
+      "fieldName": "model",
+      "dataTypeName": "text",
+      "description": "The model of the vehicle",
+      "nullCount": 5053,
+      "cardinality": 13058455
+    },
+    {
+      "name": "COLOR",
+      "fieldName": "color",
+      "dataTypeName": "text",
+      "description": "The color of the vehicle",
+      "nullCount": 908713,
+      "cardinality": 13058455
+    },
+    {
+      "name": "YEAR",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": "The model year of the vehicle",
+      "nullCount": 5031,
+      "cardinality": 13058455
+    },
+    {
+      "name": "LAST_INSPECTION_MONTH",
+      "fieldName": "last_inspection_month",
+      "dataTypeName": "text",
+      "description": "The month in which the vehicle was last inspected for compliance with City of Chicago rules. If multiple companies reported different months, the latest month is shown.",
+      "nullCount": 3034450,
+      "cardinality": 13058455
+    },
+    {
+      "name": "NUMBER_OF_TRIPS",
+      "fieldName": "number_of_trips",
+      "dataTypeName": "number",
+      "description": "Number of trips provided in this month. Due to the complexities of matching, errors are possible in both directions. Values over 999 are converted to null as suspected error values that interfere with easy data visualization.",
+      "nullCount": 24545,
+      "cardinality": 13058455
+    },
+    {
+      "name": "MULTIPLE_TNPS",
+      "fieldName": "multiple_tnps",
+      "dataTypeName": "checkbox",
+      "description": "Whether the vehicle was reported by multiple TNPs in this month. Matching is imperfect so some vehicle records that should have been combined may be separate.",
+      "nullCount": 0,
+      "cardinality": 13058455
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:08.341Z"
+}

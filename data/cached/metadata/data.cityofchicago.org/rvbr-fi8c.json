@@ -1,0 +1,219 @@
+{
+  "id": "rvbr-fi8c",
+  "name": "Chicago Public Schools - School Admissions Information SY2324",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 935,
+  "rowCountSource": "cached",
+  "rowLabel": "Program",
+  "hasRowIdentifier": false,
+  "createdAt": 1694532619,
+  "publicationDate": 1694532625,
+  "rowsUpdatedAt": 1694632360,
+  "viewLastModified": 1706559771,
+  "viewCount": 1435,
+  "downloadCount": 2292,
+  "category": "Education",
+  "tags": [
+    "cps",
+    "metrics",
+    "report cards",
+    "schools",
+    "2023",
+    "2024"
+  ],
+  "attribution": "Chicago Public Schools",
+  "attributionLink": "https://cps.edu",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2023-2024 School Year",
+      "Frequency": "Data are updated as needed",
+      "Data Owner": "Chicago Public Schools"
+    }
+  },
+  "columns": [
+    {
+      "name": "School_ID",
+      "fieldName": "school_id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 556
+    },
+    {
+      "name": "Short_Name",
+      "fieldName": "short_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 556
+    },
+    {
+      "name": "Long_Name",
+      "fieldName": "long_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 556
+    },
+    {
+      "name": "Primary_Category",
+      "fieldName": "primary_category",
+      "dataTypeName": "text",
+      "description": "ES or HS indicating Elementary or High School",
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Program_Type",
+      "fieldName": "program_type",
+      "dataTypeName": "text",
+      "description": "Categories to which program belongs",
+      "nullCount": 0,
+      "cardinality": 861
+    },
+    {
+      "name": "Program_Group",
+      "fieldName": "program_group",
+      "dataTypeName": "text",
+      "description": "Sub-categories to which program belongs. Can be used for filtering.",
+      "nullCount": 32,
+      "cardinality": 53
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 545
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Zip",
+      "fieldName": "zip",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 51
+    },
+    {
+      "name": "Phone",
+      "fieldName": "phone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 556
+    },
+    {
+      "name": "Fax",
+      "fieldName": "fax",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 555
+    },
+    {
+      "name": "CPS_School_Profile",
+      "fieldName": "cps_school_profile",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Website",
+      "fieldName": "website",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Program_Grades_Served",
+      "fieldName": "program_grades_served",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 13,
+      "cardinality": 26
+    },
+    {
+      "name": "Application_Requirements",
+      "fieldName": "application_requirements",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 15,
+      "cardinality": 8
+    },
+    {
+      "name": "Program_Selections",
+      "fieldName": "program_selections",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 129
+    },
+    {
+      "name": "How_To_Apply",
+      "fieldName": "how_to_apply",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 15,
+      "cardinality": 8
+    },
+    {
+      "name": "Deadline",
+      "fieldName": "deadline",
+      "dataTypeName": "calendar_date",
+      "description": "Deadline to apply",
+      "nullCount": 935,
+      "cardinality": 0
+    },
+    {
+      "name": "School_Latitude",
+      "fieldName": "school_latitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 555
+    },
+    {
+      "name": "School_Longitude",
+      "fieldName": "school_longitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 551
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 556
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:17.575Z"
+}

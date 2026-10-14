@@ -1,0 +1,128 @@
+{
+  "id": "quyj-utag",
+  "name": "Public Health: Causes of Death",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 650572,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1756847057,
+  "publicationDate": 1756847512,
+  "rowsUpdatedAt": 1764016764,
+  "viewLastModified": 1769547094,
+  "viewCount": 2807,
+  "downloadCount": 1603,
+  "category": "Health & Human Services",
+  "tags": [
+    "ccdph",
+    "mortality"
+  ],
+  "attribution": "Cook County Department of Public Health",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Department of Public Health"
+    },
+    "Metadata": {
+      "Update Frequency": "Yearly"
+    },
+    "Detailed Descriptive": {
+      "Temporal coverage": "2015-2023",
+      "Geographic coverage": "Cook County without City of Chicago"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Annually",
+      "Publishing frequency": "Annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": "Year of death",
+      "nullCount": 0,
+      "cardinality": 650572
+    },
+    {
+      "name": "Section",
+      "fieldName": "section",
+      "dataTypeName": "text",
+      "description": "Umbrella category of cause of death",
+      "nullCount": 0,
+      "cardinality": 650572
+    },
+    {
+      "name": "Sub Section",
+      "fieldName": "sub_section",
+      "dataTypeName": "text",
+      "description": "Specific cause of death, classified according to associated ICD-10 code. Full code mapping is provided in the attached document.",
+      "nullCount": 0,
+      "cardinality": 650572
+    },
+    {
+      "name": "Place",
+      "fieldName": "place",
+      "dataTypeName": "text",
+      "description": "Municipality or area the death took place. CCDPH jurisdiction refers to all Cook County municipalities except Chicago, Evanston, Skokie, Oak Park, Forest View, Burbank, and (incorporated) Stickney. See the attached district map for more information.",
+      "nullCount": 0,
+      "cardinality": 650572
+    },
+    {
+      "name": "Age Group",
+      "fieldName": "age_group",
+      "dataTypeName": "text",
+      "description": "Age group of decedent at the time of death",
+      "nullCount": 0,
+      "cardinality": 650572
+    },
+    {
+      "name": "Race/Ethnicity",
+      "fieldName": "race_ethnicity",
+      "dataTypeName": "text",
+      "description": "Race and ethnicity of decedent. \"NH\" refers to \"non-Hispanic\".",
+      "nullCount": 0,
+      "cardinality": 650572
+    },
+    {
+      "name": "Gender",
+      "fieldName": "gender",
+      "dataTypeName": "text",
+      "description": "Gender of decedent",
+      "nullCount": 0,
+      "cardinality": 650572
+    },
+    {
+      "name": "Count",
+      "fieldName": "count",
+      "dataTypeName": "text",
+      "description": "Total number of deaths for the given population and time period",
+      "nullCount": 0,
+      "cardinality": 650572
+    },
+    {
+      "name": "Crude Mortality Rate",
+      "fieldName": "crude_mortality_rate",
+      "dataTypeName": "text",
+      "description": "Number of deaths for a population by a specific cause during a specified time period, per 100,000 people",
+      "nullCount": 0,
+      "cardinality": 650572
+    },
+    {
+      "name": "Age-Adjusted Mortality Rate",
+      "fieldName": "age_adjusted_rate",
+      "dataTypeName": "text",
+      "description": "Mortality rate for a population adjusted for age distribution. Calculated as a weighted average of age-specific death rates, using the U.S. 2000 Standard Population to determine age-group weights",
+      "nullCount": 0,
+      "cardinality": 650572
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:55.013Z"
+}

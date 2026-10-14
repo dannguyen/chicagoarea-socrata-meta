@@ -1,0 +1,164 @@
+{
+  "id": "waxd-x4mg",
+  "name": "Influenza, COVID-19, and RSV Intensive Care Unit Admissions",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 10335,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": true,
+  "createdAt": 1777998397,
+  "publicationDate": 1779314702,
+  "rowsUpdatedAt": 1791606657,
+  "viewLastModified": 1791606639,
+  "viewCount": 344,
+  "downloadCount": 228,
+  "category": "Health & Human Services",
+  "tags": [
+    "health",
+    "public health",
+    "respiratory",
+    "flu",
+    "covid-19",
+    "rsv",
+    "icu"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov/",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2015-Present",
+      "Frequency": "Data are updated weekly",
+      "Data Owner": "Department of Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "disease",
+      "fieldName": "disease",
+      "dataTypeName": "text",
+      "description": "The reportable respiratory disease (e.g. Influenza, RSV, COVID-19)",
+      "nullCount": 0,
+      "cardinality": 10335
+    },
+    {
+      "name": "mmwr_week",
+      "fieldName": "mmwr_week",
+      "dataTypeName": "number",
+      "description": "A weekly counting system within a calendar year standardized by the U.S. Centers for Disease Control and Prevention",
+      "nullCount": 0,
+      "cardinality": 10335
+    },
+    {
+      "name": "week",
+      "fieldName": "week",
+      "dataTypeName": "number",
+      "description": "The calendar week standardized by the U.S. Centers for Disease Control and Prevention",
+      "nullCount": 0,
+      "cardinality": 10335
+    },
+    {
+      "name": "week_start",
+      "fieldName": "week_start",
+      "dataTypeName": "calendar_date",
+      "description": "Beginning date of the MMWR week",
+      "nullCount": 156,
+      "cardinality": 10335
+    },
+    {
+      "name": "week_end",
+      "fieldName": "week_end",
+      "dataTypeName": "calendar_date",
+      "description": "Ending date of the MMWR week",
+      "nullCount": 156,
+      "cardinality": 10335
+    },
+    {
+      "name": "season",
+      "fieldName": "season",
+      "dataTypeName": "text",
+      "description": "Annually recurring reporting period for which estimates are calculated, beginning during MMWR week 40 and ending with week 39 of the following year",
+      "nullCount": 0,
+      "cardinality": 10335
+    },
+    {
+      "name": "characteristic_category",
+      "fieldName": "characteristic_category",
+      "dataTypeName": "text",
+      "description": "Overall category of demographic group (e.g., Age Group, Race/Ethnicity).",
+      "nullCount": 0,
+      "cardinality": 10335
+    },
+    {
+      "name": "characteristic_group",
+      "fieldName": "characteristic_group",
+      "dataTypeName": "text",
+      "description": "Specific demographic group (e.g., 0-4, 65+, Latinx). This is a subset of the characteristic category.",
+      "nullCount": 0,
+      "cardinality": 10335
+    },
+    {
+      "name": "count",
+      "fieldName": "count",
+      "dataTypeName": "number",
+      "description": "Total number of ICU admissions for the specified disease and for the specified characteristic group .",
+      "nullCount": 156,
+      "cardinality": 10335
+    },
+    {
+      "name": "count_pct",
+      "fieldName": "count_pct",
+      "dataTypeName": "number",
+      "description": "Percentage of ICU admissions for the specified disease and for the specified characteristic group. Note: Characteristic group ‘All Cases’ will always be 100%.",
+      "nullCount": 156,
+      "cardinality": 10335
+    },
+    {
+      "name": "count_cumulative",
+      "fieldName": "count_cumulative",
+      "dataTypeName": "number",
+      "description": "Total number of ICU admissions for the specified disease and for the specified characteristic group in the specified season, which goes from week 40 of each year to week 39 of the following year.",
+      "nullCount": 156,
+      "cardinality": 10335
+    },
+    {
+      "name": "count_pct_cumulative",
+      "fieldName": "count_pct_cumulative",
+      "dataTypeName": "number",
+      "description": "Percentage of ICU admissions for the specified disease and for the specified characteristic group in the specified season, which goes from week 40 of each year to week 39 of the following year.",
+      "nullCount": 156,
+      "cardinality": 10335
+    },
+    {
+      "name": "rate_cumulative",
+      "fieldName": "rate_cumulative",
+      "dataTypeName": "number",
+      "description": "The cumulative incidence rate for the specified disease and for the specified characteristic group in the specified season, which goes from week 40 of each year to week 39 of the following year.",
+      "nullCount": 2349,
+      "cardinality": 10335
+    },
+    {
+      "name": "current_week_ending",
+      "fieldName": "current_week_ending",
+      "dataTypeName": "calendar_date",
+      "description": "Ending date of the MMWR week for the current season",
+      "nullCount": 0,
+      "cardinality": 10335
+    },
+    {
+      "name": "row_id",
+      "fieldName": "row_id",
+      "dataTypeName": "text",
+      "description": "A unique ID for the row",
+      "nullCount": 0,
+      "cardinality": 10335
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:25.569Z"
+}

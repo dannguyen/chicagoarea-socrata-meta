@@ -1,0 +1,84 @@
+{
+  "id": "ikdf-ernx",
+  "name": "FOIA Request Log - Cultural Affairs & Special Events",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 445,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1331077039,
+  "publicationDate": 1786137240,
+  "rowsUpdatedAt": 1790359219,
+  "viewLastModified": 1790359218,
+  "viewCount": 12743,
+  "downloadCount": 30598,
+  "category": "FOIA",
+  "tags": [],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov/city/en/depts/dca/dataset/foialog.html",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "January 2023 to present",
+      "Frequency": "Data is updated as needed",
+      "Data Owner": "Cultural Affairs & Special Events"
+    }
+  },
+  "columns": [
+    {
+      "name": "Create Date",
+      "fieldName": "create_date",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 445
+    },
+    {
+      "name": "Reference No",
+      "fieldName": "reference_no",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 445
+    },
+    {
+      "name": "Summary",
+      "fieldName": "summary",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 445
+    },
+    {
+      "name": "Required Completion Date",
+      "fieldName": "required_completion_date",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 445
+    },
+    {
+      "name": "Company Name",
+      "fieldName": "company_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 192,
+      "cardinality": 445
+    },
+    {
+      "name": "Request Status",
+      "fieldName": "request_status",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 445
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:38:04.693Z"
+}

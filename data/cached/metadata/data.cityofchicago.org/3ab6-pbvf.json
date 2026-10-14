@@ -1,0 +1,62 @@
+{
+  "id": "3ab6-pbvf",
+  "name": "CTA_STATUTORY",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1506524739,
+  "publicationDate": 1506524741,
+  "rowsUpdatedAt": 1506524741,
+  "viewLastModified": 1774393402,
+  "viewCount": 647,
+  "downloadCount": 1230,
+  "category": "Facilities & Geographic Boundaries",
+  "tags": [
+    "cta",
+    "boundaries",
+    "statutory"
+  ],
+  "attribution": "Chicago Transit Authority",
+  "attributionLink": "http://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=982&ChapterID=15",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Data Owner": "Chicago Transit Authority"
+    }
+  },
+  "columns": [
+    {
+      "name": "SHAPE_LEN",
+      "fieldName": "shape_len",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "SHAPE_AREA",
+      "fieldName": "shape_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:23.140Z"
+}

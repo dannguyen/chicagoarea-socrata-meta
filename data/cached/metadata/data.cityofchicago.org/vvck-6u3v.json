@@ -1,0 +1,64 @@
+{
+  "id": "vvck-6u3v",
+  "name": "Libraries - 2026 WiFi Usage",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 12,
+  "rowCountSource": "cached",
+  "rowLabel": "Library Branch",
+  "hasRowIdentifier": false,
+  "createdAt": 1771866903,
+  "publicationDate": 1771867139,
+  "rowsUpdatedAt": 1790024387,
+  "viewLastModified": 1790024386,
+  "viewCount": 689,
+  "downloadCount": 526,
+  "category": "Education",
+  "tags": [
+    "libraries",
+    "wi-fi",
+    "2026"
+  ],
+  "attribution": "Chicago Public Library",
+  "attributionLink": "https://www.chipublib.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2026",
+      "Frequency": "Monthly or Data are updated as needed",
+      "Data Owner": "Chicago Public Libraries"
+    }
+  },
+  "columns": [
+    {
+      "name": "MONTH",
+      "fieldName": "month",
+      "dataTypeName": "text",
+      "description": "month",
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "NUMBER OF SESSIONS",
+      "fieldName": "number_of_sessions",
+      "dataTypeName": "number",
+      "description": "number of sessions",
+      "nullCount": 4,
+      "cardinality": 12
+    },
+    {
+      "name": "YTD",
+      "fieldName": "ytd",
+      "dataTypeName": "number",
+      "description": "ytd",
+      "nullCount": 4,
+      "cardinality": 12
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:22.854Z"
+}

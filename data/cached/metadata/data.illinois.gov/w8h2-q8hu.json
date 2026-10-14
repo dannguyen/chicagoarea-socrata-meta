@@ -1,0 +1,85 @@
+{
+  "id": "w8h2-q8hu",
+  "name": "IDHR Current, Eligible Bidders/Vendors List",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 7835,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1734623480,
+  "publicationDate": 1741102682,
+  "rowsUpdatedAt": 1790860634,
+  "viewLastModified": 1790860631,
+  "viewCount": 36709,
+  "downloadCount": 1223,
+  "category": "Business and Workforce",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Human Rights"
+    },
+    "Data Management": {
+      "Maintainer": "Ngozi Enyia"
+    }
+  },
+  "columns": [
+    {
+      "name": "IDHR_NUMBER",
+      "fieldName": "idhr_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7835
+    },
+    {
+      "name": "BUSINESS_NAME",
+      "fieldName": "business_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7835
+    },
+    {
+      "name": "CITY",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 17,
+      "cardinality": 7835
+    },
+    {
+      "name": "STATE",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 74,
+      "cardinality": 7835
+    },
+    {
+      "name": "ZIP CODE",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 20,
+      "cardinality": 7835
+    },
+    {
+      "name": "EXPIRY DATE",
+      "fieldName": "expiry_date",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7835
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:28.805Z"
+}

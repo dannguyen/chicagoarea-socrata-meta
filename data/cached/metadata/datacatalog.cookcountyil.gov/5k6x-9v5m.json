@@ -1,0 +1,167 @@
+{
+  "id": "5k6x-9v5m",
+  "name": "CARES Act Equity Distribution Model Inputs",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 284,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1610396400,
+  "publicationDate": 1614106815,
+  "rowsUpdatedAt": 1614106814,
+  "viewLastModified": 1769542947,
+  "viewCount": 2913,
+  "downloadCount": 1395,
+  "category": "Economic Development",
+  "tags": [
+    "equity",
+    "caresact",
+    "2021",
+    "model"
+  ],
+  "attribution": "Office of the Chief Financial Officer",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Office of the Chief Financial Officer"
+    }
+  },
+  "columns": [
+    {
+      "name": "Geographic ID",
+      "fieldName": "geoid",
+      "dataTypeName": "text",
+      "description": "Place GEOID identifier, as assigned by the US Census Bureau",
+      "nullCount": 0,
+      "cardinality": 284
+    },
+    {
+      "name": "Name",
+      "fieldName": "muni",
+      "dataTypeName": "text",
+      "description": "Municipality Name",
+      "nullCount": 0,
+      "cardinality": 284
+    },
+    {
+      "name": "In Cook County",
+      "fieldName": "in_cook",
+      "dataTypeName": "number",
+      "description": "Binary indicator of whether municipality is taxed by Cook County (1) or not (0)",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Population",
+      "fieldName": "pop",
+      "dataTypeName": "number",
+      "description": "INPUT: 2019 population estimate from Census Population Estimates Program (2019 vintage) https://www.census.gov/data/datasets/time-series/demo/popest/2010s-total-cities-and-towns.html",
+      "nullCount": 0,
+      "cardinality": 284
+    },
+    {
+      "name": "Median Household Income",
+      "fieldName": "med_hh_inc",
+      "dataTypeName": "number",
+      "description": "INPUT: Median household income in 2018 dollars, from 2014-2018 5-year ACS (reported in CMAP Community Data Snapshots)",
+      "nullCount": 0,
+      "cardinality": 281
+    },
+    {
+      "name": "Retail Sales",
+      "fieldName": "ret_sales",
+      "dataTypeName": "number",
+      "description": "INPUT: 2019 total retail sales from IL Dept. of Revenue (reported in CMAP Community Data Snapshots)",
+      "nullCount": 0,
+      "cardinality": 284
+    },
+    {
+      "name": "Total Equalized Assessed Value",
+      "fieldName": "tot_eav",
+      "dataTypeName": "number",
+      "description": "INPUT: 2018 total equalized assessed value from IL Dept. of Revenue (reported in CMAP Community Data Snapshots)",
+      "nullCount": 0,
+      "cardinality": 284
+    },
+    {
+      "name": "Percent EDA",
+      "fieldName": "pct_eda_pop",
+      "dataTypeName": "number",
+      "description": "INPUT: Percent of population living in an EDA or disinvested area, calculated from CMAP's 2015 parcel-level population estimates and CMAP's EDA/disinvested layer",
+      "nullCount": 0,
+      "cardinality": 111
+    },
+    {
+      "name": "COVID Deaths",
+      "fieldName": "covid_deaths",
+      "dataTypeName": "number",
+      "description": "INPUT: Total COVID-19 deaths by place of residence as of 6/21/2020, per Cook County Medical Examiner",
+      "nullCount": 0,
+      "cardinality": 42
+    },
+    {
+      "name": "Tax Base",
+      "fieldName": "tax_base",
+      "dataTypeName": "number",
+      "description": "DERIVED: Total tax base (i.e. RET_SALES + TOT_EAV)",
+      "nullCount": 0,
+      "cardinality": 284
+    },
+    {
+      "name": "Tax Base Per Capita",
+      "fieldName": "tax_base_per_cap",
+      "dataTypeName": "number",
+      "description": "DERIVED: Tax base per capita (i.e. TAX_BASE / POP)",
+      "nullCount": 0,
+      "cardinality": 284
+    },
+    {
+      "name": "Log of Tax Base Per Capita",
+      "fieldName": "ln_tax_base_per_cap",
+      "dataTypeName": "number",
+      "description": "DERIVED: Natural log of tax base per capita (i.e. LN(TAX_BASE_PER_CAP))",
+      "nullCount": 0,
+      "cardinality": 284
+    },
+    {
+      "name": "Log of Population",
+      "fieldName": "ln_pop",
+      "dataTypeName": "number",
+      "description": "DERIVED: Natural log of population (i.e. LN(POP))",
+      "nullCount": 0,
+      "cardinality": 284
+    },
+    {
+      "name": "Log of Median Household Income",
+      "fieldName": "ln_med_hh_inc",
+      "dataTypeName": "number",
+      "description": "DERIVED: Natural log of median household income (i.e. LN(MED_HH_INC))",
+      "nullCount": 0,
+      "cardinality": 281
+    },
+    {
+      "name": "COVID Death Rate",
+      "fieldName": "covid_death_rate",
+      "dataTypeName": "number",
+      "description": "DERIVED: COVID-19 deaths per 100,000 population (i.e. COVID_DEATHS / POP * 100000)",
+      "nullCount": 0,
+      "cardinality": 171
+    },
+    {
+      "name": "Log of COVID Death Rate",
+      "fieldName": "ln_covid_death_rate",
+      "dataTypeName": "number",
+      "description": "DERIVED: Natural log of COVID-19 death rate (i.e. LN(COVID_DEATH_RATE+1), where the +1 ensures that a death rate of 0 yields 0 instead of a number error)",
+      "nullCount": 0,
+      "cardinality": 171
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:54.798Z"
+}

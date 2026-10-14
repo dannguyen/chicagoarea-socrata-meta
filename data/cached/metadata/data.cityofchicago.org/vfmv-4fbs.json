@@ -1,0 +1,74 @@
+{
+  "id": "vfmv-4fbs",
+  "name": "Performance Metrics - Transportation - Traffic Lights Out",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 159,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1317050240,
+  "publicationDate": 1398913984,
+  "rowsUpdatedAt": 1398913967,
+  "viewLastModified": 1398913984,
+  "viewCount": 3481,
+  "downloadCount": 4855,
+  "category": "Administration & Finance",
+  "tags": [
+    "performance metrics",
+    "service delivery",
+    "traffic light",
+    "outage"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "March 2011 - present",
+      "Frequency": "Data is updated weekly",
+      "Data Owner": "Transportation"
+    }
+  },
+  "columns": [
+    {
+      "name": "week",
+      "fieldName": "week",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 159
+    },
+    {
+      "name": "Average Days to Complete Traffic Light Out Requests",
+      "fieldName": "average_days_to_complete_traffic_light_out_requests",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 63
+    },
+    {
+      "name": "Total Completed Requests",
+      "fieldName": "total_completed_requests",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 87
+    },
+    {
+      "name": "Target Response Time (Days)",
+      "fieldName": "target_response_time_days_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:07.525Z"
+}

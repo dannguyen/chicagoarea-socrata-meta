@@ -1,0 +1,85 @@
+{
+  "id": "nqjs-2ahy",
+  "name": "Human Resources - Employment Plan Exempt List - Departments Under the President - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 225,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1332795324,
+  "publicationDate": 1412896453,
+  "rowsUpdatedAt": 1412896448,
+  "viewLastModified": 1769548059,
+  "viewCount": 2055,
+  "downloadCount": 3034,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Human Resources",
+  "attributionLink": "http://www.cookcountygov.com/portal/server.pt/community/human_resources%2C_bureau_of/300",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Publishing Details": {
+      "Data change frequency": "Not updated (historical only)",
+      "Publishing frequency": "Not updated (historical only)"
+    }
+  },
+  "columns": [
+    {
+      "name": "Department Number",
+      "fieldName": "department_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 10,
+      "cardinality": 32
+    },
+    {
+      "name": "Department Name",
+      "fieldName": "department_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 34
+    },
+    {
+      "name": "Title",
+      "fieldName": "title",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 155
+    },
+    {
+      "name": "Job Code",
+      "fieldName": "job_code",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 128
+    },
+    {
+      "name": "Position ID",
+      "fieldName": "position_id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 222
+    },
+    {
+      "name": "Job Description",
+      "fieldName": "job_description",
+      "dataTypeName": "document",
+      "description": "PDF of Job Descritption",
+      "nullCount": 0,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:56.965Z"
+}

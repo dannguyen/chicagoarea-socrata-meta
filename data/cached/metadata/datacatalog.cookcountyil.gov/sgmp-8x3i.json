@@ -1,0 +1,152 @@
+{
+  "id": "sgmp-8x3i",
+  "name": "Health & Hospitals System - Outpatient Registrations, by Month and ZIP Code - Fiscal Year 2008",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 442,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1318366944,
+  "publicationDate": 1412892782,
+  "rowsUpdatedAt": 1412892739,
+  "viewLastModified": 1769547514,
+  "viewCount": 1616,
+  "downloadCount": 3098,
+  "category": "Health & Human Services",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Health & Hospitals System",
+  "attributionLink": "http://www.cookcountyhhs.org/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "ZIP CODE",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 441
+    },
+    {
+      "name": "Dec",
+      "fieldName": "dec",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 47,
+      "cardinality": 161
+    },
+    {
+      "name": "Jan",
+      "fieldName": "jan",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 44,
+      "cardinality": 166
+    },
+    {
+      "name": "Feb",
+      "fieldName": "feb",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 47,
+      "cardinality": 161
+    },
+    {
+      "name": "Mar",
+      "fieldName": "mar",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 38,
+      "cardinality": 161
+    },
+    {
+      "name": "Apr",
+      "fieldName": "apr",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 45,
+      "cardinality": 168
+    },
+    {
+      "name": "May",
+      "fieldName": "may",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 45,
+      "cardinality": 160
+    },
+    {
+      "name": "Jun",
+      "fieldName": "jun",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 35,
+      "cardinality": 169
+    },
+    {
+      "name": "Jul",
+      "fieldName": "jul",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 43,
+      "cardinality": 163
+    },
+    {
+      "name": "Aug",
+      "fieldName": "aug",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 38,
+      "cardinality": 160
+    },
+    {
+      "name": "Sep",
+      "fieldName": "sep",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 42,
+      "cardinality": 167
+    },
+    {
+      "name": "Oct",
+      "fieldName": "oct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 48,
+      "cardinality": 164
+    },
+    {
+      "name": "Nov",
+      "fieldName": "nov",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 58,
+      "cardinality": 165
+    },
+    {
+      "name": "Total",
+      "fieldName": "total",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 287
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:58.395Z"
+}

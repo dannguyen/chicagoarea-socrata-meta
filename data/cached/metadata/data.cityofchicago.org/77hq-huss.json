@@ -1,0 +1,81 @@
+{
+  "id": "77hq-huss",
+  "name": "Chicago Traffic Tracker - Historical Congestion Estimates by Segment - 2011-2018",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 19590699,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1363976325,
+  "publicationDate": 1525457336,
+  "rowsUpdatedAt": 1525454921,
+  "viewLastModified": 1774982581,
+  "viewCount": 22734,
+  "downloadCount": 5533,
+  "category": "Transportation",
+  "tags": [
+    "traffic",
+    "sustainability",
+    "historical",
+    "link to article present"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.chicagotraffictracker.com/",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "August 2011 - May 2018 (selected time periods)",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"77hq-huss\"",
+      "Data Owner": "Transportation"
+    }
+  },
+  "columns": [
+    {
+      "name": "TIME",
+      "fieldName": "last_update",
+      "dataTypeName": "calendar_date",
+      "description": "Date and time corresponding to congestion estimate.",
+      "nullCount": 0,
+      "cardinality": 152625
+    },
+    {
+      "name": "SEGMENTID",
+      "fieldName": "segment_id",
+      "dataTypeName": "number",
+      "description": "Unique ID for each segment. See http://bit.ly/Vz3rIh for the geographic location of each segment.",
+      "nullCount": 0,
+      "cardinality": 1071
+    },
+    {
+      "name": "BUS COUNT                ",
+      "fieldName": "bus_count",
+      "dataTypeName": "number",
+      "description": "Number of buses providing a GPS feed used to estimate congestion.",
+      "nullCount": 396,
+      "cardinality": 40
+    },
+    {
+      "name": "MESSAGE COUNT",
+      "fieldName": "msg_count",
+      "dataTypeName": "number",
+      "description": "Number of GPS probes received(or used) for estimating the speed for that segment.",
+      "nullCount": 396,
+      "cardinality": 385
+    },
+    {
+      "name": "SPEED",
+      "fieldName": "traffic",
+      "dataTypeName": "number",
+      "description": "Real-time estimated speed in miles per hour. For congestion advisory and traffic \nmaps, this value is compared to a 0-9, 10-20, and 21 & over scale to display heavy, medium, and free \nflow conditions for the traffic segment. Segments which has insufficien",
+      "nullCount": 0,
+      "cardinality": 67
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:08.203Z"
+}

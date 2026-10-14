@@ -1,0 +1,797 @@
+{
+  "id": "kh4r-387c",
+  "name": "Chicago Public Schools - School Profile Information SY1819",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 654,
+  "rowCountSource": "cached",
+  "rowLabel": "School",
+  "hasRowIdentifier": false,
+  "createdAt": 1539981592,
+  "publicationDate": 1539982364,
+  "rowsUpdatedAt": 1602260127,
+  "viewLastModified": 1602260124,
+  "viewCount": 5087,
+  "downloadCount": 23585,
+  "category": "Education",
+  "tags": [
+    "cps",
+    "schools",
+    "metrics",
+    "report cards",
+    "2018",
+    "2019"
+  ],
+  "attribution": "Chicago Public Schools",
+  "attributionLink": "http://cps.edu",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "School_ID",
+      "fieldName": "school_id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 654
+    },
+    {
+      "name": "Legacy_Unit_ID",
+      "fieldName": "legacy_unit_id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 654
+    },
+    {
+      "name": "Finance_ID",
+      "fieldName": "finance_id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 647
+    },
+    {
+      "name": "Short_Name",
+      "fieldName": "short_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 654
+    },
+    {
+      "name": "Long_Name",
+      "fieldName": "long_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 654
+    },
+    {
+      "name": "Primary_Category",
+      "fieldName": "primary_category",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Is_High_School",
+      "fieldName": "is_high_school",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Is_Middle_School",
+      "fieldName": "is_middle_school",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Is_Elementary_School",
+      "fieldName": "is_elementary_school",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Is_Pre_School",
+      "fieldName": "is_pre_school",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Summary",
+      "fieldName": "summary",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 10,
+      "cardinality": 638
+    },
+    {
+      "name": "Administrator_Title",
+      "fieldName": "administrator_title",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Administrator",
+      "fieldName": "administrator",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 641
+    },
+    {
+      "name": "Secondary_Contact_Title",
+      "fieldName": "secondary_contact_title",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 70,
+      "cardinality": 85
+    },
+    {
+      "name": "Secondary_Contact",
+      "fieldName": "secondary_contact",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 88,
+      "cardinality": 564
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 631
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Zip",
+      "fieldName": "zip",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 51
+    },
+    {
+      "name": "Phone",
+      "fieldName": "phone",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 647
+    },
+    {
+      "name": "Fax",
+      "fieldName": "fax",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 646
+    },
+    {
+      "name": "CPS_School_Profile",
+      "fieldName": "cps_school_profile",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 654
+    },
+    {
+      "name": "Website",
+      "fieldName": "website",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 624
+    },
+    {
+      "name": "Facebook",
+      "fieldName": "facebook",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 383,
+      "cardinality": 244
+    },
+    {
+      "name": "Twitter",
+      "fieldName": "twitter",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 382,
+      "cardinality": 233
+    },
+    {
+      "name": "Youtube",
+      "fieldName": "youtube",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 602,
+      "cardinality": 38
+    },
+    {
+      "name": "Pinterest",
+      "fieldName": "pinterest",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 649,
+      "cardinality": 4
+    },
+    {
+      "name": "Attendance_Boundaries",
+      "fieldName": "attendance_boundaries",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Grades_Offered_All",
+      "fieldName": "grades_offered_all",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 33
+    },
+    {
+      "name": "Grades_Offered",
+      "fieldName": "grades_offered",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 33
+    },
+    {
+      "name": "Student_Count_Total",
+      "fieldName": "student_count_total",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 472
+    },
+    {
+      "name": "Student_Count_Low_Income",
+      "fieldName": "student_count_low_income",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 445
+    },
+    {
+      "name": "Student_Count_Special_Ed",
+      "fieldName": "student_count_special_ed",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 177
+    },
+    {
+      "name": "Student_Count_English_Learners",
+      "fieldName": "student_count_english_learners",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 264
+    },
+    {
+      "name": "Student_Count_Black",
+      "fieldName": "student_count_black",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 341
+    },
+    {
+      "name": "Student_Count_Hispanic",
+      "fieldName": "student_count_hispanic",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 350
+    },
+    {
+      "name": "Student_Count_White",
+      "fieldName": "student_count_white",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 165
+    },
+    {
+      "name": "Student_Count_Asian",
+      "fieldName": "student_count_asian",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 108
+    },
+    {
+      "name": "Student_Count_Native_American",
+      "fieldName": "student_count_native_american",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 19
+    },
+    {
+      "name": "Student_Count_Other_Ethnicity",
+      "fieldName": "student_count_other_ethnicity",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Student_Count_Asian_Pacific_Islander",
+      "fieldName": "student_count_asian_pacific",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Student_Count_Multi",
+      "fieldName": "student_count_multi",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 62
+    },
+    {
+      "name": "Student_Count_Hawaiian_Pacific_Islander",
+      "fieldName": "student_count_hawaiian_pacific",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 19
+    },
+    {
+      "name": "Student_Count_Ethnicity_Not_Available",
+      "fieldName": "student_count_ethnicity_not",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 29
+    },
+    {
+      "name": "Statistics_Description",
+      "fieldName": "statistics_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 652
+    },
+    {
+      "name": "Demographic_Description",
+      "fieldName": "demographic_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 653
+    },
+    {
+      "name": "Dress_Code",
+      "fieldName": "dress_code",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 2
+    },
+    {
+      "name": "PreK_School_Day",
+      "fieldName": "prek_school_day",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 291,
+      "cardinality": 4
+    },
+    {
+      "name": "Kindergarten_School_Day",
+      "fieldName": "kindergarten_school_day",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 192,
+      "cardinality": 1
+    },
+    {
+      "name": "School_Hours",
+      "fieldName": "school_hours",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 10,
+      "cardinality": 235
+    },
+    {
+      "name": "Freshman_Start_End_Time",
+      "fieldName": "freshman_start_end_time",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 553,
+      "cardinality": 78
+    },
+    {
+      "name": "After_School_Hours",
+      "fieldName": "after_school_hours",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 337,
+      "cardinality": 267
+    },
+    {
+      "name": "Earliest_Drop_Off_Time",
+      "fieldName": "earliest_drop_off_time",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 217,
+      "cardinality": 125
+    },
+    {
+      "name": "Classroom_Languages",
+      "fieldName": "classroom_languages",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 364,
+      "cardinality": 47
+    },
+    {
+      "name": "Bilingual_Services",
+      "fieldName": "bilingual_services",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 272,
+      "cardinality": 2
+    },
+    {
+      "name": "Refugee_Services",
+      "fieldName": "refugee_services",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 498,
+      "cardinality": 2
+    },
+    {
+      "name": "Title_1_Eligible",
+      "fieldName": "title_1_eligible",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 15,
+      "cardinality": 2
+    },
+    {
+      "name": "PreSchool_Inclusive",
+      "fieldName": "preschool_inclusive",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 560,
+      "cardinality": 1
+    },
+    {
+      "name": "Preschool_Instructional",
+      "fieldName": "preschool_instructional",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 607,
+      "cardinality": 1
+    },
+    {
+      "name": "Significantly_Modified",
+      "fieldName": "significantly_modified",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 502,
+      "cardinality": 2
+    },
+    {
+      "name": "Hard_Of_Hearing",
+      "fieldName": "hard_of_hearing",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 641,
+      "cardinality": 1
+    },
+    {
+      "name": "Visual_Impairments",
+      "fieldName": "visual_impairments",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 648,
+      "cardinality": 1
+    },
+    {
+      "name": "Transportation_Bus",
+      "fieldName": "transportation_bus",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 97,
+      "cardinality": 465
+    },
+    {
+      "name": "Transportation_El",
+      "fieldName": "transportation_el",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 249,
+      "cardinality": 33
+    },
+    {
+      "name": "Transportation_Metra",
+      "fieldName": "transportation_metra",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 544,
+      "cardinality": 14
+    },
+    {
+      "name": "School_Latitude",
+      "fieldName": "school_latitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 652
+    },
+    {
+      "name": "School_Longitude",
+      "fieldName": "school_longitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 648
+    },
+    {
+      "name": "Average_ACT_School",
+      "fieldName": "average_act_school",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 654,
+      "cardinality": 0
+    },
+    {
+      "name": "Mean_ACT",
+      "fieldName": "mean_act",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 654,
+      "cardinality": 0
+    },
+    {
+      "name": "College_Enrollment_Rate_School",
+      "fieldName": "college_enrollment_rate_school",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 488,
+      "cardinality": 146
+    },
+    {
+      "name": "College_Enrollment_Rate_Mean",
+      "fieldName": "college_enrollment_rate_mean",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 488,
+      "cardinality": 1
+    },
+    {
+      "name": "Graduation_Rate_School",
+      "fieldName": "graduation_rate_school",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 512,
+      "cardinality": 118
+    },
+    {
+      "name": "Graduation_Rate_Mean",
+      "fieldName": "graduation_rate_mean",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 512,
+      "cardinality": 1
+    },
+    {
+      "name": "Overall_Rating",
+      "fieldName": "overall_rating",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Rating_Status",
+      "fieldName": "rating_status",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Rating_Statement",
+      "fieldName": "rating_statement",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Classification_Description",
+      "fieldName": "classification_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "School_Year",
+      "fieldName": "school_year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Third_Contact_Title",
+      "fieldName": "third_contact_title",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 362,
+      "cardinality": 101
+    },
+    {
+      "name": "Third_Contact_Name",
+      "fieldName": "third_contact_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 368,
+      "cardinality": 285
+    },
+    {
+      "name": "Fourth_Contact_Title",
+      "fieldName": "fourth_contact_title",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 496,
+      "cardinality": 80
+    },
+    {
+      "name": "Fourth_Contact_Name",
+      "fieldName": "fourth_contact_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 497,
+      "cardinality": 156
+    },
+    {
+      "name": "Fifth_Contact_Title",
+      "fieldName": "fifth_contact_title",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 563,
+      "cardinality": 58
+    },
+    {
+      "name": "Fifth_Contact_Name",
+      "fieldName": "fifth_contact_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 564,
+      "cardinality": 90
+    },
+    {
+      "name": "Sixth_Contact_Title",
+      "fieldName": "sixth_contact_title",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 609,
+      "cardinality": 33
+    },
+    {
+      "name": "Sixth_Contact_Name",
+      "fieldName": "sixth_contact_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 609,
+      "cardinality": 45
+    },
+    {
+      "name": "Seventh_Contact_Title",
+      "fieldName": "seventh_contact_title",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 628,
+      "cardinality": 23
+    },
+    {
+      "name": "Seventh_Contact_Name",
+      "fieldName": "seventh_contact_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 628,
+      "cardinality": 26
+    },
+    {
+      "name": "Network",
+      "fieldName": "network",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 8,
+      "cardinality": 22
+    },
+    {
+      "name": "Is_GoCPS_Participant",
+      "fieldName": "is_gocps_participant",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Is_GoCPS_PreK",
+      "fieldName": "is_gocps_prek",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Is_GoCPS_Elementary",
+      "fieldName": "is_gocps_elementary",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 2
+    },
+    {
+      "name": "Is_GoCPS_High_School",
+      "fieldName": "is_gocps_high_school",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Open_For_Enrollment_Date",
+      "fieldName": "open_for_enrollment_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 18
+    },
+    {
+      "name": "Closed_For_Enrollment_Date",
+      "fieldName": "closed_for_enrollment_date",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 654,
+      "cardinality": 0
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:04.814Z"
+}

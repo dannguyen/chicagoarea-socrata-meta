@@ -1,0 +1,93 @@
+{
+  "id": "t62e-8nvc",
+  "name": "Beach Swim Advisories",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 972,
+  "rowCountSource": "cached",
+  "rowLabel": "Beach Day",
+  "hasRowIdentifier": true,
+  "createdAt": 1464381244,
+  "publicationDate": 1465572139,
+  "rowsUpdatedAt": 1791990048,
+  "viewLastModified": 1531409967,
+  "viewCount": 34552,
+  "downloadCount": 5146,
+  "category": "Parks & Recreation",
+  "tags": [
+    "beaches",
+    "parks",
+    "chicago park district",
+    "open spaces",
+    "parks & recreation",
+    "recreation",
+    "water",
+    "historical"
+  ],
+  "attribution": "Chicago Park District",
+  "attributionLink": "http://www.chicagoparkdistrict.com/",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2016",
+      "Frequency": "Daily (in season)",
+      "Data Owner": "Chicago Park District"
+    }
+  },
+  "columns": [
+    {
+      "name": "Beach Name",
+      "fieldName": "beach_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "Date",
+      "fieldName": "date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 108
+    },
+    {
+      "name": "Predicted Level",
+      "fieldName": "predicted_level",
+      "dataTypeName": "number",
+      "description": "Predicted E. coli level in Colony Forming Units (CFU) per 100 ml of water",
+      "nullCount": 0,
+      "cardinality": 667
+    },
+    {
+      "name": "Probability",
+      "fieldName": "probability",
+      "dataTypeName": "number",
+      "description": "Probability of the E. coli level being at least 235 Colony Forming Units (CFU) per 100 ml of water",
+      "nullCount": 0,
+      "cardinality": 397
+    },
+    {
+      "name": "Swim Advisory",
+      "fieldName": "swim_advisory",
+      "dataTypeName": "text",
+      "description": "Was a swim advisory issued?",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "RecordID",
+      "fieldName": "recordid",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 972
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:06.865Z"
+}

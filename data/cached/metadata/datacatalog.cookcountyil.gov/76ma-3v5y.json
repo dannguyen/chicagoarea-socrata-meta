@@ -1,0 +1,93 @@
+{
+  "id": "76ma-3v5y",
+  "name": "Procurement - Buying Plan - Fiscal Year 2024",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 122,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1711038900,
+  "publicationDate": 1711040377,
+  "rowsUpdatedAt": 1711039820,
+  "viewLastModified": 1769548197,
+  "viewCount": 2645,
+  "downloadCount": 1448,
+  "category": "Finance & Operations",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Office of the Chief Procurement Officer"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Bi-annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "Buying Plan Number",
+      "fieldName": "buying_plan_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 122
+    },
+    {
+      "name": "Contract Category",
+      "fieldName": "contract_category",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "Department",
+      "fieldName": "department",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "Project Description",
+      "fieldName": "project_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 122
+    },
+    {
+      "name": "Estimated Amount",
+      "fieldName": "estimated_amount",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "Anticipated Advertise Date",
+      "fieldName": "anticipated_advertise_date",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Procurement Agency",
+      "fieldName": "procurement_agency",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:55.679Z"
+}

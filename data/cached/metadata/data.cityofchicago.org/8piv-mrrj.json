@@ -1,0 +1,78 @@
+{
+  "id": "8piv-mrrj",
+  "name": "Town Hall Answers",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 479,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1314999926,
+  "publicationDate": 1314999926,
+  "rowsUpdatedAt": 1316463036,
+  "viewLastModified": 1315159280,
+  "viewCount": 3186,
+  "downloadCount": 2537,
+  "category": "Administration & Finance",
+  "tags": [
+    "budget"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://chicagobudget.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "",
+      "Frequency": "",
+      "Data Owner": "Budget"
+    }
+  },
+  "columns": [
+    {
+      "name": "Zip Code",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 48,
+      "cardinality": 84
+    },
+    {
+      "name": "Question",
+      "fieldName": "question",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 333
+    },
+    {
+      "name": "Answer",
+      "fieldName": "answer",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 254
+    },
+    {
+      "name": "Topic",
+      "fieldName": "topic",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 8,
+      "cardinality": 187
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 27
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:08.102Z"
+}

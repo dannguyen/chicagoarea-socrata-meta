@@ -1,0 +1,142 @@
+{
+  "id": "9tzu-m4zi",
+  "name": "Comptroller - Annual Salaries - 2015 - November 24",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 22615,
+  "rowCountSource": "cached",
+  "rowLabel": "employee",
+  "hasRowIdentifier": false,
+  "createdAt": 1449765216,
+  "publicationDate": 1453401105,
+  "rowsUpdatedAt": 1453396873,
+  "viewLastModified": 1774894250,
+  "viewCount": 68735,
+  "downloadCount": 16900,
+  "category": "Finance & Operations",
+  "tags": [
+    "payroll",
+    "inactive"
+  ],
+  "attribution": "Cook County Office of the Comptroller",
+  "attributionLink": "http://www.cookcountyil.gov/office-of-the-comptroller/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Office of the Comptroller"
+    },
+    "Metadata": {
+      "Update Frequency": "Yearly"
+    },
+    "Detailed Descriptive": {
+      "Geographic unit": "Not applicable"
+    },
+    "Publishing Details": {
+      "Publishing frequency": "Annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "Bureau",
+      "fieldName": "bureau",
+      "dataTypeName": "text",
+      "description": "COR = Corporate; \nHLT = Health; \nJUD = Chief Judge",
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Department Number",
+      "fieldName": "department_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 149
+    },
+    {
+      "name": "Department Name",
+      "fieldName": "department_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 149
+    },
+    {
+      "name": "Name",
+      "fieldName": "name",
+      "dataTypeName": "text",
+      "description": "Employee Name",
+      "nullCount": 0,
+      "cardinality": 22555
+    },
+    {
+      "name": "Job Code",
+      "fieldName": "job_code",
+      "dataTypeName": "text",
+      "description": "Position Job Code",
+      "nullCount": 0,
+      "cardinality": 1784
+    },
+    {
+      "name": "Title",
+      "fieldName": "title",
+      "dataTypeName": "text",
+      "description": "Position Title",
+      "nullCount": 0,
+      "cardinality": 1719
+    },
+    {
+      "name": "Grade",
+      "fieldName": "grade",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 124
+    },
+    {
+      "name": "Step",
+      "fieldName": "step",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 478
+    },
+    {
+      "name": "Original Hire Date",
+      "fieldName": "original_hire_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3347
+    },
+    {
+      "name": "Start Date",
+      "fieldName": "start_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3402
+    },
+    {
+      "name": "Employee Status",
+      "fieldName": "employee_status",
+      "dataTypeName": "text",
+      "description": "0 (Full Time Regular), 1 (Full Time Temporary), 2 ( Part Time Temporary), 3 (Part Time Regular), 4 (Summer Intern) and U (Unpaid Leave)",
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Annual Salary",
+      "fieldName": "annual_salary",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2025
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:45.097Z"
+}

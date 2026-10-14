@@ -1,0 +1,89 @@
+{
+  "id": "auur-f9g5",
+  "name": "Bike Routes (Deprecated February 2020)",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 726,
+  "rowCountSource": "cached",
+  "rowLabel": "Bike Route",
+  "hasRowIdentifier": false,
+  "createdAt": 1581440100,
+  "publicationDate": 1581440537,
+  "rowsUpdatedAt": 1581440536,
+  "viewLastModified": 1581440537,
+  "viewCount": 1026,
+  "downloadCount": 3867,
+  "category": "Transportation",
+  "tags": [
+    "bicycling",
+    "sustainability",
+    "gis",
+    "deprecated",
+    "geo_layer"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "November 2018",
+      "Data Owner": "Department of Transportation"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multiline",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "STREET",
+      "fieldName": "street",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 207
+    },
+    {
+      "name": "F_STREET",
+      "fieldName": "f_street",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 381
+    },
+    {
+      "name": "T_STREET",
+      "fieldName": "t_street",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 382
+    },
+    {
+      "name": "BIKEROUTE",
+      "fieldName": "bikeroute",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Shape_Leng",
+      "fieldName": "shape_leng",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 726
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:20.623Z"
+}

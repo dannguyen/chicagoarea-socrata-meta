@@ -1,0 +1,109 @@
+{
+  "id": "cwwi-9unb",
+  "name": "Fiscal Year 2017 Preliminary Budget - Fiscal Year 2016 Projected Expenses",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 86,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1468610605,
+  "publicationDate": 1468610833,
+  "rowsUpdatedAt": 1468610616,
+  "viewLastModified": 1769546839,
+  "viewCount": 772,
+  "downloadCount": 2352,
+  "category": "Finance & Operations",
+  "tags": [
+    "fy2016",
+    "fy2017",
+    "2017 budget",
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Budget and Management Services",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Department of Budget and Management Services"
+    },
+    "Metadata": {
+      "Update Frequency": "Yearly"
+    },
+    "Publishing Details": {
+      "Publishing frequency": "Annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "Fund",
+      "fieldName": "fund",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Department Number",
+      "fieldName": "dept",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 86
+    },
+    {
+      "name": "Description",
+      "fieldName": "description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 86
+    },
+    {
+      "name": "FY2016 Approved & Adopted Expenditures",
+      "fieldName": "fy2016_approved_adopted_expenditures",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 86
+    },
+    {
+      "name": "FY2016 Adjusted Appropriation",
+      "fieldName": "fy2016_adjusted_appropriation",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 86
+    },
+    {
+      "name": "FY2016 December - May Expenditures",
+      "fieldName": "fy2016_december_may_expenditures",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 86
+    },
+    {
+      "name": "FY2016 June - November Estimated Expenditures & Encumbrances",
+      "fieldName": "june_november_estimated_expenditures_and_encumbrances",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 86
+    },
+    {
+      "name": "Total FY2016 Estimated Expenditures",
+      "fieldName": "total_fy2016_estimated_expenditures",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 86
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:06.727Z"
+}

@@ -1,0 +1,374 @@
+{
+  "id": "3fwv-ze42",
+  "name": "Bilingual Needs and Bilingual Pay Survey 2019",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 50,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709229599,
+  "publicationDate": 1709233007,
+  "rowsUpdatedAt": 1709233002,
+  "viewLastModified": 1736796044,
+  "viewCount": 39,
+  "downloadCount": 92,
+  "category": "Government and Public Employees",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Central Management Services"
+    },
+    "Data Management": {
+      "Maintainer": "State Data Practice",
+      "Maintainer Email": "doit.sdp.support@illinois.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "_id",
+      "fieldName": "_id_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "Agency",
+      "fieldName": "agency",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "Agency_Rep",
+      "fieldName": "agency_rep",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "Phone_Number",
+      "fieldName": "phone_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "Email",
+      "fieldName": "email",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "1_NumInteractions",
+      "fieldName": "_1_numinteractions",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11
+    },
+    {
+      "name": "2_TrackAll",
+      "fieldName": "_2_trackall",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "3_WhichTrack",
+      "fieldName": "_3_whichtrack",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "4_HowTrack",
+      "fieldName": "_4_howtrack",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 18
+    },
+    {
+      "name": "5_WhenTrack",
+      "fieldName": "_5_whentrack",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "6a_Interactions_0to15min",
+      "fieldName": "_6a_interactions_0to15min",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "6b_Interactions_16to60min",
+      "fieldName": "_6b_interactions_16to60min",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "6c_Interactions_61minto4hr",
+      "fieldName": "_6c_interactions_61minto4hr",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "6d_Interactions_4hrPlus",
+      "fieldName": "_6d_interactions_4hrplus",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "7_InDepth",
+      "fieldName": "_7_indepth",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "8_ExternalTranslation",
+      "fieldName": "_8_externaltranslation",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "9_ModeMatch",
+      "fieldName": "_9_modematch",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "10_WrittenPolicy_BilingualProficiency",
+      "fieldName": "_10_writtenpolicy",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "11_WrittenPolicy_BilingualCount",
+      "fieldName": "_11_writtenpolicy",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "12_NoBiligualPay",
+      "fieldName": "_12_nobiligualpay",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "13_TemporaryPay",
+      "fieldName": "_13_temporarypay",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "14_ASLPay",
+      "fieldName": "_14_aslpay",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "15_BraillePay",
+      "fieldName": "_15_braillepay",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "16_Bilingual_HL",
+      "fieldName": "_16_bilingual_hl",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "17_Bilingual_NonHL",
+      "fieldName": "_17_bilingual_nonhl",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "18_NumPositions",
+      "fieldName": "_18_numpositions",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "19_NumPositions_Bilingual",
+      "fieldName": "_19_numpositions_bilingual",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "20_NumHire_Bilingual",
+      "fieldName": "_20_numhire_bilingual",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "21_NumVacated_Bilingual",
+      "fieldName": "_21_numvacated_bilingual",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "22_NumRevised_DeleteBilingual",
+      "fieldName": "_22_numrevised_deletebilingual",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "23_NumRevised_AddBilingual",
+      "fieldName": "_23_numrevised_addbilingual",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "24_NumBilingual_2007",
+      "fieldName": "_24_numbilingual_2007",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "25_NumBilingual_2019",
+      "fieldName": "_25_numbilingual_2019",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "26_WebsiteLangs",
+      "fieldName": "_26_websitelangs",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "27_WrittenMaterialsLangs",
+      "fieldName": "_27_writtenmaterialslangs",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11
+    },
+    {
+      "name": "28_Budget",
+      "fieldName": "_28_budget",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "29_PublicContact",
+      "fieldName": "_29_publiccontact",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "30_BilingualServicesPosts_Location",
+      "fieldName": "_30_bilingualservicesposts",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 17
+    },
+    {
+      "name": "31_BilingualServicesPosts_Langs",
+      "fieldName": "_31_bilingualservicesposts",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "32_RequestedNotAvailable",
+      "fieldName": "_32_requestednotavailable",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "33_UnaffiliatedAssistance",
+      "fieldName": "_33_unaffiliatedassistance",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "34_Certify",
+      "fieldName": "_34_certify",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:39.203Z"
+}

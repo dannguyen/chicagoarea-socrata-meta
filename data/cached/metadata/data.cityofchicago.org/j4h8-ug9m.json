@@ -1,0 +1,409 @@
+{
+  "id": "j4h8-ug9m",
+  "name": "Additional Dwelling Unit Preapproval Applications",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 540,
+  "rowCountSource": "cached",
+  "rowLabel": "ADU Preapproval Application",
+  "hasRowIdentifier": true,
+  "createdAt": 1778686934,
+  "publicationDate": 1788476106,
+  "rowsUpdatedAt": 1791936117,
+  "viewLastModified": 1788552176,
+  "viewCount": 671,
+  "downloadCount": 106,
+  "category": "Buildings",
+  "tags": [
+    "buildings",
+    "permits",
+    "historical",
+    "housing"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "April 2026-Present",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"j4h8-ug9m\"",
+      "Data Owner": "Department of Housing"
+    }
+  },
+  "columns": [
+    {
+      "name": "ID",
+      "fieldName": "id",
+      "dataTypeName": "number",
+      "description": "Application unique identifier",
+      "nullCount": 0,
+      "cardinality": 540
+    },
+    {
+      "name": "SUBMISSION_DATE",
+      "fieldName": "submission_date",
+      "dataTypeName": "calendar_date",
+      "description": "Application submissions date",
+      "nullCount": 0,
+      "cardinality": 540
+    },
+    {
+      "name": "STATUS",
+      "fieldName": "status",
+      "dataTypeName": "text",
+      "description": "Application current status",
+      "nullCount": 0,
+      "cardinality": 540
+    },
+    {
+      "name": "APPLICANT_FIRST_NAME",
+      "fieldName": "applicant_first_name",
+      "dataTypeName": "text",
+      "description": "Applicant First Name",
+      "nullCount": 2,
+      "cardinality": 540
+    },
+    {
+      "name": "APPLICANT_LAST_NAME",
+      "fieldName": "applicant_last_name",
+      "dataTypeName": "text",
+      "description": "Applicant Last Name",
+      "nullCount": 0,
+      "cardinality": 540
+    },
+    {
+      "name": "APPLICANT_ADDRESS",
+      "fieldName": "applicant_address",
+      "dataTypeName": "text",
+      "description": "Applicant Mailing Address. Mailing address of the individual completing the application. The individual applying for the ADU pre-certification is not required to be the owner of the property.",
+      "nullCount": 0,
+      "cardinality": 540
+    },
+    {
+      "name": "APPLICANT_UNIT",
+      "fieldName": "applicant_unit",
+      "dataTypeName": "text",
+      "description": "Applicant Mailing Address Unit",
+      "nullCount": 373,
+      "cardinality": 540
+    },
+    {
+      "name": "APPLICANT_CITY",
+      "fieldName": "applicant_city",
+      "dataTypeName": "text",
+      "description": "Applicant Mailing Address City",
+      "nullCount": 0,
+      "cardinality": 540
+    },
+    {
+      "name": "APPLICANT_STATE",
+      "fieldName": "applicant_state",
+      "dataTypeName": "text",
+      "description": "Applicant Mailing Address State",
+      "nullCount": 0,
+      "cardinality": 540
+    },
+    {
+      "name": "APPLICANT_ZIP",
+      "fieldName": "applicant_zip",
+      "dataTypeName": "text",
+      "description": "Applicant Mailing Address Zip",
+      "nullCount": 0,
+      "cardinality": 540
+    },
+    {
+      "name": "PROPERTY_OWNER_FIRST_NAME",
+      "fieldName": "property_owner_first_name",
+      "dataTypeName": "text",
+      "description": "Property owner first name if applicant is not the property owner.",
+      "nullCount": 369,
+      "cardinality": 540
+    },
+    {
+      "name": "PROPERTY_OWNER_LAST_NAME",
+      "fieldName": "property_owner_last_name",
+      "dataTypeName": "text",
+      "description": "Property owner last name if applicant is not the property owner.",
+      "nullCount": 368,
+      "cardinality": 540
+    },
+    {
+      "name": "ADDRESS",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": "Project Address",
+      "nullCount": 1,
+      "cardinality": 540
+    },
+    {
+      "name": "STREET_NUMBER",
+      "fieldName": "street_number",
+      "dataTypeName": "text",
+      "description": "Project Address Street Number",
+      "nullCount": 1,
+      "cardinality": 540
+    },
+    {
+      "name": "STREET_DIRECTION",
+      "fieldName": "street_direction",
+      "dataTypeName": "text",
+      "description": "Project Address Street Direction",
+      "nullCount": 1,
+      "cardinality": 540
+    },
+    {
+      "name": "STREET_NAME",
+      "fieldName": "street_name",
+      "dataTypeName": "text",
+      "description": "Project Address Street Name",
+      "nullCount": 1,
+      "cardinality": 540
+    },
+    {
+      "name": "UNIT",
+      "fieldName": "unit",
+      "dataTypeName": "text",
+      "description": "Project Address Unit",
+      "nullCount": 440,
+      "cardinality": 540
+    },
+    {
+      "name": "ZIP",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": "Project Address Zip Code",
+      "nullCount": 1,
+      "cardinality": 540
+    },
+    {
+      "name": "WARD",
+      "fieldName": "ward",
+      "dataTypeName": "number",
+      "description": "Project Address Ward",
+      "nullCount": 1,
+      "cardinality": 540
+    },
+    {
+      "name": "ZONING",
+      "fieldName": "zoning",
+      "dataTypeName": "text",
+      "description": "Project Address Zoning Class",
+      "nullCount": 1,
+      "cardinality": 540
+    },
+    {
+      "name": "LATITUDE",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": "The latitude of the property",
+      "nullCount": 1,
+      "cardinality": 540
+    },
+    {
+      "name": "LONGITUDE",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": "The longitude of the property",
+      "nullCount": 1,
+      "cardinality": 540
+    },
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": "The location of the property in a format that allows for mapping and other geographic analysis on this data portal.",
+      "nullCount": 1,
+      "cardinality": 540
+    },
+    {
+      "name": "COACH_HOUSE",
+      "fieldName": "coach_house",
+      "dataTypeName": "checkbox",
+      "description": "Indicates whether the application is for a coach house.",
+      "nullCount": 0,
+      "cardinality": 540
+    },
+    {
+      "name": "LABOR_REQUIREMENT",
+      "fieldName": "labor_requirement",
+      "dataTypeName": "checkbox",
+      "description": "Acknowledgement of the labor requirement for coach house applications. Always 'Yes' for coach house applications.",
+      "nullCount": 0,
+      "cardinality": 540
+    },
+    {
+      "name": "PRINCIPAL_BUILDING_REQUIREMENT",
+      "fieldName": "principal_building_requirement",
+      "dataTypeName": "checkbox",
+      "description": "Acknowledgement of the principal building requirement for coach house applications. Always 'Yes' for coach house applications.",
+      "nullCount": 0,
+      "cardinality": 540
+    },
+    {
+      "name": "CONVERSION_UNIT",
+      "fieldName": "conversion_unit",
+      "dataTypeName": "checkbox",
+      "description": "Indicates whether the application is for a conversion unit.",
+      "nullCount": 0,
+      "cardinality": 540
+    },
+    {
+      "name": "PRINCIPAL_BUILDING_BUILT_YEAR",
+      "fieldName": "principal_building_built_year",
+      "dataTypeName": "number",
+      "description": "Year the principal building was built. Only applicable if applying for a conversion unit.",
+      "nullCount": 193,
+      "cardinality": 540
+    },
+    {
+      "name": "DWELLING_UNITS_IN_LOT",
+      "fieldName": "dwelling_units_in_lot",
+      "dataTypeName": "number",
+      "description": "Number of dwelling units that are currently on the lot or will be on the lot once the principal building is constructed. Proposed ADUs are not included in this count.",
+      "nullCount": 4,
+      "cardinality": 540
+    },
+    {
+      "name": "MAX_NUMBER_OF_ADU_ALLOWED",
+      "fieldName": "max_number_of_adu_allowed",
+      "dataTypeName": "number",
+      "description": "Maximum number of conversion units allowed",
+      "nullCount": 192,
+      "cardinality": 540
+    },
+    {
+      "name": "MAX_NUMBER_COACH_HOUSE_UNITS_ALLOWED",
+      "fieldName": "max_number_coach_house_units_allowed",
+      "dataTypeName": "number",
+      "description": "Maximum number of coach house units allowed. Always 1 if applying for coach house.",
+      "nullCount": 331,
+      "cardinality": 540
+    },
+    {
+      "name": "ADU_APPLYING_FOR",
+      "fieldName": "adu_applying_for",
+      "dataTypeName": "number",
+      "description": "Number of ADUs applying for.",
+      "nullCount": 5,
+      "cardinality": 540
+    },
+    {
+      "name": "NUMBER_AFFORDABLE_UNITS_REQUIRED",
+      "fieldName": "number_affordable_units_required",
+      "dataTypeName": "number",
+      "description": "Number of affordable units required. For property owners adding two or more ADUs, half of the new ADUs (rounding down) must be rented to a tenant making 60% of the Area Median Income (AMI) or less, at a rate considered to be affordable. ",
+      "nullCount": 515,
+      "cardinality": 540
+    },
+    {
+      "name": "FEE_AFFORDABLE_UNITS_REQUIRED",
+      "fieldName": "fee_affordable_units_required",
+      "dataTypeName": "number",
+      "description": "Fee required for affordable units",
+      "nullCount": 515,
+      "cardinality": 540
+    },
+    {
+      "name": "ACKNOWLEDGE_WILL_REQUIRE_AFFORDABLE_ADUS",
+      "fieldName": "acknowledge_will_require_affordable_adus",
+      "dataTypeName": "checkbox",
+      "description": "Acknowledge that the property will require affordable ADUs.",
+      "nullCount": 0,
+      "cardinality": 540
+    },
+    {
+      "name": "ALDERMAN",
+      "fieldName": "alderman",
+      "dataTypeName": "text",
+      "description": "Name of the Alderman for the WARD at the time of submission.",
+      "nullCount": 1,
+      "cardinality": 540
+    },
+    {
+      "name": "PROOF_OF_RESIDENCY_YN",
+      "fieldName": "proof_of_residency_yn",
+      "dataTypeName": "checkbox",
+      "description": "References if proof of residency documentation was attached to the application",
+      "nullCount": 0,
+      "cardinality": 540
+    },
+    {
+      "name": "RECORDING_DEED_YN",
+      "fieldName": "recording_deed_yn",
+      "dataTypeName": "checkbox",
+      "description": "References if ADU Affordability Covenant was attached to the application.",
+      "nullCount": 0,
+      "cardinality": 540
+    },
+    {
+      "name": "AFFIDAVIT_YN",
+      "fieldName": "affidavit_yn",
+      "dataTypeName": "checkbox",
+      "description": "References if Annual Affordability Compliance Affidavit was attached to the application.",
+      "nullCount": 0,
+      "cardinality": 540
+    },
+    {
+      "name": "PROPERTY_OWNER_YN",
+      "fieldName": "property_owner_yn",
+      "dataTypeName": "checkbox",
+      "description": "Is the applicant the property owner?",
+      "nullCount": 0,
+      "cardinality": 540
+    },
+    {
+      "name": "SUBMITTER_ROLE",
+      "fieldName": "submitter_role",
+      "dataTypeName": "text",
+      "description": "If not the property owner, then what is the role of the submitter?",
+      "nullCount": 368,
+      "cardinality": 540
+    },
+    {
+      "name": "PROPERTY_OWNER_OCCUPIED",
+      "fieldName": "property_owner_occupied",
+      "dataTypeName": "checkbox",
+      "description": "Indicates whether the property is owner-occupied. ",
+      "nullCount": 3,
+      "cardinality": 540
+    },
+    {
+      "name": "ACKNOWLEDGE_NO_SHARED",
+      "fieldName": "acknowledge_no_shared",
+      "dataTypeName": "checkbox",
+      "description": "Acknowledgement that ADUs cannot be used for short-term leases or vacation rentals (e.g., Airbnb). Always 'Yes' unless the application was canceled before submission.",
+      "nullCount": 0,
+      "cardinality": 540
+    },
+    {
+      "name": "HAS_ONE_APPLIED_PREVIOUSLY",
+      "fieldName": "has_one_applied_previously",
+      "dataTypeName": "checkbox",
+      "description": "Indicates whether, to the submitter's knowledge, an ADU application has previously been submitted for this address.",
+      "nullCount": 3,
+      "cardinality": 540
+    },
+    {
+      "name": "USER_AMENDED_DATE",
+      "fieldName": "user_amended_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date when the application was last updated or amended.",
+      "nullCount": 320,
+      "cardinality": 540
+    },
+    {
+      "name": "ACTION_DATE",
+      "fieldName": "action_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date when the current application status was assigned.",
+      "nullCount": 25,
+      "cardinality": 540
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:23.142Z"
+}

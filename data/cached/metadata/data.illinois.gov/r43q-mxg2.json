@@ -1,0 +1,150 @@
+{
+  "id": "r43q-mxg2",
+  "name": "IDPH Births, by County, by Demographics, 2009",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 104,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709064677,
+  "publicationDate": 1709146367,
+  "rowsUpdatedAt": 1709146361,
+  "viewLastModified": 1736793984,
+  "viewCount": 91,
+  "downloadCount": 23,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "black",
+      "fieldName": "black",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 48
+    },
+    {
+      "name": "female",
+      "fieldName": "female",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 94
+    },
+    {
+      "name": "hispanic",
+      "fieldName": "hispanic",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 47
+    },
+    {
+      "name": "male",
+      "fieldName": "male",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 88
+    },
+    {
+      "name": "mother_s_age_20",
+      "fieldName": "mother_s_age_20",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 70
+    },
+    {
+      "name": "mother_s_age_20_24",
+      "fieldName": "mother_s_age_20_24",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 89
+    },
+    {
+      "name": "mother_s_age_25_29",
+      "fieldName": "mother_s_age_25_29",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 88
+    },
+    {
+      "name": "mother_s_age_30_34",
+      "fieldName": "mother_s_age_30_34",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 81
+    },
+    {
+      "name": "mother_s_age_35_39",
+      "fieldName": "mother_s_age_35_39",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 66
+    },
+    {
+      "name": "mother_s_age_40_",
+      "fieldName": "mother_s_age_40_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 38
+    },
+    {
+      "name": "other",
+      "fieldName": "other",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 35
+    },
+    {
+      "name": "resident_county",
+      "fieldName": "resident_county",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 104
+    },
+    {
+      "name": "total_births",
+      "fieldName": "total_births",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 96
+    },
+    {
+      "name": "white",
+      "fieldName": "white",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 100
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:35.621Z"
+}

@@ -1,0 +1,65 @@
+{
+  "id": "8inm-b8zc",
+  "name": "Libraries - 2022 Wi Fi Usage",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 12,
+  "rowCountSource": "cached",
+  "rowLabel": "Month",
+  "hasRowIdentifier": false,
+  "createdAt": 1645119715,
+  "publicationDate": 1645552087,
+  "rowsUpdatedAt": 1674515270,
+  "viewLastModified": 1782944500,
+  "viewCount": 1004,
+  "downloadCount": 1019,
+  "category": "Education",
+  "tags": [
+    "libraries",
+    "wi-fi",
+    "technology",
+    "2022"
+  ],
+  "attribution": null,
+  "attributionLink": "https://www.chipublib.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2022",
+      "Frequency": "Monthly or Data are updated as needed",
+      "Data Owner": "Chicago Public Library"
+    }
+  },
+  "columns": [
+    {
+      "name": "MONTH",
+      "fieldName": "month",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "NUMBER OF SESSIONS",
+      "fieldName": "number_of_sessions",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "YTD",
+      "fieldName": "ytd",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:20.853Z"
+}

@@ -1,0 +1,88 @@
+{
+  "id": "4gqy-9zu6",
+  "name": "Finance & Administration - Performance Management Goal Assessment - 2012 Q3",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 40,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1350525361,
+  "publicationDate": 1412893762,
+  "rowsUpdatedAt": 1412893757,
+  "viewLastModified": 1769547011,
+  "viewCount": 545,
+  "downloadCount": 1876,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Goal 1: Maintain A Healthy Financial Position",
+      "fieldName": "goal_1_maintain_a_healthy_financial_position",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 28
+    },
+    {
+      "name": "Reporting  Office",
+      "fieldName": "reporting_office",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 19
+    },
+    {
+      "name": "2011 Actual",
+      "fieldName": "actual",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 35
+    },
+    {
+      "name": "2012 Target",
+      "fieldName": "target",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 24
+    },
+    {
+      "name": "Q3 YTD   Actual",
+      "fieldName": "q3_ytd_actual",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 36
+    },
+    {
+      "name": "Q3 YTD Target",
+      "fieldName": "q3_ytd_target",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 23
+    },
+    {
+      "name": "Q3 YTD Variance",
+      "fieldName": "q3_ytd_variance",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 30
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:09.695Z"
+}

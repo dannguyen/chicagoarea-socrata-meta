@@ -1,0 +1,86 @@
+{
+  "id": "himu-55sg",
+  "name": "IDPH Population Projections For Illinois Counties 2010 To 2025",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 104,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709064530,
+  "publicationDate": 1709144337,
+  "rowsUpdatedAt": 1709144331,
+  "viewLastModified": 1736793958,
+  "viewCount": 187,
+  "downloadCount": 158,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "census",
+      "fieldName": "census",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 104
+    },
+    {
+      "name": "estimate",
+      "fieldName": "estimate",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 104
+    },
+    {
+      "name": "projections_2015",
+      "fieldName": "projections_2015",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 104
+    },
+    {
+      "name": "projections_2020",
+      "fieldName": "projections_2020",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 104
+    },
+    {
+      "name": "projections_2025",
+      "fieldName": "projections_2025",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 104
+    },
+    {
+      "name": "state_county",
+      "fieldName": "state_county",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 103
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:34.150Z"
+}

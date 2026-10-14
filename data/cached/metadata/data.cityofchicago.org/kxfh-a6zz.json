@@ -1,0 +1,155 @@
+{
+  "id": "kxfh-a6zz",
+  "name": "Public Passenger Vehicle Inspection Schedule",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 37240,
+  "rowCountSource": "cached",
+  "rowLabel": "Scheduled Inspection",
+  "hasRowIdentifier": false,
+  "createdAt": 1595969820,
+  "publicationDate": 1675380417,
+  "rowsUpdatedAt": 1791954347,
+  "viewLastModified": 1679331604,
+  "viewCount": 61780,
+  "downloadCount": 3080,
+  "category": "Community & Economic Development",
+  "tags": [
+    "transportation",
+    "vehicles",
+    "taxis",
+    "inspections",
+    "livery",
+    "ambulance"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2023-Current",
+      "Frequency": "Daily",
+      "Data Owner": "Business Affairs and Consumer Protection"
+    }
+  },
+  "columns": [
+    {
+      "name": "Public Vehicle Type",
+      "fieldName": "public_vehicle_type",
+      "dataTypeName": "text",
+      "description": "Type of Vehicle",
+      "nullCount": 0,
+      "cardinality": 37240
+    },
+    {
+      "name": "Public Vehicle Number",
+      "fieldName": "public_vehicle_number",
+      "dataTypeName": "number",
+      "description": "Assigned License Number. This number is also the corresponding medallion number.",
+      "nullCount": 0,
+      "cardinality": 37240
+    },
+    {
+      "name": "Company Name",
+      "fieldName": "company_name",
+      "dataTypeName": "text",
+      "description": "The legal owner/holder of the license.",
+      "nullCount": 0,
+      "cardinality": 37240
+    },
+    {
+      "name": "Vehicle Status",
+      "fieldName": "vehicle_status",
+      "dataTypeName": "text",
+      "description": "Status of the license.",
+      "nullCount": 0,
+      "cardinality": 37240
+    },
+    {
+      "name": "Vehicle Make",
+      "fieldName": "vehicle_make",
+      "dataTypeName": "text",
+      "description": "Make of the vehicle associated with the license.",
+      "nullCount": 0,
+      "cardinality": 37240
+    },
+    {
+      "name": "Vehicle Model",
+      "fieldName": "vehicle_model",
+      "dataTypeName": "text",
+      "description": "Model of the vehicle associated with the license.",
+      "nullCount": 0,
+      "cardinality": 37240
+    },
+    {
+      "name": "Vehicle Model Year",
+      "fieldName": "vehicle_model_year",
+      "dataTypeName": "number",
+      "description": "Model year of the vehicle associated with the license.",
+      "nullCount": 0,
+      "cardinality": 37240
+    },
+    {
+      "name": "Wheelchair Accessible",
+      "fieldName": "wheelchair_accessible",
+      "dataTypeName": "checkbox",
+      "description": "Yes or No to indicate if the vehicle is a wheelchair accessible vehicle (WAV). This value will always be No for vehicle types other than Taxi.",
+      "nullCount": 0,
+      "cardinality": 37240
+    },
+    {
+      "name": "Affiliation",
+      "fieldName": "affiliation",
+      "dataTypeName": "text",
+      "description": "The association the taxi vehicle is affiliated with.",
+      "nullCount": 5001,
+      "cardinality": 37240
+    },
+    {
+      "name": "License Management",
+      "fieldName": "license_management",
+      "dataTypeName": "text",
+      "description": "Description of who manages the taxicab and medallion license.",
+      "nullCount": 5121,
+      "cardinality": 37240
+    },
+    {
+      "name": "Inspection Type",
+      "fieldName": "inspection_type",
+      "dataTypeName": "text",
+      "description": "The type of inspection scheduled.",
+      "nullCount": 0,
+      "cardinality": 37240
+    },
+    {
+      "name": "Scheduled Inspection Date and Time",
+      "fieldName": "scheduled_inspection_date_and_time",
+      "dataTypeName": "calendar_date",
+      "description": "When the inspection is scheduled to be performed.",
+      "nullCount": 0,
+      "cardinality": 37240
+    },
+    {
+      "name": "Result",
+      "fieldName": "result",
+      "dataTypeName": "text",
+      "description": "The result of the inspection appointment, or PENDING if it has not yet occurred.",
+      "nullCount": 0,
+      "cardinality": 37240
+    },
+    {
+      "name": "Current",
+      "fieldName": "current",
+      "dataTypeName": "checkbox",
+      "description": "As of the last update, the inspection is within the next 365 days.",
+      "nullCount": 0,
+      "cardinality": 37240
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:05.706Z"
+}

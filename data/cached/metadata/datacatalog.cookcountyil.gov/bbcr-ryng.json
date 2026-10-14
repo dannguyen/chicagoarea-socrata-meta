@@ -1,0 +1,165 @@
+{
+  "id": "bbcr-ryng",
+  "name": "2000Parcels",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1391716,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1459435784,
+  "publicationDate": null,
+  "rowsUpdatedAt": 1459437123,
+  "viewLastModified": 1769545192,
+  "viewCount": 975,
+  "downloadCount": 1492,
+  "category": "Boundaries & Districts",
+  "tags": [
+    "cook",
+    "parcel",
+    "gis",
+    "clerk",
+    "map",
+    "property and land records"
+  ],
+  "attribution": "Cook County Clerk / Map Department",
+  "attributionLink": "http://www.cookcountyclerk.com/tsd/maps/Pages/default.aspx",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "PIN10",
+      "fieldName": "pin10",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 1391666
+    },
+    {
+      "name": "PIN14",
+      "fieldName": "pin14",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1391667
+    },
+    {
+      "name": "PINA",
+      "fieldName": "pina",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 33
+    },
+    {
+      "name": "PINSA",
+      "fieldName": "pinsa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 36
+    },
+    {
+      "name": "PINB",
+      "fieldName": "pinb",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 285
+    },
+    {
+      "name": "PINP",
+      "fieldName": "pinp",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 375
+    },
+    {
+      "name": "PINU",
+      "fieldName": "pinu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "PINAC",
+      "fieldName": "pinac",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4514
+    },
+    {
+      "name": "TAXCODE",
+      "fieldName": "taxcode",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "JOB_NO",
+      "fieldName": "job_no",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 266
+    },
+    {
+      "name": "PARCELTYPE",
+      "fieldName": "parceltype",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "UPPER_ELEV",
+      "fieldName": "upper_elev",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "LOWER_ELEV",
+      "fieldName": "lower_elev",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "SHAPE_area",
+      "fieldName": "shape_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1264220
+    },
+    {
+      "name": "SHAPE_len",
+      "fieldName": "shape_len",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1297976
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:04.009Z"
+}

@@ -1,0 +1,143 @@
+{
+  "id": "8eww-pamb",
+  "name": "House Share Restricted Residential Zone Precincts",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 192,
+  "rowCountSource": "cached",
+  "rowLabel": "Precinct",
+  "hasRowIdentifier": false,
+  "createdAt": 1497893087,
+  "publicationDate": 1501798034,
+  "rowsUpdatedAt": 1791957758,
+  "viewLastModified": 1504799417,
+  "viewCount": 12110,
+  "downloadCount": 4803,
+  "category": "Buildings",
+  "tags": [
+    "house share",
+    "regulation",
+    "restrictions"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Current",
+      "Data Owner": "Department of Business Affairs & Consumer Protection"
+    }
+  },
+  "columns": [
+    {
+      "name": "Ward",
+      "fieldName": "ward",
+      "dataTypeName": "number",
+      "description": "The Ward (City Council district)",
+      "nullCount": 0,
+      "cardinality": 192
+    },
+    {
+      "name": "Precinct",
+      "fieldName": "precinct",
+      "dataTypeName": "number",
+      "description": "The Precinct within the ward. The same precinct numbers exist in different wards so this column is only meaningful in combination with the Ward column",
+      "nullCount": 0,
+      "cardinality": 192
+    },
+    {
+      "name": "Submission Date",
+      "fieldName": "submission_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date the petition was filed to prohibit house share rentals in this precinct.",
+      "nullCount": 55,
+      "cardinality": 192
+    },
+    {
+      "name": "Comment Period End Date",
+      "fieldName": "comment_period_end_date",
+      "dataTypeName": "calendar_date",
+      "description": "Deadline for public comments on the proposed prohibition.",
+      "nullCount": 128,
+      "cardinality": 192
+    },
+    {
+      "name": "Ordinance Introduction Date",
+      "fieldName": "ordinance_introduction_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date the City Council ordinance was introduced to prohibit house share rentals in this precinct.",
+      "nullCount": 0,
+      "cardinality": 192
+    },
+    {
+      "name": "Ordinance Effective Date",
+      "fieldName": "ordinance_effective_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date when the prohibition on house share rentals in this precinct took effect or will take effect, at 10 am.",
+      "nullCount": 0,
+      "cardinality": 192
+    },
+    {
+      "name": "Scope of Restriction",
+      "fieldName": "scope_of_restriction",
+      "dataTypeName": "text",
+      "description": "The restriction placed by the ordinance or proposed if no ordinance has passed yet.",
+      "nullCount": 0,
+      "cardinality": 192
+    },
+    {
+      "name": "Enacting Ordinance",
+      "fieldName": "enacting_ordinance",
+      "dataTypeName": "url",
+      "description": "A link to the City Council ordinance to prohibit house share rentals in this precinct.",
+      "nullCount": 3,
+      "cardinality": null
+    },
+    {
+      "name": "Repeal Submission Date",
+      "fieldName": "repeal_submission_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date the petition was filed to repeal the prohibition on house share rentals in this precinct.",
+      "nullCount": 192,
+      "cardinality": 192
+    },
+    {
+      "name": "Repeal Comment Period End Date",
+      "fieldName": "repeal_comment_period_end_date",
+      "dataTypeName": "calendar_date",
+      "description": "Deadline for public comments on the proposed prohibition repeal.",
+      "nullCount": 192,
+      "cardinality": 192
+    },
+    {
+      "name": "Repeal Ordinance Introduction Date",
+      "fieldName": "repeal_ordinance_introduction_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date the City Council ordinance was introduced to repeal the prohibition on house share rentals in this precinct.",
+      "nullCount": 192,
+      "cardinality": 192
+    },
+    {
+      "name": "Repeal Ordinance Effective Date",
+      "fieldName": "repeal_ordinance_effective_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date on which the prohibition on house share rentals in this precinct was lifted or will be lifted.",
+      "nullCount": 192,
+      "cardinality": 192
+    },
+    {
+      "name": "Repeal Ordinance",
+      "fieldName": "repeal_ordinance",
+      "dataTypeName": "url",
+      "description": "A link to the City Council ordinance to repeal the prohibition on house share rentals in this precinct.",
+      "nullCount": 42,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:38:04.869Z"
+}

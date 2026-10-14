@@ -1,0 +1,265 @@
+{
+  "id": "7nii-7srd",
+  "name": "311 Service Requests - Vacant and Abandoned Buildings Reported - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 65119,
+  "rowCountSource": "cached",
+  "rowLabel": "Service Request",
+  "hasRowIdentifier": false,
+  "createdAt": 1317373812,
+  "publicationDate": 1551866797,
+  "rowsUpdatedAt": 1551866627,
+  "viewLastModified": 1774040850,
+  "viewCount": 118911,
+  "downloadCount": 1479244,
+  "category": "Service Requests",
+  "tags": [
+    "buildings",
+    "historical",
+    "service requests",
+    "311"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "All completed requests since January 1, 2010",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"7nii-7srd\"",
+      "Data Owner": "Buildings"
+    }
+  },
+  "columns": [
+    {
+      "name": "SERVICE REQUEST TYPE",
+      "fieldName": "service_request_type",
+      "dataTypeName": "text",
+      "description": "Service Request Type",
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "SERVICE REQUEST NUMBER",
+      "fieldName": "service_request_number",
+      "dataTypeName": "text",
+      "description": "Service Request Number",
+      "nullCount": 0,
+      "cardinality": 65109
+    },
+    {
+      "name": "DATE SERVICE REQUEST WAS RECEIVED",
+      "fieldName": "date_service_request_was_received",
+      "dataTypeName": "calendar_date",
+      "description": "Date Service Request Was Received",
+      "nullCount": 0,
+      "cardinality": 3421
+    },
+    {
+      "name": "LOCATION OF BUILDING ON THE LOT (IF GARAGE, CHANGE TYPE CODE TO BGD).",
+      "fieldName": "location_of_building_on_the_lot_if_garage_change_type_code_to_bgd_",
+      "dataTypeName": "text",
+      "description": "Location of Building on the Lot",
+      "nullCount": 8774,
+      "cardinality": 3
+    },
+    {
+      "name": "IS THE BUILDING DANGEROUS OR HAZARDOUS?",
+      "fieldName": "is_the_building_dangerous_or_hazardous_",
+      "dataTypeName": "text",
+      "description": "is the Building Dangerous or Hazardous?",
+      "nullCount": 65119,
+      "cardinality": 0
+    },
+    {
+      "name": "IS BUILDING OPEN OR BOARDED?",
+      "fieldName": "is_building_open_or_boarded_",
+      "dataTypeName": "text",
+      "description": "Is Building Open or Boarded?",
+      "nullCount": 8256,
+      "cardinality": 5
+    },
+    {
+      "name": "IF THE BUILDING IS OPEN, WHERE IS THE ENTRY POINT?",
+      "fieldName": "if_the_building_is_open_where_is_the_entry_point_",
+      "dataTypeName": "text",
+      "description": "If the Building is Open, Where is the Entry Point?",
+      "nullCount": 30675,
+      "cardinality": 8966
+    },
+    {
+      "name": "IS THE BUILDING CURRENTLY VACANT OR OCCUPIED?",
+      "fieldName": "is_the_building_currently_vacant_or_occupied_",
+      "dataTypeName": "text",
+      "description": "Is the Building Currently Vacant or Occupied?",
+      "nullCount": 8248,
+      "cardinality": 3
+    },
+    {
+      "name": "IS THE BUILDING VACANT DUE TO FIRE?",
+      "fieldName": "is_the_building_vacant_due_to_fire_",
+      "dataTypeName": "checkbox",
+      "description": "Is the Building Vacant Due to Fire?",
+      "nullCount": 9120,
+      "cardinality": 2
+    },
+    {
+      "name": "ANY PEOPLE USING PROPERTY? (HOMELESS, CHILDEN, GANGS)",
+      "fieldName": "any_people_using_property_homeless_childen_gangs_",
+      "dataTypeName": "checkbox",
+      "description": "Any People Using Property (e.g., Homeless, Children, Gangs)?",
+      "nullCount": 8548,
+      "cardinality": 2
+    },
+    {
+      "name": "ADDRESS STREET NUMBER",
+      "fieldName": "address_street_number",
+      "dataTypeName": "text",
+      "description": "Address Street Number",
+      "nullCount": 1,
+      "cardinality": 7973
+    },
+    {
+      "name": "ADDRESS STREET DIRECTION",
+      "fieldName": "address_street_direction",
+      "dataTypeName": "text",
+      "description": "Address Street Direction",
+      "nullCount": 2,
+      "cardinality": 4
+    },
+    {
+      "name": "ADDRESS STREET NAME",
+      "fieldName": "address_street_name",
+      "dataTypeName": "text",
+      "description": "Address Street Name",
+      "nullCount": 1,
+      "cardinality": 877
+    },
+    {
+      "name": "ADDRESS STREET SUFFIX",
+      "fieldName": "address_street_suffix",
+      "dataTypeName": "text",
+      "description": "Address Street Suffix",
+      "nullCount": 322,
+      "cardinality": 15
+    },
+    {
+      "name": "ZIP CODE",
+      "fieldName": "zip_code",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 424,
+      "cardinality": 61
+    },
+    {
+      "name": "X COORDINATE",
+      "fieldName": "x_coordinate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 37,
+      "cardinality": 38007
+    },
+    {
+      "name": "Y COORDINATE",
+      "fieldName": "y_coordinate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 37,
+      "cardinality": 38027
+    },
+    {
+      "name": "Ward",
+      "fieldName": "ward",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 41,
+      "cardinality": 51
+    },
+    {
+      "name": "Police District",
+      "fieldName": "police_district",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 41,
+      "cardinality": 26
+    },
+    {
+      "name": "Community Area",
+      "fieldName": "community_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 41,
+      "cardinality": 78
+    },
+    {
+      "name": "LATITUDE",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 46,
+      "cardinality": 38041
+    },
+    {
+      "name": "LONGITUDE",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 46,
+      "cardinality": 38041
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:06.223Z"
+}

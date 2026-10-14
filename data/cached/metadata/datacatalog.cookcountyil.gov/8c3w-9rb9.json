@@ -1,0 +1,64 @@
+{
+  "id": "8c3w-9rb9",
+  "name": "IEPA E-Waste Collection Sites in Cook County",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 42,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1323960729,
+  "publicationDate": 1685660795,
+  "rowsUpdatedAt": 1412890557,
+  "viewLastModified": 1769547336,
+  "viewCount": 1366,
+  "downloadCount": 2829,
+  "category": "Environment",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "IEPA",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Managing Collector",
+      "fieldName": "managing_collector",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 29
+    },
+    {
+      "name": "Collection Site Address",
+      "fieldName": "collection_site_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 42
+    },
+    {
+      "name": "Phone No.",
+      "fieldName": "phone_no_",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 29
+    },
+    {
+      "name": "Location 1",
+      "fieldName": "location_1",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:00.344Z"
+}

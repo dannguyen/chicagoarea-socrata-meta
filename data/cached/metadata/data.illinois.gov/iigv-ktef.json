@@ -1,0 +1,124 @@
+{
+  "id": "iigv-ktef",
+  "name": "IDPH Hospice Residence Facility Directory",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 10,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1737765166,
+  "publicationDate": 1777392572,
+  "rowsUpdatedAt": 1777392560,
+  "viewLastModified": 1777392572,
+  "viewCount": 1840,
+  "downloadCount": 433,
+  "category": "Health and Human Services",
+  "tags": [
+    "hospice residence",
+    "hospice",
+    "residential hospice",
+    "inpatient hospice",
+    "end of life care",
+    "palliative care",
+    "16 bed limit",
+    "210 ilcs 60",
+    "77 ill adm code 280",
+    "idph licensure",
+    "healthcare licensing",
+    "healthcare directory",
+    "licensed facilities",
+    "illinois health"
+  ],
+  "attribution": "IDPH",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "IDPH"
+    }
+  },
+  "columns": [
+    {
+      "name": "Facility Name",
+      "fieldName": "facility_name",
+      "dataTypeName": "text",
+      "description": "Legal name of the licensed Hospice Residence as recorded by IDPH. Often includes the parent hospice program's \"DBA\" trade name plus a location identifier (e.g., a city or campus name). The same legal entity may also hold a separate Hospice Program license.",
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": "Physical street address of the residence. Suite or building numbers are included where applicable. The address shown is the residence itself, not the parent hospice program's administrative office.",
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": "Municipality where the residence is physically located.",
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "County",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": "Illinois county where the residence is physically located.",
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "Zip",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": "Five-digit U.S. Postal Service ZIP code of the residence's physical location.",
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "Contact Name",
+      "fieldName": "contact_name",
+      "dataTypeName": "text",
+      "description": "Primary administrative contact for the residence, designated for IDPH correspondence. Typically the residence administrator or the parent hospice program's director.",
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "Phone",
+      "fieldName": "phone",
+      "dataTypeName": "text",
+      "description": "Main published telephone number for the residence, including area code. Format: (XXX) XXX-XXXX.",
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "License Number",
+      "fieldName": "license_number",
+      "dataTypeName": "text",
+      "description": "License number issued by the Illinois Department of Public Health authorizing the building to operate as a Hospice Residence under 210 ILCS 60 and 77 Ill. Adm. Code 280. The residence license is distinct from the parent hospice program's license; the same legal entity will hold separate license numbers for each.",
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "Exp. Date",
+      "fieldName": "exp_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date on which the residence's current IDPH license expires. The residence license must be renewed independently of the parent hospice program license. Format: YYYY-MM-DD.",
+      "nullCount": 0,
+      "cardinality": 10
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:32.167Z"
+}

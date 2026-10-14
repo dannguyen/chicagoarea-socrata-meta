@@ -1,0 +1,236 @@
+{
+  "id": "6dvr-xwnh",
+  "name": "Transportation Network Providers - Trips (2025-)",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 139039777,
+  "rowCountSource": "cached",
+  "rowLabel": "Trip",
+  "hasRowIdentifier": true,
+  "createdAt": 1740694129,
+  "publicationDate": 1740694134,
+  "rowsUpdatedAt": 1790196799,
+  "viewLastModified": 1774466850,
+  "viewCount": 12149,
+  "downloadCount": 4785,
+  "category": "Transportation",
+  "tags": [
+    "transportation",
+    "tnp",
+    "transportation network provider",
+    "rideshare",
+    "trips",
+    "2025"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "January 2025 to present",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"6dvr-xwnh\"",
+      "Frequency": "Data are updated monthly",
+      "Data Owner": "Chicago Department of Business Affairs & Consumer Protection"
+    }
+  },
+  "columns": [
+    {
+      "name": "Trip ID",
+      "fieldName": "trip_id",
+      "dataTypeName": "text",
+      "description": "A unique identifier for the trip.",
+      "nullCount": 0,
+      "cardinality": 139039777
+    },
+    {
+      "name": "Trip Start Timestamp",
+      "fieldName": "trip_start_timestamp",
+      "dataTypeName": "calendar_date",
+      "description": "When the trip started, rounded to the nearest 15 minutes.",
+      "nullCount": 0,
+      "cardinality": 139039777
+    },
+    {
+      "name": "Trip End Timestamp",
+      "fieldName": "trip_end_timestamp",
+      "dataTypeName": "calendar_date",
+      "description": "When the trip ended, rounded to the nearest 15 minutes.",
+      "nullCount": 0,
+      "cardinality": 146637076
+    },
+    {
+      "name": "Trip Seconds",
+      "fieldName": "trip_seconds",
+      "dataTypeName": "number",
+      "description": "Time of the trip in seconds.",
+      "nullCount": 4742,
+      "cardinality": 139039777
+    },
+    {
+      "name": "Trip Miles",
+      "fieldName": "trip_miles",
+      "dataTypeName": "number",
+      "description": "Distance of the trip in miles.",
+      "nullCount": 1055,
+      "cardinality": 139039777
+    },
+    {
+      "name": "Percent Time Chicago",
+      "fieldName": "percent_time_chicago",
+      "dataTypeName": "number",
+      "description": "Percent of the trip time that was in Chicago.",
+      "nullCount": 490590,
+      "cardinality": 146637076
+    },
+    {
+      "name": "Percent Distance Chicago",
+      "fieldName": "percent_distance_chicago",
+      "dataTypeName": "number",
+      "description": "Percent of the trip distance that was in Chicago.",
+      "nullCount": 493377,
+      "cardinality": 146637076
+    },
+    {
+      "name": "Pickup Census Tract",
+      "fieldName": "pickup_census_tract",
+      "dataTypeName": "text",
+      "description": "The Census Tract where the trip began.This column often will be blank for locations outside Chicago.",
+      "nullCount": 55464970,
+      "cardinality": 146637076
+    },
+    {
+      "name": "Dropoff Census Tract",
+      "fieldName": "dropoff_census_tract",
+      "dataTypeName": "text",
+      "description": "The Census Tract where the trip ended. This column often will be blank for locations outside Chicago.",
+      "nullCount": 55885291,
+      "cardinality": 146637076
+    },
+    {
+      "name": "Pickup Community Area",
+      "fieldName": "pickup_community_area",
+      "dataTypeName": "number",
+      "description": "The Community Area where the trip began. This column will be blank for locations outside Chicago.",
+      "nullCount": 13401066,
+      "cardinality": 139039777
+    },
+    {
+      "name": "Dropoff Community Area",
+      "fieldName": "dropoff_community_area",
+      "dataTypeName": "number",
+      "description": "The Community Area where the trip ended. This column will be blank for locations outside Chicago.",
+      "nullCount": 14104573,
+      "cardinality": 139039777
+    },
+    {
+      "name": "Fare",
+      "fieldName": "fare",
+      "dataTypeName": "number",
+      "description": "The fare for the trip, rounded to the nearest $2.50.",
+      "nullCount": 332241,
+      "cardinality": 139039777
+    },
+    {
+      "name": "Tip",
+      "fieldName": "tip",
+      "dataTypeName": "number",
+      "description": "The tip for the trip, rounded to the nearest $1.00. Cash tips will not be recorded.",
+      "nullCount": 337364,
+      "cardinality": 146637076
+    },
+    {
+      "name": "Additional Charges",
+      "fieldName": "additional_charges",
+      "dataTypeName": "number",
+      "description": "The taxes, fees, and any other charges for the trip.",
+      "nullCount": 337364,
+      "cardinality": 146637076
+    },
+    {
+      "name": "Trip Total",
+      "fieldName": "trip_total",
+      "dataTypeName": "number",
+      "description": "Total cost of the trip. This is calculated as the total of the previous columns, including rounding.",
+      "nullCount": 332241,
+      "cardinality": 139039777
+    },
+    {
+      "name": "Shared Trip Authorized",
+      "fieldName": "shared_trip_authorized",
+      "dataTypeName": "checkbox",
+      "description": "Whether the customer agreed to a shared trip with another customer, regardless of whether the customer was actually matched for a shared trip.",
+      "nullCount": 0,
+      "cardinality": 146637076
+    },
+    {
+      "name": "Shared Trip Match",
+      "fieldName": "shared_trip_match",
+      "dataTypeName": "checkbox",
+      "description": "Whether the customer was actually matched to a shared trip.",
+      "nullCount": 1064,
+      "cardinality": 146637076
+    },
+    {
+      "name": "Trips Pooled",
+      "fieldName": "trips_pooled",
+      "dataTypeName": "number",
+      "description": "If customers were matched for a shared trip, how many trips, including this one, were pooled. All customer trips from the time the vehicle was empty until it was empty again contribute to this count, even if some customers were never present in the vehicle at the same time. Each trip making up the overall shared trip will have a separate record in this dataset, with the same value in this column.",
+      "nullCount": 0,
+      "cardinality": 146637076
+    },
+    {
+      "name": "Pickup Centroid Latitude",
+      "fieldName": "pickup_centroid_latitude",
+      "dataTypeName": "number",
+      "description": "The latitude of the center of the pickup census tract or the community area if the census tract has been hidden for privacy. This column often will be blank for locations outside Chicago.",
+      "nullCount": 12921741,
+      "cardinality": 139039777
+    },
+    {
+      "name": "Pickup Centroid Longitude",
+      "fieldName": "pickup_centroid_longitude",
+      "dataTypeName": "number",
+      "description": "The longitude of the center of the pickup census tract or the community area if the census tract has been hidden for privacy. This column often will be blank for locations outside Chicago.",
+      "nullCount": 13689043,
+      "cardinality": 146637076
+    },
+    {
+      "name": "Pickup Centroid Location",
+      "fieldName": "pickup_centroid_location",
+      "dataTypeName": "point",
+      "description": "The location of the center of the pickup census tract or the community area if the census tract has been hidden for privacy. This column often will be blank for locations outside Chicago.",
+      "nullCount": 13689043,
+      "cardinality": 146637076
+    },
+    {
+      "name": "Dropoff Centroid Latitude",
+      "fieldName": "dropoff_centroid_latitude",
+      "dataTypeName": "number",
+      "description": "The latitude of the center of the dropoff census tract or the community area if the census tract has been hidden for privacy. This column often will be blank for locations outside Chicago.",
+      "nullCount": 14508455,
+      "cardinality": 146637076
+    },
+    {
+      "name": "Dropoff Centroid Longitude",
+      "fieldName": "dropoff_centroid_longitude",
+      "dataTypeName": "number",
+      "description": "The longitude of the center of the dropoff census tract or the community area if the census tract has been hidden for privacy. This column often will be blank for locations outside Chicago.",
+      "nullCount": 13673942,
+      "cardinality": 139039777
+    },
+    {
+      "name": "Dropoff Centroid Location",
+      "fieldName": "dropoff_centroid_location",
+      "dataTypeName": "point",
+      "description": "The location of the center of the dropoff census tract or the community area if the census tract has been hidden for privacy. This column often will be blank for locations outside Chicago.",
+      "nullCount": 14508455,
+      "cardinality": 146637076
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:38:04.870Z"
+}

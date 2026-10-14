@@ -1,0 +1,94 @@
+{
+  "id": "53rm-km6f",
+  "name": "IDPH Modular Dwellings",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 58,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1708036767,
+  "publicationDate": 1708095597,
+  "rowsUpdatedAt": 1708095591,
+  "viewLastModified": 1736793944,
+  "viewCount": 1240,
+  "downloadCount": 193,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "Andrew Frierdich",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "MODCONAME",
+      "fieldName": "modconame",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 56
+    },
+    {
+      "name": "MODCOADDRESS",
+      "fieldName": "modcoaddress",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 53
+    },
+    {
+      "name": "MODCOCITY",
+      "fieldName": "modcocity",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 49
+    },
+    {
+      "name": "MOCOST",
+      "fieldName": "mocost",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 18
+    },
+    {
+      "name": "MOCOPHONE",
+      "fieldName": "mocophone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 18,
+      "cardinality": 38
+    },
+    {
+      "name": "MODCOSTATUS",
+      "fieldName": "modcostatus",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "MODAPVDATE",
+      "fieldName": "modapvdate",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 55,
+      "cardinality": 3
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:32.461Z"
+}

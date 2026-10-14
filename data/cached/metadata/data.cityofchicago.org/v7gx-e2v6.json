@@ -1,0 +1,235 @@
+{
+  "id": "v7gx-e2v6",
+  "name": "Financial Incentive Projects - TIF Works",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 411,
+  "rowCountSource": "cached",
+  "rowLabel": "Project",
+  "hasRowIdentifier": false,
+  "createdAt": 1580850243,
+  "publicationDate": 1580852571,
+  "rowsUpdatedAt": 1756997636,
+  "viewLastModified": 1774468511,
+  "viewCount": 1877,
+  "downloadCount": 6474,
+  "category": "Community & Economic Development",
+  "tags": [
+    "financial",
+    "financial incentive",
+    "incentive",
+    "tif",
+    "tif works"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2011 - Current",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"v7gx-e2v6\"",
+      "Frequency": "Data are updated quarterly",
+      "Data Owner": "Department of Planning and Development"
+    }
+  },
+  "columns": [
+    {
+      "name": "PROJECT NAME",
+      "fieldName": "project_name",
+      "dataTypeName": "text",
+      "description": "The name of the business that received the incentive.",
+      "nullCount": 0,
+      "cardinality": 339
+    },
+    {
+      "name": "APPLICANT NAME",
+      "fieldName": "applicant_name",
+      "dataTypeName": "text",
+      "description": "The individual, company or organization requesting the incentive.",
+      "nullCount": 0,
+      "cardinality": 125
+    },
+    {
+      "name": "ADDRESS NUMBER",
+      "fieldName": "address_number",
+      "dataTypeName": "number",
+      "description": "The address number of the project location.",
+      "nullCount": 0,
+      "cardinality": 254
+    },
+    {
+      "name": "ADDRESS NUMBER (HIGH)",
+      "fieldName": "address_number_high",
+      "dataTypeName": "number",
+      "description": "The high address number if the address is a range. For projects with a single address this field will be blank.",
+      "nullCount": 406,
+      "cardinality": 4
+    },
+    {
+      "name": "STREET DIRECTION",
+      "fieldName": "street_direction",
+      "dataTypeName": "text",
+      "description": "The cardinal direction of the project street address.",
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "STREET NAME",
+      "fieldName": "street_name",
+      "dataTypeName": "text",
+      "description": "The name of the street in the project address.",
+      "nullCount": 0,
+      "cardinality": 145
+    },
+    {
+      "name": "STREET TYPE",
+      "fieldName": "street_type",
+      "dataTypeName": "text",
+      "description": "The type of street in the project address.",
+      "nullCount": 1,
+      "cardinality": 7
+    },
+    {
+      "name": "WARD",
+      "fieldName": "ward",
+      "dataTypeName": "number",
+      "description": "The Aldermanic Ward in which the project is located.",
+      "nullCount": 0,
+      "cardinality": 41
+    },
+    {
+      "name": "COMMUNITY AREA",
+      "fieldName": "community_area",
+      "dataTypeName": "text",
+      "description": "The Community Area, as defined by the City of Chicago, in which the project is located.",
+      "nullCount": 0,
+      "cardinality": 51
+    },
+    {
+      "name": "TIF DISTRICT",
+      "fieldName": "tif_district",
+      "dataTypeName": "text",
+      "description": "The TIF district in which the project is located.",
+      "nullCount": 0,
+      "cardinality": 75
+    },
+    {
+      "name": "APPROVAL DATE",
+      "fieldName": "approval_date",
+      "dataTypeName": "calendar_date",
+      "description": "The date of the contract approving the project. Note: Projects prior to 2017 did not document approval date.",
+      "nullCount": 312,
+      "cardinality": 55
+    },
+    {
+      "name": "COMPLETION DATE",
+      "fieldName": "completion_date",
+      "dataTypeName": "calendar_date",
+      "description": "The date of the Certificate of Completion or other form of confirmation for project completion.",
+      "nullCount": 0,
+      "cardinality": 125
+    },
+    {
+      "name": "INDUSTRY SECTOR",
+      "fieldName": "industry_sector",
+      "dataTypeName": "text",
+      "description": "The classification of the business receiving the incentive.",
+      "nullCount": 0,
+      "cardinality": 27
+    },
+    {
+      "name": "PROJECT DESCRIPTION",
+      "fieldName": "project_description",
+      "dataTypeName": "text",
+      "description": "A brief textual description of the project.",
+      "nullCount": 0,
+      "cardinality": 182
+    },
+    {
+      "name": "INCENTIVE AMOUNT",
+      "fieldName": "incentive_amount",
+      "dataTypeName": "number",
+      "description": "The dollar amount of the incentive paid to the applicant.",
+      "nullCount": 0,
+      "cardinality": 251
+    },
+    {
+      "name": "TOTAL PROJECT COST",
+      "fieldName": "total_project_cost",
+      "dataTypeName": "number",
+      "description": "The total value of the project, including the incentive received.",
+      "nullCount": 0,
+      "cardinality": 257
+    },
+    {
+      "name": "JOBS CREATED: ASPIRATIONAL",
+      "fieldName": "jobs_created_aspirational",
+      "dataTypeName": "number",
+      "description": "The number of full-time equivalent (FTE) jobs created by the project, without requirement of a Redevelopment Agreement.",
+      "nullCount": 1,
+      "cardinality": 23
+    },
+    {
+      "name": "JOBS RETAINED: ASPIRATIONAL",
+      "fieldName": "jobs_retained_aspirational",
+      "dataTypeName": "number",
+      "description": "The number of existing full-time equivalent (FTE) jobs retained by the project, without requirement of a Redevelopment Agreement.",
+      "nullCount": 1,
+      "cardinality": 72
+    },
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": "The location of the address columns, geocoded to a format that allows for mapping and other geographic analysis.",
+      "nullCount": 0,
+      "cardinality": 271
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:14.559Z"
+}

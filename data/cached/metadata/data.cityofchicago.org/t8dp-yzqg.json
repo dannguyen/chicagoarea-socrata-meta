@@ -1,0 +1,124 @@
+{
+  "id": "t8dp-yzqg",
+  "name": "cps_safe_passage_2014",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 65,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1409266174,
+  "publicationDate": null,
+  "rowsUpdatedAt": 1409266174,
+  "viewLastModified": 1712775949,
+  "viewCount": 389,
+  "downloadCount": 1632,
+  "category": "Education",
+  "tags": [
+    "gis",
+    "shapefiles",
+    "kml",
+    "kmz",
+    "schools",
+    "public safety",
+    "cps"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Academic Year 2014-2015",
+      "Frequency": "Updated as needed",
+      "Data Owner": "Chicago Public Schools"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "BUFF_DIST",
+      "fieldName": "buff_dist",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "SHAPE_LE_2",
+      "fieldName": "shape_le_2",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "SCHOOLNAME",
+      "fieldName": "schoolname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 65
+    },
+    {
+      "name": "SCHOOL_ID",
+      "fieldName": "school_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 65
+    },
+    {
+      "name": "ROUTE_NUM",
+      "fieldName": "route_num",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 65
+    },
+    {
+      "name": "IN_OUT",
+      "fieldName": "in_out",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "TYPE",
+      "fieldName": "type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "SHAPE_AREA",
+      "fieldName": "shape_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 65
+    },
+    {
+      "name": "SHAPE_LEN",
+      "fieldName": "shape_len",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 65
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:25.050Z"
+}

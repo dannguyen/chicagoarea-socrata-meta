@@ -1,0 +1,83 @@
+{
+  "id": "6u8z-aubf",
+  "name": "Taxi Medallion Transfers",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 5756,
+  "rowCountSource": "cached",
+  "rowLabel": "Transfer",
+  "hasRowIdentifier": false,
+  "createdAt": 1480531792,
+  "publicationDate": 1654711832,
+  "rowsUpdatedAt": 1791924617,
+  "viewLastModified": 1654881698,
+  "viewCount": 17978,
+  "downloadCount": 8854,
+  "category": "Transportation",
+  "tags": [
+    "licenses",
+    "transportation",
+    "vehicles",
+    "taxis",
+    "transfers",
+    "sales"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.cityofchicago.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2007-current. Records prior to 2008 are incomplete.",
+      "Frequency": "Data are updated daily.",
+      "Data Owner": "Department of Business Affairs & Consumer Protection"
+    }
+  },
+  "columns": [
+    {
+      "name": "Closing Date",
+      "fieldName": "closing_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5756
+    },
+    {
+      "name": "Public Vehicle Number",
+      "fieldName": "public_vehicle_number",
+      "dataTypeName": "number",
+      "description": "The Medallion Number. This number will match the dataset of current Public Passenger Vehicles at https://data.cityofchicago.org/d/tfm3-3j95.",
+      "nullCount": 0,
+      "cardinality": 5756
+    },
+    {
+      "name": "Sale Price",
+      "fieldName": "sale_price",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5756
+    },
+    {
+      "name": "Seller’s Company Name",
+      "fieldName": "sellers_company_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5756
+    },
+    {
+      "name": "Buyer's Company Name",
+      "fieldName": "buyers_company_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5756
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:37:48.632Z"
+}

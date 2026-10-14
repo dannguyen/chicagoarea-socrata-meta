@@ -1,0 +1,88 @@
+{
+  "id": "33fu-uwca",
+  "name": "Cook County Recorder of Deeds - Mortgages - 2011 Complete!",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 161864,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1335302241,
+  "publicationDate": 1685650125,
+  "rowsUpdatedAt": 1412896320,
+  "viewLastModified": 1769544259,
+  "viewCount": 3653,
+  "downloadCount": 43448,
+  "category": "Property & Taxation",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Recorder of Deeds",
+  "attributionLink": "http://cookrecorder.com/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Pin",
+      "fieldName": "pin",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 146380
+    },
+    {
+      "name": "Doc Number",
+      "fieldName": "doc_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 141825
+    },
+    {
+      "name": "Doc Type",
+      "fieldName": "doc_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Recorded Date",
+      "fieldName": "recorded_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 248
+    },
+    {
+      "name": "Execution Date",
+      "fieldName": "execution_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 285,
+      "cardinality": 1855
+    },
+    {
+      "name": "Consideration Amount",
+      "fieldName": "consideration_amount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1390,
+      "cardinality": 37468
+    },
+    {
+      "name": "Location 1",
+      "fieldName": "location_1",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:53.890Z"
+}

@@ -1,0 +1,113 @@
+{
+  "id": "7b7d-v8d9",
+  "name": "Rockford Police Department 72 Hour Dispatch Call Log",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 965,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1737665110,
+  "publicationDate": 1738084764,
+  "rowsUpdatedAt": 1791997654,
+  "viewLastModified": 1791997652,
+  "viewCount": 40297,
+  "downloadCount": 2420,
+  "category": "Local Government",
+  "tags": [
+    "cfs",
+    "dispatch",
+    "calls for service"
+  ],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "City of Rockford"
+    },
+    "Data Management": {
+      "Maintainer Email": "opendata@rockfordil.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "Event_Number",
+      "fieldName": "event_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 965
+    },
+    {
+      "name": "StreetNum",
+      "fieldName": "streetnum",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 194,
+      "cardinality": 965
+    },
+    {
+      "name": "StreetName",
+      "fieldName": "streetname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 116,
+      "cardinality": 965
+    },
+    {
+      "name": "Full_Address",
+      "fieldName": "full_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 965
+    },
+    {
+      "name": "Reporting_District",
+      "fieldName": "reporting_district",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 965
+    },
+    {
+      "name": "Dispatch_Date_Time",
+      "fieldName": "dispatch_date_time",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 965
+    },
+    {
+      "name": "Dispatch_Date",
+      "fieldName": "dispatch_date",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 965
+    },
+    {
+      "name": "Dispatch_Time",
+      "fieldName": "dispatch_time",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 965
+    },
+    {
+      "name": "Incident_Type_Desc_Display",
+      "fieldName": "incident_type_desc_display",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 965
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:32.051Z"
+}

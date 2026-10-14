@@ -1,0 +1,168 @@
+{
+  "id": "s9zb-nuc6",
+  "name": "Employee Overtime and Supplemental Earnings 2013",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 22708,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1373863473,
+  "publicationDate": 1391472656,
+  "rowsUpdatedAt": 1391472600,
+  "viewLastModified": 1531341850,
+  "viewCount": 11954,
+  "downloadCount": 5317,
+  "category": "Administration & Finance",
+  "tags": [
+    "budget",
+    "overtime",
+    "supplemental earnings"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "January 2013 to December 2013",
+      "Frequency": "Data is updated monthly",
+      "Data Owner": "Budget & Management"
+    }
+  },
+  "columns": [
+    {
+      "name": "DEPARTMENT NAME",
+      "fieldName": "department_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "EMPLOYEE NAME",
+      "fieldName": "employee_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 21354
+    },
+    {
+      "name": "TITLE",
+      "fieldName": "title",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 379
+    },
+    {
+      "name": "JAN 2013",
+      "fieldName": "jan_2013",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4953
+    },
+    {
+      "name": "FEB 2013",
+      "fieldName": "feb_2013",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5075
+    },
+    {
+      "name": "MAR 2013",
+      "fieldName": "mar_2013",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6599
+    },
+    {
+      "name": "APR 2013",
+      "fieldName": "apr_2013",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4849
+    },
+    {
+      "name": "MAY 2013",
+      "fieldName": "may_2013",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4843
+    },
+    {
+      "name": "JUN 2013",
+      "fieldName": "jun_2013",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5350
+    },
+    {
+      "name": "JUL 2013",
+      "fieldName": "jul_2013",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5527
+    },
+    {
+      "name": "AUG 2013",
+      "fieldName": "aug_2013",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5340
+    },
+    {
+      "name": "SEP 2013",
+      "fieldName": "sep_2013",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5363
+    },
+    {
+      "name": "OCT 2013",
+      "fieldName": "oct_2013",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5398
+    },
+    {
+      "name": "NOV 2013",
+      "fieldName": "nov_2013",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5509
+    },
+    {
+      "name": "DEC 2013",
+      "fieldName": "dec_2013",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5960
+    },
+    {
+      "name": "2013 TOTAL",
+      "fieldName": "grand_total",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 19067
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:38:04.924Z"
+}

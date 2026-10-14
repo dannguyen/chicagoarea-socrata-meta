@@ -1,0 +1,94 @@
+{
+  "id": "ehpf-mhta",
+  "name": "IDPH Manufactured Home Communities",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 631,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1708036751,
+  "publicationDate": 1708095891,
+  "rowsUpdatedAt": 1708095885,
+  "viewLastModified": 1736793979,
+  "viewCount": 211,
+  "downloadCount": 128,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "Andrew Frierdich",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "MhpHIDNUMBER",
+      "fieldName": "mhphidnumber",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 626
+    },
+    {
+      "name": "MPHFACNAME",
+      "fieldName": "mphfacname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 627
+    },
+    {
+      "name": "MPHFACADDRESS",
+      "fieldName": "mphfacaddress",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 9,
+      "cardinality": 604
+    },
+    {
+      "name": "MPHFACCITY",
+      "fieldName": "mphfaccity",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 325
+    },
+    {
+      "name": "MPHFACST",
+      "fieldName": "mphfacst",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "MPHFACZIPCODE",
+      "fieldName": "mphfaczipcode",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 309
+    },
+    {
+      "name": "MPHFACCONAME",
+      "fieldName": "mphfacconame",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 124
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:33.963Z"
+}

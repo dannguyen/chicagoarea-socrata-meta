@@ -1,0 +1,110 @@
+{
+  "id": "an54-gqss",
+  "name": "Fiscal Year 2017 Preliminary Budget - Fiscal Year 2017 Projected Revenue",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 57,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1468610299,
+  "publicationDate": 1468610502,
+  "rowsUpdatedAt": 1468610311,
+  "viewLastModified": 1769545680,
+  "viewCount": 845,
+  "downloadCount": 4164,
+  "category": "Finance & Operations",
+  "tags": [
+    "fy2016",
+    "fy2017",
+    "2017 budget",
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Budget and Management Services",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Department of Budget and Management Services"
+    },
+    "Metadata": {
+      "Update Frequency": "Yearly"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Annually",
+      "Publishing frequency": "Annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "Fund",
+      "fieldName": "fund",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Type",
+      "fieldName": "type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "Revenue Source",
+      "fieldName": "revenue_source",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 57
+    },
+    {
+      "name": "FY2016 Adopted Revenue",
+      "fieldName": "fy2016_adopted_revenue",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 56
+    },
+    {
+      "name": "FY2016 Year End Estimated Revenue",
+      "fieldName": "fy2016_year_end_estimated_revenue",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 57
+    },
+    {
+      "name": "FY2017 Preliminary Revenue Estimate",
+      "fieldName": "fy2017_preliminary_revenue_estimate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 54
+    },
+    {
+      "name": "FY2017 Preliminary Estimate vs FY2016 Adopted Revenue",
+      "fieldName": "fy2017_preliminary_estimate_vs_fy2016_adopted_revenue",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 42
+    },
+    {
+      "name": "FY2017 Preliminary Estimate vs FY2016 Adopted Revenue Percent",
+      "fieldName": "fy2017_preliminary_estimate_vs_fy2016_adopted_revenue_percent",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 33
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:05.520Z"
+}

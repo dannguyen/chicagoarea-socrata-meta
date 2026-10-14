@@ -1,0 +1,339 @@
+{
+  "id": "eucw-j9dg",
+  "name": "IEPA Leaking Underground Storage Tank Incident",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 26274,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1708036828,
+  "publicationDate": 1708094813,
+  "rowsUpdatedAt": 1708094794,
+  "viewLastModified": 1727117468,
+  "viewCount": 329,
+  "downloadCount": 140,
+  "category": "Natural and Cultural Resources",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "INCIDENT",
+      "fieldName": "incident",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 26274
+    },
+    {
+      "name": "LPC #",
+      "fieldName": "lpc",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20572
+    },
+    {
+      "name": "IEMA Date",
+      "fieldName": "iema_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 159,
+      "cardinality": 5808
+    },
+    {
+      "name": "Site Name",
+      "fieldName": "site_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 17249
+    },
+    {
+      "name": "Site City",
+      "fieldName": "site_city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1292
+    },
+    {
+      "name": "Site Location",
+      "fieldName": "site_location",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 17,
+      "cardinality": 22620
+    },
+    {
+      "name": "Site State",
+      "fieldName": "site_state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2139,
+      "cardinality": 1
+    },
+    {
+      "name": "Site Zip",
+      "fieldName": "site_zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 72,
+      "cardinality": 1436
+    },
+    {
+      "name": "Site County",
+      "fieldName": "site_county",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 4424,
+      "cardinality": 102
+    },
+    {
+      "name": "Primary Responsible Party Name",
+      "fieldName": "primary_responsible_party",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3754,
+      "cardinality": 13591
+    },
+    {
+      "name": "Primary Responsible Party Address",
+      "fieldName": "primary_responsible_party_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3845,
+      "cardinality": 14032
+    },
+    {
+      "name": "Primary Responsible Party City",
+      "fieldName": "primary_responsible_party_2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3826,
+      "cardinality": 1635
+    },
+    {
+      "name": "Primary Responsible Party State",
+      "fieldName": "primary_responsible_party_3",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3832,
+      "cardinality": 48
+    },
+    {
+      "name": "Primary Responsible Party Zip Code",
+      "fieldName": "primary_responsible_party_4",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3894,
+      "cardinality": 2725
+    },
+    {
+      "name": "Primary Responsible Party Phone",
+      "fieldName": "primary_responsible_party_5",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 18037,
+      "cardinality": 5050
+    },
+    {
+      "name": "Primary Responsible Party Contact",
+      "fieldName": "primary_responsible_party_6",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 6248,
+      "cardinality": 12865
+    },
+    {
+      "name": "Gasoline",
+      "fieldName": "gasoline",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "UnLeaded",
+      "fieldName": "unleaded",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Diesel",
+      "fieldName": "diesel",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Fuel Oil",
+      "fieldName": "fuel_oil",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Jet Fuel",
+      "fieldName": "jet_fuel",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Used Oil",
+      "fieldName": "used_oil",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Non-Petroleum Product",
+      "fieldName": "non_petroleum_product",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Other Petroleum",
+      "fieldName": "other_petroleum",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Regulation",
+      "fieldName": "regulation",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 4
+    },
+    {
+      "name": "Project Manager First Name",
+      "fieldName": "project_manager_first_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 6925,
+      "cardinality": 43
+    },
+    {
+      "name": "Project Manager Last Name",
+      "fieldName": "project_manager_last_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 891,
+      "cardinality": 136
+    },
+    {
+      "name": "Project Manager Phone",
+      "fieldName": "project_manager_phone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 7315,
+      "cardinality": 41
+    },
+    {
+      "name": "Project Manager Email",
+      "fieldName": "project_manager_email",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 9655,
+      "cardinality": 40
+    },
+    {
+      "name": "Non-Lust Date",
+      "fieldName": "non_lust_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 24780,
+      "cardinality": 1033
+    },
+    {
+      "name": "20 Day Report Date",
+      "fieldName": "_20_day_report_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 7466,
+      "cardinality": 4615
+    },
+    {
+      "name": "45 Day Report Date",
+      "fieldName": "_45_day_report_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 7366,
+      "cardinality": 4531
+    },
+    {
+      "name": "NFR Date",
+      "fieldName": "nfr_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 10048,
+      "cardinality": 3997
+    },
+    {
+      "name": "NFR Recorded Date",
+      "fieldName": "nfr_recorded_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 16078,
+      "cardinality": 3028
+    },
+    {
+      "name": "Pre-74 Date",
+      "fieldName": "pre_74_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 26078,
+      "cardinality": 112
+    },
+    {
+      "name": "Free Product Discovery Date",
+      "fieldName": "free_product_discovery_date",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 26176,
+      "cardinality": 74
+    },
+    {
+      "name": "Heating Oil Letter Date",
+      "fieldName": "heating_oil_letter_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 25140,
+      "cardinality": 728
+    },
+    {
+      "name": "Non LUST Letter Date",
+      "fieldName": "non_lust_letter_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 24780,
+      "cardinality": 1033
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:33.625Z"
+}

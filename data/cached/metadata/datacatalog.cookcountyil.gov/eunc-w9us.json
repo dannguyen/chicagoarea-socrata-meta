@@ -1,0 +1,66 @@
+{
+  "id": "eunc-w9us",
+  "name": "Metropolitan Water Reclamation District Inspector General Quarterly Reports",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 24,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1563380861,
+  "publicationDate": 1563381632,
+  "rowsUpdatedAt": 1744814285,
+  "viewLastModified": 1769547455,
+  "viewCount": 7677,
+  "downloadCount": 1728,
+  "category": "Finance & Operations",
+  "tags": [],
+  "attribution": "Office of the Independent Inspector General",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Update Frequency": "Quarterly"
+    }
+  },
+  "columns": [
+    {
+      "name": "Link",
+      "fieldName": "link",
+      "dataTypeName": "url",
+      "description": "Link to PDF file",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Date Issued",
+      "fieldName": "date_issued",
+      "dataTypeName": "calendar_date",
+      "description": "Date of PDF document creation",
+      "nullCount": 0,
+      "cardinality": 24
+    },
+    {
+      "name": "Fiscal Year",
+      "fieldName": "fiscal_year",
+      "dataTypeName": "text",
+      "description": "Year of PDF document creation",
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Quarter",
+      "fieldName": "quarter",
+      "dataTypeName": "number",
+      "description": "Fiscal Quarter of PDF document",
+      "nullCount": 0,
+      "cardinality": 4
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:51.478Z"
+}

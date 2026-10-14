@@ -1,0 +1,103 @@
+{
+  "id": "2b3m-wnm2",
+  "name": "7th Ward Alderman Applicants - 2013",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 59,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1359644810,
+  "publicationDate": 1376585953,
+  "rowsUpdatedAt": 1376585912,
+  "viewLastModified": 1531341877,
+  "viewCount": 2088,
+  "downloadCount": 6029,
+  "category": "Administration & Finance",
+  "tags": [
+    "elections"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "January 2013",
+      "Frequency": "Updated as needed",
+      "Data Owner": "City of Chicago"
+    }
+  },
+  "columns": [
+    {
+      "name": "FULL NAME",
+      "fieldName": "full_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 59
+    },
+    {
+      "name": "LAST NAME",
+      "fieldName": "last_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 55
+    },
+    {
+      "name": "FIRST NAME",
+      "fieldName": "first_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 56
+    },
+    {
+      "name": "MIDDLE NAME",
+      "fieldName": "middle_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 17,
+      "cardinality": 40
+    },
+    {
+      "name": "SUFFIX",
+      "fieldName": "suffix",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 53,
+      "cardinality": 4
+    },
+    {
+      "name": "MET REQUIREMENTS",
+      "fieldName": "met_requirements",
+      "dataTypeName": "text",
+      "description": "Whether applicants meet the requirements for preliminary review.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "APPOINTED",
+      "fieldName": "appointed",
+      "dataTypeName": "text",
+      "description": "Y for the applicant selected by the mayor.",
+      "nullCount": 58,
+      "cardinality": 1
+    },
+    {
+      "name": "URL",
+      "fieldName": "url",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:13.029Z"
+}

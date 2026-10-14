@@ -1,0 +1,254 @@
+{
+  "id": "vsdy-d8k7",
+  "name": "Chicago Public Library Events",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 4059,
+  "rowCountSource": "cached",
+  "rowLabel": "Event",
+  "hasRowIdentifier": true,
+  "createdAt": 1708616451,
+  "publicationDate": 1709849979,
+  "rowsUpdatedAt": 1791943349,
+  "viewLastModified": 1753221803,
+  "viewCount": 2835,
+  "downloadCount": 28620,
+  "category": "Events",
+  "tags": [
+    "libraries",
+    "events"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chipublib.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Future",
+      "Data Owner": "Chicago Public Libraries"
+    }
+  },
+  "columns": [
+    {
+      "name": "Title",
+      "fieldName": "title",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4059
+    },
+    {
+      "name": "Description",
+      "fieldName": "description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4059
+    },
+    {
+      "name": "Event Types",
+      "fieldName": "event_types",
+      "dataTypeName": "text",
+      "description": "If the event falls under multiple types, they are all listed, separated by the | (pipe) character.",
+      "nullCount": 0,
+      "cardinality": 4059
+    },
+    {
+      "name": "Event Audiences",
+      "fieldName": "event_audiences",
+      "dataTypeName": "text",
+      "description": "If the event is for multiple audiences, they are all listed, separated by the | (pipe) character.",
+      "nullCount": 0,
+      "cardinality": 4059
+    },
+    {
+      "name": "Event Languages",
+      "fieldName": "event_languages",
+      "dataTypeName": "text",
+      "description": "If the event is in multiple languages, they are all listed, separated by the | (pipe) character.",
+      "nullCount": 0,
+      "cardinality": 4059
+    },
+    {
+      "name": "Event Page",
+      "fieldName": "event_page",
+      "dataTypeName": "url",
+      "description": "Clickable URL to the event page on the Chicago Public Library site.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Location Name",
+      "fieldName": "location_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 120,
+      "cardinality": 4059
+    },
+    {
+      "name": "Location Details",
+      "fieldName": "location_details",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2741,
+      "cardinality": 4059
+    },
+    {
+      "name": "Start",
+      "fieldName": "start",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4059
+    },
+    {
+      "name": "End",
+      "fieldName": "end",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4059
+    },
+    {
+      "name": "Featured",
+      "fieldName": "featured",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4059
+    },
+    {
+      "name": "Cancelled",
+      "fieldName": "cancelled",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4059
+    },
+    {
+      "name": "Recurring",
+      "fieldName": "recurring",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4059
+    },
+    {
+      "name": "Registration Starts",
+      "fieldName": "registration_starts",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 3941,
+      "cardinality": 4059
+    },
+    {
+      "name": "Registration Ends",
+      "fieldName": "registration_ends",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 2828,
+      "cardinality": 4059
+    },
+    {
+      "name": "Registration Closed",
+      "fieldName": "registration_closed",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4059
+    },
+    {
+      "name": "Registration Status",
+      "fieldName": "registration_status",
+      "dataTypeName": "text",
+      "description": "Initial information. Please click the Event Page link to confirm.",
+      "nullCount": 0,
+      "cardinality": 4059
+    },
+    {
+      "name": "Location Address",
+      "fieldName": "location_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 122,
+      "cardinality": 4059
+    },
+    {
+      "name": "Location ZIP",
+      "fieldName": "location_zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 122,
+      "cardinality": 4059
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": null,
+      "nullCount": 120,
+      "cardinality": 4059
+    },
+    {
+      "name": "Day of the Week",
+      "fieldName": "day_of_the_week",
+      "dataTypeName": "text",
+      "description": "Based on the Start date.",
+      "nullCount": 0,
+      "cardinality": 4059
+    },
+    {
+      "name": "Event ID",
+      "fieldName": "event_id",
+      "dataTypeName": "text",
+      "description": "A unique ID for the event.",
+      "nullCount": 0,
+      "cardinality": 4059
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Boundaries - ZIP Codes' (rpca-8um6) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Community Areas' (vrxf-vc4k) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Zip Codes' (6mkv-f3dw) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Census Tracts' (bdys-3d7i) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards 2023-",
+      "fieldName": ":@computed_region_8hcu_yrd4",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Wards 2023-' (8hcu-yrd4) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:10.397Z"
+}

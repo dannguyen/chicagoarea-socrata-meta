@@ -1,0 +1,121 @@
+{
+  "id": "tvy4-qfgw",
+  "name": "all.subcook",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 155,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1492200441,
+  "publicationDate": 1492200447,
+  "rowsUpdatedAt": 1492200446,
+  "viewLastModified": 1769542953,
+  "viewCount": 1132,
+  "downloadCount": 1593,
+  "category": "Health & Human Services",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Public Health",
+  "attributionLink": "http://cookcountypublichealth.org/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Detailed Descriptive": {
+      "Geographic coverage": "Cook County without City of Chicago",
+      "Geographic unit": "City"
+    },
+    "Publishing Details": {
+      "Data change frequency": "As needed",
+      "Publishing frequency": "As needed"
+    }
+  },
+  "columns": [
+    {
+      "name": "CITY",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 155
+    },
+    {
+      "name": "MCD",
+      "fieldName": "mcd",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "FIPS",
+      "fieldName": "fips",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 155
+    },
+    {
+      "name": "DIST",
+      "fieldName": "dist",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "SUBRBNCOOK",
+      "fieldName": "subrbncook",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 155
+    },
+    {
+      "name": "DISTSORT",
+      "fieldName": "distsort",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "Common",
+      "fieldName": "common",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "DISTRICT",
+      "fieldName": "district",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 8,
+      "cardinality": 4
+    },
+    {
+      "name": "CCDPHJURIS",
+      "fieldName": "ccdphjuris",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:02.517Z"
+}

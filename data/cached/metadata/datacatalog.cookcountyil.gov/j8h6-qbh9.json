@@ -1,0 +1,73 @@
+{
+  "id": "j8h6-qbh9",
+  "name": "Budget - FY18 Year End Revenue Projection",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 54,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1529945121,
+  "publicationDate": 1529951605,
+  "rowsUpdatedAt": 1529951553,
+  "viewLastModified": 1769543333,
+  "viewCount": 829,
+  "downloadCount": 1144,
+  "category": "Finance & Operations",
+  "tags": [
+    "budget",
+    "inactive"
+  ],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "2018 YE Revenue Projections",
+      "fieldName": "_2018_ye_revenue_projections",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 54
+    },
+    {
+      "name": "Adopted FY18",
+      "fieldName": "adopted_fy18",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 52
+    },
+    {
+      "name": "Actual (Dec - May)",
+      "fieldName": "actual_dec_may",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 54
+    },
+    {
+      "name": "Estimated (Jun - Nov)",
+      "fieldName": "estimated_jun_nov",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 53
+    },
+    {
+      "name": "Estimated FY18 YE",
+      "fieldName": "estimatedfy18_ye",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 54
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:05.725Z"
+}

@@ -1,0 +1,262 @@
+{
+  "id": "9xbi-x7x8",
+  "name": "Lobbyist Entity Client Data Daily",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 42783,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1736789886,
+  "publicationDate": 1736791050,
+  "rowsUpdatedAt": 1791981804,
+  "viewLastModified": 1736802025,
+  "viewCount": 3777,
+  "downloadCount": 766,
+  "category": "Government and Public Employees",
+  "tags": [],
+  "attribution": "Illinois Secretary of State",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Illinois Secretary of State"
+    },
+    "Data Management": {
+      "Maintainer": "Illinois Secretary of State",
+      "Maintainer Email": "publicdata@ilsos.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "ENT_REG_YEAR",
+      "fieldName": "ent_reg_year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 42783
+    },
+    {
+      "name": "LOBBYIST_LNAME",
+      "fieldName": "lobbyist_lname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 42783
+    },
+    {
+      "name": "LOBBYIST_FNAME",
+      "fieldName": "lobbyist_fname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 42783
+    },
+    {
+      "name": "LOBBYIST_MNAME",
+      "fieldName": "lobbyist_mname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 27351,
+      "cardinality": 42783
+    },
+    {
+      "name": "LOBBYIST_ID",
+      "fieldName": "lobbyist_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 42783
+    },
+    {
+      "name": "LOBBYIST_EMAIL",
+      "fieldName": "lobbyist_email",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 42783
+    },
+    {
+      "name": "LOBBYIST_ADDR1",
+      "fieldName": "lobbyist_addr1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 42783
+    },
+    {
+      "name": "LOBBYIST_ADDR2",
+      "fieldName": "lobbyist_addr2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 25631,
+      "cardinality": 42783
+    },
+    {
+      "name": "LOBBYIST_CITY",
+      "fieldName": "lobbyist_city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 42783
+    },
+    {
+      "name": "LOBBYIST_ST_ABBR",
+      "fieldName": "lobbyist_st_abbr",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 42783
+    },
+    {
+      "name": "LOBBYIST_ZIP",
+      "fieldName": "lobbyist_zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 42783
+    },
+    {
+      "name": "LOBBYIST_STATUS",
+      "fieldName": "lobbyist_status",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 42783
+    },
+    {
+      "name": "LOBBYIST_PHONE",
+      "fieldName": "lobbyist_phone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 42783
+    },
+    {
+      "name": "ENT_ID",
+      "fieldName": "ent_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 42783
+    },
+    {
+      "name": "ENT_NAME",
+      "fieldName": "ent_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 42783
+    },
+    {
+      "name": "ENT_ADDR1",
+      "fieldName": "ent_addr1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 42783
+    },
+    {
+      "name": "ENT_ADDR2",
+      "fieldName": "ent_addr2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 20563,
+      "cardinality": 42783
+    },
+    {
+      "name": "ENT_CITY",
+      "fieldName": "ent_city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 42783
+    },
+    {
+      "name": "ENT_ST_ABBR",
+      "fieldName": "ent_st_abbr",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 42783
+    },
+    {
+      "name": "ENT_ZIP",
+      "fieldName": "ent_zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 42783
+    },
+    {
+      "name": "CLIENT_ID",
+      "fieldName": "client_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 42783
+    },
+    {
+      "name": "CLIENT_NAME",
+      "fieldName": "client_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 9544,
+      "cardinality": 42783
+    },
+    {
+      "name": "CLIENT_ADDR1",
+      "fieldName": "client_addr1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 9544,
+      "cardinality": 42783
+    },
+    {
+      "name": "CLIENT_ADDR2",
+      "fieldName": "client_addr2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 31206,
+      "cardinality": 42783
+    },
+    {
+      "name": "CLIENT_CITY",
+      "fieldName": "client_city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 9544,
+      "cardinality": 42783
+    },
+    {
+      "name": "CLIENT_ST_ABBR",
+      "fieldName": "client_st_abbr",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 9544,
+      "cardinality": 42783
+    },
+    {
+      "name": "CLIENT_ZIP",
+      "fieldName": "client_zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 9562,
+      "cardinality": 42783
+    },
+    {
+      "name": "CLIENT_STATUS",
+      "fieldName": "client_status",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 9544,
+      "cardinality": 42783
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:31.641Z"
+}

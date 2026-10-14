@@ -1,0 +1,74 @@
+{
+  "id": "p7tk-4qhq",
+  "name": "Assessor [Archived 05-18-2022] - Homeowner Exemptions, by Town Number/Township - 2010",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 822,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1314899509,
+  "publicationDate": 1412888110,
+  "rowsUpdatedAt": 1412888094,
+  "viewLastModified": 1769543494,
+  "viewCount": 2386,
+  "downloadCount": 2842,
+  "category": "Property & Taxation",
+  "tags": [
+    "cook county assessor",
+    "property tax",
+    "archive"
+  ],
+  "attribution": "Cook County Assessor",
+  "attributionLink": "http://www.cookcountyassessor.com/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Town Number",
+      "fieldName": "town_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": "Township Name",
+      "fieldName": "township_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": "Class",
+      "fieldName": "class",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": "Class Decription",
+      "fieldName": "class_decription",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": "Count",
+      "fieldName": "count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:55.888Z"
+}

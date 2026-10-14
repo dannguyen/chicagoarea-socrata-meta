@@ -1,0 +1,96 @@
+{
+  "id": "wfma-6dww",
+  "name": "RightOfWay",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 24702,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1450191211,
+  "publicationDate": null,
+  "rowsUpdatedAt": 1450191211,
+  "viewLastModified": 1769544635,
+  "viewCount": 844,
+  "downloadCount": 1793,
+  "category": "Property & Taxation",
+  "tags": [
+    "cadastral",
+    "tax map",
+    "property",
+    "lot",
+    "cook",
+    "gis",
+    "clerk",
+    "transportation",
+    "inactive"
+  ],
+  "attribution": "Cook County Clerk / Map Department",
+  "attributionLink": "http://www.cookcountyclerk.com/tsd/maps/Pages/default.aspx",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "ROWREC_DAT",
+      "fieldName": "rowrec_dat",
+      "dataTypeName": "date",
+      "description": null,
+      "nullCount": 20695,
+      "cardinality": 2387
+    },
+    {
+      "name": "ROWTYPE",
+      "fieldName": "rowtype",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "JOB_NO",
+      "fieldName": "job_no",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3353
+    },
+    {
+      "name": "ROWDOC_NO",
+      "fieldName": "rowdoc_no",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5195
+    },
+    {
+      "name": "SHAPE_STAr",
+      "fieldName": "shape_star",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24693
+    },
+    {
+      "name": "SHAPE_STLe",
+      "fieldName": "shape_stle",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24694
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:05.530Z"
+}

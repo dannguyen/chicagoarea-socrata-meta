@@ -1,0 +1,54 @@
+{
+  "id": "pnau-cf66",
+  "name": "CTA - List of CTA Datasets",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 20,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1313107374,
+  "publicationDate": 1495038405,
+  "rowsUpdatedAt": 1495038394,
+  "viewLastModified": 1495038405,
+  "viewCount": 79761,
+  "downloadCount": 18610,
+  "category": "Transportation",
+  "tags": [
+    "cta",
+    "public transit",
+    "chicago transit authority"
+  ],
+  "attribution": "Chicago Transit Authority",
+  "attributionLink": "http://www.transitchicago.com",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Data Owner": "Chicago Transit Authority "
+    }
+  },
+  "columns": [
+    {
+      "name": "Link",
+      "fieldName": "link",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": "Description",
+      "fieldName": "description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:05.252Z"
+}

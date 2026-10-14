@@ -1,0 +1,90 @@
+{
+  "id": "iu6r-a89d",
+  "name": "State Employee Pay",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 105366,
+  "rowCountSource": "cached",
+  "rowLabel": "Employee",
+  "hasRowIdentifier": false,
+  "createdAt": 1727183355,
+  "publicationDate": 1727463760,
+  "rowsUpdatedAt": 1791716422,
+  "viewLastModified": 1789999575,
+  "viewCount": 32565,
+  "downloadCount": 786,
+  "category": "Government and Public Employees",
+  "tags": [
+    "hr",
+    "itap",
+    "labor",
+    "payroll"
+  ],
+  "attribution": "DoIT EAS",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Innovation and Technology"
+    },
+    "Data Management": {
+      "Maintainer Email": "CMS.ITAP.Support@illinois.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "Agency",
+      "fieldName": "agency",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 105366
+    },
+    {
+      "name": "Agency Division",
+      "fieldName": "agency_division",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 105366
+    },
+    {
+      "name": "Employee Name",
+      "fieldName": "employee_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 105366
+    },
+    {
+      "name": "Position Title",
+      "fieldName": "position_title",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 9,
+      "cardinality": 105366
+    },
+    {
+      "name": "Period Pay Rate",
+      "fieldName": "period_pay_rate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 105366
+    },
+    {
+      "name": "YTD Gross",
+      "fieldName": "ytd_gross",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 105366
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:28.907Z"
+}

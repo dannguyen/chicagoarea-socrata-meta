@@ -1,0 +1,227 @@
+{
+  "id": "a536-gjbq",
+  "name": "Assessor [Archived 05-11-2022] - Residential Exemption Amounts",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 18462,
+  "rowCountSource": "cached",
+  "rowLabel": "Tabulation",
+  "hasRowIdentifier": false,
+  "createdAt": 1611775579,
+  "publicationDate": 1614808410,
+  "rowsUpdatedAt": 1614808409,
+  "viewLastModified": 1769542997,
+  "viewCount": 6897,
+  "downloadCount": 3364,
+  "category": "Property & Taxation",
+  "tags": [
+    "cook county assessor",
+    "property tax",
+    "archive"
+  ],
+  "attribution": "Cook County Assessor",
+  "attributionLink": "https://www.cookcountyassessor.com/",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Data Science"
+    },
+    "Metadata": {
+      "Update Frequency": "Yearly"
+    },
+    "Detailed Descriptive": {
+      "Related documents": "https://gitlab.com/ccao-data-science---modeling/processes/etl_open_data",
+      "Data notes": "Suppressed fields take the value -99. Recover total Assessed Value (AV) from Equalized Assessed Value (EAV) by dividing out the Equalization Factor.",
+      "Geographic coverage": "Countywide",
+      "Geographic unit": "Parcel"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Not updated (historical only)",
+      "Publishing frequency": "Annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "Tax code",
+      "fieldName": "cl_txcd",
+      "dataTypeName": "text",
+      "description": "Tax codes identify unique combinations of taxing jurisdiction",
+      "nullCount": 0,
+      "cardinality": 2299
+    },
+    {
+      "name": "Equalization factor",
+      "fieldName": "factor",
+      "dataTypeName": "number",
+      "description": "State equalization factor",
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "Year",
+      "fieldName": "tax_year",
+      "dataTypeName": "number",
+      "description": "Year",
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "Total PINs",
+      "fieldName": "pins",
+      "dataTypeName": "number",
+      "description": "Total residential PINs in tax code",
+      "nullCount": 0,
+      "cardinality": 2271
+    },
+    {
+      "name": "Total Exempt EAV",
+      "fieldName": "total_exempt_eav",
+      "dataTypeName": "number",
+      "description": "Total exempted EAV for all exemptions",
+      "nullCount": 0,
+      "cardinality": 12764
+    },
+    {
+      "name": "Homeowners",
+      "fieldName": "ho",
+      "dataTypeName": "number",
+      "description": "Total exempted EAV for homeowners' exemptions",
+      "nullCount": 0,
+      "cardinality": 470
+    },
+    {
+      "name": "Count homeowners",
+      "fieldName": "ho_c",
+      "dataTypeName": "number",
+      "description": "Total homeowners' exemptions",
+      "nullCount": 0,
+      "cardinality": 124
+    },
+    {
+      "name": "Senior homeowners",
+      "fieldName": "hs",
+      "dataTypeName": "number",
+      "description": "Total exempted EAV for senior homeowners' exemptions",
+      "nullCount": 0,
+      "cardinality": 32
+    },
+    {
+      "name": "Count senior homeowners",
+      "fieldName": "hs_c",
+      "dataTypeName": "number",
+      "description": "Total senior homeowners' exemptions",
+      "nullCount": 0,
+      "cardinality": 16
+    },
+    {
+      "name": "Senior freeze",
+      "fieldName": "sf",
+      "dataTypeName": "number",
+      "description": "Total exempted EAV for senior freeze exemptions. Note that this exemption is administered differently than the homeowners'.",
+      "nullCount": 0,
+      "cardinality": 45
+    },
+    {
+      "name": "Count senior freeze",
+      "fieldName": "sf_c",
+      "dataTypeName": "number",
+      "description": "Total senior freeze exemptions",
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Disabled",
+      "fieldName": "disabled",
+      "dataTypeName": "number",
+      "description": "Total exempted EAV for disabled homeowners' exemptions",
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Count disabled",
+      "fieldName": "disabled_c",
+      "dataTypeName": "number",
+      "description": "Total disabled homeowners' exemptions",
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Veteran",
+      "fieldName": "veteran",
+      "dataTypeName": "number",
+      "description": "Total exempted EAV for veterans' exemptions",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Count veterans",
+      "fieldName": "veteran_c",
+      "dataTypeName": "number",
+      "description": "Total veterans' exemptions",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Returning veteran",
+      "fieldName": "return_vet",
+      "dataTypeName": "number",
+      "description": "Total exempted EAV for returning veterans' exemptions",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Count returning veteran",
+      "fieldName": "return_vet_c",
+      "dataTypeName": "number",
+      "description": "Total returning veterans' exemptions",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Disabled veteran <75",
+      "fieldName": "dvet_lt75",
+      "dataTypeName": "number",
+      "description": "Total exempted EAV for disabled veterans' exemptions, for veterans less than 75% disabled.",
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Count disabled veteran <75",
+      "fieldName": "dvet_lt75_c",
+      "dataTypeName": "number",
+      "description": "Total disabled veterans' exemptions, for veterans less than 75% disabled.",
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Disabled veteran >75",
+      "fieldName": "dvet_ge75",
+      "dataTypeName": "number",
+      "description": "Total exempted EAV for disabled veterans' exemptions, for veterans greater than 75% disabled.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Count disabled veteran >75",
+      "fieldName": "dvet_ge75_c",
+      "dataTypeName": "number",
+      "description": "Total disabled veterans' exemptions, for veterans greater than 75% disabled.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "suppression_flag",
+      "fieldName": "suppression_flag",
+      "dataTypeName": "number",
+      "description": "Indicates where a supression was made.",
+      "nullCount": 0,
+      "cardinality": 2
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:51.799Z"
+}

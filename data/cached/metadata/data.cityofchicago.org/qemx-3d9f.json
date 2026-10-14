@@ -1,0 +1,577 @@
+{
+  "id": "qemx-3d9f",
+  "name": "Chicago Public Schools – High School Progress Report Card (2012-2013)",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 92,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1367859765,
+  "publicationDate": 1385480836,
+  "rowsUpdatedAt": 1385480591,
+  "viewLastModified": 1385497327,
+  "viewCount": 6736,
+  "downloadCount": 5780,
+  "category": "Education",
+  "tags": [
+    "cps",
+    "education",
+    "report cards"
+  ],
+  "attribution": "Chicago Public Schools",
+  "attributionLink": "http://cps.edu/Schools/Pages/2012SchoolProgressReportCards.aspx",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "2012",
+      "Frequency": "Annual",
+      "Data Owner": "Chicago Public Schools"
+    }
+  },
+  "columns": [
+    {
+      "name": "School ID",
+      "fieldName": "school_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 92
+    },
+    {
+      "name": "School Short Name",
+      "fieldName": "school_short_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 92
+    },
+    {
+      "name": "School Name",
+      "fieldName": "school_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 92
+    },
+    {
+      "name": "Street Address",
+      "fieldName": "street_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 84
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "ZIP",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 40
+    },
+    {
+      "name": "Website",
+      "fieldName": "website",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 89
+    },
+    {
+      "name": "Managed By Network",
+      "fieldName": "managed_by_network",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Geographic Network",
+      "fieldName": "geographic_network",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "School Track",
+      "fieldName": "school_track",
+      "dataTypeName": "text",
+      "description": "Which schedule.  See http://www.cps.edu/calendar/Pages/Calendar.aspx.",
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Overall Rating",
+      "fieldName": "overall_rating",
+      "dataTypeName": "text",
+      "description": "The Overall Rating on the school progress report is based on the school’s rating under the 2012-2013 Performance, Remediation and Probation Policy. Level 1 is highest.",
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "On Probation",
+      "fieldName": "on_probation",
+      "dataTypeName": "text",
+      "description": "Is the school on probation?",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Years on Probation",
+      "fieldName": "years_on_probation",
+      "dataTypeName": "number",
+      "description": "How many years has the school been on probation?",
+      "nullCount": 0,
+      "cardinality": 14
+    },
+    {
+      "name": "Growth Overall Level",
+      "fieldName": "growth_overall_level",
+      "dataTypeName": "text",
+      "description": "Student growth compared to similar schools nationally",
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Growth EXPLORE",
+      "fieldName": "growth_explore",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 11,
+      "cardinality": 71
+    },
+    {
+      "name": "Growth PLAN",
+      "fieldName": "growth_plan",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 10,
+      "cardinality": 75
+    },
+    {
+      "name": "Growth ACT",
+      "fieldName": "growth_act",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 23,
+      "cardinality": 62
+    },
+    {
+      "name": "Growth All Grades",
+      "fieldName": "growth_all_grades",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 77
+    },
+    {
+      "name": "Student Performance Level",
+      "fieldName": "student_performance_level",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Over Time EXPLORE 2010",
+      "fieldName": "over_time_explore_2010",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 85
+    },
+    {
+      "name": "Over Time PLAN 2011",
+      "fieldName": "over_time_plan_2011",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 80
+    },
+    {
+      "name": "Over Time ACT 2012",
+      "fieldName": "over_time_act_2012",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 54
+    },
+    {
+      "name": "Average Score EXPLORE 2012",
+      "fieldName": "average_score_explore_2012",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 85
+    },
+    {
+      "name": "Average Score PLAN 2012",
+      "fieldName": "average_score_plan_2012",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 85
+    },
+    {
+      "name": "Average Score ACT 2012",
+      "fieldName": "average_score_act_2012",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 54
+    },
+    {
+      "name": "5-Year Cohort Graduation Rate 2011 - Percent",
+      "fieldName": "_5_year_cohort_graduation_rate_2011_percent",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 17,
+      "cardinality": 70
+    },
+    {
+      "name": "5-Year Cohort Graduation Rate 2012 - Percent",
+      "fieldName": "_5_year_cohort_graduation_rate_2012_percent",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 12,
+      "cardinality": 73
+    },
+    {
+      "name": "One-Year Dropout Rate 2011 - Percent",
+      "fieldName": "one_year_dropout_rate_2011_percent",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 66
+    },
+    {
+      "name": "One-Year Dropout Rate 2012 - Percent",
+      "fieldName": "one_year_dropout_rate_2012_percent",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 69
+    },
+    {
+      "name": "Freshman On-Track to Graduate 2011 - Percent",
+      "fieldName": "freshman_on_track_to_graduate_2011_percent",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 78
+    },
+    {
+      "name": "Freshman On-Track to Graduate 2012 - Percent",
+      "fieldName": "freshman_on_track_to_graduate_2012_percent",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 82
+    },
+    {
+      "name": "College Eligibility 2011 - Percent",
+      "fieldName": "college_eligibility_2011_percent",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 10,
+      "cardinality": 73
+    },
+    {
+      "name": "College Eligibility 2012 - Percent",
+      "fieldName": "college_eligibility_2012_percent",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 9,
+      "cardinality": 77
+    },
+    {
+      "name": "College Enrollment 2011 - Percent",
+      "fieldName": "college_enrollment_2011_percent",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 15,
+      "cardinality": 69
+    },
+    {
+      "name": "College Enrollment 2012 - Percent",
+      "fieldName": "college_enrollment_2012_percent",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 10,
+      "cardinality": 74
+    },
+    {
+      "name": "College Retention 2009 - Percent",
+      "fieldName": "college_retention_2009_percent",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 18,
+      "cardinality": 68
+    },
+    {
+      "name": "College Retention 2010 - Percent",
+      "fieldName": "college_retention_2010_percent",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 15,
+      "cardinality": 70
+    },
+    {
+      "name": "Overall Foundation",
+      "fieldName": "overall_foundation",
+      "dataTypeName": "text",
+      "description": "Overall status from the \"My Voice, My School\" survey completed by teachers and 6th-12th grade students. For more information, visit https://cps.5-essentials.org/2012.",
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Involved Families",
+      "fieldName": "involved_families",
+      "dataTypeName": "text",
+      "description": "Does the school partner with families and communities? For more information, visit https://cps.5-essentials.org/2012.",
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Supportive Environment",
+      "fieldName": "supportive_environment",
+      "dataTypeName": "text",
+      "description": "Is the school safe and supportive with high expectations? For more information, visit https://cps.5-essentials.org/2012.",
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Ambitious Instruction",
+      "fieldName": "ambitious_instruction",
+      "dataTypeName": "text",
+      "description": "Is instruction focused, challenging, and engaging? For more information, visit https://cps.5-essentials.org/2012.",
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Effective Leaders",
+      "fieldName": "effective_leaders",
+      "dataTypeName": "text",
+      "description": "Does leadership focus on results and school improvement? For more information, visit https://cps.5-essentials.org/2012.",
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Collaborative Teachers",
+      "fieldName": "collaborative_teachers",
+      "dataTypeName": "text",
+      "description": "Do teachers work well together and strive for excellence? For more information, visit https://cps.5-essentials.org/2012.",
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Safety",
+      "fieldName": "safety",
+      "dataTypeName": "text",
+      "description": "Do students feel safe and does the school support positive behavior? For more information, visit https://cps.5-essentials.org/2012.",
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Misconducts Resulting in Suspensions 2011 - Percent",
+      "fieldName": "misconducts_resulting_in_suspensions_2011_percent",
+      "dataTypeName": "number",
+      "description": "Number of misconducts resulting in suspension divided by the number of misconducts reported.",
+      "nullCount": 3,
+      "cardinality": 84
+    },
+    {
+      "name": "Misconducts Resulting in Suspensions 2012 - Percent",
+      "fieldName": "misconducts_resulting_in_suspensions_2012_percent",
+      "dataTypeName": "number",
+      "description": "Number of misconducts resulting in suspension divided by the number of misconducts reported.",
+      "nullCount": 0,
+      "cardinality": 89
+    },
+    {
+      "name": "Average Days of Suspension 2011",
+      "fieldName": "average_days_of_suspension_2011",
+      "dataTypeName": "number",
+      "description": "Average length of suspensions, in days, divided by the number of suspensions.",
+      "nullCount": 3,
+      "cardinality": 37
+    },
+    {
+      "name": "Average Days of Suspension 2012",
+      "fieldName": "average_days_of_suspension_2012",
+      "dataTypeName": "number",
+      "description": "Average length of suspensions, in days, divided by the number of suspensions.",
+      "nullCount": 0,
+      "cardinality": 37
+    },
+    {
+      "name": "Student Attendance 2011 - Percent",
+      "fieldName": "student_attendance_2011_percent",
+      "dataTypeName": "number",
+      "description": "Average daily attendance of students -- the number of days in which students were present divided by the number of days in which students were scheduled to attend.",
+      "nullCount": 1,
+      "cardinality": 80
+    },
+    {
+      "name": "Student Attendance 2012 - Percent",
+      "fieldName": "student_attendance_2012_percent",
+      "dataTypeName": "number",
+      "description": "Average daily attendance of students -- the number of days in which students were present divided by the number of days in which students were scheduled to attend.",
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": "Teacher Attendance 2011 - Percent",
+      "fieldName": "teacher_attendance_2011_percent",
+      "dataTypeName": "number",
+      "description": "Average daily attendance of teachers -- the number of days in which teachers were present divided by the number of days they were scheduled to work.",
+      "nullCount": 7,
+      "cardinality": 31
+    },
+    {
+      "name": "Teacher Attendance 2012 - Percent",
+      "fieldName": "teacher_attendance_2012_percent",
+      "dataTypeName": "number",
+      "description": "Average daily attendance of teachers -- the number of days in which teachers were present divided by the number of days they were scheduled to work.",
+      "nullCount": 5,
+      "cardinality": 36
+    },
+    {
+      "name": "Healthy School Certified",
+      "fieldName": "healthy_school_certified",
+      "dataTypeName": "text",
+      "description": "Is the school certified by the USDA’s Healthier US School Challenge?",
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Blue Ribbon Award",
+      "fieldName": "blue_ribbon_award",
+      "dataTypeName": "text",
+      "description": "Did the school win a U.S. Department of Education Blue Ribbon? See http://www2.ed.gov/programs/nclbbrs/index.html.",
+      "nullCount": 87,
+      "cardinality": 1
+    },
+    {
+      "name": "Blue Ribbon Award Year",
+      "fieldName": "blue_ribbon_award_year",
+      "dataTypeName": "number",
+      "description": "Year in which the school won a U.S. Department of Education Blue Ribbon.",
+      "nullCount": 87,
+      "cardinality": 4
+    },
+    {
+      "name": "X Coordinate",
+      "fieldName": "x_coordinate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 84
+    },
+    {
+      "name": "Y Coordinate",
+      "fieldName": "y_coordinate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 84
+    },
+    {
+      "name": "Longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 84
+    },
+    {
+      "name": "Latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 84
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:02.286Z"
+}

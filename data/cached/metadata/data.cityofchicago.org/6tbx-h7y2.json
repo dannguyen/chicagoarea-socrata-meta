@@ -1,0 +1,119 @@
+{
+  "id": "6tbx-h7y2",
+  "name": "Budget - 2021 Budget Ordinance - Appropriations",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 3384,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1606252249,
+  "publicationDate": 1606253341,
+  "rowsUpdatedAt": 1610057586,
+  "viewLastModified": 1617638884,
+  "viewCount": 1897,
+  "downloadCount": 2181,
+  "category": "Administration & Finance",
+  "tags": [
+    "budget",
+    "2021"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.chicago.gov/city/en/depts/obm/provdrs/city_budg.html",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2021",
+      "Frequency": "Data are updated annually",
+      "Data Owner": "Budget & Management"
+    }
+  },
+  "columns": [
+    {
+      "name": "FUND TYPE",
+      "fieldName": "fund_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "FUND CODE",
+      "fieldName": "fund_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 317
+    },
+    {
+      "name": "FUND DESCRIPTION",
+      "fieldName": "fund_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 251
+    },
+    {
+      "name": "DEPARTMENT NUMBER",
+      "fieldName": "department_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 37
+    },
+    {
+      "name": "DEPARTMENT DESCRIPTION",
+      "fieldName": "department_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 37
+    },
+    {
+      "name": "APPROPRIATION AUTHORITY",
+      "fieldName": "appropriation_authority",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 221
+    },
+    {
+      "name": "APPROPRIATION AUTHORITY DESCRIPTION",
+      "fieldName": "appropriation_authority_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 324
+    },
+    {
+      "name": "APPROPRIATION ACCOUNT",
+      "fieldName": "appropriation_account",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 251
+    },
+    {
+      "name": "APPROPRIATION ACCOUNT DESCRIPTION",
+      "fieldName": "appropriation_account_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 250
+    },
+    {
+      "name": "2021 ORDINANCE (AMOUNT $)",
+      "fieldName": "_ordinance_amount_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2503
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:14.428Z"
+}

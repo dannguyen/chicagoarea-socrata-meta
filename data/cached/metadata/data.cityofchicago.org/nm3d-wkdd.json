@@ -1,0 +1,200 @@
+{
+  "id": "nm3d-wkdd",
+  "name": "Tax Increment Financing (TIF) Investment Committee Decisions - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1698,
+  "rowCountSource": "cached",
+  "rowLabel": "Project",
+  "hasRowIdentifier": false,
+  "createdAt": 1566251248,
+  "publicationDate": 1580757415,
+  "rowsUpdatedAt": 1738169249,
+  "viewLastModified": 1785526394,
+  "viewCount": 11241,
+  "downloadCount": 17381,
+  "category": "Community & Economic Development",
+  "tags": [
+    "tif",
+    "historical"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "May 2019 - December 2024",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"nm3d-wkdd\"",
+      "Frequency": "Data will no longer be updated",
+      "Data Owner": "Department of Planning and Development"
+    }
+  },
+  "columns": [
+    {
+      "name": "PROJECT",
+      "fieldName": "project",
+      "dataTypeName": "text",
+      "description": "The name of the project that sought TIF funding.",
+      "nullCount": 0,
+      "cardinality": 897
+    },
+    {
+      "name": "DEPARTMENT",
+      "fieldName": "department",
+      "dataTypeName": "text",
+      "description": "The Department, Company or Organization requesting the TIF Funding.",
+      "nullCount": 0,
+      "cardinality": 11
+    },
+    {
+      "name": "IMPROVEMENT TYPE",
+      "fieldName": "improvement_type",
+      "dataTypeName": "text",
+      "description": "The category of development seeking TIF funds.",
+      "nullCount": 0,
+      "cardinality": 11
+    },
+    {
+      "name": "ADDRESS",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": "The address of the project location. ",
+      "nullCount": 515,
+      "cardinality": 782
+    },
+    {
+      "name": "LOCATION TIF",
+      "fieldName": "location_tif",
+      "dataTypeName": "text",
+      "description": "The TIF district(s) in which the project is located.",
+      "nullCount": 0,
+      "cardinality": 144
+    },
+    {
+      "name": "LOCATION TIF NUMBER",
+      "fieldName": "location_tif_number",
+      "dataTypeName": "text",
+      "description": "The TIF district(s) identifier number in which the project is located.",
+      "nullCount": 0,
+      "cardinality": 131
+    },
+    {
+      "name": "FUNDING TIF",
+      "fieldName": "funding_tif",
+      "dataTypeName": "text",
+      "description": "The TIF district(s) from which the project is receiving TIF funds. ",
+      "nullCount": 0,
+      "cardinality": 145
+    },
+    {
+      "name": "FUNDING TIF NUMBER",
+      "fieldName": "funding_tif_number",
+      "dataTypeName": "text",
+      "description": "The TIF district(s) identifier number from which the project is receiving TIF funds. ",
+      "nullCount": 0,
+      "cardinality": 131
+    },
+    {
+      "name": "PROJECT SUMMARY",
+      "fieldName": "project_summary",
+      "dataTypeName": "text",
+      "description": "A brief summary of the proposed project that is requesting TIF funding.",
+      "nullCount": 6,
+      "cardinality": 773
+    },
+    {
+      "name": "TIF REQUEST",
+      "fieldName": "tif_request",
+      "dataTypeName": "number",
+      "description": "The amount of TIF funding that the project is requesting.",
+      "nullCount": 0,
+      "cardinality": 633
+    },
+    {
+      "name": "TOTAL PROJECT COST",
+      "fieldName": "total_project_cost",
+      "dataTypeName": "number",
+      "description": "The total project cost of the project requesting TIF funding.",
+      "nullCount": 0,
+      "cardinality": 554
+    },
+    {
+      "name": "PERCENTAGE OF TIF",
+      "fieldName": "percentage_of_tif",
+      "dataTypeName": "number",
+      "description": "The share of the total project costs being covered by the requested TIF funding.",
+      "nullCount": 0,
+      "cardinality": 81
+    },
+    {
+      "name": "TIC MEETING DATE",
+      "fieldName": "tic_meeting_date",
+      "dataTypeName": "calendar_date",
+      "description": "The date of the TIF Investment Committee meeting at which the project was discussed.",
+      "nullCount": 0,
+      "cardinality": 65
+    },
+    {
+      "name": "TIC DECISION",
+      "fieldName": "tic_decision",
+      "dataTypeName": "text",
+      "description": "The decision by the TIF Investment Committee members on whether to approve, deny or hold for further review TIF funding for the project.",
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": "The location of the ADDRESS column, geocoded to a format that allows for mapping and other geographic analysis.",
+      "nullCount": 285,
+      "cardinality": 671
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:38:05.139Z"
+}

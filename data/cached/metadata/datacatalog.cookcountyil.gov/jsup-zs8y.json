@@ -1,0 +1,160 @@
+{
+  "id": "jsup-zs8y",
+  "name": "County Clerk --  Directory Of Elected Ofiicials - via Jurisdiction",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 4049,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1317419017,
+  "publicationDate": 1685650573,
+  "rowsUpdatedAt": 1414424500,
+  "viewLastModified": 1769545433,
+  "viewCount": 2859,
+  "downloadCount": 16484,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Clerk",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Office",
+      "fieldName": "office",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 44
+    },
+    {
+      "name": "Jurisdiction",
+      "fieldName": "jurisdiction",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 803
+    },
+    {
+      "name": "First Name",
+      "fieldName": "first_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1032
+    },
+    {
+      "name": "Middle Name",
+      "fieldName": "middle_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2104,
+      "cardinality": 305
+    },
+    {
+      "name": "Last Name",
+      "fieldName": "last_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2962
+    },
+    {
+      "name": "Term",
+      "fieldName": "term",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Election ID",
+      "fieldName": "election_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 13
+    },
+    {
+      "name": "Phone",
+      "fieldName": "phone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 893
+    },
+    {
+      "name": "Fax",
+      "fieldName": "fax",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4039,
+      "cardinality": 1
+    },
+    {
+      "name": "Website",
+      "fieldName": "website",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Email",
+      "fieldName": "email",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 697,
+      "cardinality": 720
+    },
+    {
+      "name": "Phone2",
+      "fieldName": "phone2",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4049,
+      "cardinality": 0
+    },
+    {
+      "name": "Fax2",
+      "fieldName": "fax2",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4049,
+      "cardinality": 0
+    },
+    {
+      "name": "Website2",
+      "fieldName": "website2",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Email2",
+      "fieldName": "email2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 4049,
+      "cardinality": 0
+    },
+    {
+      "name": "Location 1",
+      "fieldName": "location_1",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:54.910Z"
+}

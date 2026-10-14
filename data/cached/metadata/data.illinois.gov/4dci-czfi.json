@@ -1,0 +1,94 @@
+{
+  "id": "4dci-czfi",
+  "name": "Lead Risk Assessor and Inspector Licensees",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 295,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1708036853,
+  "publicationDate": 1708094459,
+  "rowsUpdatedAt": 1752593654,
+  "viewLastModified": 1752593653,
+  "viewCount": 1110,
+  "downloadCount": 299,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "IL Lead Program",
+      "Maintainer Email": "dph.lead@illinois.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "Last",
+      "fieldName": "last",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 276
+    },
+    {
+      "name": "First",
+      "fieldName": "first",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 191
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 169
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "InspExp",
+      "fieldName": "inspexp",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 223,
+      "cardinality": 2
+    },
+    {
+      "name": "RAExp",
+      "fieldName": "raexp",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 68,
+      "cardinality": 2
+    },
+    {
+      "name": "Employer Name",
+      "fieldName": "employer_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 26,
+      "cardinality": 162
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:32.577Z"
+}

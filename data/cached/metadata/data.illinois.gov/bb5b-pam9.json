@@ -1,0 +1,102 @@
+{
+  "id": "bb5b-pam9",
+  "name": "Childhood Lead Poisoning Surveillance Report By County, 2001",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 105,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709064752,
+  "publicationDate": 1709143919,
+  "rowsUpdatedAt": 1709143913,
+  "viewLastModified": 1736793962,
+  "viewCount": 39,
+  "downloadCount": 96,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "_10_14_mcg_dl",
+      "fieldName": "_10_14_mcg_dl",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "_15_19_mcg_dl",
+      "fieldName": "_15_19_mcg_dl",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 31
+    },
+    {
+      "name": "_2000population_of_children_6_and_under",
+      "fieldName": "_2000population_of_children",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 103
+    },
+    {
+      "name": "_20_24_mcg_dl",
+      "fieldName": "_20_24_mcg_dl",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 22
+    },
+    {
+      "name": "_25_44_mcg_dl",
+      "fieldName": "_25_44_mcg_dl",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24
+    },
+    {
+      "name": "_45_mcg_dl",
+      "fieldName": "_45_mcg_dl",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "county",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 105
+    },
+    {
+      "name": "total_tested",
+      "fieldName": "total_tested",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 98
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:39.091Z"
+}

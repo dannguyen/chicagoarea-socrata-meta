@@ -1,0 +1,217 @@
+{
+  "id": "vcti-mbcd",
+  "name": "CPD_Park_Buildings",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 743,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1478272699,
+  "publicationDate": 1652888876,
+  "rowsUpdatedAt": 1652888870,
+  "viewLastModified": 1724878137,
+  "viewCount": 589,
+  "downloadCount": 3922,
+  "category": "Parks & Recreation",
+  "tags": [
+    "parks",
+    "buildings",
+    "chicago",
+    "chicago park district",
+    "chicago parks",
+    "2015"
+  ],
+  "attribution": "Chicago Park District",
+  "attributionLink": "http://www.chicagoparkdistrict.com",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "November 2016 - current"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "point",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 743
+    },
+    {
+      "name": "OBJECTID_1",
+      "fieldName": "objectid_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 743
+    },
+    {
+      "name": "PARK",
+      "fieldName": "park",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 263
+    },
+    {
+      "name": "PARK_NO",
+      "fieldName": "park_no",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 260
+    },
+    {
+      "name": "BLDG_ID",
+      "fieldName": "bldg_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 742
+    },
+    {
+      "name": "BLDG_TYPE",
+      "fieldName": "bldg_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 38
+    },
+    {
+      "name": "CITY_BLDG_",
+      "fieldName": "city_bldg_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 579
+    },
+    {
+      "name": "BLDG_STATU",
+      "fieldName": "bldg_statu",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 2
+    },
+    {
+      "name": "WARD",
+      "fieldName": "ward",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 51
+    },
+    {
+      "name": "COMM_AREA",
+      "fieldName": "comm_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 76
+    },
+    {
+      "name": "REGION",
+      "fieldName": "region",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "ADDRESS",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 323,
+      "cardinality": 384
+    },
+    {
+      "name": "BLDG_NAME",
+      "fieldName": "bldg_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 62,
+      "cardinality": 538
+    },
+    {
+      "name": "BLDG_OWNER",
+      "fieldName": "bldg_owner",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 19,
+      "cardinality": 12
+    },
+    {
+      "name": "LESSOR",
+      "fieldName": "lessor",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 735,
+      "cardinality": 3
+    },
+    {
+      "name": "LESSEE",
+      "fieldName": "lessee",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 735,
+      "cardinality": 3
+    },
+    {
+      "name": "STORIES",
+      "fieldName": "stories",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "X_COORD",
+      "fieldName": "x_coord",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 743
+    },
+    {
+      "name": "Y_COORD",
+      "fieldName": "y_coord",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 743
+    },
+    {
+      "name": "YEAR_BUILT",
+      "fieldName": "year_built",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 107
+    },
+    {
+      "name": "BLDG_SQ_FO",
+      "fieldName": "bldg_sq_fo",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 224
+    },
+    {
+      "name": "GISOBJID",
+      "fieldName": "gisobjid",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 742
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:23.472Z"
+}

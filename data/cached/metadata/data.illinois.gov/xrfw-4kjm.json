@@ -1,0 +1,187 @@
+{
+  "id": "xrfw-4kjm",
+  "name": "Swimming Facility in Chicago",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 500,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709058239,
+  "publicationDate": 1709145403,
+  "rowsUpdatedAt": 1709145398,
+  "viewLastModified": 1734720133,
+  "viewCount": 42,
+  "downloadCount": 19,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "attention_line",
+      "fieldName": "attention_line",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 129,
+      "cardinality": 171
+    },
+    {
+      "name": "county",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "expiration_date",
+      "fieldName": "expiration_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "facility_address_line1",
+      "fieldName": "facility_address_line1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 499
+    },
+    {
+      "name": "facility_address_line2",
+      "fieldName": "facility_address_line2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 499,
+      "cardinality": 1
+    },
+    {
+      "name": "facility_city",
+      "fieldName": "facility_city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "facility_name",
+      "fieldName": "facility_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 493
+    },
+    {
+      "name": "facility_phone",
+      "fieldName": "facility_phone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 420
+    },
+    {
+      "name": "facility_state",
+      "fieldName": "facility_state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "facility_zip",
+      "fieldName": "facility_zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 61
+    },
+    {
+      "name": "id_number",
+      "fieldName": "id_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 500
+    },
+    {
+      "name": "license_status",
+      "fieldName": "license_status",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "location1",
+      "fieldName": "location1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 500
+    },
+    {
+      "name": "owner_address_line_1",
+      "fieldName": "owner_address_line_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 405
+    },
+    {
+      "name": "owner_address_line_2",
+      "fieldName": "owner_address_line_2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 446,
+      "cardinality": 40
+    },
+    {
+      "name": "owner_city",
+      "fieldName": "owner_city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 18
+    },
+    {
+      "name": "owner_name",
+      "fieldName": "owner_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 412
+    },
+    {
+      "name": "owner_state",
+      "fieldName": "owner_state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "owner_zip",
+      "fieldName": "owner_zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 78
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:38.562Z"
+}

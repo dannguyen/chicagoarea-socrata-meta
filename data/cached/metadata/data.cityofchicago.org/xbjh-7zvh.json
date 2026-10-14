@@ -1,0 +1,119 @@
+{
+  "id": "xbjh-7zvh",
+  "name": "Budget - 2023 Budget Ordinance - Appropriations",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 3447,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1668116347,
+  "publicationDate": 1668452226,
+  "rowsUpdatedAt": 1668620585,
+  "viewLastModified": 1668620583,
+  "viewCount": 5476,
+  "downloadCount": 2593,
+  "category": "Administration & Finance",
+  "tags": [
+    "budget",
+    "2023"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.chicago.gov/budget",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2023",
+      "Frequency": "Data are updated annually",
+      "Data Owner": "Budget & Management"
+    }
+  },
+  "columns": [
+    {
+      "name": "FUND TYPE",
+      "fieldName": "fund_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "FUND CODE",
+      "fieldName": "fund_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 442
+    },
+    {
+      "name": "FUND DESCRIPTION",
+      "fieldName": "fund_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 307
+    },
+    {
+      "name": "DEPARTMENT NUMBER",
+      "fieldName": "department_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 39
+    },
+    {
+      "name": "DEPARTMENT DESCRIPTION",
+      "fieldName": "department_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 39
+    },
+    {
+      "name": "APPROPRIATION AUTHORITY",
+      "fieldName": "appropriation_authority",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 227
+    },
+    {
+      "name": "APPROPRIATION AUTHORITY DESCRIPTION",
+      "fieldName": "appropriation_authority_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 340
+    },
+    {
+      "name": "APPROPRIATION ACCOUNT",
+      "fieldName": "appropriation_account",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 255
+    },
+    {
+      "name": "APPROPRIATION ACCOUNT DESCRIPTION",
+      "fieldName": "appropriation_account_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 254
+    },
+    {
+      "name": "2023 ORDINANCE (AMOUNT $)",
+      "fieldName": "_ordinance_amount_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2555
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:03.913Z"
+}

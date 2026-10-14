@@ -1,0 +1,171 @@
+{
+  "id": "2ani-ic5x",
+  "name": "COVID-19 Vaccination Coverage, ZIP Code",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 35010,
+  "rowCountSource": "cached",
+  "rowLabel": "COVID-19 coverage metric for a subpopulation in a ZIP Code by week",
+  "hasRowIdentifier": false,
+  "createdAt": 1698328784,
+  "publicationDate": 1770825698,
+  "rowsUpdatedAt": 1791986665,
+  "viewLastModified": 1788212647,
+  "viewCount": 2448,
+  "downloadCount": 2639,
+  "category": "Health & Human Services",
+  "tags": [
+    "covid-19",
+    "public health",
+    "immunization",
+    "age",
+    "zip code"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://chicago.gov/coronavirus",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "September 13, 2023 through the most recent date shown",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"2ani-ic5x\"",
+      "Frequency": "Data are updated weekly",
+      "Data Owner": "Department of Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "ZIP Code",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": "Home ZIP Code of the person vaccinated.",
+      "nullCount": 0,
+      "cardinality": 35010
+    },
+    {
+      "name": "Week End",
+      "fieldName": "week_end",
+      "dataTypeName": "calendar_date",
+      "description": "End date of the week. Dates are based on standard MMWR weeks as defined by the U.S. Centers for Disease Control and Prevention.",
+      "nullCount": 0,
+      "cardinality": 35010
+    },
+    {
+      "name": "Season",
+      "fieldName": "season",
+      "dataTypeName": "text",
+      "description": "Annually recurring reporting period for which estimates are calculated.",
+      "nullCount": 0,
+      "cardinality": 35010
+    },
+    {
+      "name": "Age Group",
+      "fieldName": "age",
+      "dataTypeName": "text",
+      "description": "Values used are: 0-17, 18-64, 65+, 18+, Unknown, All Ages",
+      "nullCount": 0,
+      "cardinality": 35010
+    },
+    {
+      "name": "Population Size",
+      "fieldName": "population",
+      "dataTypeName": "number",
+      "description": "Number of people in the group based on the specified combination of ZIP Code and age.",
+      "nullCount": 1162,
+      "cardinality": 35010
+    },
+    {
+      "name": "Count",
+      "fieldName": "count",
+      "dataTypeName": "number",
+      "description": "Number of people in the specified group that achieved the vaccination status.",
+      "nullCount": 0,
+      "cardinality": 35010
+    },
+    {
+      "name": "Percent",
+      "fieldName": "percent",
+      "dataTypeName": "number",
+      "description": "Percent of people in the specified group that achieved the vaccination status.",
+      "nullCount": 1162,
+      "cardinality": 35010
+    },
+    {
+      "name": "ZIP Code Centroid",
+      "fieldName": "zip_code_centroid",
+      "dataTypeName": "point",
+      "description": "A point that falls inside the ZIP Code, usually the centroid but adjusted if the centroid would fall outside the Zip. It is present to facilitate geographic analysis.",
+      "nullCount": 584,
+      "cardinality": 35010
+    },
+    {
+      "name": "MMWR Week",
+      "fieldName": "mmwr_week",
+      "dataTypeName": "number",
+      "description": "A weekly counting system within a calendar year standardized by the U.S. Centers for Disease Control and Prevention",
+      "nullCount": 0,
+      "cardinality": 35010
+    },
+    {
+      "name": "Week",
+      "fieldName": "week",
+      "dataTypeName": "number",
+      "description": "The calendar week standardized by the U.S. Centers for Disease Control and Prevention",
+      "nullCount": 0,
+      "cardinality": 35010
+    },
+    {
+      "name": "Current Season Week End",
+      "fieldName": "current_season_week_end",
+      "dataTypeName": "calendar_date",
+      "description": "Ending date of the MMWR week for the current season",
+      "nullCount": 60,
+      "cardinality": 35010
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Census Tracts' (bdys-3d7i) the point in column 'zip_code_centroid' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards 2023-",
+      "fieldName": ":@computed_region_8hcu_yrd4",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Wards 2023-' (8hcu-yrd4) the point in column 'zip_code_centroid' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Boundaries - ZIP Codes' (rpca-8um6) the point in column 'zip_code_centroid' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Community Areas' (vrxf-vc4k) the point in column 'zip_code_centroid' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Zip Codes' (6mkv-f3dw) the point in column 'zip_code_centroid' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:11.230Z"
+}

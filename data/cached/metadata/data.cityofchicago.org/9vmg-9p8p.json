@@ -1,0 +1,65 @@
+{
+  "id": "9vmg-9p8p",
+  "name": "PoliceDistrict",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 27,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1355868939,
+  "publicationDate": null,
+  "rowsUpdatedAt": 1355868939,
+  "viewLastModified": 1731519925,
+  "viewCount": 765,
+  "downloadCount": 1652,
+  "category": "Public Safety",
+  "tags": [
+    "boundaries",
+    "gis",
+    "shapefiles"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "Deprecated on December 18, 2012.",
+      "Frequency": "",
+      "Data Owner": "Police"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "DIST_LABEL",
+      "fieldName": "dist_label",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24
+    },
+    {
+      "name": "DIST_NUM",
+      "fieldName": "dist_num",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:22.299Z"
+}

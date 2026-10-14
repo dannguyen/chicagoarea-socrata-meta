@@ -1,0 +1,58 @@
+{
+  "id": "52k2-p47e",
+  "name": "Procurement - Intent to Award Archive",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 86,
+  "rowCountSource": "query",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1466652256,
+  "publicationDate": 1466652472,
+  "rowsUpdatedAt": 1466652263,
+  "viewLastModified": 1769546534,
+  "viewCount": 1425,
+  "downloadCount": 3144,
+  "category": "Finance & Operations",
+  "tags": [
+    "procurement",
+    "purchase",
+    "contract",
+    "bid",
+    "rfp",
+    "rfi",
+    "award",
+    "inactive"
+  ],
+  "attribution": "Office of the Chief Procurement Officer",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Office of the Chief Procurement Officer"
+    },
+    "Metadata": {
+      "Update Frequency": "No updates"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Not updated (historical only)",
+      "Publishing frequency": "Not updated (historical only)"
+    }
+  },
+  "columns": [
+    {
+      "name": "Link",
+      "fieldName": "link",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:59.649Z"
+}

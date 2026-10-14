@@ -1,0 +1,150 @@
+{
+  "id": "t86b-xh9j",
+  "name": "IDPH STD Illinois by County by Race Ethnicity Chlamydia",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1768,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1708439785,
+  "publicationDate": 1708440287,
+  "rowsUpdatedAt": 1708440281,
+  "viewLastModified": 1736793982,
+  "viewCount": 34,
+  "downloadCount": 17,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "Sort",
+      "fieldName": "sort",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 104
+    },
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 17
+    },
+    {
+      "name": "County/Jurisdiction",
+      "fieldName": "county_jurisdiction",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 104
+    },
+    {
+      "name": "CountyFIPS",
+      "fieldName": "countyfips",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 34,
+      "cardinality": 102
+    },
+    {
+      "name": "Total_Counts",
+      "fieldName": "total_counts",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 556
+    },
+    {
+      "name": "AIAN_Count",
+      "fieldName": "aian_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1390,
+      "cardinality": 33
+    },
+    {
+      "name": "Asian_Count",
+      "fieldName": "asian_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1390,
+      "cardinality": 85
+    },
+    {
+      "name": "Black_Count",
+      "fieldName": "black_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1390,
+      "cardinality": 307
+    },
+    {
+      "name": "Hisp_Count",
+      "fieldName": "hisp_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1390,
+      "cardinality": 210
+    },
+    {
+      "name": "MultiRace_Count",
+      "fieldName": "multirace_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1390,
+      "cardinality": 29
+    },
+    {
+      "name": "NHPI_Count",
+      "fieldName": "nhpi_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1390,
+      "cardinality": 16
+    },
+    {
+      "name": "White_Count",
+      "fieldName": "white_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1390,
+      "cardinality": 298
+    },
+    {
+      "name": "Other_Count",
+      "fieldName": "other_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1390,
+      "cardinality": 84
+    },
+    {
+      "name": "Unk_Count",
+      "fieldName": "unk_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1390,
+      "cardinality": 244
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:40.441Z"
+}

@@ -1,0 +1,248 @@
+{
+  "id": "85cm-7uqa",
+  "name": "Chicago Population Counts",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 235,
+  "rowCountSource": "cached",
+  "rowLabel": "Geographic Unit",
+  "hasRowIdentifier": true,
+  "createdAt": 1590012753,
+  "publicationDate": 1655151684,
+  "rowsUpdatedAt": 1737474996,
+  "viewLastModified": 1788213373,
+  "viewCount": 42704,
+  "downloadCount": 18676,
+  "category": "Health & Human Services",
+  "tags": [
+    "population",
+    "census",
+    "link to article present",
+    "federal"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "As indicated by Year column",
+      "Data Owner": "Department of Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "Geography Type",
+      "fieldName": "geography_type",
+      "dataTypeName": "text",
+      "description": "The type of geographic unit for the population count.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": "The year to which the population count applies.",
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Geography",
+      "fieldName": "geography",
+      "dataTypeName": "text",
+      "description": "The specific geographic unit.",
+      "nullCount": 0,
+      "cardinality": 60
+    },
+    {
+      "name": "Population - Total",
+      "fieldName": "population_total",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 230
+    },
+    {
+      "name": "Population - Age 0-17",
+      "fieldName": "population_age_0_17",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 230
+    },
+    {
+      "name": "Population - Age 18-29",
+      "fieldName": "population_age_18_29",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 227
+    },
+    {
+      "name": "Population - Age 30-39",
+      "fieldName": "population_age_30_39",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 229
+    },
+    {
+      "name": "Population - Age 40-49",
+      "fieldName": "population_age_40_49",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 230
+    },
+    {
+      "name": "Population - Age 50-59",
+      "fieldName": "population_age_50_59",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 226
+    },
+    {
+      "name": "Population - Age 60-69",
+      "fieldName": "population_age_60_69",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 232
+    },
+    {
+      "name": "Population - Age 70-79",
+      "fieldName": "population_age_70_79",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 223
+    },
+    {
+      "name": "Population - Age 80+",
+      "fieldName": "population_age_80",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 214
+    },
+    {
+      "name": "Population - Age 0-4",
+      "fieldName": "population_age_0_4",
+      "dataTypeName": "number",
+      "description": "Note that this column is provided as a convenience and overlaps previous columns.",
+      "nullCount": 0,
+      "cardinality": 225
+    },
+    {
+      "name": "Population - Age 5-11",
+      "fieldName": "population_age_5_11",
+      "dataTypeName": "number",
+      "description": "Note that this column is provided as a convenience and overlaps previous columns and that it only includes children who live in households.",
+      "nullCount": 59,
+      "cardinality": 170
+    },
+    {
+      "name": "Population - Age 12-17",
+      "fieldName": "population_age_12_17",
+      "dataTypeName": "number",
+      "description": "Note that this column is provided as a convenience and overlaps previous columns and that it only includes children who live in households.",
+      "nullCount": 59,
+      "cardinality": 163
+    },
+    {
+      "name": "Population - Age 5+",
+      "fieldName": "population_age_5_",
+      "dataTypeName": "number",
+      "description": "Note that this column is provided as a convenience and overlaps previous columns.",
+      "nullCount": 0,
+      "cardinality": 231
+    },
+    {
+      "name": "Population - Age 18+",
+      "fieldName": "population_age_18_",
+      "dataTypeName": "number",
+      "description": "Note that this column is provided as a convenience and overlaps previous columns.",
+      "nullCount": 0,
+      "cardinality": 232
+    },
+    {
+      "name": "Population - Age 65+",
+      "fieldName": "population_age_65_",
+      "dataTypeName": "number",
+      "description": "Note that this column is provided as a convenience and overlaps previous columns.",
+      "nullCount": 0,
+      "cardinality": 231
+    },
+    {
+      "name": "Population - Female",
+      "fieldName": "population_female",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 232
+    },
+    {
+      "name": "Population - Male",
+      "fieldName": "population_male",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 232
+    },
+    {
+      "name": "Population - Latinx",
+      "fieldName": "population_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 229
+    },
+    {
+      "name": "Population - Asian Non-Latinx",
+      "fieldName": "population_asian_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 59,
+      "cardinality": 168
+    },
+    {
+      "name": "Population - Black Non-Latinx",
+      "fieldName": "population_black_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 59,
+      "cardinality": 171
+    },
+    {
+      "name": "Population - White Non-Latinx",
+      "fieldName": "population_white_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 232
+    },
+    {
+      "name": "Population - Other Race Non-Latinx",
+      "fieldName": "population_other_race_non",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 59,
+      "cardinality": 164
+    },
+    {
+      "name": "Record ID",
+      "fieldName": "record_id",
+      "dataTypeName": "text",
+      "description": "A unique ID for the record.",
+      "nullCount": 0,
+      "cardinality": 235
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:06.417Z"
+}

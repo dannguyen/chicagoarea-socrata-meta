@@ -1,0 +1,207 @@
+{
+  "id": "7bzs-jsyj",
+  "name": "House Share Prohibited Buildings List",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2412,
+  "rowCountSource": "cached",
+  "rowLabel": "Building",
+  "hasRowIdentifier": false,
+  "createdAt": 1479506267,
+  "publicationDate": 1481145558,
+  "rowsUpdatedAt": 1791004620,
+  "viewLastModified": 1482359318,
+  "viewCount": 78662,
+  "downloadCount": 24591,
+  "category": "Buildings",
+  "tags": [
+    "house share",
+    "regulation",
+    "restrictions"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Current",
+      "Data Owner": "Department of Business Affairs & Consumer Protection"
+    }
+  },
+  "columns": [
+    {
+      "name": "Application ID",
+      "fieldName": "application_id",
+      "dataTypeName": "number",
+      "description": "Unique ID for the application.",
+      "nullCount": 0,
+      "cardinality": 2412
+    },
+    {
+      "name": "Submission ID",
+      "fieldName": "submission_id",
+      "dataTypeName": "text",
+      "description": "An internal tracking number for the application.",
+      "nullCount": 0,
+      "cardinality": 2412
+    },
+    {
+      "name": "Applicant Role",
+      "fieldName": "applicant_role",
+      "dataTypeName": "text",
+      "description": "Role of the person who applied on behalf of the building owner, association, or cooperative.",
+      "nullCount": 0,
+      "cardinality": 2412
+    },
+    {
+      "name": "Association, Cooperative, or Owner",
+      "fieldName": "association_cooperative_or_owner",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 765,
+      "cardinality": 2412
+    },
+    {
+      "name": "Address Number",
+      "fieldName": "address_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2412
+    },
+    {
+      "name": "Street Direction",
+      "fieldName": "street_direction",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2412
+    },
+    {
+      "name": "Street Name",
+      "fieldName": "street_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2412
+    },
+    {
+      "name": "Street Type",
+      "fieldName": "street_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 21,
+      "cardinality": 2412
+    },
+    {
+      "name": "Number of Units",
+      "fieldName": "number_of_units",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 62,
+      "cardinality": 2412
+    },
+    {
+      "name": "PIN",
+      "fieldName": "pin",
+      "dataTypeName": "text",
+      "description": "Cook County Property Index Number(s)",
+      "nullCount": 0,
+      "cardinality": 2412
+    },
+    {
+      "name": "Vote Date",
+      "fieldName": "vote_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date that the association voted to ban short-term rentals.  If not an association, this field does not apply.",
+      "nullCount": 2085,
+      "cardinality": 2412
+    },
+    {
+      "name": "Recorded Date",
+      "fieldName": "recorded_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date that the association recorded in its governing documents that it had banned short-term rentals. If not an association, this field does not apply.",
+      "nullCount": 776,
+      "cardinality": 2412
+    },
+    {
+      "name": "Signed Date",
+      "fieldName": "signed_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date that the affidavit for inclusion on the Prohibited Buildings List was signed by the owner or representative of the association or cooperative.",
+      "nullCount": 0,
+      "cardinality": 2412
+    },
+    {
+      "name": "Latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": "Latitude of the Building Address",
+      "nullCount": 16,
+      "cardinality": 2412
+    },
+    {
+      "name": "Longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": "Longitude of the Building Address",
+      "nullCount": 16,
+      "cardinality": 2412
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": "Location of the Building Address in a format that this data portal uses for mapping.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:05.219Z"
+}

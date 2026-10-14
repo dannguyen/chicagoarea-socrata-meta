@@ -1,0 +1,120 @@
+{
+  "id": "6sgb-5y8s",
+  "name": "Animal Control - Gender, by Breed - Fiscal Year 2010",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 335,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1316799462,
+  "publicationDate": 1412892186,
+  "rowsUpdatedAt": 1412892169,
+  "viewLastModified": 1769544712,
+  "viewCount": 1010,
+  "downloadCount": 2912,
+  "category": "Health & Human Services",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Animal Control",
+  "attributionLink": "http://www.cookcountygov.com/portal/server.pt/community/animal___rabies_control/247",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Breed",
+      "fieldName": "breed",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 335
+    },
+    {
+      "name": "FEMALE",
+      "fieldName": "female",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 115
+    },
+    {
+      "name": "FEMALE LIT",
+      "fieldName": "female_lit",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "FEMALE SPAYED",
+      "fieldName": "female_spayed",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 148
+    },
+    {
+      "name": "FEMALE UNK",
+      "fieldName": "female_unk",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "MALE",
+      "fieldName": "male",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 120
+    },
+    {
+      "name": "MALE CAST",
+      "fieldName": "male_cast",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 150
+    },
+    {
+      "name": "MALE UNKN",
+      "fieldName": "male_unkn",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "UNKNOWN",
+      "fieldName": "unknown",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 41
+    },
+    {
+      "name": "Totals",
+      "fieldName": "totals",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 191
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:03.680Z"
+}

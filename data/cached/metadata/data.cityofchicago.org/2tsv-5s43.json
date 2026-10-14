@@ -1,0 +1,110 @@
+{
+  "id": "2tsv-5s43",
+  "name": "Lending Equity - Savings and Checking Accounts",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 203922,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1638214780,
+  "publicationDate": 1638215445,
+  "rowsUpdatedAt": 1765815802,
+  "viewLastModified": 1765815800,
+  "viewCount": 1735,
+  "downloadCount": 1967,
+  "category": "Administration & Finance",
+  "tags": [
+    "lending",
+    "equity",
+    "2021",
+    "lending equity",
+    "2020",
+    "2022",
+    "2023",
+    "2024",
+    "2025"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2020-2024",
+      "Frequency": "Data are updated annually.",
+      "Data Owner": "Department of Finance"
+    }
+  },
+  "columns": [
+    {
+      "name": "Reporting Year",
+      "fieldName": "reporting_year",
+      "dataTypeName": "number",
+      "description": "The year in which the record was reported, covering bank operations in the previous year.",
+      "nullCount": 0,
+      "cardinality": 203922
+    },
+    {
+      "name": "Bank",
+      "fieldName": "bank",
+      "dataTypeName": "text",
+      "description": "Name of bank submitting data for municipal depository RFP",
+      "nullCount": 0,
+      "cardinality": 203922
+    },
+    {
+      "name": "RFP Source",
+      "fieldName": "rfp_source",
+      "dataTypeName": "text",
+      "description": "RFP submission item data were drawn from.",
+      "nullCount": 0,
+      "cardinality": 203922
+    },
+    {
+      "name": "Data Description",
+      "fieldName": "data_description",
+      "dataTypeName": "text",
+      "description": "The specific data that the bank were required to submit.",
+      "nullCount": 0,
+      "cardinality": 203922
+    },
+    {
+      "name": "ZIP Code",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": "The ZIP Code of the properties whose loans are included in the record, if the record is aggregated by ZIP Code.",
+      "nullCount": 203653,
+      "cardinality": 203922
+    },
+    {
+      "name": "Census Tract",
+      "fieldName": "census_tract",
+      "dataTypeName": "text",
+      "description": "The Census Tract of the properties whose loans are included in the record, if the record is aggregated by Census Tract.",
+      "nullCount": 471,
+      "cardinality": 203922
+    },
+    {
+      "name": "Number of Accounts",
+      "fieldName": "number_of_accounts",
+      "dataTypeName": "number",
+      "description": "The number of loans of the specified type made within the ZIP Code or Census Tract.",
+      "nullCount": 641,
+      "cardinality": 203922
+    },
+    {
+      "name": "Total Combined Balance",
+      "fieldName": "total_combined_balance",
+      "dataTypeName": "number",
+      "description": "The aggregate principal amount of the loans of the specified type made within the ZIP Code or Census Tract.",
+      "nullCount": 509,
+      "cardinality": 203922
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:15.273Z"
+}

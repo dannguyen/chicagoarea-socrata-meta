@@ -1,0 +1,88 @@
+{
+  "id": "kyks-t8ct",
+  "name": "Cook County Population Growth, By Municiplity And Waste Agency Jurisdiction",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 133,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1323967012,
+  "publicationDate": 1686672019,
+  "rowsUpdatedAt": 1414428210,
+  "viewLastModified": 1769546906,
+  "viewCount": 1278,
+  "downloadCount": 2405,
+  "category": "Economic Development",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Municipality",
+      "fieldName": "municipality",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 132
+    },
+    {
+      "name": "Waste Agency",
+      "fieldName": "waste_agency",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 7
+    },
+    {
+      "name": "2000 Total population",
+      "fieldName": "_total_population",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 132
+    },
+    {
+      "name": "2010 Population",
+      "fieldName": "_population",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 132
+    },
+    {
+      "name": "Population Change 2000-2010",
+      "fieldName": "population_change_2000_2010",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 128
+    },
+    {
+      "name": "Percent Change",
+      "fieldName": "percent_change",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 132
+    },
+    {
+      "name": "Location 1",
+      "fieldName": "location_1",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:01.036Z"
+}

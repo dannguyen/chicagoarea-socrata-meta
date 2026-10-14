@@ -1,0 +1,198 @@
+{
+  "id": "gywr-fjeh",
+  "name": "Cook County Check Register – Archived Data",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 432362,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1403633750,
+  "publicationDate": 1493741722,
+  "rowsUpdatedAt": 1493741591,
+  "viewLastModified": 1769543488,
+  "viewCount": 7706,
+  "downloadCount": 5193,
+  "category": "Finance & Operations",
+  "tags": [
+    "check register",
+    "check registry",
+    "payments",
+    "inactive"
+  ],
+  "attribution": "Cook County Office of the Comptroller",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Office of the Comptroller"
+    },
+    "Metadata": {
+      "Update Frequency": "Monthly"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Monthly",
+      "Publishing frequency": "Monthly"
+    }
+  },
+  "columns": [
+    {
+      "name": "CHECK NUMBER",
+      "fieldName": "check_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 72896
+    },
+    {
+      "name": "CHECK DATE",
+      "fieldName": "check_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 896
+    },
+    {
+      "name": "PAYEE NUMBER",
+      "fieldName": "payee_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4469
+    },
+    {
+      "name": "PAYEE VENDOR NAME",
+      "fieldName": "payee_vendor_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4495
+    },
+    {
+      "name": "PAYMENT AMOUNT",
+      "fieldName": "payment_amount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 167402
+    },
+    {
+      "name": "SERVICE TYPE ID",
+      "fieldName": "service_type_id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 241
+    },
+    {
+      "name": "SERVICE TYPE DESC",
+      "fieldName": "service_type_desc",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 257
+    },
+    {
+      "name": "PURCHASE ORDER",
+      "fieldName": "purchase_order",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 43725
+    },
+    {
+      "name": "PDMCU",
+      "fieldName": "pdmcu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1599
+    },
+    {
+      "name": "DEPARTMENT NBR",
+      "fieldName": "department_nbr",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2239,
+      "cardinality": 251
+    },
+    {
+      "name": "DEPARTMENT NAME",
+      "fieldName": "department_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2239,
+      "cardinality": 309
+    },
+    {
+      "name": "BUSINESS UNIT CODE",
+      "fieldName": "business_unit_code",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1599
+    },
+    {
+      "name": "BUSINESS UNIT NAME",
+      "fieldName": "business_unit_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1550
+    },
+    {
+      "name": "VENDOR NAME",
+      "fieldName": "vendor_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 114826,
+      "cardinality": 1512
+    },
+    {
+      "name": "VENDOR ADDRESS_1",
+      "fieldName": "vendor_address_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 114834,
+      "cardinality": 1495
+    },
+    {
+      "name": "VENDOR ADDRESS_2",
+      "fieldName": "vendor_address_2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 432362,
+      "cardinality": 0
+    },
+    {
+      "name": "CITY",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 114826,
+      "cardinality": 457
+    },
+    {
+      "name": "STATE ID",
+      "fieldName": "state_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 432362,
+      "cardinality": 0
+    },
+    {
+      "name": "ZIP CODE",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 114826,
+      "cardinality": 865
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:51.392Z"
+}

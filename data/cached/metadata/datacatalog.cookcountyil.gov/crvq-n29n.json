@@ -1,0 +1,124 @@
+{
+  "id": "crvq-n29n",
+  "name": "Transportation & Highways - Professional Services Rankings",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 15,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1789766794,
+  "publicationDate": 1789768045,
+  "rowsUpdatedAt": 1790708011,
+  "viewLastModified": 1790708010,
+  "viewCount": 88,
+  "downloadCount": 19,
+  "category": "Finance & Operations",
+  "tags": [
+    "doth",
+    "contract",
+    "consultant",
+    "idot"
+  ],
+  "attribution": "Department of Transportation & Highways",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Bureau of Technology Data Services"
+    },
+    "Metadata": {
+      "Update Frequency": "As Needed"
+    },
+    "Detailed Descriptive": {
+      "Temporal coverage": "1/1/2026-present",
+      "Ordinance Link": "https://idot.illinois.gov/doing-business/industry-marketplace/construction-services/contractor-resources.html",
+      "Ordinance": "IDOT Local Roads & Streets Manual Ch. 5(-5-7)",
+      "Data notes": "All rows will have an IDOT District of 1 (located in northeastern Illinois and including Cook County). We have chosen to retain this field to assist users who may be joining this dataset with similar data produced by organizations in other regions"
+    },
+    "Publishing Details": {
+      "Data change frequency": "As needed",
+      "Publishing frequency": "As needed"
+    }
+  },
+  "columns": [
+    {
+      "name": "Contract Number",
+      "fieldName": "contract_number",
+      "dataTypeName": "text",
+      "description": "unique contract identifier issued by the Office of the Chief Procurement Officer",
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "Description",
+      "fieldName": "description",
+      "dataTypeName": "text",
+      "description": "professional services sought by Cook County, as specified by the contract",
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "Advertised Date",
+      "fieldName": "advertised_date",
+      "dataTypeName": "calendar_date",
+      "description": "date Cook County makes public announcement or legal notice of a solicitation of services",
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "Awarded Date",
+      "fieldName": "awarded_date",
+      "dataTypeName": "calendar_date",
+      "description": "date that Cook County Board of Commissioners accepts the contract",
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "Selected Firm",
+      "fieldName": "selected_firm",
+      "dataTypeName": "text",
+      "description": "primary consultant or vendor with whom the contract for service has been executed",
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "Proposed Subconsultants",
+      "fieldName": "proposed_subconsultants",
+      "dataTypeName": "text",
+      "description": "consultants proposed to support the selected firm in carrying out the services specified by the contract; subconsultants are separated by semicolon",
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "First Alternate",
+      "fieldName": "first_alternate",
+      "dataTypeName": "text",
+      "description": "vendor first in line to negotiate for services should an agreement not be reached with the selected firm",
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "Second Alternate",
+      "fieldName": "second_alternate",
+      "dataTypeName": "text",
+      "description": "vendor second in line to negotiate for services should an agreement not be reached with the selected firm",
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "IDOT District",
+      "fieldName": "idot_district",
+      "dataTypeName": "number",
+      "description": "Illinois Department of Transportation region in which the contracted services will take place",
+      "nullCount": 0,
+      "cardinality": 15
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:12.970Z"
+}

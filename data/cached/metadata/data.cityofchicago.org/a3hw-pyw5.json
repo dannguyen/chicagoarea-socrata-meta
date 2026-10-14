@@ -1,0 +1,86 @@
+{
+  "id": "a3hw-pyw5",
+  "name": "Chicago Public Schools - Local School Council Voting Districts 2020-2022",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 512,
+  "rowCountSource": "cached",
+  "rowLabel": "LSC Voting District",
+  "hasRowIdentifier": false,
+  "createdAt": 1583168146,
+  "publicationDate": 1583168807,
+  "rowsUpdatedAt": 1583273677,
+  "viewLastModified": 1583446074,
+  "viewCount": 978,
+  "downloadCount": 1513,
+  "category": "Education",
+  "tags": [
+    "schools",
+    "local school council",
+    "cps",
+    "boundaries",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "geo_layer"
+  ],
+  "attribution": "Chicago Public Schools",
+  "attributionLink": "https://cps.edu",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2020-2022",
+      "Frequency": "Biennial",
+      "Data Owner": "Chicago Public Schools"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "SCHOOL_ID",
+      "fieldName": "school_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 512
+    },
+    {
+      "name": "SCHOOL_NAM",
+      "fieldName": "school_nam",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 512
+    },
+    {
+      "name": "BOARD_REPO",
+      "fieldName": "board_repo",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 19
+    },
+    {
+      "name": "Type",
+      "fieldName": "type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:21.041Z"
+}

@@ -1,0 +1,479 @@
+{
+  "id": "drbg-ny73",
+  "name": "Budget Survey 2020",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 7347,
+  "rowCountSource": "cached",
+  "rowLabel": "Survey Response",
+  "hasRowIdentifier": false,
+  "createdAt": 1569014311,
+  "publicationDate": 1569599083,
+  "rowsUpdatedAt": 1659017049,
+  "viewLastModified": 1676049397,
+  "viewCount": 2911,
+  "downloadCount": 1772,
+  "category": "Administration & Finance",
+  "tags": [
+    "budget",
+    "2020",
+    "survey"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Summer/Fall 2019",
+      "Data Owner": "Office of Budget and Management"
+    }
+  },
+  "columns": [
+    {
+      "name": "Date",
+      "fieldName": "date",
+      "dataTypeName": "calendar_date",
+      "description": "The date on which the respondent completed the survey.",
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "ZIP Code",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": "The respondent's reported home ZIP Code.",
+      "nullCount": 178,
+      "cardinality": 63
+    },
+    {
+      "name": "Revenue Interest - Garage Parking Tax",
+      "fieldName": "revenue_interest_garage_parking_tax",
+      "dataTypeName": "checkbox",
+      "description": "Whether the respondent reported interest in information on this topic.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Revenue Interest - Ridesharing Tax",
+      "fieldName": "revenue_interest_ridesharing_tax",
+      "dataTypeName": "checkbox",
+      "description": "Whether the respondent reported interest in information on this topic.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Revenue Interest - Alcohol Tax",
+      "fieldName": "revenue_interest_alcohol_tax",
+      "dataTypeName": "checkbox",
+      "description": "Whether the respondent reported interest in information on this topic.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Revenue Interest - Tax on Sports, Theater, Other Entertainment",
+      "fieldName": "revenue_interest_tax_on_sports_theater_other_entertainment",
+      "dataTypeName": "checkbox",
+      "description": "Whether the respondent reported interest in information on this topic.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Revenue Interest - Cigarette Tax",
+      "fieldName": "revenue_interest_cigarette_tax",
+      "dataTypeName": "checkbox",
+      "description": "Whether the respondent reported interest in information on this topic.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Revenue Interest - Hotel Tax",
+      "fieldName": "revenue_interest_hotel_tax",
+      "dataTypeName": "checkbox",
+      "description": "Whether the respondent reported interest in information on this topic.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Revenue Interest - Shopping Bag Tax",
+      "fieldName": "revenue_interest_shopping_bag_tax",
+      "dataTypeName": "checkbox",
+      "description": "Whether the respondent reported interest in information on this topic.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Revenue Interest - Property Tax",
+      "fieldName": "revenue_interest_property_tax",
+      "dataTypeName": "checkbox",
+      "description": "Whether the respondent reported interest in information on this topic.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Revenue Interest - Sales Tax",
+      "fieldName": "revenue_interest_sales_tax",
+      "dataTypeName": "checkbox",
+      "description": "Whether the respondent reported interest in information on this topic.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Revenue Interest - Permit Fees",
+      "fieldName": "revenue_interest_permit_fees",
+      "dataTypeName": "checkbox",
+      "description": "Whether the respondent reported interest in information on this topic.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Revenue Interest - License Fees",
+      "fieldName": "revenue_interest_license_fees",
+      "dataTypeName": "checkbox",
+      "description": "Whether the respondent reported interest in information on this topic.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Revenue Interest - Other",
+      "fieldName": "revenue_interest_other",
+      "dataTypeName": "checkbox",
+      "description": "Whether the respondent reported interest in information on this topic.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Expense Interest - Police",
+      "fieldName": "expense_interest_police",
+      "dataTypeName": "checkbox",
+      "description": "Whether the respondent reported interest in information on this topic.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Expense Interest - Other Public Safety",
+      "fieldName": "expense_interest_other_public_safety",
+      "dataTypeName": "checkbox",
+      "description": "Whether the respondent reported interest in information on this topic.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Expense Interest - Infrastructure",
+      "fieldName": "expense_interest_infrastructure",
+      "dataTypeName": "checkbox",
+      "description": "Whether the respondent reported interest in information on this topic.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Expense Interest - Community",
+      "fieldName": "expense_interest_community",
+      "dataTypeName": "checkbox",
+      "description": "Whether the respondent reported interest in information on this topic.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Expense Interest - Streets and Sanitation",
+      "fieldName": "expense_interest_streets_and_sanitation",
+      "dataTypeName": "checkbox",
+      "description": "Whether the respondent reported interest in information on this topic.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Expense Interest - City Development",
+      "fieldName": "expense_interest_city_development",
+      "dataTypeName": "checkbox",
+      "description": "Whether the respondent reported interest in information on this topic.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Expense Interest - Libraries",
+      "fieldName": "expense_interest_libraries",
+      "dataTypeName": "checkbox",
+      "description": "Whether the respondent reported interest in information on this topic.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Expense Interest - Regulatory",
+      "fieldName": "expense_interest_regulatory",
+      "dataTypeName": "checkbox",
+      "description": "Whether the respondent reported interest in information on this topic.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Expense Interest - Cultural Affairs and Special Events",
+      "fieldName": "expense_interest_cultural_affairs_and_special_events",
+      "dataTypeName": "checkbox",
+      "description": "Whether the respondent reported interest in information on this topic.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Expense Interest - Other",
+      "fieldName": "expense_interest_other",
+      "dataTypeName": "checkbox",
+      "description": "Whether the respondent reported interest in information on this topic.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Spending Change - Police",
+      "fieldName": "spending_change_police",
+      "dataTypeName": "text",
+      "description": "Answer for this area to the question: \"Which areas of spending would you consider reducing, increasing or remaining the same in order to balance the City’s budget? \"",
+      "nullCount": 118,
+      "cardinality": 3
+    },
+    {
+      "name": "Spending Change - Other Public Safety",
+      "fieldName": "spending_change_other_public_safety",
+      "dataTypeName": "text",
+      "description": "Answer for this area to the question: \"Which areas of spending would you consider reducing, increasing or remaining the same in order to balance the City’s budget? \"",
+      "nullCount": 187,
+      "cardinality": 3
+    },
+    {
+      "name": "Spending Change - Infrastructure",
+      "fieldName": "spending_change_infrastructure",
+      "dataTypeName": "text",
+      "description": "Answer for this area to the question: \"Which areas of spending would you consider reducing, increasing or remaining the same in order to balance the City’s budget? \"",
+      "nullCount": 177,
+      "cardinality": 3
+    },
+    {
+      "name": "Spending Change - Community",
+      "fieldName": "spending_change_community",
+      "dataTypeName": "text",
+      "description": "Answer for this area to the question: \"Which areas of spending would you consider reducing, increasing or remaining the same in order to balance the City’s budget? \"",
+      "nullCount": 116,
+      "cardinality": 3
+    },
+    {
+      "name": "Spending Change - Streets and Sanitation",
+      "fieldName": "spending_change_streets_and_sanitation",
+      "dataTypeName": "text",
+      "description": "Answer for this area to the question: \"Which areas of spending would you consider reducing, increasing or remaining the same in order to balance the City’s budget? \"",
+      "nullCount": 187,
+      "cardinality": 3
+    },
+    {
+      "name": "Spending Change - City Development",
+      "fieldName": "spending_change_city_development",
+      "dataTypeName": "text",
+      "description": "Answer for this area to the question: \"Which areas of spending would you consider reducing, increasing or remaining the same in order to balance the City’s budget? \"",
+      "nullCount": 174,
+      "cardinality": 3
+    },
+    {
+      "name": "Spending Change - Libraries",
+      "fieldName": "spending_change_libraries",
+      "dataTypeName": "text",
+      "description": "Answer for this area to the question: \"Which areas of spending would you consider reducing, increasing or remaining the same in order to balance the City’s budget? \"",
+      "nullCount": 268,
+      "cardinality": 3
+    },
+    {
+      "name": "Spending Change - Regulatory",
+      "fieldName": "spending_change_regulatory",
+      "dataTypeName": "text",
+      "description": "Answer for this area to the question: \"Which areas of spending would you consider reducing, increasing or remaining the same in order to balance the City’s budget? \"",
+      "nullCount": 210,
+      "cardinality": 3
+    },
+    {
+      "name": "Spending Change - Cultural Affairs and Special Events",
+      "fieldName": "spending_change_cultural_affairs_and_special_events",
+      "dataTypeName": "text",
+      "description": "Answer for this area to the question: \"Which areas of spending would you consider reducing, increasing or remaining the same in order to balance the City’s budget? \"",
+      "nullCount": 240,
+      "cardinality": 3
+    },
+    {
+      "name": "Revenue Change - Garage Parking Tax",
+      "fieldName": "revenue_change_garage_parking_tax",
+      "dataTypeName": "text",
+      "description": "Answer for this potential revenue source to the question: \"Which revenues would you consider increasing or keeping the same in order to balance the City’s budget? \"",
+      "nullCount": 191,
+      "cardinality": 3
+    },
+    {
+      "name": "Revenue Change - Ridesharing Tax",
+      "fieldName": "revenue_change_ridesharing_tax",
+      "dataTypeName": "text",
+      "description": "Answer for this potential revenue source to the question: \"Which revenues would you consider increasing or keeping the same in order to balance the City’s budget? \"",
+      "nullCount": 152,
+      "cardinality": 3
+    },
+    {
+      "name": "Revenue Change - Alcohol Tax",
+      "fieldName": "revenue_change_alcohol_tax",
+      "dataTypeName": "text",
+      "description": "Answer for this potential revenue source to the question: \"Which revenues would you consider increasing or keeping the same in order to balance the City’s budget? \"",
+      "nullCount": 200,
+      "cardinality": 3
+    },
+    {
+      "name": "Revenue Change - Tax on Sports, Theater, Other Entertainment",
+      "fieldName": "revenue_change_tax_on_sports_theater_other_entertainment",
+      "dataTypeName": "text",
+      "description": "Answer for this potential revenue source to the question: \"Which revenues would you consider increasing or keeping the same in order to balance the City’s budget? \"",
+      "nullCount": 161,
+      "cardinality": 3
+    },
+    {
+      "name": "Revenue Change - Cigarette Tax",
+      "fieldName": "revenue_change_cigarette_tax",
+      "dataTypeName": "text",
+      "description": "Answer for this potential revenue source to the question: \"Which revenues would you consider increasing or keeping the same in order to balance the City’s budget? \"",
+      "nullCount": 82,
+      "cardinality": 3
+    },
+    {
+      "name": "Revenue Change - Hotel Tax",
+      "fieldName": "revenue_change_hotel_tax",
+      "dataTypeName": "text",
+      "description": "Answer for this potential revenue source to the question: \"Which revenues would you consider increasing or keeping the same in order to balance the City’s budget? \"",
+      "nullCount": 223,
+      "cardinality": 3
+    },
+    {
+      "name": "Revenue Change - Shopping Bag Tax",
+      "fieldName": "revenue_change_shopping_bag_tax",
+      "dataTypeName": "text",
+      "description": "Answer for this potential revenue source to the question: \"Which revenues would you consider increasing or keeping the same in order to balance the City’s budget? \"",
+      "nullCount": 213,
+      "cardinality": 3
+    },
+    {
+      "name": "Revenue Change - Property Tax",
+      "fieldName": "revenue_change_property_tax",
+      "dataTypeName": "text",
+      "description": "Answer for this potential revenue source to the question: \"Which revenues would you consider increasing or keeping the same in order to balance the City’s budget? \"",
+      "nullCount": 227,
+      "cardinality": 3
+    },
+    {
+      "name": "Revenue Change - Sales Tax",
+      "fieldName": "revenue_change_sales_tax",
+      "dataTypeName": "text",
+      "description": "Answer for this potential revenue source to the question: \"Which revenues would you consider increasing or keeping the same in order to balance the City’s budget? \"",
+      "nullCount": 235,
+      "cardinality": 3
+    },
+    {
+      "name": "Revenue Change - Permit Fees",
+      "fieldName": "revenue_change_permit_fees",
+      "dataTypeName": "text",
+      "description": "Answer for this potential revenue source to the question: \"Which revenues would you consider increasing or keeping the same in order to balance the City’s budget? \"",
+      "nullCount": 196,
+      "cardinality": 3
+    },
+    {
+      "name": "Revenue Change - License Fees",
+      "fieldName": "revenue_change_license_fees",
+      "dataTypeName": "text",
+      "description": "Answer for this potential revenue source to the question: \"Which revenues would you consider increasing or keeping the same in order to balance the City’s budget? \"",
+      "nullCount": 240,
+      "cardinality": 3
+    },
+    {
+      "name": "$1000 Assignment - Police",
+      "fieldName": "_1000_assignment_police",
+      "dataTypeName": "number",
+      "description": "Amount of a hypothetical $1000 allocated to this area. Negative values have been converted to blanks. Totals above $1000 have been adjusted proportionally to reduce the total to $1000.",
+      "nullCount": 1463,
+      "cardinality": 368
+    },
+    {
+      "name": "$1000 Assignment - Other Public Safety",
+      "fieldName": "_1000_assignment_other_public_safety",
+      "dataTypeName": "number",
+      "description": "Amount of a hypothetical $1000 allocated to this area. Negative values have been converted to blanks. Totals above $1000 have been adjusted proportionally to reduce the total to $1000.",
+      "nullCount": 1640,
+      "cardinality": 306
+    },
+    {
+      "name": "$1000 Assignment - Infrastructure Services",
+      "fieldName": "_1000_assignment_infrastructure_services",
+      "dataTypeName": "number",
+      "description": "Amount of a hypothetical $1000 allocated to this area. Negative values have been converted to blanks. Totals above $1000 have been adjusted proportionally to reduce the total to $1000.",
+      "nullCount": 1659,
+      "cardinality": 305
+    },
+    {
+      "name": "$1000 Assignment - Community",
+      "fieldName": "_1000_assignment_community",
+      "dataTypeName": "number",
+      "description": "Amount of a hypothetical $1000 allocated to this area. Negative values have been converted to blanks. Totals above $1000 have been adjusted proportionally to reduce the total to $1000.",
+      "nullCount": 1929,
+      "cardinality": 313
+    },
+    {
+      "name": "$1000 Assignment - Streets and Sanitation",
+      "fieldName": "_1000_assignment_streets_and_sanitation",
+      "dataTypeName": "number",
+      "description": "Amount of a hypothetical $1000 allocated to this area. Negative values have been converted to blanks. Totals above $1000 have been adjusted proportionally to reduce the total to $1000.",
+      "nullCount": 2029,
+      "cardinality": 250
+    },
+    {
+      "name": "$1000 Assignment - City Development",
+      "fieldName": "_1000_assignment_city_development",
+      "dataTypeName": "number",
+      "description": "Amount of a hypothetical $1000 allocated to this area. Negative values have been converted to blanks. Totals above $1000 have been adjusted proportionally to reduce the total to $1000.",
+      "nullCount": 2517,
+      "cardinality": 261
+    },
+    {
+      "name": "$1000 Assignment - Libraries",
+      "fieldName": "_1000_assignment_libraries",
+      "dataTypeName": "number",
+      "description": "Amount of a hypothetical $1000 allocated to this area. Negative values have been converted to blanks. Totals above $1000 have been adjusted proportionally to reduce the total to $1000.",
+      "nullCount": 2514,
+      "cardinality": 240
+    },
+    {
+      "name": "$1000 Assignment - Regulatory",
+      "fieldName": "_1000_assignment_regulatory",
+      "dataTypeName": "number",
+      "description": "Amount of a hypothetical $1000 allocated to this area. Negative values have been converted to blanks. Totals above $1000 have been adjusted proportionally to reduce the total to $1000.",
+      "nullCount": 2629,
+      "cardinality": 247
+    },
+    {
+      "name": "$1000 Assignment - Cultural Affairs and Special Events",
+      "fieldName": "_1000_assignment_cultural_affairs_and_special_events",
+      "dataTypeName": "number",
+      "description": "Amount of a hypothetical $1000 allocated to this area. Negative values have been converted to blanks. Totals above $1000 have been adjusted proportionally to reduce the total to $1000.",
+      "nullCount": 2839,
+      "cardinality": 232
+    },
+    {
+      "name": "$1000 Assignment - Total",
+      "fieldName": "_1000_assignment_total",
+      "dataTypeName": "number",
+      "description": "Total of the previous columns, after accounting for the adjustments.",
+      "nullCount": 0,
+      "cardinality": 213
+    },
+    {
+      "name": "Counter Column",
+      "fieldName": "counter_column",
+      "dataTypeName": "number",
+      "description": "This is an additional column, set to 1 for all records, to allow for certain types of charts and aggregations.",
+      "nullCount": 0,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:08.793Z"
+}

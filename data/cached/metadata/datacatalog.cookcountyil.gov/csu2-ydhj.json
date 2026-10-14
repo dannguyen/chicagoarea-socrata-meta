@@ -1,0 +1,112 @@
+{
+  "id": "csu2-ydhj",
+  "name": "Department of Revenue - Home Rule Taxes Collected - December 2010 to June 2011",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 7,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1313691941,
+  "publicationDate": 1412889729,
+  "rowsUpdatedAt": 1412889679,
+  "viewLastModified": 1769543329,
+  "viewCount": 886,
+  "downloadCount": 2898,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Revenue",
+  "attributionLink": "http://cookcountyil.gov/revenue",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Month",
+      "fieldName": "month",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Sales Tax ",
+      "fieldName": "sales_tax",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Use Tax",
+      "fieldName": "use_tax",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Alcoholic Beverage Tax",
+      "fieldName": "alcoholic_beverage_tax",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Cigarette Tax",
+      "fieldName": "cigarette_tax",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Gasoline / Diesel Fuel Tax",
+      "fieldName": "gasoline_diesel_fuel_tax",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "NewMotor Vehicles Tax",
+      "fieldName": "newmotor_vehicles_tax",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Wheel  Tax",
+      "fieldName": "wheel_tax",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Amusement  Tax",
+      "fieldName": "amusement_tax",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Parking Lot & Garage Operations Tax",
+      "fieldName": "parking_lot_garage_operations_tax",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:05.010Z"
+}

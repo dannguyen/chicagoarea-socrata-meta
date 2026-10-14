@@ -1,0 +1,68 @@
+{
+  "id": "d46c-nxy5",
+  "name": "Investor Relations - Bond Official Statements",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 25,
+  "rowCountSource": "cached",
+  "rowLabel": "Statement",
+  "hasRowIdentifier": false,
+  "createdAt": 1463625059,
+  "publicationDate": 1537211650,
+  "rowsUpdatedAt": 1789751070,
+  "viewLastModified": 1789751069,
+  "viewCount": 4384,
+  "downloadCount": 2213,
+  "category": "Finance & Operations",
+  "tags": [],
+  "attribution": "Cook County Bureau of Finance",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Bureau of Finance"
+    },
+    "Metadata": {
+      "Update Frequency": "As Needed"
+    },
+    "Detailed Descriptive": {
+      "Geographic unit": "Not applicable"
+    },
+    "Publishing Details": {
+      "Data change frequency": "As needed",
+      "Publishing frequency": "As needed"
+    }
+  },
+  "columns": [
+    {
+      "name": "Link",
+      "fieldName": "link",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": "Type",
+      "fieldName": "type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 25
+    },
+    {
+      "name": "Series",
+      "fieldName": "series",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 25
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:53.411Z"
+}

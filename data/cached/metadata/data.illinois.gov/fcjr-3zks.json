@@ -1,0 +1,90 @@
+{
+  "id": "fcjr-3zks",
+  "name": "CDB Quarterly Grant Project Summary",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 77,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709056748,
+  "publicationDate": 1709148240,
+  "rowsUpdatedAt": 1709148234,
+  "viewLastModified": 1736352828,
+  "viewCount": 1537,
+  "downloadCount": 81,
+  "category": "Government and Public Employees",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Capital Development Board"
+    }
+  },
+  "columns": [
+    {
+      "name": "award_amount",
+      "fieldName": "award_amount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 66
+    },
+    {
+      "name": "award_date",
+      "fieldName": "award_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "duration",
+      "fieldName": "duration",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "grant_description",
+      "fieldName": "grant_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 75
+    },
+    {
+      "name": "grant_recipient",
+      "fieldName": "grant_recipient",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 76
+    },
+    {
+      "name": "grantor_agency",
+      "fieldName": "grantor_agency",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "zip_code",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 63
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:32.282Z"
+}

@@ -1,0 +1,211 @@
+{
+  "id": "8pix-ypme",
+  "name": "CTA - System Information - List of 'L' Stops",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 302,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1312487600,
+  "publicationDate": 1763576100,
+  "rowsUpdatedAt": 1763576077,
+  "viewLastModified": 1763576100,
+  "viewCount": 34878,
+  "downloadCount": 4898338,
+  "category": "Transportation",
+  "tags": [
+    "cta",
+    "public transit",
+    "rail",
+    "stations",
+    "sustainability"
+  ],
+  "attribution": "Chicago Transit Authority",
+  "attributionLink": "http://www.transitchicago.com",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "",
+      "Frequency": "",
+      "Data Owner": "Chicago Transit Authority "
+    }
+  },
+  "columns": [
+    {
+      "name": "STOP_ID",
+      "fieldName": "stop_id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 302
+    },
+    {
+      "name": "DIRECTION_ID",
+      "fieldName": "direction_id",
+      "dataTypeName": "text",
+      "description": "Normal direction of train traffic at platform.",
+      "nullCount": 0,
+      "cardinality": 302
+    },
+    {
+      "name": "STOP_NAME",
+      "fieldName": "stop_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 302
+    },
+    {
+      "name": "STATION_NAME",
+      "fieldName": "station_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 302
+    },
+    {
+      "name": "STATION_DESCRIPTIVE_NAME",
+      "fieldName": "station_descriptive_name",
+      "dataTypeName": "text",
+      "description": "A more fully descriptive name of a station.",
+      "nullCount": 0,
+      "cardinality": 302
+    },
+    {
+      "name": "MAP_ID",
+      "fieldName": "map_id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 302
+    },
+    {
+      "name": "ADA",
+      "fieldName": "ada",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 302
+    },
+    {
+      "name": "RED",
+      "fieldName": "red",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 302
+    },
+    {
+      "name": "BLUE",
+      "fieldName": "blue",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 302
+    },
+    {
+      "name": "G",
+      "fieldName": "g",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 302
+    },
+    {
+      "name": "BRN",
+      "fieldName": "brn",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 302
+    },
+    {
+      "name": "P",
+      "fieldName": "p",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 302
+    },
+    {
+      "name": "Y",
+      "fieldName": "y",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 302
+    },
+    {
+      "name": "Pnk",
+      "fieldName": "pnk",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 302
+    },
+    {
+      "name": "O",
+      "fieldName": "o",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 302
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:07.036Z"
+}

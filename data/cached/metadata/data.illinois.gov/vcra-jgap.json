@@ -1,0 +1,67 @@
+{
+  "id": "vcra-jgap",
+  "name": "Leading Causes of Death, 1990-2010",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1000,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709058280,
+  "publicationDate": 1709144534,
+  "rowsUpdatedAt": 1709144528,
+  "viewLastModified": 1736793998,
+  "viewCount": 115,
+  "downloadCount": 26,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "age_group",
+      "fieldName": "age_group",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "fatalities",
+      "fieldName": "fatalities",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 678
+    },
+    {
+      "name": "leading_causes_of_death",
+      "fieldName": "leading_causes_of_death",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 72
+    },
+    {
+      "name": "year",
+      "fieldName": "year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:35.006Z"
+}

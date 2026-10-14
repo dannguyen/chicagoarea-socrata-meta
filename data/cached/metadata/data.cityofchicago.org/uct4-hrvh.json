@@ -1,0 +1,104 @@
+{
+  "id": "uct4-hrvh",
+  "name": "Individual Landmarks",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 412,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": true,
+  "createdAt": 1386968483,
+  "publicationDate": 1708110534,
+  "rowsUpdatedAt": 1788893707,
+  "viewLastModified": 1788959587,
+  "viewCount": 1891,
+  "downloadCount": 4553,
+  "category": "Historic Preservation",
+  "tags": [
+    "landmarks",
+    "tourism",
+    "geo_layer"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "September 2026",
+      "Frequency": "Data are updated as needed",
+      "Data Owner": "Department of Planning and Development"
+    }
+  },
+  "columns": [
+    {
+      "name": "NAME",
+      "fieldName": "name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 412
+    },
+    {
+      "name": "ID",
+      "fieldName": "id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 412
+    },
+    {
+      "name": "ADDRESS",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 412
+    },
+    {
+      "name": "DATE_BUILT",
+      "fieldName": "date_built",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 412
+    },
+    {
+      "name": "ARCHITECT",
+      "fieldName": "architect",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 412
+    },
+    {
+      "name": "LANDMARK",
+      "fieldName": "landmark",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 412
+    },
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "VALID_DATE",
+      "fieldName": "valid_date",
+      "dataTypeName": "calendar_date",
+      "description": "The date on which the records in this dataset were current. It corresponds to the Time Period. All records in the dataset have the same value at any given time. The exact date sometimes is an estimate.",
+      "nullCount": 0,
+      "cardinality": 412
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:14.449Z"
+}

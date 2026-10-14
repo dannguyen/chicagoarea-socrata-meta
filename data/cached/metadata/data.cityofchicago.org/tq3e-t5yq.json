@@ -1,0 +1,191 @@
+{
+  "id": "tq3e-t5yq",
+  "name": "Lobbyist Data - Lobbyists",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 12000,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1429912699,
+  "publicationDate": 1445378785,
+  "rowsUpdatedAt": 1791969498,
+  "viewLastModified": 1713909850,
+  "viewCount": 15520,
+  "downloadCount": 54914,
+  "category": "Ethics",
+  "tags": [
+    "ethics",
+    "lobbyists"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2012 - Current",
+      "Frequency": "Data are updated daily.",
+      "Data Owner": "Board of Ethics"
+    }
+  },
+  "columns": [
+    {
+      "name": "YEAR",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": "The year in which the lobbyist registered with the information shown.",
+      "nullCount": 0,
+      "cardinality": 12000
+    },
+    {
+      "name": "LOBBYIST_ID",
+      "fieldName": "lobbyist_id",
+      "dataTypeName": "number",
+      "description": "A unique identifier for the lobbyist record. This ID can be used to link records in other datasets that contain an ID column with the same name. ",
+      "nullCount": 0,
+      "cardinality": 12000
+    },
+    {
+      "name": "SALUTATION",
+      "fieldName": "salutation",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3856,
+      "cardinality": 12000
+    },
+    {
+      "name": "FIRST_NAME",
+      "fieldName": "first_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12000
+    },
+    {
+      "name": "MIDDLE_INITIAL",
+      "fieldName": "middle_initial",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 7409,
+      "cardinality": 12000
+    },
+    {
+      "name": "LAST_NAME",
+      "fieldName": "last_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12000
+    },
+    {
+      "name": "SUFFIX",
+      "fieldName": "suffix",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 11198,
+      "cardinality": 12000
+    },
+    {
+      "name": "ADDRESS_1",
+      "fieldName": "address_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12000
+    },
+    {
+      "name": "ADDRESS_2",
+      "fieldName": "address_2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 6277,
+      "cardinality": 12000
+    },
+    {
+      "name": "CITY",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12000
+    },
+    {
+      "name": "STATE",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12000
+    },
+    {
+      "name": "ZIP",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12000
+    },
+    {
+      "name": "COUNTRY",
+      "fieldName": "country",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12000
+    },
+    {
+      "name": "EMAIL",
+      "fieldName": "email",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12000
+    },
+    {
+      "name": "PHONE",
+      "fieldName": "phone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12000
+    },
+    {
+      "name": "FAX",
+      "fieldName": "fax",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 7753,
+      "cardinality": 12000
+    },
+    {
+      "name": "EMPLOYER_ID",
+      "fieldName": "employer_id",
+      "dataTypeName": "number",
+      "description": "A unique identifier for the employer record associated with the lobbyist record. This ID can be used to link records in other datasets that contain an ID column with the same name. A lobbyist with multiple employers will have multiple records in this dataset.",
+      "nullCount": 0,
+      "cardinality": 12000
+    },
+    {
+      "name": "EMPLOYER_NAME",
+      "fieldName": "employer_name",
+      "dataTypeName": "text",
+      "description": "The name of the employer associated with the lobbyist record. A lobbyist with multiple employers will have multiple records in this dataset.",
+      "nullCount": 0,
+      "cardinality": 12000
+    },
+    {
+      "name": "CREATED_DATE",
+      "fieldName": "created_date",
+      "dataTypeName": "calendar_date",
+      "description": "The date the record was created.",
+      "nullCount": 0,
+      "cardinality": 12000
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:37:49.146Z"
+}

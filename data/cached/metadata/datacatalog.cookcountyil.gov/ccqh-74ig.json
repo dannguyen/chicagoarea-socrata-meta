@@ -1,0 +1,80 @@
+{
+  "id": "ccqh-74ig",
+  "name": "Risk Management - Employee Enrollment and Pool - 2012",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 5,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1337618229,
+  "publicationDate": 1412893993,
+  "rowsUpdatedAt": 1412893988,
+  "viewLastModified": 1769547402,
+  "viewCount": 720,
+  "downloadCount": 2383,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Risk Management",
+  "attributionLink": "http://www.cookcountyrisk.com/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Pool",
+      "fieldName": "pool",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "HMO IL, a Blue Cross HMO",
+      "fieldName": "hmo_il_a_blue_cross_hmo",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Classic Blue HMO",
+      "fieldName": "classic_blue_hmo",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Blue Cross PPO",
+      "fieldName": "blue_cross_ppo",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Tier totals",
+      "fieldName": "tier_totals",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "percentage by subscriber",
+      "fieldName": "percentage_by_subscriber",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:07.421Z"
+}

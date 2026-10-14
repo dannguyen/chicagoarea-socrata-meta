@@ -1,0 +1,160 @@
+{
+  "id": "hwmb-iu8j",
+  "name": "Public Right-of-Way Use Permits - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1082526,
+  "rowCountSource": "cached",
+  "rowLabel": "Right of Way Use Permit",
+  "hasRowIdentifier": false,
+  "createdAt": 1333136289,
+  "publicationDate": 1401991947,
+  "rowsUpdatedAt": 1449758037,
+  "viewLastModified": 1449789667,
+  "viewCount": 60742,
+  "downloadCount": 8702,
+  "category": "Transportation",
+  "tags": [
+    "permits",
+    "historical"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org/content/city/en/depts/cdot/provdrs/permit/svcs/public_right_of_wayusepermit.html",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "2012/04/20 23:11:28",
+      "Time Period": "January 2011 to 12/6/2015",
+      "Frequency": "Data was updated daily before becoming historical",
+      "Data Owner": "Transportation"
+    }
+  },
+  "columns": [
+    {
+      "name": "ID",
+      "fieldName": "id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1082526
+    },
+    {
+      "name": "PERMIT NUMBER",
+      "fieldName": "permit_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 633447
+    },
+    {
+      "name": "PERMIT TYPE CODE",
+      "fieldName": "permit_type_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 139
+    },
+    {
+      "name": "PERMIT TYPE DESCRIPTION",
+      "fieldName": "permit_type_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 140
+    },
+    {
+      "name": "COMPANY",
+      "fieldName": "company",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24394
+    },
+    {
+      "name": "ADDRESS",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 42154,
+      "cardinality": 468812
+    },
+    {
+      "name": "LOCATION DETAILS",
+      "fieldName": "location_details",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 739921,
+      "cardinality": 249337
+    },
+    {
+      "name": "EFFECTIVE DATE",
+      "fieldName": "effective_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1855
+    },
+    {
+      "name": "EXPIRATION DATE",
+      "fieldName": "expiration_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1958
+    },
+    {
+      "name": "PERMIT STATUS CODE",
+      "fieldName": "permit_status_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 19
+    },
+    {
+      "name": "PERMIT STATUS DESCRIPTION",
+      "fieldName": "permit_status_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 19
+    },
+    {
+      "name": "LAST MODIFIED DATE",
+      "fieldName": "last_modified_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 641698
+    },
+    {
+      "name": "LATITUDE",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 132023,
+      "cardinality": 341179
+    },
+    {
+      "name": "LONGITUDE",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 132023,
+      "cardinality": 341179
+    },
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 132023,
+      "cardinality": 341179
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:05.772Z"
+}

@@ -1,0 +1,69 @@
+{
+  "id": "utbg-zyex",
+  "name": "Inspector General - Prohibition of Discrimination and Harassment Quarterly Reports",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 23,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1547582439,
+  "publicationDate": 1547587129,
+  "rowsUpdatedAt": 1784130384,
+  "viewLastModified": 1784130383,
+  "viewCount": 2662,
+  "downloadCount": 1716,
+  "category": "Finance & Operations",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Office of the Inspector General"
+    },
+    "Metadata": {
+      "Update Frequency": "Quarterly"
+    }
+  },
+  "columns": [
+    {
+      "name": "Link",
+      "fieldName": "link",
+      "dataTypeName": "url",
+      "description": "Document name and hyperlink to PDF file",
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": "Date Issued",
+      "fieldName": "date_issued",
+      "dataTypeName": "calendar_date",
+      "description": "Document date",
+      "nullCount": 0,
+      "cardinality": 23
+    },
+    {
+      "name": "Fiscal Year",
+      "fieldName": "fiscal_year",
+      "dataTypeName": "text",
+      "description": "Year according to Cook County's fiscal calendar",
+      "nullCount": 0,
+      "cardinality": 23
+    },
+    {
+      "name": "Quarter",
+      "fieldName": "quarter",
+      "dataTypeName": "number",
+      "description": "Quarter according to Cook County's fiscal calendar",
+      "nullCount": 0,
+      "cardinality": 23
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:55.500Z"
+}

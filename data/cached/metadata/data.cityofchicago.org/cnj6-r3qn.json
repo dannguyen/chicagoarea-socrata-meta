@@ -1,0 +1,89 @@
+{
+  "id": "cnj6-r3qn",
+  "name": "Performance Metrics - Chicago Park District - Natural Resources Trees and Shrubs",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 54,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1322253603,
+  "publicationDate": 1344021557,
+  "rowsUpdatedAt": 1344021551,
+  "viewLastModified": 1347045654,
+  "viewCount": 2123,
+  "downloadCount": 2872,
+  "category": "Administration & Finance",
+  "tags": [
+    "performance metrics",
+    "parks",
+    "sustainability"
+  ],
+  "attribution": "Chicago Park District",
+  "attributionLink": "http://www.chicagoparkdistrict.com/",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "Data is current as of December 2011",
+      "Frequency": "Data is updated weekly",
+      "Data Owner": "Chicago Park District"
+    }
+  },
+  "columns": [
+    {
+      "name": "Date",
+      "fieldName": "date",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 54
+    },
+    {
+      "name": "Removal & Stumping",
+      "fieldName": "removal_stumping",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 34
+    },
+    {
+      "name": "# Tree's Removed",
+      "fieldName": "_tree_s_removed",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 34
+    },
+    {
+      "name": "# Tree's Pruned",
+      "fieldName": "_tree_s_pruned",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 49
+    },
+    {
+      "name": "Shrub Pruning",
+      "fieldName": "shrub_pruning",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 46
+    },
+    {
+      "name": "# Tree's and Shrubs Pruned",
+      "fieldName": "_tree_s_and_shrubs_pruned",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 47
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:12.652Z"
+}

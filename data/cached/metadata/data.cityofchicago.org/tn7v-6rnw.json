@@ -1,0 +1,302 @@
+{
+  "id": "tn7v-6rnw",
+  "name": "Chicago Park District Activities",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 9697,
+  "rowCountSource": "cached",
+  "rowLabel": "Activity",
+  "hasRowIdentifier": true,
+  "createdAt": 1717107265,
+  "publicationDate": 1729281621,
+  "rowsUpdatedAt": 1791973381,
+  "viewLastModified": 1750457065,
+  "viewCount": 2861,
+  "downloadCount": 8930,
+  "category": "Parks & Recreation",
+  "tags": [
+    "chicago park district",
+    "events"
+  ],
+  "attribution": "Chicago Park District",
+  "attributionLink": "http://www.chicagoparkdistrict.com/",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Future",
+      "Data Owner": "Chicago Park District"
+    }
+  },
+  "columns": [
+    {
+      "name": "Activity ID",
+      "fieldName": "activity_id",
+      "dataTypeName": "text",
+      "description": "A unique ID for the record.",
+      "nullCount": 0,
+      "cardinality": 9697
+    },
+    {
+      "name": "Type",
+      "fieldName": "type",
+      "dataTypeName": "text",
+      "description": "Whether the activity is an event or a program. Generally, events are single-day and programs are ongoing for multiple days.",
+      "nullCount": 0,
+      "cardinality": 9697
+    },
+    {
+      "name": "Title",
+      "fieldName": "title",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9697
+    },
+    {
+      "name": "Description",
+      "fieldName": "description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9697
+    },
+    {
+      "name": "Start Date",
+      "fieldName": "start_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9697
+    },
+    {
+      "name": "End Date",
+      "fieldName": "end_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9697
+    },
+    {
+      "name": "Date Notes",
+      "fieldName": "date_notes",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 365,
+      "cardinality": 9697
+    },
+    {
+      "name": "Season",
+      "fieldName": "season",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 9332,
+      "cardinality": 9697
+    },
+    {
+      "name": "Zone",
+      "fieldName": "zone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 9494,
+      "cardinality": 9697
+    },
+    {
+      "name": "Location Facility",
+      "fieldName": "location_facility",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 25,
+      "cardinality": 9697
+    },
+    {
+      "name": "Location Notes",
+      "fieldName": "location_notes",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 9697,
+      "cardinality": 9697
+    },
+    {
+      "name": "Age Range",
+      "fieldName": "age_range",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 135,
+      "cardinality": 9697
+    },
+    {
+      "name": "Activity Type",
+      "fieldName": "activity_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 365,
+      "cardinality": 9697
+    },
+    {
+      "name": "Category",
+      "fieldName": "category",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9697
+    },
+    {
+      "name": "Fee",
+      "fieldName": "fee",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9697
+    },
+    {
+      "name": "Image Link",
+      "fieldName": "image_link",
+      "dataTypeName": "url",
+      "description": "A link to the image, if any, associated with the activity.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Movie Rating",
+      "fieldName": "movie_rating",
+      "dataTypeName": "text",
+      "description": "The MPA rating if the activity is a movie.",
+      "nullCount": 9693,
+      "cardinality": 9697
+    },
+    {
+      "name": "Movie Title",
+      "fieldName": "movie_title",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 9693,
+      "cardinality": 9697
+    },
+    {
+      "name": "Restrictions",
+      "fieldName": "restrictions",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 9697,
+      "cardinality": 9697
+    },
+    {
+      "name": "Information Link",
+      "fieldName": "information_link",
+      "dataTypeName": "url",
+      "description": "A link for more information about the activity, sometimes including a registration link.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Registration Link",
+      "fieldName": "registration_link",
+      "dataTypeName": "url",
+      "description": "A link to register for the activity if there is not one on the Information page.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Registration Date",
+      "fieldName": "registration_date",
+      "dataTypeName": "calendar_date",
+      "description": "The date registration opens. This column will be blank for all events.",
+      "nullCount": 371,
+      "cardinality": 9697
+    },
+    {
+      "name": "Event Cancelled",
+      "fieldName": "event_cancelled",
+      "dataTypeName": "text",
+      "description": "Whether an event has been cancelled. This column will be blank for all programs.",
+      "nullCount": 9332,
+      "cardinality": 9697
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 25,
+      "cardinality": 9697
+    },
+    {
+      "name": "ZIP",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 25,
+      "cardinality": 9697
+    },
+    {
+      "name": "Latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 25,
+      "cardinality": 9697
+    },
+    {
+      "name": "Longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 25,
+      "cardinality": 9697
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": "The location in a format that allows for mapping and other geographic functions on this data portal.",
+      "nullCount": 25,
+      "cardinality": 9697
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Boundaries - ZIP Codes' (rpca-8um6) the point in column 'geo_location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Community Areas' (vrxf-vc4k) the point in column 'geo_location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Zip Codes' (6mkv-f3dw) the point in column 'geo_location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Census Tracts' (bdys-3d7i) the point in column 'geo_location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards 2023-",
+      "fieldName": ":@computed_region_8hcu_yrd4",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Wards 2023-' (8hcu-yrd4) the point in column 'geo_location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:09.210Z"
+}

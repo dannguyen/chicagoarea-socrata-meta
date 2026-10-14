@@ -1,0 +1,139 @@
+{
+  "id": "37ac-bbe3",
+  "name": "COVID-19 Vaccinations by Age and Race-Ethnicity - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 7600,
+  "rowCountSource": "query",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1656110119,
+  "publicationDate": 1675355095,
+  "rowsUpdatedAt": 1702488657,
+  "viewLastModified": 1788212724,
+  "viewCount": 3308,
+  "downloadCount": 2931,
+  "category": "Health & Human Services",
+  "tags": [
+    "covid-19",
+    "health",
+    "public health",
+    "vaccination",
+    "ethnicity",
+    "race",
+    "historical"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://chicago.gov/coronavirus",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "December 2020 - September 2023",
+      "Data Owner": "Department of Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "Week End",
+      "fieldName": "week_end",
+      "dataTypeName": "calendar_date",
+      "description": "The ending date of the seven-day period covered by the record.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Age Group",
+      "fieldName": "age_group",
+      "dataTypeName": "text",
+      "description": "Values used are: 0-4; 5-11; 12-17; 18-29; 30-49; 50-64; 65+",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Race/Ethnicity",
+      "fieldName": "race_ethnicity",
+      "dataTypeName": "text",
+      "description": "Values used are: Latinx; Black, non-Latinx; White, non-Latinx; Asian, non-Latinx; Other, non-Latinx; Unknown; All",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Population Size",
+      "fieldName": "population_size",
+      "dataTypeName": "number",
+      "description": "Number of people in the combination of the age and race/ethnicity group",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "1st Dose",
+      "fieldName": "_1st_dose",
+      "dataTypeName": "number",
+      "description": "Number of people who have received one dose.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "1st Dose Percent",
+      "fieldName": "_1st_dose_percent",
+      "dataTypeName": "number",
+      "description": "Percentage of people who have received one dose.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Vaccine Series Completed",
+      "fieldName": "vaccine_series_completed",
+      "dataTypeName": "number",
+      "description": "Number of people who have a completed vaccine series.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Vaccine Series Completed Percent",
+      "fieldName": "vaccine_series_completed_percent",
+      "dataTypeName": "number",
+      "description": "Percentage of people who have a completed vaccine series.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boosted",
+      "fieldName": "boosted",
+      "dataTypeName": "number",
+      "description": "Number of people who have a completed vaccine series and have received at least one additional dose through the date. This includes people who received a booster dose and immunocompromised people who received an additional primary dose of COVID-19 vaccine.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boosted Percent",
+      "fieldName": "boosted_percent",
+      "dataTypeName": "number",
+      "description": "Percentage of people who have a completed vaccine series and have received at least one additional dose through the date. This includes people who received a booster dose and immunocompromised people who received an additional primary dose of COVID-19 vaccine.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Bivalent",
+      "fieldName": "bivalent",
+      "dataTypeName": "number",
+      "description": "Number of people who have received a bivalent (updated) vaccine dose.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Bivalent Percent",
+      "fieldName": "bivalent_percent",
+      "dataTypeName": "number",
+      "description": "Percentage of people who have received a bivalent (updated) vaccine dose.",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:07.935Z"
+}

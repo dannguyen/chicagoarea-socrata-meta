@@ -1,0 +1,209 @@
+{
+  "id": "xhc6-88s9",
+  "name": "Chicago COVID-19 Community Vulnerability Index (CCVI)",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 135,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1611690528,
+  "publicationDate": 1616167527,
+  "rowsUpdatedAt": 1616167304,
+  "viewLastModified": 1788213147,
+  "viewCount": 10640,
+  "downloadCount": 7646,
+  "category": "Health & Human Services",
+  "tags": [
+    "public health",
+    "covid-19",
+    "community area",
+    "zip code",
+    "health"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://chicago.gov/coronavirus",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2021",
+      "Data Owner": "Department of Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "Geography Type",
+      "fieldName": "geography_type",
+      "dataTypeName": "text",
+      "description": "Whether the record is for a Community Area or a ZIP Code",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Community Area or ZIP Code",
+      "fieldName": "community_area_or_zip",
+      "dataTypeName": "number",
+      "description": "The Community Area or ZIP Code",
+      "nullCount": 0,
+      "cardinality": 135
+    },
+    {
+      "name": "Community Area Name",
+      "fieldName": "community_area_name",
+      "dataTypeName": "text",
+      "description": "Blank if the record is for a ZIP Code.",
+      "nullCount": 58,
+      "cardinality": 77
+    },
+    {
+      "name": "CCVI Score",
+      "fieldName": "ccvi_score",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 112
+    },
+    {
+      "name": "CCVI Category",
+      "fieldName": "ccvi_category",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Rank - Socioeconomic Status",
+      "fieldName": "rank_socioeconomic_status",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 58,
+      "cardinality": 49
+    },
+    {
+      "name": "Rank - Household Composition and Disability",
+      "fieldName": "rank_household_composition",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 58,
+      "cardinality": 52
+    },
+    {
+      "name": "Rank - Adults with no PCP",
+      "fieldName": "rank_adults_no_pcp",
+      "dataTypeName": "number",
+      "description": "Adults aged 18-64 years with no primary care provider. ",
+      "nullCount": 58,
+      "cardinality": 70
+    },
+    {
+      "name": "Rank - Cumulative Mobility Ratio",
+      "fieldName": "rank_cumulative_mobility_ratio",
+      "dataTypeName": "number",
+      "description": "Ratio of mobility in 2020 compared to 2019.",
+      "nullCount": 58,
+      "cardinality": 76
+    },
+    {
+      "name": "Rank - Frontline Essential Workers",
+      "fieldName": "rank_frontline_essential_workers",
+      "dataTypeName": "number",
+      "description": "Percentage of  the CA population that work as frontline essential workers.",
+      "nullCount": 58,
+      "cardinality": 55
+    },
+    {
+      "name": "Rank - Age 65+",
+      "fieldName": "rank_age_65_plus",
+      "dataTypeName": "number",
+      "description": "Percentage of the CA population that are adults aged 65+.",
+      "nullCount": 58,
+      "cardinality": 63
+    },
+    {
+      "name": "Rank - Comorbid Conditions",
+      "fieldName": "rank_comorbid_conditions",
+      "dataTypeName": "number",
+      "description": "Percentage of the CA population that are adults aged 18-64 years with one or more comorbid conditions.",
+      "nullCount": 58,
+      "cardinality": 70
+    },
+    {
+      "name": "Rank - COVID-19 Incidence Rate",
+      "fieldName": "rank_covid_19_incidence_rate",
+      "dataTypeName": "number",
+      "description": "Cumulative incidence rate Jan 1 - Dec 31 2020.",
+      "nullCount": 58,
+      "cardinality": 77
+    },
+    {
+      "name": "Rank - COVID-19 Hospital Admission Rate",
+      "fieldName": "rank_covid_19_hospital_admission_rate",
+      "dataTypeName": "number",
+      "description": "Cumulative hospital admission rate Jan 1 - Dec 31 2020.",
+      "nullCount": 58,
+      "cardinality": 77
+    },
+    {
+      "name": "Rank - COVID-19 Crude Mortality Rate",
+      "fieldName": "rank_covid_19_crude_mortality_rate",
+      "dataTypeName": "number",
+      "description": "Cumulative non-congregate living situation deaths that occurred from Jan 1 - Dec 31 2020.",
+      "nullCount": 58,
+      "cardinality": 74
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": "A point within the Community Area or ZIP Code to allow for geographic analysis. The precise point shown has no other meaning.",
+      "nullCount": 0,
+      "cardinality": 135
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Boundaries - ZIP Codes' (rpca-8um6) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Community Areas' (vrxf-vc4k) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Zip Codes' (6mkv-f3dw) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Census Tracts' (bdys-3d7i) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Wards' (43wa-7qmu) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:38:05.424Z"
+}

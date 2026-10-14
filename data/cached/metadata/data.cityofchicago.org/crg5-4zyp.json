@@ -1,0 +1,216 @@
+{
+  "id": "crg5-4zyp",
+  "name": "Building Code Scofflaw List",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 701,
+  "rowCountSource": "cached",
+  "rowLabel": "Building",
+  "hasRowIdentifier": true,
+  "createdAt": 1422250291,
+  "publicationDate": 1646347553,
+  "rowsUpdatedAt": 1790864995,
+  "viewLastModified": 1790864995,
+  "viewCount": 28640,
+  "downloadCount": 6155,
+  "category": "Buildings",
+  "tags": [
+    "scofflaw",
+    "buildings",
+    "violations"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Current as of the last update",
+      "Frequency": "Updated twice a year",
+      "Data Owner": "Department of Buildings and Department of Law"
+    }
+  },
+  "columns": [
+    {
+      "name": "DEFENDANT OWNER",
+      "fieldName": "defendant_owner",
+      "dataTypeName": "text",
+      "description": "A list of the building owners who are named as defendants in the code enforcement proceeding as of the owner list date. Owners are listed one month after the building list date. ",
+      "nullCount": 0,
+      "cardinality": 701
+    },
+    {
+      "name": "ADDRESS",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": "Primary address of building (used for geocoding and other geographic information).",
+      "nullCount": 0,
+      "cardinality": 701
+    },
+    {
+      "name": "SECONDARY ADDRESS",
+      "fieldName": "secondary_address",
+      "dataTypeName": "text",
+      "description": "An alternative address that could be used to describe building location. This was not used for any geocoding.",
+      "nullCount": 485,
+      "cardinality": 701
+    },
+    {
+      "name": "TERTIARY ADDRESS",
+      "fieldName": "tertiary_address",
+      "dataTypeName": "text",
+      "description": "An alternative address that could be used to describe building location. This was not used for any geocoding.",
+      "nullCount": 608,
+      "cardinality": 701
+    },
+    {
+      "name": "CIRCUIT COURT CASE NUMBER",
+      "fieldName": "circuit_court_case_number",
+      "dataTypeName": "text",
+      "description": "Case number for the Cook County Circuit Court",
+      "nullCount": 0,
+      "cardinality": 701
+    },
+    {
+      "name": "BUILDING LIST DATE",
+      "fieldName": "building_list_date",
+      "dataTypeName": "calendar_date",
+      "description": "The date of the building list for this record.",
+      "nullCount": 0,
+      "cardinality": 701
+    },
+    {
+      "name": "OWNER LIST DATE",
+      "fieldName": "owner_list_date",
+      "dataTypeName": "calendar_date",
+      "description": "The date of the owner list for this record.",
+      "nullCount": 0,
+      "cardinality": 701
+    },
+    {
+      "name": "COMMUNITY AREA",
+      "fieldName": "community_area",
+      "dataTypeName": "text",
+      "description": "The name of the community area. For context, see: http://en.wikipedia.org/wiki/Community_areas_in_Chicago ",
+      "nullCount": 0,
+      "cardinality": 701
+    },
+    {
+      "name": "COMMUNITY AREA NUMBER",
+      "fieldName": "community_area_number",
+      "dataTypeName": "text",
+      "description": "The ID that corresponds with COMMUNITY AREA in this dataset. For context, see: http://en.wikipedia.org/wiki/Community_areas_in_Chicago",
+      "nullCount": 0,
+      "cardinality": 701
+    },
+    {
+      "name": "WARD",
+      "fieldName": "ward",
+      "dataTypeName": "text",
+      "description": "The number of the ward (city council district) as of the building  list date",
+      "nullCount": 0,
+      "cardinality": 701
+    },
+    {
+      "name": "X_COORDINATE",
+      "fieldName": "x_coordinate",
+      "dataTypeName": "number",
+      "description": "The east-west coordinate defined in feet, based on NAD 83 - State Plane Eastern IL ",
+      "nullCount": 0,
+      "cardinality": 701
+    },
+    {
+      "name": "Y_COORDINATE",
+      "fieldName": "y_coordinate",
+      "dataTypeName": "number",
+      "description": "The north-south coordinate defined in feet, based on NAD 83 - State Plane Eastern IL ",
+      "nullCount": 0,
+      "cardinality": 701
+    },
+    {
+      "name": "LONGITUDE",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": "The longitude of the building (based on the ADDRESS column).",
+      "nullCount": 0,
+      "cardinality": 701
+    },
+    {
+      "name": "LATITUDE",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": "The latitude of the building (based on the ADDRESS column).",
+      "nullCount": 0,
+      "cardinality": 701
+    },
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": "The location of the building (based on the ADDRESS column) in a format that allows for mapping and other geographic analysis on this portal.",
+      "nullCount": 0,
+      "cardinality": 701
+    },
+    {
+      "name": "RECORD ID",
+      "fieldName": "record_id",
+      "dataTypeName": "text",
+      "description": "A unique identifier for the record.  A record is considered an updated version of a previously existing record if it has the same CIRCUIT COURT CASE NUMBER and BUILDING LIST DATE. This will most commonly happen when the DEFENDANT OWNER value is added a month after the record is first published.",
+      "nullCount": 0,
+      "cardinality": 701
+    },
+    {
+      "name": "Historical Wards 2003-2015 2",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Historical Wards 2003-2015' (awaf-s7ux) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards 2",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Wards' (43wa-7qmu) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas 2",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Community Areas' (vrxf-vc4k) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes 2",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Zip Codes' (6mkv-f3dw) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts 2",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Census Tracts' (bdys-3d7i) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Boundaries - ZIP Codes' (rpca-8um6) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:07.587Z"
+}

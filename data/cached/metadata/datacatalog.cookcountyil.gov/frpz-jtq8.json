@@ -1,0 +1,56 @@
+{
+  "id": "frpz-jtq8",
+  "name": "Medical Examiner--2009 Age Of Decendents",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 20,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1316639128,
+  "publicationDate": 1414427987,
+  "rowsUpdatedAt": 1414427983,
+  "viewLastModified": 1769546835,
+  "viewCount": 825,
+  "downloadCount": 2617,
+  "category": "Health & Human Services",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Medical Examiner",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "AGE OF DECEDENT",
+      "fieldName": "age_of_decedent",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "COUNT   ",
+      "fieldName": "count_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 19
+    },
+    {
+      "name": "PERCENT             ",
+      "fieldName": "percent_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 18
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:05.804Z"
+}

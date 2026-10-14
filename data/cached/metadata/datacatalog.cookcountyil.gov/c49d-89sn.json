@@ -1,0 +1,387 @@
+{
+  "id": "c49d-89sn",
+  "name": "Assessor [Archived 05-11-2022] - Property Locations",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1869232,
+  "rowCountSource": "cached",
+  "rowLabel": "Property Identification Number",
+  "hasRowIdentifier": false,
+  "createdAt": 1607447912,
+  "publicationDate": 1610487323,
+  "rowsUpdatedAt": 1611703475,
+  "viewLastModified": 1769545937,
+  "viewCount": 5564,
+  "downloadCount": 11740,
+  "category": "Property & Taxation",
+  "tags": [
+    "cook county assessor",
+    "property tax",
+    "spatial",
+    "archive"
+  ],
+  "attribution": "Cook County Assessor's Office",
+  "attributionLink": "https://www.cookcountyassessor.com",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Data Science and Modeling"
+    },
+    "Metadata": {
+      "Update Frequency": "Yearly"
+    },
+    "Detailed Descriptive": {
+      "Data notes": "https://gitlab.com/ccao-data-science---modeling/processes/etl_pinlocations",
+      "Geographic coverage": "Countywide",
+      "Geographic unit": "Parcel"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Annually",
+      "Publishing frequency": "Annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "pin",
+      "fieldName": "pin",
+      "dataTypeName": "text",
+      "description": "14-digit Property Index Number of the property",
+      "nullCount": 0,
+      "cardinality": 1869232
+    },
+    {
+      "name": "property_address",
+      "fieldName": "property_address",
+      "dataTypeName": "text",
+      "description": "Street address of the property",
+      "nullCount": 4655,
+      "cardinality": 1348592
+    },
+    {
+      "name": "property_apt_no",
+      "fieldName": "property_apt_no",
+      "dataTypeName": "text",
+      "description": "Apartment or unit number of the property, if applicable",
+      "nullCount": 1380163,
+      "cardinality": 38391
+    },
+    {
+      "name": "property_city",
+      "fieldName": "property_city",
+      "dataTypeName": "text",
+      "description": "City of the property",
+      "nullCount": 4774,
+      "cardinality": 158
+    },
+    {
+      "name": "property_zip",
+      "fieldName": "property_zip",
+      "dataTypeName": "text",
+      "description": "9-digit zip code of the property",
+      "nullCount": 4655,
+      "cardinality": 259639
+    },
+    {
+      "name": "mailing_address",
+      "fieldName": "mailing_address",
+      "dataTypeName": "text",
+      "description": "Mailing address of the property owner",
+      "nullCount": 100761,
+      "cardinality": 1381777
+    },
+    {
+      "name": "mailing_state",
+      "fieldName": "mailing_state",
+      "dataTypeName": "text",
+      "description": "Mailing state of property owner",
+      "nullCount": 100760,
+      "cardinality": 60
+    },
+    {
+      "name": "mailing_city",
+      "fieldName": "mailing_city",
+      "dataTypeName": "text",
+      "description": "Mailing city of property owner",
+      "nullCount": 100761,
+      "cardinality": 5116
+    },
+    {
+      "name": "mailing_zip",
+      "fieldName": "mailing_zip",
+      "dataTypeName": "text",
+      "description": "5-digit mailing zip code of property owner",
+      "nullCount": 109935,
+      "cardinality": 8072
+    },
+    {
+      "name": "longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": "Longitude, derived from the centroid of the parcel polygon containing the property",
+      "nullCount": 5031,
+      "cardinality": 1415630
+    },
+    {
+      "name": "latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": "Latitude, derived from the centroid of the parcel polygon containing the property",
+      "nullCount": 5031,
+      "cardinality": 1415681
+    },
+    {
+      "name": "township",
+      "fieldName": "township",
+      "dataTypeName": "text",
+      "description": "Township number",
+      "nullCount": 4655,
+      "cardinality": 38
+    },
+    {
+      "name": "township_name",
+      "fieldName": "township_name",
+      "dataTypeName": "text",
+      "description": "Township name",
+      "nullCount": 4655,
+      "cardinality": 38
+    },
+    {
+      "name": "nbhd",
+      "fieldName": "nbhd",
+      "dataTypeName": "text",
+      "description": "3-digit assessor neighborhood, only unique when combined with township number",
+      "nullCount": 4655,
+      "cardinality": 201
+    },
+    {
+      "name": "tract_geoid",
+      "fieldName": "tract_geoid",
+      "dataTypeName": "text",
+      "description": "Full Census FIPS code of the tract containing the property",
+      "nullCount": 5031,
+      "cardinality": 1318
+    },
+    {
+      "name": "tract_pop",
+      "fieldName": "tract_pop",
+      "dataTypeName": "number",
+      "description": "Census population of the tract containing the property, taken directly from 2014-2018 5-year ACS estimates",
+      "nullCount": 5031,
+      "cardinality": 1193
+    },
+    {
+      "name": "tract_white_perc",
+      "fieldName": "tract_white_perc",
+      "dataTypeName": "number",
+      "description": "White percentage of population of tract containing the property, derived from 2014-2018 5-year ACS estimates using Census race classification",
+      "nullCount": 5031,
+      "cardinality": 1281
+    },
+    {
+      "name": "tract_black_perc",
+      "fieldName": "tract_black_perc",
+      "dataTypeName": "number",
+      "description": "Black percentage of population of tract containing the property, derived from 2014-2018 5-year ACS estimates using Census race classification",
+      "nullCount": 5031,
+      "cardinality": 1271
+    },
+    {
+      "name": "tract_asian_perc",
+      "fieldName": "tract_asian_perc",
+      "dataTypeName": "number",
+      "description": "Asian percentage of population of tract containing the property, derived from 2014-2018 5-year ACS estimates using Census race classification",
+      "nullCount": 5031,
+      "cardinality": 1045
+    },
+    {
+      "name": "tract_his_perc",
+      "fieldName": "tract_his_perc",
+      "dataTypeName": "number",
+      "description": "Hispanic percentage of population of tract containing the property, derived from 2014-2018 5-year ACS estimates using Census race classification",
+      "nullCount": 5031,
+      "cardinality": 1278
+    },
+    {
+      "name": "tract_other_perc",
+      "fieldName": "tract_other_perc",
+      "dataTypeName": "number",
+      "description": "Other percentage of population of tract containing the property, derived from 2014-2018 5-year ACS estimates using Census race classification",
+      "nullCount": 5031,
+      "cardinality": 1132
+    },
+    {
+      "name": "tract_midincome",
+      "fieldName": "tract_midincome",
+      "dataTypeName": "number",
+      "description": "Median income of the tract containing the property, taken from 2014-2018 5-year ACS estimates",
+      "nullCount": 5031,
+      "cardinality": 1287
+    },
+    {
+      "name": "puma",
+      "fieldName": "puma",
+      "dataTypeName": "text",
+      "description": "PUMA (Public Use Microdata Area) code of the PUMA containing the property, 2018 defitition",
+      "nullCount": 5031,
+      "cardinality": 39
+    },
+    {
+      "name": "municipality_fips",
+      "fieldName": "municipality_fips",
+      "dataTypeName": "text",
+      "description": "Municipality FIPS code",
+      "nullCount": 45429,
+      "cardinality": 135
+    },
+    {
+      "name": "municipality",
+      "fieldName": "municipality",
+      "dataTypeName": "text",
+      "description": "Municipality name",
+      "nullCount": 45429,
+      "cardinality": 135
+    },
+    {
+      "name": "commissioner_dist",
+      "fieldName": "commissioner_dist",
+      "dataTypeName": "text",
+      "description": "Cook County Commissioner district",
+      "nullCount": 5031,
+      "cardinality": 17
+    },
+    {
+      "name": "reps_dist",
+      "fieldName": "reps_dist",
+      "dataTypeName": "text",
+      "description": "Illinois state representative district",
+      "nullCount": 5031,
+      "cardinality": 58
+    },
+    {
+      "name": "senate_dist",
+      "fieldName": "senate_dist",
+      "dataTypeName": "text",
+      "description": "Illinois state senate district",
+      "nullCount": 5031,
+      "cardinality": 32
+    },
+    {
+      "name": "ward",
+      "fieldName": "ward",
+      "dataTypeName": "text",
+      "description": "City of Chicago ward number",
+      "nullCount": 987968,
+      "cardinality": 50
+    },
+    {
+      "name": "ssa_name",
+      "fieldName": "ssa_name",
+      "dataTypeName": "text",
+      "description": "City of Chicago Special Service Area name",
+      "nullCount": 1829438,
+      "cardinality": 52
+    },
+    {
+      "name": "ssa_no",
+      "fieldName": "ssa_no",
+      "dataTypeName": "text",
+      "description": "City of Chicago Special Service Area number",
+      "nullCount": 1829438,
+      "cardinality": 52
+    },
+    {
+      "name": "tif_agencynum",
+      "fieldName": "tif_agencynum",
+      "dataTypeName": "text",
+      "description": "Tax Increment Financing (TIF) district",
+      "nullCount": 1594133,
+      "cardinality": 441
+    },
+    {
+      "name": "ohare_noise",
+      "fieldName": "ohare_noise",
+      "dataTypeName": "number",
+      "description": "Indicator for properties near O'Hare airport flight paths",
+      "nullCount": 5031,
+      "cardinality": 2
+    },
+    {
+      "name": "floodplain",
+      "fieldName": "floodplain",
+      "dataTypeName": "number",
+      "description": "Indicator for properties within FEMA-defined floodplains",
+      "nullCount": 5031,
+      "cardinality": 2
+    },
+    {
+      "name": "fs_flood_factor",
+      "fieldName": "fs_flood_factor",
+      "dataTypeName": "number",
+      "description": "The property's First Street Flood Factor, a numeric integer from 1-10 (where 1 = minimal and 10 = extreme) based on flooding risk to the building footprint. Flood risk is defined as a combination of cumulative risk over 30 years and flood depth. Flood depth is calculated at the lowest elevation of the building footprint (large",
+      "nullCount": 5031,
+      "cardinality": 10
+    },
+    {
+      "name": "fs_flood_risk_direction",
+      "fieldName": "fs_flood_risk_direction",
+      "dataTypeName": "number",
+      "description": "The property's flood risk direction represented in a numeric value based on the change in risk for the location from 2020 to 2050 for the climate model realization of the RCP 4.5 mid emissions scenario. -1 = descreasing, 0 = stationary, 1 = increasing. Data provided by First Street and academics at UPenn.",
+      "nullCount": 5031,
+      "cardinality": 3
+    },
+    {
+      "name": "withinmr100",
+      "fieldName": "withinmr100",
+      "dataTypeName": "number",
+      "description": "Indicator for properties within 100 feet of a major road. Roads taken from OpenStreetMap",
+      "nullCount": 5031,
+      "cardinality": 2
+    },
+    {
+      "name": "withinmr101300",
+      "fieldName": "withinmr101300",
+      "dataTypeName": "number",
+      "description": "Indicator for properties between 101-300 feet of a major road. Roads taken from OpenStreetMap",
+      "nullCount": 5031,
+      "cardinality": 2
+    },
+    {
+      "name": "school_elem_district",
+      "fieldName": "school_elem_district",
+      "dataTypeName": "text",
+      "description": "Name of the elementary/middle school district the property falls within, including CPS catchment zones",
+      "nullCount": 5031,
+      "cardinality": 478
+    },
+    {
+      "name": "school_hs_district",
+      "fieldName": "school_hs_district",
+      "dataTypeName": "text",
+      "description": "Name of the high school district the property falls within, including CPS catchment zones",
+      "nullCount": 5031,
+      "cardinality": 80
+    },
+    {
+      "name": "indicator_has_address",
+      "fieldName": "indicator_has_address",
+      "dataTypeName": "number",
+      "description": "Indicator for whether PIN has complete property address",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "indicator_has_latlon",
+      "fieldName": "indicator_has_latlon",
+      "dataTypeName": "number",
+      "description": "Indicator for whether PIN has latitude/longitude and attached spatial data (tract population, ward, etc.)",
+      "nullCount": 0,
+      "cardinality": 2
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:52.369Z"
+}

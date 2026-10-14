@@ -1,0 +1,103 @@
+{
+  "id": "bcqv-t97y",
+  "name": "TIF District Programming - 2023-2027",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2932,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1724356122,
+  "publicationDate": 1724356129,
+  "rowsUpdatedAt": 1724356413,
+  "viewLastModified": 1724356411,
+  "viewCount": 1317,
+  "downloadCount": 3582,
+  "category": "Community & Economic Development",
+  "tags": [
+    "tif",
+    "tif district programming"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2023-2027",
+      "Frequency": "Data are updated at least annually.",
+      "Data Owner": "Office of Budget and Management"
+    }
+  },
+  "columns": [
+    {
+      "name": "TIF Number",
+      "fieldName": "tif_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 124
+    },
+    {
+      "name": "TIF Name",
+      "fieldName": "tif_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 124
+    },
+    {
+      "name": "Tme Period",
+      "fieldName": "time_period",
+      "dataTypeName": "text",
+      "description": "Fund / Project Balances are at the end of FY 2022. Years 2023 and beyond reflect anticipated programming and revenue for that year.",
+      "nullCount": 1,
+      "cardinality": 35
+    },
+    {
+      "name": "Type",
+      "fieldName": "type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 6
+    },
+    {
+      "name": "Description",
+      "fieldName": "description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 1400
+    },
+    {
+      "name": "Amount",
+      "fieldName": "amount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 1740
+    },
+    {
+      "name": "Designation Date",
+      "fieldName": "designation_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date TIF was approved by City Council.",
+      "nullCount": 1,
+      "cardinality": 83
+    },
+    {
+      "name": "Expiration Date",
+      "fieldName": "expiration_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date the TIF expires.",
+      "nullCount": 1,
+      "cardinality": 22
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:18.230Z"
+}

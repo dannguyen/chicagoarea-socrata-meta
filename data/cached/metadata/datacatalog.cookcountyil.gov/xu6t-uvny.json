@@ -1,0 +1,168 @@
+{
+  "id": "xu6t-uvny",
+  "name": "Employee Payroll",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 234299,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1501614070,
+  "publicationDate": 1529954632,
+  "rowsUpdatedAt": 1529954590,
+  "viewLastModified": 1769547052,
+  "viewCount": 272994,
+  "downloadCount": 26428,
+  "category": "Finance & Operations",
+  "tags": [
+    "payroll",
+    "salaries",
+    "salary",
+    "inactive"
+  ],
+  "attribution": "Cook County Comptroller",
+  "attributionLink": "https://www.cookcountyil.gov/agency/comptroller",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Source Details": {
+      "Source System": "E1 HRIS System"
+    },
+    "Detailed Descriptive": {
+      "Temporal coverage": "Fiscal Year 2016 (December 2015) - Most recent completed quarter",
+      "Data notes": "KNOWN ISSUE: Several records are missing Bureau and Office information. We are working on correcting this and will update the dataset when this issue has been resolved.",
+      "Geographic unit": "Not applicable"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Bi-weekly",
+      "Publishing frequency": "Quarterly"
+    }
+  },
+  "columns": [
+    {
+      "name": "Fiscal Year",
+      "fieldName": "fiscal_year",
+      "dataTypeName": "number",
+      "description": "Any pay period that extended between Fiscal Years will be reported to the year of the Pay Period End Date.",
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Fiscal Quarter",
+      "fieldName": "fiscal_quarter",
+      "dataTypeName": "number",
+      "description": "Any pay period that extended between Fiscal Quarters will be reported to the quarter of the Pay Period End Date.  (e.g. If a Pay Period runs 02/21-03/05, that pay period would be reported in the Q2 period, as the end of the pay period falls in March - Q2)",
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Fiscal Period",
+      "fieldName": "fiscal_period",
+      "dataTypeName": "text",
+      "description": "Fiscal Year + Fiscal Quarter",
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "First Name",
+      "fieldName": "first_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6880
+    },
+    {
+      "name": "Last Name",
+      "fieldName": "last_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 13251
+    },
+    {
+      "name": "Middle Init",
+      "fieldName": "middle_init",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 93412,
+      "cardinality": 287
+    },
+    {
+      "name": "Bureau",
+      "fieldName": "bureau",
+      "dataTypeName": "text",
+      "description": "Bureau Name",
+      "nullCount": 0,
+      "cardinality": 111
+    },
+    {
+      "name": "Office",
+      "fieldName": "office",
+      "dataTypeName": "text",
+      "description": "Office ID",
+      "nullCount": 3184,
+      "cardinality": 133
+    },
+    {
+      "name": "Office Name",
+      "fieldName": "office_name",
+      "dataTypeName": "text",
+      "description": "Office Name",
+      "nullCount": 3184,
+      "cardinality": 160
+    },
+    {
+      "name": "Job Code",
+      "fieldName": "job_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2382
+    },
+    {
+      "name": "Job Title",
+      "fieldName": "job_title",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2382
+    },
+    {
+      "name": "Base Pay",
+      "fieldName": "base_pay",
+      "dataTypeName": "number",
+      "description": "Amount of base salary paid to an employee",
+      "nullCount": 4,
+      "cardinality": 121504
+    },
+    {
+      "name": "Position ID",
+      "fieldName": "position_id",
+      "dataTypeName": "text",
+      "description": "Position Identification Number",
+      "nullCount": 0,
+      "cardinality": 28918
+    },
+    {
+      "name": "Employee Identifier",
+      "fieldName": "employee_identifier",
+      "dataTypeName": "text",
+      "description": "A unique number assigned to each employee for the purpose of this data set, that is not their internal employee ID number, and allows an employee to be identified in the data set over time, in case of a name change or other change. This number will be consistent within the data set, but may be regenerated at any time.",
+      "nullCount": 0,
+      "cardinality": 28375
+    },
+    {
+      "name": "Original Hire Date",
+      "fieldName": "original_hire_date",
+      "dataTypeName": "calendar_date",
+      "description": "Original date of hire to the County",
+      "nullCount": 0,
+      "cardinality": 3854
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:47.921Z"
+}

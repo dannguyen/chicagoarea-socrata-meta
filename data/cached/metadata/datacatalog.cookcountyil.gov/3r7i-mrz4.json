@@ -1,0 +1,249 @@
+{
+  "id": "3r7i-mrz4",
+  "name": "Assessor - Residential Condominium Unit Characteristics",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 11436291,
+  "rowCountSource": "cached",
+  "rowLabel": "Residential Condominium Unit",
+  "hasRowIdentifier": true,
+  "createdAt": 1650909546,
+  "publicationDate": 1746663046,
+  "rowsUpdatedAt": 1790870893,
+  "viewLastModified": 1783621430,
+  "viewCount": 20109,
+  "downloadCount": 5227,
+  "category": "Property & Taxation",
+  "tags": [
+    "cook county assessor",
+    "property tax"
+  ],
+  "attribution": "Cook County Assessor's Office",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Data Department"
+    },
+    "Source Details": {
+      "Source System": "iasWorld"
+    },
+    "Detailed Descriptive": {
+      "Temporal coverage": "1999-Present",
+      "Geographic coverage": "Countywide",
+      "Geographic unit": "Parcel"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Bi-weekly",
+      "Publishing frequency": "Bi-weekly"
+    }
+  },
+  "columns": [
+    {
+      "name": "pin",
+      "fieldName": "pin",
+      "dataTypeName": "text",
+      "description": "Parcel Identification Number (PIN). The last 4 digits identify the unit within the building",
+      "nullCount": 0,
+      "cardinality": 11436291
+    },
+    {
+      "name": "pin10",
+      "fieldName": "pin10",
+      "dataTypeName": "text",
+      "description": "Parcel Identification Number (10-digit). Identifies the condominium building",
+      "nullCount": 0,
+      "cardinality": 11436291
+    },
+    {
+      "name": "card_num",
+      "fieldName": "card",
+      "dataTypeName": "number",
+      "description": "Card number. Generally not applicable to condominiums",
+      "nullCount": 0,
+      "cardinality": 11436291
+    },
+    {
+      "name": "tax_year",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": "Tax year",
+      "nullCount": 0,
+      "cardinality": 11436291
+    },
+    {
+      "name": "class",
+      "fieldName": "class",
+      "dataTypeName": "text",
+      "description": "Property class",
+      "nullCount": 0,
+      "cardinality": 11436291
+    },
+    {
+      "name": "township_code",
+      "fieldName": "township_code",
+      "dataTypeName": "text",
+      "description": "Township code",
+      "nullCount": 31,
+      "cardinality": 11436291
+    },
+    {
+      "name": "proration_key_pin",
+      "fieldName": "tieback_key_pin",
+      "dataTypeName": "text",
+      "description": "Tieback key PIN. Prorated properties (whose value is split across multiple PINs) have a \"main\" or key PIN",
+      "nullCount": 292,
+      "cardinality": 11436291
+    },
+    {
+      "name": "pin_proration_rate",
+      "fieldName": "tieback_proration_rate",
+      "dataTypeName": "number",
+      "description": "Tieback proration rate. Prorated properties (whose value is split across multiple PINs) pay taxes on the proportion of value on their PIN. In other words, assessed value is multiplied by proration rate to determine taxable assessed value",
+      "nullCount": 0,
+      "cardinality": 11436291
+    },
+    {
+      "name": "card_proration_rate",
+      "fieldName": "card_proration_rate",
+      "dataTypeName": "number",
+      "description": "Card proration rate. Prorated parcels (whose value is split across multiple cards) pay taxes on the proportion of value on their card. In other words, assessed value is multiplied by proration rate to determine taxable assessed value. Cards are divisions within parcels, such as one of multiple buildings on a single parcel.",
+      "nullCount": 8379,
+      "cardinality": 11436291
+    },
+    {
+      "name": "year_built",
+      "fieldName": "char_yrblt",
+      "dataTypeName": "number",
+      "description": "Year built",
+      "nullCount": 0,
+      "cardinality": 11436291
+    },
+    {
+      "name": "building_sqft",
+      "fieldName": "char_building_sf",
+      "dataTypeName": "number",
+      "description": "Condominium building total square feet. Sourced from listings and other sources",
+      "nullCount": 6016486,
+      "cardinality": 11436291
+    },
+    {
+      "name": "unit_sf",
+      "fieldName": "char_unit_sf",
+      "dataTypeName": "number",
+      "description": "Condominium unit square feet. Sourced from listings and other sources",
+      "nullCount": 7682488,
+      "cardinality": 11436291
+    },
+    {
+      "name": "num_bedrooms",
+      "fieldName": "char_bedrooms",
+      "dataTypeName": "number",
+      "description": "Condominium unit bedrooms. Sourced from listings and other sources",
+      "nullCount": 6390184,
+      "cardinality": 11436291
+    },
+    {
+      "name": "num_full_baths",
+      "fieldName": "char_full_baths",
+      "dataTypeName": "number",
+      "description": "Full baths. Defined as having a bath or shower. If this value is missing, the default value is set to 1",
+      "nullCount": 8891082,
+      "cardinality": 11436291
+    },
+    {
+      "name": "num_half_baths",
+      "fieldName": "char_half_baths",
+      "dataTypeName": "number",
+      "description": "Half baths. Defined as bathrooms without a shower or bathtub",
+      "nullCount": 9831142,
+      "cardinality": 11436291
+    },
+    {
+      "name": "building_non_units",
+      "fieldName": "char_building_non_units",
+      "dataTypeName": "number",
+      "description": "Total condominium building non-livable parcel count. Includes parking, storage areas, and common areas",
+      "nullCount": 0,
+      "cardinality": 11436291
+    },
+    {
+      "name": "building_pins",
+      "fieldName": "char_building_pins",
+      "dataTypeName": "number",
+      "description": "Total condominium building parcel count. Includes both livable and non-livable parcels",
+      "nullCount": 0,
+      "cardinality": 11436291
+    },
+    {
+      "name": "land_sqft",
+      "fieldName": "char_land_sf",
+      "dataTypeName": "number",
+      "description": "Land square feet. Same for all units in a building",
+      "nullCount": 438820,
+      "cardinality": 11436291
+    },
+    {
+      "name": "cdu",
+      "fieldName": "cdu",
+      "dataTypeName": "text",
+      "description": "Condition, Desirability, and Utility code. Not well maintained.",
+      "nullCount": 9389861,
+      "cardinality": 11436291
+    },
+    {
+      "name": "pin_is_multiland",
+      "fieldName": "pin_is_multiland",
+      "dataTypeName": "checkbox",
+      "description": "Multiland PIN indicator. Generally not applicable to condominiums",
+      "nullCount": 0,
+      "cardinality": 11436291
+    },
+    {
+      "name": "pin_num_landlines",
+      "fieldName": "pin_num_landlines",
+      "dataTypeName": "number",
+      "description": "Number of landlines on PIN. Generally not applicable to condominiums",
+      "nullCount": 0,
+      "cardinality": 11436291
+    },
+    {
+      "name": "bldg_is_mixed_use",
+      "fieldName": "bldg_is_mixed_use",
+      "dataTypeName": "checkbox",
+      "description": "Condominium building contains non-residential units",
+      "nullCount": 0,
+      "cardinality": 11436291
+    },
+    {
+      "name": "is_parking_space",
+      "fieldName": "is_parking_space",
+      "dataTypeName": "checkbox",
+      "description": "Parking/garage space or storage unit indicator",
+      "nullCount": 0,
+      "cardinality": 11436291
+    },
+    {
+      "name": "is_common_area",
+      "fieldName": "is_common_area",
+      "dataTypeName": "checkbox",
+      "description": "Building common area indicator",
+      "nullCount": 0,
+      "cardinality": 11436291
+    },
+    {
+      "name": "row_id",
+      "fieldName": "row_id",
+      "dataTypeName": "text",
+      "description": "Unique row key for API",
+      "nullCount": 0,
+      "cardinality": 11436291
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:48.907Z"
+}

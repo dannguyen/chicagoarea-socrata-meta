@@ -1,0 +1,170 @@
+{
+  "id": "ggws-77ih",
+  "name": "Smart Green Infrastructure Monitoring Sensors - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 13299699,
+  "rowCountSource": "cached",
+  "rowLabel": "Measurement",
+  "hasRowIdentifier": true,
+  "createdAt": 1492027100,
+  "publicationDate": 1494885265,
+  "rowsUpdatedAt": 1525289550,
+  "viewLastModified": 1525292808,
+  "viewCount": 11296,
+  "downloadCount": 9035,
+  "category": "Environment & Sustainable Development",
+  "tags": [
+    "sustainability",
+    "water",
+    "sensors",
+    "weather",
+    "iot",
+    "historical"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "March 2017 to April 2018",
+      "Data Owner": "Innovation and Technology"
+    }
+  },
+  "columns": [
+    {
+      "name": "Measurement Title",
+      "fieldName": "measurement_title",
+      "dataTypeName": "text",
+      "description": "Full title description of measurement, including name of location and measurement description.",
+      "nullCount": 0,
+      "cardinality": 39
+    },
+    {
+      "name": "Measurement Description",
+      "fieldName": "measurement_description",
+      "dataTypeName": "text",
+      "description": "Description of the type of sensor providing the reading.",
+      "nullCount": 4114529,
+      "cardinality": 8
+    },
+    {
+      "name": "Measurement Type",
+      "fieldName": "measurement_type",
+      "dataTypeName": "text",
+      "description": "Description of the measurement.",
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "Measurement Medium",
+      "fieldName": "measurement_medium",
+      "dataTypeName": "text",
+      "description": "Whether the measurement pertains to the atmosphere or soil.",
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Measurement Time",
+      "fieldName": "measurement_time",
+      "dataTypeName": "calendar_date",
+      "description": "Time the Measurement Value relates to in Central Daylight Time (UTC -5).",
+      "nullCount": 0,
+      "cardinality": 2792934
+    },
+    {
+      "name": "Measurement Value",
+      "fieldName": "measurement_value",
+      "dataTypeName": "number",
+      "description": "Value related to the sensor reading, in units expressed in \"Units\" column.",
+      "nullCount": 0,
+      "cardinality": 10497
+    },
+    {
+      "name": "Units",
+      "fieldName": "units",
+      "dataTypeName": "text",
+      "description": "The named-units describing the numerical units in \"Measurement Value\".",
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "Units Abbreviation",
+      "fieldName": "units_abbreviation",
+      "dataTypeName": "text",
+      "description": "Commonly accepted scientific abbreviation of the \"Units\" column.",
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "Measurement Period Type",
+      "fieldName": "measurement_period_type",
+      "dataTypeName": "text",
+      "description": "Whether \"Measurement Value\" indicates an instantaneous or cumulative reading.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Data Stream ID",
+      "fieldName": "data_stream_id",
+      "dataTypeName": "text",
+      "description": "An identifier for the measurement type and location.  All records with the same value should be comparable.",
+      "nullCount": 0,
+      "cardinality": 39
+    },
+    {
+      "name": "Resource ID",
+      "fieldName": "resource_id",
+      "dataTypeName": "text",
+      "description": "An identifier for the resource providing the data.  Within a Data Stream, the specific resource may change over time, even while providing comparable data.",
+      "nullCount": 0,
+      "cardinality": 48
+    },
+    {
+      "name": "Measurement ID",
+      "fieldName": "measurement_id",
+      "dataTypeName": "text",
+      "description": "A unique identifier for the record, within all records produced by the Data Stream.  The same Measurement ID could exist in two or more Data Streams.",
+      "nullCount": 0,
+      "cardinality": 2879420
+    },
+    {
+      "name": "Record ID",
+      "fieldName": "record_id",
+      "dataTypeName": "text",
+      "description": "A unique identifier for each record in the dataset.",
+      "nullCount": 0,
+      "cardinality": 13299699
+    },
+    {
+      "name": "Latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": "Latitude of the sensor providing the measurement in WGS84 coordinates",
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": "Longitude of the sensor providing the measurement in WGS84 coordinates",
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": "Latitude and Longitude of the sensor providing the measurement in WGS84 coordinates.",
+      "nullCount": 0,
+      "cardinality": 3
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:38:05.117Z"
+}

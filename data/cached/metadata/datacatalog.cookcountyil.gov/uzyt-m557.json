@@ -1,0 +1,202 @@
+{
+  "id": "uzyt-m557",
+  "name": "Assessor - Assessed Values",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 50671259,
+  "rowCountSource": "cached",
+  "rowLabel": "Parcel",
+  "hasRowIdentifier": true,
+  "createdAt": 1651255429,
+  "publicationDate": 1757609725,
+  "rowsUpdatedAt": 1790855874,
+  "viewLastModified": 1783621385,
+  "viewCount": 149312,
+  "downloadCount": 17409,
+  "category": "Property & Taxation",
+  "tags": [
+    "cook county assessor",
+    "property tax"
+  ],
+  "attribution": "Cook County Assessor's Office",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Data Department"
+    },
+    "Source Details": {
+      "Source System": "iasWorld"
+    },
+    "Detailed Descriptive": {
+      "Temporal coverage": "1999-Present",
+      "Data notes": "Values are assessed, not market.",
+      "Geographic coverage": "Countywide",
+      "Geographic unit": "Parcel"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Bi-weekly",
+      "Publishing frequency": "Bi-weekly"
+    }
+  },
+  "columns": [
+    {
+      "name": "pin",
+      "fieldName": "pin",
+      "dataTypeName": "text",
+      "description": "Parcel Identification Number (PIN)",
+      "nullCount": 0,
+      "cardinality": 50671259
+    },
+    {
+      "name": "tax_year",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": "Tax year",
+      "nullCount": 0,
+      "cardinality": 50671259
+    },
+    {
+      "name": "class",
+      "fieldName": "class",
+      "dataTypeName": "text",
+      "description": "Property class",
+      "nullCount": 0,
+      "cardinality": 50671259
+    },
+    {
+      "name": "township_code",
+      "fieldName": "township_code",
+      "dataTypeName": "text",
+      "description": "Township code",
+      "nullCount": 348,
+      "cardinality": 50671259
+    },
+    {
+      "name": "township_name",
+      "fieldName": "township_name",
+      "dataTypeName": "text",
+      "description": "Township name",
+      "nullCount": 348,
+      "cardinality": 50671259
+    },
+    {
+      "name": "neighborhood_code",
+      "fieldName": "nbhd",
+      "dataTypeName": "text",
+      "description": "Assessor neighborhood code, first two digits are township, last three are neighborhood",
+      "nullCount": 0,
+      "cardinality": 50671259
+    },
+    {
+      "name": "mailed_bldg",
+      "fieldName": "mailed_bldg",
+      "dataTypeName": "number",
+      "description": "Assessor mailed building value",
+      "nullCount": 429046,
+      "cardinality": 50671259
+    },
+    {
+      "name": "mailed_land",
+      "fieldName": "mailed_land",
+      "dataTypeName": "number",
+      "description": "Assessor mailed land value",
+      "nullCount": 429046,
+      "cardinality": 50671259
+    },
+    {
+      "name": "mailed_tot",
+      "fieldName": "mailed_tot",
+      "dataTypeName": "number",
+      "description": "Assessor mailed total value",
+      "nullCount": 429046,
+      "cardinality": 50671259
+    },
+    {
+      "name": "mailed_hie",
+      "fieldName": "mailed_hie",
+      "dataTypeName": "number",
+      "description": "Assessor mailed home improvement exemption value",
+      "nullCount": 38050329,
+      "cardinality": 50671259
+    },
+    {
+      "name": "certified_bldg",
+      "fieldName": "certified_bldg",
+      "dataTypeName": "number",
+      "description": "Assessor certified building value",
+      "nullCount": 1300084,
+      "cardinality": 50671259
+    },
+    {
+      "name": "certified_land",
+      "fieldName": "certified_land",
+      "dataTypeName": "number",
+      "description": "Assessor certified land value",
+      "nullCount": 1300084,
+      "cardinality": 50671259
+    },
+    {
+      "name": "certified_tot",
+      "fieldName": "certified_tot",
+      "dataTypeName": "number",
+      "description": "Assessor certified total value",
+      "nullCount": 1300084,
+      "cardinality": 50671259
+    },
+    {
+      "name": "certified_hie",
+      "fieldName": "certified_hie",
+      "dataTypeName": "number",
+      "description": "Assessor certified home improvement exemption value",
+      "nullCount": 38921367,
+      "cardinality": 50671259
+    },
+    {
+      "name": "board_bldg",
+      "fieldName": "board_bldg",
+      "dataTypeName": "number",
+      "description": "Board of Review certified building value",
+      "nullCount": 1865513,
+      "cardinality": 50671259
+    },
+    {
+      "name": "board_land",
+      "fieldName": "board_land",
+      "dataTypeName": "number",
+      "description": "Board of Review certified land value",
+      "nullCount": 1865513,
+      "cardinality": 50671259
+    },
+    {
+      "name": "board_tot",
+      "fieldName": "board_tot",
+      "dataTypeName": "number",
+      "description": "Board of Review certified total value",
+      "nullCount": 1865513,
+      "cardinality": 50671259
+    },
+    {
+      "name": "board_hie",
+      "fieldName": "board_hie",
+      "dataTypeName": "number",
+      "description": "Board of Review certified home improvement exemption value",
+      "nullCount": 39486796,
+      "cardinality": 50671259
+    },
+    {
+      "name": "row_id",
+      "fieldName": "row_id",
+      "dataTypeName": "text",
+      "description": "Unique row key for API",
+      "nullCount": 0,
+      "cardinality": 50671259
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:44.676Z"
+}

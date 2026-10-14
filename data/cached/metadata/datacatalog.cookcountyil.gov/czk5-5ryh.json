@@ -1,0 +1,64 @@
+{
+  "id": "czk5-5ryh",
+  "name": "Facilities Management - Fire Panel Report, by Location, with Detail - July 2011",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 39,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1318341856,
+  "publicationDate": 1412891888,
+  "rowsUpdatedAt": 1412891879,
+  "viewLastModified": 1769546307,
+  "viewCount": 798,
+  "downloadCount": 2582,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Facilities Management",
+  "attributionLink": "http://www.cookcountygov.com/portal/server.pt/community/facilities_management/294/facilities_management",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 38
+    },
+    {
+      "name": "No",
+      "fieldName": "no",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 9,
+      "cardinality": 3
+    },
+    {
+      "name": "# of",
+      "fieldName": "_of",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 28,
+      "cardinality": 5
+    },
+    {
+      "name": "Description",
+      "fieldName": "description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 26,
+      "cardinality": 12
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:06.353Z"
+}

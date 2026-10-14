@@ -1,0 +1,97 @@
+{
+  "id": "i6k4-giaj",
+  "name": "Snow Route Parking Restrictions",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 144,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1638832562,
+  "publicationDate": 1638832753,
+  "rowsUpdatedAt": 1638832748,
+  "viewLastModified": 1638832753,
+  "viewCount": 6386,
+  "downloadCount": 1498,
+  "category": "Transportation",
+  "tags": [
+    "snow",
+    "winter",
+    "parking restrictions",
+    "parking",
+    "geo_layer"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2021",
+      "Data Owner": "Department of Streets & Sanitation"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multiline",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "OBJECTID",
+      "fieldName": "objectid",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 144
+    },
+    {
+      "name": "ON_STREET",
+      "fieldName": "on_street",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 125
+    },
+    {
+      "name": "FROM_STREE",
+      "fieldName": "from_stree",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 101
+    },
+    {
+      "name": "TO_STREET",
+      "fieldName": "to_street",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 97
+    },
+    {
+      "name": "RESTRICT_T",
+      "fieldName": "restrict_t",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "SHAPE_LEN",
+      "fieldName": "shape_len",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 144
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:02.585Z"
+}

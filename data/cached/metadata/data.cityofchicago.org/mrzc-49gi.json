@@ -1,0 +1,145 @@
+{
+  "id": "mrzc-49gi",
+  "name": "Safe Chicago Emergency Device Locations",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 599,
+  "rowCountSource": "cached",
+  "rowLabel": "Device",
+  "hasRowIdentifier": false,
+  "createdAt": 1647631800,
+  "publicationDate": 1709155861,
+  "rowsUpdatedAt": 1709155854,
+  "viewLastModified": 1709156583,
+  "viewCount": 5883,
+  "downloadCount": 2562,
+  "category": "Public Safety",
+  "tags": [
+    "health",
+    "emergency",
+    "public safety",
+    "facilities"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Current",
+      "Frequency": "Data are updated as needed",
+      "Data Owner": "Office of Emergency Management & Communications"
+    }
+  },
+  "columns": [
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": "Street address of the facility",
+      "nullCount": 0,
+      "cardinality": 412
+    },
+    {
+      "name": "Building Name",
+      "fieldName": "building_name",
+      "dataTypeName": "text",
+      "description": "Name of the Facility",
+      "nullCount": 0,
+      "cardinality": 367
+    },
+    {
+      "name": "Location in Building",
+      "fieldName": "location_in_building",
+      "dataTypeName": "text",
+      "description": "Where to find the device.",
+      "nullCount": 381,
+      "cardinality": 191
+    },
+    {
+      "name": "Device Type",
+      "fieldName": "device_type",
+      "dataTypeName": "text",
+      "description": "Bleeding Control Kit or AED",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Number of Devices",
+      "fieldName": "number_of_devices",
+      "dataTypeName": "number",
+      "description": "Number of bleeding control kits",
+      "nullCount": 67,
+      "cardinality": 18
+    },
+    {
+      "name": "AED Serial Numbers",
+      "fieldName": "aed_serial_numbers",
+      "dataTypeName": "text",
+      "description": "For AEDs, the serial numbers.",
+      "nullCount": 581,
+      "cardinality": 18
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": "Most, but not all, values are Chicago. All locations are in Illinois.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": "The location of the facility in a format that allows for mapping and other geographic analysis on this portal",
+      "nullCount": 0,
+      "cardinality": 370
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Wards' (43wa-7qmu) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Boundaries - ZIP Codes' (rpca-8um6) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Community Areas' (vrxf-vc4k) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Zip Codes' (6mkv-f3dw) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Census Tracts' (bdys-3d7i) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:03.309Z"
+}

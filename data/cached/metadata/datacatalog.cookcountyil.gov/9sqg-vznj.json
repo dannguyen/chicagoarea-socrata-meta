@@ -1,0 +1,84 @@
+{
+  "id": "9sqg-vznj",
+  "name": "Cook County Clerk - Tax codes, agencies, and rates",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 386663,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1410457242,
+  "publicationDate": 1412895026,
+  "rowsUpdatedAt": 1412894986,
+  "viewLastModified": 1769545400,
+  "viewCount": 11666,
+  "downloadCount": 3886,
+  "category": "Property & Taxation",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Clerk",
+  "attributionLink": "http://www.cookcountyclerk.com",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Update Frequency": "Yearly"
+    }
+  },
+  "columns": [
+    {
+      "name": "Tax Year",
+      "fieldName": "tax_year",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "Tax code",
+      "fieldName": "tax_code",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3615
+    },
+    {
+      "name": "Agency",
+      "fieldName": "agency",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1785
+    },
+    {
+      "name": "Agency Name",
+      "fieldName": "agency_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1828
+    },
+    {
+      "name": "Agency Rate",
+      "fieldName": "agency_rate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2657
+    },
+    {
+      "name": "Tax code Rate",
+      "fieldName": "tax_code_rate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7047
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:50.522Z"
+}

@@ -1,0 +1,166 @@
+{
+  "id": "gzzb-pagn",
+  "name": "IDPH Population Projections For Chicago By Age And Sex 2010 To 2025",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 20,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709064540,
+  "publicationDate": 1709145282,
+  "rowsUpdatedAt": 1709145276,
+  "viewLastModified": 1736793963,
+  "viewCount": 114,
+  "downloadCount": 19,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "age_group",
+      "fieldName": "age_group",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "female_1st_april_2010",
+      "fieldName": "female_1st_april_2010",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "females_1st_july_2010",
+      "fieldName": "females_1st_july_2010",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "females_1st_july_2015",
+      "fieldName": "females_1st_july_2015",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "females_1st_july_2020",
+      "fieldName": "females_1st_july_2020",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "females_1st_july_2025",
+      "fieldName": "females_1st_july_2025",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "male_1st_april_2010",
+      "fieldName": "male_1st_april_2010",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "males_1st_july_2010",
+      "fieldName": "males_1st_july_2010",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "males_1st_july_2015",
+      "fieldName": "males_1st_july_2015",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "males_1st_july_2020",
+      "fieldName": "males_1st_july_2020",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "males_1st_july_2025",
+      "fieldName": "males_1st_july_2025",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "total_1st_april_2010",
+      "fieldName": "total_1st_april_2010",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "total_1st_july_2010",
+      "fieldName": "total_1st_july_2010",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "total_1st_july_2015",
+      "fieldName": "total_1st_july_2015",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "total_1st_july_2020",
+      "fieldName": "total_1st_july_2020",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "total_1st_july_2025",
+      "fieldName": "total_1st_july_2025",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:35.199Z"
+}

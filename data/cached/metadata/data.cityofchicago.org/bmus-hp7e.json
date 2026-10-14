@@ -1,0 +1,472 @@
+{
+  "id": "bmus-hp7e",
+  "name": "Connect Chicago Locations - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 259,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1357941299,
+  "publicationDate": 1467832003,
+  "rowsUpdatedAt": 1467831928,
+  "viewLastModified": 1603839198,
+  "viewCount": 12865,
+  "downloadCount": 22941,
+  "category": "Education",
+  "tags": [
+    "facilities",
+    "gis",
+    "internet",
+    "historical"
+  ],
+  "attribution": "Connect Chicago",
+  "attributionLink": "http://weconnectchicago.org/about/",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Frequency": "Monthly",
+      "Data Owner": "Connect Chicago"
+    }
+  },
+  "columns": [
+    {
+      "name": "ID",
+      "fieldName": "id",
+      "dataTypeName": "number",
+      "description": "Number to uniquely identify each location",
+      "nullCount": 0,
+      "cardinality": 259
+    },
+    {
+      "name": "URL",
+      "fieldName": "url",
+      "dataTypeName": "url",
+      "description": "Detail page on the Connect Chicago website",
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": "ORGANIZATION NAME",
+      "fieldName": "organization_name",
+      "dataTypeName": "text",
+      "description": "Name of the location",
+      "nullCount": 0,
+      "cardinality": 252
+    },
+    {
+      "name": "ORGANIZATION TYPE",
+      "fieldName": "organization_type",
+      "dataTypeName": "text",
+      "description": "Type of organization, which may be the following: Chicago Housing Authority; Chicago Public Library; Chicago Public School; City Colleges of Chicago; Community Service Center; Community Technology Center; Senior Center; WorkForce Center; WorkNet Chicago; ",
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "ADDRESS",
+      "fieldName": "full_address",
+      "dataTypeName": "text",
+      "description": "Combination of all address fields",
+      "nullCount": 0,
+      "cardinality": 258
+    },
+    {
+      "name": "BUILDING AND STREET",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 257
+    },
+    {
+      "name": "CITY",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "STATE",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "ZIP CODE",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 55
+    },
+    {
+      "name": "PHONE NUMBER",
+      "fieldName": "org_phone",
+      "dataTypeName": "text",
+      "description": "Location phone number, including area code.",
+      "nullCount": 0,
+      "cardinality": 239
+    },
+    {
+      "name": "HOURS",
+      "fieldName": "hours",
+      "dataTypeName": "text",
+      "description": "Location hours of operation.",
+      "nullCount": 10,
+      "cardinality": 149
+    },
+    {
+      "name": "WEBSITE",
+      "fieldName": "website",
+      "dataTypeName": "text",
+      "description": "If the location has a website or webpage, the URL for it.",
+      "nullCount": 13,
+      "cardinality": 203
+    },
+    {
+      "name": "APPOINTMENT",
+      "fieldName": "appointment",
+      "dataTypeName": "text",
+      "description": "Does this location take appointments? (1=yes, 0=no, 2=unknown)",
+      "nullCount": 19,
+      "cardinality": 3
+    },
+    {
+      "name": "INTERNET",
+      "fieldName": "internet",
+      "dataTypeName": "text",
+      "description": "Does this location have internet access? (1=yes, 0=no, 2=unknown)",
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "WIFI",
+      "fieldName": "wifi",
+      "dataTypeName": "text",
+      "description": "Does this location have wireless internet? (1=yes, 0=no, 2=unknown)",
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "TRAINING",
+      "fieldName": "training",
+      "dataTypeName": "text",
+      "description": "Does this location offer training? (1=yes, 0=no, 2=unknown)",
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "PC USE RESTRICTIONS",
+      "fieldName": "pc_use_restrictions",
+      "dataTypeName": "text",
+      "description": "Restrictions on the use of computers at this location.",
+      "nullCount": 83,
+      "cardinality": 151
+    },
+    {
+      "name": "HARDWARE PUBLIC",
+      "fieldName": "hardware_public",
+      "dataTypeName": "text",
+      "description": "Number of public computers available.",
+      "nullCount": 69,
+      "cardinality": 62
+    },
+    {
+      "name": "ASSISTIVE TECHNOLOGY",
+      "fieldName": "assistive_technology",
+      "dataTypeName": "text",
+      "description": "Software for aiding the blind or disabled.",
+      "nullCount": 115,
+      "cardinality": 105
+    },
+    {
+      "name": "INTERNET UPLOAD",
+      "fieldName": "internet_upload",
+      "dataTypeName": "text",
+      "description": "Upload speed in Mbps",
+      "nullCount": 166,
+      "cardinality": 50
+    },
+    {
+      "name": "INTERNET DOWNLOAD",
+      "fieldName": "internet_download",
+      "dataTypeName": "text",
+      "description": "Download speed in Mbps.",
+      "nullCount": 168,
+      "cardinality": 57
+    },
+    {
+      "name": "VOLUNTEERS USED",
+      "fieldName": "volunteers_used",
+      "dataTypeName": "text",
+      "description": "Are volunteers used at this location?",
+      "nullCount": 26,
+      "cardinality": 2
+    },
+    {
+      "name": "VOLUNTEERS USED HOW",
+      "fieldName": "volunteers_used_how",
+      "dataTypeName": "text",
+      "description": "If volunteers are used, for what purpose?",
+      "nullCount": 116,
+      "cardinality": 130
+    },
+    {
+      "name": "VOLUNTEERS WANTED HOW",
+      "fieldName": "volunteers_wanted_how",
+      "dataTypeName": "text",
+      "description": "If volunteers are needed, for what purpose?",
+      "nullCount": 163,
+      "cardinality": 85
+    },
+    {
+      "name": "PUBLIC WIFI DETAIL",
+      "fieldName": "public_wifi_detail",
+      "dataTypeName": "text",
+      "description": "Wifi encryption (if any), other notes about WiFi.",
+      "nullCount": 130,
+      "cardinality": 97
+    },
+    {
+      "name": "NEAREST PARKING",
+      "fieldName": "nearest_parking",
+      "dataTypeName": "text",
+      "description": "Either free or paid.",
+      "nullCount": 63,
+      "cardinality": 2
+    },
+    {
+      "name": "NEAREST PARKING DETAIL",
+      "fieldName": "nearest_parking_detail",
+      "dataTypeName": "text",
+      "description": "Details and directions for nearest parking lot.",
+      "nullCount": 67,
+      "cardinality": 180
+    },
+    {
+      "name": "PUBLIC TRANSPORTATION DETAIL",
+      "fieldName": "public_transportation_detail",
+      "dataTypeName": "text",
+      "description": "Details and directions for nearest CTA or Metra stations or bus stops.",
+      "nullCount": 46,
+      "cardinality": 207
+    },
+    {
+      "name": "TIME ALLOWED PER USER",
+      "fieldName": "time_allowed_per_user",
+      "dataTypeName": "text",
+      "description": "Either timed, unlimited or empty.",
+      "nullCount": 72,
+      "cardinality": 4
+    },
+    {
+      "name": "TIME ALLOWED PER USER DETAIL",
+      "fieldName": "time_allowed_per_user_detail",
+      "dataTypeName": "text",
+      "description": "Time in minutes if there is a limit.",
+      "nullCount": 112,
+      "cardinality": 122
+    },
+    {
+      "name": "ROOM LIST",
+      "fieldName": "room_list",
+      "dataTypeName": "text",
+      "description": "Location of computer labs within the address.",
+      "nullCount": 212,
+      "cardinality": 40
+    },
+    {
+      "name": "HANDICAP ACCESS DETAIL",
+      "fieldName": "handicap_access_detail",
+      "dataTypeName": "text",
+      "description": "Details for handicap accessibility",
+      "nullCount": 100,
+      "cardinality": 147
+    },
+    {
+      "name": "FRIENDLY DESCRIPTION",
+      "fieldName": "friendly_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 20,
+      "cardinality": 210
+    },
+    {
+      "name": "AGENCY LEADERSHIP CONTACT",
+      "fieldName": "agency_leadership_contact",
+      "dataTypeName": "text",
+      "description": "Contact person for the parent organization or department.",
+      "nullCount": 39,
+      "cardinality": 47
+    },
+    {
+      "name": "AGENCY STAFF PERSON CONTACT EMAIL",
+      "fieldName": "agency_staff_person_contact_email",
+      "dataTypeName": "text",
+      "description": "Email address for AGENCY LEADERSHIP CONTACT.",
+      "nullCount": 42,
+      "cardinality": 44
+    },
+    {
+      "name": "TWITTER HANDLE",
+      "fieldName": "twitter_handle",
+      "dataTypeName": "text",
+      "description": "Twitter account for the location",
+      "nullCount": 223,
+      "cardinality": 24
+    },
+    {
+      "name": "TRAINING TYPES",
+      "fieldName": "training_types",
+      "dataTypeName": "text",
+      "description": "Types of technology training provided at the location. For more information, see: http://weconnectchicago.org/learn/",
+      "nullCount": 253,
+      "cardinality": 5
+    },
+    {
+      "name": "FLICKR TAG",
+      "fieldName": "flickr_tag",
+      "dataTypeName": "text",
+      "description": "Used for tagging photos in Flickr. Generated based Id and location name",
+      "nullCount": 0,
+      "cardinality": 252
+    },
+    {
+      "name": "TRAINING HEADLINE",
+      "fieldName": "training_headline",
+      "dataTypeName": "text",
+      "description": "If training is offered, the name of the training program.",
+      "nullCount": 120,
+      "cardinality": 90
+    },
+    {
+      "name": "TRAINING DESCRIPTION",
+      "fieldName": "training_description",
+      "dataTypeName": "text",
+      "description": "If training is offered, a description of the training program.",
+      "nullCount": 96,
+      "cardinality": 147
+    },
+    {
+      "name": "TRAINING URL",
+      "fieldName": "training_url",
+      "dataTypeName": "text",
+      "description": "If training is offered, website for more information.",
+      "nullCount": 185,
+      "cardinality": 53
+    },
+    {
+      "name": "LOCATION LEADERSHIP",
+      "fieldName": "location_leadership",
+      "dataTypeName": "text",
+      "description": "Contact person who is responsible for running the location.",
+      "nullCount": 84,
+      "cardinality": 162
+    },
+    {
+      "name": "LOCATION LEADERSHIP EMAIL",
+      "fieldName": "location_leadership_email",
+      "dataTypeName": "text",
+      "description": "Email address for LOCATION LEADERSHIP.",
+      "nullCount": 113,
+      "cardinality": 132
+    },
+    {
+      "name": "PCC STAFF PERSON",
+      "fieldName": "pcc_staff_person",
+      "dataTypeName": "text",
+      "description": "Contact person for the computer lab.",
+      "nullCount": 169,
+      "cardinality": 87
+    },
+    {
+      "name": "PCC STAFF PERSON EMAIL",
+      "fieldName": "pcc_staff_person_email",
+      "dataTypeName": "text",
+      "description": "Email address for PCC STAFF PERSON.",
+      "nullCount": 187,
+      "cardinality": 68
+    },
+    {
+      "name": "Latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 254
+    },
+    {
+      "name": "Longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 253
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:38:04.753Z"
+}

@@ -1,0 +1,225 @@
+{
+  "id": "6yjf-dfxs",
+  "name": "Assessor - Permits",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 745053,
+  "rowCountSource": "cached",
+  "rowLabel": "Permit for a parcel",
+  "hasRowIdentifier": true,
+  "createdAt": 1733508221,
+  "publicationDate": 1770050477,
+  "rowsUpdatedAt": 1790870250,
+  "viewLastModified": 1783621440,
+  "viewCount": 16721,
+  "downloadCount": 26747,
+  "category": "Property & Taxation",
+  "tags": [
+    "cook county assessor",
+    "property tax"
+  ],
+  "attribution": "Cook County Assessor's Office",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Data Department"
+    },
+    "Source Details": {
+      "Source System": "iasWorld, Smartfile"
+    },
+    "Detailed Descriptive": {
+      "Temporal coverage": "2000-Present",
+      "Geographic coverage": "Countywide",
+      "Geographic unit": "Parcel"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Bi-weekly",
+      "Publishing frequency": "Bi-weekly"
+    }
+  },
+  "columns": [
+    {
+      "name": "pin",
+      "fieldName": "pin",
+      "dataTypeName": "text",
+      "description": "Parcel Identification Number (PIN)",
+      "nullCount": 0,
+      "cardinality": 745053
+    },
+    {
+      "name": "permit_year",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": "Year municipality issued permit to applicant",
+      "nullCount": 1,
+      "cardinality": 745053
+    },
+    {
+      "name": "permit_number",
+      "fieldName": "permit_number",
+      "dataTypeName": "text",
+      "description": "Permit number created during permit submission to CCAO",
+      "nullCount": 8661,
+      "cardinality": 745053
+    },
+    {
+      "name": "local_permit_number",
+      "fieldName": "local_permit_number",
+      "dataTypeName": "text",
+      "description": "Permit number recorded by reporting municipality",
+      "nullCount": 2981,
+      "cardinality": 745053
+    },
+    {
+      "name": "date_issued",
+      "fieldName": "date_issued",
+      "dataTypeName": "calendar_date",
+      "description": "Date municipality issued permit to applicant",
+      "nullCount": 1,
+      "cardinality": 745053
+    },
+    {
+      "name": "estimated_date_of_completion",
+      "fieldName": "estimated_date_of_completion",
+      "dataTypeName": "text",
+      "description": "Estimated date permitted work will be complete",
+      "nullCount": 744396,
+      "cardinality": 745053
+    },
+    {
+      "name": "status",
+      "fieldName": "status",
+      "dataTypeName": "text",
+      "description": "Status of permit in CCAO's permit workflow",
+      "nullCount": 1574,
+      "cardinality": 745053
+    },
+    {
+      "name": "assessable",
+      "fieldName": "assessable",
+      "dataTypeName": "text",
+      "description": "Whether permitted work will affect property's assessed value",
+      "nullCount": 83540,
+      "cardinality": 745053
+    },
+    {
+      "name": "amount",
+      "fieldName": "amount",
+      "dataTypeName": "number",
+      "description": "Amount permitted work is estimated to cost",
+      "nullCount": 3094,
+      "cardinality": 745053
+    },
+    {
+      "name": "municipality",
+      "fieldName": "municipality",
+      "dataTypeName": "text",
+      "description": "Taxing district name, as seen on Cook County tax bills",
+      "nullCount": 10127,
+      "cardinality": 745053
+    },
+    {
+      "name": "township",
+      "fieldName": "township",
+      "dataTypeName": "text",
+      "description": "Township name",
+      "nullCount": 2848,
+      "cardinality": 745053
+    },
+    {
+      "name": "property_address",
+      "fieldName": "property_address",
+      "dataTypeName": "text",
+      "description": "Address where permitted work will take place",
+      "nullCount": 736970,
+      "cardinality": 745053
+    },
+    {
+      "name": "mailing_address",
+      "fieldName": "mailing_address",
+      "dataTypeName": "text",
+      "description": "Applicant mailing address",
+      "nullCount": 10165,
+      "cardinality": 745053
+    },
+    {
+      "name": "applicant_name",
+      "fieldName": "applicant_name",
+      "dataTypeName": "text",
+      "description": "Name of permit applicant",
+      "nullCount": 6768,
+      "cardinality": 745053
+    },
+    {
+      "name": "job_code_primary",
+      "fieldName": "job_code_primary",
+      "dataTypeName": "text",
+      "description": "Primary job description",
+      "nullCount": 81300,
+      "cardinality": 745053
+    },
+    {
+      "name": "job_code_secondary",
+      "fieldName": "job_code_secondary",
+      "dataTypeName": "text",
+      "description": "Secondary job description",
+      "nullCount": 742663,
+      "cardinality": 745053
+    },
+    {
+      "name": "work_description",
+      "fieldName": "work_description",
+      "dataTypeName": "text",
+      "description": "Short description of permitted work",
+      "nullCount": 3570,
+      "cardinality": 745053
+    },
+    {
+      "name": "improvement_code_1",
+      "fieldName": "improvement_code_1",
+      "dataTypeName": "text",
+      "description": "Type of improvement indicated by permit",
+      "nullCount": 78799,
+      "cardinality": 745053
+    },
+    {
+      "name": "improvement_code_2",
+      "fieldName": "improvement_code_2",
+      "dataTypeName": "text",
+      "description": "Type of improvement indicated by permit",
+      "nullCount": 682436,
+      "cardinality": 745053
+    },
+    {
+      "name": "improvement_code_3",
+      "fieldName": "improvement_code_3",
+      "dataTypeName": "text",
+      "description": "Type of improvement indicated by permit",
+      "nullCount": 736107,
+      "cardinality": 745053
+    },
+    {
+      "name": "improvement_code_4",
+      "fieldName": "improvement_code_4",
+      "dataTypeName": "text",
+      "description": "Type of improvement indicated by permit",
+      "nullCount": 743719,
+      "cardinality": 745053
+    },
+    {
+      "name": "row_id",
+      "fieldName": "row_id",
+      "dataTypeName": "text",
+      "description": "Unique row key API",
+      "nullCount": 0,
+      "cardinality": 745053
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:49.687Z"
+}

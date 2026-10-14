@@ -1,0 +1,240 @@
+{
+  "id": "sxs8-h27x",
+  "name": "Chicago Traffic Tracker - Historical Congestion Estimates by Segment - 2018-2023",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 274892764,
+  "rowCountSource": "cached",
+  "rowLabel": "Segment Timeslice",
+  "hasRowIdentifier": true,
+  "createdAt": 1519856932,
+  "publicationDate": 1519924845,
+  "rowsUpdatedAt": 1747348090,
+  "viewLastModified": 1774982497,
+  "viewCount": 72141,
+  "downloadCount": 13066,
+  "category": "Transportation",
+  "tags": [
+    "traffic",
+    "sustainability",
+    "historical"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.cityofchicago.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2/28/2018 - 9/8/2023, with occasional gaps due to system maintenance and other temporary technical issues.",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"sxs8-h27x\"",
+      "Data Owner": "Chicago Department of Transportation"
+    }
+  },
+  "columns": [
+    {
+      "name": "TIME",
+      "fieldName": "time",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10959994
+    },
+    {
+      "name": "SEGMENT_ID",
+      "fieldName": "segment_id",
+      "dataTypeName": "number",
+      "description": "Unique arbitrary number to represent each segment.",
+      "nullCount": 0,
+      "cardinality": 1047
+    },
+    {
+      "name": "SPEED",
+      "fieldName": "speed",
+      "dataTypeName": "number",
+      "description": "Estimated traffic speed in miles per hour. A value of -1 means no estimate is available.",
+      "nullCount": 0,
+      "cardinality": 67
+    },
+    {
+      "name": "STREET",
+      "fieldName": "street",
+      "dataTypeName": "text",
+      "description": "Street name of the traffic segment.",
+      "nullCount": 0,
+      "cardinality": 62
+    },
+    {
+      "name": "DIRECTION",
+      "fieldName": "direction",
+      "dataTypeName": "text",
+      "description": "Traffic flow direction for the segment.",
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "FROM_STREET",
+      "fieldName": "from_street",
+      "dataTypeName": "text",
+      "description": "Start street for the segment in the direction of traffic flow.",
+      "nullCount": 0,
+      "cardinality": 145
+    },
+    {
+      "name": "TO_STREET",
+      "fieldName": "to_street",
+      "dataTypeName": "text",
+      "description": "End street for the segment in the direction of traffic flow.",
+      "nullCount": 0,
+      "cardinality": 144
+    },
+    {
+      "name": "LENGTH",
+      "fieldName": "length",
+      "dataTypeName": "number",
+      "description": "Length of the segment in miles.",
+      "nullCount": 0,
+      "cardinality": 106
+    },
+    {
+      "name": "STREET_HEADING",
+      "fieldName": "street_heading",
+      "dataTypeName": "text",
+      "description": "The position of the segment in the address grid. North, South, East, or West of State and Madison. ",
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "COMMENTS",
+      "fieldName": "comments",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 241548498,
+      "cardinality": 12
+    },
+    {
+      "name": "BUS_COUNT",
+      "fieldName": "bus_count",
+      "dataTypeName": "number",
+      "description": "Number of buses providing a GPS feed used to estimate congestion.",
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "MESSAGE_COUNT",
+      "fieldName": "message_count",
+      "dataTypeName": "number",
+      "description": "Number of GPS probes received(or used) for estimating the speed for that segment.",
+      "nullCount": 0,
+      "cardinality": 598
+    },
+    {
+      "name": "HOUR",
+      "fieldName": "hour",
+      "dataTypeName": "number",
+      "description": "Hour of the day.",
+      "nullCount": 0,
+      "cardinality": 24
+    },
+    {
+      "name": "DAY_OF_WEEK",
+      "fieldName": "day_of_week",
+      "dataTypeName": "number",
+      "description": "Day of the week. Sunday = 1",
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "MONTH",
+      "fieldName": "month",
+      "dataTypeName": "number",
+      "description": "Month of the year.",
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "RECORD_ID",
+      "fieldName": "record_id",
+      "dataTypeName": "text",
+      "description": "A unique identifier for each record in the dataset.",
+      "nullCount": 0,
+      "cardinality": 10959994
+    },
+    {
+      "name": "START_LATITUDE",
+      "fieldName": "start_latitude",
+      "dataTypeName": "number",
+      "description": "Latitude of the start of the segment.",
+      "nullCount": 0,
+      "cardinality": 1853
+    },
+    {
+      "name": "START_LONGITUDE",
+      "fieldName": "start_longitude",
+      "dataTypeName": "number",
+      "description": "Longitude of the start of the segment.",
+      "nullCount": 0,
+      "cardinality": 1896
+    },
+    {
+      "name": "END_LATITUDE",
+      "fieldName": "end_latitude",
+      "dataTypeName": "number",
+      "description": "Latitude of the end of the segment.",
+      "nullCount": 0,
+      "cardinality": 1855
+    },
+    {
+      "name": "END_LONGITUDE",
+      "fieldName": "end_longitude",
+      "dataTypeName": "number",
+      "description": "Longitude of the end of the segment.",
+      "nullCount": 0,
+      "cardinality": 1887
+    },
+    {
+      "name": "START_LOCATION",
+      "fieldName": "start_location",
+      "dataTypeName": "point",
+      "description": "Location of the start of the segment.",
+      "nullCount": 0,
+      "cardinality": 1055
+    },
+    {
+      "name": "END_LOCATION",
+      "fieldName": "end_location",
+      "dataTypeName": "point",
+      "description": "Location of the end of the segment.",
+      "nullCount": 0,
+      "cardinality": 1055
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:05.326Z"
+}

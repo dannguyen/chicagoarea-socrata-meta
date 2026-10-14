@@ -1,0 +1,1284 @@
+{
+  "id": "2vhs-cf6b",
+  "name": "COVID-19 Daily Vaccinations - Chicago Residents - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1003,
+  "rowCountSource": "cached",
+  "rowLabel": "Day",
+  "hasRowIdentifier": true,
+  "createdAt": 1608321361,
+  "publicationDate": 1674579352,
+  "rowsUpdatedAt": 1702594929,
+  "viewLastModified": 1788212692,
+  "viewCount": 13499,
+  "downloadCount": 39522,
+  "category": "Health & Human Services",
+  "tags": [
+    "covid-19",
+    "vaccination",
+    "gender",
+    "health",
+    "public health",
+    "link to article present",
+    "historical"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://chicago.gov/coronavirus",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "December 2020 - September 2023",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "http://dev.cityofchicago.org/open%20data/data%20portal/2021/06/10/covid-no-weekend-updates.html | http://dev.cityofchicago.org/open%20data/data%20portal/2021/06/09/covid-vaccination-age-groups.html | http://dev.cityofchicago.org/open%20data/data%20portal/2021/04/16/covid-vaccination-new-ethnic-groups.html | http://dev.cityofchicago.org/open%20data/data%20portal/2021/02/18/covid-vaccination-race-ethnicity.html",
+      "Data Owner": "Department of Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "Date",
+      "fieldName": "date",
+      "dataTypeName": "calendar_date",
+      "description": "Date vaccine administered. Blank indicates unknown date.",
+      "nullCount": 0,
+      "cardinality": 1003
+    },
+    {
+      "name": "Total Doses - Daily",
+      "fieldName": "total_doses_daily",
+      "dataTypeName": "number",
+      "description": "Total number of shots given on the date.",
+      "nullCount": 0,
+      "cardinality": 951
+    },
+    {
+      "name": "Total Doses - Cumulative",
+      "fieldName": "total_doses_cumulative",
+      "dataTypeName": "number",
+      "description": "Total number of shots given through the date.",
+      "nullCount": 0,
+      "cardinality": 1003
+    },
+    {
+      "name": "1st Dose - Daily",
+      "fieldName": "_1st_dose_daily",
+      "dataTypeName": "number",
+      "description": "Number of people who received a first vaccine dose on the date.",
+      "nullCount": 0,
+      "cardinality": 777
+    },
+    {
+      "name": "1st Dose - Cumulative",
+      "fieldName": "_1st_dose_cumulative",
+      "dataTypeName": "number",
+      "description": "Total number of people with at least one vaccine dose through the date.",
+      "nullCount": 0,
+      "cardinality": 1002
+    },
+    {
+      "name": "1st Dose - Percent Population",
+      "fieldName": "_1st_dose_percent_population",
+      "dataTypeName": "number",
+      "description": "Cumulative percentage of Chicagoans that have received at least one vaccine dose.",
+      "nullCount": 0,
+      "cardinality": 416
+    },
+    {
+      "name": "Vaccine Series Completed - Daily",
+      "fieldName": "vaccine_series_completed_daily",
+      "dataTypeName": "number",
+      "description": "Number of Chicago residents who completed a vaccine series on the date.",
+      "nullCount": 0,
+      "cardinality": 661
+    },
+    {
+      "name": "Vaccine Series Completed - Cumulative",
+      "fieldName": "vaccine_series_completed_cumulative",
+      "dataTypeName": "number",
+      "description": "Total number of Chicago residents who have completed a vaccine series through the date.",
+      "nullCount": 0,
+      "cardinality": 921
+    },
+    {
+      "name": "Vaccine Series Completed - Percent Population",
+      "fieldName": "vaccine_series_completed_percent_population",
+      "dataTypeName": "number",
+      "description": "Cumulative percentage of Chicagoans that have completed a vaccine series.",
+      "nullCount": 0,
+      "cardinality": 359
+    },
+    {
+      "name": "Booster - Daily",
+      "fieldName": "booster_daily",
+      "dataTypeName": "number",
+      "description": "Number of people who have a completed vaccine series and have received at least one additional monovalent dose on the date. This includes people who received a booster dose and immunocompromised people who received an additional primary dose of COVID-19 vaccine. ",
+      "nullCount": 0,
+      "cardinality": 414
+    },
+    {
+      "name": "Booster - Cumulative",
+      "fieldName": "booster_cumulative",
+      "dataTypeName": "number",
+      "description": "Number of people who have a completed vaccine series and have received at least one additional monovalent dose through the date. This includes people who received a booster dose and immunocompromised people who received an additional primary dose of COVID-19 vaccine. ",
+      "nullCount": 0,
+      "cardinality": 688
+    },
+    {
+      "name": "Booster - Percent Population",
+      "fieldName": "booster_percent_population",
+      "dataTypeName": "number",
+      "description": "Cumulative percentage of Chicagoans that have received at least one booster dose, as defined in the previous columns.",
+      "nullCount": 0,
+      "cardinality": 198
+    },
+    {
+      "name": "Bivalent - Daily",
+      "fieldName": "bivalent_daily",
+      "dataTypeName": "number",
+      "description": "Number of people who have received a bivalent (updated) vaccine dose on the date.",
+      "nullCount": 0,
+      "cardinality": 348
+    },
+    {
+      "name": "Bivalent - Cumulative",
+      "fieldName": "bivalent_cumulative",
+      "dataTypeName": "number",
+      "description": "Number of people who have received a bivalent (updated) vaccine dose through the date.",
+      "nullCount": 0,
+      "cardinality": 379
+    },
+    {
+      "name": "Bivalent - Percent Population",
+      "fieldName": "bivalent_percent_population",
+      "dataTypeName": "number",
+      "description": "Cumulative percentage of Chicagoans that have received a bivalent (updated) vaccine dose.",
+      "nullCount": 0,
+      "cardinality": 158
+    },
+    {
+      "name": "Total Doses - Daily - Age 0-17",
+      "fieldName": "total_doses_daily_age_0_17",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 679
+    },
+    {
+      "name": "Total Doses - Daily - Age 18-29",
+      "fieldName": "total_doses_daily_age_18_29",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 726
+    },
+    {
+      "name": "Total Doses - Daily - Age 30-39",
+      "fieldName": "total_doses_daily_age_30_39",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 705
+    },
+    {
+      "name": "Total Doses - Daily - Age 40-49",
+      "fieldName": "total_doses_daily_age_40_49",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 689
+    },
+    {
+      "name": "Total Doses - Daily - Age 50-59",
+      "fieldName": "total_doses_daily_age_50_59",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 713
+    },
+    {
+      "name": "Total Doses - Daily - Age 60-69",
+      "fieldName": "total_doses_daily_age_60_69",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 716
+    },
+    {
+      "name": "Total Doses - Daily - Age 70-79",
+      "fieldName": "total_doses_daily_age_70_79",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 605
+    },
+    {
+      "name": "Total Doses - Daily - Age 80+",
+      "fieldName": "total_doses_daily_age_80_plus",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 450
+    },
+    {
+      "name": "Total Doses - Daily - Age 0-4",
+      "fieldName": "total_doses_daily_age_0_4",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 272
+    },
+    {
+      "name": "Total Doses - Daily - Age 5-11",
+      "fieldName": "total_doses_daily_age_5_11",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 381
+    },
+    {
+      "name": "Total Doses - Daily - Age 12-17",
+      "fieldName": "total_doses_daily_age_12_17",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 500
+    },
+    {
+      "name": "Total Doses - Daily - Age 5+",
+      "fieldName": "total_doses_daily_age_5_plus",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 944
+    },
+    {
+      "name": "Total Doses - Daily - Age 12+",
+      "fieldName": "total_doses_daily_age_12_plus",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 960
+    },
+    {
+      "name": "Total Doses - Daily - Age 18+",
+      "fieldName": "total_doses_daily_age_18_plus",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 947
+    },
+    {
+      "name": "Total Doses - Daily - Age 65+",
+      "fieldName": "total_doses_daily_age_65_plus",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 754
+    },
+    {
+      "name": "Total Doses - Daily - Age 75+",
+      "fieldName": "total_doses_daily_age_75_plus",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 574
+    },
+    {
+      "name": "Total Doses - Daily - Unknown Age",
+      "fieldName": "total_doses_daily_age_unknown",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Total Doses - Daily - Female",
+      "fieldName": "total_doses_daily_female",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 904
+    },
+    {
+      "name": "Total Doses - Daily - Male",
+      "fieldName": "total_doses_daily_male",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 894
+    },
+    {
+      "name": "Total Doses - Daily - Unknown Gender",
+      "fieldName": "total_doses_daily_unknown_gender",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 160
+    },
+    {
+      "name": "Total Doses - Daily - Latinx",
+      "fieldName": "total_doses_daily_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 820
+    },
+    {
+      "name": "Total Doses - Daily - Asian Non-Latinx",
+      "fieldName": "total_doses_daily_asian_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 612
+    },
+    {
+      "name": "Total Doses - Daily - Black Non-Latinx",
+      "fieldName": "total_doses_daily_black_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 810
+    },
+    {
+      "name": "Total Doses - Daily - White Non-Latinx",
+      "fieldName": "total_doses_daily_white_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 860
+    },
+    {
+      "name": "Total Doses - Daily - American Indian/Alaska Native Non-Latinx",
+      "fieldName": "total_doses_daily_american_indian_alaska_native_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 112
+    },
+    {
+      "name": "Total Doses - Daily - Pacific Islander/Hawaiian Native Non-Latinx",
+      "fieldName": "total_doses_daily_pacific_islander_hawaiian_native_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 68
+    },
+    {
+      "name": "Total Doses - Daily - Other Non-Latinx",
+      "fieldName": "total_doses_daily_other_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 391
+    },
+    {
+      "name": "Total Doses - Daily - Unknown Race/Ethnicity",
+      "fieldName": "total_doses_daily_unknown_race_ethnicity",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 403
+    },
+    {
+      "name": "1st Dose - Daily - Age 0-17",
+      "fieldName": "_1st_dose_daily_age_0_17",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 475
+    },
+    {
+      "name": "1st Dose - Daily - Age 18-29",
+      "fieldName": "_1st_dose_daily_age_18_29",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 511
+    },
+    {
+      "name": "1st Dose - Daily - Age 30-39",
+      "fieldName": "_1st_dose_daily_age_30_39",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 458
+    },
+    {
+      "name": "1st Dose - Daily - Age 40-49",
+      "fieldName": "_1st_dose_daily_age_40_49",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 404
+    },
+    {
+      "name": "1st Dose - Daily - Age 50-59",
+      "fieldName": "_1st_dose_daily_age_50_59",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 387
+    },
+    {
+      "name": "1st Dose - Daily - Age 60-69",
+      "fieldName": "_1st_dose_daily_age_60_69",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 337
+    },
+    {
+      "name": "1st Dose - Daily - Age 70-79",
+      "fieldName": "_1st_dose_daily_age_70_79",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 247
+    },
+    {
+      "name": "1st Dose - Daily -  Age 80+",
+      "fieldName": "_1st_dose_daily_age_80_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 186
+    },
+    {
+      "name": "1st Dose - Daily - Age 0-4",
+      "fieldName": "_1st_dose_daily_age_0_4",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 173
+    },
+    {
+      "name": "1st Dose - Daily - Age 5-11",
+      "fieldName": "_1st_dose_daily_age_5_11",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 211
+    },
+    {
+      "name": "1st Dose - Daily - Age 12-17",
+      "fieldName": "_1st_dose_daily_age_12_17",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 323
+    },
+    {
+      "name": "1st Dose - Daily - Age 5+",
+      "fieldName": "_1st_dose_daily_age_5_plus",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 735
+    },
+    {
+      "name": "1st Dose - Daily - Age 12+",
+      "fieldName": "_1st_dose_daily_age_12_plus",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 711
+    },
+    {
+      "name": "1st Dose - Daily - Age 18+",
+      "fieldName": "_1st_dose_daily_age_18_plus",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 705
+    },
+    {
+      "name": "1st Dose - Daily - Age 65+",
+      "fieldName": "_1st_dose_daily_age_65_plus",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 349
+    },
+    {
+      "name": "1st Dose - Daily - Age 75+",
+      "fieldName": "_1st_dose_daily_age_75_plus",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 241
+    },
+    {
+      "name": "1st Dose - Daily - Unknown Age",
+      "fieldName": "_1st_dose_daily_age_unknown",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "1st Dose - Daily - Female",
+      "fieldName": "_1st_dose_daily_female",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 654
+    },
+    {
+      "name": "1st Dose - Daily - Male",
+      "fieldName": "_1st_dose_daily_male",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 656
+    },
+    {
+      "name": "1st Dose - Daily - Unknown Gender",
+      "fieldName": "_1st_dose_daily_gender_unknown",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 92
+    },
+    {
+      "name": "1st Dose - Daily - Latinx",
+      "fieldName": "_1st_dose_daily_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 552
+    },
+    {
+      "name": "1st Dose - Daily - Asian Non-Latinx",
+      "fieldName": "_1st_dose_daily_asian_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 342
+    },
+    {
+      "name": "1st Dose - Daily - Black Non-Latinx",
+      "fieldName": "_1st_dose_daily_black_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 534
+    },
+    {
+      "name": "1st Dose - Daily - White Non-Latinx",
+      "fieldName": "_1st_dose_daily_white_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 536
+    },
+    {
+      "name": "1st Dose - Daily - American Indian/Alaska Native Non-Latinx",
+      "fieldName": "_1st_dose_daily_american_indian_alaska_native_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 70
+    },
+    {
+      "name": "1st Dose - Daily - Pacific Islander/Hawaiian Native Non-Latinx",
+      "fieldName": "_1st_dose_daily_pacific_islander_hawaiian_native_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 45
+    },
+    {
+      "name": "1st Dose - Daily - Other Race Non-Latinx",
+      "fieldName": "_1st_dose_daily_other_race_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 262
+    },
+    {
+      "name": "1st Dose - Daily - Unknown Race/Ethnicity",
+      "fieldName": "_1st_dose_daily_unknown_race_ethnicity",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 291
+    },
+    {
+      "name": "Vaccine Series Completed - Daily - Age 0-17",
+      "fieldName": "vaccine_series_completed_daily_age_0_17",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 426
+    },
+    {
+      "name": "Vaccine Series Completed - Daily - Age 18-29",
+      "fieldName": "vaccine_series_completed_daily_age_18_29",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 435
+    },
+    {
+      "name": "Vaccine Series Completed - Daily - Age 30-39",
+      "fieldName": "vaccine_series_completed_daily_age_30_39",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 405
+    },
+    {
+      "name": "Vaccine Series Completed - Daily - Age 40-49",
+      "fieldName": "vaccine_series_completed_daily_age_40_49",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 384
+    },
+    {
+      "name": "Vaccine Series Completed - Daily - Age 50-59",
+      "fieldName": "vaccine_series_completed_daily_age_50_59",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 374
+    },
+    {
+      "name": "Vaccine Series Completed - Daily - Age 60-69",
+      "fieldName": "vaccine_series_completed_daily_age_60_69",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 316
+    },
+    {
+      "name": "Vaccine Series Completed - Daily - Age 70-79",
+      "fieldName": "vaccine_series_completed_daily_age_70_79",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 218
+    },
+    {
+      "name": "Vaccine Series Completed - Daily - Age 80+",
+      "fieldName": "vaccine_series_completed_daily_age_80_plus",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 176
+    },
+    {
+      "name": "Vaccine Series Completed - Daily - Age 0-4",
+      "fieldName": "vaccine_series_completed_daily_age_0_4",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 127
+    },
+    {
+      "name": "Vaccine Series Completed - Daily - Age 5-11",
+      "fieldName": "vaccine_series_completed_daily_age_5_11",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 199
+    },
+    {
+      "name": "Vaccine Series Completed - Daily - Age 12-17",
+      "fieldName": "vaccine_series_completed_daily_age_12_17",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 300
+    },
+    {
+      "name": "Vaccine Series Completed - Daily - Age 5+",
+      "fieldName": "vaccine_series_completed_daily_age_5_plus",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 635
+    },
+    {
+      "name": "Vaccine Series Completed - Daily - Age 12+",
+      "fieldName": "vaccine_series_completed_daily_age_12_plus",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 603
+    },
+    {
+      "name": "Vaccine Series Completed - Daily - Age 18+",
+      "fieldName": "vaccine_series_completed_daily_age_18_plus",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 582
+    },
+    {
+      "name": "Vaccine Series Completed - Daily - Age 65+",
+      "fieldName": "vaccine_series_completed_daily_age_65_plus",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 318
+    },
+    {
+      "name": "Vaccine Series Completed - Daily - Age 75+",
+      "fieldName": "vaccine_series_completed_daily_age_75_plus",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 217
+    },
+    {
+      "name": "Vaccine Series Completed - Daily - Unknown Age",
+      "fieldName": "vaccine_series_completed_daily_age_unknown_age",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Vaccine Series Completed - Daily - Female",
+      "fieldName": "vaccine_series_completed_daily_female",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 577
+    },
+    {
+      "name": "Vaccine Series Completed - Daily - Male",
+      "fieldName": "vaccine_series_completed_daily_male",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 561
+    },
+    {
+      "name": "Vaccine Series Completed - Daily - Unknown Gender",
+      "fieldName": "vaccine_series_completed_daily_unknown_gender",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 93
+    },
+    {
+      "name": "Vaccine Series Completed - Daily - Latinx",
+      "fieldName": "vaccine_series_completed_daily_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 486
+    },
+    {
+      "name": "Vaccine Series Completed - Daily - Asian Non-Latinx",
+      "fieldName": "vaccine_series_completed_daily_asian_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 301
+    },
+    {
+      "name": "Vaccine Series Completed - Daily - Black Non-Latinx",
+      "fieldName": "vaccine_series_completed_daily_black_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 488
+    },
+    {
+      "name": "Vaccine Series Completed - Daily - White Non-Latinx",
+      "fieldName": "vaccine_series_completed_daily_white_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 472
+    },
+    {
+      "name": "Vaccine Series Completed - Daily - American Indian/Alaska Native Non-Latinx",
+      "fieldName": "vaccine_series_completed_daily_american_indian_alaska_native_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 71
+    },
+    {
+      "name": "Vaccine Series Completed - Daily - Pacific Islander/Hawaiian Native Non-Latinx",
+      "fieldName": "vaccine_series_completed_daily_pacific_islander_hawaiian_native_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 44
+    },
+    {
+      "name": "Vaccine Series Completed - Daily - Other Race Non-Latinx",
+      "fieldName": "vaccine_series_completed_daily_other_race_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 216
+    },
+    {
+      "name": "Vaccine Series Completed - Daily - Unknown Race/Ethnicity",
+      "fieldName": "vaccine_series_completed_daily_unknown_race_ethnicity",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 244
+    },
+    {
+      "name": "Booster - Daily - Age 0-17",
+      "fieldName": "booster_daily_age_0_17",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 220
+    },
+    {
+      "name": "Booster - Daily - Age 18-29",
+      "fieldName": "booster_daily_age_18_29",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 278
+    },
+    {
+      "name": "Booster - Daily - Age 30-39",
+      "fieldName": "booster_daily_age_30_39",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 272
+    },
+    {
+      "name": "Booster - Daily - Age 40-49",
+      "fieldName": "booster_daily_age_40_49",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 256
+    },
+    {
+      "name": "Booster - Daily - Age 50-59",
+      "fieldName": "booster_daily_age_50_59",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 272
+    },
+    {
+      "name": "Booster - Daily - Age 60-69",
+      "fieldName": "booster_daily_age_60_69",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 268
+    },
+    {
+      "name": "Booster - Daily - Age 70-79",
+      "fieldName": "booster_daily_age_70_79",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 229
+    },
+    {
+      "name": "Booster - Daily - Age 80+",
+      "fieldName": "booster_daily_age_80_plus",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 169
+    },
+    {
+      "name": "Booster - Daily - Age 0-4",
+      "fieldName": "booster_daily_age_0_4",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Booster - Daily - Age 5-11",
+      "fieldName": "booster_daily_age_5_11",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 127
+    },
+    {
+      "name": "Booster - Daily - Age 12-17",
+      "fieldName": "booster_daily_age_12_17",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 184
+    },
+    {
+      "name": "Booster - Daily - Age 5+",
+      "fieldName": "booster_daily_age_5_plus",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 417
+    },
+    {
+      "name": "Booster - Daily - Age 12+",
+      "fieldName": "booster_daily_age_12_plus",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 394
+    },
+    {
+      "name": "Booster - Daily - Age 18+",
+      "fieldName": "booster_daily_age_18_plus",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 385
+    },
+    {
+      "name": "Booster - Daily - Age 65+",
+      "fieldName": "booster_daily_age_65_plus",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 301
+    },
+    {
+      "name": "Booster - Daily - Age 75+",
+      "fieldName": "booster_daily_age_75_plus",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 224
+    },
+    {
+      "name": "Booster - Daily - Unknown Age",
+      "fieldName": "booster_daily_unknown_age",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Booster - Daily - Female",
+      "fieldName": "booster_daily_female",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 378
+    },
+    {
+      "name": "Booster - Daily - Male",
+      "fieldName": "booster_daily_male",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 362
+    },
+    {
+      "name": "Booster - Daily - Unknown Gender",
+      "fieldName": "booster_daily_unknown_gender",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 72
+    },
+    {
+      "name": "Booster - Daily - Latinx",
+      "fieldName": "booster_daily_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 330
+    },
+    {
+      "name": "Booster - Daily - Asian Non-Latinx",
+      "fieldName": "booster_daily_asian_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 233
+    },
+    {
+      "name": "Booster - Daily - Black Non-Latinx",
+      "fieldName": "booster_daily_black_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 317
+    },
+    {
+      "name": "Booster - Daily - White Non-Latinx",
+      "fieldName": "booster_daily_white_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 338
+    },
+    {
+      "name": "Booster - Daily - American Indian/Alaska Native Non-Latinx",
+      "fieldName": "booster_daily_american_indian_alaska_native_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 52
+    },
+    {
+      "name": "Booster - Daily - Pacific Islander/Hawaiian Native Non-Latinx",
+      "fieldName": "booster_daily_pacific_islander_hawaiian_native_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 34
+    },
+    {
+      "name": "Booster - Daily - Other Race Non-Latinx",
+      "fieldName": "booster_daily_other_race_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 133
+    },
+    {
+      "name": "Booster - Daily - Unknown Race/Ethnicity",
+      "fieldName": "booster_daily_unknown_race_ethnicity",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 134
+    },
+    {
+      "name": "Bivalent - Daily - Age 0-17",
+      "fieldName": "bivalent_daily_age_0_17",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 219
+    },
+    {
+      "name": "Bivalent - Daily - Age 18-29",
+      "fieldName": "bivalent_daily_age_18_29",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 226
+    },
+    {
+      "name": "Bivalent - Daily - Age 30-39",
+      "fieldName": "bivalent_daily_age_30_39",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 233
+    },
+    {
+      "name": "Bivalent - Daily - Age 40-49",
+      "fieldName": "bivalent_daily_age_40_49",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 217
+    },
+    {
+      "name": "Bivalent - Daily - Age 50-59",
+      "fieldName": "bivalent_daily_age_50_59",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 231
+    },
+    {
+      "name": "Bivalent - Daily - Age 60-69",
+      "fieldName": "bivalent_daily_age_60_69",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 235
+    },
+    {
+      "name": "Bivalent - Daily - Age 70-79",
+      "fieldName": "bivalent_daily_age_70_79",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 204
+    },
+    {
+      "name": "Bivalent - Daily - Age 80+",
+      "fieldName": "bivalent_daily_age_80_plus",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 160
+    },
+    {
+      "name": "Bivalent - Daily - Age 0-4",
+      "fieldName": "bivalent_daily_age_0_4",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 96
+    },
+    {
+      "name": "Bivalent - Daily - Age 5-11",
+      "fieldName": "bivalent_daily_age_5_11",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 150
+    },
+    {
+      "name": "Bivalent - Daily - Age 12-17",
+      "fieldName": "bivalent_daily_age_12_17",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 164
+    },
+    {
+      "name": "Bivalent - Daily - Age 5+",
+      "fieldName": "bivalent_daily_age_5_plus",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 352
+    },
+    {
+      "name": "Bivalent - Daily - Age 12+",
+      "fieldName": "bivalent_daily_age_12_plus",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 343
+    },
+    {
+      "name": "Bivalent - Daily - Age 18+",
+      "fieldName": "bivalent_daily_age_18_plus",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 333
+    },
+    {
+      "name": "Bivalent - Daily - Age 65+",
+      "fieldName": "bivalent_daily_age_65_plus",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 255
+    },
+    {
+      "name": "Bivalent - Daily - Age 75+",
+      "fieldName": "bivalent_daily_age_75_plus",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 193
+    },
+    {
+      "name": "Bivalent - Daily - Unknown Age",
+      "fieldName": "bivalent_daily_unknown_age",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Bivalent - Daily - Female",
+      "fieldName": "bivalent_daily_female",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 326
+    },
+    {
+      "name": "Bivalent - Daily - Male",
+      "fieldName": "bivalent_daily_male",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 304
+    },
+    {
+      "name": "Bivalent - Daily - Unknown Gender",
+      "fieldName": "bivalent_daily_unknown_gender",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 52
+    },
+    {
+      "name": "Bivalent - Daily - Latinx",
+      "fieldName": "bivalent_daily_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 292
+    },
+    {
+      "name": "Bivalent - Daily - Asian Non-Latinx",
+      "fieldName": "bivalent_daily_asian_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 193
+    },
+    {
+      "name": "Bivalent - Daily - Black Non-Latinx",
+      "fieldName": "bivalent_daily_black_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 279
+    },
+    {
+      "name": "Bivalent - Daily - White Non-Latinx",
+      "fieldName": "bivalent_daily_white_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 281
+    },
+    {
+      "name": "Bivalent - Daily - American Indian/Alaska Native Non-Latinx",
+      "fieldName": "bivalent_daily_american_indian_alaska_native_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 36
+    },
+    {
+      "name": "Bivalent - Daily - Pacific Islander/Hawaiian Native Non-Latinx",
+      "fieldName": "bivalent_daily_pacific_islander_hawaiian_native_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24
+    },
+    {
+      "name": "Bivalent - Daily - Other Non-Latinx",
+      "fieldName": "bivalent_daily_other_non_latinx",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 99
+    },
+    {
+      "name": "Bivalent - Daily - Unknown Race/Ethnicity",
+      "fieldName": "bivalent_daily_unknown_race_ethnicity",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 113
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:38:04.668Z"
+}

@@ -1,0 +1,384 @@
+{
+  "id": "c7jj-qjvh",
+  "name": "CPS Schools 2013-2014 Academic Year",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 672,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1380666106,
+  "publicationDate": 1382418568,
+  "rowsUpdatedAt": 1382417960,
+  "viewLastModified": 1385497677,
+  "viewCount": 5316,
+  "downloadCount": 6480,
+  "category": "Education",
+  "tags": [
+    "cps",
+    "education"
+  ],
+  "attribution": "Chicago Public Schools",
+  "attributionLink": "http://www.cps.edu/Schools/Pages/Schools.aspx",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "2013-2014 Academic Year",
+      "Frequency": "Annual",
+      "Data Owner": "Chicago Public Schools"
+    }
+  },
+  "columns": [
+    {
+      "name": "SchoolID",
+      "fieldName": "schoolid",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 669
+    },
+    {
+      "name": "SchoolName",
+      "fieldName": "schoolname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 672
+    },
+    {
+      "name": "FullName",
+      "fieldName": "fullname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 672
+    },
+    {
+      "name": "SchoolName2",
+      "fieldName": "schoolname2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 672
+    },
+    {
+      "name": "ISBE Name",
+      "fieldName": "isbe_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 24,
+      "cardinality": 579
+    },
+    {
+      "name": "Street Number",
+      "fieldName": "street_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 11,
+      "cardinality": 566
+    },
+    {
+      "name": "Street Direction",
+      "fieldName": "street_direction",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 11,
+      "cardinality": 4
+    },
+    {
+      "name": "Street Name",
+      "fieldName": "street_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 11,
+      "cardinality": 369
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "ZIP",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 55
+    },
+    {
+      "name": "NCES ID",
+      "fieldName": "nces_id",
+      "dataTypeName": "text",
+      "description": "A unique ID created by the U.S. Department of Education. The first two digits identify the state, the next five identify the school district, the remaining numbers identify the school. The entire number is the unique NCES ID.",
+      "nullCount": 58,
+      "cardinality": 555
+    },
+    {
+      "name": "CPS Unit",
+      "fieldName": "cps_unit",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 672
+    },
+    {
+      "name": "ISBE ID",
+      "fieldName": "isbe_id",
+      "dataTypeName": "text",
+      "description": "Unique ID assigned by the Illinois State Board of Education. Some items in this column are blank if the school was opened during the 2013-2014 academic year.",
+      "nullCount": 24,
+      "cardinality": 576
+    },
+    {
+      "name": "OracleID",
+      "fieldName": "oracleid",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 21,
+      "cardinality": 647
+    },
+    {
+      "name": "Class",
+      "fieldName": "class",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "School Type",
+      "fieldName": "school_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "S_Type",
+      "fieldName": "s_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "School Category",
+      "fieldName": "school_category",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Governance",
+      "fieldName": "governance",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Charter Type",
+      "fieldName": "charter_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 540,
+      "cardinality": 6
+    },
+    {
+      "name": "Grade Structure",
+      "fieldName": "grade_structure",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Attending Grades",
+      "fieldName": "attending_grades",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 9,
+      "cardinality": 42
+    },
+    {
+      "name": "ProgramTypes",
+      "fieldName": "programtypes",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 84
+    },
+    {
+      "name": "Ward",
+      "fieldName": "ward",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "Community Area Number",
+      "fieldName": "community_area_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": "Community Area",
+      "fieldName": "community_area",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": "IL Senate District",
+      "fieldName": "il_senate_district",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 19
+    },
+    {
+      "name": "IL Rep District",
+      "fieldName": "il_rep_district",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 34
+    },
+    {
+      "name": "US Congressional District",
+      "fieldName": "us_congressional_district",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "GeographicArea",
+      "fieldName": "geographicarea",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 30
+    },
+    {
+      "name": "Geographic Area Number",
+      "fieldName": "geographic_area_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 30
+    },
+    {
+      "name": "Cook County District",
+      "fieldName": "cook_county_district",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "Census Block",
+      "fieldName": "census_block",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 612
+    },
+    {
+      "name": "Latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 632
+    },
+    {
+      "name": "Longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 632
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:04.266Z"
+}

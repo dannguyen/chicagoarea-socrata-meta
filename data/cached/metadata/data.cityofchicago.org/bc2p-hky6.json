@@ -1,0 +1,136 @@
+{
+  "id": "bc2p-hky6",
+  "name": "Lobbyist Data - Lobbyist Categorized Expenditures Report (Deprecated October 2015)",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2131,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1317369674,
+  "publicationDate": 1481020248,
+  "rowsUpdatedAt": 1481020247,
+  "viewLastModified": 1481020248,
+  "viewCount": 2708,
+  "downloadCount": 4275,
+  "category": "Ethics",
+  "tags": [
+    "lobbyists",
+    "ethics",
+    "deprecated"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org/city/en/depts/ethics/provdrs/lobby.html",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2011 to present",
+      "Frequency": "Data is updated daily",
+      "Data Owner": "Ethics"
+    }
+  },
+  "columns": [
+    {
+      "name": "FILING YEAR",
+      "fieldName": "filing_year",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "LAST NAME",
+      "fieldName": "last_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 400
+    },
+    {
+      "name": "FIRST NAME",
+      "fieldName": "first_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 229
+    },
+    {
+      "name": "MIDDLE INITIAL",
+      "fieldName": "middle_initial",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 645,
+      "cardinality": 25
+    },
+    {
+      "name": "CLIENT NAME",
+      "fieldName": "client_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 917
+    },
+    {
+      "name": "OFFICE EXPENSES",
+      "fieldName": "office_expenses",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 70
+    },
+    {
+      "name": "COMPENSATION TO OTHERS",
+      "fieldName": "compensation_to_others",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "PUBLIC EDUCATION",
+      "fieldName": "public_education",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "PERSONAL SUSTENANCE",
+      "fieldName": "personal_sustenance",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 66
+    },
+    {
+      "name": "OTHER EXPENSES",
+      "fieldName": "other_expenses",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 28
+    },
+    {
+      "name": "TOTAL EXPENSES",
+      "fieldName": "total_expenses",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 136
+    },
+    {
+      "name": "FILING PERIOD",
+      "fieldName": "filing_period",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:09.632Z"
+}

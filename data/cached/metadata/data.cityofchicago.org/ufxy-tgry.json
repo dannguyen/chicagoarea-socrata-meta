@@ -1,0 +1,170 @@
+{
+  "id": "ufxy-tgry",
+  "name": "COPA Cases - By Involved Officer",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 219222,
+  "rowCountSource": "cached",
+  "rowLabel": "Officer",
+  "hasRowIdentifier": false,
+  "createdAt": 1509461029,
+  "publicationDate": 1586207689,
+  "rowsUpdatedAt": 1791384120,
+  "viewLastModified": 1791383964,
+  "viewCount": 22541,
+  "downloadCount": 5943,
+  "category": "Public Safety",
+  "tags": [
+    "copa",
+    "ipra",
+    "police",
+    "complaint",
+    "link to article present"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2007-Present",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "http://dev.cityofchicago.org/open%20data/data%20portal/2020/04/06/copa-changes.html",
+      "Data Owner": "Civilian Office of Police Accountability"
+    }
+  },
+  "columns": [
+    {
+      "name": "LOG_NO",
+      "fieldName": "log_no",
+      "dataTypeName": "text",
+      "description": "A unique identifier for the case record. The log number can be used to link records in other datasets that contain a log number column.",
+      "nullCount": 0,
+      "cardinality": 219222
+    },
+    {
+      "name": "COMPLAINT_DATE",
+      "fieldName": "complaint_date",
+      "dataTypeName": "calendar_date",
+      "description": "The date that the complaint or notification was made to IPRA/COPA and the record was created.",
+      "nullCount": 0,
+      "cardinality": 219222
+    },
+    {
+      "name": "ASSIGNMENT",
+      "fieldName": "assignment",
+      "dataTypeName": "text",
+      "description": "The jurisdictional assignment for the complaint case.",
+      "nullCount": 0,
+      "cardinality": 219222
+    },
+    {
+      "name": "CASE_TYPE",
+      "fieldName": "case_type",
+      "dataTypeName": "text",
+      "description": "Whether a case is a complaint, a notification, or miscellaneous.",
+      "nullCount": 140672,
+      "cardinality": 219222
+    },
+    {
+      "name": "CURRENT_STATUS",
+      "fieldName": "current_status",
+      "dataTypeName": "text",
+      "description": "The current status of the case investigation, as of the date the data were last published.",
+      "nullCount": 140672,
+      "cardinality": 219222
+    },
+    {
+      "name": "CURRENT_CATEGORY",
+      "fieldName": "current_category",
+      "dataTypeName": "text",
+      "description": "The category of the primary allegation against the involved CPD member.",
+      "nullCount": 140672,
+      "cardinality": 219222
+    },
+    {
+      "name": "FINDING_CODE",
+      "fieldName": "finding_code",
+      "dataTypeName": "text",
+      "description": "The overall current case finding, ranked by the following hierarchy: Sustained, Not Sustained, Unfounded, Exonerated, No Affidavit, and No Finding.\n\n“Current_Finding” means that even after COPA has completed an investigation and made a recommended finding, the finding can change given post-COPA processes, including Police Department review, Police Board adjudication, and grievance and arbitration processes.",
+      "nullCount": 142264,
+      "cardinality": 219222
+    },
+    {
+      "name": "POLICE_SHOOTING",
+      "fieldName": "police_shooting",
+      "dataTypeName": "text",
+      "description": "Whether or not the case is a police shooting.",
+      "nullCount": 140672,
+      "cardinality": 219222
+    },
+    {
+      "name": "BEAT",
+      "fieldName": "beat",
+      "dataTypeName": "text",
+      "description": "The CPD beat in which the incident occurred. If more than one beat was involved, the values are separated by the pipe (|) character.",
+      "nullCount": 140672,
+      "cardinality": 219222
+    },
+    {
+      "name": "RACE_OF_INVOLVED_OFFICER",
+      "fieldName": "race_of_involved_officer",
+      "dataTypeName": "text",
+      "description": "The race or ethnicity of the officer alleged to have been involved.",
+      "nullCount": 140672,
+      "cardinality": 219222
+    },
+    {
+      "name": "SEX_OF_INVOLVED_OFFICER",
+      "fieldName": "sex_of_involved_officer",
+      "dataTypeName": "text",
+      "description": "The sex of the officer alleged to have been involved.",
+      "nullCount": 140672,
+      "cardinality": 219222
+    },
+    {
+      "name": "AGE_OF_INVOLVED_OFFICER",
+      "fieldName": "age_of_involved_officer",
+      "dataTypeName": "text",
+      "description": "The age of the officer alleged to have been involved at the time of the complaint or notification.",
+      "nullCount": 140672,
+      "cardinality": 219222
+    },
+    {
+      "name": "YEARS_ON_FORCE_OF_INVOLVED_OFFICER",
+      "fieldName": "years_on_force_of_involved_officer",
+      "dataTypeName": "text",
+      "description": "The number of years on the force of the officer alleged to have been involved at the time of the complaint or notification.",
+      "nullCount": 140672,
+      "cardinality": 219222
+    },
+    {
+      "name": "COMPLAINT_HOUR",
+      "fieldName": "complaint_hour",
+      "dataTypeName": "number",
+      "description": "The hour of the day component of COMPLAINT_DATE.",
+      "nullCount": 0,
+      "cardinality": 219222
+    },
+    {
+      "name": "COMPLAINT_DAY",
+      "fieldName": "complaint_day",
+      "dataTypeName": "number",
+      "description": "The day of the week component of COMPLAINT_DATE. Sunday=1",
+      "nullCount": 0,
+      "cardinality": 219222
+    },
+    {
+      "name": "COMPLAINT_MONTH",
+      "fieldName": "complaint_month",
+      "dataTypeName": "number",
+      "description": "The month component of COMPLAINT_DATE.",
+      "nullCount": 0,
+      "cardinality": 219222
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:08.229Z"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "54v2-wiaq",
+  "name": "Cook County Municipalities, Number of Vacant Commercial Addresses, 3/2009 ACS",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 120,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1346359773,
+  "publicationDate": 1685661870,
+  "rowsUpdatedAt": 1412892480,
+  "viewLastModified": 1769547392,
+  "viewCount": 1263,
+  "downloadCount": 2902,
+  "category": "Economic Development",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Chicago Metropolitan Agency for Planning MetroPulse",
+  "attributionLink": "https://www.cmap.illinois.gov/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Municipality",
+      "fieldName": "municipality",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 119
+    },
+    {
+      "name": "Number of Vacant Commercial Addresses",
+      "fieldName": "number_of_vacant_commercial_addresses",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 89
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 120,
+      "cardinality": 0
+    },
+    {
+      "name": "Location 1",
+      "fieldName": "location_1",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:01.437Z"
+}

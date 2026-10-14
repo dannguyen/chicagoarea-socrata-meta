@@ -1,0 +1,73 @@
+{
+  "id": "9yjy-tqfj",
+  "name": "Auditor - Open Findings Recommendations Status Reports",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 36,
+  "rowCountSource": "cached",
+  "rowLabel": "Report",
+  "hasRowIdentifier": false,
+  "createdAt": 1466539658,
+  "publicationDate": 1762793537,
+  "rowsUpdatedAt": 1767038669,
+  "viewLastModified": 1769545424,
+  "viewCount": 3536,
+  "downloadCount": 2121,
+  "category": "Finance & Operations",
+  "tags": [
+    "oca",
+    "audit"
+  ],
+  "attribution": "Office of the County Auditor",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Office of the County Auditor"
+    },
+    "Metadata": {
+      "Update Frequency": "As Needed"
+    },
+    "Detailed Descriptive": {
+      "Ordinance Link": "https://library.municode.com/il/cook_county/codes/code_of_ordinances?nodeId=PTIGEOR_CH2AD_ARTIVOFEM_DIV6AU_S2-311.14AUFO",
+      "Ordinance": "Section 2-311.14",
+      "Ordinance Text": "The Auditor shall follow up on audit recommendations as practical to determine if corrective action has been taken. The Auditor shall request periodic status reports from audited agencies regarding actions taken to address reported deficiencies and audit recommendations. Failure to implement corrective actions for reported deficiencies within the agreed upon timetable shall be reported to the County Board in the Auditor's annual report."
+    },
+    "Publishing Details": {
+      "Data change frequency": "Bi-annually",
+      "Publishing frequency": "Bi-annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "Link",
+      "fieldName": "link",
+      "dataTypeName": "url",
+      "description": "link to report in PDF format",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Report Date",
+      "fieldName": "report_date",
+      "dataTypeName": "calendar_date",
+      "description": "date the report was issued",
+      "nullCount": 0,
+      "cardinality": 36
+    },
+    {
+      "name": "Fiscal Year",
+      "fieldName": "fiscal_year",
+      "dataTypeName": "number",
+      "description": "fiscal year for which the report was issued; Cook County's fiscal year is December 1 - November 30",
+      "nullCount": 0,
+      "cardinality": 36
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:53.991Z"
+}

@@ -1,0 +1,413 @@
+{
+  "id": "rhy3-4x2f",
+  "name": "Public Health Statistics - Preterm births in Chicago, by year, 1999 – 2009 - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 78,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1325262648,
+  "publicationDate": 1364487452,
+  "rowsUpdatedAt": 1364487293,
+  "viewLastModified": 1788212900,
+  "viewCount": 4044,
+  "downloadCount": 6493,
+  "category": "Health & Human Services",
+  "tags": [
+    "historical"
+  ],
+  "attribution": "Illinois Department of Public Health (IDPH)",
+  "attributionLink": null,
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "1999-2009",
+      "Data Owner": "Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "Community Area Number",
+      "fieldName": "community_area_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 78
+    },
+    {
+      "name": "Community Area Name",
+      "fieldName": "community_area_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 78
+    },
+    {
+      "name": "Pre-term Births 1999",
+      "fieldName": "births_1999",
+      "dataTypeName": "number",
+      "description": "Number of pre-term births (under 37 weeks) in 1999",
+      "nullCount": 0,
+      "cardinality": 61
+    },
+    {
+      "name": "Percent 1999",
+      "fieldName": "percent_1999",
+      "dataTypeName": "number",
+      "description": "Percent of all births that had a gestational age of under 37 weeks",
+      "nullCount": 0,
+      "cardinality": 63
+    },
+    {
+      "name": "Percent 1999 Lower CI",
+      "fieldName": "percent_1999_lower",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 61
+    },
+    {
+      "name": "Percent 1999 Upper CI",
+      "fieldName": "percent_1999_upper",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 59
+    },
+    {
+      "name": "Pre-term Births 2000",
+      "fieldName": "births_2000",
+      "dataTypeName": "number",
+      "description": "Number of pre-term births (under 37 weeks) in 2000",
+      "nullCount": 0,
+      "cardinality": 61
+    },
+    {
+      "name": "Percent 2000",
+      "fieldName": "percent_2000",
+      "dataTypeName": "number",
+      "description": "Percent of all births that had a gestational age of under 37 weeks",
+      "nullCount": 0,
+      "cardinality": 59
+    },
+    {
+      "name": "Percent 2000 Lower CI",
+      "fieldName": "percent_2000_lower_ci",
+      "dataTypeName": "number",
+      "description": "Percent lower confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 55
+    },
+    {
+      "name": "Percent 2000 Upper CI",
+      "fieldName": "percent_2000_upper_ci",
+      "dataTypeName": "number",
+      "description": "Percent upper confidence interval",
+      "nullCount": 0,
+      "cardinality": 58
+    },
+    {
+      "name": "Pre-term Births 2001",
+      "fieldName": "births_2001",
+      "dataTypeName": "number",
+      "description": "Number of pre-term births (under 37 weeks) in 2001",
+      "nullCount": 0,
+      "cardinality": 59
+    },
+    {
+      "name": "Percent 2001",
+      "fieldName": "percent_2001",
+      "dataTypeName": "number",
+      "description": "Percent of all births that had a gestational age of under 37 weeks",
+      "nullCount": 0,
+      "cardinality": 57
+    },
+    {
+      "name": "Percent 2001 Lower CI",
+      "fieldName": "percent_2001_lower_ci",
+      "dataTypeName": "number",
+      "description": "Percent lower confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 53
+    },
+    {
+      "name": "Percent 2001 Upper CI",
+      "fieldName": "percent_2001_upper_ci",
+      "dataTypeName": "number",
+      "description": "Percent upper confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 54
+    },
+    {
+      "name": "Pre-term Births 2002",
+      "fieldName": "births_2002",
+      "dataTypeName": "number",
+      "description": "Number of pre-term births (under 37 weeks) in 2002",
+      "nullCount": 0,
+      "cardinality": 62
+    },
+    {
+      "name": "Percent 2002",
+      "fieldName": "percent_2002",
+      "dataTypeName": "number",
+      "description": "Percent of all births that had a gestational age of under 37 weeks",
+      "nullCount": 0,
+      "cardinality": 59
+    },
+    {
+      "name": "Percent 2002 Lower CI",
+      "fieldName": "percent_2002_lower_ci",
+      "dataTypeName": "number",
+      "description": "Percent lower confidence interval (CI)",
+      "nullCount": 2,
+      "cardinality": 53
+    },
+    {
+      "name": "Percent 2002 Upper CI",
+      "fieldName": "percent_2002_upper_ci",
+      "dataTypeName": "number",
+      "description": "Percent upper confidence interval (CI)",
+      "nullCount": 2,
+      "cardinality": 65
+    },
+    {
+      "name": "Pre-term Births 2003",
+      "fieldName": "births_2003",
+      "dataTypeName": "number",
+      "description": "Number of pre-term births (under 37 weeks) in 2003",
+      "nullCount": 0,
+      "cardinality": 62
+    },
+    {
+      "name": "Percent 2003",
+      "fieldName": "percent_2003",
+      "dataTypeName": "number",
+      "description": "Percent of all births that had a gestational age of under 37 weeks",
+      "nullCount": 0,
+      "cardinality": 56
+    },
+    {
+      "name": "Percent 2003 Lower CI",
+      "fieldName": "percent_2003_lower_ci",
+      "dataTypeName": "number",
+      "description": "Percent lower confidence interval (CI)",
+      "nullCount": 1,
+      "cardinality": 56
+    },
+    {
+      "name": "Percent 2003 Upper CI",
+      "fieldName": "percent_2003_upper_ci",
+      "dataTypeName": "number",
+      "description": "Percent upper confidence interval (CI)",
+      "nullCount": 1,
+      "cardinality": 60
+    },
+    {
+      "name": "Pre-term Births 2004",
+      "fieldName": "births_2004",
+      "dataTypeName": "number",
+      "description": "Number of pre-term births (under 37 weeks) in 2004",
+      "nullCount": 0,
+      "cardinality": 63
+    },
+    {
+      "name": "Percent 2004",
+      "fieldName": "percent_2004",
+      "dataTypeName": "number",
+      "description": "Percent of all births that had a gestational age of under 37 weeks",
+      "nullCount": 0,
+      "cardinality": 56
+    },
+    {
+      "name": "Percent 2004 Lower CI",
+      "fieldName": "percent_2004_lower_ci",
+      "dataTypeName": "number",
+      "description": "Percent lower confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 56
+    },
+    {
+      "name": "Percent 2004 Upper CI",
+      "fieldName": "percent_2004_upper_ci",
+      "dataTypeName": "number",
+      "description": "Percent upper confidence interval",
+      "nullCount": 0,
+      "cardinality": 61
+    },
+    {
+      "name": "Pre-term Births 2005",
+      "fieldName": "births_2005",
+      "dataTypeName": "number",
+      "description": "Number of pre-term births (under 37 weeks) in 2005",
+      "nullCount": 0,
+      "cardinality": 63
+    },
+    {
+      "name": "Percent 2005",
+      "fieldName": "percent_2005",
+      "dataTypeName": "number",
+      "description": "Percent of all births that had a gestational age of under 37 weeks",
+      "nullCount": 0,
+      "cardinality": 54
+    },
+    {
+      "name": "Percent 2005 Lower CI",
+      "fieldName": "percent_2005_lower_ci",
+      "dataTypeName": "number",
+      "description": "Percent lower confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 52
+    },
+    {
+      "name": "Percent 2005 Upper CI",
+      "fieldName": "percent_2005_upper_ci",
+      "dataTypeName": "number",
+      "description": "Percent upper confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 67
+    },
+    {
+      "name": "Pre-term Births 2006",
+      "fieldName": "births_2006",
+      "dataTypeName": "number",
+      "description": "Number of pre-term births (under 37 weeks) in 2006",
+      "nullCount": 0,
+      "cardinality": 64
+    },
+    {
+      "name": "Percent 2006",
+      "fieldName": "percent_2006",
+      "dataTypeName": "number",
+      "description": "Percent of all births that had a gestational age of under 37 weeks",
+      "nullCount": 0,
+      "cardinality": 60
+    },
+    {
+      "name": "Percent 2006 Lower CI",
+      "fieldName": "percent_2006_lower_ci",
+      "dataTypeName": "number",
+      "description": "Percent lower confidence interval (CI)",
+      "nullCount": 1,
+      "cardinality": 57
+    },
+    {
+      "name": "Percent 2006 Upper CI",
+      "fieldName": "percent_2006_upper_ci",
+      "dataTypeName": "number",
+      "description": "Percent upper confidence interval (CI) ",
+      "nullCount": 1,
+      "cardinality": 59
+    },
+    {
+      "name": "Pre-term Births 2007",
+      "fieldName": "births_2007",
+      "dataTypeName": "number",
+      "description": "Number of pre-term births (under 37 weeks) in 2007",
+      "nullCount": 0,
+      "cardinality": 61
+    },
+    {
+      "name": "Percent 2007",
+      "fieldName": "percent_2007",
+      "dataTypeName": "number",
+      "description": "Percent of all births that had a gestational age of under 37 weeks",
+      "nullCount": 0,
+      "cardinality": 57
+    },
+    {
+      "name": "Percent 2007 Lower CI",
+      "fieldName": "percent_2007_lower_ci",
+      "dataTypeName": "number",
+      "description": "Percent lower confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 52
+    },
+    {
+      "name": "Percent 2007 Upper CI",
+      "fieldName": "percent_2007_upper_ci",
+      "dataTypeName": "number",
+      "description": "Percent upper confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 57
+    },
+    {
+      "name": "Pre-term Births 2008",
+      "fieldName": "births_2008",
+      "dataTypeName": "number",
+      "description": "Number of pre-term births (under 37 weeks) in 2008",
+      "nullCount": 0,
+      "cardinality": 61
+    },
+    {
+      "name": "Percent 2008",
+      "fieldName": "percent_2008",
+      "dataTypeName": "number",
+      "description": "Percent of all births that had a gestational age of under 37 weeks",
+      "nullCount": 0,
+      "cardinality": 57
+    },
+    {
+      "name": "Percent 2008 Lower CI",
+      "fieldName": "percent_2008_lower_ci",
+      "dataTypeName": "number",
+      "description": "Percent lower confidence interval (CI)",
+      "nullCount": 2,
+      "cardinality": 53
+    },
+    {
+      "name": "Percent 2008 Upper CI",
+      "fieldName": "percent_2008_upper_ci",
+      "dataTypeName": "number",
+      "description": "Percent upper confidence interval (CI)",
+      "nullCount": 2,
+      "cardinality": 59
+    },
+    {
+      "name": "Pre-term Births 2009",
+      "fieldName": "births_2009",
+      "dataTypeName": "number",
+      "description": "Number of pre-term births (under 37 weeks) in 2009",
+      "nullCount": 0,
+      "cardinality": 56
+    },
+    {
+      "name": "Percent 2009",
+      "fieldName": "percent_2009",
+      "dataTypeName": "number",
+      "description": "Percent of all births that had a gestational age of under 37 weeks",
+      "nullCount": 0,
+      "cardinality": 58
+    },
+    {
+      "name": "Percent 2009 Lower CI",
+      "fieldName": "percent_2009_lower_ci",
+      "dataTypeName": "number",
+      "description": "Percent lower confidence interval (CI)",
+      "nullCount": 2,
+      "cardinality": 49
+    },
+    {
+      "name": "Percent 2009 Upper CI",
+      "fieldName": "percent_2009_upper_ci",
+      "dataTypeName": "number",
+      "description": "Percent upper confidence interval (CI)",
+      "nullCount": 2,
+      "cardinality": 57
+    },
+    {
+      "name": "Warning",
+      "fieldName": "warning",
+      "dataTypeName": "text",
+      "description": "Interpret differences between percents that are based on a small number of births with caution",
+      "nullCount": 55,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:06.366Z"
+}

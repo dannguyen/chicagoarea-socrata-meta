@@ -1,0 +1,76 @@
+{
+  "id": "72qm-3bwf",
+  "name": "FOIA Request Log - City Clerk",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 5024,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1272652344,
+  "publicationDate": 1504118096,
+  "rowsUpdatedAt": 1787299649,
+  "viewLastModified": 1504118096,
+  "viewCount": 12902,
+  "downloadCount": 262486,
+  "category": "FOIA",
+  "tags": [],
+  "attribution": "Office of the Chicago City Clerk",
+  "attributionLink": "http://www.chicityclerk.com",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "May 2010 - present",
+      "Frequency": "Data is updated as needed",
+      "Data Owner": "Office of the City Clerk"
+    }
+  },
+  "columns": [
+    {
+      "name": "REQUESTOR NAME",
+      "fieldName": "requestor_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 5024
+    },
+    {
+      "name": "ORGANIZATION",
+      "fieldName": "organization",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2107,
+      "cardinality": 5024
+    },
+    {
+      "name": "DESCRIPTION OF REQUEST",
+      "fieldName": "description_of_request",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5024
+    },
+    {
+      "name": "DATE RECEIVED",
+      "fieldName": "date_received",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 5024
+    },
+    {
+      "name": "DUE DATE",
+      "fieldName": "due_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 5024
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:38:04.613Z"
+}

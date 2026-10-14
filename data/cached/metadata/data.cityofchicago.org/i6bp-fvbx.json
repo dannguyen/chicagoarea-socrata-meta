@@ -1,0 +1,95 @@
+{
+  "id": "i6bp-fvbx",
+  "name": "Chicago Street Names",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2582,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1292982172,
+  "publicationDate": 1338416983,
+  "rowsUpdatedAt": 1338416980,
+  "viewLastModified": 1338416983,
+  "viewCount": 377172,
+  "downloadCount": 23406,
+  "category": "Transportation",
+  "tags": [
+    "streets",
+    "gis"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "",
+      "Frequency": "",
+      "Data Owner": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "Full Street Name",
+      "fieldName": "full_street_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2582
+    },
+    {
+      "name": "Direction",
+      "fieldName": "direction",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Street ",
+      "fieldName": "street",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1666
+    },
+    {
+      "name": "Suffix",
+      "fieldName": "suffix",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 23
+    },
+    {
+      "name": "Suffix Direction",
+      "fieldName": "suffix_direction",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "Min Address",
+      "fieldName": "min_address",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 689
+    },
+    {
+      "name": "Max Address",
+      "fieldName": "max_address",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 602
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:26:19.792Z"
+}

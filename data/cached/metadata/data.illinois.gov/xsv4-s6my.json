@@ -1,0 +1,120 @@
+{
+  "id": "xsv4-s6my",
+  "name": "Active Lobbying Entities",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 12496,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1758207862,
+  "publicationDate": 1758745184,
+  "rowsUpdatedAt": 1791981864,
+  "viewLastModified": 1758745184,
+  "viewCount": 13446,
+  "downloadCount": 178,
+  "category": "Government and Public Employees",
+  "tags": [
+    "lobbyist"
+  ],
+  "attribution": "Illinois Secretary of State",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Illinois Secretary of State"
+    },
+    "Data Management": {
+      "Maintainer": "Illinois Secretary of State",
+      "Maintainer Email": "publicdata@ilsos.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "ENT_REG_YEAR",
+      "fieldName": "ent_reg_year",
+      "dataTypeName": "text",
+      "description": "Year of registration",
+      "nullCount": 0,
+      "cardinality": 12496
+    },
+    {
+      "name": "ENT_ID",
+      "fieldName": "ent_id",
+      "dataTypeName": "text",
+      "description": "Entity ID",
+      "nullCount": 0,
+      "cardinality": 12496
+    },
+    {
+      "name": "ENT_NAME",
+      "fieldName": "ent_name",
+      "dataTypeName": "text",
+      "description": "Entity name",
+      "nullCount": 0,
+      "cardinality": 12496
+    },
+    {
+      "name": "ENT_ADDR1",
+      "fieldName": "ent_addr1",
+      "dataTypeName": "text",
+      "description": "Entity address",
+      "nullCount": 0,
+      "cardinality": 12496
+    },
+    {
+      "name": "ENT_ADDR2",
+      "fieldName": "ent_addr2",
+      "dataTypeName": "text",
+      "description": "Entity address line 2",
+      "nullCount": 8149,
+      "cardinality": 12496
+    },
+    {
+      "name": "ENT_CITY",
+      "fieldName": "ent_city",
+      "dataTypeName": "text",
+      "description": "Entity city",
+      "nullCount": 0,
+      "cardinality": 12496
+    },
+    {
+      "name": "ENT_ST_ABBR",
+      "fieldName": "ent_st_abbr",
+      "dataTypeName": "text",
+      "description": "Entity state",
+      "nullCount": 0,
+      "cardinality": 12496
+    },
+    {
+      "name": "ENT_ZIP",
+      "fieldName": "ent_zip",
+      "dataTypeName": "text",
+      "description": "Entity zip",
+      "nullCount": 0,
+      "cardinality": 12496
+    },
+    {
+      "name": "ENT_PHONE",
+      "fieldName": "ent_phone",
+      "dataTypeName": "text",
+      "description": "Entity phone",
+      "nullCount": 0,
+      "cardinality": 12496
+    },
+    {
+      "name": "ENT_EXT",
+      "fieldName": "ent_ext",
+      "dataTypeName": "text",
+      "description": "Entity phone extension",
+      "nullCount": 11951,
+      "cardinality": 12496
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:29.532Z"
+}

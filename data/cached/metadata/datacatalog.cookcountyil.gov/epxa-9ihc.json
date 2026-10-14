@@ -1,0 +1,88 @@
+{
+  "id": "epxa-9ihc",
+  "name": "Cook County Recorder of Deeds - Foreclosures - 2011 Complete!",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 47069,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1335364085,
+  "publicationDate": 1685492970,
+  "rowsUpdatedAt": 1412896373,
+  "viewLastModified": 1769548148,
+  "viewCount": 3079,
+  "downloadCount": 8881,
+  "category": "Property & Taxation",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Recorder of Deeds",
+  "attributionLink": "http://cookrecorder.com/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Pin",
+      "fieldName": "pin",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 45895
+    },
+    {
+      "name": "Doc Number",
+      "fieldName": "doc_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 39398
+    },
+    {
+      "name": "Doc Type",
+      "fieldName": "doc_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Recorded Date",
+      "fieldName": "recorded_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 247
+    },
+    {
+      "name": "Execution Date",
+      "fieldName": "execution_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 1816,
+      "cardinality": 603
+    },
+    {
+      "name": "Consideration Amount",
+      "fieldName": "consideration_amount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 46915,
+      "cardinality": 19
+    },
+    {
+      "name": "Location 1",
+      "fieldName": "location_1",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:54.468Z"
+}

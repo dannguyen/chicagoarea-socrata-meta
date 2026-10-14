@@ -1,0 +1,64 @@
+{
+  "id": "z5gk-rh7u",
+  "name": "Treasurer - 2011 Scavenger Sale No-bid PINs",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 158244,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1331911113,
+  "publicationDate": 1412896622,
+  "rowsUpdatedAt": 1412896610,
+  "viewLastModified": 1769546222,
+  "viewCount": 4522,
+  "downloadCount": 2726,
+  "category": "Property & Taxation",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Treasurer's Office",
+  "attributionLink": "http://www.cookcountytreasurer.com/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "PIN",
+      "fieldName": "pin",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 17855
+    },
+    {
+      "name": "Tax Type",
+      "fieldName": "tax_type",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Tax Year",
+      "fieldName": "tax_year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 19
+    },
+    {
+      "name": "Zip Code",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 163
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:53.255Z"
+}

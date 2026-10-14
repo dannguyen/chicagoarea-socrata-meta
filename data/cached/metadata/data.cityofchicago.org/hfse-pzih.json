@@ -1,0 +1,73 @@
+{
+  "id": "hfse-pzih",
+  "name": "Emergency Temporary Shelters - Limited Stay Exits - By Shelter and Date - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2242,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": true,
+  "createdAt": 1715794171,
+  "publicationDate": 1715794356,
+  "rowsUpdatedAt": 1741945057,
+  "viewLastModified": 1762371036,
+  "viewCount": 628,
+  "downloadCount": 843,
+  "category": "Health & Human Services",
+  "tags": [
+    "migrants",
+    "new arrivals",
+    "temporary shelters",
+    "so2024-0008386",
+    "historical"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "3/17/2024 - 12/29/2024",
+      "Data Owner": "Department of Family and Support Services"
+    }
+  },
+  "columns": [
+    {
+      "name": "Emergency Temporary Shelter",
+      "fieldName": "emergency_temporary_shelter",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 25
+    },
+    {
+      "name": "Date",
+      "fieldName": "date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 288
+    },
+    {
+      "name": "Count of Exits",
+      "fieldName": "count_of_exits",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 33
+    },
+    {
+      "name": "Record ID",
+      "fieldName": "record_id",
+      "dataTypeName": "text",
+      "description": "A unique ID for the record.",
+      "nullCount": 0,
+      "cardinality": 2242
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:23.248Z"
+}

@@ -1,0 +1,80 @@
+{
+  "id": "jygh-f4sn",
+  "name": "State's Attorney Felony Cases - Initiation Results by Offense Type and Defendant Gender",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 3445,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1506528114,
+  "publicationDate": 1506535288,
+  "rowsUpdatedAt": 1506535220,
+  "viewLastModified": 1769544041,
+  "viewCount": 823,
+  "downloadCount": 2444,
+  "category": "Legal & Judicial",
+  "tags": [
+    "state's attorney baseline data report",
+    "inactive"
+  ],
+  "attribution": "Cook County State's Attorney Office",
+  "attributionLink": "https://www.cookcountystatesattorney.org/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County State's Attorney Office"
+    },
+    "Publishing Details": {
+      "Publishing frequency": "Annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "YEAR",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": "The year in which the action (initiation, disposition, or sentencing occurred. ",
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "INITIATION RESULT",
+      "fieldName": "initiation_result",
+      "dataTypeName": "text",
+      "description": "How defendants are charged with felony cases. This may occur through a Felony Review, a Grand Jury Indictment, or Direct Filing by Law Enforcement",
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "OFFENSE TYPE",
+      "fieldName": "offense_type",
+      "dataTypeName": "text",
+      "description": "Type of offense for the “Topline” charge. Many cases involve multiple charges stemming from the same incident. On a charging document, these various charges are called “counts.” This data report is based on Count 1 for each case, which is generally the most serious charge in a given case, and is commonly referred to as the “topline charge.” ",
+      "nullCount": 0,
+      "cardinality": 86
+    },
+    {
+      "name": "GENDER",
+      "fieldName": "gender",
+      "dataTypeName": "text",
+      "description": "Gender of the Defendant",
+      "nullCount": 515,
+      "cardinality": 5
+    },
+    {
+      "name": "DEFENDANT COUNT",
+      "fieldName": "defendant_count",
+      "dataTypeName": "number",
+      "description": "Count of defendants",
+      "nullCount": 0,
+      "cardinality": 306
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:05.880Z"
+}

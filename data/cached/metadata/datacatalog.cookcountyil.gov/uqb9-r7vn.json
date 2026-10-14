@@ -1,0 +1,160 @@
+{
+  "id": "uqb9-r7vn",
+  "name": "Assessor [Archived 05-18-2022] - Residential Assessments",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 7884847,
+  "rowCountSource": "cached",
+  "rowLabel": "Property Index Number",
+  "hasRowIdentifier": false,
+  "createdAt": 1581108482,
+  "publicationDate": 1587410763,
+  "rowsUpdatedAt": 1587410762,
+  "viewLastModified": 1769544349,
+  "viewCount": 8638,
+  "downloadCount": 3243,
+  "category": "Property & Taxation",
+  "tags": [
+    "cook county assessor",
+    "property tax",
+    "archive"
+  ],
+  "attribution": "Cook County Assessor",
+  "attributionLink": "https://www.cookcountyassessor.com/",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Assessor"
+    },
+    "Metadata": {
+      "Update Frequency": "Yearly"
+    },
+    "Detailed Descriptive": {
+      "Geographic coverage": "Countywide",
+      "Geographic unit": "Parcel"
+    },
+    "Publishing Details": {
+      "Publishing frequency": "Annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "PIN",
+      "fieldName": "pin",
+      "dataTypeName": "text",
+      "description": "14 digit property index number",
+      "nullCount": 0,
+      "cardinality": 1595459
+    },
+    {
+      "name": "CLASS",
+      "fieldName": "class",
+      "dataTypeName": "text",
+      "description": "property class",
+      "nullCount": 0,
+      "cardinality": 18
+    },
+    {
+      "name": "NBHD",
+      "fieldName": "nbhd",
+      "dataTypeName": "text",
+      "description": "neighborhood code",
+      "nullCount": 0,
+      "cardinality": 199
+    },
+    {
+      "name": "TOWN",
+      "fieldName": "town",
+      "dataTypeName": "text",
+      "description": "township code",
+      "nullCount": 0,
+      "cardinality": 38
+    },
+    {
+      "name": "TOWN NAME",
+      "fieldName": "town_name",
+      "dataTypeName": "text",
+      "description": "township name",
+      "nullCount": 0,
+      "cardinality": 38
+    },
+    {
+      "name": "YEAR",
+      "fieldName": "year",
+      "dataTypeName": "text",
+      "description": "assessment year",
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "MODEL RESULT",
+      "fieldName": "model_result",
+      "dataTypeName": "text",
+      "description": "initial value produced by modeling process",
+      "nullCount": 7475032,
+      "cardinality": 226918
+    },
+    {
+      "name": "PIPELINE RESULT",
+      "fieldName": "pipeline_result",
+      "dataTypeName": "text",
+      "description": "initial value after adjustments during residential valuation process",
+      "nullCount": 7475032,
+      "cardinality": 248332
+    },
+    {
+      "name": "FIRST PASS",
+      "fieldName": "first_pass",
+      "dataTypeName": "text",
+      "description": "valuation after desk review and ",
+      "nullCount": 0,
+      "cardinality": 157298
+    },
+    {
+      "name": "CERTIFIED",
+      "fieldName": "certified",
+      "dataTypeName": "text",
+      "description": "assessor certified values",
+      "nullCount": 0,
+      "cardinality": 152972
+    },
+    {
+      "name": "APPEALED",
+      "fieldName": "appealed",
+      "dataTypeName": "checkbox",
+      "description": "yes/no appeal indicator",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "NUM REVIEWED",
+      "fieldName": "num_reviewed",
+      "dataTypeName": "text",
+      "description": "number of appeal reviews",
+      "nullCount": 6232931,
+      "cardinality": 4
+    },
+    {
+      "name": "CHANGED",
+      "fieldName": "changed",
+      "dataTypeName": "text",
+      "description": "ultimate outcome of appeal process",
+      "nullCount": 6232931,
+      "cardinality": 2
+    },
+    {
+      "name": "BOR RESULT",
+      "fieldName": "bor_result",
+      "dataTypeName": "text",
+      "description": "board of review certified value",
+      "nullCount": 787345,
+      "cardinality": 142109
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:51.124Z"
+}

@@ -1,0 +1,104 @@
+{
+  "id": "f9wk-2wb9",
+  "name": "Medical Examiner Indigent Cremations",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 3742,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1417647524,
+  "publicationDate": 1524851377,
+  "rowsUpdatedAt": 1791230668,
+  "viewLastModified": 1791230667,
+  "viewCount": 39653,
+  "downloadCount": 128849,
+  "category": "Health & Human Services",
+  "tags": [
+    "cremation",
+    "indigent"
+  ],
+  "attribution": "Cook County Medical Examiner",
+  "attributionLink": "http://www.cookcountyil.gov/medical-examiner/",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Medical Examiner"
+    },
+    "Metadata": {
+      "Update Frequency": "As Needed"
+    },
+    "Detailed Descriptive": {
+      "Ordinance Link": "https://www.municode.com/library/il/cook_county/codes/code_of_ordinances?nodeId=PTIGEOR_CH38HEHUSE_ARTVIMEEX_DIV2DIBUCRINUNBO_S38-156DIBUCR",
+      "Ordinance": "Sec. 38-156"
+    },
+    "Publishing Details": {
+      "Data change frequency": "As needed",
+      "Publishing frequency": "As needed"
+    }
+  },
+  "columns": [
+    {
+      "name": "Case",
+      "fieldName": "case",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3742
+    },
+    {
+      "name": "Name",
+      "fieldName": "name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3742
+    },
+    {
+      "name": "Age",
+      "fieldName": "age",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 25,
+      "cardinality": 3742
+    },
+    {
+      "name": "Sex",
+      "fieldName": "sex",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3742
+    },
+    {
+      "name": "Race",
+      "fieldName": "race",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3742
+    },
+    {
+      "name": "Date of Death",
+      "fieldName": "date_of_death",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3742
+    },
+    {
+      "name": "Cremation Date",
+      "fieldName": "cremation_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3742
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:46.182Z"
+}

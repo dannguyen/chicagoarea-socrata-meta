@@ -1,0 +1,742 @@
+{
+  "id": "k9fr-64zp",
+  "name": "Bilingual Needs and Bilingual Pay Survey 2015 to 2018",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 303,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709229594,
+  "publicationDate": 1709233068,
+  "rowsUpdatedAt": 1709233048,
+  "viewLastModified": 1736796045,
+  "viewCount": 29,
+  "downloadCount": 76,
+  "category": "Government and Public Employees",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Central Management Services"
+    },
+    "Data Management": {
+      "Maintainer": "State Data Practice",
+      "Maintainer Email": "doit.sdp.support@illinois.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "_id",
+      "fieldName": "_id_",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 303
+    },
+    {
+      "name": "RespondentID",
+      "fieldName": "respondentid",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 303
+    },
+    {
+      "name": "CollectorID",
+      "fieldName": "collectorid",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "StartDate",
+      "fieldName": "startdate",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 303
+    },
+    {
+      "name": "EndDate",
+      "fieldName": "enddate",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 303
+    },
+    {
+      "name": "Agency",
+      "fieldName": "agency",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 60
+    },
+    {
+      "name": "Agency_Rep",
+      "fieldName": "agency_rep",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 142
+    },
+    {
+      "name": "Phone_Num",
+      "fieldName": "phone_num",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 146
+    },
+    {
+      "name": "Email",
+      "fieldName": "email",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 147
+    },
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "1a_NumTranslate",
+      "fieldName": "_1a_numtranslate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 146
+    },
+    {
+      "name": "1b_HowTracked",
+      "fieldName": "_1b_howtracked",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 55,
+      "cardinality": 192
+    },
+    {
+      "name": "1c_time_15",
+      "fieldName": "_1c_time_15",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 52
+    },
+    {
+      "name": "1c_time_60",
+      "fieldName": "_1c_time_60",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 47
+    },
+    {
+      "name": "1c_time_half",
+      "fieldName": "_1c_time_half",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 26
+    },
+    {
+      "name": "1c_time_more",
+      "fieldName": "_1c_time_more",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "1d_indepth",
+      "fieldName": "_1d_indepth",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "1e_MasterContract",
+      "fieldName": "_1e_mastercontract",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 2
+    },
+    {
+      "name": "1f_MasterUseInstances",
+      "fieldName": "_1f_masteruseinstances",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 174,
+      "cardinality": 107
+    },
+    {
+      "name": "1g_OtherServices",
+      "fieldName": "_1g_otherservices",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 171,
+      "cardinality": 103
+    },
+    {
+      "name": "2_LangAssessmentConducted",
+      "fieldName": "_2_langassessmentconducted",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 2
+    },
+    {
+      "name": "3_NumBilingual",
+      "fieldName": "_3_numbilingual",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 102,
+      "cardinality": 85
+    },
+    {
+      "name": "3a_CensusUsed",
+      "fieldName": "_3a_censusused",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 97,
+      "cardinality": 2
+    },
+    {
+      "name": "3b_IntakeMeasured",
+      "fieldName": "_3b_intakemeasured",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 97,
+      "cardinality": 2
+    },
+    {
+      "name": "3c_ConsentDecreeUsed",
+      "fieldName": "_3c_consentdecreeused",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 97,
+      "cardinality": 2
+    },
+    {
+      "name": "3d_TelephoneInterpreterUsed",
+      "fieldName": "_3d_telephoneinterpreterused",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 97,
+      "cardinality": 2
+    },
+    {
+      "name": "4a_BilingualPaySupplement",
+      "fieldName": "_4a_bilingualpaysupplement",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 52
+    },
+    {
+      "name": "4b_UseBilingual",
+      "fieldName": "_4b_usebilingual",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 51
+    },
+    {
+      "name": "4c_UseBilingualDaily",
+      "fieldName": "_4c_usebilingualdaily",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 43
+    },
+    {
+      "name": "4c_UseBilingualWeekly",
+      "fieldName": "_4c_usebilingualweekly",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 36
+    },
+    {
+      "name": "4c_UseBilingualMonthly",
+      "fieldName": "_4c_usebilingualmonthly",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 28
+    },
+    {
+      "name": "4d_UseBilingualYearly",
+      "fieldName": "_4d_usebilingualyearly",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 23
+    },
+    {
+      "name": "5a_UnpaidBilingual",
+      "fieldName": "_5a_unpaidbilingual",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 2
+    },
+    {
+      "name": "5a_UnpaidBilingualDetail",
+      "fieldName": "_5a_unpaidbilingualdetail",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 200,
+      "cardinality": 83
+    },
+    {
+      "name": "5b_TempBilingualPay",
+      "fieldName": "_5b_tempbilingualpay",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 2
+    },
+    {
+      "name": "5b_TempBilingualPayDetail",
+      "fieldName": "_5b_tempbilingualpaydetail",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 232,
+      "cardinality": 44
+    },
+    {
+      "name": "6a_LangOptionNonVacant",
+      "fieldName": "_6a_langoptionnonvacant",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 46
+    },
+    {
+      "name": "6b_LangOptionVacant",
+      "fieldName": "_6b_langoptionvacant",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 41
+    },
+    {
+      "name": "6c_LangOptionNonCode",
+      "fieldName": "_6c_langoptionnoncode",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 2
+    },
+    {
+      "name": "6d_NumLangOptionNonCode",
+      "fieldName": "_6d_numlangoptionnoncode",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "7a_LangOptionVacancies",
+      "fieldName": "_7a_langoptionvacancies",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 32
+    },
+    {
+      "name": "7b_LangOptionVacanciesFilled",
+      "fieldName": "_7b_langoptionvacanciesfilled",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 27
+    },
+    {
+      "name": "8a_LangOptionVacated",
+      "fieldName": "_8a_langoptionvacated",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 27
+    },
+    {
+      "name": "8b_LangOptionRevisedDelete",
+      "fieldName": "_8b_langoptionreviseddelete",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "8c_LangOptionRevisedWhy",
+      "fieldName": "_8c_langoptionrevisedwhy",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 216,
+      "cardinality": 48
+    },
+    {
+      "name": "8d_LangOptionRevisedAdd",
+      "fieldName": "_8d_langoptionrevisedadd",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "9_BilingualPayRegion1",
+      "fieldName": "_9_bilingualpayregion1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 97,
+      "cardinality": 37
+    },
+    {
+      "name": "9_BilingualPayRegion2",
+      "fieldName": "_9_bilingualpayregion2",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 97,
+      "cardinality": 10
+    },
+    {
+      "name": "9_BilingualPayRegion3",
+      "fieldName": "_9_bilingualpayregion3",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 97,
+      "cardinality": 13
+    },
+    {
+      "name": "9_BilingualPayRegion4",
+      "fieldName": "_9_bilingualpayregion4",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 97,
+      "cardinality": 5
+    },
+    {
+      "name": "9_BilingualPayRegion5",
+      "fieldName": "_9_bilingualpayregion5",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 97,
+      "cardinality": 9
+    },
+    {
+      "name": "9_BilingualPayRegion6",
+      "fieldName": "_9_bilingualpayregion6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 97,
+      "cardinality": 8
+    },
+    {
+      "name": "9_BilingualPayRegion7",
+      "fieldName": "_9_bilingualpayregion7",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 97,
+      "cardinality": 19
+    },
+    {
+      "name": "9_BilingualPayRegion8",
+      "fieldName": "_9_bilingualpayregion8",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 97,
+      "cardinality": 4
+    },
+    {
+      "name": "9_BilingualPayRegion9",
+      "fieldName": "_9_bilingualpayregion9",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 97,
+      "cardinality": 5
+    },
+    {
+      "name": "9_BilingualPayRegion10",
+      "fieldName": "_9_bilingualpayregion10",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 97,
+      "cardinality": 5
+    },
+    {
+      "name": "10_NumHispanicLatino",
+      "fieldName": "_10_numhispaniclatino",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "11_NumNonHispanicLatino",
+      "fieldName": "_11_numnonhispaniclatino",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24
+    },
+    {
+      "name": "12_Signing",
+      "fieldName": "_12_signing",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 13
+    },
+    {
+      "name": "13_Braille",
+      "fieldName": "_13_braille",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "14_BilingualStaff",
+      "fieldName": "_14_bilingualstaff",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 2
+    },
+    {
+      "name": "14a_PositionMethod",
+      "fieldName": "_14a_positionmethod",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 99,
+      "cardinality": 171
+    },
+    {
+      "name": "14b_SpanishPositionMethod",
+      "fieldName": "_14b_spanishpositionmethod",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 103,
+      "cardinality": 169
+    },
+    {
+      "name": "14c_NoStaffMethod",
+      "fieldName": "_14c_nostaffmethod",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 221,
+      "cardinality": 78
+    },
+    {
+      "name": "15_SSAAcompliant",
+      "fieldName": "_15_ssaacompliant",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 97,
+      "cardinality": 2
+    },
+    {
+      "name": "15a_NumBiligualUnion2007",
+      "fieldName": "_15a_numbiligualunion2007",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 97,
+      "cardinality": 25
+    },
+    {
+      "name": "15b_NumBilingualUnionNow",
+      "fieldName": "_15b_numbilingualunionnow",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 97,
+      "cardinality": 43
+    },
+    {
+      "name": "16_EnglishWebsite",
+      "fieldName": "_16_englishwebsite",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 150,
+      "cardinality": 73
+    },
+    {
+      "name": "17_TranslatedWebsite",
+      "fieldName": "_17_translatedwebsite",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 200,
+      "cardinality": 3
+    },
+    {
+      "name": "17_TranslatedWebsiteLang",
+      "fieldName": "_17_translatedwebsitelang",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 280,
+      "cardinality": 23
+    },
+    {
+      "name": "18_Budget",
+      "fieldName": "_18_budget",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 225,
+      "cardinality": 72
+    },
+    {
+      "name": "19_PublicContact",
+      "fieldName": "_19_publiccontact",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 200,
+      "cardinality": 2
+    },
+    {
+      "name": "20_LanguageFivePercent",
+      "fieldName": "_20_languagefivepercent",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 210,
+      "cardinality": 2
+    },
+    {
+      "name": "21_FacilityLanguagePercent",
+      "fieldName": "_21_facilitylanguagepercent",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 254,
+      "cardinality": 45
+    },
+    {
+      "name": "22_FacilityStaffPercent",
+      "fieldName": "_22_facilitystaffpercent",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 258,
+      "cardinality": 39
+    },
+    {
+      "name": "23_Notices",
+      "fieldName": "_23_notices",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 241,
+      "cardinality": 6
+    },
+    {
+      "name": "23_NoticesOther",
+      "fieldName": "_23_noticesother",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 293,
+      "cardinality": 10
+    },
+    {
+      "name": "24_Languages",
+      "fieldName": "_24_languages",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 241,
+      "cardinality": 4
+    },
+    {
+      "name": "24_LanguagesOther",
+      "fieldName": "_24_languagesother",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 295,
+      "cardinality": 6
+    },
+    {
+      "name": "25_LangNotAvailable",
+      "fieldName": "_25_langnotavailable",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 258,
+      "cardinality": 28
+    },
+    {
+      "name": "26_LangProvidedOther",
+      "fieldName": "_26_langprovidedother",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 257,
+      "cardinality": 29
+    },
+    {
+      "name": "27_AssessmentLike",
+      "fieldName": "_27_assessmentlike",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 220,
+      "cardinality": 74
+    },
+    {
+      "name": "28_Certification",
+      "fieldName": "_28_certification",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 2
+    },
+    {
+      "name": "9_OldBilingualPayRegion",
+      "fieldName": "_9_oldbilingualpayregion",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 215,
+      "cardinality": 57
+    },
+    {
+      "name": "29_Recruit",
+      "fieldName": "_29_recruit",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 259,
+      "cardinality": 2
+    },
+    {
+      "name": "29a_LiaisonName",
+      "fieldName": "_29a_liaisonname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 284,
+      "cardinality": 18
+    },
+    {
+      "name": "1h_MasterUseFullCount",
+      "fieldName": "_1h_masterusefullcount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 61
+    },
+    {
+      "name": "6a_LangOption",
+      "fieldName": "_6a_langoption",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 19
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:42.100Z"
+}

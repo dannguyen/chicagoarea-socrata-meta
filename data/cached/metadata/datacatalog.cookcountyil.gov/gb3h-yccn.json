@@ -1,0 +1,96 @@
+{
+  "id": "gb3h-yccn",
+  "name": "Environmental Control--2010 Energy Audits",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 249,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1316526198,
+  "publicationDate": 1414427977,
+  "rowsUpdatedAt": 1414427958,
+  "viewLastModified": 1769544067,
+  "viewCount": 967,
+  "downloadCount": 2489,
+  "category": "Environment",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Environmental Control",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Category",
+      "fieldName": "category",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Activity",
+      "fieldName": "activity",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Sub category",
+      "fieldName": "sub_category",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Dollar spent",
+      "fieldName": "dollar_spent",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 102,
+      "cardinality": 52
+    },
+    {
+      "name": "Street Address",
+      "fieldName": "street_address",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip code",
+      "fieldName": "zip_code",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Sub recipient",
+      "fieldName": "sub_recipient",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Location 1",
+      "fieldName": "location_1",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:04.183Z"
+}

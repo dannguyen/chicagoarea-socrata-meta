@@ -1,0 +1,146 @@
+{
+  "id": "k7sw-w3b8",
+  "name": "Suburban Cook Election Precincts - Current",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1430,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1650649168,
+  "publicationDate": 1650649612,
+  "rowsUpdatedAt": 1712732548,
+  "viewLastModified": 1769546584,
+  "viewCount": 14093,
+  "downloadCount": 1653,
+  "category": "Boundaries & Districts",
+  "tags": [],
+  "attribution": "Cook County Clerk",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County GIS"
+    },
+    "Detailed Descriptive": {
+      "Geographic coverage": "Cook County without City of Chicago",
+      "Geographic unit": "Other"
+    },
+    "Publishing Details": {
+      "Data change frequency": "As needed",
+      "Publishing frequency": "As needed"
+    }
+  },
+  "columns": [
+    {
+      "name": "name",
+      "fieldName": "name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1430
+    },
+    {
+      "name": "precinctid",
+      "fieldName": "precinctid",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1430
+    },
+    {
+      "name": "Township_Name",
+      "fieldName": "township_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 30
+    },
+    {
+      "name": "Precinct_Number",
+      "fieldName": "precinct_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 149
+    },
+    {
+      "name": "Township_Number",
+      "fieldName": "township_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 30
+    },
+    {
+      "name": "STATEFP",
+      "fieldName": "statefp",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "COUNTYFP",
+      "fieldName": "countyfp",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Shape.STLength()",
+      "fieldName": "shape_stlength",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1430
+    },
+    {
+      "name": "Shape.STArea()",
+      "fieldName": "shape_starea",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1430
+    },
+    {
+      "name": "GlobalID",
+      "fieldName": "globalid",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1430
+    },
+    {
+      "name": "OBJECTID",
+      "fieldName": "objectid",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1430
+    },
+    {
+      "name": "last_edited_date",
+      "fieldName": "last_edited_date",
+      "dataTypeName": "date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:50.139Z"
+}

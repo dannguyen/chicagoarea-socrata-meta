@@ -1,0 +1,75 @@
+{
+  "id": "sbt5-2ec8",
+  "name": "Performance Metrics - Transportation - Pothole Repair",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 149,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1317050772,
+  "publicationDate": 1405010108,
+  "rowsUpdatedAt": 1405010088,
+  "viewLastModified": 1405010108,
+  "viewCount": 3919,
+  "downloadCount": 4422,
+  "category": "Administration & Finance",
+  "tags": [
+    "service requests",
+    "pothole",
+    "performance metrics",
+    "streets",
+    "pavement"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "June 2011 to present",
+      "Frequency": "Data is updated weekly",
+      "Data Owner": "Transportation"
+    }
+  },
+  "columns": [
+    {
+      "name": "Week",
+      "fieldName": "week",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 149
+    },
+    {
+      "name": "Average Days to Complete Pothole Repair Requests",
+      "fieldName": "average_days_to_complete_pothole_repair_requests",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 143
+    },
+    {
+      "name": "Total Completed Requests",
+      "fieldName": "total_completed_requests",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 147
+    },
+    {
+      "name": "Target Response Time (Days)",
+      "fieldName": "target_response_time_days_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:06.463Z"
+}

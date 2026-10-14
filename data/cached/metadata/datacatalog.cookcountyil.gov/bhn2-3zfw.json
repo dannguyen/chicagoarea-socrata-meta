@@ -1,0 +1,123 @@
+{
+  "id": "bhn2-3zfw",
+  "name": "ParkPoint",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2170,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1396464003,
+  "publicationDate": null,
+  "rowsUpdatedAt": 1396464003,
+  "viewLastModified": 1769547079,
+  "viewCount": 697,
+  "downloadCount": 6556,
+  "category": "Recreation",
+  "tags": [
+    "park",
+    "cook county",
+    "gis",
+    "places of interest"
+  ],
+  "attribution": "Cook County GIS Department",
+  "attributionLink": "http://www.co.cook.il.us/portal/server.pt/community/geographic_information_systems/315/geographic_information_systems/463",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "point",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2163
+    },
+    {
+      "name": "CFNAME",
+      "fieldName": "cfname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1792
+    },
+    {
+      "name": "CFTYPE",
+      "fieldName": "cftype",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "CFSUBTYPE",
+      "fieldName": "cfsubtype",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "ADDRESS",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1140
+    },
+    {
+      "name": "GNISCODE",
+      "fieldName": "gniscode",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1237
+    },
+    {
+      "name": "COMMENT",
+      "fieldName": "comment",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 40
+    },
+    {
+      "name": "SOURCE",
+      "fieldName": "source",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 30
+    },
+    {
+      "name": "Jurisdicti",
+      "fieldName": "jurisdicti",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 326
+    },
+    {
+      "name": "Community",
+      "fieldName": "community",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 135
+    },
+    {
+      "name": "MERGEID",
+      "fieldName": "mergeid",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2170
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:07.865Z"
+}

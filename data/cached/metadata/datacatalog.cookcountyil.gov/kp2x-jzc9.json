@@ -1,0 +1,48 @@
+{
+  "id": "kp2x-jzc9",
+  "name": "Building and Zoning - Certificate Of Occupancy Issued - Fiscal Year 2009 through part of Fiscal Year 2011",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 4,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1317144369,
+  "publicationDate": 1412895330,
+  "rowsUpdatedAt": 1412895324,
+  "viewLastModified": 1769544585,
+  "viewCount": 1785,
+  "downloadCount": 2387,
+  "category": "Economic Development",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Building and Zoning",
+  "attributionLink": "http://www.cookcountyil.gov/BuildingZoning",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Fiscal Year",
+      "fieldName": "fiscal_year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Certificate of Occupancy Issued",
+      "fieldName": "certificate_of_occupancy_issued",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:57.760Z"
+}

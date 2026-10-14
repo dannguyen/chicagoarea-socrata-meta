@@ -1,0 +1,196 @@
+{
+  "id": "97r9-4xpj",
+  "name": "Public Health Birth Data: Birth Outcomes",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 35226,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1754513281,
+  "publicationDate": 1755282879,
+  "rowsUpdatedAt": 1764692920,
+  "viewLastModified": 1769543427,
+  "viewCount": 726,
+  "downloadCount": 998,
+  "category": "Health & Human Services",
+  "tags": [
+    "ccdph",
+    "reproductive health",
+    "pregnancy",
+    "premature",
+    "preemie"
+  ],
+  "attribution": "Cook County Department of Public Health",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Department of Public Health"
+    },
+    "Metadata": {
+      "Update Frequency": "Yearly"
+    },
+    "Detailed Descriptive": {
+      "Temporal coverage": "2015-2023",
+      "Data notes": "Source data does not differentiate between gender and sex assigned at birth. For clarity and brevity, metadata descriptions reflect gendered language with the understanding that these descriptions may not accurately reflect all cases.",
+      "Geographic coverage": "Cook County without City of Chicago"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Annually",
+      "Publishing frequency": "Annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": "Year of the birth",
+      "nullCount": 0,
+      "cardinality": 35226
+    },
+    {
+      "name": "Place",
+      "fieldName": "place",
+      "dataTypeName": "text",
+      "description": "CCDPH jurisdiction refers to all Cook County municipalities except Chicago, Evanston, Skokie, Oak Park, Forest View, Burbank, and (incorporated) Stickney. See the attached district map for more information.",
+      "nullCount": 0,
+      "cardinality": 35226
+    },
+    {
+      "name": "Age Group",
+      "fieldName": "age_group",
+      "dataTypeName": "text",
+      "description": "Age group of mother",
+      "nullCount": 0,
+      "cardinality": 35226
+    },
+    {
+      "name": "Race and Ethnicity",
+      "fieldName": "race_eth",
+      "dataTypeName": "text",
+      "description": "Race and ethnicity of mother. \"NH\" refers to \"non-Hispanic\". \"PI\" refers to \"Pacific Islander\".",
+      "nullCount": 0,
+      "cardinality": 35226
+    },
+    {
+      "name": "Count of Early Preterm Births",
+      "fieldName": "count_early_preterm",
+      "dataTypeName": "text",
+      "description": "Total number of births delivered before 34 completed weeks of gestation",
+      "nullCount": 0,
+      "cardinality": 35226
+    },
+    {
+      "name": "Rate of Early Preterm Births",
+      "fieldName": "rate_early_preterm",
+      "dataTypeName": "text",
+      "description": "Number of births delivered before 34 completed weeks of gestation per 100 live births",
+      "nullCount": 0,
+      "cardinality": 35226
+    },
+    {
+      "name": "Count of Late Preterm Births",
+      "fieldName": "count_late_preterm",
+      "dataTypeName": "text",
+      "description": "Total number of births delivered between 34 to 36 completed weeks of gestation",
+      "nullCount": 0,
+      "cardinality": 35226
+    },
+    {
+      "name": "Rate of Late Preterm Births",
+      "fieldName": "rate_late_preterm",
+      "dataTypeName": "text",
+      "description": "Number of births delivered between 34 to 36 completed weeks of gestation per 100 live births",
+      "nullCount": 0,
+      "cardinality": 35226
+    },
+    {
+      "name": "Count of Low Birth Weight",
+      "fieldName": "count_low_weight",
+      "dataTypeName": "text",
+      "description": "Total number of single births with birth weight less than 2,500 grams",
+      "nullCount": 0,
+      "cardinality": 35226
+    },
+    {
+      "name": "Rate of Low Birth Weight",
+      "fieldName": "rate_low_weight",
+      "dataTypeName": "text",
+      "description": "Number of single births with birth weight less than 2,500 grams per 100 single live births",
+      "nullCount": 0,
+      "cardinality": 35226
+    },
+    {
+      "name": "Count of Neutral Tube Defects",
+      "fieldName": "count_neural_tube_defects",
+      "dataTypeName": "text",
+      "description": "Total number of births with anencephaly or spina bifida/meningocele",
+      "nullCount": 0,
+      "cardinality": 35226
+    },
+    {
+      "name": "Rate of Neutral Tube Defects",
+      "fieldName": "rate_neural_tube_defects",
+      "dataTypeName": "text",
+      "description": "Number of births with anencephaly or spina bifida/meningocele per 100 live births",
+      "nullCount": 0,
+      "cardinality": 35226
+    },
+    {
+      "name": "Count of Preterm Births",
+      "fieldName": "count_preterm",
+      "dataTypeName": "text",
+      "description": "Total number of births delivered before 37 completed weeks of gestation",
+      "nullCount": 0,
+      "cardinality": 35226
+    },
+    {
+      "name": "Rate of Preterm Births",
+      "fieldName": "rate_preterm",
+      "dataTypeName": "text",
+      "description": "Number of births delivered before 37 completed weeks of gestation per 100 live births",
+      "nullCount": 0,
+      "cardinality": 35226
+    },
+    {
+      "name": "Count of Very Low Birth Weight",
+      "fieldName": "count_very_low_weight",
+      "dataTypeName": "text",
+      "description": "Total number of single births with birth weight less than 1,500 grams",
+      "nullCount": 0,
+      "cardinality": 35226
+    },
+    {
+      "name": "Rate of Very Low Birth Weight",
+      "fieldName": "rate_very_low_weight",
+      "dataTypeName": "text",
+      "description": "Number of single births with birth weight less than 1,500 grams per 100 live single live births",
+      "nullCount": 0,
+      "cardinality": 35226
+    },
+    {
+      "name": "Count of Inadequate APGAR Score",
+      "fieldName": "count_inadequate_apgar",
+      "dataTypeName": "text",
+      "description": "Total number of births with 5-minute APGAR (Appearance, Pulse, Grimace response, Activity, Respiration) score less than 7. This data is only available for the \"All Ages\" age group.",
+      "nullCount": 0,
+      "cardinality": 35226
+    },
+    {
+      "name": "Rate of Inadequate APGAR Score",
+      "fieldName": "rate_inadequate_apgar",
+      "dataTypeName": "text",
+      "description": "Number of births with 5-minute APGAR (Appearance, Pulse, Grimace response, Activity, Respiration) score less than 7 per 100 live births. This data is only available for the \"All Ages\" age group.",
+      "nullCount": 0,
+      "cardinality": 35226
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:07.307Z"
+}

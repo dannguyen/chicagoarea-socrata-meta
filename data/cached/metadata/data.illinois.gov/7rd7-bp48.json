@@ -1,0 +1,82 @@
+{
+  "id": "7rd7-bp48",
+  "name": "2026 Clean Energy Jobs Report - County-Census Gender Comparison",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 156,
+  "rowCountSource": "cached",
+  "rowLabel": "Number and percent of workers by the specified gender and project county and the corresponding census percentage.",
+  "hasRowIdentifier": false,
+  "createdAt": 1777312610,
+  "publicationDate": 1777312897,
+  "rowsUpdatedAt": 1777394401,
+  "viewLastModified": 1777394400,
+  "viewCount": 26,
+  "downloadCount": 79,
+  "category": "Business and Workforce",
+  "tags": [
+    "clean energy",
+    "clean energy jobs report",
+    "public act 102-662"
+  ],
+  "attribution": "Illinois Department of Labor",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Labor"
+    },
+    "Data Management": {
+      "Maintainer": "IDOL",
+      "Maintainer Email": "DOL.Questions@Illinois.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "Project County",
+      "fieldName": "project_county",
+      "dataTypeName": "text",
+      "description": "County in which the Clean Energy Project is located",
+      "nullCount": 0,
+      "cardinality": 156
+    },
+    {
+      "name": "Gender",
+      "fieldName": "gender",
+      "dataTypeName": "text",
+      "description": "Gender of employee. This indicates whether the employee is male or female.",
+      "nullCount": 0,
+      "cardinality": 156
+    },
+    {
+      "name": "Workers",
+      "fieldName": "workers",
+      "dataTypeName": "number",
+      "description": "Number of employees who worked on clean energy projects in the specified demographic.",
+      "nullCount": 0,
+      "cardinality": 156
+    },
+    {
+      "name": "Worker Percent",
+      "fieldName": "worker_percent",
+      "dataTypeName": "number",
+      "description": "Percent of employees who worked on clean energy projects in the specified demographic.",
+      "nullCount": 0,
+      "cardinality": 156
+    },
+    {
+      "name": "Census Percent",
+      "fieldName": "census_percent",
+      "dataTypeName": "number",
+      "description": "Percent of the general population in the specified demographic.",
+      "nullCount": 0,
+      "cardinality": 156
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:38.679Z"
+}

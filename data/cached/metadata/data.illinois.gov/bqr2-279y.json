@@ -1,0 +1,117 @@
+{
+  "id": "bqr2-279y",
+  "name": "CDB Active Project Map",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 478,
+  "rowCountSource": "cached",
+  "rowLabel": "Project",
+  "hasRowIdentifier": false,
+  "createdAt": 1739888663,
+  "publicationDate": 1739980785,
+  "rowsUpdatedAt": 1791977461,
+  "viewLastModified": 1791977460,
+  "viewCount": 327,
+  "downloadCount": 82,
+  "category": "Government and Public Employees",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Capital Development Board"
+    },
+    "Data Management": {
+      "Maintainer": "Capital Development Board"
+    }
+  },
+  "columns": [
+    {
+      "name": "Project Number",
+      "fieldName": "project_number",
+      "dataTypeName": "text",
+      "description": "Reference number for the project consisting of Agency Code, Location Code, and Project Number",
+      "nullCount": 0,
+      "cardinality": 478
+    },
+    {
+      "name": "Project Description",
+      "fieldName": "project_description",
+      "dataTypeName": "text",
+      "description": "Short description of the project",
+      "nullCount": 0,
+      "cardinality": 478
+    },
+    {
+      "name": "Project Estimated Cost",
+      "fieldName": "project_estimated_cost",
+      "dataTypeName": "number",
+      "description": "Estimate of the total cost of the project",
+      "nullCount": 0,
+      "cardinality": 478
+    },
+    {
+      "name": "Location Name",
+      "fieldName": "location_name",
+      "dataTypeName": "text",
+      "description": "Name of the site of the project",
+      "nullCount": 0,
+      "cardinality": 478
+    },
+    {
+      "name": "Street Address",
+      "fieldName": "street_address",
+      "dataTypeName": "text",
+      "description": "Street address of the project site",
+      "nullCount": 0,
+      "cardinality": 478
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": "City of the project site",
+      "nullCount": 0,
+      "cardinality": 478
+    },
+    {
+      "name": "Representative",
+      "fieldName": "representative",
+      "dataTypeName": "text",
+      "description": "Representative district number, representative name, and party affiliation",
+      "nullCount": 0,
+      "cardinality": 478
+    },
+    {
+      "name": "Senator",
+      "fieldName": "senator",
+      "dataTypeName": "text",
+      "description": "Senate district number, senator name, and party affiliation",
+      "nullCount": 0,
+      "cardinality": 478
+    },
+    {
+      "name": "Latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": "Latitude of site",
+      "nullCount": 0,
+      "cardinality": 478
+    },
+    {
+      "name": "Longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": "Longitude of site",
+      "nullCount": 0,
+      "cardinality": 478
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:33.465Z"
+}

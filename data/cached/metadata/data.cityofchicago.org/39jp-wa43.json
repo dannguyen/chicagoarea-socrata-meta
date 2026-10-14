@@ -1,0 +1,159 @@
+{
+  "id": "39jp-wa43",
+  "name": "Tax Increment Financing (TIF) Request Review",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 217,
+  "rowCountSource": "cached",
+  "rowLabel": "Project",
+  "hasRowIdentifier": false,
+  "createdAt": 1785181325,
+  "publicationDate": 1789065516,
+  "rowsUpdatedAt": 1791226209,
+  "viewLastModified": 1791226208,
+  "viewCount": 572,
+  "downloadCount": 201,
+  "category": "Community & Economic Development",
+  "tags": [
+    "tif"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "June 13, 2025 - Current",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"39jp-wa43\"",
+      "Frequency": "Data are updated monthly",
+      "Data Owner": "Department of Planning and Development"
+    }
+  },
+  "columns": [
+    {
+      "name": "Title",
+      "fieldName": "title",
+      "dataTypeName": "text",
+      "description": "The title of the project seeking TIF funding.",
+      "nullCount": 0,
+      "cardinality": 217
+    },
+    {
+      "name": "Requesting Dept.",
+      "fieldName": "requesting_dept",
+      "dataTypeName": "text",
+      "description": "The department or agency requesting the TIF Funding.",
+      "nullCount": 0,
+      "cardinality": 217
+    },
+    {
+      "name": "Improvement Type",
+      "fieldName": "improvement_type",
+      "dataTypeName": "text",
+      "description": "The category of development seeking TIF funds.",
+      "nullCount": 0,
+      "cardinality": 217
+    },
+    {
+      "name": "Project Address",
+      "fieldName": "project_address",
+      "dataTypeName": "text",
+      "description": "The primary adddress of the project location.",
+      "nullCount": 86,
+      "cardinality": 217
+    },
+    {
+      "name": "Address Details",
+      "fieldName": "address_details",
+      "dataTypeName": "text",
+      "description": "Additional address information or non specified project locations. ",
+      "nullCount": 139,
+      "cardinality": 217
+    },
+    {
+      "name": "TIF Dist. (1)",
+      "fieldName": "tif_dist_1",
+      "dataTypeName": "text",
+      "description": "The primary TIF district in which the project is receiving funds.",
+      "nullCount": 0,
+      "cardinality": 217
+    },
+    {
+      "name": "TIF Dist. (1) ID",
+      "fieldName": "tif_dist_1_id",
+      "dataTypeName": "text",
+      "description": "The Primary TIF District Number",
+      "nullCount": 0,
+      "cardinality": 217
+    },
+    {
+      "name": "TIF Dist. (2)",
+      "fieldName": "tif_dist_2",
+      "dataTypeName": "text",
+      "description": "The secondary TIF district in which the project is receiving funds.",
+      "nullCount": 185,
+      "cardinality": 217
+    },
+    {
+      "name": "Ward(s)",
+      "fieldName": "ward_s",
+      "dataTypeName": "text",
+      "description": "The ward(s) in wich the project is located.",
+      "nullCount": 0,
+      "cardinality": 217
+    },
+    {
+      "name": "Project Description",
+      "fieldName": "project_description",
+      "dataTypeName": "text",
+      "description": "A brief description of the proposed project that is requesting TIF funding.",
+      "nullCount": 0,
+      "cardinality": 217
+    },
+    {
+      "name": "Current TIF Request",
+      "fieldName": "current_tif_request",
+      "dataTypeName": "number",
+      "description": "The amount of TIF funding that the project is requesting.",
+      "nullCount": 0,
+      "cardinality": 217
+    },
+    {
+      "name": "Total Project Costs",
+      "fieldName": "total_project_costs",
+      "dataTypeName": "number",
+      "description": "The total projected cost of the project requesting TIF funding.",
+      "nullCount": 0,
+      "cardinality": 217
+    },
+    {
+      "name": "Percentage of TIF",
+      "fieldName": "percentage_of_tif",
+      "dataTypeName": "number",
+      "description": "The share of the total project costs being covered by the requested TIF funding.",
+      "nullCount": 0,
+      "cardinality": 217
+    },
+    {
+      "name": "Final Decision Date",
+      "fieldName": "final_decision_date",
+      "dataTypeName": "calendar_date",
+      "description": "The date at which the project was approved.",
+      "nullCount": 0,
+      "cardinality": 217
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": "The location of the Project Address column, geocoded to a format that allows for mapping and other geographic analysis ",
+      "nullCount": 1,
+      "cardinality": 217
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:23.472Z"
+}

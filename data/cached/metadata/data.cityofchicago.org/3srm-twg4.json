@@ -1,0 +1,144 @@
+{
+  "id": "3srm-twg4",
+  "name": "E-Scooter Trips - Census Tract Summary - 2020",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 50350,
+  "rowCountSource": "cached",
+  "rowLabel": "Census Tract Pair",
+  "hasRowIdentifier": false,
+  "createdAt": 1620919288,
+  "publicationDate": 1620920030,
+  "rowsUpdatedAt": 1621362662,
+  "viewLastModified": 1621362874,
+  "viewCount": 4255,
+  "downloadCount": 1911,
+  "category": "Transportation",
+  "tags": [
+    "scooter",
+    "transportation",
+    "2020",
+    "e-scooter"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2020",
+      "Data Owner": "Department of Transportation"
+    }
+  },
+  "columns": [
+    {
+      "name": "Start Census Tract",
+      "fieldName": "start_census_tract",
+      "dataTypeName": "text",
+      "description": "The Census Tract where the trip started.",
+      "nullCount": 727,
+      "cardinality": 884
+    },
+    {
+      "name": "End Census Tract",
+      "fieldName": "end_census_tract",
+      "dataTypeName": "text",
+      "description": "The Census Tract where the trip ended.",
+      "nullCount": 881,
+      "cardinality": 900
+    },
+    {
+      "name": "Trip Count",
+      "fieldName": "trip_count",
+      "dataTypeName": "number",
+      "description": "Count of trips for this combination of starting and ending Census Tracts.",
+      "nullCount": 0,
+      "cardinality": 487
+    },
+    {
+      "name": "Start Community Area Name",
+      "fieldName": "start_community_area_name",
+      "dataTypeName": "text",
+      "description": "The Community Area number where the trip started.",
+      "nullCount": 414,
+      "cardinality": 77
+    },
+    {
+      "name": "End Community Area Name",
+      "fieldName": "end_community_area_name",
+      "dataTypeName": "text",
+      "description": "The Community Area number where the trip ended.",
+      "nullCount": 652,
+      "cardinality": 77
+    },
+    {
+      "name": "Start Community Area Number",
+      "fieldName": "start_community_area_number",
+      "dataTypeName": "number",
+      "description": "The Community Area name where the trip started.",
+      "nullCount": 414,
+      "cardinality": 77
+    },
+    {
+      "name": "End Community Area Number",
+      "fieldName": "end_community_area_number",
+      "dataTypeName": "number",
+      "description": "The Community Area name where the trip ended.",
+      "nullCount": 652,
+      "cardinality": 77
+    },
+    {
+      "name": "Start Centroid Latitude",
+      "fieldName": "start_centroid_latitude",
+      "dataTypeName": "number",
+      "description": "The latitude of the center of the trip start Census Tract (or Community Area if Census Tract is blank for privacy). This column will be blank for locations outside Chicago.",
+      "nullCount": 113,
+      "cardinality": 960
+    },
+    {
+      "name": "Start Centroid Longitude",
+      "fieldName": "start_centroid_longitude",
+      "dataTypeName": "number",
+      "description": "The longitude of the center of the trip start Census Tract (or Community Area if Census Tract is blank for privacy). This column will be blank for locations outside Chicago.",
+      "nullCount": 113,
+      "cardinality": 960
+    },
+    {
+      "name": "Start Centroid Location",
+      "fieldName": "start_centroid_location",
+      "dataTypeName": "point",
+      "description": "The location of the center of the trip start Census Tract (or Community Area if Census Tract is blank for privacy). This column will be blank for locations outside Chicago.",
+      "nullCount": 113,
+      "cardinality": 960
+    },
+    {
+      "name": "End Centroid Latitude",
+      "fieldName": "end_centroid_latitude",
+      "dataTypeName": "number",
+      "description": "The latitude of the center of the trip end Census Tract (or Community Area if Census Tract is blank for privacy). This column will be blank for locations outside Chicago.",
+      "nullCount": 178,
+      "cardinality": 977
+    },
+    {
+      "name": "End Centroid Longitude",
+      "fieldName": "end_centroid_longitude",
+      "dataTypeName": "number",
+      "description": "The longitude of the center of the trip end Census Tract (or Community Area if Census Tract is blank for privacy). This column will be blank for locations outside Chicago.",
+      "nullCount": 178,
+      "cardinality": 977
+    },
+    {
+      "name": "End Centroid Location",
+      "fieldName": "end_centroid_location",
+      "dataTypeName": "point",
+      "description": "The location of the center of the trip end Census Tract (or Community Area if Census Tract is blank for privacy). This column will be blank for locations outside Chicago.",
+      "nullCount": 178,
+      "cardinality": 977
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:05.838Z"
+}

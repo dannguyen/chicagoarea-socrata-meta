@@ -1,0 +1,239 @@
+{
+  "id": "dj47-wfun",
+  "name": "Boundaries - Zoning Districts (current)",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 14997,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1451949028,
+  "publicationDate": 1731611256,
+  "rowsUpdatedAt": 1791900176,
+  "viewLastModified": 1791900065,
+  "viewCount": 6515,
+  "downloadCount": 4923,
+  "category": "Community & Economic Development",
+  "tags": [
+    "zoning",
+    "geo_layer",
+    "boundaries"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Current as of October 2026",
+      "Data Owner": "Housing & Economic Development"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "CASE_NUMBE",
+      "fieldName": "case_numbe",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 14997
+    },
+    {
+      "name": "CASE_TYPE",
+      "fieldName": "case_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 14997,
+      "cardinality": 14997
+    },
+    {
+      "name": "ZONING_ID",
+      "fieldName": "zoning_id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 14997
+    },
+    {
+      "name": "ZONE_TYPE",
+      "fieldName": "zone_type",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 14997
+    },
+    {
+      "name": "ZONE_CLASS",
+      "fieldName": "zone_class",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 14997
+    },
+    {
+      "name": "EDIT_STATU",
+      "fieldName": "edit_statu",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 14997,
+      "cardinality": 14997
+    },
+    {
+      "name": "CREATE_DAT",
+      "fieldName": "create_dat",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 217,
+      "cardinality": 14997
+    },
+    {
+      "name": "EDIT_DATE",
+      "fieldName": "edit_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 14997
+    },
+    {
+      "name": "PD_PREFIX",
+      "fieldName": "pd_prefix",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 14997,
+      "cardinality": 14997
+    },
+    {
+      "name": "PD_NUM",
+      "fieldName": "pd_num",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 14997
+    },
+    {
+      "name": "COMMENTS",
+      "fieldName": "comments",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 14997,
+      "cardinality": 14997
+    },
+    {
+      "name": "ORDINANCE_",
+      "fieldName": "ordinance",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 7566,
+      "cardinality": 14997
+    },
+    {
+      "name": "ORDINANCE1",
+      "fieldName": "ordinance_1",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 7775,
+      "cardinality": 14997
+    },
+    {
+      "name": "ZONING_REL",
+      "fieldName": "zoning_rel",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 14997,
+      "cardinality": 14997
+    },
+    {
+      "name": "SHAPE_AREA",
+      "fieldName": "shape_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 14997
+    },
+    {
+      "name": "SHAPE_LEN",
+      "fieldName": "shape_len",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 14997
+    },
+    {
+      "name": "PEDSTREET_",
+      "fieldName": "pedstreet_",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 14997,
+      "cardinality": 14997
+    },
+    {
+      "name": "OBJECTID",
+      "fieldName": "objectid",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 14997
+    },
+    {
+      "name": "GLOBALID",
+      "fieldName": "globalid",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 14997
+    },
+    {
+      "name": "PMD_SUB_AR",
+      "fieldName": "pmd_sub_ar",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 14992,
+      "cardinality": 14997
+    },
+    {
+      "name": "OVERRIDE_C",
+      "fieldName": "override_c",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 14997,
+      "cardinality": 14997
+    },
+    {
+      "name": "OVERRIDE_R",
+      "fieldName": "override_r",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 14997
+    },
+    {
+      "name": "CLERK_URL",
+      "fieldName": "clerk_url",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "CLERK_DOCN",
+      "fieldName": "clerk_docn",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 10490,
+      "cardinality": 14997
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:02.500Z"
+}

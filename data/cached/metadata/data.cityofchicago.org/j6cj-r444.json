@@ -1,0 +1,173 @@
+{
+  "id": "j6cj-r444",
+  "name": "Public Health Statistics - Selected underlying causes of death in Chicago, 2006–2010 - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1404,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1337706174,
+  "publicationDate": 1412616068,
+  "rowsUpdatedAt": 1412616033,
+  "viewLastModified": 1788213132,
+  "viewCount": 32532,
+  "downloadCount": 11923,
+  "category": "Health & Human Services",
+  "tags": [
+    "historical"
+  ],
+  "attribution": "Illinois Department of Public Health (IDPH)",
+  "attributionLink": null,
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2006 - 2010",
+      "Data Owner": "Epidemiology and Public Health Informatics, Chicago Department of Public Health (CDPH)"
+    }
+  },
+  "columns": [
+    {
+      "name": "Cause of Death",
+      "fieldName": "cause_of_death",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 18
+    },
+    {
+      "name": "Community Area",
+      "fieldName": "community_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 78
+    },
+    {
+      "name": "Community Area Name",
+      "fieldName": "community_area_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 78
+    },
+    {
+      "name": "Cumulative Deaths 2006 - 2010",
+      "fieldName": "cumulative_deaths_2004_2008",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 437
+    },
+    {
+      "name": "Cumulative Deaths Rank",
+      "fieldName": "cumulative_deaths_rank",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 18,
+      "cardinality": 77
+    },
+    {
+      "name": "Average Annual Deaths 2006 - 2010",
+      "fieldName": "average_annual_deaths_2004_2008",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 233
+    },
+    {
+      "name": "Average Crude Rate 2006 - 2010",
+      "fieldName": "average_crude_rate_2004_2008",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 834
+    },
+    {
+      "name": "Average Crude Rate Lower CI",
+      "fieldName": "crude_rate_lower_ci",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 759
+    },
+    {
+      "name": "Average Crude Rate Upper CI",
+      "fieldName": "crude_rate_upper_ci",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 911
+    },
+    {
+      "name": "Crude Rate Rank",
+      "fieldName": "crude_rate_rank",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 18,
+      "cardinality": 77
+    },
+    {
+      "name": "Average Adjusted Rate 2006 - 2010",
+      "fieldName": "average_adjusted_rate_2004_2008",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 862
+    },
+    {
+      "name": "Average Adjusted Rate Lower CI",
+      "fieldName": "adjusted_rate_lower_ci",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 764
+    },
+    {
+      "name": "Average Adjusted Rate Upper CI",
+      "fieldName": "adjusted_rate_upper_ci",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 914
+    },
+    {
+      "name": "Adjusted Rate Rank",
+      "fieldName": "adjusted_rate_rank",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 18,
+      "cardinality": 77
+    },
+    {
+      "name": "Average Annual Years of Potential Life Lost (YPLL) Rate 2006 - 2010",
+      "fieldName": "average_annual_years_of_potential_life_lost_rate_2004_2008",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 906
+    },
+    {
+      "name": "YPLL Rate RANK",
+      "fieldName": "ypll_rate_rank",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 18,
+      "cardinality": 77
+    },
+    {
+      "name": "WARNING",
+      "fieldName": "warning",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 982,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:07.272Z"
+}

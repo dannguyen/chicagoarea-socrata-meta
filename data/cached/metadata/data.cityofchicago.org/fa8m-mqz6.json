@@ -1,0 +1,232 @@
+{
+  "id": "fa8m-mqz6",
+  "name": "Minority and Women Business Payments",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 18,
+  "rowCountSource": "cached",
+  "rowLabel": "Quarter",
+  "hasRowIdentifier": true,
+  "createdAt": 1567633798,
+  "publicationDate": 1567718244,
+  "rowsUpdatedAt": 1723657000,
+  "viewLastModified": 1723656999,
+  "viewCount": 2984,
+  "downloadCount": 1690,
+  "category": "Administration & Finance",
+  "tags": [
+    "mbe",
+    "wbe",
+    "procurement"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2019 - Current",
+      "Frequency": "Data are updated quarterly",
+      "Data Owner": "Department of Procurement Services"
+    }
+  },
+  "columns": [
+    {
+      "name": "Quarter",
+      "fieldName": "quarter",
+      "dataTypeName": "text",
+      "description": "The financial quarter. The data for the initial launch combine the first two quarters of 2019. Future data will cover individual quarters.",
+      "nullCount": 0,
+      "cardinality": 18
+    },
+    {
+      "name": "Quarter Start Date",
+      "fieldName": "quarter_start_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 18
+    },
+    {
+      "name": "Quarter End Date",
+      "fieldName": "quarter_end_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 18
+    },
+    {
+      "name": "Total Payments",
+      "fieldName": "total_payments",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 18
+    },
+    {
+      "name": "Total MBE/WBE Payments",
+      "fieldName": "total_mbe_wbe_payments",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 18
+    },
+    {
+      "name": "Total MBE/WBE Percentage",
+      "fieldName": "total_mbe_wbe_percentage",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 13
+    },
+    {
+      "name": "Total MBE Payments",
+      "fieldName": "total_mbe_payments",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 18
+    },
+    {
+      "name": "Total MBE Percentage",
+      "fieldName": "total_mbe_percentage",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11
+    },
+    {
+      "name": "Total WBE Payments",
+      "fieldName": "total_wbe_payments",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 18
+    },
+    {
+      "name": "Total WBE Percentage",
+      "fieldName": "total_wbe_percentage",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Construction Payments",
+      "fieldName": "construction_payments",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 18
+    },
+    {
+      "name": "Construction MBE/WBE Payments",
+      "fieldName": "construction_mbe_wbe_payments",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 18
+    },
+    {
+      "name": "Construction MBE/WBE Percentage",
+      "fieldName": "construction_mbe_wbe_percentage",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 13
+    },
+    {
+      "name": "Construction MBE Payments",
+      "fieldName": "construction_mbe_payments",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 18
+    },
+    {
+      "name": "Construction MBE Percentage",
+      "fieldName": "construction_mbe_percentage",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "Construction WBE Payments",
+      "fieldName": "construction_wbe_payments",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 18
+    },
+    {
+      "name": "Construction WBE Percentage",
+      "fieldName": "construction_wbe_percentage",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Non-Construction Payments",
+      "fieldName": "non_construction_payments",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 18
+    },
+    {
+      "name": "Non-Construction MBE/WBE Payments",
+      "fieldName": "non_construction_mbe_wbe_payments",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 18
+    },
+    {
+      "name": "Non-Construction MBE/WBE Percentage",
+      "fieldName": "non_construction_mbe_wbe_percentage",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "Non-Construction MBE Payments",
+      "fieldName": "non_construction_mbe_payments",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 18
+    },
+    {
+      "name": "Non-Construction MBE Percentage",
+      "fieldName": "non_construction_mbe_percentage",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "Non-Construction WBE Payments",
+      "fieldName": "non_construction_wbe_payments",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 18
+    },
+    {
+      "name": "Non-Construction WBE Percentage",
+      "fieldName": "non_construction_wbe_percentage",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:08.601Z"
+}

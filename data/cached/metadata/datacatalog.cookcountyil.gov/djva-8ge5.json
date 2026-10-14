@@ -1,0 +1,96 @@
+{
+  "id": "djva-8ge5",
+  "name": "Cook County Clerk - Cook County TIF Districts & Revenue by Municipality - 2010",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 443,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1319558806,
+  "publicationDate": 1412896560,
+  "rowsUpdatedAt": 1412896551,
+  "viewLastModified": 1769544542,
+  "viewCount": 1069,
+  "downloadCount": 2487,
+  "category": "Property & Taxation",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Clerk",
+  "attributionLink": "http://www.cookcountyclerk.com",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Agency #",
+      "fieldName": "agency",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 443
+    },
+    {
+      "name": "Municipality",
+      "fieldName": "municipality",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 96
+    },
+    {
+      "name": "TIF District",
+      "fieldName": "tif_district",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 394
+    },
+    {
+      "name": "First Tax Year",
+      "fieldName": "first_tax_year",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 30
+    },
+    {
+      "name": "Year Cancelled",
+      "fieldName": "year_cancelled",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 426,
+      "cardinality": 2
+    },
+    {
+      "name": "2010 TIF Revenue",
+      "fieldName": "_tif_revenue_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 387
+    },
+    {
+      "name": "2009 TIF Revenue",
+      "fieldName": "_tif_revenue_2",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 399
+    },
+    {
+      "name": "2010-2009 % Difference",
+      "fieldName": "_difference",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 362
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:03.085Z"
+}

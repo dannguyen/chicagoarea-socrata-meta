@@ -1,0 +1,182 @@
+{
+  "id": "xta2-zc2j",
+  "name": "IDPH Population Projections 2014 Edition",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1000,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709064545,
+  "publicationDate": 1709145273,
+  "rowsUpdatedAt": 1709145267,
+  "viewLastModified": 1736793991,
+  "viewCount": 58,
+  "downloadCount": 15,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "age_group",
+      "fieldName": "age_group",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 18
+    },
+    {
+      "name": "county",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 56
+    },
+    {
+      "name": "female_2010_april",
+      "fieldName": "female_2010_april",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 794
+    },
+    {
+      "name": "females_2010_july",
+      "fieldName": "females_2010_july",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 813
+    },
+    {
+      "name": "females_2015",
+      "fieldName": "females_2015",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 785
+    },
+    {
+      "name": "females_2020",
+      "fieldName": "females_2020",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 806
+    },
+    {
+      "name": "females_2025",
+      "fieldName": "females_2025",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 756
+    },
+    {
+      "name": "fips",
+      "fieldName": "fips",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 56
+    },
+    {
+      "name": "male_2010_april",
+      "fieldName": "male_2010_april",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 793
+    },
+    {
+      "name": "males_2010_july",
+      "fieldName": "males_2010_july",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 802
+    },
+    {
+      "name": "males_2015",
+      "fieldName": "males_2015",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 799
+    },
+    {
+      "name": "males_2020",
+      "fieldName": "males_2020",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 797
+    },
+    {
+      "name": "males_2025",
+      "fieldName": "males_2025",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 797
+    },
+    {
+      "name": "total_2010_april",
+      "fieldName": "total_2010_april",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 871
+    },
+    {
+      "name": "total_2010_july",
+      "fieldName": "total_2010_july",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 876
+    },
+    {
+      "name": "total_2015",
+      "fieldName": "total_2015",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 892
+    },
+    {
+      "name": "total_2020",
+      "fieldName": "total_2020",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 886
+    },
+    {
+      "name": "total_2025",
+      "fieldName": "total_2025",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 874
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:37.101Z"
+}

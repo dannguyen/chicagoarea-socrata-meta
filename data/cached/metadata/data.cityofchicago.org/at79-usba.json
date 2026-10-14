@@ -1,0 +1,88 @@
+{
+  "id": "at79-usba",
+  "name": "Budget - 2024 Budget Recommendations - Revenue",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 150,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1696967236,
+  "publicationDate": 1696967712,
+  "rowsUpdatedAt": 1696967706,
+  "viewLastModified": 1696972706,
+  "viewCount": 4612,
+  "downloadCount": 1419,
+  "category": "Administration & Finance",
+  "tags": [
+    "budget",
+    "revenue",
+    "2024"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.chicago.gov/budget",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2024",
+      "Frequency": "Data are updated annually",
+      "Data Owner": "Budget & Management"
+    }
+  },
+  "columns": [
+    {
+      "name": "FUND_CODE",
+      "fieldName": "fund_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 31
+    },
+    {
+      "name": "FUND_NAME",
+      "fieldName": "fund_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 31
+    },
+    {
+      "name": "REVENUE_GROUP_TYPE",
+      "fieldName": "revenue_group_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 98,
+      "cardinality": 4
+    },
+    {
+      "name": "REVENUE_CATEGORY",
+      "fieldName": "revenue_category",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 98,
+      "cardinality": 19
+    },
+    {
+      "name": "REVENUE_SOURCE",
+      "fieldName": "revenue_source",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 96
+    },
+    {
+      "name": "ESTIMATED_REVENUE",
+      "fieldName": "estimated_revenue",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 146
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:05.313Z"
+}

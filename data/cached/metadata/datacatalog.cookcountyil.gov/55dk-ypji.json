@@ -1,0 +1,80 @@
+{
+  "id": "55dk-ypji",
+  "name": "Cook County Budget - 2013 - Preliminary Budget Revenues",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 83,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1346780222,
+  "publicationDate": 1412889372,
+  "rowsUpdatedAt": 1412889357,
+  "viewLastModified": 1769546322,
+  "viewCount": 947,
+  "downloadCount": 2043,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Budget and Management Services",
+  "attributionLink": "http://home.cookcountyil.gov/budget/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Description",
+      "fieldName": "description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 80
+    },
+    {
+      "name": "FY 2012 Budgeted Revenue",
+      "fieldName": "fy_2012_budgeted_revenue",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 11,
+      "cardinality": 70
+    },
+    {
+      "name": "FY 2012 Actual, Dec-May*",
+      "fieldName": "fy_2012_actual_dec_may",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 11,
+      "cardinality": 67
+    },
+    {
+      "name": "FY 2012 Budgeted June-Nov (estimated)",
+      "fieldName": "fy_2012_budgeted_june_nov_estimated",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 11,
+      "cardinality": 69
+    },
+    {
+      "name": "Estimated 2012 Year-end",
+      "fieldName": "estimated_2012_year_end",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 11,
+      "cardinality": 71
+    },
+    {
+      "name": "FY 2013 Preliminary Estimate",
+      "fieldName": "fy_2013_preliminary_estimate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 11,
+      "cardinality": 66
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:04.337Z"
+}

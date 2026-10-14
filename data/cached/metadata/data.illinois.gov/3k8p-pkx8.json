@@ -1,0 +1,137 @@
+{
+  "id": "3k8p-pkx8",
+  "name": "City of Rockford Building Permits",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 21732,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1737743759,
+  "publicationDate": 1738174967,
+  "rowsUpdatedAt": 1790830916,
+  "viewLastModified": 1790830909,
+  "viewCount": 1011,
+  "downloadCount": 391,
+  "category": "Local Government",
+  "tags": [
+    "community development",
+    "building permits"
+  ],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "City of Rockford"
+    },
+    "Data Management": {
+      "Maintainer": "Open Data Rockford",
+      "Maintainer Email": "opendata@rockfordil.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "DateIssued1",
+      "fieldName": "dateissued1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 21732
+    },
+    {
+      "name": "Month",
+      "fieldName": "month",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 21732
+    },
+    {
+      "name": "PermitType",
+      "fieldName": "permittype",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 21732
+    },
+    {
+      "name": "PermitNo",
+      "fieldName": "permitno",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 21732
+    },
+    {
+      "name": "WorkType",
+      "fieldName": "worktype",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 21732
+    },
+    {
+      "name": "PropertyAddress",
+      "fieldName": "propertyaddress",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 8,
+      "cardinality": 21732
+    },
+    {
+      "name": "PIN",
+      "fieldName": "pin",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2224,
+      "cardinality": 21732
+    },
+    {
+      "name": "APName",
+      "fieldName": "apname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 21732
+    },
+    {
+      "name": "ContractorDBA",
+      "fieldName": "contractordba",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 10145,
+      "cardinality": 21732
+    },
+    {
+      "name": "ContractorFullName",
+      "fieldName": "contractorfullname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 25,
+      "cardinality": 21732
+    },
+    {
+      "name": "Valuation",
+      "fieldName": "valuation",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 21732
+    },
+    {
+      "name": "Description",
+      "fieldName": "description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 21732
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:32.727Z"
+}

@@ -1,0 +1,111 @@
+{
+  "id": "y93d-d9e3",
+  "name": "Debarred Firms and Individuals",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 163,
+  "rowCountSource": "cached",
+  "rowLabel": "Firms or Individuals",
+  "hasRowIdentifier": false,
+  "createdAt": 1316614446,
+  "publicationDate": 1445532436,
+  "rowsUpdatedAt": 1791474963,
+  "viewLastModified": 1556726277,
+  "viewCount": 62573,
+  "downloadCount": 14785,
+  "category": "Administration & Finance",
+  "tags": [
+    "procurement",
+    "vendors"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org/city/en/depts/dps/provdrs/comp/svcs/debarred_firms_list.html",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Last updated October 2015",
+      "Frequency": "Data is updated as needed",
+      "Data Owner": "Procurement Services"
+    }
+  },
+  "columns": [
+    {
+      "name": "ENTITY/INDIVIDUAL",
+      "fieldName": "entity_individual",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 163
+    },
+    {
+      "name": "STREET ADDRESS",
+      "fieldName": "street_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 34,
+      "cardinality": 163
+    },
+    {
+      "name": "CITY",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 34,
+      "cardinality": 163
+    },
+    {
+      "name": "STATE",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 34,
+      "cardinality": 163
+    },
+    {
+      "name": "ZIP CODE",
+      "fieldName": "zip_code",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 34,
+      "cardinality": 163
+    },
+    {
+      "name": "DEBARMENT DATE",
+      "fieldName": "debarment_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 163
+    },
+    {
+      "name": "LENGTH OF DEBARMENT",
+      "fieldName": "length_of_debarment",
+      "dataTypeName": "text",
+      "description": "For periods less than lifetime, this column shows years.",
+      "nullCount": 0,
+      "cardinality": 163
+    },
+    {
+      "name": "REASON",
+      "fieldName": "reason",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 163
+    },
+    {
+      "name": "TYPE",
+      "fieldName": "type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 163
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:05.610Z"
+}

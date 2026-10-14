@@ -1,0 +1,103 @@
+{
+  "id": "w7mz-b4q7",
+  "name": "Fiscal Year 2018 Preliminary Budget - Fiscal Year 2017 Projected Revenue",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 59,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1498598688,
+  "publicationDate": 1498750603,
+  "rowsUpdatedAt": 1498599597,
+  "viewLastModified": 1769545616,
+  "viewCount": 1480,
+  "downloadCount": 4646,
+  "category": "Finance & Operations",
+  "tags": [
+    "fy2017",
+    "fy2018",
+    "2018 budget",
+    "fy2018 preliminary budget",
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Budget and Management Services",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Department of Budget and Management Services"
+    },
+    "Metadata": {
+      "Update Frequency": "Yearly"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Annually",
+      "Publishing frequency": "Annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "Fund",
+      "fieldName": "fund",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Type",
+      "fieldName": "type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Revenue Source",
+      "fieldName": "revenue_source",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 56
+    },
+    {
+      "name": "FY2017 Adopted Revenue",
+      "fieldName": "fy2017_adopted_revenue",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 58
+    },
+    {
+      "name": "FY2017 Dec – May Actual Revenue",
+      "fieldName": "fy2017_dec_may_actual_revenue",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 57
+    },
+    {
+      "name": "FY2016 Jun – Nov Estimated Revenue",
+      "fieldName": "fy2016_jun_nov_estimated_revenue",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 58
+    },
+    {
+      "name": "FY2017 Year End Estimated Revenue",
+      "fieldName": "fy2017_year_end_estimated_revenue",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 59
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:59.185Z"
+}

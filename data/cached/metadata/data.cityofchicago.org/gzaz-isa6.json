@@ -1,0 +1,145 @@
+{
+  "id": "gzaz-isa6",
+  "name": "Traffic Crashes - Vision Zero Chicago Traffic Fatalities",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1048,
+  "rowCountSource": "cached",
+  "rowLabel": "Person",
+  "hasRowIdentifier": false,
+  "createdAt": 1605766721,
+  "publicationDate": 1712956651,
+  "rowsUpdatedAt": 1788370073,
+  "viewLastModified": 1788370072,
+  "viewCount": 17363,
+  "downloadCount": 5255,
+  "category": "Transportation",
+  "tags": [
+    "transportation",
+    "vision zero",
+    "traffic crashes",
+    "public safety"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://visionzerochicago.org/",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2019 - Current",
+      "Frequency": "Data are updated monthly",
+      "Data Owner": "Chicago Department of Transportation"
+    }
+  },
+  "columns": [
+    {
+      "name": "Person_ID",
+      "fieldName": "person_id",
+      "dataTypeName": "text",
+      "description": "Unique ID linking this record to the PERSON table in eCrash",
+      "nullCount": 25,
+      "cardinality": 1048
+    },
+    {
+      "name": "Crash_Date",
+      "fieldName": "crash_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date and time of crash on police report",
+      "nullCount": 0,
+      "cardinality": 1048
+    },
+    {
+      "name": "Crash_Location",
+      "fieldName": "crash_location",
+      "dataTypeName": "text",
+      "description": "Estimated address of crash based on crash report",
+      "nullCount": 0,
+      "cardinality": 1048
+    },
+    {
+      "name": "Victim",
+      "fieldName": "victim",
+      "dataTypeName": "text",
+      "description": "Activity classification of victim: CYCLIST / DRIVER / MOTORCYCLIST / PASSENGER / PEDESTRIAN  ",
+      "nullCount": 0,
+      "cardinality": 1048
+    },
+    {
+      "name": "Crash_Circumstances",
+      "fieldName": "crash_circumstances",
+      "dataTypeName": "text",
+      "description": "Brief description of the circumstances involved in the fatal crash. This column was added in 2024.",
+      "nullCount": 755,
+      "cardinality": 1048
+    },
+    {
+      "name": "Longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": "Longitude",
+      "nullCount": 0,
+      "cardinality": 1048
+    },
+    {
+      "name": "Latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": "Latitude",
+      "nullCount": 0,
+      "cardinality": 1048
+    },
+    {
+      "name": "Location",
+      "fieldName": "geocoded_column",
+      "dataTypeName": "point",
+      "description": "The crash location in a format that allows for mapping and other geographic analysis.",
+      "nullCount": 0,
+      "cardinality": 1048
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Zip Codes' (6mkv-f3dw) the point in column 'geocoded_column' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Census Tracts' (bdys-3d7i) the point in column 'geocoded_column' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Wards' (43wa-7qmu) the point in column 'geocoded_column' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Boundaries - ZIP Codes' (rpca-8um6) the point in column 'geocoded_column' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Community Areas' (vrxf-vc4k) the point in column 'geocoded_column' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:37:48.708Z"
+}

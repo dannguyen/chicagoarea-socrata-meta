@@ -1,0 +1,102 @@
+{
+  "id": "5d24-2bpp",
+  "name": "Lobbyist Data - Historical - Lobbyist Gift Report - 2010",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 52,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1307467518,
+  "publicationDate": 1307467518,
+  "rowsUpdatedAt": 1314741631,
+  "viewLastModified": 1445633971,
+  "viewCount": 2738,
+  "downloadCount": 6722,
+  "category": "Ethics",
+  "tags": [
+    "lobbyists",
+    "historical"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2010",
+      "Data Owner": "Ethics"
+    }
+  },
+  "columns": [
+    {
+      "name": "LOBBYIST LAST NAME",
+      "fieldName": "lobbyist_last_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "LOBBYIST FIRST NAME",
+      "fieldName": "lobbyist_first_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "EMPLOYER NAME",
+      "fieldName": "employer_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 12,
+      "cardinality": 8
+    },
+    {
+      "name": "RECIPIENT NAME",
+      "fieldName": "recipient_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 13
+    },
+    {
+      "name": "RECIPIENT TITLE",
+      "fieldName": "recipient_title",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 40
+    },
+    {
+      "name": "RECIPIENT AGENCY CODE",
+      "fieldName": "recipient_agency_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 22
+    },
+    {
+      "name": "GIFT DESCRIPTION",
+      "fieldName": "gift_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11
+    },
+    {
+      "name": "VALUE",
+      "fieldName": "value",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 52,
+      "cardinality": 0
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:09.508Z"
+}

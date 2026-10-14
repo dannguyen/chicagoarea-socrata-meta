@@ -1,0 +1,108 @@
+{
+  "id": "uvy2-xbnp",
+  "name": "Performance Metrics - Public Health - School-Based Oral Health Programming",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 15,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1311197861,
+  "publicationDate": 1329950189,
+  "rowsUpdatedAt": 1329950185,
+  "viewLastModified": 1497298731,
+  "viewCount": 1961,
+  "downloadCount": 4324,
+  "category": "Administration & Finance",
+  "tags": [
+    "performance metrics",
+    "service delivery",
+    "cdph",
+    "cps",
+    "oral health",
+    "dentist"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "September 2010 - present",
+      "Frequency": "Data is updated monthly",
+      "Data Owner": "Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "months",
+      "fieldName": "months",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "New Students Examined Per Month",
+      "fieldName": "new_students_examined_per_month",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "Cumulative Students Examined Per School Year",
+      "fieldName": "cumulative_students_examined_per_school_year",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "Students Receiving Dental Sealants",
+      "fieldName": "students_receiving_dental_sealants",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "Percent Students Receiving Sealants",
+      "fieldName": "percent_students_receiving_sealants",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 14
+    },
+    {
+      "name": "Months Target Was Achieved",
+      "fieldName": "months_target_was_achieved",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 15,
+      "cardinality": 0
+    },
+    {
+      "name": "Months Target Was Not Achieved",
+      "fieldName": "months_target_was_not_achieved",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 15,
+      "cardinality": 0
+    },
+    {
+      "name": "Annual Target",
+      "fieldName": "annual_target",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:14.034Z"
+}

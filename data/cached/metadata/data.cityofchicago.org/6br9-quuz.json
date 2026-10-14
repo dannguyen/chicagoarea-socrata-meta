@@ -1,0 +1,258 @@
+{
+  "id": "6br9-quuz",
+  "name": "Ordinance Violations",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 824605,
+  "rowCountSource": "cached",
+  "rowLabel": "Violation",
+  "hasRowIdentifier": true,
+  "createdAt": 1421430135,
+  "publicationDate": 1557512627,
+  "rowsUpdatedAt": 1791979544,
+  "viewLastModified": 1689873372,
+  "viewCount": 64738,
+  "downloadCount": 36819,
+  "category": "Administration & Finance",
+  "tags": [
+    "ordinance",
+    "ordinance violations",
+    "buildings",
+    "violations",
+    "administrative hearings"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2001 to present",
+      "Frequency": "Data are updated daily",
+      "Data Owner": "Administrative Hearings"
+    }
+  },
+  "columns": [
+    {
+      "name": "ID",
+      "fieldName": "id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 824605
+    },
+    {
+      "name": "DOCKET NUMBER",
+      "fieldName": "docket_number",
+      "dataTypeName": "text",
+      "description": "Court case number",
+      "nullCount": 119,
+      "cardinality": 824605
+    },
+    {
+      "name": "NOV NUMBER",
+      "fieldName": "nov_number",
+      "dataTypeName": "text",
+      "description": "Notice of Violation number / Ticket Number.",
+      "nullCount": 0,
+      "cardinality": 824605
+    },
+    {
+      "name": "ADDRESS",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 824605
+    },
+    {
+      "name": "STREET NUMBER",
+      "fieldName": "street_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 824605
+    },
+    {
+      "name": "STREET DIRECTION",
+      "fieldName": "street_direction",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 824605
+    },
+    {
+      "name": "STREET NAME",
+      "fieldName": "street_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 824605
+    },
+    {
+      "name": "STREET TYPE",
+      "fieldName": "street_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 8544,
+      "cardinality": 824605
+    },
+    {
+      "name": "WARD",
+      "fieldName": "ward",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 2919,
+      "cardinality": 824605
+    },
+    {
+      "name": "ISSUING DEPARTMENT",
+      "fieldName": "issuing_department",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 824605
+    },
+    {
+      "name": "HEARING DATE",
+      "fieldName": "hearing_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 119,
+      "cardinality": 824605
+    },
+    {
+      "name": "CASE DISPOSITION",
+      "fieldName": "case_disposition",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 18630,
+      "cardinality": 824605
+    },
+    {
+      "name": "IMPOSED FINE",
+      "fieldName": "imposed_fine",
+      "dataTypeName": "number",
+      "description": "Imposed fine based on the case disposition.",
+      "nullCount": 0,
+      "cardinality": 824605
+    },
+    {
+      "name": "ADMIN COSTS",
+      "fieldName": "admin_costs",
+      "dataTypeName": "number",
+      "description": "Administrative costs associated with the case disposition.",
+      "nullCount": 0,
+      "cardinality": 824605
+    },
+    {
+      "name": "LAST MODIFIED DATE",
+      "fieldName": "last_modified_date",
+      "dataTypeName": "calendar_date",
+      "description": "Last date the case was modified in the database.",
+      "nullCount": 0,
+      "cardinality": 824605
+    },
+    {
+      "name": "VIOLATION DATE",
+      "fieldName": "violation_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 89,
+      "cardinality": 824605
+    },
+    {
+      "name": "VIOLATION CODE",
+      "fieldName": "violation_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 824605
+    },
+    {
+      "name": "VIOLATION DESCRIPTION",
+      "fieldName": "violation_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 824605
+    },
+    {
+      "name": "RESPONDENTS",
+      "fieldName": "respondents",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 824605
+    },
+    {
+      "name": "LATITUDE",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 996,
+      "cardinality": 824605
+    },
+    {
+      "name": "LONGITUDE",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 996,
+      "cardinality": 824605
+    },
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:05.514Z"
+}

@@ -1,0 +1,73 @@
+{
+  "id": "ga2y-gwbs",
+  "name": "Performance Metrics - Streets & Sanitation - Rodent Baiting",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 57,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1316656099,
+  "publicationDate": 1342214489,
+  "rowsUpdatedAt": 1342214459,
+  "viewLastModified": 1707240122,
+  "viewCount": 2802,
+  "downloadCount": 2867,
+  "category": "Administration & Finance",
+  "tags": [
+    "performance metrics",
+    "service delivery",
+    "rodents",
+    "rats"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org/performance",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "April 2011 - present",
+      "Frequency": "Data is updated weekly",
+      "Data Owner": "Streets & Sanitation"
+    }
+  },
+  "columns": [
+    {
+      "name": "Week",
+      "fieldName": "week",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 57
+    },
+    {
+      "name": "Average Days to Complete Rodent Baiting / Rat Complaint Requests",
+      "fieldName": "average_days_to_complete_rodent_baiting_rat_complaint_requests",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 44
+    },
+    {
+      "name": "Median Days to Repond to Rodent Baiting Request",
+      "fieldName": "median_days_to_repond_to_rodent_baiting_request",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 21
+    },
+    {
+      "name": "Target Response Time (Days)",
+      "fieldName": "target_response_time_days_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:09.183Z"
+}

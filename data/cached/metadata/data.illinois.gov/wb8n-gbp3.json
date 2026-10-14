@@ -1,0 +1,95 @@
+{
+  "id": "wb8n-gbp3",
+  "name": "Illinois Department of Human Rights Grants",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 3,
+  "rowCountSource": "cached",
+  "rowLabel": "grant award record",
+  "hasRowIdentifier": false,
+  "createdAt": 1756823794,
+  "publicationDate": 1756824392,
+  "rowsUpdatedAt": 1756824802,
+  "viewLastModified": 1756824802,
+  "viewCount": 112,
+  "downloadCount": 29,
+  "category": "Business and Workforce",
+  "tags": [
+    "grants"
+  ],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Human Rights"
+    },
+    "Data Management": {
+      "Maintainer": "Illinois Department of Human Rights"
+    }
+  },
+  "columns": [
+    {
+      "name": "Grantor Agency",
+      "fieldName": "grantor_agency",
+      "dataTypeName": "text",
+      "description": "The government department, or agency providing the funding.",
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Grantee",
+      "fieldName": "grantee",
+      "dataTypeName": "text",
+      "description": "The recipient of the grant funding.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Description of Purpose of Award",
+      "fieldName": "description_of_purpose_of",
+      "dataTypeName": "text",
+      "description": "A summary of the program, project, or activity for which the grant funds are awarded.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Grant Amount",
+      "fieldName": "grant_amount",
+      "dataTypeName": "number",
+      "description": "Total dollar amount of funding awarded.",
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Start Date",
+      "fieldName": "start_date",
+      "dataTypeName": "calendar_date",
+      "description": "The start date of the grant award or funded project.",
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Completion Date",
+      "fieldName": "completion_date",
+      "dataTypeName": "calendar_date",
+      "description": "The expected or actual end date of the grant award or funded project.",
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Zip",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": "The ZIP code location associated with the grantee or project.",
+      "nullCount": 0,
+      "cardinality": 2
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:35.006Z"
+}

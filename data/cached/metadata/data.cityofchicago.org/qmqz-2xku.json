@@ -1,0 +1,127 @@
+{
+  "id": "qmqz-2xku",
+  "name": "Beach Water Quality - Automated Sensors",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 40707,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": true,
+  "createdAt": 1400177642,
+  "publicationDate": 1433450261,
+  "rowsUpdatedAt": 1791999948,
+  "viewLastModified": 1780960570,
+  "viewCount": 56116,
+  "downloadCount": 28553,
+  "category": "Parks & Recreation",
+  "tags": [
+    "beaches",
+    "parks",
+    "chicago park district",
+    "open spaces",
+    "parks & recreation",
+    "recreation",
+    "water",
+    "sensors",
+    "iot"
+  ],
+  "attribution": "Chicago Park District",
+  "attributionLink": "http://www.chicagoparkdistrict.com",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "5/28/2014 - current (in season) plus limited previous measurements",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"qmqz-2xku\"",
+      "Frequency": "Hourly",
+      "Data Owner": "Chicago Park District"
+    }
+  },
+  "columns": [
+    {
+      "name": "Beach Name",
+      "fieldName": "beach_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Measurement Timestamp",
+      "fieldName": "measurement_timestamp",
+      "dataTypeName": "calendar_date",
+      "description": "The date and time when the measurements were taken.",
+      "nullCount": 0,
+      "cardinality": 16586
+    },
+    {
+      "name": "Water Temperature",
+      "fieldName": "water_temperature",
+      "dataTypeName": "number",
+      "description": "Water temperature in Celsius degrees.",
+      "nullCount": 0,
+      "cardinality": 196
+    },
+    {
+      "name": "Turbidity",
+      "fieldName": "turbidity",
+      "dataTypeName": "number",
+      "description": "Water turbidity in Nephelometric Turbidity Units (NTU),",
+      "nullCount": 0,
+      "cardinality": 2763
+    },
+    {
+      "name": "Transducer Depth",
+      "fieldName": "transducer_depth",
+      "dataTypeName": "number",
+      "description": "Transducer depth in meters.",
+      "nullCount": 30673,
+      "cardinality": 775
+    },
+    {
+      "name": "Wave Height",
+      "fieldName": "wave_height",
+      "dataTypeName": "number",
+      "description": "Wave height in meters.",
+      "nullCount": 227,
+      "cardinality": 615
+    },
+    {
+      "name": "Wave Period",
+      "fieldName": "wave_period",
+      "dataTypeName": "number",
+      "description": "Wave period in seconds.",
+      "nullCount": 227,
+      "cardinality": 11
+    },
+    {
+      "name": "Battery Life",
+      "fieldName": "battery_life",
+      "dataTypeName": "number",
+      "description": "Battery voltage, an indicator of remaining battery life used by the Chicago Park District to know when batteries should be replaced.",
+      "nullCount": 0,
+      "cardinality": 87
+    },
+    {
+      "name": "Measurement Timestamp Label",
+      "fieldName": "measurement_timestamp_label",
+      "dataTypeName": "text",
+      "description": "The Last Updated value in text format, suitable for use in the Visualize function.",
+      "nullCount": 0,
+      "cardinality": 16586
+    },
+    {
+      "name": "Measurement ID",
+      "fieldName": "measurement_id",
+      "dataTypeName": "text",
+      "description": "A unique record ID made up of the Beach Name and Measurement Timestamp.",
+      "nullCount": 0,
+      "cardinality": 40707
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:06.011Z"
+}

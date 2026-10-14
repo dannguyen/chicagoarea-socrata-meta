@@ -1,0 +1,106 @@
+{
+  "id": "veer-93jd",
+  "name": "Certified Transcript of Payroll - Report 2 - Gender",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 217967,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1765842622,
+  "publicationDate": 1765920315,
+  "rowsUpdatedAt": 1791561623,
+  "viewLastModified": 1769708941,
+  "viewCount": 72,
+  "downloadCount": 19,
+  "category": "Business and Workforce",
+  "tags": [
+    "prevailing wage",
+    "certified transcript of payroll",
+    "820 ilcs 130/3.1"
+  ],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": "ODBL",
+  "license": "Open Data Commons Open Database License",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Labor"
+    },
+    "Data Management": {
+      "Maintainer": "IDOL",
+      "Maintainer Email": "kimberly.a.flesch@illinois.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": "The calendar year during which the prevailing wage work was performed.",
+      "nullCount": 0,
+      "cardinality": 217967
+    },
+    {
+      "name": "Quarter",
+      "fieldName": "quarter",
+      "dataTypeName": "number",
+      "description": "The quarter of the reporting year (Q1, Q2, Q3, or Q4) during which the prevailing wage work was performed.",
+      "nullCount": 0,
+      "cardinality": 217967
+    },
+    {
+      "name": "Project County",
+      "fieldName": "project_county",
+      "dataTypeName": "text",
+      "description": "The Illinois county where the public works project is located. Used to identify regional trends in prevailing wage activity.",
+      "nullCount": 0,
+      "cardinality": 217967
+    },
+    {
+      "name": "Project Number",
+      "fieldName": "project_number",
+      "dataTypeName": "text",
+      "description": "The project name or number as reported by the contractor. This number is used for tracking and referencing project-specific wage and employment data.",
+      "nullCount": 0,
+      "cardinality": 217967
+    },
+    {
+      "name": "Company Name",
+      "fieldName": "company_name",
+      "dataTypeName": "text",
+      "description": "The name of the contractor reporting prevailing wage information for the project.",
+      "nullCount": 0,
+      "cardinality": 217967
+    },
+    {
+      "name": "Percent Male",
+      "fieldName": "percent_male",
+      "dataTypeName": "text",
+      "description": "Percentage of male employees the company reported working on the project during the specified quarter.",
+      "nullCount": 0,
+      "cardinality": 217967
+    },
+    {
+      "name": "Percent Female",
+      "fieldName": "percent_female",
+      "dataTypeName": "text",
+      "description": "Percentage of female employees the company reported working on the project during the specified quarter.",
+      "nullCount": 0,
+      "cardinality": 217967
+    },
+    {
+      "name": "Total Employees",
+      "fieldName": "total_employees",
+      "dataTypeName": "number",
+      "description": "The number of employees the company reported working on the project during the specified quarter.",
+      "nullCount": 0,
+      "cardinality": 217967
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:35.333Z"
+}

@@ -1,0 +1,81 @@
+{
+  "id": "uava-8jbh",
+  "name": "Performance Metrics - Family & Support Services - Workforce Services Monthly Utilization",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 65,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1312218501,
+  "publicationDate": 1409695618,
+  "rowsUpdatedAt": 1475268453,
+  "viewLastModified": 1692027440,
+  "viewCount": 1986,
+  "downloadCount": 3265,
+  "category": "Administration & Finance",
+  "tags": [
+    "performance metrics",
+    "service delivery",
+    "human services"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org/performance",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "January 2011 to present",
+      "Frequency": "Data is updated monthly",
+      "Data Owner": "Family & Support Services"
+    }
+  },
+  "columns": [
+    {
+      "name": "Month",
+      "fieldName": "month",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 65
+    },
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Newly Enrolled in Program",
+      "fieldName": "newly_enrolled_in_program",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 60
+    },
+    {
+      "name": "Entering Skills Training",
+      "fieldName": "entering_skills_training",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 55
+    },
+    {
+      "name": "Placed in Employment",
+      "fieldName": "placed_in_employment",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 59
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:13.702Z"
+}

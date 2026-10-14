@@ -1,0 +1,112 @@
+{
+  "id": "2d4k-r48m",
+  "name": "Precincts2010",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2576,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1462467801,
+  "publicationDate": null,
+  "rowsUpdatedAt": 1462467825,
+  "viewLastModified": 1712775977,
+  "viewCount": 378,
+  "downloadCount": 1685,
+  "category": "Facilities & Geographic Boundaries",
+  "tags": [
+    "gis",
+    "shapefiles",
+    "elections",
+    "historical"
+  ],
+  "attribution": "Chicago Board of Election Commissioners",
+  "attributionLink": "http://www.chicagoelections.com",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Effective as of 2012",
+      "Data Owner": "Chicago Board of Election Commissioners"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "OBJECTID",
+      "fieldName": "objectid",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2576
+    },
+    {
+      "name": "DATA_ADMIN",
+      "fieldName": "data_admin",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2524
+    },
+    {
+      "name": "PERIMETER",
+      "fieldName": "perimeter",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2524
+    },
+    {
+      "name": "WARD",
+      "fieldName": "ward",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 51
+    },
+    {
+      "name": "PRECINCT",
+      "fieldName": "precinct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 75
+    },
+    {
+      "name": "WARD_PRECI",
+      "fieldName": "ward_preci",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2574
+    },
+    {
+      "name": "SHAPE_Leng",
+      "fieldName": "shape_leng",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2576
+    },
+    {
+      "name": "SHAPE_Area",
+      "fieldName": "shape_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2576
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:25.343Z"
+}

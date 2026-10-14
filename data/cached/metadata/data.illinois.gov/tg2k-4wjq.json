@@ -1,0 +1,114 @@
+{
+  "id": "tg2k-4wjq",
+  "name": "Bilingual Needs/Pay and Employment Plan Surveys 2019 to present",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 72,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1708036019,
+  "publicationDate": 1708099195,
+  "rowsUpdatedAt": 1708099189,
+  "viewLastModified": 1736796061,
+  "viewCount": 97,
+  "downloadCount": 24,
+  "category": "Government and Public Employees",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Work Groups": {
+      "Group": "",
+      "Supplemental Group": ""
+    },
+    "Organizations": {
+      "Organization": "Department of Central Management Services"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "Agency",
+      "fieldName": "agency",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 72
+    },
+    {
+      "name": "Bilingual 2021",
+      "fieldName": "bilingual_2021",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 47
+    },
+    {
+      "name": "Bilingual 2020",
+      "fieldName": "bilingual_2020",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 49
+    },
+    {
+      "name": "Employment 2021",
+      "fieldName": "employment_2021",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 41
+    },
+    {
+      "name": "Employment 2020",
+      "fieldName": "employment_2020",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 48
+    },
+    {
+      "name": "Employment 2019-Native American",
+      "fieldName": "employment_2019_native",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "Employment 2019-African American",
+      "fieldName": "employment_2019_african",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 51
+    },
+    {
+      "name": "Employment 2019-Asian American",
+      "fieldName": "employment_2019_asian_american",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 49
+    },
+    {
+      "name": "Employment 2019-Hispanic",
+      "fieldName": "employment_2019_hispanic",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:35.531Z"
+}

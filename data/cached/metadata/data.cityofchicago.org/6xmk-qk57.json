@@ -1,0 +1,248 @@
+{
+  "id": "6xmk-qk57",
+  "name": "Influenza Surveillance Weekly - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 468,
+  "rowCountSource": "cached",
+  "rowLabel": "Week",
+  "hasRowIdentifier": true,
+  "createdAt": 1601669729,
+  "publicationDate": 1633110616,
+  "rowsUpdatedAt": 1728063010,
+  "viewLastModified": 1788213014,
+  "viewCount": 2122,
+  "downloadCount": 4059,
+  "category": "Health & Human Services",
+  "tags": [
+    "flu",
+    "health",
+    "public health",
+    "historical"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2015 - 2024",
+      "Data Owner": "Chicago Department of Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "MMWR_WEEK",
+      "fieldName": "mmwr_week",
+      "dataTypeName": "number",
+      "description": "A weekly counting system within a calendar year standardized by the U.S. Centers for Disease Control",
+      "nullCount": 0,
+      "cardinality": 468
+    },
+    {
+      "name": "WEEK_START",
+      "fieldName": "week_start",
+      "dataTypeName": "calendar_date",
+      "description": "Beginning date of the the MMWR week",
+      "nullCount": 0,
+      "cardinality": 468
+    },
+    {
+      "name": "WEEK_END",
+      "fieldName": "week_end",
+      "dataTypeName": "calendar_date",
+      "description": "Ending date of the MMWR week",
+      "nullCount": 0,
+      "cardinality": 468
+    },
+    {
+      "name": "FLU_RISK_LEVEL",
+      "fieldName": "flu_risk_level",
+      "dataTypeName": "text",
+      "description": "The risk of influenza infection based on current activity among surveillance indicators.",
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "INFLUENZA_SEASON",
+      "fieldName": "influenza_season",
+      "dataTypeName": "text",
+      "description": "Annually recurring time period of increased influenza activity standardized by the U.S. Centers for Disease Control and Prevention",
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "HOSP_FLU_ICU_WEEKLY",
+      "fieldName": "hosp_flu_icu_weekly",
+      "dataTypeName": "number",
+      "description": "Total number of ICU admissions for influenza",
+      "nullCount": 0,
+      "cardinality": 46
+    },
+    {
+      "name": "HOSP_FLU_ICU_CUMULATIVE",
+      "fieldName": "hosp_flu_icu_cumulative",
+      "dataTypeName": "number",
+      "description": "Cumulative total of ICU admissions for influenza in the flu season, which goes from week 40 of each year to week 20 of the following year",
+      "nullCount": 0,
+      "cardinality": 169
+    },
+    {
+      "name": "LAB_FLU_TESTED",
+      "fieldName": "lab_flu_tested",
+      "dataTypeName": "number",
+      "description": "Total number of specimens tested for influenza as reported by participating laboratories",
+      "nullCount": 0,
+      "cardinality": 420
+    },
+    {
+      "name": "LAB_FLU_POSITIVE",
+      "fieldName": "lab_flu_positive",
+      "dataTypeName": "number",
+      "description": "Total number of specimens that were positive for influenza as reported by participating laboratories",
+      "nullCount": 0,
+      "cardinality": 163
+    },
+    {
+      "name": "LAB_FLU_PCT_POSITIVE",
+      "fieldName": "lab_flu_pct_positive",
+      "dataTypeName": "number",
+      "description": "Percentage of specimens that were positive for influenza as reported by participating laboratories",
+      "nullCount": 0,
+      "cardinality": 374
+    },
+    {
+      "name": "LAB_TOT_A_POSITIVE",
+      "fieldName": "lab_tot_a_positive",
+      "dataTypeName": "number",
+      "description": "Total number of specimens testing positive for influenza A as reported by participating laboratories",
+      "nullCount": 0,
+      "cardinality": 148
+    },
+    {
+      "name": "LAB_TOT_B_POSITIVE",
+      "fieldName": "lab_tot_b_positive",
+      "dataTypeName": "number",
+      "description": "Total number of specimens testing positive for influenza B as reported by participating laboratories",
+      "nullCount": 0,
+      "cardinality": 83
+    },
+    {
+      "name": "LAB_TOT_H1N1_POSITIVE",
+      "fieldName": "lab_tot_h1n1_positive",
+      "dataTypeName": "number",
+      "description": "Total number of positive influenza A specimens that were subtyped as H1N1pdm09 virus strain",
+      "nullCount": 0,
+      "cardinality": 63
+    },
+    {
+      "name": "LAB_TOT_H3N2_POSITIVE",
+      "fieldName": "lab_tot_h3n2_positive",
+      "dataTypeName": "number",
+      "description": "Total number of positive influenza A specimens that were subtyped as H3N2 virus strain",
+      "nullCount": 0,
+      "cardinality": 70
+    },
+    {
+      "name": "LAB_TOT_NOTSUBTYPED_POSITIVE",
+      "fieldName": "lab_tot_notsubtyped_positive",
+      "dataTypeName": "number",
+      "description": "Total number of positive influenza A specimens that were not subtyped ",
+      "nullCount": 0,
+      "cardinality": 124
+    },
+    {
+      "name": "LAB_TOT_TESTED_CUMULATIVE",
+      "fieldName": "lab_tot_tested_cumulative",
+      "dataTypeName": "number",
+      "description": "Cumulative total number of specimens tested for influenza in the flu season, which goes from week 40 of each year to week 20 of the following year",
+      "nullCount": 0,
+      "cardinality": 467
+    },
+    {
+      "name": "LAB_TOT_POSITIVE_CUMULATIVE",
+      "fieldName": "lab_tot_positive_cumulative",
+      "dataTypeName": "number",
+      "description": "Cumulative total number of specimens that were positive for influenza in the flu season, which goes from week 40 of each year to week 20 of the following year",
+      "nullCount": 0,
+      "cardinality": 352
+    },
+    {
+      "name": "LAB_PCT_POSITIVE_CUMULATIVE",
+      "fieldName": "lab_pct_positive_cumulative",
+      "dataTypeName": "number",
+      "description": "Cumulative percentage of specimens that were positive for influenza  in the flu season, which goes from week 40 of each year to week 20 of the following year",
+      "nullCount": 0,
+      "cardinality": 427
+    },
+    {
+      "name": "ILI_TOT_ILI_ILINET",
+      "fieldName": "ili_lab_tot_ili_ilinet",
+      "dataTypeName": "number",
+      "description": "Total number of outpatient visits that were due to influenza-like illness as reported by participating clinics enrolled in ILINet",
+      "nullCount": 0,
+      "cardinality": 226
+    },
+    {
+      "name": "ILI_TOT_SEEN_ILINET",
+      "fieldName": "ili_lab_tot_seen_ilinet",
+      "dataTypeName": "number",
+      "description": "Total number of outpatient visits as reported by participating clinics enrolled in ILINet",
+      "nullCount": 0,
+      "cardinality": 436
+    },
+    {
+      "name": "ILI_PCT_POSITIVE_ILINET",
+      "fieldName": "ili_pct_positive_ilinet",
+      "dataTypeName": "number",
+      "description": "Percentage of outpatient visits that were due to influenza-like illness as reported by participating clinics enrolled in ILINet",
+      "nullCount": 0,
+      "cardinality": 468
+    },
+    {
+      "name": "ILI_TOT_ILI_ESSENCE",
+      "fieldName": "ili_tot_ili_essence",
+      "dataTypeName": "number",
+      "description": "Total number of emergency department visits that were due to influenza-like illness as reported by participating hospitals enrolled in ESSENCE",
+      "nullCount": 0,
+      "cardinality": 342
+    },
+    {
+      "name": "ILI_TOT_SEEN_ESSENCE",
+      "fieldName": "ili_tot_seen_essence",
+      "dataTypeName": "number",
+      "description": "Total number of emergency department visits as reported by participating hospitals enrolled in ESSENCE",
+      "nullCount": 0,
+      "cardinality": 455
+    },
+    {
+      "name": "ILI_PCT_POSITIVE_ESSENCE",
+      "fieldName": "ili_pct_positive_essence",
+      "dataTypeName": "number",
+      "description": "Percentage of emergency department visits that were due to influenza-like illness as reported by participating hospitals enrolled in ESSENCE",
+      "nullCount": 0,
+      "cardinality": 468
+    },
+    {
+      "name": "PEDIATRIC_DEATHS",
+      "fieldName": "pediatric_deaths",
+      "dataTypeName": "number",
+      "description": "Number of deaths among children less than 18 years of age where influenza was listed as a primary or contributing cause of death.",
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "RECORD_ID",
+      "fieldName": "record_id",
+      "dataTypeName": "text",
+      "description": "A unique identifier for the record.",
+      "nullCount": 0,
+      "cardinality": 468
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:12.754Z"
+}

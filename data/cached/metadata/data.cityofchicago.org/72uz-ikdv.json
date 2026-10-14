@@ -1,0 +1,175 @@
+{
+  "id": "72uz-ikdv",
+  "name": "Tax Increment Financing (TIF) Annual Report - Projects",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 5782,
+  "rowCountSource": "cached",
+  "rowLabel": "Project",
+  "hasRowIdentifier": false,
+  "createdAt": 1566507506,
+  "publicationDate": 1566509183,
+  "rowsUpdatedAt": 1788191968,
+  "viewLastModified": 1788191965,
+  "viewCount": 1934,
+  "downloadCount": 2205,
+  "category": "Community & Economic Development",
+  "tags": [
+    "tif",
+    "tif annual report"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2017-2025",
+      "Frequency": "Data are updated annually",
+      "Data Owner": "Department of Planning and Development"
+    }
+  },
+  "columns": [
+    {
+      "name": "TIF Number",
+      "fieldName": "tif_number",
+      "dataTypeName": "text",
+      "description": "The unique, numeric ID assigned to the TIF district.",
+      "nullCount": 0,
+      "cardinality": 5782
+    },
+    {
+      "name": "TIF District",
+      "fieldName": "tif_district",
+      "dataTypeName": "text",
+      "description": "Redevelopment project area",
+      "nullCount": 0,
+      "cardinality": 5782
+    },
+    {
+      "name": "Report Year",
+      "fieldName": "report_year",
+      "dataTypeName": "number",
+      "description": "Calendar year to which the record applies",
+      "nullCount": 0,
+      "cardinality": 5782
+    },
+    {
+      "name": "Project / IGA",
+      "fieldName": "project_iga",
+      "dataTypeName": "text",
+      "description": "Redevelopment Project or  Intergovernmental Agreement Project/Program",
+      "nullCount": 0,
+      "cardinality": 5782
+    },
+    {
+      "name": "Project Type",
+      "fieldName": "project_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5782
+    },
+    {
+      "name": "Project Number",
+      "fieldName": "project_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 5782
+    },
+    {
+      "name": "Project Name",
+      "fieldName": "project_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5782
+    },
+    {
+      "name": "Annual Report Name",
+      "fieldName": "annual_report_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5782
+    },
+    {
+      "name": "Current Year New Deals",
+      "fieldName": "current_year_new_deals",
+      "dataTypeName": "checkbox",
+      "description": "Whether there were new deals in the report year",
+      "nullCount": 0,
+      "cardinality": 5782
+    },
+    {
+      "name": "Ongoing",
+      "fieldName": "ongoing",
+      "dataTypeName": "checkbox",
+      "description": "Whether the project is ongoing",
+      "nullCount": 0,
+      "cardinality": 5782
+    },
+    {
+      "name": "Status",
+      "fieldName": "status",
+      "dataTypeName": "text",
+      "description": "Active or Completed Project",
+      "nullCount": 0,
+      "cardinality": 5782
+    },
+    {
+      "name": "Current Year Payments",
+      "fieldName": "current_year_payments",
+      "dataTypeName": "number",
+      "description": "The amount paid to project in the report year",
+      "nullCount": 0,
+      "cardinality": 5782
+    },
+    {
+      "name": "Estimated Next Year Payments",
+      "fieldName": "estimated_next_year_payments",
+      "dataTypeName": "number",
+      "description": "The amount projected to be paid in the next report year.",
+      "nullCount": 0,
+      "cardinality": 5782
+    },
+    {
+      "name": "Private Funds",
+      "fieldName": "private_funds",
+      "dataTypeName": "number",
+      "description": "Total amount of private funds invested in the project minus any payments throughout life of the project.",
+      "nullCount": 0,
+      "cardinality": 5782
+    },
+    {
+      "name": "Private Funds to Completion",
+      "fieldName": "private_funds_to_completion",
+      "dataTypeName": "number",
+      "description": "Total amount of private funds invested in the project.",
+      "nullCount": 0,
+      "cardinality": 5782
+    },
+    {
+      "name": "Public Funds",
+      "fieldName": "public_funds",
+      "dataTypeName": "number",
+      "description": "Total amount of City of Chicago funds invested in the project minus any payments throughout life of the project",
+      "nullCount": 0,
+      "cardinality": 5782
+    },
+    {
+      "name": "Public Funds to Completion",
+      "fieldName": "public_funds_to_completion",
+      "dataTypeName": "number",
+      "description": "Total amount of City of Chicago funds invested in the project.",
+      "nullCount": 0,
+      "cardinality": 5782
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:14.357Z"
+}

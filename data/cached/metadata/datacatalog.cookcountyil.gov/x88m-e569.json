@@ -1,0 +1,177 @@
+{
+  "id": "x88m-e569",
+  "name": "Assessor [Archived 05-11-2022] - First Pass Values",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 31163,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1555016174,
+  "publicationDate": 1555442684,
+  "rowsUpdatedAt": 1555440889,
+  "viewLastModified": 1769544899,
+  "viewCount": 6862,
+  "downloadCount": 2889,
+  "category": "Property & Taxation",
+  "tags": [
+    "cook county assessor",
+    "property tax",
+    "archive"
+  ],
+  "attribution": "Cook County Assessor's Office",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Assessor's Office"
+    },
+    "Metadata": {
+      "Update Frequency": "Monthly"
+    }
+  },
+  "columns": [
+    {
+      "name": "PIN",
+      "fieldName": "pin",
+      "dataTypeName": "text",
+      "description": "Unique PIN identifier for each property",
+      "nullCount": 0,
+      "cardinality": 31163
+    },
+    {
+      "name": "Property Address",
+      "fieldName": "addr",
+      "dataTypeName": "text",
+      "description": "Property street address, not the address of the taxpayer. ",
+      "nullCount": 258,
+      "cardinality": 21554
+    },
+    {
+      "name": "Most Recent Date Sale",
+      "fieldName": "most_recent_sale_date",
+      "dataTypeName": "calendar_date",
+      "description": "Most recent date of sale, where available",
+      "nullCount": 27709,
+      "cardinality": 472
+    },
+    {
+      "name": "Deed No.",
+      "fieldName": "doc_no",
+      "dataTypeName": "text",
+      "description": "Deed number for sale",
+      "nullCount": 27709,
+      "cardinality": 3090
+    },
+    {
+      "name": "Most Recent Sale Price",
+      "fieldName": "most_recent_sale_price",
+      "dataTypeName": "number",
+      "description": "Most recent sale price, where available",
+      "nullCount": 27709,
+      "cardinality": 981
+    },
+    {
+      "name": "Pure Market Indicator",
+      "fieldName": "puremarket",
+      "dataTypeName": "number",
+      "description": "Indicator variable for whether the sale took place as an arms-length sale. Only arms-length sales are considered valid for sales ratio studies. 0 = no, 1 = yes.",
+      "nullCount": 258,
+      "cardinality": 2
+    },
+    {
+      "name": "Estimate (Land)",
+      "fieldName": "est_land",
+      "dataTypeName": "number",
+      "description": "Estimate of the land from Board of Review final figures",
+      "nullCount": 258,
+      "cardinality": 6413
+    },
+    {
+      "name": "Estimate (Building)",
+      "fieldName": "est_bldg",
+      "dataTypeName": "number",
+      "description": "Estimate of the building from Board of Review final figures",
+      "nullCount": 258,
+      "cardinality": 18214
+    },
+    {
+      "name": "First Pass Value 1",
+      "fieldName": "fitted_value_1",
+      "dataTypeName": "number",
+      "description": "Valuation of the PIN after the first valuation step (Leverage optimal models to predict values)",
+      "nullCount": 0,
+      "cardinality": 20450
+    },
+    {
+      "name": "First Pass Value 2",
+      "fieldName": "fitted_value_2",
+      "dataTypeName": "number",
+      "description": "Valuation of the PIN after the second valuation step (Adjust values to 10% assessment level)",
+      "nullCount": 0,
+      "cardinality": 20413
+    },
+    {
+      "name": "Land Value",
+      "fieldName": "land_value",
+      "dataTypeName": "number",
+      "description": "Value of the land of the PIN",
+      "nullCount": 0,
+      "cardinality": 10285
+    },
+    {
+      "name": "Improvement Value",
+      "fieldName": "improvement_value",
+      "dataTypeName": "number",
+      "description": "Value of any improvements (i.e. buildings) on the land at the PIN",
+      "nullCount": 0,
+      "cardinality": 22844
+    },
+    {
+      "name": "First Pass Value 3",
+      "fieldName": "fitted_value_3",
+      "dataTypeName": "number",
+      "description": "Valuation of the PIN after the third valuation step (Regressivity adjustment - currently non-functional)",
+      "nullCount": 0,
+      "cardinality": 20413
+    },
+    {
+      "name": "First Pass Value 4",
+      "fieldName": "fitted_value_4",
+      "dataTypeName": "number",
+      "description": "Valuation of the PIN after the fourth valuation step (Limit excessive ratios)",
+      "nullCount": 0,
+      "cardinality": 20458
+    },
+    {
+      "name": "First Pass Value 5",
+      "fieldName": "fitted_value_5",
+      "dataTypeName": "number",
+      "description": "Valuation of the PIN after the fifth valuation step (Land valuation)",
+      "nullCount": 0,
+      "cardinality": 20130
+    },
+    {
+      "name": "First Pass Value 6",
+      "fieldName": "fitted_value_6",
+      "dataTypeName": "number",
+      "description": "Valuation of the PIN after the sixth valuation step (Condominiums)",
+      "nullCount": 0,
+      "cardinality": 22972
+    },
+    {
+      "name": "First Pass Value 7",
+      "fieldName": "fitted_value_7",
+      "dataTypeName": "number",
+      "description": "Valuation of the PIN after the seventh valuation step (Desktop Review)",
+      "nullCount": 20987,
+      "cardinality": 10018
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:51.883Z"
+}

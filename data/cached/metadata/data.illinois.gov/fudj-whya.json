@@ -1,0 +1,62 @@
+{
+  "id": "fudj-whya",
+  "name": "DOI Insurance Company Authority Codes",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 26,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1708036060,
+  "publicationDate": 1708106959,
+  "rowsUpdatedAt": 1708106953,
+  "viewLastModified": 1736793939,
+  "viewCount": 66,
+  "downloadCount": 83,
+  "category": "Business and Workforce",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Insurance"
+    },
+    "Data Management": {
+      "Maintainer": "DOI",
+      "Maintainer Email": "DOI.FOIA@illinois.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "CLASS 1",
+      "fieldName": "class_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 21,
+      "cardinality": 3
+    },
+    {
+      "name": "Unnamed Column",
+      "fieldName": "unnamed_column",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 26,
+      "cardinality": 0
+    },
+    {
+      "name": "LIFE, ACCIDENT & HEALTH",
+      "fieldName": "life_accident_health",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 26
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:36.355Z"
+}

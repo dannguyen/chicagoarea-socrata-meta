@@ -1,0 +1,408 @@
+{
+  "id": "9kva-bt6k",
+  "name": "Public Health Statistics - Births to mothers aged 15-19 years old in Chicago, by year, 1999-2009 - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 78,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1325195760,
+  "publicationDate": 1364487177,
+  "rowsUpdatedAt": 1364486074,
+  "viewLastModified": 1788213074,
+  "viewCount": 8828,
+  "downloadCount": 9094,
+  "category": "Health & Human Services",
+  "tags": [
+    "birth",
+    "teen",
+    "maternal health",
+    "historical"
+  ],
+  "attribution": "Illinois Department of Public Health (IDPH)",
+  "attributionLink": null,
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "1999-2009",
+      "Data Owner": "Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "Community Area Number",
+      "fieldName": "community_area_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 78
+    },
+    {
+      "name": "Community Area Name",
+      "fieldName": "community_area_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 78
+    },
+    {
+      "name": "Teen Births 1999",
+      "fieldName": "teen_teen_birth_rates_1999",
+      "dataTypeName": "number",
+      "description": "Number of births to females aged 15-19 years in 1999",
+      "nullCount": 0,
+      "cardinality": 67
+    },
+    {
+      "name": "Teen Birth Rate 1999",
+      "fieldName": "teen_birth_rate_rate_1999",
+      "dataTypeName": "number",
+      "description": "Number of births per 1000 females aged 15-19 years ",
+      "nullCount": 2,
+      "cardinality": 75
+    },
+    {
+      "name": " Teen Birth Rate 1999 Lower CI",
+      "fieldName": "teen_birth_rate_rate_1999_lower_ci",
+      "dataTypeName": "number",
+      "description": "Teen birth rate lower confidence interval (CI)",
+      "nullCount": 2,
+      "cardinality": 75
+    },
+    {
+      "name": " Teen Birth  Rate 1999 Upper CI",
+      "fieldName": "teen_birth_rate_rate_1999_upper_ci",
+      "dataTypeName": "number",
+      "description": "Teen birth rate upper confidence interval (CI)",
+      "nullCount": 2,
+      "cardinality": 75
+    },
+    {
+      "name": " Teen Births 2000",
+      "fieldName": "teen_teen_birth_rates_2000",
+      "dataTypeName": "number",
+      "description": "Number of births to females aged 15-19 years in 2000",
+      "nullCount": 0,
+      "cardinality": 67
+    },
+    {
+      "name": "Teen Birth Rate  2000",
+      "fieldName": "teen_birth_rate_rate_2000",
+      "dataTypeName": "number",
+      "description": "Number of births per 1000 females aged 15-19 years",
+      "nullCount": 0,
+      "cardinality": 76
+    },
+    {
+      "name": " Teen Birth Rate 2000 Lower CI",
+      "fieldName": "teen_birth_rate_rate_2000_lower_ci",
+      "dataTypeName": "number",
+      "description": "Teen birth rate lower confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": " Teen Birth Rate 2000 Upper CI",
+      "fieldName": "teen_birth_rate_rate_2000_upper_ci",
+      "dataTypeName": "number",
+      "description": "Teen birth rate upper confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 76
+    },
+    {
+      "name": " Teen Births  2001",
+      "fieldName": "teen_teen_birth_rates_2001",
+      "dataTypeName": "number",
+      "description": "Number of births to females aged 15-19 years in 2001",
+      "nullCount": 0,
+      "cardinality": 65
+    },
+    {
+      "name": "Teen Birth Rate 2001",
+      "fieldName": "teen_birth_rate_rate_2001",
+      "dataTypeName": "number",
+      "description": "Number of births per 1000 females aged 15-19 years",
+      "nullCount": 1,
+      "cardinality": 74
+    },
+    {
+      "name": "Teen Birth Rate 2001 Lower CI",
+      "fieldName": "teen_birth_rate_rate_2001_lower_ci",
+      "dataTypeName": "number",
+      "description": "Teen birth rate lower confidence interval",
+      "nullCount": 1,
+      "cardinality": 75
+    },
+    {
+      "name": " Teen Birth Rate 2001 Upper CI",
+      "fieldName": "teen_birth_rate_rate_2001_upper_ci",
+      "dataTypeName": "number",
+      "description": "Teen birth weight upper confidence interval",
+      "nullCount": 1,
+      "cardinality": 76
+    },
+    {
+      "name": " Teen Births 2002",
+      "fieldName": "teen_teen_birth_rates_2002",
+      "dataTypeName": "number",
+      "description": "Number of births to females aged 15-19 years in 2002",
+      "nullCount": 0,
+      "cardinality": 64
+    },
+    {
+      "name": "Teen Birth Rate 2002",
+      "fieldName": "teen_birth_rate_rate_2002",
+      "dataTypeName": "number",
+      "description": "Number of births per 1000 females aged 15-19 years",
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": " Teen Birth Rate 2002 Lower CI",
+      "fieldName": "teen_birth_rate_rate_2002_lower_ci",
+      "dataTypeName": "number",
+      "description": "Teen birth rate lower confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 74
+    },
+    {
+      "name": " Teen Birth Rate 2002 Upper CI",
+      "fieldName": "teen_birth_rate_rate_2002_upper_ci",
+      "dataTypeName": "number",
+      "description": "Teen birth rate upper confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": "Teen Births 2003",
+      "fieldName": "teen_teen_birth_rates_2003",
+      "dataTypeName": "number",
+      "description": "Number of births to females aged 15-19 years in 2003\n",
+      "nullCount": 0,
+      "cardinality": 66
+    },
+    {
+      "name": "Teen Birth Rate 2003",
+      "fieldName": "teen_birth_rate_rate_2003",
+      "dataTypeName": "number",
+      "description": "Number of births per 1000 females aged 15-19 years",
+      "nullCount": 1,
+      "cardinality": 72
+    },
+    {
+      "name": "Teen Birth Rate 2003 Lower CI",
+      "fieldName": "teen_birth_rate_rate_2003_lower_ci",
+      "dataTypeName": "number",
+      "description": "Teen birth rate lower confidence interval (CI)",
+      "nullCount": 1,
+      "cardinality": 73
+    },
+    {
+      "name": " Teen Birth Rate 2003 Upper CI",
+      "fieldName": "teen_birth_rate_rate_2003_upper_ci",
+      "dataTypeName": "number",
+      "description": "Teen birth rate upper confidence interval (CI)",
+      "nullCount": 1,
+      "cardinality": 75
+    },
+    {
+      "name": "Teen Births 2004",
+      "fieldName": "teen_teen_birth_rates_2004",
+      "dataTypeName": "number",
+      "description": "Number of births to females aged 15-19 years in 2004",
+      "nullCount": 0,
+      "cardinality": 62
+    },
+    {
+      "name": "Teen Birth Rate 2004",
+      "fieldName": "teen_birth_rate_rate_2004",
+      "dataTypeName": "number",
+      "description": "Number of births per 1000 females aged 15-19 years",
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": "Teen Birth  Rate 2004 Lower CI",
+      "fieldName": "teen_birth_rate_rate_2004_lower_ci",
+      "dataTypeName": "number",
+      "description": "Lower confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": "Teen Birth Rate 2004 Upper CI",
+      "fieldName": "teen_birth_rate_rate_2004_upper_ci",
+      "dataTypeName": "number",
+      "description": "Upper confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 76
+    },
+    {
+      "name": " Teen Births 2005",
+      "fieldName": "teen_teen_birth_rates_2005",
+      "dataTypeName": "number",
+      "description": "Number of births to females aged 15-19 years in 2005",
+      "nullCount": 0,
+      "cardinality": 61
+    },
+    {
+      "name": "Teen Birth Rate 2005",
+      "fieldName": "teen_birth_rate_rate_2005",
+      "dataTypeName": "number",
+      "description": "Number of births per 1000 females aged 15-19 years",
+      "nullCount": 0,
+      "cardinality": 75
+    },
+    {
+      "name": "Teen Birth Rate 2005 Lower CI",
+      "fieldName": "teen_birth_rate_rate_2005_lower_ci",
+      "dataTypeName": "number",
+      "description": "Lower confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 74
+    },
+    {
+      "name": "Teen Birth Rate 2005 Upper CI",
+      "fieldName": "teen_birth_rate_rate_2005_upper_ci",
+      "dataTypeName": "number",
+      "description": "Upper confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 75
+    },
+    {
+      "name": "Teen Births 2006",
+      "fieldName": "teen_teen_birth_rates_2006",
+      "dataTypeName": "number",
+      "description": "Number of births to females aged 15-19 years in 2006",
+      "nullCount": 0,
+      "cardinality": 62
+    },
+    {
+      "name": "Teen Birth Rate 2006",
+      "fieldName": "teen_birth_rate_rate_2006",
+      "dataTypeName": "number",
+      "description": "Number of births per 1000 females aged 15-19 years",
+      "nullCount": 1,
+      "cardinality": 75
+    },
+    {
+      "name": "Teen Birth Rate 2006 Lower CI",
+      "fieldName": "teen_birth_rate_rate_2006_lower_ci",
+      "dataTypeName": "number",
+      "description": "Lower confidence interval (CI)",
+      "nullCount": 1,
+      "cardinality": 71
+    },
+    {
+      "name": "Teen Birth Rate 2006 Upper CI",
+      "fieldName": "teen_birth_rate_rate_2006_upper_ci",
+      "dataTypeName": "number",
+      "description": "Upper confidence interval (CI)",
+      "nullCount": 1,
+      "cardinality": 76
+    },
+    {
+      "name": "Teen Births 2007",
+      "fieldName": "teen_teen_birth_rates_2007",
+      "dataTypeName": "number",
+      "description": "Number of births to females aged 15-19 years in 2007",
+      "nullCount": 0,
+      "cardinality": 61
+    },
+    {
+      "name": "Teen Birth Rate 2007",
+      "fieldName": "teen_birth_rate_rate_2007",
+      "dataTypeName": "number",
+      "description": "Number of births per 1000 females aged 15-19 years",
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": "Teen Birth Rate 2007 Lower CI",
+      "fieldName": "teen_birth_rate_rate_2007_lower_ci",
+      "dataTypeName": "number",
+      "description": "Lower confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 75
+    },
+    {
+      "name": "Teen Birth Rate 2007 Upper CI",
+      "fieldName": "teen_birth_rate_rate_2007_upper_ci",
+      "dataTypeName": "number",
+      "description": "Upper confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 72
+    },
+    {
+      "name": "Teen Births 2008",
+      "fieldName": "teen_teen_birth_rates_2008",
+      "dataTypeName": "number",
+      "description": "Number of births to females aged 15-19 years in 2008",
+      "nullCount": 0,
+      "cardinality": 61
+    },
+    {
+      "name": "Teen Birth Rate 2008",
+      "fieldName": "teen_birth_rate_rate_2008",
+      "dataTypeName": "number",
+      "description": "Number of births per 1000 females aged 15-19 years",
+      "nullCount": 0,
+      "cardinality": 75
+    },
+    {
+      "name": "Teen Birth Rate 2008 Lower CI",
+      "fieldName": "teen_birth_rate_rate_2008_lower_ci",
+      "dataTypeName": "number",
+      "description": "Lower confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 75
+    },
+    {
+      "name": "Teen Birth Rate 2008 Upper CI",
+      "fieldName": "teen_birth_rate_rate_2008_upper_ci",
+      "dataTypeName": "number",
+      "description": "Upper confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 75
+    },
+    {
+      "name": "Teen Births 2009",
+      "fieldName": "teen_teen_birth_rates_2009",
+      "dataTypeName": "number",
+      "description": "Number of births to females aged 15-19 years in 2009",
+      "nullCount": 0,
+      "cardinality": 60
+    },
+    {
+      "name": "Teen Birth Rate 2009",
+      "fieldName": "teen_birth_rate_rate_2009",
+      "dataTypeName": "number",
+      "description": "Number of births per 1000 females aged 15-19 years",
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": "Teen Birth Rate 2009 Lower CI",
+      "fieldName": "teen_birth_rate_rate_2009_lower_ci",
+      "dataTypeName": "number",
+      "description": "Lower confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 74
+    },
+    {
+      "name": "Teen Birth Rate 2009 Upper CI",
+      "fieldName": "teen_birth_rate_rate_2009_upper_ci",
+      "dataTypeName": "number",
+      "description": "Upper confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 76
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:38:05.988Z"
+}

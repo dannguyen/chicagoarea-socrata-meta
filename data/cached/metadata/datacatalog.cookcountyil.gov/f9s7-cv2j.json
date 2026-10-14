@@ -1,0 +1,56 @@
+{
+  "id": "f9s7-cv2j",
+  "name": "Administrative Hearings -Top 5 Animal Control Violations - Fiscal Year 2011 Incomplete",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 6,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1317225330,
+  "publicationDate": 1412895609,
+  "rowsUpdatedAt": 1412895603,
+  "viewLastModified": 1769543988,
+  "viewCount": 871,
+  "downloadCount": 2605,
+  "category": "Legal & Judicial",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Administrative Hearings",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Violation Code",
+      "fieldName": "violation_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Top 5 Violations Report - 12/1/2010 - 9/22/2011",
+      "fieldName": "top_5_violations_report_12_1_2010_9_22_2011",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 5
+    },
+    {
+      "name": "Animal Control",
+      "fieldName": "animal_control",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:05.389Z"
+}

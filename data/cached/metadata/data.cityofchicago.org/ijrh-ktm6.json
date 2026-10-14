@@ -1,0 +1,89 @@
+{
+  "id": "ijrh-ktm6",
+  "name": "Tax Increment Financing (TIF) Annual Report - List of Vendors paid in excess of $10,000",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 6282,
+  "rowCountSource": "cached",
+  "rowLabel": "Vendor",
+  "hasRowIdentifier": false,
+  "createdAt": 1566487334,
+  "publicationDate": 1566487793,
+  "rowsUpdatedAt": 1788191134,
+  "viewLastModified": 1788191133,
+  "viewCount": 1183,
+  "downloadCount": 2643,
+  "category": "Community & Economic Development",
+  "tags": [
+    "tif",
+    "payments",
+    "vendors",
+    "tif annual report"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2017-2025",
+      "Frequency": "Data are updated annually",
+      "Data Owner": "Department of Planning and Development"
+    }
+  },
+  "columns": [
+    {
+      "name": "TIF Number",
+      "fieldName": "tif_number",
+      "dataTypeName": "text",
+      "description": "The unique, numeric ID assigned to the TIF district.",
+      "nullCount": 0,
+      "cardinality": 6282
+    },
+    {
+      "name": "TIF District",
+      "fieldName": "tif_district",
+      "dataTypeName": "text",
+      "description": "Redevelopment project area.",
+      "nullCount": 0,
+      "cardinality": 6282
+    },
+    {
+      "name": "Report Year",
+      "fieldName": "report_year",
+      "dataTypeName": "number",
+      "description": "Calendar year to which the record applies.",
+      "nullCount": 0,
+      "cardinality": 6282
+    },
+    {
+      "name": "Vendor Name",
+      "fieldName": "vendor_name",
+      "dataTypeName": "text",
+      "description": "Name of the person or agency providing a service.",
+      "nullCount": 0,
+      "cardinality": 6282
+    },
+    {
+      "name": "Vendor Service",
+      "fieldName": "vendor_service",
+      "dataTypeName": "text",
+      "description": "Type of service sold by the Vendor.",
+      "nullCount": 0,
+      "cardinality": 6282
+    },
+    {
+      "name": "Payment",
+      "fieldName": "payment",
+      "dataTypeName": "number",
+      "description": "Amount paid as compensation for service provided.",
+      "nullCount": 0,
+      "cardinality": 6282
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:19.470Z"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "q93p-dagd",
+  "name": "Performance Metrics - Chicago Park District - Comptroller Accounts Payable Aging",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 14,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1322251489,
+  "publicationDate": 1341348620,
+  "rowsUpdatedAt": 1341348613,
+  "viewLastModified": 1341348620,
+  "viewCount": 1776,
+  "downloadCount": 2863,
+  "category": "Administration & Finance",
+  "tags": [
+    "performance metrics",
+    "parks"
+  ],
+  "attribution": "Chicago Park District",
+  "attributionLink": "http://www.chicagoparkdistrict.com/",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "Data is current as of November 2011",
+      "Frequency": "Data is updated monthly",
+      "Data Owner": "Chicago Park District"
+    }
+  },
+  "columns": [
+    {
+      "name": "Month",
+      "fieldName": "month",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 14
+    },
+    {
+      "name": "% of Invoices Paid within Target",
+      "fieldName": "a_p_aging",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11
+    },
+    {
+      "name": "Target",
+      "fieldName": "target",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:15.080Z"
+}

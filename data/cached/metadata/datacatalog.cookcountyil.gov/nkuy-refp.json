@@ -1,0 +1,60 @@
+{
+  "id": "nkuy-refp",
+  "name": "Department of Revenue - Unincorporated Cook County Municipalities by Township and ZIP",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 12927,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1315509670,
+  "publicationDate": 1315509670,
+  "rowsUpdatedAt": 1315509751,
+  "viewLastModified": 1769543441,
+  "viewCount": 7016,
+  "downloadCount": 4738,
+  "category": "Boundaries & Districts",
+  "tags": [
+    "department of revenue",
+    "unincoporated cook county municipalities",
+    "township",
+    "zip code",
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Revenue",
+  "attributionLink": "http://cookcountyil.gov/revenue",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Township",
+      "fieldName": "township",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 59
+    },
+    {
+      "name": "Municipality",
+      "fieldName": "municipality",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 8224,
+      "cardinality": 135
+    },
+    {
+      "name": "ZIP Code",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 150
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:51.565Z"
+}

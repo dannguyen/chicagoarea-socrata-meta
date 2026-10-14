@@ -1,0 +1,64 @@
+{
+  "id": "jfz3-kt6t",
+  "name": "State's Attorney Felony Cases - Initiation Results",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 54,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1507660584,
+  "publicationDate": 1508167665,
+  "rowsUpdatedAt": 1508167631,
+  "viewLastModified": 1769547109,
+  "viewCount": 2000,
+  "downloadCount": 2200,
+  "category": "Legal & Judicial",
+  "tags": [
+    "state's attorney baseline data report",
+    "inactive"
+  ],
+  "attribution": "Cook County State's Attorney Office",
+  "attributionLink": "https://www.cookcountystatesattorney.org/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County State's Attorney Office"
+    },
+    "Publishing Details": {
+      "Publishing frequency": "Annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "YEAR",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": "The year in which the action initiation occurred. ",
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "INITIATION RESULT",
+      "fieldName": "initiation_result",
+      "dataTypeName": "text",
+      "description": "How defendants are charged with felony cases. This may occur through a Felony Review, a Grand Jury Indictment, or Direct Filing by Law Enforcement.",
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "DEFENDANT COUNT",
+      "fieldName": "defendant_count",
+      "dataTypeName": "number",
+      "description": "Count of defendants",
+      "nullCount": 0,
+      "cardinality": 45
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:57.072Z"
+}

@@ -1,0 +1,187 @@
+{
+  "id": "n7f2-e2kq",
+  "name": "COVID-19 - Vaccinations by Region, Age, and Race-Ethnicity - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 40880,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1685997730,
+  "publicationDate": 1688072705,
+  "rowsUpdatedAt": 1702488419,
+  "viewLastModified": 1788212980,
+  "viewCount": 2038,
+  "downloadCount": 2486,
+  "category": "Health & Human Services",
+  "tags": [
+    "covid-19",
+    "health",
+    "public health",
+    "vaccination",
+    "ethnicity",
+    "race",
+    "historical"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://chicago.gov/coronavirus",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "December 2020 - September 2023",
+      "Data Owner": "Department of Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "Equity Zone",
+      "fieldName": "equity_zone",
+      "dataTypeName": "text",
+      "description": "Healthy Chicago Equity Zone",
+      "nullCount": 560,
+      "cardinality": 8
+    },
+    {
+      "name": "Date",
+      "fieldName": "date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 560,
+      "cardinality": 144
+    },
+    {
+      "name": "Age Group",
+      "fieldName": "age_group",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 560,
+      "cardinality": 5
+    },
+    {
+      "name": "Race/Ethnicity",
+      "fieldName": "race_ethnicity",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 560,
+      "cardinality": 7
+    },
+    {
+      "name": "Population Size",
+      "fieldName": "population_size",
+      "dataTypeName": "number",
+      "description": "Number of people in the combination of the age and race/ethnicity group",
+      "nullCount": 16688,
+      "cardinality": 168
+    },
+    {
+      "name": "1st Dose",
+      "fieldName": "_1st_dose",
+      "dataTypeName": "number",
+      "description": "Number of people who have received one dose.",
+      "nullCount": 560,
+      "cardinality": 21673
+    },
+    {
+      "name": "1st Dose Percent",
+      "fieldName": "_1st_dose_percent",
+      "dataTypeName": "number",
+      "description": "Percentage of people who have received one dose.",
+      "nullCount": 16688,
+      "cardinality": 991
+    },
+    {
+      "name": "Vaccine Series Completed",
+      "fieldName": "vaccine_series_completed",
+      "dataTypeName": "number",
+      "description": "Number of people who have a completed vaccine series.",
+      "nullCount": 560,
+      "cardinality": 17943
+    },
+    {
+      "name": "Vaccine Series Completed Percent",
+      "fieldName": "vaccine_series_completed_percent",
+      "dataTypeName": "number",
+      "description": "Percentage of people who have a completed vaccine series.",
+      "nullCount": 16688,
+      "cardinality": 989
+    },
+    {
+      "name": "Bivalent",
+      "fieldName": "bivalent",
+      "dataTypeName": "number",
+      "description": "Number of people who have received a bivalent (updated) vaccine dose.",
+      "nullCount": 560,
+      "cardinality": 7460
+    },
+    {
+      "name": "Bivalent Percent",
+      "fieldName": "bivalent_percent",
+      "dataTypeName": "number",
+      "description": "Percentage of people who have received a bivalent (updated) vaccine dose.",
+      "nullCount": 16688,
+      "cardinality": 848
+    },
+    {
+      "name": "Region Centroid",
+      "fieldName": "region_centroid",
+      "dataTypeName": "point",
+      "description": "A point that falls inside the Equity Zone, usually the centroid but adjusted if the centroid would fall outside the region. It is present to facilitate geographic analysis.",
+      "nullCount": 10640,
+      "cardinality": 6
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Boundaries - ZIP Codes' (rpca-8um6) the point in column 'region_centroid' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Community Areas' (vrxf-vc4k) the point in column 'region_centroid' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Zip Codes' (6mkv-f3dw) the point in column 'region_centroid' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Census Tracts' (bdys-3d7i) the point in column 'region_centroid' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Wards' (43wa-7qmu) the point in column 'region_centroid' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Healthy Chicago Equity Zones",
+      "fieldName": ":@computed_region_jp73_ecbj",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Healthy Chicago Equity Zones' (jp73-ecbj) the point in column 'region_centroid' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:13.357Z"
+}

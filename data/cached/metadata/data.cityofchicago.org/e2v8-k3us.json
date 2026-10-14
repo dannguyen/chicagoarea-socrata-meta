@@ -1,0 +1,163 @@
+{
+  "id": "e2v8-k3us",
+  "name": "Chicago Park District: Movies in the Parks 2018",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 221,
+  "rowCountSource": "cached",
+  "rowLabel": "Movie",
+  "hasRowIdentifier": false,
+  "createdAt": 1526530064,
+  "publicationDate": 1527004329,
+  "rowsUpdatedAt": 1527004107,
+  "viewLastModified": 1746114244,
+  "viewCount": 3434,
+  "downloadCount": 3455,
+  "category": "Events",
+  "tags": [
+    "movies",
+    "parks",
+    "events",
+    "parks & recreation",
+    "chicago park district"
+  ],
+  "attribution": "Chicago Park District",
+  "attributionLink": "https://www.chicagoparkdistrict.com/events/night-out-in-the-parks",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "Summer 2018",
+      "Frequency": "One-time, static",
+      "Data Owner": "Chicago Park District"
+    }
+  },
+  "columns": [
+    {
+      "name": "Day",
+      "fieldName": "day",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Date",
+      "fieldName": "date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 79
+    },
+    {
+      "name": "Park",
+      "fieldName": "park",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 151
+    },
+    {
+      "name": "Park Phone",
+      "fieldName": "park_phone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 136
+    },
+    {
+      "name": "Title",
+      "fieldName": "title",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 103
+    },
+    {
+      "name": "CC",
+      "fieldName": "cc",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Rating",
+      "fieldName": "rating",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Underwriter",
+      "fieldName": "underwriter",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 140,
+      "cardinality": 33
+    },
+    {
+      "name": "Park Address",
+      "fieldName": "park_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 151
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:07.619Z"
+}

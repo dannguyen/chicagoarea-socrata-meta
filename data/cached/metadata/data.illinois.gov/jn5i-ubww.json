@@ -1,0 +1,112 @@
+{
+  "id": "jn5i-ubww",
+  "name": "Racing Board Grant Data",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 27,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1736281405,
+  "publicationDate": 1736285753,
+  "rowsUpdatedAt": 1782184520,
+  "viewLastModified": 1782184519,
+  "viewCount": 68,
+  "downloadCount": 85,
+  "category": "Government and Public Employees",
+  "tags": [
+    "grants",
+    "racing"
+  ],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Racing Board"
+    },
+    "Data Management": {
+      "Maintainer Email": "vitto.okoye@illinois.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "Fund name",
+      "fieldName": "fund_name",
+      "dataTypeName": "text",
+      "description": "Title of the fund",
+      "nullCount": 0,
+      "cardinality": 27
+    },
+    {
+      "name": "Fund Number",
+      "fieldName": "fund_number",
+      "dataTypeName": "number",
+      "description": "Unique identifier assigned to each fund",
+      "nullCount": 0,
+      "cardinality": 27
+    },
+    {
+      "name": "Purpose of Fund",
+      "fieldName": "purpose_of_fund",
+      "dataTypeName": "text",
+      "description": "Detailed explanation of the fund's intended use and objectives",
+      "nullCount": 0,
+      "cardinality": 27
+    },
+    {
+      "name": "Source of Funding",
+      "fieldName": "source_of_funding",
+      "dataTypeName": "text",
+      "description": "Origin of the financial resources",
+      "nullCount": 0,
+      "cardinality": 27
+    },
+    {
+      "name": "Footnote",
+      "fieldName": "footnote",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 27
+    },
+    {
+      "name": "Vendor",
+      "fieldName": "vendor",
+      "dataTypeName": "text",
+      "description": "Name of the organization or entity receiving or managing the funds",
+      "nullCount": 0,
+      "cardinality": 27
+    },
+    {
+      "name": "Calendar Year",
+      "fieldName": "calendar_year",
+      "dataTypeName": "number",
+      "description": "The year in which the fund is active or was awarded",
+      "nullCount": 0,
+      "cardinality": 27
+    },
+    {
+      "name": "Award Date",
+      "fieldName": "award_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 27
+    },
+    {
+      "name": "Award Amount",
+      "fieldName": "award_amount",
+      "dataTypeName": "number",
+      "description": "Monetary value of the fund allocation",
+      "nullCount": 0,
+      "cardinality": 27
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:35.814Z"
+}

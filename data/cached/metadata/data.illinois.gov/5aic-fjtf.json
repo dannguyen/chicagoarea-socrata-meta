@@ -1,0 +1,111 @@
+{
+  "id": "5aic-fjtf",
+  "name": "Mortality Data 2008 to 2020",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 220935,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709303679,
+  "publicationDate": 1709304089,
+  "rowsUpdatedAt": 1709304070,
+  "viewLastModified": 1726858395,
+  "viewCount": 218,
+  "downloadCount": 43,
+  "category": "Department of Public Health",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Work Groups": {
+      "Group": "",
+      "Supplemental Group": ""
+    },
+    "Data Management": {
+      "Maintainer": "Kelsey Cutler",
+      "Maintainer Email": "kelsey.cutler2@illinois.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "Cause of Death",
+      "fieldName": "cause_of_death",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11
+    },
+    {
+      "name": "County",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 103
+    },
+    {
+      "name": "sex",
+      "fieldName": "sex",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Race Ethnicity",
+      "fieldName": "race_ethnicity",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 13
+    },
+    {
+      "name": "Population Estimate",
+      "fieldName": "population_estimate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10905
+    },
+    {
+      "name": "Death",
+      "fieldName": "death",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2733
+    },
+    {
+      "name": "Crude Death Rate per 100,000 Population",
+      "fieldName": "crude_death_rate_per_100",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 31228
+    },
+    {
+      "name": "Age Adjusted Death Rate per 100,000 Population",
+      "fieldName": "age_adjusted_death_rate_per",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 23230
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:33.771Z"
+}

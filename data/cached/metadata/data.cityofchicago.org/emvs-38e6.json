@@ -1,0 +1,97 @@
+{
+  "id": "emvs-38e6",
+  "name": "Performance Metrics - Business Affairs & Consumer Protection - Business Licenses",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2564,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1314199241,
+  "publicationDate": 1759748510,
+  "rowsUpdatedAt": 1759748502,
+  "viewLastModified": 1759748510,
+  "viewCount": 5362,
+  "downloadCount": 5865,
+  "category": "Administration & Finance",
+  "tags": [
+    "performance metrics",
+    "service delivery",
+    "business",
+    "licenses"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org/performance",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "April 2011 to present",
+      "Frequency": "Data is updated weekly",
+      "Data Owner": "Business Affairs & Consumer Protection"
+    }
+  },
+  "columns": [
+    {
+      "name": "LICENCE CODE",
+      "fieldName": "licence_code",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2564
+    },
+    {
+      "name": "LICENSE DESCRIPTION",
+      "fieldName": "license_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2564
+    },
+    {
+      "name": "YEAR",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2564
+    },
+    {
+      "name": "WEEK",
+      "fieldName": "week",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2564
+    },
+    {
+      "name": "AVERAGE DAYS TO ISSUE LICENSE",
+      "fieldName": "average_days_to_issue_license",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2564
+    },
+    {
+      "name": "MEDIAN DAYS TO ISSUE LICENSE",
+      "fieldName": "median_days_to_issue_license",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2564
+    },
+    {
+      "name": "TOTAL LICENSES ISSUED",
+      "fieldName": "total_licenses_issued",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2564
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:04.074Z"
+}

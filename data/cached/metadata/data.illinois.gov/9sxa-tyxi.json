@@ -1,0 +1,150 @@
+{
+  "id": "9sxa-tyxi",
+  "name": "IDPH Licensed Swimming Facilities",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1000,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709064570,
+  "publicationDate": 1709145226,
+  "rowsUpdatedAt": 1709145220,
+  "viewLastModified": 1736793985,
+  "viewCount": 180,
+  "downloadCount": 120,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "batherload",
+      "fieldName": "batherload",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 707,
+      "cardinality": 125
+    },
+    {
+      "name": "county",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 46
+    },
+    {
+      "name": "fac_license_status",
+      "fieldName": "fac_license_status",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 568,
+      "cardinality": 6
+    },
+    {
+      "name": "facility_name",
+      "fieldName": "facility_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 417
+    },
+    {
+      "name": "feature_location",
+      "fieldName": "feature_location",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 433,
+      "cardinality": 2
+    },
+    {
+      "name": "feature_name",
+      "fieldName": "feature_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 513,
+      "cardinality": 74
+    },
+    {
+      "name": "feature_status",
+      "fieldName": "feature_status",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 434,
+      "cardinality": 5
+    },
+    {
+      "name": "feature_type",
+      "fieldName": "feature_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 432,
+      "cardinality": 8
+    },
+    {
+      "name": "idph_region",
+      "fieldName": "idph_region",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "license_id",
+      "fieldName": "license_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 432
+    },
+    {
+      "name": "location_1",
+      "fieldName": "location_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 431
+    },
+    {
+      "name": "s_e_compliance",
+      "fieldName": "s_e_compliance",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 497,
+      "cardinality": 2
+    },
+    {
+      "name": "surface_area",
+      "fieldName": "surface_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 567,
+      "cardinality": 248
+    },
+    {
+      "name": "volume",
+      "fieldName": "volume",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 877,
+      "cardinality": 102
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:34.171Z"
+}

@@ -1,0 +1,236 @@
+{
+  "id": "jqe8-8r6s",
+  "name": "West Nile Virus (WNV) Mosquito Test Results",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 45482,
+  "rowCountSource": "cached",
+  "rowLabel": "Test Batch",
+  "hasRowIdentifier": false,
+  "createdAt": 1429288095,
+  "publicationDate": 1783542975,
+  "rowsUpdatedAt": 1790924783,
+  "viewLastModified": 1783708373,
+  "viewCount": 14951,
+  "downloadCount": 20991,
+  "category": "Health & Human Services",
+  "tags": [
+    "mosquitoes",
+    "west nile virus",
+    "wnv",
+    "environmental health",
+    "public health",
+    "vector"
+  ],
+  "attribution": "Chicago Department of Public Health",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2007 to Present",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"jqe8-8r6s\"",
+      "Frequency": "Data are updated daily, with new records typically added towards the end of the week from June to October.",
+      "Data Owner": "Chicago Department of Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "SEASON YEAR",
+      "fieldName": "season_year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 45482
+    },
+    {
+      "name": "WEEK",
+      "fieldName": "week",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 45482
+    },
+    {
+      "name": "WEEK_START",
+      "fieldName": "week_start",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 45482
+    },
+    {
+      "name": "WEEK_END",
+      "fieldName": "week_end",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 45482
+    },
+    {
+      "name": "TEST ID",
+      "fieldName": "test_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 5374,
+      "cardinality": 45482
+    },
+    {
+      "name": "BLOCK",
+      "fieldName": "block",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 45482
+    },
+    {
+      "name": "TRAP",
+      "fieldName": "trap",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 45482
+    },
+    {
+      "name": "TRAP_TYPE",
+      "fieldName": "trap_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 45482
+    },
+    {
+      "name": "TEST DATE",
+      "fieldName": "test_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 5374,
+      "cardinality": 45482
+    },
+    {
+      "name": "NUMBER OF MOSQUITOES",
+      "fieldName": "number_of_mosquitoes",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 45482
+    },
+    {
+      "name": "RESULT",
+      "fieldName": "result",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 5374,
+      "cardinality": 45482
+    },
+    {
+      "name": "SPECIES",
+      "fieldName": "species",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 5374,
+      "cardinality": 45482
+    },
+    {
+      "name": "COMMUNITY AREA NUMBER",
+      "fieldName": "community_area_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 120,
+      "cardinality": 45482
+    },
+    {
+      "name": "COMMUNITY AREA NAME",
+      "fieldName": "community_area_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 120,
+      "cardinality": 45482
+    },
+    {
+      "name": "WARD",
+      "fieldName": "ward",
+      "dataTypeName": "number",
+      "description": "Current ward (City Council district), not necessarily the ward at the time of the test.",
+      "nullCount": 120,
+      "cardinality": 45482
+    },
+    {
+      "name": "ZIP CODE",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": "Current ZIP Code, not necessarily the ZIP Code at the time of the test.",
+      "nullCount": 0,
+      "cardinality": 45482
+    },
+    {
+      "name": "LATITUDE",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 120,
+      "cardinality": 45482
+    },
+    {
+      "name": "LONGITUDE",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 120,
+      "cardinality": 45482
+    },
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:37:49.202Z"
+}

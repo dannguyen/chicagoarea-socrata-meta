@@ -1,0 +1,96 @@
+{
+  "id": "ngnv-dvxx",
+  "name": "FOIA Request Log - Public Building Commission",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 576,
+  "rowCountSource": "cached",
+  "rowLabel": "FOIA Request",
+  "hasRowIdentifier": false,
+  "createdAt": 1443729786,
+  "publicationDate": 1467223409,
+  "rowsUpdatedAt": 1791471818,
+  "viewLastModified": 1467223409,
+  "viewCount": 6637,
+  "downloadCount": 35169,
+  "category": "FOIA",
+  "tags": [
+    "foia",
+    "pbc",
+    "public building commission"
+  ],
+  "attribution": "Public Building Commission",
+  "attributionLink": "http://www.pbcchicago.com",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2015 - present",
+      "Frequency": "As needed",
+      "Data Owner": "Public Building Commission"
+    }
+  },
+  "columns": [
+    {
+      "name": "Date Received",
+      "fieldName": "date_received",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 576
+    },
+    {
+      "name": "Method",
+      "fieldName": "method",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 576
+    },
+    {
+      "name": "Organization",
+      "fieldName": "organization",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 128,
+      "cardinality": 576
+    },
+    {
+      "name": "Contact Name",
+      "fieldName": "contact_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 576
+    },
+    {
+      "name": "Project",
+      "fieldName": "project",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 120,
+      "cardinality": 576
+    },
+    {
+      "name": "Information Requested",
+      "fieldName": "information_requested",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 576
+    },
+    {
+      "name": "Due Date",
+      "fieldName": "due_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 576
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:02.302Z"
+}

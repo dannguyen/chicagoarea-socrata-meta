@@ -1,0 +1,107 @@
+{
+  "id": "u88z-wkud",
+  "name": "Commission on Women’s Issues Public Hearing Reports",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 10,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1466714136,
+  "publicationDate": 1466714983,
+  "rowsUpdatedAt": 1466714952,
+  "viewLastModified": 1769548111,
+  "viewCount": 926,
+  "downloadCount": 2268,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Commission on Women’s Issues",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Commission on Women’s Issues"
+    },
+    "Metadata": {
+      "Update Frequency": "Yearly"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Annually",
+      "Publishing frequency": "Annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "Topic",
+      "fieldName": "topic",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "Description",
+      "fieldName": "description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "Hearing Date",
+      "fieldName": "hearing_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "Program",
+      "fieldName": "program",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": null
+    },
+    {
+      "name": "Presentation/Report",
+      "fieldName": "presentation_report",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": "Handout 1",
+      "fieldName": "handout_1",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": 8,
+      "cardinality": null
+    },
+    {
+      "name": "Handout 2",
+      "fieldName": "handout_2",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": 9,
+      "cardinality": null
+    },
+    {
+      "name": "List of Presenters",
+      "fieldName": "list_of_presenters",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:04.639Z"
+}

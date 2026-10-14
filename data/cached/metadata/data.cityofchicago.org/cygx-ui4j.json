@@ -1,0 +1,281 @@
+{
+  "id": "cygx-ui4j",
+  "name": "Dig Ticket Notifications",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 9015520,
+  "rowCountSource": "cached",
+  "rowLabel": "Dig Ticket Notification",
+  "hasRowIdentifier": true,
+  "createdAt": 1571941396,
+  "publicationDate": 1572381007,
+  "rowsUpdatedAt": 1791975445,
+  "viewLastModified": 1572629274,
+  "viewCount": 8017,
+  "downloadCount": 3978,
+  "category": "Transportation",
+  "tags": [
+    "dig ticket",
+    "transportation",
+    "utilities",
+    "excavation"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "1/1/2018 - Present",
+      "Frequency": "Data are updated daily",
+      "Data Owner": "Department of Transportation"
+    }
+  },
+  "columns": [
+    {
+      "name": "DIG_TICKET#",
+      "fieldName": "dig_ticket_",
+      "dataTypeName": "number",
+      "description": "Dig ticket number which can be reviewed through the 811 user portal.  ",
+      "nullCount": 0,
+      "cardinality": 694932
+    },
+    {
+      "name": "PERMIT#",
+      "fieldName": "permit_",
+      "dataTypeName": "text",
+      "description": "The permit associated with the dig ticket if one exists.",
+      "nullCount": 1244413,
+      "cardinality": 189658
+    },
+    {
+      "name": "REQUESTDATE",
+      "fieldName": "requestdate",
+      "dataTypeName": "calendar_date",
+      "description": "The date and time on which the dig request was made.",
+      "nullCount": 0,
+      "cardinality": 565014
+    },
+    {
+      "name": "EMERGENCY",
+      "fieldName": "emergency",
+      "dataTypeName": "checkbox",
+      "description": "Indicates whether dig ticket was an emergency request.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "STNOFROM",
+      "fieldName": "stnofrom",
+      "dataTypeName": "number",
+      "description": "The start of the street address where the excavation will occur. The 811 system creates separate dig tickets for address ranges by breaking them into even and odd blocks.",
+      "nullCount": 28,
+      "cardinality": 11311
+    },
+    {
+      "name": "STNOTO",
+      "fieldName": "stnoto",
+      "dataTypeName": "number",
+      "description": "The end of the street address where the excavation will occur. The 811 system creates separate dig tickets for address ranges by breaking them into even and odd blocks.",
+      "nullCount": 36,
+      "cardinality": 11555
+    },
+    {
+      "name": "DIRECTION",
+      "fieldName": "direction",
+      "dataTypeName": "text",
+      "description": "The direction component of the street where the excavation will occur.",
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "STNAME",
+      "fieldName": "stname",
+      "dataTypeName": "text",
+      "description": "The name of the street where the excavation will occur.",
+      "nullCount": 0,
+      "cardinality": 1509
+    },
+    {
+      "name": "SUFFIX",
+      "fieldName": "suffix",
+      "dataTypeName": "text",
+      "description": "The suffix of the street where the excavation will occur.",
+      "nullCount": 109667,
+      "cardinality": 20
+    },
+    {
+      "name": "PLACEMENT",
+      "fieldName": "placement",
+      "dataTypeName": "text",
+      "description": "The location within the public right of way where the excavation will occur. Excavations on private property do not have placement data associated with them.”",
+      "nullCount": 1244413,
+      "cardinality": 473
+    },
+    {
+      "name": "DIGDATE",
+      "fieldName": "digdate",
+      "dataTypeName": "calendar_date",
+      "description": "The date and time before which the excavator is not permitted to break ground.",
+      "nullCount": 1525,
+      "cardinality": 51441
+    },
+    {
+      "name": "EXPIRATIONDATE",
+      "fieldName": "expirationdate",
+      "dataTypeName": "calendar_date",
+      "description": "The date and time at which the dig ticket expires.",
+      "nullCount": 2303,
+      "cardinality": 1470
+    },
+    {
+      "name": "PRIMARYCONTACTFIRST",
+      "fieldName": "primarycontactfirst",
+      "dataTypeName": "text",
+      "description": "The first name of the individual or company requesting the dig ticket.",
+      "nullCount": 8654699,
+      "cardinality": 5125
+    },
+    {
+      "name": "PRIMARYCONTACTLAST",
+      "fieldName": "primarycontactlast",
+      "dataTypeName": "text",
+      "description": "The last name of the individual or company requesting the dig ticket.",
+      "nullCount": 0,
+      "cardinality": 8239
+    },
+    {
+      "name": "Notice History (Utility Name)",
+      "fieldName": "notice_history_utility_name",
+      "dataTypeName": "text",
+      "description": "The name of the utility company notified. Each dig ticket is sent to one or more utility owners. Thus, the dig ticket number as well as most of the data associated with the dig ticket will be repeated for each utility owner that was notified under that ticket. ",
+      "nullCount": 0,
+      "cardinality": 68
+    },
+    {
+      "name": "Notice History (Site ID)",
+      "fieldName": "notice_history_site_id",
+      "dataTypeName": "number",
+      "description": "The unique site number associated with each utility owner. The 811 system identifies utility owners by their site number.",
+      "nullCount": 0,
+      "cardinality": 69
+    },
+    {
+      "name": "Notice History (Type)",
+      "fieldName": "notice_history_type",
+      "dataTypeName": "text",
+      "description": "The type of ticket issued including:  a. “Initial ticket” - the first ticket issued. Utility owners have 48 hours (recorded as the “DIGDATE”) to mark the location of their facilities at the address on the ticket.  b.\t“No-show” - a follow-up request associated with an initial ticket that notifies specific utilities that their facility was not marked by the dig date.  c.“Remark request” - a follow-up request associated with an initial ticket that notifies specific utilities that they need to put new location marks at the site. d. “Cancellation Notice” - a notice to the utility owners that the dig ticket has been cancelled.  e. “Notification of renewal” - a notice to the utility owners that the dig ticket expiration date has been extended. f. “Update ticket” - a notice to the utility owners that information on the dig ticket has been updated.",
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "Notice History (Status)",
+      "fieldName": "notice_history_status",
+      "dataTypeName": "text",
+      "description": "Utility owners respond to the ticket via the 811 system using the following statuses. All utilities should at a minimum respond \"acknowledged.\" The use of the other status codes is a company by company decision.  a. “Acknowledged” - a notification from the utility owner that they received the dig ticket through their web service. This is the most common status and often is not updated. b.\t“Marked” - a notification from the utility owner that they marked the location of their facility at the address on the dig ticket. c. “In Route” - a notification from the utility owner that their locator is on the way to the address on the dig ticket. d. “Positive Response / Clear” - a notification from the utility owner that they do not have facilities near the address on the dig ticket.  e. “Unacknowledged” - a notification from the system that the utility owner has not acknowledged receiving the dig ticket.",
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Notice History (Created)",
+      "fieldName": "notice_history_created",
+      "dataTypeName": "calendar_date",
+      "description": "The date and time when the notice was sent to the utility.",
+      "nullCount": 0,
+      "cardinality": 1640407
+    },
+    {
+      "name": "LASTSTATUSTIME",
+      "fieldName": "laststatustime",
+      "dataTypeName": "calendar_date",
+      "description": "The last time the ticket was updated. This can be either an update from the City of Chicago to a utility or a response from the utility. ",
+      "nullCount": 0,
+      "cardinality": 6373036
+    },
+    {
+      "name": "UNIQUEKEY",
+      "fieldName": "uniquekey",
+      "dataTypeName": "number",
+      "description": "A unique number that differentiates each record in the data set. ",
+      "nullCount": 0,
+      "cardinality": 9015520
+    },
+    {
+      "name": "Last Member Transmission Flag",
+      "fieldName": "last_member_transmission_flag",
+      "dataTypeName": "checkbox",
+      "description": "The most recent record for each utility associated with a unique ticket. The most recent record for each utility on a dig ticket will be marked True and all others will be marked False.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "LATITUDE",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": "The latitude of the midpoint of the address range.",
+      "nullCount": 49910,
+      "cardinality": 283196
+    },
+    {
+      "name": "LONGITUDE",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": "The longitude of the midpoint of the address range.",
+      "nullCount": 49910,
+      "cardinality": 283094
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": "The location of the midpoint of the address range in a format that allows for creation of maps and other geographic operations on this data portal.",
+      "nullCount": 49910,
+      "cardinality": 283308
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:01.281Z"
+}

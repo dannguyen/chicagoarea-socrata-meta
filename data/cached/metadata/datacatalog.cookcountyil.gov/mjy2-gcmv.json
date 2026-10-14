@@ -1,0 +1,64 @@
+{
+  "id": "mjy2-gcmv",
+  "name": "Board of Review - Aggregate Reductions by Year, 2008-2010",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 3,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1312908768,
+  "publicationDate": 1412892307,
+  "rowsUpdatedAt": 1412892297,
+  "viewLastModified": 1769545598,
+  "viewCount": 685,
+  "downloadCount": 1926,
+  "category": "Property & Taxation",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Board of Review",
+  "attributionLink": "http://www.cookcountyboardofreview.com/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "ATV",
+      "fieldName": "atv",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "BORTV",
+      "fieldName": "bortv",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Reduction",
+      "fieldName": "reduction",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:08.109Z"
+}

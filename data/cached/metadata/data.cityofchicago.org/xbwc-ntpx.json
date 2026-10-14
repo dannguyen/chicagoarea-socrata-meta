@@ -1,0 +1,289 @@
+{
+  "id": "xbwc-ntpx",
+  "name": "Additional Dwelling Unit Preapproval Applications - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1038,
+  "rowCountSource": "cached",
+  "rowLabel": "ADU Preapproval Application",
+  "hasRowIdentifier": true,
+  "createdAt": 1620166982,
+  "publicationDate": 1622657887,
+  "rowsUpdatedAt": 1775088101,
+  "viewLastModified": 1788477837,
+  "viewCount": 9073,
+  "downloadCount": 4226,
+  "category": "Buildings",
+  "tags": [
+    "buildings",
+    "permits",
+    "historical",
+    "housing"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "May 2021 - March 2026",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"xbwc-ntpx\"",
+      "Data Owner": "Department of Housing"
+    }
+  },
+  "columns": [
+    {
+      "name": "ID",
+      "fieldName": "id",
+      "dataTypeName": "number",
+      "description": "A unique identifier for the record",
+      "nullCount": 0,
+      "cardinality": 1038
+    },
+    {
+      "name": "SUBMISSION_DATE",
+      "fieldName": "submission_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date when ADU preapplication was electronically submitted",
+      "nullCount": 0,
+      "cardinality": 1038
+    },
+    {
+      "name": "STATUS",
+      "fieldName": "status",
+      "dataTypeName": "text",
+      "description": "Status of ADU preapplication",
+      "nullCount": 0,
+      "cardinality": 1038
+    },
+    {
+      "name": "STATUS_UPDATED_DATE",
+      "fieldName": "status_updated_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date when ADU preapplication status was last updated",
+      "nullCount": 0,
+      "cardinality": 1038
+    },
+    {
+      "name": "APPLICANT_NAME",
+      "fieldName": "applicant_name",
+      "dataTypeName": "text",
+      "description": "Name of ADU preapproval applicant",
+      "nullCount": 0,
+      "cardinality": 1038
+    },
+    {
+      "name": "OWNER_NAME",
+      "fieldName": "owner_name",
+      "dataTypeName": "text",
+      "description": "Name of property owner (if different than  applicant)",
+      "nullCount": 518,
+      "cardinality": 1038
+    },
+    {
+      "name": "STREET_NUMBER",
+      "fieldName": "street_number",
+      "dataTypeName": "number",
+      "description": "Number portion of the property address",
+      "nullCount": 0,
+      "cardinality": 1038
+    },
+    {
+      "name": "STREET_DIRECTION",
+      "fieldName": "street_direction",
+      "dataTypeName": "text",
+      "description": "Direction portion of the property address",
+      "nullCount": 0,
+      "cardinality": 1038
+    },
+    {
+      "name": "STREET_NAME",
+      "fieldName": "street_name",
+      "dataTypeName": "text",
+      "description": "Street name portion of the property address",
+      "nullCount": 0,
+      "cardinality": 1038
+    },
+    {
+      "name": "ADDRESS",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": "Property address",
+      "nullCount": 0,
+      "cardinality": 1038
+    },
+    {
+      "name": "COMM_AREA",
+      "fieldName": "comm_area",
+      "dataTypeName": "number",
+      "description": "The Community Area of the property",
+      "nullCount": 0,
+      "cardinality": 1038
+    },
+    {
+      "name": "WARD",
+      "fieldName": "ward",
+      "dataTypeName": "number",
+      "description": "The Ward (City Council district) of the property",
+      "nullCount": 0,
+      "cardinality": 1038
+    },
+    {
+      "name": "ADU_ZONE",
+      "fieldName": "adu_zone",
+      "dataTypeName": "text",
+      "description": "The Additional Dwelling Unit-Allowed Area that the property is located in (See Section 17-7-0570 of the Zoning Ordinance)",
+      "nullCount": 0,
+      "cardinality": 1038
+    },
+    {
+      "name": "ZONING",
+      "fieldName": "zoning",
+      "dataTypeName": "text",
+      "description": "The zoning district of the property",
+      "nullCount": 0,
+      "cardinality": 1038
+    },
+    {
+      "name": "OWNER_OCC",
+      "fieldName": "owner_occ",
+      "dataTypeName": "checkbox",
+      "description": "Whether the property is owner occupied",
+      "nullCount": 0,
+      "cardinality": 1038
+    },
+    {
+      "name": "ADU_TYPE",
+      "fieldName": "adu_type",
+      "dataTypeName": "text",
+      "description": "The type of ADU",
+      "nullCount": 0,
+      "cardinality": 1038
+    },
+    {
+      "name": "EXISTING_BLDG",
+      "fieldName": "existing_bldg",
+      "dataTypeName": "checkbox",
+      "description": "Whether the preapproval is for an existing building on the lot",
+      "nullCount": 0,
+      "cardinality": 1038
+    },
+    {
+      "name": "YEAR_BUILT",
+      "fieldName": "year_built",
+      "dataTypeName": "number",
+      "description": "Year when the existing building on the lot (if any) was built",
+      "nullCount": 46,
+      "cardinality": 1038
+    },
+    {
+      "name": "CURRENT_DUS",
+      "fieldName": "current_dus",
+      "dataTypeName": "number",
+      "description": "Number of legally-established dwelling units on lot",
+      "nullCount": 0,
+      "cardinality": 1038
+    },
+    {
+      "name": "MAX_ADUS",
+      "fieldName": "max_adus",
+      "dataTypeName": "number",
+      "description": "Maximum number of ADUs allowed",
+      "nullCount": 0,
+      "cardinality": 1038
+    },
+    {
+      "name": "NEW_ADUS",
+      "fieldName": "new_adus",
+      "dataTypeName": "number",
+      "description": "Proposed number of ADUs",
+      "nullCount": 0,
+      "cardinality": 1038
+    },
+    {
+      "name": "AFF_ADUS",
+      "fieldName": "aff_adus",
+      "dataTypeName": "number",
+      "description": "Minimum number of affordable ADUs",
+      "nullCount": 0,
+      "cardinality": 1038
+    },
+    {
+      "name": "PREV_ADUS",
+      "fieldName": "prev_adus",
+      "dataTypeName": "checkbox",
+      "description": "Whether there is a previous ADU application at the address",
+      "nullCount": 0,
+      "cardinality": 1038
+    },
+    {
+      "name": "LATITUDE",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": "The latitude of the property",
+      "nullCount": 0,
+      "cardinality": 1038
+    },
+    {
+      "name": "LONGITUDE",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": "The longitude of the property",
+      "nullCount": 0,
+      "cardinality": 1038
+    },
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": "The location of the property in a format that allows for mapping and geographic analysis on this data portal.",
+      "nullCount": 0,
+      "cardinality": 1038
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Boundaries - ZIP Codes' (rpca-8um6) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Community Areas' (vrxf-vc4k) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Zip Codes' (6mkv-f3dw) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Census Tracts' (bdys-3d7i) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Wards' (43wa-7qmu) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:38:05.940Z"
+}

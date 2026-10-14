@@ -1,0 +1,127 @@
+{
+  "id": "jh9b-icit",
+  "name": "Suburban Cook County - Selected Causes of Death",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 329847,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1482265032,
+  "publicationDate": 1502134756,
+  "rowsUpdatedAt": 1502134718,
+  "viewLastModified": 1769547131,
+  "viewCount": 13642,
+  "downloadCount": 3223,
+  "category": "Health & Human Services",
+  "tags": [
+    "mortality",
+    "vital statistics",
+    "death",
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Public Health",
+  "attributionLink": "http://cookcountypublichealth.org/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Detailed Descriptive": {
+      "Program link": "http://www.cookcountypublichealth.org/data-reports/vital-statistics",
+      "Temporal coverage": "2000-2014",
+      "Data notes": "When the number of deaths is between 1 and 4, the data is suppressed and notated with a '*' symbol. Crude and/or age-adjusted rates are suppressed when counts are below 20 and symbolized with a '-'. Be aware that these symbols do not download and are replaced with a blank.",
+      "Geographic coverage": "Cook County without City of Chicago",
+      "Geographic unit": "Other"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Annually",
+      "Publishing frequency": "Annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": "Year of Death",
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "Section",
+      "fieldName": "section",
+      "dataTypeName": "text",
+      "description": "Underlying Cause of Death categorized into 7 main sections",
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Sub-Section",
+      "fieldName": "sub_section",
+      "dataTypeName": "text",
+      "description": "Underlying cause of death sections categorized into Sub-section",
+      "nullCount": 0,
+      "cardinality": 36
+    },
+    {
+      "name": "Place",
+      "fieldName": "place",
+      "dataTypeName": "text",
+      "description": "Decedent's Town or SCC District or Residence (see SCC District Map)",
+      "nullCount": 0,
+      "cardinality": 131
+    },
+    {
+      "name": "Age Group",
+      "fieldName": "age_group",
+      "dataTypeName": "text",
+      "description": "Age Group of Decedent",
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "Race/Ethnicity",
+      "fieldName": "race_ethnicity",
+      "dataTypeName": "text",
+      "description": "NH = Non Hispanic",
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Gender",
+      "fieldName": "gender",
+      "dataTypeName": "text",
+      "description": "Male or Female",
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Number",
+      "fieldName": "number",
+      "dataTypeName": "number",
+      "description": "Number of Deaths",
+      "nullCount": 77861,
+      "cardinality": 2819
+    },
+    {
+      "name": "Crude Mortality Rate",
+      "fieldName": "crude_mortality_rate",
+      "dataTypeName": "number",
+      "description": "The mortality rate from all causes of death for a population during a specified time period, multiplied by 100,000",
+      "nullCount": 276589,
+      "cardinality": 14241
+    },
+    {
+      "name": "Age Adjusted Mortality Rate",
+      "fieldName": "age_adjusted_mortality_rate",
+      "dataTypeName": "number",
+      "description": "Age-adjustment is a statistical process applied mortality rates which allows communities with different age structures to be compared. Adjustment is accomplished by first multiplying the age-specific rates of death by age-specific weights based off of the 2010 standard population. The weighted rates are then summed across the age groups.",
+      "nullCount": 317665,
+      "cardinality": 2834
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:50.240Z"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "z6di-sis3",
+  "name": "Medical Examiner--2009 Manner By Gender, and Race",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 48,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1319476085,
+  "publicationDate": 1414425862,
+  "rowsUpdatedAt": 1414425857,
+  "viewLastModified": 1769544209,
+  "viewCount": 700,
+  "downloadCount": 2471,
+  "category": "Health & Human Services",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Medical Examiner",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "RACE          ",
+      "fieldName": "race_",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "SEX     ",
+      "fieldName": "sex_",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "MANNER OF DEATH ",
+      "fieldName": "manner_of_death_",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "COUNT ",
+      "fieldName": "count_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 28
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:07.786Z"
+}

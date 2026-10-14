@@ -1,0 +1,150 @@
+{
+  "id": "bua3-4qs7",
+  "name": "IDPH STD Illinois by County by Race Ethnicity Early Syphilis",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1768,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1718207961,
+  "publicationDate": 1718209376,
+  "rowsUpdatedAt": 1718209364,
+  "viewLastModified": 1736793946,
+  "viewCount": 31,
+  "downloadCount": 82,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "Sort",
+      "fieldName": "sort",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 104
+    },
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 17
+    },
+    {
+      "name": "County/Jurisdiction",
+      "fieldName": "county_jurisdiction",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 104
+    },
+    {
+      "name": "CountyFIPS",
+      "fieldName": "countyfips",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 34,
+      "cardinality": 102
+    },
+    {
+      "name": "Total_Counts",
+      "fieldName": "total_counts",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 88
+    },
+    {
+      "name": "AIAN_Count",
+      "fieldName": "aian_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1395,
+      "cardinality": 4
+    },
+    {
+      "name": "Asian_Count",
+      "fieldName": "asian_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1395,
+      "cardinality": 20
+    },
+    {
+      "name": "Black_Count",
+      "fieldName": "black_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1395,
+      "cardinality": 75
+    },
+    {
+      "name": "Hisp_Count",
+      "fieldName": "hisp_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1395,
+      "cardinality": 55
+    },
+    {
+      "name": "MultiRace_Count",
+      "fieldName": "multirace_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1395,
+      "cardinality": 3
+    },
+    {
+      "name": "NHPI_Count",
+      "fieldName": "nhpi_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1395,
+      "cardinality": 6
+    },
+    {
+      "name": "White_Count",
+      "fieldName": "white_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1395,
+      "cardinality": 66
+    },
+    {
+      "name": "Other_Count",
+      "fieldName": "other_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1395,
+      "cardinality": 16
+    },
+    {
+      "name": "Unk_Count",
+      "fieldName": "unk_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1395,
+      "cardinality": 30
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:41.300Z"
+}

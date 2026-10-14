@@ -1,0 +1,81 @@
+{
+  "id": "5wce-bks2",
+  "name": "Restricted Flavored Tobacco Products",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1857,
+  "rowCountSource": "cached",
+  "rowLabel": "Product",
+  "hasRowIdentifier": false,
+  "createdAt": 1400256007,
+  "publicationDate": 1450479311,
+  "rowsUpdatedAt": 1450475625,
+  "viewLastModified": 1453501890,
+  "viewCount": 8289,
+  "downloadCount": 12734,
+  "category": "Health & Human Services",
+  "tags": [
+    "business",
+    "health",
+    "regulation",
+    "tobacco"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Current",
+      "Frequency": "Updated with new products at the discretion of CDPH",
+      "Data Owner": "Chicago Department of Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "BRAND",
+      "fieldName": "brand",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 671
+    },
+    {
+      "name": "PRODUCT",
+      "fieldName": "product",
+      "dataTypeName": "text",
+      "description": " ",
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "FLAVOR",
+      "fieldName": "flavor",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 466
+    },
+    {
+      "name": "DETAIL",
+      "fieldName": "detail",
+      "dataTypeName": "text",
+      "description": "More information about product flavors",
+      "nullCount": 1770,
+      "cardinality": 59
+    },
+    {
+      "name": "PUBLISHED DATE",
+      "fieldName": "published_date",
+      "dataTypeName": "calendar_date",
+      "description": "The date the product was deemed to be a restricted product.",
+      "nullCount": 0,
+      "cardinality": 2
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:00.925Z"
+}

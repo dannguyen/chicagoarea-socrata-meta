@@ -1,0 +1,169 @@
+{
+  "id": "dvk8-b8rs",
+  "name": "Budget Management - 2012 Budget Request - Summary of Appropriations by Object Classification",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 5042,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1319575702,
+  "publicationDate": 1319638127,
+  "rowsUpdatedAt": 1319637942,
+  "viewLastModified": 1769544604,
+  "viewCount": 6020,
+  "downloadCount": 3144,
+  "category": "Finance & Operations",
+  "tags": [
+    "2012 budget",
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Budget and Management Services",
+  "attributionLink": "http://home.cookcountyil.gov/budget/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "FundID",
+      "fieldName": "fundid",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 38
+    },
+    {
+      "name": "FundType",
+      "fieldName": "fundtype",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "FundSort",
+      "fieldName": "fundsort",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "GenFundType",
+      "fieldName": "genfundtype",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Sort_for_Summary",
+      "fieldName": "sort_for_summary",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 48
+    },
+    {
+      "name": "Dept",
+      "fieldName": "dept",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 229
+    },
+    {
+      "name": "Dept_Text",
+      "fieldName": "dept_text",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 229
+    },
+    {
+      "name": "DeptTitle",
+      "fieldName": "depttitle",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 229
+    },
+    {
+      "name": "Description",
+      "fieldName": "description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 156
+    },
+    {
+      "name": "Adopted",
+      "fieldName": "adopted",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 358,
+      "cardinality": 3295
+    },
+    {
+      "name": "Request",
+      "fieldName": "request",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1701,
+      "cardinality": 1739
+    },
+    {
+      "name": "PresRec",
+      "fieldName": "presrec",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1691,
+      "cardinality": 1742
+    },
+    {
+      "name": "Expenditures",
+      "fieldName": "expenditures",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 374,
+      "cardinality": 3770
+    },
+    {
+      "name": "AC",
+      "fieldName": "ac",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 5042,
+      "cardinality": 0
+    },
+    {
+      "name": "RC",
+      "fieldName": "rc",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 5042,
+      "cardinality": 0
+    },
+    {
+      "name": "PC",
+      "fieldName": "pc",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 5042,
+      "cardinality": 0
+    },
+    {
+      "name": "BuildDate",
+      "fieldName": "builddate",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 358,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:52.207Z"
+}

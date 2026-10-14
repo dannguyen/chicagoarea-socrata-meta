@@ -1,0 +1,88 @@
+{
+  "id": "dskn-nj3p",
+  "name": "Cook County Recorder of Deeds - Quit Claim Deeds - 2011 Complete!",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 28351,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1335302052,
+  "publicationDate": 1685649582,
+  "rowsUpdatedAt": 1412896408,
+  "viewLastModified": 1769544236,
+  "viewCount": 2652,
+  "downloadCount": 9514,
+  "category": "Property & Taxation",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Recorder of Deeds",
+  "attributionLink": "http://cookrecorder.com/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Pin",
+      "fieldName": "pin",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 26425
+    },
+    {
+      "name": "Doc Number",
+      "fieldName": "doc_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 23839
+    },
+    {
+      "name": "Doc Type",
+      "fieldName": "doc_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Recorded Date",
+      "fieldName": "recorded_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 247
+    },
+    {
+      "name": "Execution Date",
+      "fieldName": "execution_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 197,
+      "cardinality": 1312
+    },
+    {
+      "name": "Consideration Amount",
+      "fieldName": "consideration_amount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 27219,
+      "cardinality": 324
+    },
+    {
+      "name": "Location 1",
+      "fieldName": "location_1",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:55.593Z"
+}

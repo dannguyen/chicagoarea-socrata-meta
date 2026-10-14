@@ -1,0 +1,84 @@
+{
+  "id": "6ybd-qcyy",
+  "name": "Human Resources - Shakman Exempt Positions",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 454,
+  "rowCountSource": "cached",
+  "rowLabel": "Position",
+  "hasRowIdentifier": false,
+  "createdAt": 1462477782,
+  "publicationDate": 1682713936,
+  "rowsUpdatedAt": 1790883788,
+  "viewLastModified": 1790883787,
+  "viewCount": 65888,
+  "downloadCount": 7333,
+  "category": "Finance & Operations",
+  "tags": [
+    "employment plan",
+    "hiring"
+  ],
+  "attribution": "Cook County Human Resources",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Bureau of Technology Data Services"
+    },
+    "Metadata": {
+      "Update Frequency": "As Needed"
+    },
+    "Publishing Details": {
+      "Data change frequency": "As needed",
+      "Publishing frequency": "As needed"
+    }
+  },
+  "columns": [
+    {
+      "name": "Department",
+      "fieldName": "department",
+      "dataTypeName": "text",
+      "description": "department that position is held in",
+      "nullCount": 0,
+      "cardinality": 454
+    },
+    {
+      "name": "Job Title & Description",
+      "fieldName": "job_title_description",
+      "dataTypeName": "url",
+      "description": "title of position and link to PDF of job description",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Grade",
+      "fieldName": "grade",
+      "dataTypeName": "text",
+      "description": "salary grade of position",
+      "nullCount": 0,
+      "cardinality": 454
+    },
+    {
+      "name": "Position Identification Number",
+      "fieldName": "position_identification_number",
+      "dataTypeName": "text",
+      "description": "unique ID assigned by Human Resources corresponding to each position",
+      "nullCount": 0,
+      "cardinality": 454
+    },
+    {
+      "name": "Incumbent",
+      "fieldName": "incumbent",
+      "dataTypeName": "text",
+      "description": "name of person currently filling position",
+      "nullCount": 113,
+      "cardinality": 454
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:45.200Z"
+}

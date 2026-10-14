@@ -1,0 +1,73 @@
+{
+  "id": "vs34-eczv",
+  "name": "Board of Ethics - Advisory Opinions",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 43,
+  "rowCountSource": "cached",
+  "rowLabel": "Opinion",
+  "hasRowIdentifier": false,
+  "createdAt": 1466620556,
+  "publicationDate": 1661958890,
+  "rowsUpdatedAt": 1765833070,
+  "viewLastModified": 1769542986,
+  "viewCount": 4152,
+  "downloadCount": 2464,
+  "category": "Legal & Judicial",
+  "tags": [],
+  "attribution": "Cook County Board of Ethics",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Board of Ethics"
+    },
+    "Metadata": {
+      "Update Frequency": "As Needed"
+    },
+    "Publishing Details": {
+      "Data change frequency": "As needed",
+      "Publishing frequency": "As needed"
+    }
+  },
+  "columns": [
+    {
+      "name": "Subject",
+      "fieldName": "subject",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Case Number",
+      "fieldName": "case_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 43
+    },
+    {
+      "name": "Type",
+      "fieldName": "type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 43
+    },
+    {
+      "name": "Date",
+      "fieldName": "date",
+      "dataTypeName": "calendar_date",
+      "description": "Date that advisory opinion is issued",
+      "nullCount": 0,
+      "cardinality": 43
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:53.519Z"
+}

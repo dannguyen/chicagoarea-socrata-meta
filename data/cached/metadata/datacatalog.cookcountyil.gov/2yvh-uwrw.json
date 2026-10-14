@@ -1,0 +1,265 @@
+{
+  "id": "2yvh-uwrw",
+  "name": "ccgisdata - Parcel 2020",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1430137,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1610414850,
+  "publicationDate": 1648569207,
+  "rowsUpdatedAt": 1648578172,
+  "viewLastModified": 1769542907,
+  "viewCount": 4141,
+  "downloadCount": 2754,
+  "category": "Boundaries & Districts",
+  "tags": [
+    "parcel",
+    "parcels",
+    "assessment",
+    "ccgisdata"
+  ],
+  "attribution": "Cook County Clerk / Map Department",
+  "attributionLink": "https://www.cookcountyclerk.com/service/tax-map-department",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County GIS"
+    },
+    "Metadata": {
+      "Update Frequency": "No updates"
+    },
+    "Detailed Descriptive": {
+      "Geographic coverage": "Countywide",
+      "Geographic unit": "Parcel"
+    },
+    "Publishing Details": {
+      "Publishing frequency": "Not updated (historical only)"
+    }
+  },
+  "columns": [
+    {
+      "name": "OBJECTID",
+      "fieldName": "objectid",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1430137
+    },
+    {
+      "name": "Name",
+      "fieldName": "name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 7,
+      "cardinality": 1415757
+    },
+    {
+      "name": "PIN10",
+      "fieldName": "pin10",
+      "dataTypeName": "text",
+      "description": "10 digit parcel number, the first 10 digits of the parcel , often called the base parcel",
+      "nullCount": 9,
+      "cardinality": 1415729
+    },
+    {
+      "name": "PINA",
+      "fieldName": "pina",
+      "dataTypeName": "number",
+      "description": "First 2 digits of the parcel number, represents the Area number, (Township and Range)",
+      "nullCount": 10,
+      "cardinality": 34
+    },
+    {
+      "name": "PINSA",
+      "fieldName": "pinsa",
+      "dataTypeName": "number",
+      "description": "The 3rd & 4th digits of the parcel number, represents the subarea number (section of an Area)",
+      "nullCount": 10,
+      "cardinality": 37
+    },
+    {
+      "name": "PINB",
+      "fieldName": "pinb",
+      "dataTypeName": "number",
+      "description": "The 5th, 6th & 7th digits, represents the Block area of the Parcel as assigned by the Clerks Office.",
+      "nullCount": 9,
+      "cardinality": 286
+    },
+    {
+      "name": "PINP",
+      "fieldName": "pinp",
+      "dataTypeName": "number",
+      "description": "The 8th, 9th & 10th digits, that represent a Clerk assigned Parcel number.",
+      "nullCount": 9,
+      "cardinality": 569
+    },
+    {
+      "name": "PINU",
+      "fieldName": "pinu",
+      "dataTypeName": "number",
+      "description": "the last 4 digits of the 14 digit number.  This is usually 0000, except in cases such as individual Condo units and Leasholds.  Individual units are not represented by a polygon.",
+      "nullCount": 240,
+      "cardinality": 136
+    },
+    {
+      "name": "Tax code",
+      "fieldName": "taxcode",
+      "dataTypeName": "number",
+      "description": "Tax code data will be added in Spring 2021. A tax code is a code which identifies the combination of taxing districts which provide services and levy property taxes to each tax parcel in Cook County.",
+      "nullCount": 1223,
+      "cardinality": 3249
+    },
+    {
+      "name": "PARCELTYPE",
+      "fieldName": "parceltype",
+      "dataTypeName": "number",
+      "description": "1-Baseparcel, 2-Elevated, 3-Condominium, 4-NoPIN, 5-ElevatedCondo, 6-Leasehold, 7-ElevatedLeasehold, 8-ROWOverlap, 9-CondominiumLeasehold",
+      "nullCount": 4729,
+      "cardinality": 8
+    },
+    {
+      "name": "Longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": "Longitude of the parcel centroid (within the polygon)",
+      "nullCount": 0,
+      "cardinality": 1423862
+    },
+    {
+      "name": "Latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": "Latitude of the parcel centroid (within the polygon)",
+      "nullCount": 0,
+      "cardinality": 1423862
+    },
+    {
+      "name": "Municipality",
+      "fieldName": "municipality",
+      "dataTypeName": "text",
+      "description": "Municipality name",
+      "nullCount": 0,
+      "cardinality": 136
+    },
+    {
+      "name": "PoliticalTownship",
+      "fieldName": "politicaltownship",
+      "dataTypeName": "text",
+      "description": "Political Township name",
+      "nullCount": 3,
+      "cardinality": 38
+    },
+    {
+      "name": "CommissionerDistrict",
+      "fieldName": "commissionerdistrict",
+      "dataTypeName": "text",
+      "description": "Cook County Commissioner district",
+      "nullCount": 85,
+      "cardinality": 17
+    },
+    {
+      "name": "CongressionalDistrict",
+      "fieldName": "congressionaldistrict",
+      "dataTypeName": "text",
+      "description": "Congressional district",
+      "nullCount": 61,
+      "cardinality": 11
+    },
+    {
+      "name": "StateRepresentativeDistrict",
+      "fieldName": "staterepresentativedistrict",
+      "dataTypeName": "text",
+      "description": "Illinois State Representative district",
+      "nullCount": 66,
+      "cardinality": 58
+    },
+    {
+      "name": "StateSenateDistrict",
+      "fieldName": "statesenatedistrict",
+      "dataTypeName": "text",
+      "description": "Illinois State Senate district",
+      "nullCount": 66,
+      "cardinality": 32
+    },
+    {
+      "name": "TIFDistrict",
+      "fieldName": "tifdistrict",
+      "dataTypeName": "text",
+      "description": "TIF District name, if parcel is within a TIF District",
+      "nullCount": 1239453,
+      "cardinality": 442
+    },
+    {
+      "name": "ElemSchlTaxDist",
+      "fieldName": "elemschltaxdist",
+      "dataTypeName": "text",
+      "description": "Name of the elementary/middle school district the parcel falls within",
+      "nullCount": 656724,
+      "cardinality": 118
+    },
+    {
+      "name": "HighSchlTaxDist",
+      "fieldName": "highschltaxdist",
+      "dataTypeName": "text",
+      "description": "Name of the High School district the parcel falls within",
+      "nullCount": 656725,
+      "cardinality": 29
+    },
+    {
+      "name": "UnitSchlTaxDist",
+      "fieldName": "unitschltaxdist",
+      "dataTypeName": "text",
+      "description": "Name of the Unit School district the parcel falls within",
+      "nullCount": 773401,
+      "cardinality": 6
+    },
+    {
+      "name": "ChicagoWard",
+      "fieldName": "chicagoward",
+      "dataTypeName": "text",
+      "description": "City of Chicago ward number, if parcel is within the City of Chicago",
+      "nullCount": 816968,
+      "cardinality": 50
+    },
+    {
+      "name": "CensusTract_GEOID",
+      "fieldName": "censustract_geoid",
+      "dataTypeName": "text",
+      "description": "Full Census FIPS code of the tract containing the parcel",
+      "nullCount": 2,
+      "cardinality": 1324
+    },
+    {
+      "name": "AssessorBLDGclass",
+      "fieldName": "assessorbldgclass",
+      "dataTypeName": "text",
+      "description": "Codes for classification of REAL property assigned by the Assessor.",
+      "nullCount": 560640,
+      "cardinality": 121
+    },
+    {
+      "name": "AssessorNBHD",
+      "fieldName": "assessornbhd",
+      "dataTypeName": "text",
+      "description": "Neighborhoods are based on similar characteristics such as sales and housing type. ",
+      "nullCount": 560640,
+      "cardinality": 139
+    },
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:53.614Z"
+}

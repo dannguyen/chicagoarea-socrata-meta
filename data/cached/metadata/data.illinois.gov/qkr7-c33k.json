@@ -1,0 +1,107 @@
+{
+  "id": "qkr7-c33k",
+  "name": "Illinois Animal Rabies Test Data 2010-Current",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 3863,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1708440014,
+  "publicationDate": 1708440184,
+  "rowsUpdatedAt": 1708440178,
+  "viewLastModified": 1736794002,
+  "viewCount": 71,
+  "downloadCount": 26,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Data Management": {
+      "Maintainer": "Dawn Nims",
+      "Maintainer Email": "dawn.nims2@illinois.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "County",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 112
+    },
+    {
+      "name": "AnimalSpecies",
+      "fieldName": "animalspecies",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "Positive",
+      "fieldName": "positive",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 19
+    },
+    {
+      "name": "Negative",
+      "fieldName": "negative",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 155
+    },
+    {
+      "name": "Unsatisfactory",
+      "fieldName": "unsatisfactory",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 13
+    },
+    {
+      "name": "Duplicate",
+      "fieldName": "duplicate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Inconclusive",
+      "fieldName": "inconclusive",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Total",
+      "fieldName": "total",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 160
+    },
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:36.249Z"
+}

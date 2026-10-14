@@ -1,0 +1,92 @@
+{
+  "id": "fhb6-wwuu",
+  "name": "FOIA Request Log - Ethics",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 567,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1317052815,
+  "publicationDate": 1533846224,
+  "rowsUpdatedAt": 1788964015,
+  "viewLastModified": 1788964013,
+  "viewCount": 13578,
+  "downloadCount": 18142,
+  "category": "FOIA",
+  "tags": [],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "May 2010 - present",
+      "Frequency": "Data is updated as needed",
+      "Data Owner": "Ethics"
+    }
+  },
+  "columns": [
+    {
+      "name": "REQUESTOR NAME",
+      "fieldName": "requestor_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 244
+    },
+    {
+      "name": "ORGANIZATION",
+      "fieldName": "organization",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 251,
+      "cardinality": 108
+    },
+    {
+      "name": "DATE RECEIVED",
+      "fieldName": "date_received",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 381
+    },
+    {
+      "name": "DUE DATE",
+      "fieldName": "due_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 378
+    },
+    {
+      "name": "DESCRIPTION OF REQUEST - STATEMENTS OF FINANCIAL INTERESTS",
+      "fieldName": "description_of_request_statements_of_financial_interests",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 474,
+      "cardinality": 93
+    },
+    {
+      "name": "DESCRIPTION OF REQUEST - LOBBYISTS FILINGS",
+      "fieldName": "description_of_request_lobbyists_filings",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 369,
+      "cardinality": 197
+    },
+    {
+      "name": "DESCRIPTION OF REQUEST - OTHER",
+      "fieldName": "description_of_request_other",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 284,
+      "cardinality": 274
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:37:49.588Z"
+}

@@ -1,0 +1,77 @@
+{
+  "id": "xkur-4g6u",
+  "name": "Pedway_Routes",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 44,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1358019024,
+  "publicationDate": null,
+  "rowsUpdatedAt": 1358019024,
+  "viewLastModified": 1731519916,
+  "viewCount": 1441,
+  "downloadCount": 2202,
+  "category": "Transportation",
+  "tags": [
+    "pedestrians",
+    "sustainability",
+    "gis",
+    "shapefiles",
+    "kml",
+    "kmz",
+    "map_layer"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "",
+      "Frequency": "",
+      "Data Owner": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multiline",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "OBJECTID",
+      "fieldName": "objectid",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 44
+    },
+    {
+      "name": "PED_ROUTE",
+      "fieldName": "ped_route",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 44
+    },
+    {
+      "name": "SHAPE_LEN",
+      "fieldName": "shape_len",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 44
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:17.466Z"
+}

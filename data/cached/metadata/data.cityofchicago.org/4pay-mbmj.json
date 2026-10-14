@@ -1,0 +1,120 @@
+{
+  "id": "4pay-mbmj",
+  "name": "Lobbyist Data - Lobbyist Agency Report (Deprecated October 2015)",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2206,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1317369691,
+  "publicationDate": 1481020278,
+  "rowsUpdatedAt": 1481020276,
+  "viewLastModified": 1481020278,
+  "viewCount": 4179,
+  "downloadCount": 7721,
+  "category": "Ethics",
+  "tags": [
+    "lobbyists",
+    "ethics",
+    "deprecated"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2011 to present",
+      "Frequency": "Data is updated daily",
+      "Data Owner": "Ethics"
+    }
+  },
+  "columns": [
+    {
+      "name": "FILING YEAR",
+      "fieldName": "filing_year",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "LOBBYIST  LAST NAME",
+      "fieldName": "lobbyist_last_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 261
+    },
+    {
+      "name": "LOBBYIST  FIRST NAME",
+      "fieldName": "lobbyist_first_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 167
+    },
+    {
+      "name": "LOBBYIST MIDDLE INITIAL",
+      "fieldName": "lobbyist_middle_initial",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 546,
+      "cardinality": 23
+    },
+    {
+      "name": "AGENCY NAME",
+      "fieldName": "agency_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 47
+    },
+    {
+      "name": "ADMIN ACTION",
+      "fieldName": "admin_action",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "LEGISLATIVE ACTION",
+      "fieldName": "legislative_action",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "ACTION SOUGHT",
+      "fieldName": "action_sought",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 806
+    },
+    {
+      "name": "CLIENT",
+      "fieldName": "client",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 616
+    },
+    {
+      "name": "FILING PERIOD",
+      "fieldName": "filing_period",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:05.943Z"
+}

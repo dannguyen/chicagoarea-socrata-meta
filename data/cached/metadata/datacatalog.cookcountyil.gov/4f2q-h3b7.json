@@ -1,0 +1,129 @@
+{
+  "id": "4f2q-h3b7",
+  "name": "Cook County Recorder - Foreclosures, Mortgages, and Quit Claim Deeds - 2013 through March 27, 2015",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 511173,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1410880586,
+  "publicationDate": 1685490899,
+  "rowsUpdatedAt": 1428443983,
+  "viewLastModified": 1769546051,
+  "viewCount": 6672,
+  "downloadCount": 19390,
+  "category": "Property & Taxation",
+  "tags": [
+    "property",
+    "recorder",
+    "deeds",
+    "mortgages",
+    "forclosures",
+    "inactive"
+  ],
+  "attribution": "Cook County Recorder of Deeds",
+  "attributionLink": "http://cookrecorder.com/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Update Frequency": "Quarterly"
+    }
+  },
+  "columns": [
+    {
+      "name": "PIN",
+      "fieldName": "pin",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 401062
+    },
+    {
+      "name": "Document Number",
+      "fieldName": "document_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 433175
+    },
+    {
+      "name": "Document Type",
+      "fieldName": "document_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Recorded Date",
+      "fieldName": "recorded_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 553
+    },
+    {
+      "name": "Execution Date",
+      "fieldName": "execution_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 11405,
+      "cardinality": 3849
+    },
+    {
+      "name": "Consideration Amount",
+      "fieldName": "consideration_amount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 115515,
+      "cardinality": 67670
+    },
+    {
+      "name": "Street",
+      "fieldName": "street",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 94521,
+      "cardinality": 279901
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 93947,
+      "cardinality": 160
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 93939,
+      "cardinality": 1
+    },
+    {
+      "name": "Zip code",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 93938,
+      "cardinality": 123385
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:52.023Z"
+}

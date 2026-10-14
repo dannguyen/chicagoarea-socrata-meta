@@ -1,0 +1,95 @@
+{
+  "id": "pasx-mnuv",
+  "name": "Employee Indebtedness to the City of Chicago",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 26816,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1318376730,
+  "publicationDate": 1486592555,
+  "rowsUpdatedAt": 1791635437,
+  "viewLastModified": 1654282454,
+  "viewCount": 12401,
+  "downloadCount": 6412,
+  "category": "Administration & Finance",
+  "tags": [
+    "personnel",
+    "debt"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "October 2011 to present",
+      "Frequency": "Data is updated weekly",
+      "Data Owner": "Revenue"
+    }
+  },
+  "columns": [
+    {
+      "name": "Date",
+      "fieldName": "date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 26816
+    },
+    {
+      "name": "Department or Agency Name",
+      "fieldName": "department",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 26816
+    },
+    {
+      "name": "ARMS Department ID",
+      "fieldName": "arms_department_id",
+      "dataTypeName": "text",
+      "description": "The department's ID in the City's ARMS system, which manages delinquent receivables.  This field was created in July 2013 and will be blank for older records.",
+      "nullCount": 1479,
+      "cardinality": 26816
+    },
+    {
+      "name": "Total # of Employees",
+      "fieldName": "dept_size",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 26816
+    },
+    {
+      "name": "# of Employees with Debt",
+      "fieldName": "employees",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 15,
+      "cardinality": 26816
+    },
+    {
+      "name": "% Employees with Debt",
+      "fieldName": "_employees_w_debt",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 10,
+      "cardinality": 26816
+    },
+    {
+      "name": "Total Amount Due",
+      "fieldName": "due",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 13,
+      "cardinality": 26816
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:38:04.752Z"
+}

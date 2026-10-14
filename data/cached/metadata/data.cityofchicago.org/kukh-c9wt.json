@@ -1,0 +1,180 @@
+{
+  "id": "kukh-c9wt",
+  "name": "Annual Taxpayer Location Address List 2014",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 54229,
+  "rowCountSource": "cached",
+  "rowLabel": "Business",
+  "hasRowIdentifier": false,
+  "createdAt": 1425014310,
+  "publicationDate": 1466113433,
+  "rowsUpdatedAt": 1466113361,
+  "viewLastModified": 1531341872,
+  "viewCount": 3206,
+  "downloadCount": 160355,
+  "category": "Community & Economic Development",
+  "tags": [],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2014",
+      "Frequency": "Updated as needed",
+      "Data Owner": "State of Illinois"
+    }
+  },
+  "columns": [
+    {
+      "name": "ILLINOIS BUSINESS TAX NUMBER",
+      "fieldName": "illinois_business_tax_number",
+      "dataTypeName": "text",
+      "description": "Tax number registered with the Illinois Department of Revenue",
+      "nullCount": 0,
+      "cardinality": 47617
+    },
+    {
+      "name": "SEQUENCE NUMBER",
+      "fieldName": "sequence_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 237
+    },
+    {
+      "name": "TYPE OF FILER",
+      "fieldName": "type_of_filer",
+      "dataTypeName": "text",
+      "description": "Permanent Location (PL) changing location (CL) and no fixed address (TL) type filers will reflect the address of the taxpayer’s principal place of business.",
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "SIC",
+      "fieldName": "sic",
+      "dataTypeName": "text",
+      "description": "Standard Industrial Classification code indicated by the business: https://www.osha.gov/pls/imis/sicsearch.html. SIC may not comprehensively describe the operation of the business.",
+      "nullCount": 0,
+      "cardinality": 709
+    },
+    {
+      "name": "DBA NAME",
+      "fieldName": "dba_name",
+      "dataTypeName": "text",
+      "description": "\"Doing Business As\" (DBA) name is the name being used to operate the business.",
+      "nullCount": 0,
+      "cardinality": 47258
+    },
+    {
+      "name": "OWNING ENTITY",
+      "fieldName": "owning_entity",
+      "dataTypeName": "text",
+      "description": "Name of the business or entity if not using an alternative DBA name.",
+      "nullCount": 27491,
+      "cardinality": 24141
+    },
+    {
+      "name": "ADDRESS",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 520,
+      "cardinality": 43099
+    },
+    {
+      "name": "ADDRESS SECONDARY",
+      "fieldName": "address_secondary",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 53642,
+      "cardinality": 512
+    },
+    {
+      "name": "CITY",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 523,
+      "cardinality": 1667
+    },
+    {
+      "name": "STATE",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 533,
+      "cardinality": 57
+    },
+    {
+      "name": "ZIP",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": "ZIP + 4",
+      "nullCount": 589,
+      "cardinality": 29702
+    },
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:08.054Z"
+}

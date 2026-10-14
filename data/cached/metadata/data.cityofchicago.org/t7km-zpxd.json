@@ -1,0 +1,160 @@
+{
+  "id": "t7km-zpxd",
+  "name": "BIA Cases - By Involved Officer",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 186567,
+  "rowCountSource": "cached",
+  "rowLabel": "Officer",
+  "hasRowIdentifier": false,
+  "createdAt": 1707259741,
+  "publicationDate": 1714168054,
+  "rowsUpdatedAt": 1791981176,
+  "viewLastModified": 1716492367,
+  "viewCount": 17954,
+  "downloadCount": 10221,
+  "category": "Public Safety",
+  "tags": [
+    "police",
+    "complaint",
+    "internal affairs"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.cityofchicago.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2000 - current",
+      "Frequency": "Data are updated daily",
+      "Data Owner": "Chicago Police Department Bureau of Internal Affairs"
+    }
+  },
+  "columns": [
+    {
+      "name": "LOG_NO",
+      "fieldName": "log_no",
+      "dataTypeName": "text",
+      "description": "A unique identifier for the case record. The log number can be used to link records in other datasets that contain a log number column.",
+      "nullCount": 0,
+      "cardinality": 186567
+    },
+    {
+      "name": "COMPLAINT_DATE",
+      "fieldName": "complaint_date",
+      "dataTypeName": "calendar_date",
+      "description": "The date the complaint or notification was made to BIA and the record was created.",
+      "nullCount": 0,
+      "cardinality": 186567
+    },
+    {
+      "name": "CASE_TYPE",
+      "fieldName": "case_type",
+      "dataTypeName": "text",
+      "description": "Whether a case is a complaint, a notification, or miscellaneous.",
+      "nullCount": 0,
+      "cardinality": 186567
+    },
+    {
+      "name": "CURRENT_STATUS",
+      "fieldName": "current_status",
+      "dataTypeName": "text",
+      "description": "The current status of the case investigation, as of the date the data were last published.",
+      "nullCount": 0,
+      "cardinality": 186567
+    },
+    {
+      "name": "ADMINISTRATIVE_SUMMARY_REPORT",
+      "fieldName": "administrative_summary_report",
+      "dataTypeName": "url",
+      "description": "Link to the Administrative Summary Report (ASR) which is an electronic record that provides an abstract of the complaint investigation after a final disciplinary decision is reached.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "FINAL_CATEGORY",
+      "fieldName": "final_category",
+      "dataTypeName": "text",
+      "description": "Complaints are placed into categories. The investigating Sergeant determines the final category.",
+      "nullCount": 57572,
+      "cardinality": 186567
+    },
+    {
+      "name": "FINDING_CODE",
+      "fieldName": "finding_code",
+      "dataTypeName": "text",
+      "description": "The overall current case finding, ranked by the following hierarchy: Sustained, Not Sustained, Unfounded, Exonerated, No Affidavit, and No Finding.“Current_Finding” means even after BIA has completed an investigation and made a recommended finding, the finding can change given post-BIA processes, including Police Department review, Police Board adjudication, and grievance and arbitration processes.",
+      "nullCount": 68749,
+      "cardinality": 186567
+    },
+    {
+      "name": "BEAT",
+      "fieldName": "beat",
+      "dataTypeName": "text",
+      "description": "The CPD beat in which the incident occurred. If more than one beat was involved, the values are separated by the pipe (|) character.",
+      "nullCount": 4453,
+      "cardinality": 186567
+    },
+    {
+      "name": "RACE_OF_INVOLVED_OFFICER",
+      "fieldName": "race_of_involved_officer",
+      "dataTypeName": "text",
+      "description": "The race or ethnicity of the officer alleged to have been involved.",
+      "nullCount": 65954,
+      "cardinality": 186567
+    },
+    {
+      "name": "SEX_OF_INVOLVED_OFFICER",
+      "fieldName": "sex_of_involved_officer",
+      "dataTypeName": "text",
+      "description": "The sex of the officer alleged to have been involved.",
+      "nullCount": 65690,
+      "cardinality": 186567
+    },
+    {
+      "name": "AGE_OF_INVOLVED_OFFICER",
+      "fieldName": "age_of_involved_officer",
+      "dataTypeName": "text",
+      "description": "The age of the officer alleged to have been involved, at the time of the complaint or notification.",
+      "nullCount": 68789,
+      "cardinality": 186567
+    },
+    {
+      "name": "YEARS_ON_FORCE_OF_INVOLVED_OFFICER",
+      "fieldName": "years_on_force_of_involved_officer",
+      "dataTypeName": "number",
+      "description": "The number of years on the force of the officer alleged to have been involved, at the time of the complaint or notification.",
+      "nullCount": 66960,
+      "cardinality": 186567
+    },
+    {
+      "name": "COMPLAINT_HOUR",
+      "fieldName": "complaint_hour",
+      "dataTypeName": "number",
+      "description": "The hour of the day component of COMPLAINT_DATE.",
+      "nullCount": 0,
+      "cardinality": 186567
+    },
+    {
+      "name": "COMPLAINT_DAY",
+      "fieldName": "complaint_day",
+      "dataTypeName": "number",
+      "description": "The day of the week component of COMPLAINT_DATE. Sunday=1",
+      "nullCount": 0,
+      "cardinality": 186567
+    },
+    {
+      "name": "COMPLAINT_MONTH",
+      "fieldName": "complaint_month",
+      "dataTypeName": "number",
+      "description": "The month component of COMPLAINT_DATE.",
+      "nullCount": 0,
+      "cardinality": 186567
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:37:48.703Z"
+}

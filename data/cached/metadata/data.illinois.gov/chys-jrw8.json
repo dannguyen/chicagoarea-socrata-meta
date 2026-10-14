@@ -1,0 +1,123 @@
+{
+  "id": "chys-jrw8",
+  "name": "Reportable Communicable Disease Cases, 2000 - 2009",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 63,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709058249,
+  "publicationDate": 1709145358,
+  "rowsUpdatedAt": 1709145352,
+  "viewLastModified": 1736794001,
+  "viewCount": 39,
+  "downloadCount": 85,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "_2000",
+      "fieldName": "_2000",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 7,
+      "cardinality": 36
+    },
+    {
+      "name": "_2001",
+      "fieldName": "_2001",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 37
+    },
+    {
+      "name": "_2002",
+      "fieldName": "_2002",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 39
+    },
+    {
+      "name": "_2003",
+      "fieldName": "_2003",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 35
+    },
+    {
+      "name": "_2004",
+      "fieldName": "_2004",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 41
+    },
+    {
+      "name": "_2005",
+      "fieldName": "_2005",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 41
+    },
+    {
+      "name": "_2006",
+      "fieldName": "_2006",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 38
+    },
+    {
+      "name": "_2007",
+      "fieldName": "_2007",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 39
+    },
+    {
+      "name": "_2008",
+      "fieldName": "_2008",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 34
+    },
+    {
+      "name": "_2009",
+      "fieldName": "_2009",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 32
+    },
+    {
+      "name": "disease",
+      "fieldName": "disease",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 63
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:39.225Z"
+}

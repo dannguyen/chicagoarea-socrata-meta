@@ -1,0 +1,133 @@
+{
+  "id": "fuzc-c76k",
+  "name": "EZ Pay Kiosks",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 98,
+  "rowCountSource": "cached",
+  "rowLabel": "Kiosk Location",
+  "hasRowIdentifier": false,
+  "createdAt": 1623091698,
+  "publicationDate": 1631716870,
+  "rowsUpdatedAt": 1774019123,
+  "viewLastModified": 1774019123,
+  "viewCount": 8701,
+  "downloadCount": 1969,
+  "category": "Administration & Finance",
+  "tags": [
+    "payments"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Current as of the most recent update",
+      "Data Owner": "Department of Finance"
+    }
+  },
+  "columns": [
+    {
+      "name": "Facility Name",
+      "fieldName": "facility_name",
+      "dataTypeName": "text",
+      "description": "The name of the facility hosting the kiosk",
+      "nullCount": 0,
+      "cardinality": 98
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": "The street address of the kiosk location",
+      "nullCount": 0,
+      "cardinality": 98
+    },
+    {
+      "name": "Days / Hours",
+      "fieldName": "days_hours",
+      "dataTypeName": "text",
+      "description": "When the kiosk is available",
+      "nullCount": 0,
+      "cardinality": 98
+    },
+    {
+      "name": "Open 24/7",
+      "fieldName": "open_24_7",
+      "dataTypeName": "text",
+      "description": "Yes if the Days / Hours column is \"7 Days a Week - 24 Hours a Day\"",
+      "nullCount": 0,
+      "cardinality": 98
+    },
+    {
+      "name": "Community Area",
+      "fieldName": "community_area",
+      "dataTypeName": "text",
+      "description": "The Community Area where the kiosk is located",
+      "nullCount": 0,
+      "cardinality": 98
+    },
+    {
+      "name": "Ward",
+      "fieldName": "ward",
+      "dataTypeName": "text",
+      "description": "The ward (City Council district) where the kiosk is located",
+      "nullCount": 0,
+      "cardinality": 98
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": "The location of the facility in a format that allows for mapping on this data portal",
+      "nullCount": 0,
+      "cardinality": 98
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Community Areas' (vrxf-vc4k) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Zip Codes' (6mkv-f3dw) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Census Tracts' (bdys-3d7i) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Wards' (43wa-7qmu) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Boundaries - ZIP Codes' (rpca-8um6) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:00.592Z"
+}

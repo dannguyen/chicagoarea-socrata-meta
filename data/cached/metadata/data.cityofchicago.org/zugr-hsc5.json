@@ -1,0 +1,118 @@
+{
+  "id": "zugr-hsc5",
+  "name": "Lobbyist Data - Historical - Lobbyist Categorized Expenditures Report - 2010",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1972,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1314735908,
+  "publicationDate": 1314735908,
+  "rowsUpdatedAt": 1314736463,
+  "viewLastModified": 1445633904,
+  "viewCount": 3119,
+  "downloadCount": 6047,
+  "category": "Ethics",
+  "tags": [
+    "lobbyists",
+    "historical"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org/city/en/depts/ethics/provdrs/lobby.html",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2010",
+      "Data Owner": "Ethics"
+    }
+  },
+  "columns": [
+    {
+      "name": "LAST NAME",
+      "fieldName": "last_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 345
+    },
+    {
+      "name": "FIRST NAME",
+      "fieldName": "first_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 192
+    },
+    {
+      "name": "MIDDLE INITIAL",
+      "fieldName": "middle_initial",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 586,
+      "cardinality": 22
+    },
+    {
+      "name": "CLIENT NAME",
+      "fieldName": "client_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 833
+    },
+    {
+      "name": "OFFICE EXPENSES",
+      "fieldName": "office_expenses",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 60
+    },
+    {
+      "name": "COMPENSATION TO OTHERS",
+      "fieldName": "compensation_to_others",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "PUBLIC EDUCATION",
+      "fieldName": "public_education",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "PERSONAL SUSTENANCE",
+      "fieldName": "personal_sustenance",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 45
+    },
+    {
+      "name": "OTHER EXPENSES",
+      "fieldName": "other_expenses",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 18
+    },
+    {
+      "name": "TOTAL EXPENSES",
+      "fieldName": "total_expenses",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 114
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:08.271Z"
+}

@@ -1,0 +1,149 @@
+{
+  "id": "gpu3-5dfh",
+  "name": "Diversion",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 29421,
+  "rowCountSource": "cached",
+  "rowLabel": "Diversion Program",
+  "hasRowIdentifier": false,
+  "createdAt": 1589312666,
+  "publicationDate": 1590425955,
+  "rowsUpdatedAt": 1775139822,
+  "viewLastModified": 1775139818,
+  "viewCount": 5532,
+  "downloadCount": 2260,
+  "category": "Legal & Judicial",
+  "tags": [
+    "state's attorney case-level",
+    "state's attorney",
+    "fy2020"
+  ],
+  "attribution": "Cook County State's Attorney's Office",
+  "attributionLink": "https://www.cookcountystatesattorney.org/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County State's Attorney's Office"
+    },
+    "Metadata": {
+      "Update Frequency": "Quarterly"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Streaming",
+      "Publishing frequency": "Annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "CASE_ID",
+      "fieldName": "case_id",
+      "dataTypeName": "number",
+      "description": "Internal unique identifier for each case ",
+      "nullCount": 0,
+      "cardinality": 29421
+    },
+    {
+      "name": "CASE_PARTICIPANT_ID",
+      "fieldName": "case_participant_id",
+      "dataTypeName": "number",
+      "description": "Internal unique identifier for each defendant associated with a case ",
+      "nullCount": 0,
+      "cardinality": 29421
+    },
+    {
+      "name": "RECEIVED_DATE",
+      "fieldName": "received_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date when Felony Review Unit received the case",
+      "nullCount": 0,
+      "cardinality": 29421
+    },
+    {
+      "name": "OFFENSE_CATEGORY",
+      "fieldName": "offense_category",
+      "dataTypeName": "text",
+      "description": "Broad offense category before specific charges are filed on a case ",
+      "nullCount": 0,
+      "cardinality": 29421
+    },
+    {
+      "name": "DIVERSION_PROGRAM",
+      "fieldName": "diversion_program",
+      "dataTypeName": "text",
+      "description": "Diversion program the defendant was referred to",
+      "nullCount": 0,
+      "cardinality": 29421
+    },
+    {
+      "name": "REFERRAL_DATE",
+      "fieldName": "referral_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date when a defendant was referred to diversion program ",
+      "nullCount": 0,
+      "cardinality": 29421
+    },
+    {
+      "name": "DIVERSION_COUNT",
+      "fieldName": "diversion_count",
+      "dataTypeName": "number",
+      "description": "Number of diversion programs one defendant was referred to ",
+      "nullCount": 0,
+      "cardinality": 29421
+    },
+    {
+      "name": "PRIMARY_CHARGE_OFFENSE_TITLE",
+      "fieldName": "primary_charge_offense_title",
+      "dataTypeName": "text",
+      "description": "Most severe charge defendant is faced with and usually the way the case is referred to ",
+      "nullCount": 0,
+      "cardinality": 29421
+    },
+    {
+      "name": "STATUTE",
+      "fieldName": "statute",
+      "dataTypeName": "text",
+      "description": "Legal statute for the charge (Consisted of Chapter, Act, Section) ",
+      "nullCount": 0,
+      "cardinality": 29421
+    },
+    {
+      "name": "RACE",
+      "fieldName": "race",
+      "dataTypeName": "text",
+      "description": "Race of defendant reported by law enforcement or self-reported",
+      "nullCount": 0,
+      "cardinality": 29421
+    },
+    {
+      "name": "GENDER",
+      "fieldName": "gender",
+      "dataTypeName": "text",
+      "description": "Gender of defendant reported by law enforcement or self-reported",
+      "nullCount": 0,
+      "cardinality": 29421
+    },
+    {
+      "name": "DIVERSION_RESULT",
+      "fieldName": "diversion_result",
+      "dataTypeName": "text",
+      "description": "Result of diversion program ",
+      "nullCount": 8248,
+      "cardinality": 29421
+    },
+    {
+      "name": "DIVERSION_CLOSED_DATE",
+      "fieldName": "diversion_closed_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date of failing or graduating from diversion program",
+      "nullCount": 8248,
+      "cardinality": 29421
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:52.355Z"
+}

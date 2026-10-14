@@ -1,0 +1,80 @@
+{
+  "id": "5kra-pjk3",
+  "name": "Facilities Management - Find it Fast - Cook County Facilities and Services Locator",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 218,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1316464187,
+  "publicationDate": 1685493945,
+  "rowsUpdatedAt": 1412896581,
+  "viewLastModified": 1769547378,
+  "viewCount": 3039,
+  "downloadCount": 3418,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Facilities Management",
+  "attributionLink": "http://www.cookcountygov.com/portal/server.pt/community/facilities_management/294/facilities_management",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Building",
+      "fieldName": "building_",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 184
+    },
+    {
+      "name": "Building Code",
+      "fieldName": "building_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "Type of Service",
+      "fieldName": "type_of_service",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 14
+    },
+    {
+      "name": "Room or Suite",
+      "fieldName": "room_or_suite",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 165,
+      "cardinality": 45
+    },
+    {
+      "name": "Main Phone Number",
+      "fieldName": "main_phone_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 44,
+      "cardinality": 126
+    },
+    {
+      "name": "Location",
+      "fieldName": "location_1",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:54.536Z"
+}

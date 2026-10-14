@@ -1,0 +1,248 @@
+{
+  "id": "yqn4-3th2",
+  "name": "DOE Environmental Enforcement",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 38101,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1348494831,
+  "publicationDate": 1743198750,
+  "rowsUpdatedAt": 1791620048,
+  "viewLastModified": 1788553865,
+  "viewCount": 14952,
+  "downloadCount": 27980,
+  "category": "Environment & Sustainable Development",
+  "tags": [
+    "environmental enforcement",
+    "environmental health"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "1993-Current",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"yqn4-3th2\"",
+      "Frequency": "Data are updated daily",
+      "Data Owner": "Department of Environment"
+    }
+  },
+  "columns": [
+    {
+      "name": "CASE NUMBER",
+      "fieldName": "case_number",
+      "dataTypeName": "text",
+      "description": "System--assigned number",
+      "nullCount": 27873,
+      "cardinality": 38101
+    },
+    {
+      "name": "ADDRESS",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": "Full site address.",
+      "nullCount": 0,
+      "cardinality": 38101
+    },
+    {
+      "name": "STREET NUMBER FROM",
+      "fieldName": "street_number_from",
+      "dataTypeName": "number",
+      "description": "This is the numeric portion of the address. For ranged addresses, this value is the lower number in the range.    ",
+      "nullCount": 0,
+      "cardinality": 38101
+    },
+    {
+      "name": "STREET NUMBER TO",
+      "fieldName": "street_number_to",
+      "dataTypeName": "number",
+      "description": "This is the numeric portion of the address. For ranged addresses, this value is the higher number in the range. This value is blank for single (non-range) addresses. ",
+      "nullCount": 35823,
+      "cardinality": 38101
+    },
+    {
+      "name": "DIRECTION",
+      "fieldName": "direction",
+      "dataTypeName": "text",
+      "description": "The direction (N,S,E,W) portion of the address.",
+      "nullCount": 0,
+      "cardinality": 38101
+    },
+    {
+      "name": "STREET NAME",
+      "fieldName": "street_name",
+      "dataTypeName": "text",
+      "description": "The name of the street",
+      "nullCount": 0,
+      "cardinality": 38101
+    },
+    {
+      "name": "STREET TYPE",
+      "fieldName": "street_type",
+      "dataTypeName": "text",
+      "description": "The street name suffix (e.g. ST = Street, AVE = Avenue. BLVD = Boulevard, etc).",
+      "nullCount": 333,
+      "cardinality": 38101
+    },
+    {
+      "name": "DOCKET NO.",
+      "fieldName": "docket_no",
+      "dataTypeName": "text",
+      "description": "The unique identifier assigned to the case. A docket number can contain multiple tickets. ",
+      "nullCount": 2572,
+      "cardinality": 38101
+    },
+    {
+      "name": "TICKET NO.",
+      "fieldName": "ticket_no",
+      "dataTypeName": "text",
+      "description": "The unique identifier of the issued ticket. A ticket can contain up to two code violations. NOTE that the Department of Environment Ticket No.’s may refer to non-unique violations.",
+      "nullCount": 2872,
+      "cardinality": 38101
+    },
+    {
+      "name": "RESPONDENT",
+      "fieldName": "respondent",
+      "dataTypeName": "text",
+      "description": "The name of the entity issued the code violation notice.  ",
+      "nullCount": 156,
+      "cardinality": 38101
+    },
+    {
+      "name": "CASE TYPE",
+      "fieldName": "case_type",
+      "dataTypeName": "text",
+      "description": "The Case Types are historic 3-Day Notice, Air Pollution Defect Notice, Administrative Hearing, Summary Abatement, Chicago Storage Tank NOV, State Administrative Citation, State Violation Notice, historic Pre Enforcement Conference, and historic Ticket-Municipal Prosecution.",
+      "nullCount": 12,
+      "cardinality": 38101
+    },
+    {
+      "name": "VIOLATION DATE",
+      "fieldName": "violation_date",
+      "dataTypeName": "calendar_date",
+      "description": "The date of the code violation.  ",
+      "nullCount": 10,
+      "cardinality": 38101
+    },
+    {
+      "name": "CODE VIOLATION",
+      "fieldName": "code_violation",
+      "dataTypeName": "text",
+      "description": "The municipal or state code being cited in the ticket. ",
+      "nullCount": 255,
+      "cardinality": 38101
+    },
+    {
+      "name": "DISPOSITION",
+      "fieldName": "disposition",
+      "dataTypeName": "text",
+      "description": "The outcome of the individual code violation. ",
+      "nullCount": 6760,
+      "cardinality": 38101
+    },
+    {
+      "name": "CASE STATUS",
+      "fieldName": "case_status",
+      "dataTypeName": "text",
+      "description": "The final or most current status of the case.   ",
+      "nullCount": 5624,
+      "cardinality": 38101
+    },
+    {
+      "name": "FINE AMOUNT",
+      "fieldName": "fine_amount",
+      "dataTypeName": "number",
+      "description": "This is the total fine assessed for the case not including court fees. Note that for the Historic Department of Environment data, this value is not unique to the record but applies to the entire case. For example, the case with a Docket No of 07DE000171 has two records with a fine amount of $350 in each record. The total fine on the case is $350, not the sum of $700.",
+      "nullCount": 3899,
+      "cardinality": 38101
+    },
+    {
+      "name": "COMMENT",
+      "fieldName": "comment",
+      "dataTypeName": "text",
+      "description": "Additional information relating to the violation or case. ",
+      "nullCount": 17985,
+      "cardinality": 38101
+    },
+    {
+      "name": "DATA SOURCE",
+      "fieldName": "data_source",
+      "dataTypeName": "text",
+      "description": "The city department that collected the data.  ",
+      "nullCount": 0,
+      "cardinality": 38101
+    },
+    {
+      "name": "LATITUDE",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": "Latitude coordinate of the facility (low end if an address range).",
+      "nullCount": 290,
+      "cardinality": 38101
+    },
+    {
+      "name": "LONGITUDE",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": "Longitude coordinate of the facility (low end if an address range).",
+      "nullCount": 290,
+      "cardinality": 38101
+    },
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": "The location of the facility in a format that allows for creation of maps and other geographic operations on this data portal.",
+      "nullCount": 290,
+      "cardinality": 38101
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:37:49.269Z"
+}

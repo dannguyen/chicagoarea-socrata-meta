@@ -1,0 +1,88 @@
+{
+  "id": "iwtc-d53w",
+  "name": "Public Safety: Q3 Performance Management Goal Assessment",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 29,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1350529462,
+  "publicationDate": 1414428005,
+  "rowsUpdatedAt": 1414427994,
+  "viewLastModified": 1769543432,
+  "viewCount": 875,
+  "downloadCount": 2492,
+  "category": "Legal & Judicial",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Goal 1: Reduce Jail Population And Cost",
+      "fieldName": "goal_1_reduce_jail_population_and_cost",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 29
+    },
+    {
+      "name": "Reporting Office",
+      "fieldName": "reporting_office",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 9,
+      "cardinality": 4
+    },
+    {
+      "name": "2011 Actual",
+      "fieldName": "actual",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 9,
+      "cardinality": 17
+    },
+    {
+      "name": "2012 Target",
+      "fieldName": "target",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 9,
+      "cardinality": 11
+    },
+    {
+      "name": "Q3 YTD   Actual",
+      "fieldName": "q3_ytd_actual",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 9,
+      "cardinality": 18
+    },
+    {
+      "name": "Q3 YTD Target",
+      "fieldName": "q3_ytd_target",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 9,
+      "cardinality": 11
+    },
+    {
+      "name": "Q3 YTD Variance",
+      "fieldName": "q3_ytd_variance",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 9,
+      "cardinality": 9
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:05.308Z"
+}

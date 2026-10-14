@@ -1,0 +1,90 @@
+{
+  "id": "tnbd-5zz7",
+  "name": "Employee Reimbursements Through Payroll System",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 95780,
+  "rowCountSource": "cached",
+  "rowLabel": "Reimbursement",
+  "hasRowIdentifier": false,
+  "createdAt": 1474666197,
+  "publicationDate": 1492634384,
+  "rowsUpdatedAt": 1791200373,
+  "viewLastModified": 1492634384,
+  "viewCount": 2642,
+  "downloadCount": 4517,
+  "category": "Administration & Finance",
+  "tags": [
+    "personnel",
+    "reimbursements",
+    "mileage",
+    "payroll",
+    "finance"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "July 2005 - Present",
+      "Frequency": "Data are updated monthly",
+      "Data Owner": "Finance"
+    }
+  },
+  "columns": [
+    {
+      "name": "Pay Date",
+      "fieldName": "pay_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 95780
+    },
+    {
+      "name": "Employee Name",
+      "fieldName": "employee_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 95780
+    },
+    {
+      "name": "Amount",
+      "fieldName": "amount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 95780
+    },
+    {
+      "name": "Reimbursement Type",
+      "fieldName": "reimbursement_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 95780
+    },
+    {
+      "name": "Department Name",
+      "fieldName": "department_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 95780
+    },
+    {
+      "name": "Job Title",
+      "fieldName": "job_title",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 95780
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:10.364Z"
+}

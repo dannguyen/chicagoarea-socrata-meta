@@ -1,0 +1,121 @@
+{
+  "id": "qs84-j7wh",
+  "name": "CTA_BusStops",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 10760,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1488295576,
+  "publicationDate": 1655394520,
+  "rowsUpdatedAt": 1655394514,
+  "viewLastModified": 1774393517,
+  "viewCount": 1623,
+  "downloadCount": 4751,
+  "category": "Transportation",
+  "tags": [
+    "cta",
+    "bus",
+    "stops",
+    "sustainability"
+  ],
+  "attribution": "Chicago Transit Authority",
+  "attributionLink": "http://transitchicago.com",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "February 2017",
+      "Frequency": "Monthly as needed",
+      "Data Owner": "Chicago Transit Authority"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "point",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10759
+    },
+    {
+      "name": "SYSTEMSTOP",
+      "fieldName": "systemstop",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10760
+    },
+    {
+      "name": "STREET",
+      "fieldName": "street",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 335
+    },
+    {
+      "name": "CROSS_ST",
+      "fieldName": "cross_st",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1817
+    },
+    {
+      "name": "DIR",
+      "fieldName": "dir",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "POS",
+      "fieldName": "pos",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "ROUTESSTPG",
+      "fieldName": "routesstpg",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 537
+    },
+    {
+      "name": "OWLROUTES",
+      "fieldName": "owlroutes",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 8602,
+      "cardinality": 29
+    },
+    {
+      "name": "CITY",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 29
+    },
+    {
+      "name": "PUBLIC_NAM",
+      "fieldName": "public_nam",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6105
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:16.131Z"
+}

@@ -1,0 +1,125 @@
+{
+  "id": "juzg-38pw",
+  "name": "IDPH Home Services Placement Agency Directory",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 29,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1718294816,
+  "publicationDate": 1738787352,
+  "rowsUpdatedAt": 1777396904,
+  "viewLastModified": 1777396903,
+  "viewCount": 2957,
+  "downloadCount": 478,
+  "category": "Health and Human Services",
+  "tags": [
+    "home services placement",
+    "home services",
+    "hsp",
+    "companion care",
+    "in-home care",
+    "personal care",
+    "activities of daily living",
+    "adl",
+    "healthcare licensing",
+    "idph licensure",
+    "77 ill adm code 245",
+    "private employment agency",
+    "healthcare directory",
+    "licensed agencies",
+    "illinois health"
+  ],
+  "attribution": "IDPH",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "IDPH"
+    }
+  },
+  "columns": [
+    {
+      "name": "Facility Name",
+      "fieldName": "facility_name",
+      "dataTypeName": "text",
+      "description": "Legal name of the licensed Home Services Placement Agency as recorded by IDPH. May include a \"DBA\" (doing business as) trade name where the agency operates under a name different from its legal entity name.",
+      "nullCount": 0,
+      "cardinality": 29
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": "Street address of the agency's licensed parent location. Suite or building numbers are included where applicable. Branch offices and drop-sites are not separately listed.",
+      "nullCount": 0,
+      "cardinality": 29
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": "Municipality of the agency's licensed parent location.",
+      "nullCount": 0,
+      "cardinality": 29
+    },
+    {
+      "name": "County",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": "Illinois county of the agency's licensed parent location. The agency's approved geographic service area may extend beyond this county; consult IDPH for service area details.",
+      "nullCount": 0,
+      "cardinality": 29
+    },
+    {
+      "name": "Zip",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": "Five-digit U.S. Postal Service ZIP code of the agency's licensed parent location.",
+      "nullCount": 0,
+      "cardinality": 29
+    },
+    {
+      "name": "Contact Name",
+      "fieldName": "contact_name",
+      "dataTypeName": "text",
+      "description": "Primary administrative contact at the agency, designated for IDPH correspondence. Typically the agency manager or licensee.",
+      "nullCount": 0,
+      "cardinality": 29
+    },
+    {
+      "name": "Phone",
+      "fieldName": "phone",
+      "dataTypeName": "text",
+      "description": "Main published telephone number for the agency, including area code. Format: (XXX) XXX-XXXX.",
+      "nullCount": 0,
+      "cardinality": 29
+    },
+    {
+      "name": "License Number",
+      "fieldName": "license_number",
+      "dataTypeName": "text",
+      "description": "License number issued by the Illinois Department of Public Health authorizing the agency to operate as a Home Services Placement Agency under 77 Ill. Adm. Code 245.214. Note: agencies of this type are also separately licensed by the Illinois Department of Labor as a Private Employment Agency; that license number is not included in this dataset.",
+      "nullCount": 0,
+      "cardinality": 29
+    },
+    {
+      "name": "Exp. Date",
+      "fieldName": "exp_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date on which the agency's current IDPH license expires. Agencies must submit a renewal application prior to this date to maintain authority to operate. Format: YYYY-MM-DD.",
+      "nullCount": 0,
+      "cardinality": 29
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:31.865Z"
+}

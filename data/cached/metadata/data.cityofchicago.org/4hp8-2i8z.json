@@ -1,0 +1,184 @@
+{
+  "id": "4hp8-2i8z",
+  "name": "Boundaries - Census Tracts - 2000",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 878,
+  "rowCountSource": "cached",
+  "rowLabel": "Census Tract",
+  "hasRowIdentifier": false,
+  "createdAt": 1369322713,
+  "publicationDate": null,
+  "rowsUpdatedAt": 1369322713,
+  "viewLastModified": 1789769772,
+  "viewCount": 10711,
+  "downloadCount": 3481,
+  "category": "Facilities & Geographic Boundaries",
+  "tags": [
+    "gis",
+    "boundaries",
+    "census",
+    "geo_layer"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2000",
+      "Data Owner": "United States Census Bureau"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "OBJECTID",
+      "fieldName": "objectid",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 878
+    },
+    {
+      "name": "CENSUS_TRA",
+      "fieldName": "census_tra",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 878
+    },
+    {
+      "name": "CENSUS_T_1",
+      "fieldName": "census_t_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 878
+    },
+    {
+      "name": "TRACT_FIPS",
+      "fieldName": "tract_fips",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "TRACT_CENT",
+      "fieldName": "tract_cent",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 878
+    },
+    {
+      "name": "TRACT_CE_1",
+      "fieldName": "tract_ce_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 878
+    },
+    {
+      "name": "TRACT_CE_2",
+      "fieldName": "tract_ce_2",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 877
+    },
+    {
+      "name": "TRACT_CE_3",
+      "fieldName": "tract_ce_3",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 878
+    },
+    {
+      "name": "TRACT_COMM",
+      "fieldName": "tract_comm",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 78
+    },
+    {
+      "name": "TRACT_NUMA",
+      "fieldName": "tract_numa",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 97
+    },
+    {
+      "name": "TRACT_CENS",
+      "fieldName": "tract_cens",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "PERIMETER",
+      "fieldName": "perimeter",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "DATA_ADMIN",
+      "fieldName": "data_admin",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "TRACT_CREA",
+      "fieldName": "tract_crea",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "TRACT_CR_1",
+      "fieldName": "tract_cr_1",
+      "dataTypeName": "date",
+      "description": null,
+      "nullCount": 878,
+      "cardinality": 0
+    },
+    {
+      "name": "SHAPE_AREA",
+      "fieldName": "shape_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 878
+    },
+    {
+      "name": "SHAPE_LEN",
+      "fieldName": "shape_len",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 878
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:38:05.340Z"
+}

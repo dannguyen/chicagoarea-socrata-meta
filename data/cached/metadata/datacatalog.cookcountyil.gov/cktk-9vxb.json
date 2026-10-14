@@ -1,0 +1,107 @@
+{
+  "id": "cktk-9vxb",
+  "name": "CARES Act Equity Distribution Model Outputs",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 134,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1610393162,
+  "publicationDate": 1614106817,
+  "rowsUpdatedAt": 1614106816,
+  "viewLastModified": 1769547326,
+  "viewCount": 1450,
+  "downloadCount": 1311,
+  "category": "Economic Development",
+  "tags": [
+    "equity",
+    "caresact",
+    "2021",
+    "model"
+  ],
+  "attribution": "Office of the Chief Financial Officer",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Geographic ID",
+      "fieldName": "geoid",
+      "dataTypeName": "text",
+      "description": "Place GEOID identifier, as assigned by the US Census Bureau",
+      "nullCount": 0,
+      "cardinality": 134
+    },
+    {
+      "name": "Name",
+      "fieldName": "muni",
+      "dataTypeName": "text",
+      "description": "Municipality Name",
+      "nullCount": 0,
+      "cardinality": 134
+    },
+    {
+      "name": "Population",
+      "fieldName": "pop",
+      "dataTypeName": "number",
+      "description": "Population of Municipality",
+      "nullCount": 0,
+      "cardinality": 134
+    },
+    {
+      "name": "Score: Tax Base per Capita",
+      "fieldName": "score_ln_tax_base_per_cap",
+      "dataTypeName": "number",
+      "description": "Percentile score for Tax Base per Capita",
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "Score: Median Household Income",
+      "fieldName": "score_ln_med_hh_inc",
+      "dataTypeName": "number",
+      "description": "Percentile score for Median Household Income",
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "Score: Percent EDA",
+      "fieldName": "score_pct_eda_pop",
+      "dataTypeName": "number",
+      "description": "Percentile score for Percent of population living in an EDA or disinvested area",
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "Score: COVID Death Rate",
+      "fieldName": "score_ln_covid_death_rate",
+      "dataTypeName": "number",
+      "description": "Percentile score for COVID Death Rate",
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "Preliminary Score",
+      "fieldName": "score_overall_scaled",
+      "dataTypeName": "number",
+      "description": "Overall score as output by R program",
+      "nullCount": 0,
+      "cardinality": 67
+    },
+    {
+      "name": "Final Score",
+      "fieldName": "final_score",
+      "dataTypeName": "number",
+      "description": "Final score used to determine funding allocations (100 minus the Preliminary Score; higher score indicates more need)",
+      "nullCount": 0,
+      "cardinality": 67
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:59.286Z"
+}

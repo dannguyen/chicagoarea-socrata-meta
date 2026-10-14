@@ -1,0 +1,204 @@
+{
+  "id": "6gqn-e2ij",
+  "name": "DOE Environmental Hold on City-Issued Permits and LUST NFR",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1850,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": true,
+  "createdAt": 1352846319,
+  "publicationDate": 1743200506,
+  "rowsUpdatedAt": 1744705600,
+  "viewLastModified": 1788554373,
+  "viewCount": 5356,
+  "downloadCount": 10799,
+  "category": "Environment & Sustainable Development",
+  "tags": [
+    "lust",
+    "nfr",
+    "thorium",
+    "radiation",
+    "highway authority agreement",
+    "environmental health"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "1993-Current",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"6gqn-e2ij\"",
+      "Frequency": "Data are updated daily",
+      "Data Owner": "Department of Environment"
+    }
+  },
+  "columns": [
+    {
+      "name": "APPLICATION ID",
+      "fieldName": "application_id",
+      "dataTypeName": "text",
+      "description": "Unique identifier of record.",
+      "nullCount": 0,
+      "cardinality": 1850
+    },
+    {
+      "name": "ADDRESS",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": "Full site address.",
+      "nullCount": 0,
+      "cardinality": 1850
+    },
+    {
+      "name": "STREET NUMBER FROM",
+      "fieldName": "street_number_from",
+      "dataTypeName": "number",
+      "description": "This is the numeric portion of the address. For ranged addresses, this value is the lower number in the range.",
+      "nullCount": 0,
+      "cardinality": 1850
+    },
+    {
+      "name": "STREET NUMBER TO",
+      "fieldName": "street_number_to",
+      "dataTypeName": "number",
+      "description": "Applies to ranged addresses only. This value is blank for single addresses.",
+      "nullCount": 1835,
+      "cardinality": 1850
+    },
+    {
+      "name": "STREET DIRECTION",
+      "fieldName": "street_direction",
+      "dataTypeName": "text",
+      "description": "This is the numeric portion of the address. For ranged addresses, this value is the higher number in the range. This value is blank for single (non-range) addresses.",
+      "nullCount": 0,
+      "cardinality": 1850
+    },
+    {
+      "name": "STREET NAME",
+      "fieldName": "street_name",
+      "dataTypeName": "text",
+      "description": "The name of the street",
+      "nullCount": 0,
+      "cardinality": 1850
+    },
+    {
+      "name": "STREET TYPE",
+      "fieldName": "street_type",
+      "dataTypeName": "text",
+      "description": "The street name suffix (e.g. ST = Street, AVE = Avenue. BLVD = Boulevard, etc).",
+      "nullCount": 11,
+      "cardinality": 1850
+    },
+    {
+      "name": "MORATORIUM TYPE",
+      "fieldName": "moratorium_type",
+      "dataTypeName": "text",
+      "description": "Specifies the type of permit hold placed on a property or the hold released on an individual permit. ",
+      "nullCount": 0,
+      "cardinality": 1850
+    },
+    {
+      "name": "DATE",
+      "fieldName": "date",
+      "dataTypeName": "calendar_date",
+      "description": "Date the record was entered into the database. ",
+      "nullCount": 5,
+      "cardinality": 1850
+    },
+    {
+      "name": "COMMENT",
+      "fieldName": "comment",
+      "dataTypeName": "text",
+      "description": "Comments relating to the hold or release. ",
+      "nullCount": 43,
+      "cardinality": 1850
+    },
+    {
+      "name": "DATA SOURCE",
+      "fieldName": "data_source",
+      "dataTypeName": "text",
+      "description": "The city department that placed or released the hold.",
+      "nullCount": 0,
+      "cardinality": 1850
+    },
+    {
+      "name": "LATITUDE",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": "Latitude coordinate of the facility (low end if an address range).",
+      "nullCount": 7,
+      "cardinality": 1850
+    },
+    {
+      "name": "LONGITUDE",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": "Longitude coordinate of the facility (low end if an address range).",
+      "nullCount": 7,
+      "cardinality": 1850
+    },
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": "The location of the facility in a format that allows for creation of maps and other geographic operations on this data portal.",
+      "nullCount": 7,
+      "cardinality": 1850
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:04.178Z"
+}

@@ -1,0 +1,464 @@
+{
+  "id": "pubx-yq2d",
+  "name": "Transportation Department Permits",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2324852,
+  "rowCountSource": "query",
+  "rowLabel": "Permit Application",
+  "hasRowIdentifier": true,
+  "createdAt": 1436804118,
+  "publicationDate": 1712091606,
+  "rowsUpdatedAt": 1791961031,
+  "viewLastModified": 1741113737,
+  "viewCount": 39869,
+  "downloadCount": 50553,
+  "category": "Transportation",
+  "tags": [
+    "permits",
+    "transportation",
+    "streets"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2015 - Current",
+      "Frequency": "Data are updated daily.",
+      "Data Owner": "Department of Transportation"
+    }
+  },
+  "columns": [
+    {
+      "name": "UNIQUEKEY",
+      "fieldName": "uniquekey",
+      "dataTypeName": "text",
+      "description": "A unique identifier for each record.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "APPLICATIONNUMBER",
+      "fieldName": "applicationnumber",
+      "dataTypeName": "text",
+      "description": "Unique number for the application that becomes the permit number when issued.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "APPLICATIONTYPE",
+      "fieldName": "applicationtype",
+      "dataTypeName": "text",
+      "description": "Code for the type of permit. Permits may be categorized further by the WORKTYPE.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "APPLICATIONDESCRIPTION",
+      "fieldName": "applicationdescription",
+      "dataTypeName": "text",
+      "description": "Type of permit.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "WORKTYPE",
+      "fieldName": "worktype",
+      "dataTypeName": "text",
+      "description": "Code for the sub-category, if any, of the permit application. Only one work type per application is allowed.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "WORKTYPEDESCRIPTION",
+      "fieldName": "worktypedescription",
+      "dataTypeName": "text",
+      "description": "Sub-category, if any, of the permit application. Only one work type per application is allowed.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "APPLICATIONSTATUS",
+      "fieldName": "applicationstatus",
+      "dataTypeName": "text",
+      "description": "Overall status of the application. Typically open during the application process and issued, then closed once the permit has expired.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "CURRENTMILESTONE",
+      "fieldName": "currentmilestone",
+      "dataTypeName": "text",
+      "description": "The current step in the permitting life cycle.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "APPLICATIONSTARTDATE",
+      "fieldName": "applicationstartdate",
+      "dataTypeName": "calendar_date",
+      "description": "Permit start date. Most often requested by the applicant but could be updated as the permit is reviewed by CDOT.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "APPLICATIONENDDATE",
+      "fieldName": "applicationenddate",
+      "dataTypeName": "calendar_date",
+      "description": "Permit End date. Most often requested by the applicant but could be updated as the permit is reviewed by CDOT.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "APPLICATIONPROCESSEDDATE",
+      "fieldName": "applicationprocesseddate",
+      "dataTypeName": "calendar_date",
+      "description": "This is the date when the permit reaches the review milestone, means the date CDOT began reviewing the application.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "APPLICATIONISSUEDDATE",
+      "fieldName": "applicationissueddate",
+      "dataTypeName": "calendar_date",
+      "description": "Date the permit was issued by CDOT. Set once all the reviews, fees, etc. are paid (where applicable).",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "APPLICATIONFINALIZEDDATE",
+      "fieldName": "applicationfinalizeddate",
+      "dataTypeName": "calendar_date",
+      "description": "Date the permit was closed (either after the permit has expired plus a grace period or after an inspector marks the work complete).",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "APPLICATIONEXPIREDATE",
+      "fieldName": "applicationexpiredate",
+      "dataTypeName": "calendar_date",
+      "description": "Date the permit will expire (typically same as permit end date). Applicant may ask for date extensions where the end date is updated and will be reflected here once re-approved by CDOT.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "APPLICATIONNAME",
+      "fieldName": "applicationname",
+      "dataTypeName": "text",
+      "description": "Applicants can put a project name on their applications in this field. For converted data 1/1/2013 to 11/13/2015, the old permit number will be placed in this field.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "COMMENTS",
+      "fieldName": "comments",
+      "dataTypeName": "text",
+      "description": "Applicants can place a description of the work here.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "TOTALFEES",
+      "fieldName": "totalfees",
+      "dataTypeName": "number",
+      "description": "Total permit fees for this permit calculated based on the work being carried out and location. See fee schedule for further information, available on the CDOT permit portal, http://www.cityofchicago.org/city/en/depts/cdot/provdrs/construction_information/svcs/online-permit-portal.html.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "WAIVEDFEES",
+      "fieldName": "waivedfees",
+      "dataTypeName": "number",
+      "description": "If any fees were waived for this permit, the amount waived will be here. Possible reasons for waived fees include city contracts, city departments, ordinances, and franchise agreements with the City. ",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "PRIMARYCONTACTLAST",
+      "fieldName": "primarycontactlast",
+      "dataTypeName": "text",
+      "description": "The last name of the primary applicant for the permit. If an employee applied on behalf of a company, the company name will appear. ",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "PRIMARYCONTACTFIRST",
+      "fieldName": "primarycontactfirst",
+      "dataTypeName": "text",
+      "description": "First name of the primary applicant, if not a company.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "PRIMARYCONTACTMIDDLE",
+      "fieldName": "primarycontactmiddle",
+      "dataTypeName": "text",
+      "description": "Middle initial of the primary applicant, if not a company.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "PRIMARYCONTACTSTREET",
+      "fieldName": "primarycontactstreet",
+      "dataTypeName": "text",
+      "description": "Street address of the primary applicant.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "PRIMARYCONTACTSTREET2",
+      "fieldName": "primarycontactstreet2",
+      "dataTypeName": "text",
+      "description": "Street address 2nd line of the primary applicant.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "PRIMARYCONTACTCITY",
+      "fieldName": "primarycontactcity",
+      "dataTypeName": "text",
+      "description": "City of the primary applicant.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "PRIMARYCONTACTSTATE",
+      "fieldName": "primarycontactstate",
+      "dataTypeName": "text",
+      "description": "State of the primary applicant.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "PRIMARYCONTACTZIP",
+      "fieldName": "primarycontactzip",
+      "dataTypeName": "text",
+      "description": "ZIP Code of the primary applicant.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "EMERGENCYCONTACTNAME",
+      "fieldName": "emergencycontactname",
+      "dataTypeName": "text",
+      "description": "Person to contact in an emergency as listed by the applicant during the permit application process.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "LASTINSPECTIONNUMBER",
+      "fieldName": "lastinspectionnumber",
+      "dataTypeName": "number",
+      "description": "Once a permit is issued, typically an inspection is created for CDOT Inspectors to use onsite. Once an inspection is completed, another inspection may be generated or if the work is finished, the permit is closed. This is the number of the last inspection.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "LASTINSPECTIONTYPE",
+      "fieldName": "lastinspectiontype",
+      "dataTypeName": "text",
+      "description": "Code for the type of inspection generated for the issued permit. Typically this will match the type of permit although special inspection types are available for stop work.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "LASTINSPTYPEDESCR",
+      "fieldName": "lastinsptypedescr",
+      "dataTypeName": "text",
+      "description": "Description of the last inspection completed against this permit.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "LASTINSPECTIONDATE",
+      "fieldName": "lastinspectiondate",
+      "dataTypeName": "calendar_date",
+      "description": "Date of the last inspection.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "LASTINSPECTIONRESULT",
+      "fieldName": "lastinspectionresult",
+      "dataTypeName": "text",
+      "description": "The result of the last inspection, if completed.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "STREETNUMBERFROM",
+      "fieldName": "streetnumberfrom",
+      "dataTypeName": "number",
+      "description": "The start of the address range for the permit location. For multiple locations on a permit, there will be multiple rows in the dataset.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "STREETNUMBERTO",
+      "fieldName": "streetnumberto",
+      "dataTypeName": "number",
+      "description": "The end of the address range for the permit location. For multiple locations on a permit, there will be multiple rows in the dataset.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "DIRECTION",
+      "fieldName": "direction",
+      "dataTypeName": "text",
+      "description": "The street direction for the permit location. For multiple locations on a permit, there will be multiple rows in the dataset.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "STREETNAME",
+      "fieldName": "streetname",
+      "dataTypeName": "text",
+      "description": "The street name for the permit location. For multiple locations on a permit, there will be multiple rows in the dataset.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "SUFFIX",
+      "fieldName": "suffix",
+      "dataTypeName": "text",
+      "description": "The street name suffix for the permit location. For multiple locations on a permit, there will be multiple rows in the dataset.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "PLACEMENT",
+      "fieldName": "placement",
+      "dataTypeName": "text",
+      "description": "Additional information about the permit location. This column may also include detour information.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "STREETCLOSURE",
+      "fieldName": "streetclosure",
+      "dataTypeName": "text",
+      "description": "Type of street closure, if any, associated with the location.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "DETAIL",
+      "fieldName": "detail",
+      "dataTypeName": "text",
+      "description": "Detail information about the permit application.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "PARKINGMETERPOSTINGORBAGGING",
+      "fieldName": "parkingmeterpostingorbagging",
+      "dataTypeName": "text",
+      "description": "Indicates if any parking meter bagging or posting of no parking signs  is requested on the permit application.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "WARD",
+      "fieldName": "ward",
+      "dataTypeName": "number",
+      "description": "The ward (City Council district) of the start of the address range.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "XCOORDINATE",
+      "fieldName": "xcoordinate",
+      "dataTypeName": "number",
+      "description": "X coordinate of the start of the address range in State Plane Illinois East NAD 1983 projection.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "YCOORDINATE",
+      "fieldName": "ycoordinate",
+      "dataTypeName": "number",
+      "description": "Y coordinate of the start of the address range in State Plane Illinois East NAD 1983 projection.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "LATITUDE",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": "Latitude of the start of the address range.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "LONGITUDE",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": "Longitude of the start of the address range.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": "Location of the start of the address range.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:32:23.640Z"
+}

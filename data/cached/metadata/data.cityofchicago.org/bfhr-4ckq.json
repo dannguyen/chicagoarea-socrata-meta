@@ -1,0 +1,143 @@
+{
+  "id": "bfhr-4ckq",
+  "name": "Public Health Statistics - Infant mortality in Chicago, 2005–2009 - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 78,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1337702624,
+  "publicationDate": 1397236056,
+  "rowsUpdatedAt": 1397235861,
+  "viewLastModified": 1788212616,
+  "viewCount": 9791,
+  "downloadCount": 8748,
+  "category": "Health & Human Services",
+  "tags": [
+    "maternal and child health",
+    "death",
+    "historical"
+  ],
+  "attribution": "Illinois Department of Public Health (IDPH)",
+  "attributionLink": null,
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2005 - 2009",
+      "Data Owner": "Epidemiology and Public Health Informatics, Chicago Department of Public Health (CDPH)"
+    }
+  },
+  "columns": [
+    {
+      "name": "Community Area",
+      "fieldName": "community_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 78
+    },
+    {
+      "name": "Community Area Name",
+      "fieldName": "community_area_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 78
+    },
+    {
+      "name": "Deaths 2005",
+      "fieldName": "deaths_2004",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 17
+    },
+    {
+      "name": "Deaths 2006",
+      "fieldName": "deaths_2005",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 16
+    },
+    {
+      "name": "Deaths 2007",
+      "fieldName": "deaths_2006",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 16
+    },
+    {
+      "name": "Deaths 2008",
+      "fieldName": "deaths_2007",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 17
+    },
+    {
+      "name": "Deaths 2009",
+      "fieldName": "deaths_2008",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 19
+    },
+    {
+      "name": "Cumulative Deaths 2005 - 2009",
+      "fieldName": "cumulative_deaths_2004_2008",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 42
+    },
+    {
+      "name": "Average Annual Deaths 2005 - 2009",
+      "fieldName": "average_annual_deaths_2004_2008",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 16
+    },
+    {
+      "name": "Average Infant Mortality Rate 2005 - 2009",
+      "fieldName": "average_infant_mortality_rate_2004_2008",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 64
+    },
+    {
+      "name": "Average Infant Mortality Rate Lower CI 2005 - 2009",
+      "fieldName": "rate_lower_ci_2004_2008",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 54
+    },
+    {
+      "name": "Average Infant Mortality Rate Upper CI 2005 - 2009",
+      "fieldName": "rate_upper_ci_2004_2008",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 63
+    },
+    {
+      "name": "WARNING",
+      "fieldName": "warning",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 40,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:38:05.724Z"
+}

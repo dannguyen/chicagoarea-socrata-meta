@@ -1,0 +1,95 @@
+{
+  "id": "4ya3-7e6m",
+  "name": "sweepingsections",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 847,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1431726412,
+  "publicationDate": 1431726414,
+  "rowsUpdatedAt": 1431726412,
+  "viewLastModified": 1712775996,
+  "viewCount": 677,
+  "downloadCount": 2049,
+  "category": "Sanitation",
+  "tags": [
+    "gis",
+    "shapefiles",
+    "boundaries",
+    "kml",
+    "kmz",
+    "street cleaning",
+    "schedule",
+    "2015",
+    "parking restrictions",
+    "map_layer"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org/city/en/depts/streets/provdrs/streets_san/svcs/street_sweeping.html",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "May 2015 to November 2015",
+      "Frequency": "Annual",
+      "Data Owner": "Streets & Sanitation"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "WARD",
+      "fieldName": "ward",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 51
+    },
+    {
+      "name": "section",
+      "fieldName": "section",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 33
+    },
+    {
+      "name": "Ward_1",
+      "fieldName": "ward_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 51
+    },
+    {
+      "name": "section_1",
+      "fieldName": "section_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 33
+    },
+    {
+      "name": "code",
+      "fieldName": "code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 845
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:23.041Z"
+}

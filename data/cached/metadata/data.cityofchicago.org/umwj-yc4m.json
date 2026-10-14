@@ -1,0 +1,215 @@
+{
+  "id": "umwj-yc4m",
+  "name": "Tax Increment Financing (TIF) Annual Report - Itemized List of Expenditures from the Special Tax Allocation Fund",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1182,
+  "rowCountSource": "cached",
+  "rowLabel": "Expenditure",
+  "hasRowIdentifier": false,
+  "createdAt": 1566339861,
+  "publicationDate": 1566340946,
+  "rowsUpdatedAt": 1788189703,
+  "viewLastModified": 1788189700,
+  "viewCount": 7940,
+  "downloadCount": 2447,
+  "category": "Community & Economic Development",
+  "tags": [
+    "tif",
+    "tif annual report"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2017-2025",
+      "Frequency": "Data are updated annually",
+      "Data Owner": "Department of Planning and Development"
+    }
+  },
+  "columns": [
+    {
+      "name": "TIF Number",
+      "fieldName": "tif_number",
+      "dataTypeName": "text",
+      "description": "The unique, numeric ID assigned to the TIF district.",
+      "nullCount": 0,
+      "cardinality": 1182
+    },
+    {
+      "name": "TIF District",
+      "fieldName": "tif_district",
+      "dataTypeName": "text",
+      "description": "Redevelopment project area",
+      "nullCount": 0,
+      "cardinality": 1182
+    },
+    {
+      "name": "Report Year",
+      "fieldName": "report_year",
+      "dataTypeName": "number",
+      "description": "Calendar year to which the record applies",
+      "nullCount": 0,
+      "cardinality": 1182
+    },
+    {
+      "name": "Cost of Studies",
+      "fieldName": "cost_of_studies",
+      "dataTypeName": "number",
+      "description": "Implementation and administration of the redevelopment plan, staff, and professional service cost",
+      "nullCount": 0,
+      "cardinality": 1182
+    },
+    {
+      "name": "Administrative Cost",
+      "fieldName": "administrative_cost",
+      "dataTypeName": "number",
+      "description": "Costs associated with general administration of the business. ",
+      "nullCount": 0,
+      "cardinality": 1182
+    },
+    {
+      "name": "Marketing Sites",
+      "fieldName": "marketing_sites",
+      "dataTypeName": "number",
+      "description": "Amount of money spent on marketing.",
+      "nullCount": 0,
+      "cardinality": 1182
+    },
+    {
+      "name": "Site Preparation Costs",
+      "fieldName": "site_preparation_costs",
+      "dataTypeName": "number",
+      "description": "Costs for land clearing to prepare the building site.",
+      "nullCount": 0,
+      "cardinality": 1182
+    },
+    {
+      "name": "Renovation, Rehab, Etc.",
+      "fieldName": "renovation_rehab_etc",
+      "dataTypeName": "number",
+      "description": "Costs of renovation, rehabilitation, reconstruction, and repair of existing public or private buildings within a redevelopment project area.",
+      "nullCount": 22,
+      "cardinality": 1182
+    },
+    {
+      "name": "Public Works",
+      "fieldName": "public_works",
+      "dataTypeName": "number",
+      "description": "Costs of construction of public works or improvements.",
+      "nullCount": 0,
+      "cardinality": 1182
+    },
+    {
+      "name": "Removing Contaminants",
+      "fieldName": "removing_contaminants",
+      "dataTypeName": "number",
+      "description": "Costs of eliminating or removing contaminants and other impediments. ",
+      "nullCount": 0,
+      "cardinality": 1182
+    },
+    {
+      "name": "Job Training",
+      "fieldName": "job_training",
+      "dataTypeName": "number",
+      "description": "Costs of job training and retraining projects. ",
+      "nullCount": 0,
+      "cardinality": 1182
+    },
+    {
+      "name": "Financing Costs",
+      "fieldName": "financing_costs",
+      "dataTypeName": "number",
+      "description": "Cost, interest, and other charges involved in the borrowing of money to build or purchase assets. ",
+      "nullCount": 0,
+      "cardinality": 1182
+    },
+    {
+      "name": "Capital Costs",
+      "fieldName": "capital_costs",
+      "dataTypeName": "number",
+      "description": "Fixed, one-time expenses incurred on the purchase of land, buildings, construction, and equipment used in the rendering of services. ",
+      "nullCount": 0,
+      "cardinality": 1182
+    },
+    {
+      "name": "School Districts",
+      "fieldName": "school_districts",
+      "dataTypeName": "number",
+      "description": "Costs of reimbursing school districts for their increased costs caused by TIF assisted housing projects. ",
+      "nullCount": 0,
+      "cardinality": 1182
+    },
+    {
+      "name": "Library Districts",
+      "fieldName": "library_districts",
+      "dataTypeName": "number",
+      "description": "Costs of reimbursing library districts for their increased costs caused by TIF assisted housing projects. ",
+      "nullCount": 0,
+      "cardinality": 1182
+    },
+    {
+      "name": "Relocation Costs",
+      "fieldName": "relocation_costs",
+      "dataTypeName": "number",
+      "description": "Costs incurred during the course of moving to a new residence.",
+      "nullCount": 0,
+      "cardinality": 1182
+    },
+    {
+      "name": "In Lieu of Taxes",
+      "fieldName": "in_lieu_of_taxes",
+      "dataTypeName": "number",
+      "description": "A payment made to compensate a government for some or all the property tax revenue lost due to tax exempt ownership or use of a real property. ",
+      "nullCount": 0,
+      "cardinality": 1182
+    },
+    {
+      "name": "Job Training/Retraining",
+      "fieldName": "job_training_retraining",
+      "dataTypeName": "number",
+      "description": "Costs of job training, retraining, advanced-vocational, or career education.",
+      "nullCount": 0,
+      "cardinality": 1182
+    },
+    {
+      "name": "Interest Cost",
+      "fieldName": "interest_cost",
+      "dataTypeName": "number",
+      "description": "Costs of interest incurred by developer related to the construction, renovation, or rehabilitation of a redevelopment project. ",
+      "nullCount": 0,
+      "cardinality": 1182
+    },
+    {
+      "name": "New Housing",
+      "fieldName": "new_housing",
+      "dataTypeName": "number",
+      "description": "Costs of construction of new housing units for low-income or very-low-income households. ",
+      "nullCount": 0,
+      "cardinality": 1182
+    },
+    {
+      "name": "Day Care Services",
+      "fieldName": "day_care_services",
+      "dataTypeName": "number",
+      "description": "Costs associated with day care services for children of employees from low -income families working for businesses located within TIF area. ",
+      "nullCount": 0,
+      "cardinality": 1182
+    },
+    {
+      "name": "Other",
+      "fieldName": "other",
+      "dataTypeName": "number",
+      "description": "Any other form of expense not clearly categorized. ",
+      "nullCount": 0,
+      "cardinality": 1182
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:01.271Z"
+}

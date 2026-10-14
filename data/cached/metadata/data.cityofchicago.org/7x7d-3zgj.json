@@ -1,0 +1,168 @@
+{
+  "id": "7x7d-3zgj",
+  "name": "Budget Transfer Report Source Data",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 125,
+  "rowCountSource": "cached",
+  "rowLabel": "Budget Transfer",
+  "hasRowIdentifier": false,
+  "createdAt": 1743603420,
+  "publicationDate": 1744403061,
+  "rowsUpdatedAt": 1784130676,
+  "viewLastModified": 1784130675,
+  "viewCount": 1769,
+  "downloadCount": 1847,
+  "category": "Administration & Finance",
+  "tags": [
+    "transfers",
+    "budget",
+    "finance"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov/city/en/depts/obm/provdrs/budget/svcs/BudgetPublications.html",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2025 - Present",
+      "Frequency": "Data is updated quarterly",
+      "Data Owner": "Budget & Management"
+    }
+  },
+  "columns": [
+    {
+      "name": "TRANSFER DATE",
+      "fieldName": "transfer_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date when fund transfer occurred.",
+      "nullCount": 0,
+      "cardinality": 125
+    },
+    {
+      "name": "BFY",
+      "fieldName": "bfy",
+      "dataTypeName": "text",
+      "description": "This is the year associated with the Budget Fiscal Year.",
+      "nullCount": 0,
+      "cardinality": 125
+    },
+    {
+      "name": "DEPARTMENT FUNCTION",
+      "fieldName": "department_function",
+      "dataTypeName": "text",
+      "description": "Department Function is defined by Department (Code) and aligns with the Budget Ordinance (specifically Summary E).",
+      "nullCount": 0,
+      "cardinality": 125
+    },
+    {
+      "name": "DEPARTMENT",
+      "fieldName": "department",
+      "dataTypeName": "text",
+      "description": "Code and description associated with the City department as designated in the Budget Ordinance and aligning with the City's financial management systems.",
+      "nullCount": 0,
+      "cardinality": 125
+    },
+    {
+      "name": "FUND TYPE",
+      "fieldName": "fund_type",
+      "dataTypeName": "text",
+      "description": "Fund Type is associated with the Fund Code, as designated in the Budget Ordinance (specifically Summary E) and aligning with the City's financial management systems.",
+      "nullCount": 0,
+      "cardinality": 125
+    },
+    {
+      "name": "FUND",
+      "fieldName": "fund",
+      "dataTypeName": "text",
+      "description": "Code and description associated with the Fund as designated in the Budget Ordinance and aligning with the City's financial management systems.",
+      "nullCount": 0,
+      "cardinality": 125
+    },
+    {
+      "name": "BUDGET AUTHORITY LINE (FROM)",
+      "fieldName": "budget_authority_line_from",
+      "dataTypeName": "text",
+      "description": "Line item within the City's budget that grants the legal authority to incur obligations and make payments.",
+      "nullCount": 0,
+      "cardinality": 125
+    },
+    {
+      "name": "PARENT COST CENTER (FROM)",
+      "fieldName": "parent_cost_center_from",
+      "dataTypeName": "text",
+      "description": "Higher-level organizational unit that may encompass multiple sub-cost centers.",
+      "nullCount": 0,
+      "cardinality": 125
+    },
+    {
+      "name": "APPROPRIATION SERIES (FROM)",
+      "fieldName": "appropriation_series_from",
+      "dataTypeName": "text",
+      "description": "Code and description associated with the Appropriation Series as designated in the Budget Ordinance and aligning with the City's financial management systems.",
+      "nullCount": 0,
+      "cardinality": 125
+    },
+    {
+      "name": "APPROPRIATION (FROM)",
+      "fieldName": "appropriation_from",
+      "dataTypeName": "text",
+      "description": "Code and description associated with the Appropriation as designated in the Budget Ordinance and aligning with the City's financial management systems.",
+      "nullCount": 0,
+      "cardinality": 125
+    },
+    {
+      "name": "BUDGET AUTHORITY LINE (TO)",
+      "fieldName": "budget_authority_line_to",
+      "dataTypeName": "text",
+      "description": "Line item within the City's budget that grants the legal authority to incur obligations and make payments.",
+      "nullCount": 0,
+      "cardinality": 125
+    },
+    {
+      "name": "PARENT COST CENTER (TO)",
+      "fieldName": "parent_cost_center_to",
+      "dataTypeName": "text",
+      "description": "Higher-level organizational unit that may encompass multiple sub-cost centers.",
+      "nullCount": 0,
+      "cardinality": 125
+    },
+    {
+      "name": "APPROPRIATION SERIES (TO)",
+      "fieldName": "appropriation_series_to",
+      "dataTypeName": "text",
+      "description": "Code and description associated with the Appropriation Series as designated in the Budget Ordinance and aligning with the City's financial management systems.",
+      "nullCount": 0,
+      "cardinality": 125
+    },
+    {
+      "name": "APPROPRIATION (TO)",
+      "fieldName": "appropriation_to",
+      "dataTypeName": "text",
+      "description": "Code and description associated with the Appropriation as designated in the Budget Ordinance and aligning with the City's financial management systems.",
+      "nullCount": 0,
+      "cardinality": 125
+    },
+    {
+      "name": "TRANSFER AMOUNT",
+      "fieldName": "transfer_amount",
+      "dataTypeName": "number",
+      "description": "Amounts include Debits and Credits, and may include negative dollar amounts.",
+      "nullCount": 0,
+      "cardinality": 125
+    },
+    {
+      "name": "TRANSFER JUSTIFICATION NOTE",
+      "fieldName": "transfer_justification_note",
+      "dataTypeName": "text",
+      "description": "Transfer justification note.",
+      "nullCount": 0,
+      "cardinality": 125
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:15.081Z"
+}

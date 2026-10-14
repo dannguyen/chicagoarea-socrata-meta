@@ -1,0 +1,125 @@
+{
+  "id": "havn-xxw6",
+  "name": "IDPH Hospice Agency Directory",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 178,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1737764544,
+  "publicationDate": 1777395825,
+  "rowsUpdatedAt": 1777395814,
+  "viewLastModified": 1777395825,
+  "viewCount": 4359,
+  "downloadCount": 790,
+  "category": "Health and Human Services",
+  "tags": [
+    "hospice",
+    "hospice program",
+    "palliative care",
+    "end of life care",
+    "terminally ill",
+    "comprehensive hospice",
+    "volunteer hospice",
+    "210 ilcs 60",
+    "77 ill adm code 280",
+    "idph licensure",
+    "healthcare licensing",
+    "medicare hospice",
+    "healthcare directory",
+    "licensed agencies",
+    "illinois health"
+  ],
+  "attribution": "IDPH",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "IDPH"
+    }
+  },
+  "columns": [
+    {
+      "name": "Facility Name",
+      "fieldName": "facility_name",
+      "dataTypeName": "text",
+      "description": "Legal name of the licensed Hospice Program as recorded by IDPH. May include a \"DBA\" (doing business as) trade name. Multi-location hospices appear once per licensed parent office; satellite or \"multiple hospice locations\" sharing administration with the parent are not separately listed.",
+      "nullCount": 0,
+      "cardinality": 178
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": "Street address of the program's licensed parent office. Suite or building numbers are included where applicable.",
+      "nullCount": 0,
+      "cardinality": 178
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": "Municipality of the program's licensed parent office.",
+      "nullCount": 0,
+      "cardinality": 178
+    },
+    {
+      "name": "County",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": "Illinois county of the program's licensed parent office. The program's approved geographic service area typically extends well beyond this county; consult IDPH for full service area details.",
+      "nullCount": 0,
+      "cardinality": 178
+    },
+    {
+      "name": "Zip",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": "Five-digit U.S. Postal Service ZIP code of the program's licensed parent office.",
+      "nullCount": 0,
+      "cardinality": 178
+    },
+    {
+      "name": "Contact Name",
+      "fieldName": "contact_name",
+      "dataTypeName": "text",
+      "description": "Primary administrative contact at the program, designated for IDPH correspondence. Typically the program administrator or hospice director.",
+      "nullCount": 0,
+      "cardinality": 178
+    },
+    {
+      "name": "Phone",
+      "fieldName": "phone",
+      "dataTypeName": "text",
+      "description": "Main published telephone number for the program, including area code. Format: (XXX) XXX-XXXX.",
+      "nullCount": 0,
+      "cardinality": 178
+    },
+    {
+      "name": "License Number",
+      "fieldName": "license_number",
+      "dataTypeName": "text",
+      "description": "License number issued by the Illinois Department of Public Health authorizing operation as a Hospice Program under 210 ILCS 60 and 77 Ill. Adm. Code 280. This is the state license number only; CMS hospice certification numbers (CCN) are issued separately and are not included in this dataset.",
+      "nullCount": 0,
+      "cardinality": 178
+    },
+    {
+      "name": "Exp. Date",
+      "fieldName": "exp_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date on which the program's current IDPH license expires. Programs must submit a renewal application prior to this date to maintain authority to operate. Format: YYYY-MM-DD.",
+      "nullCount": 0,
+      "cardinality": 178
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:31.335Z"
+}

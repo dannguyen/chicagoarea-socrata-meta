@@ -1,0 +1,125 @@
+{
+  "id": "qica-7t8v",
+  "name": "ccgisdata - Rivers and Streams",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 23888,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1436477085,
+  "publicationDate": null,
+  "rowsUpdatedAt": 1436477085,
+  "viewLastModified": 1769544772,
+  "viewCount": 878,
+  "downloadCount": 1770,
+  "category": "Recreation",
+  "tags": [
+    "rivers",
+    "streams",
+    "gis",
+    "natural environment and recreation",
+    "environment",
+    "inactive"
+  ],
+  "attribution": "Cook County GIS Dept",
+  "attributionLink": "http://www.cookcountyil.gov/geographic-information-systems-2/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multiline",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "NAME_ID",
+      "fieldName": "name_id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 81
+    },
+    {
+      "name": "UNIQID",
+      "fieldName": "uniqid",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 23757
+    },
+    {
+      "name": "ANNO_NAME",
+      "fieldName": "anno_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 85
+    },
+    {
+      "name": "ALIAS_NAME",
+      "fieldName": "alias_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "TAXMAP_ID",
+      "fieldName": "taxmap_id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 81
+    },
+    {
+      "name": "INTRP",
+      "fieldName": "intrp",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "TYPE",
+      "fieldName": "type",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "VIS",
+      "fieldName": "vis",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "OrthoYear",
+      "fieldName": "orthoyear",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "SHAPE_len",
+      "fieldName": "shape_len",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 23879
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:05.210Z"
+}

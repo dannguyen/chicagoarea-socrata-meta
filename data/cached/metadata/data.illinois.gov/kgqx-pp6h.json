@@ -1,0 +1,78 @@
+{
+  "id": "kgqx-pp6h",
+  "name": "IDPH Marriages, Divorces, and Annulments, State Total, 1958-2009",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 52,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709064560,
+  "publicationDate": 1709146477,
+  "rowsUpdatedAt": 1709146471,
+  "viewLastModified": 1736793950,
+  "viewCount": 41,
+  "downloadCount": 74,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "divorce_and_annulment_rate",
+      "fieldName": "divorce_and_annulment_rate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 23
+    },
+    {
+      "name": "divorces_and_annulments",
+      "fieldName": "divorces_and_annulments",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 52
+    },
+    {
+      "name": "marriage_rate",
+      "fieldName": "marriage_rate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 37
+    },
+    {
+      "name": "marriages",
+      "fieldName": "marriages",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 52
+    },
+    {
+      "name": "year",
+      "fieldName": "year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 52
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:38.872Z"
+}

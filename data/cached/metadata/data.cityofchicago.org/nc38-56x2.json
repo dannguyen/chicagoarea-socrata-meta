@@ -1,0 +1,241 @@
+{
+  "id": "nc38-56x2",
+  "name": "Height and Weight Limits for Trucks and Large Vehicles",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1808,
+  "rowCountSource": "cached",
+  "rowLabel": "Physical Limitation",
+  "hasRowIdentifier": true,
+  "createdAt": 1769730466,
+  "publicationDate": 1771528494,
+  "rowsUpdatedAt": 1791526834,
+  "viewLastModified": 1772641568,
+  "viewCount": 2538,
+  "downloadCount": 1766,
+  "category": "Transportation",
+  "tags": [
+    "truck",
+    "restrictions",
+    "transportation",
+    "streets"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Current",
+      "Frequency": "As needed",
+      "Data Owner": "Chicago Department of Transportation"
+    }
+  },
+  "columns": [
+    {
+      "name": "route_id",
+      "fieldName": "route_id",
+      "dataTypeName": "text",
+      "description": "Identification number for each route restriction.",
+      "nullCount": 0,
+      "cardinality": 1808
+    },
+    {
+      "name": "reporting_agency",
+      "fieldName": "reporting_agency",
+      "dataTypeName": "text",
+      "description": "Agency that the data are coming from.",
+      "nullCount": 0,
+      "cardinality": 1808
+    },
+    {
+      "name": "restriction_description",
+      "fieldName": "restriction_description",
+      "dataTypeName": "text",
+      "description": "Restriction’s address and what kind of restriction it is. Some restrictions do not have specific addresses; the other columns will define the locations of these restrictions.",
+      "nullCount": 0,
+      "cardinality": 1808
+    },
+    {
+      "name": "start_road_name",
+      "fieldName": "start_road_name",
+      "dataTypeName": "text",
+      "description": "Name of the road where the restriction begins.",
+      "nullCount": 0,
+      "cardinality": 1808
+    },
+    {
+      "name": "start_cross_street",
+      "fieldName": "start_cross_street",
+      "dataTypeName": "text",
+      "description": "Name of the nearest cross street where the restriction begins.",
+      "nullCount": 22,
+      "cardinality": 1808
+    },
+    {
+      "name": "end_road_name",
+      "fieldName": "end_road_name",
+      "dataTypeName": "text",
+      "description": "Name of the road where the restriction ends.",
+      "nullCount": 1713,
+      "cardinality": 1808
+    },
+    {
+      "name": "end_cross_street",
+      "fieldName": "end_cross_street",
+      "dataTypeName": "text",
+      "description": "Name of the nearest cross street where the restriction ends.",
+      "nullCount": 1715,
+      "cardinality": 1808
+    },
+    {
+      "name": "restriction_category",
+      "fieldName": "restriction_category",
+      "dataTypeName": "text",
+      "description": "Type of restriction - height or weight.",
+      "nullCount": 1,
+      "cardinality": 1808
+    },
+    {
+      "name": "clearance_value",
+      "fieldName": "clearance_value",
+      "dataTypeName": "number",
+      "description": "Posted height for the vehicle to pass under the structure.",
+      "nullCount": 0,
+      "cardinality": 1808
+    },
+    {
+      "name": "applicable_truck_class",
+      "fieldName": "applicable_truck_class",
+      "dataTypeName": "text",
+      "description": "Truck class associated with the restriction (if applicable).",
+      "nullCount": 103,
+      "cardinality": 1808
+    },
+    {
+      "name": "restriction_location_description",
+      "fieldName": "restriction_location_description",
+      "dataTypeName": "text",
+      "description": "Additional information about the location.",
+      "nullCount": 108,
+      "cardinality": 1808
+    },
+    {
+      "name": "load_posting",
+      "fieldName": "load_posting",
+      "dataTypeName": "text",
+      "description": "Posted weight limit for the vehicle to pass through the facility.",
+      "nullCount": 1723,
+      "cardinality": 1808
+    },
+    {
+      "name": "facility_type",
+      "fieldName": "facility_type",
+      "dataTypeName": "text",
+      "description": "Type of the Restriction: If the restriction is Weight, or Boulevard.",
+      "nullCount": 1723,
+      "cardinality": 1808
+    },
+    {
+      "name": "facility_name",
+      "fieldName": "facility_name",
+      "dataTypeName": "text",
+      "description": "Name of the structure that is weight restricted (bridge name, overpass location, etc.).",
+      "nullCount": 1723,
+      "cardinality": 1808
+    },
+    {
+      "name": "start_latitude",
+      "fieldName": "start_latitude",
+      "dataTypeName": "number",
+      "description": "Latitude of the start location.",
+      "nullCount": 0,
+      "cardinality": 1808
+    },
+    {
+      "name": "start_longitude",
+      "fieldName": "start_longitude",
+      "dataTypeName": "number",
+      "description": "Longitude of the start location.",
+      "nullCount": 0,
+      "cardinality": 1808
+    },
+    {
+      "name": "end_latitude",
+      "fieldName": "end_latitude",
+      "dataTypeName": "number",
+      "description": "Latitude of the end location.",
+      "nullCount": 0,
+      "cardinality": 1808
+    },
+    {
+      "name": "end_longitude",
+      "fieldName": "end_longitude",
+      "dataTypeName": "number",
+      "description": "Longitude of the end location.",
+      "nullCount": 0,
+      "cardinality": 1808
+    },
+    {
+      "name": "start_location",
+      "fieldName": "start_location",
+      "dataTypeName": "point",
+      "description": "Start location in a format that allows for creation of maps and other geographic operations on this data portal",
+      "nullCount": 0,
+      "cardinality": 1808
+    },
+    {
+      "name": "end_location",
+      "fieldName": "end_location",
+      "dataTypeName": "point",
+      "description": "End location in a format that allows for creation of maps and other geographic operations on this data portal",
+      "nullCount": 0,
+      "cardinality": 1808
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Boundaries - ZIP Codes' (rpca-8um6) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Community Areas' (vrxf-vc4k) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Zip Codes' (6mkv-f3dw) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Census Tracts' (bdys-3d7i) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards 2023-",
+      "fieldName": ":@computed_region_8hcu_yrd4",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Wards 2023-' (8hcu-yrd4) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:10.730Z"
+}

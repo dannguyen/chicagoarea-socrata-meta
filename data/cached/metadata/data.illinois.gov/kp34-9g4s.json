@@ -1,0 +1,99 @@
+{
+  "id": "kp34-9g4s",
+  "name": "Export Output 5",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 46,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709065134,
+  "publicationDate": 1709135187,
+  "rowsUpdatedAt": 1709135181,
+  "viewLastModified": 1736794037,
+  "viewCount": 34,
+  "downloadCount": 73,
+  "category": "Transportation",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "county",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 44
+    },
+    {
+      "name": "headcount",
+      "fieldName": "headcount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "icn",
+      "fieldName": "icn",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "icn_router",
+      "fieldName": "icn_router",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 29,
+      "cardinality": 17
+    },
+    {
+      "name": "location",
+      "fieldName": "location",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 46
+    },
+    {
+      "name": "notes",
+      "fieldName": "notes",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 40,
+      "cardinality": 4
+    },
+    {
+      "name": "site",
+      "fieldName": "site",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 45
+    },
+    {
+      "name": "type",
+      "fieldName": "type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:40.137Z"
+}

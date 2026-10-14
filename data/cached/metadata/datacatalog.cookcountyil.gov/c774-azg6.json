@@ -1,0 +1,98 @@
+{
+  "id": "c774-azg6",
+  "name": "Cook County Clerk - Lobbyist Activity",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 4702,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1316784141,
+  "publicationDate": 1412896544,
+  "rowsUpdatedAt": 1639635004,
+  "viewLastModified": 1769545315,
+  "viewCount": 5184,
+  "downloadCount": 16297,
+  "category": "Finance & Operations",
+  "tags": [],
+  "attribution": "Cook County Clerk",
+  "attributionLink": "http://www.cookcountyclerk.com",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Update Frequency": "Daily"
+    }
+  },
+  "columns": [
+    {
+      "name": "Lobbyist Firm/Sole Proprietor",
+      "fieldName": "lobbyist_firm_sole_proprietor",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 163
+    },
+    {
+      "name": "Activity Date",
+      "fieldName": "activity_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 1334
+    },
+    {
+      "name": "Client",
+      "fieldName": "client",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 233
+    },
+    {
+      "name": "Person Lobbied",
+      "fieldName": "person_lobbied",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 729
+    },
+    {
+      "name": "Person Lobbied Title",
+      "fieldName": "person_lobbied_title",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 672
+    },
+    {
+      "name": "Lobbyist",
+      "fieldName": "lobbyist",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 257
+    },
+    {
+      "name": "Contact Nature",
+      "fieldName": "contact_nature",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 9
+    },
+    {
+      "name": "Subject Matter",
+      "fieldName": "subject_matter",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 1629
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:52.655Z"
+}

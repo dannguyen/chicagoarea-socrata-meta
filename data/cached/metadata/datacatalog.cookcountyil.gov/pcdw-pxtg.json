@@ -1,0 +1,109 @@
+{
+  "id": "pcdw-pxtg",
+  "name": "Assessor - Neighborhood Boundaries",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 860,
+  "rowCountSource": "cached",
+  "rowLabel": "Assessor Neighborhood",
+  "hasRowIdentifier": false,
+  "createdAt": 1651241861,
+  "publicationDate": 1651242445,
+  "rowsUpdatedAt": 1651242439,
+  "viewLastModified": 1785512336,
+  "viewCount": 19540,
+  "downloadCount": 3975,
+  "category": "Property & Taxation",
+  "tags": [
+    "cook county assessor",
+    "property tax",
+    "spatial"
+  ],
+  "attribution": "Cook County Assessor's Office",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Data Department"
+    },
+    "Source Details": {
+      "Source System": "iasWorld"
+    },
+    "Metadata": {
+      "Update Frequency": "Yearly"
+    },
+    "Detailed Descriptive": {
+      "Temporal coverage": "2021",
+      "Geographic coverage": "Countywide",
+      "Geographic unit": "Neighborhood"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Annually",
+      "Publishing frequency": "Annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "multipolygon",
+      "fieldName": "multipolygon",
+      "dataTypeName": "multipolygon",
+      "description": "Geometry (neighborhood boundary)",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "neighborhood",
+      "fieldName": "nbhd",
+      "dataTypeName": "text",
+      "description": "Neighborhood number",
+      "nullCount": 0,
+      "cardinality": 198
+    },
+    {
+      "name": "township_neighborhood",
+      "fieldName": "town_nbhd",
+      "dataTypeName": "text",
+      "description": "Township and neighborhood number. First 2 digits are town, last 3 are neighborhood",
+      "nullCount": 0,
+      "cardinality": 860
+    },
+    {
+      "name": "township_code",
+      "fieldName": "township_code",
+      "dataTypeName": "text",
+      "description": "Township number",
+      "nullCount": 0,
+      "cardinality": 38
+    },
+    {
+      "name": "township_name",
+      "fieldName": "township_name",
+      "dataTypeName": "text",
+      "description": "Township name",
+      "nullCount": 0,
+      "cardinality": 38
+    },
+    {
+      "name": "triad_code",
+      "fieldName": "triad_code",
+      "dataTypeName": "text",
+      "description": "Triad code. Reassessment of property in Cook County is done within a triennial cycle, meaning it occurs every three years. The Cook County Assessor's Office alternates reassessments between triads: the north and west suburbs, the south and west suburbs and the City of Chicago.",
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "triad_name",
+      "fieldName": "triad_name",
+      "dataTypeName": "text",
+      "description": "Triad name. Reassessment of property in Cook County is done within a triennial cycle, meaning it occurs every three years. The Cook County Assessor's Office alternates reassessments between triads: the north and west suburbs, the south and west suburbs and the City of Chicago.",
+      "nullCount": 0,
+      "cardinality": 3
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:49.003Z"
+}

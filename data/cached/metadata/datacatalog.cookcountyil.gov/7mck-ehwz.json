@@ -1,0 +1,348 @@
+{
+  "id": "7mck-ehwz",
+  "name": "Initiation",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1228260,
+  "rowCountSource": "cached",
+  "rowLabel": "Charge",
+  "hasRowIdentifier": false,
+  "createdAt": 1518559720,
+  "publicationDate": 1651783406,
+  "rowsUpdatedAt": 1775141257,
+  "viewLastModified": 1775140693,
+  "viewCount": 14856,
+  "downloadCount": 4391,
+  "category": "Legal & Judicial",
+  "tags": [
+    "state's attorney case-level",
+    "state's attorney"
+  ],
+  "attribution": "Cook County State's Attorney's Office",
+  "attributionLink": "https://www.cookcountystatesattorney.org/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County State's Attorney's Office"
+    },
+    "Metadata": {
+      "Update Frequency": "As Needed"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Streaming",
+      "Publishing frequency": "Quarterly"
+    }
+  },
+  "columns": [
+    {
+      "name": "CASE_ID",
+      "fieldName": "case_id",
+      "dataTypeName": "number",
+      "description": "Internal unique identifier for each case",
+      "nullCount": 0,
+      "cardinality": 1228260
+    },
+    {
+      "name": "CASE_PARTICIPANT_ID",
+      "fieldName": "case_participant_id",
+      "dataTypeName": "number",
+      "description": "Internal unique identifier for each defendant associated with a case ",
+      "nullCount": 0,
+      "cardinality": 1228260
+    },
+    {
+      "name": "RECEIVED_DATE",
+      "fieldName": "received_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date when Felony Review Unit received the case ",
+      "nullCount": 0,
+      "cardinality": 1228260
+    },
+    {
+      "name": "OFFENSE_CATEGORY",
+      "fieldName": "offense_category",
+      "dataTypeName": "text",
+      "description": "Broad offense category before specific charges are filed on a case ",
+      "nullCount": 0,
+      "cardinality": 1228260
+    },
+    {
+      "name": "PRIMARY_CHARGE_FLAG",
+      "fieldName": "primary_charge",
+      "dataTypeName": "checkbox",
+      "description": "A binary flag indicating whether this row records the most severe charge against the accused",
+      "nullCount": 0,
+      "cardinality": 1228260
+    },
+    {
+      "name": "CHARGE_ID",
+      "fieldName": "charge_id",
+      "dataTypeName": "number",
+      "description": "Internal unique identifier for each charge filed ",
+      "nullCount": 0,
+      "cardinality": 1228260
+    },
+    {
+      "name": "CHARGE_VERSION_ID",
+      "fieldName": "charge_version_id",
+      "dataTypeName": "number",
+      "description": "Internal unique identifier for each version of a charge associated with charges filed ",
+      "nullCount": 0,
+      "cardinality": 1228260
+    },
+    {
+      "name": "CHARGE_OFFENSE_TITLE",
+      "fieldName": "charge_offense_title",
+      "dataTypeName": "text",
+      "description": "Formal charge title against the defendant ",
+      "nullCount": 0,
+      "cardinality": 1228260
+    },
+    {
+      "name": "CHARGE_COUNT",
+      "fieldName": "charge_count",
+      "dataTypeName": "number",
+      "description": "Number of charges associated with one defendant in one case ",
+      "nullCount": 0,
+      "cardinality": 1228260
+    },
+    {
+      "name": "CHAPTER",
+      "fieldName": "chapter",
+      "dataTypeName": "text",
+      "description": "Legal chapter for the charge ",
+      "nullCount": 0,
+      "cardinality": 1228260
+    },
+    {
+      "name": "ACT",
+      "fieldName": "act",
+      "dataTypeName": "text",
+      "description": "Legal act for the charge ",
+      "nullCount": 9,
+      "cardinality": 1228260
+    },
+    {
+      "name": "SECTION",
+      "fieldName": "section",
+      "dataTypeName": "text",
+      "description": "Legal section for the charge  ",
+      "nullCount": 9,
+      "cardinality": 1228260
+    },
+    {
+      "name": "CLASS",
+      "fieldName": "class",
+      "dataTypeName": "text",
+      "description": "Legal class for the charge",
+      "nullCount": 0,
+      "cardinality": 1228260
+    },
+    {
+      "name": "AOIC",
+      "fieldName": "aoic",
+      "dataTypeName": "text",
+      "description": "Administrative Office of the Illinois Courts ID for a charge’s relevant statute ",
+      "nullCount": 1,
+      "cardinality": 1228260
+    },
+    {
+      "name": "EVENT",
+      "fieldName": "event",
+      "dataTypeName": "text",
+      "description": "Manner in which charge was formally filed ",
+      "nullCount": 110602,
+      "cardinality": 1228260
+    },
+    {
+      "name": "EVENT_DATE",
+      "fieldName": "event_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date charge was formally filed ",
+      "nullCount": 110538,
+      "cardinality": 1228260
+    },
+    {
+      "name": "FINDING_NO_PROBABLE_CAUSE",
+      "fieldName": "finding_no_probable_cause",
+      "dataTypeName": "number",
+      "description": "Result of the preliminary examination (preliminary hearing)",
+      "nullCount": 1186777,
+      "cardinality": 1228260
+    },
+    {
+      "name": "ARRAIGNMENT_DATE",
+      "fieldName": "arraignment_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date of the arraignment",
+      "nullCount": 171461,
+      "cardinality": 1228260
+    },
+    {
+      "name": "BOND_DATE_INITIAL",
+      "fieldName": "bond_date_initial",
+      "dataTypeName": "calendar_date",
+      "description": "Date bond set at bond court ",
+      "nullCount": 419212,
+      "cardinality": 1228260
+    },
+    {
+      "name": "BOND_DATE_CURRENT",
+      "fieldName": "bond_date_current",
+      "dataTypeName": "calendar_date",
+      "description": "Date bond set/updated ",
+      "nullCount": 419212,
+      "cardinality": 1228260
+    },
+    {
+      "name": "BOND_TYPE_INITIAL",
+      "fieldName": "bond_type_initial",
+      "dataTypeName": "text",
+      "description": "Initial type set at bond court",
+      "nullCount": 419212,
+      "cardinality": 1228260
+    },
+    {
+      "name": "BOND_TYPE_CURRENT",
+      "fieldName": "bond_type_current",
+      "dataTypeName": "text",
+      "description": "Current/most recent bond type",
+      "nullCount": 419212,
+      "cardinality": 1228260
+    },
+    {
+      "name": "BOND_AMOUNT_INITIAL",
+      "fieldName": "bond_amount_initial",
+      "dataTypeName": "number",
+      "description": "Initial bail amount set at bond court ",
+      "nullCount": 488278,
+      "cardinality": 1228260
+    },
+    {
+      "name": "BOND_AMOUNT_CURRENT",
+      "fieldName": "bond_amount_current",
+      "dataTypeName": "number",
+      "description": "Current/most recent bail amount ",
+      "nullCount": 486343,
+      "cardinality": 1228260
+    },
+    {
+      "name": "BOND_ELECTRONIC_MONITOR_FLAG_INITIAL",
+      "fieldName": "bond_electronic_monitor_flag_initial",
+      "dataTypeName": "checkbox",
+      "description": "Initial electronic monitoring set as a condition of bond at bond court  ",
+      "nullCount": 1178171,
+      "cardinality": 1228260
+    },
+    {
+      "name": "BOND_ELECTROINIC_MONITOR_FLAG_CURRENT",
+      "fieldName": "bond_electroinic_monitor_flag_current",
+      "dataTypeName": "checkbox",
+      "description": "Current/most recent electronic monitoring status as a condition of bond ",
+      "nullCount": 1175631,
+      "cardinality": 1228260
+    },
+    {
+      "name": "AGE_AT_INCIDENT",
+      "fieldName": "age_at_incident",
+      "dataTypeName": "number",
+      "description": "Age of defendant at date of incident, as recorded by law enforcement or self-reported by defendant",
+      "nullCount": 27294,
+      "cardinality": 1228260
+    },
+    {
+      "name": "RACE",
+      "fieldName": "race",
+      "dataTypeName": "text",
+      "description": "Race of defendant reported by law enforcement or self-reported",
+      "nullCount": 11487,
+      "cardinality": 1228260
+    },
+    {
+      "name": "GENDER",
+      "fieldName": "gender",
+      "dataTypeName": "text",
+      "description": "Gender of defendant reported by law enforcement or self-reported",
+      "nullCount": 9119,
+      "cardinality": 1228260
+    },
+    {
+      "name": "INCIDENT_CITY",
+      "fieldName": "incident_city",
+      "dataTypeName": "text",
+      "description": "The city where the incident took place",
+      "nullCount": 49265,
+      "cardinality": 1228260
+    },
+    {
+      "name": "INCIDENT_BEGIN_DATE",
+      "fieldName": "incident_begin_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date offense occurred/began ",
+      "nullCount": 19666,
+      "cardinality": 1228260
+    },
+    {
+      "name": "INCIDENT_END_DATE",
+      "fieldName": "incident_end_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date offense ended",
+      "nullCount": 1105225,
+      "cardinality": 1228260
+    },
+    {
+      "name": "LAW_ENFORCEMENT_AGENCY",
+      "fieldName": "law_enforcement_agency",
+      "dataTypeName": "text",
+      "description": "Law enforcement agency associated with the arrest",
+      "nullCount": 5766,
+      "cardinality": 1228260
+    },
+    {
+      "name": "LAW_ENFORCEMENT_UNIT",
+      "fieldName": "unit",
+      "dataTypeName": "text",
+      "description": "Law Enforcement Unit within Chicago Police Department associated with the arrest ",
+      "nullCount": 908544,
+      "cardinality": 1228260
+    },
+    {
+      "name": "ARREST_DATE",
+      "fieldName": "arrest_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date and time of arrest",
+      "nullCount": 52744,
+      "cardinality": 1228260
+    },
+    {
+      "name": "FELONY_REVIEW_DATE",
+      "fieldName": "felony_review_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date Felony Review result was reached ",
+      "nullCount": 301291,
+      "cardinality": 1228260
+    },
+    {
+      "name": "FELONY_REVIEW_RESULT",
+      "fieldName": "felony_review_result",
+      "dataTypeName": "text",
+      "description": "Result of the Felony Review process",
+      "nullCount": 301291,
+      "cardinality": 1228260
+    },
+    {
+      "name": "UPDATED_OFFENSE_CATEGORY",
+      "fieldName": "updated_offense_category",
+      "dataTypeName": "text",
+      "description": "Offense category for the case updated based upon the primary charge. ",
+      "nullCount": 0,
+      "cardinality": 1228260
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:49.951Z"
+}

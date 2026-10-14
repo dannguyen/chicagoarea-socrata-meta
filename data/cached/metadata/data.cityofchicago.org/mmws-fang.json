@@ -1,0 +1,79 @@
+{
+  "id": "mmws-fang",
+  "name": "FOIA Request Log - Assets, Information & Services",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 675,
+  "rowCountSource": "cached",
+  "rowLabel": "FOIA Request",
+  "hasRowIdentifier": false,
+  "createdAt": 1582323745,
+  "publicationDate": 1582323748,
+  "rowsUpdatedAt": 1633450020,
+  "viewLastModified": 1633450019,
+  "viewCount": 1462,
+  "downloadCount": 3146,
+  "category": "FOIA",
+  "tags": [
+    "foia",
+    "ais"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://data.cityofchicago.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "January 2020 to present",
+      "Frequency": "Data are updated as needed",
+      "Data Owner": "Assets, Information & Services"
+    }
+  },
+  "columns": [
+    {
+      "name": "REQUESTOR NAME",
+      "fieldName": "requestor_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 211
+    },
+    {
+      "name": "ORGANIZATION",
+      "fieldName": "organization",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 627,
+      "cardinality": 31
+    },
+    {
+      "name": "DESCRIPTION OF REQUEST",
+      "fieldName": "description_of_request",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 7,
+      "cardinality": 434
+    },
+    {
+      "name": "DATE RECEIVED",
+      "fieldName": "date_received",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 250
+    },
+    {
+      "name": "DUE DATE",
+      "fieldName": "due_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 626,
+      "cardinality": 24
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:17.372Z"
+}

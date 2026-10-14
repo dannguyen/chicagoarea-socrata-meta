@@ -1,0 +1,71 @@
+{
+  "id": "u6q5-2knd",
+  "name": "Inspector General - Employment Quarterly Action Reports",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 52,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1469137436,
+  "publicationDate": 1552927067,
+  "rowsUpdatedAt": 1786208982,
+  "viewLastModified": 1786208982,
+  "viewCount": 31011,
+  "downloadCount": 2603,
+  "category": "Finance & Operations",
+  "tags": [
+    "oiig",
+    "hiring",
+    "termination",
+    "promotion",
+    "transfer"
+  ],
+  "attribution": "Cook County Office of the Independent Inspector General",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Office of the Independent Inspector General"
+    },
+    "Metadata": {
+      "Update Frequency": "Quarterly"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Quarterly",
+      "Publishing frequency": "Quarterly"
+    }
+  },
+  "columns": [
+    {
+      "name": "Link",
+      "fieldName": "link",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": null
+    },
+    {
+      "name": "Fiscal Year",
+      "fieldName": "fiscal_year",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 52
+    },
+    {
+      "name": "Quarter",
+      "fieldName": "quarter",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 52
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:46.805Z"
+}

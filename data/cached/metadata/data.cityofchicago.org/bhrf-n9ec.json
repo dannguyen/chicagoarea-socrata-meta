@@ -1,0 +1,136 @@
+{
+  "id": "bhrf-n9ec",
+  "name": "Influenza Positive Laboratory Tests by Type and Subtype",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 5010,
+  "rowCountSource": "cached",
+  "rowLabel": "Influenza positive tests",
+  "hasRowIdentifier": false,
+  "createdAt": 1734367171,
+  "publicationDate": 1734367964,
+  "rowsUpdatedAt": 1791567025,
+  "viewLastModified": 1788213259,
+  "viewCount": 619,
+  "downloadCount": 1268,
+  "category": "Health & Human Services",
+  "tags": [
+    "flu",
+    "public health",
+    "health"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": null,
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "October 2010 through the most recent date shown",
+      "Frequency": "Data are updated weekly",
+      "Data Owner": "Department of Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "mmwr_week",
+      "fieldName": "mmwr_week",
+      "dataTypeName": "number",
+      "description": "A weekly counting system within a calendar year standardized by the U.S. Centers for Disease Control and Prevention.",
+      "nullCount": 0,
+      "cardinality": 5010
+    },
+    {
+      "name": "week",
+      "fieldName": "week",
+      "dataTypeName": "number",
+      "description": "The calendar week standardized by the U.S. Centers for Disease Control and Prevention.",
+      "nullCount": 0,
+      "cardinality": 5010
+    },
+    {
+      "name": "week_start",
+      "fieldName": "week_start",
+      "dataTypeName": "calendar_date",
+      "description": "Beginning date of the MMWR week.",
+      "nullCount": 0,
+      "cardinality": 5010
+    },
+    {
+      "name": "week_end",
+      "fieldName": "week_end",
+      "dataTypeName": "calendar_date",
+      "description": "Ending date of the MMWR week.",
+      "nullCount": 0,
+      "cardinality": 5010
+    },
+    {
+      "name": "season",
+      "fieldName": "season",
+      "dataTypeName": "text",
+      "description": "Annually recurring reporting period for which estimates are calculated, beginning during MMWR week 40 and ending with week 39 of the following year.",
+      "nullCount": 0,
+      "cardinality": 5010
+    },
+    {
+      "name": "characteristic_category",
+      "fieldName": "characteristic_category",
+      "dataTypeName": "text",
+      "description": "Overall category of  influenza test result or characteristic (e.g., Influenza Type or Influenza A Subtype). ",
+      "nullCount": 0,
+      "cardinality": 5010
+    },
+    {
+      "name": "characteristic_group",
+      "fieldName": "characteristic_group",
+      "dataTypeName": "text",
+      "description": "Specific influenza test result or characteristic (e.g., Influenza A (H3N2) or Influenza B). This is a subset of the characteristic category. ",
+      "nullCount": 0,
+      "cardinality": 5010
+    },
+    {
+      "name": "count",
+      "fieldName": "count",
+      "dataTypeName": "number",
+      "description": "Total number of specimens that were positive for the specified characteristic group as reported by participating laboratories.",
+      "nullCount": 0,
+      "cardinality": 5010
+    },
+    {
+      "name": "count_pct",
+      "fieldName": "count_pct",
+      "dataTypeName": "number",
+      "description": "Percentage of specimens that were positive for the specified characteristic group as reported by participating laboratories.  Note: Characteristic group ‘Total Positive’ will always be 100%. ",
+      "nullCount": 0,
+      "cardinality": 5010
+    },
+    {
+      "name": "count_cumulative",
+      "fieldName": "count_cumulative",
+      "dataTypeName": "number",
+      "description": "Total number of specimens that were positive for the specified characteristic group in the specified season, which goes from week 40 of each year to week 39 of the following year.",
+      "nullCount": 0,
+      "cardinality": 5010
+    },
+    {
+      "name": "count_cum_pct",
+      "fieldName": "count_cum_pct",
+      "dataTypeName": "number",
+      "description": "Percentage of specimens that were positive for the specified characteristic group in the specified season, which goes from week 40 of each year to week 39 of the following year. Note: Characteristic group ‘Total Positive’ will always be 100%.",
+      "nullCount": 0,
+      "cardinality": 5010
+    },
+    {
+      "name": "current_week_ending",
+      "fieldName": "current_week_ending",
+      "dataTypeName": "calendar_date",
+      "description": "Ending date of the the MMWR week for the current season.",
+      "nullCount": 0,
+      "cardinality": 5010
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:23.249Z"
+}

@@ -1,0 +1,99 @@
+{
+  "id": "d94a-86k7",
+  "name": "Census 2020 By The Numbers",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 126,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1592515488,
+  "publicationDate": 1593049777,
+  "rowsUpdatedAt": 1607965783,
+  "viewLastModified": 1769545639,
+  "viewCount": 2254,
+  "downloadCount": 4227,
+  "category": "Economic Development",
+  "tags": [
+    "fy2020"
+  ],
+  "attribution": "Bureau of Economic Development",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Bureau of Economic Development"
+    },
+    "Metadata": {
+      "Update Frequency": "As Needed"
+    },
+    "Publishing Details": {
+      "Data change frequency": "As needed",
+      "Publishing frequency": "As needed"
+    }
+  },
+  "columns": [
+    {
+      "name": "Month",
+      "fieldName": "month",
+      "dataTypeName": "text",
+      "description": "Year and Month of procurement",
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "Category",
+      "fieldName": "category",
+      "dataTypeName": "text",
+      "description": "Primary category of spend group. Primary category of the spend group, includes Marketing, Administrative, Event Fees, Advertising.",
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Sub-Category",
+      "fieldName": "sub_category",
+      "dataTypeName": "text",
+      "description": "Sub category within the primary group",
+      "nullCount": 0,
+      "cardinality": 16
+    },
+    {
+      "name": "Spanish Category",
+      "fieldName": "spanish_category",
+      "dataTypeName": "text",
+      "description": "Primary category of spend group in Spanish",
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Spanish Sub-Category",
+      "fieldName": "spanish_sub_category",
+      "dataTypeName": "text",
+      "description": "Sub category within the primary group in Spanish",
+      "nullCount": 0,
+      "cardinality": 16
+    },
+    {
+      "name": "Sum of Total Cost",
+      "fieldName": "sum_of_total_cost",
+      "dataTypeName": "number",
+      "description": "total cost",
+      "nullCount": 0,
+      "cardinality": 126
+    },
+    {
+      "name": "Spanish Date",
+      "fieldName": "spanish_date",
+      "dataTypeName": "text",
+      "description": "Date column used for Spanish visualizations",
+      "nullCount": 0,
+      "cardinality": 10
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:56.388Z"
+}

@@ -1,0 +1,677 @@
+{
+  "id": "bydy-i3d5",
+  "name": "Street Midlines",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 250116,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1394035288,
+  "publicationDate": null,
+  "rowsUpdatedAt": 1394035288,
+  "viewLastModified": 1769545621,
+  "viewCount": 1163,
+  "downloadCount": 2397,
+  "category": "Boundaries & Districts",
+  "tags": [
+    "streets",
+    "midlines",
+    "centerlines",
+    "gis",
+    "maps",
+    "transportation"
+  ],
+  "attribution": "Cook County GIS Department",
+  "attributionLink": "http://www.co.cook.il.us/portal/server.pt/community/geographic_information_systems/315/geographic_information_systems/463",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multiline",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "UNIQUEID",
+      "fieldName": "uniqueid",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 249845
+    },
+    {
+      "name": "TYPE",
+      "fieldName": "type",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 30
+    },
+    {
+      "name": "MAJORROAD",
+      "fieldName": "majorroad",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "LADDRFROM",
+      "fieldName": "laddrfrom",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11154
+    },
+    {
+      "name": "LADDRTO",
+      "fieldName": "laddrto",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11316
+    },
+    {
+      "name": "RADDRFROM",
+      "fieldName": "raddrfrom",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11141
+    },
+    {
+      "name": "RADDRTO",
+      "fieldName": "raddrto",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11298
+    },
+    {
+      "name": "STNAMEPRD",
+      "fieldName": "stnameprd",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "STNAMEPRM",
+      "fieldName": "stnameprm",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "STNAMEPRT",
+      "fieldName": "stnameprt",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "STNAME",
+      "fieldName": "stname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7370
+    },
+    {
+      "name": "STNAMEPOT",
+      "fieldName": "stnamepot",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 63
+    },
+    {
+      "name": "STNAMEPOD",
+      "fieldName": "stnamepod",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "STNAMEPOM",
+      "fieldName": "stnamepom",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "FULLSTNA",
+      "fieldName": "fullstna",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 16255
+    },
+    {
+      "name": "FULSTNAAB",
+      "fieldName": "fulstnaab",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 16583
+    },
+    {
+      "name": "STNAMEPRD1",
+      "fieldName": "stnameprd1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "STNAMEPRM1",
+      "fieldName": "stnameprm1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "STNAMEPRT1",
+      "fieldName": "stnameprt1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "STNAME1",
+      "fieldName": "stname1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 151
+    },
+    {
+      "name": "STNAMEPOT1",
+      "fieldName": "stnamepot1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 16
+    },
+    {
+      "name": "STNAMEPOD1",
+      "fieldName": "stnamepod1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "STNAMEPOM1",
+      "fieldName": "stnamepom1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "FULLSTNA1",
+      "fieldName": "fullstna1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 172
+    },
+    {
+      "name": "FULSTNAAB1",
+      "fieldName": "fulstnaab1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 176
+    },
+    {
+      "name": "HONSTNAME",
+      "fieldName": "honstname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 112
+    },
+    {
+      "name": "HONSTNAME1",
+      "fieldName": "honstname1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "DEDICATED_",
+      "fieldName": "dedicated_",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 13570
+    },
+    {
+      "name": "LCITY",
+      "fieldName": "lcity",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 165
+    },
+    {
+      "name": "RCITY",
+      "fieldName": "rcity",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 166
+    },
+    {
+      "name": "LUSPSST",
+      "fieldName": "luspsst",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "RUSPSST",
+      "fieldName": "ruspsst",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "ZIPL",
+      "fieldName": "zipl",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 182
+    },
+    {
+      "name": "ZIPR",
+      "fieldName": "zipr",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 178
+    },
+    {
+      "name": "HWYTYPE",
+      "fieldName": "hwytype",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "HWYNO",
+      "fieldName": "hwyno",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 37
+    },
+    {
+      "name": "FULLHINA",
+      "fieldName": "fullhina",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 14
+    },
+    {
+      "name": "HWYTYPE1",
+      "fieldName": "hwytype1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "HWYNO1",
+      "fieldName": "hwyno1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "FULLHINA1",
+      "fieldName": "fullhina1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "HWYTYPE2",
+      "fieldName": "hwytype2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "HWYNO2",
+      "fieldName": "hwyno2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "FULLHINA2",
+      "fieldName": "fullhina2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "HWYTYPE3",
+      "fieldName": "hwytype3",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "HWYNO3",
+      "fieldName": "hwyno3",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "FULLHINA3",
+      "fieldName": "fullhina3",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "RTE_HRCHY",
+      "fieldName": "rte_hrchy",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "GRADE_SEP",
+      "fieldName": "grade_sep",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "FROM_GRADE",
+      "fieldName": "from_grade",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "TO_GRADE",
+      "fieldName": "to_grade",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "SURFACE",
+      "fieldName": "surface",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "SPDLIMIT",
+      "fieldName": "spdlimit",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 14
+    },
+    {
+      "name": "LENGTH",
+      "fieldName": "length",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 249681
+    },
+    {
+      "name": "MINUTE",
+      "fieldName": "minute",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 182772
+    },
+    {
+      "name": "ONEWAY",
+      "fieldName": "oneway",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "HTRESTRC",
+      "fieldName": "htrestrc",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "LONGITUDE",
+      "fieldName": "longitude",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 189463
+    },
+    {
+      "name": "LATITUDE",
+      "fieldName": "latitude",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 203457
+    },
+    {
+      "name": "UNIVRSLDT",
+      "fieldName": "univrsldt",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "CFCCCODE",
+      "fieldName": "cfcccode",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "GNISMUNIL",
+      "fieldName": "gnismunil",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 136
+    },
+    {
+      "name": "GNISMUNIR",
+      "fieldName": "gnismunir",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 136
+    },
+    {
+      "name": "GNISTWP",
+      "fieldName": "gnistwp",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 36
+    },
+    {
+      "name": "GNISCNTY",
+      "fieldName": "gniscnty",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "GNISSTATE",
+      "fieldName": "gnisstate",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "COORDACCU",
+      "fieldName": "coordaccu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "EDITOR",
+      "fieldName": "editor",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 26
+    },
+    {
+      "name": "EDITTIME",
+      "fieldName": "edittime",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 431
+    },
+    {
+      "name": "EDITTYPE",
+      "fieldName": "edittype",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "REVIEWER_I",
+      "fieldName": "reviewer_i",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 19
+    },
+    {
+      "name": "REVIEW_DAT",
+      "fieldName": "review_dat",
+      "dataTypeName": "date",
+      "description": null,
+      "nullCount": 227976,
+      "cardinality": 505
+    },
+    {
+      "name": "OPSTATUS",
+      "fieldName": "opstatus",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "ANOMALY",
+      "fieldName": "anomaly",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "MSAGSTAT",
+      "fieldName": "msagstat",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "PWA_COMMEN",
+      "fieldName": "pwa_commen",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 620
+    },
+    {
+      "name": "OrthoYear",
+      "fieldName": "orthoyear",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "safeZone",
+      "fieldName": "safezone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "safeZoneEn",
+      "fieldName": "safezoneen",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Shape_len",
+      "fieldName": "shape_len",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 250092
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:02.267Z"
+}

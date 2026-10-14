@@ -1,0 +1,64 @@
+{
+  "id": "anx6-yr7c",
+  "name": "State's Attorney Felony Cases - Disposition Outcomes",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 152,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1507660681,
+  "publicationDate": 1507660729,
+  "rowsUpdatedAt": 1507660683,
+  "viewLastModified": 1769543828,
+  "viewCount": 21817,
+  "downloadCount": 2167,
+  "category": "Legal & Judicial",
+  "tags": [
+    "state's attorney baseline data report",
+    "inactive"
+  ],
+  "attribution": "Cook County State's Attorney Office",
+  "attributionLink": "https://www.cookcountystatesattorney.org/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County State's Attorney Office"
+    },
+    "Publishing Details": {
+      "Publishing frequency": "Annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "YEAR",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": "The year in which the disposition occurred. ",
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "DISPOSITION RESULT",
+      "fieldName": "disposition_result",
+      "dataTypeName": "text",
+      "description": "The culmination of the fact-finding process that leads to the resolution of a case.",
+      "nullCount": 6,
+      "cardinality": 32
+    },
+    {
+      "name": "DEFENDANT COUNT",
+      "fieldName": "defendant_count",
+      "dataTypeName": "number",
+      "description": "Count of defendants",
+      "nullCount": 0,
+      "cardinality": 89
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:48.765Z"
+}

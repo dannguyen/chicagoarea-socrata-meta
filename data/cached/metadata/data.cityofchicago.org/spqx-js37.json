@@ -1,0 +1,163 @@
+{
+  "id": "spqx-js37",
+  "name": "Red Light Camera Violations",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1168240,
+  "rowCountSource": "cached",
+  "rowLabel": "Red Light Camera Violation",
+  "hasRowIdentifier": false,
+  "createdAt": 1407456580,
+  "publicationDate": 1480461385,
+  "rowsUpdatedAt": 1791973437,
+  "viewLastModified": 1791973185,
+  "viewCount": 76246,
+  "downloadCount": 13549,
+  "category": "Transportation",
+  "tags": [
+    "citations",
+    "violations",
+    "transportation",
+    "public safety",
+    "traffic"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Beginning July 1, 2014",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"spqx-js37\"",
+      "Frequency": "Daily",
+      "Data Owner": "Transportation"
+    }
+  },
+  "columns": [
+    {
+      "name": "INTERSECTION",
+      "fieldName": "intersection",
+      "dataTypeName": "text",
+      "description": "Intersection of the location of the red light enforcement camera(s). There may be more than one camera at each intersection.",
+      "nullCount": 0,
+      "cardinality": 1168240
+    },
+    {
+      "name": "CAMERA ID",
+      "fieldName": "camera_id",
+      "dataTypeName": "text",
+      "description": "A unique ID for each physical camera at an intersection, which may contain more than one camera.",
+      "nullCount": 289,
+      "cardinality": 1168240
+    },
+    {
+      "name": "ADDRESS",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": "The address of the physical camera (CAMERA ID). The address may be the same for all cameras or different, based on the physical installation of each camera.",
+      "nullCount": 0,
+      "cardinality": 1168240
+    },
+    {
+      "name": "VIOLATION DATE",
+      "fieldName": "violation_date",
+      "dataTypeName": "calendar_date",
+      "description": "The date of when the violations occurred. NOTE: The citation may be issued on a different date.",
+      "nullCount": 0,
+      "cardinality": 1168240
+    },
+    {
+      "name": "VIOLATIONS",
+      "fieldName": "violations",
+      "dataTypeName": "number",
+      "description": "Number of violations for each camera on a particular day.",
+      "nullCount": 0,
+      "cardinality": 1168240
+    },
+    {
+      "name": "X COORDINATE",
+      "fieldName": "x_coordinate",
+      "dataTypeName": "number",
+      "description": "The X Coordinate, measured in feet, of the location of the camera. Geocoded using Illinois State Plane East (ESRI:102671).",
+      "nullCount": 56488,
+      "cardinality": 1168240
+    },
+    {
+      "name": "Y COORDINATE",
+      "fieldName": "y_coordinate",
+      "dataTypeName": "number",
+      "description": "The Y Coordinate, measured in feet, of the location of the camera. Geocoded using Illinois State Plane East (ESRI:102671).",
+      "nullCount": 56488,
+      "cardinality": 1168240
+    },
+    {
+      "name": "LATITUDE",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": "The latitude of the physical location of the camera(s) based on the ADDRESS column. Geocoded using the WGS84.",
+      "nullCount": 56488,
+      "cardinality": 1168240
+    },
+    {
+      "name": "LONGITUDE",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": "The longitude of the physical location of the camera(s) based on the ADDRESS column. Geocoded using the WGS84.",
+      "nullCount": 56488,
+      "cardinality": 1168240
+    },
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": "The coordinates of the camera(s) based on the LATITUDE and LONGITUDE columns. Geocoded using the WGS84.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:05.213Z"
+}

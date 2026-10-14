@@ -1,0 +1,56 @@
+{
+  "id": "6ghm-dfk7",
+  "name": "Risk Management - Employee Health Costs, by Department - Fiscal Year 2011 Incomplete",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 174,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1315428935,
+  "publicationDate": 1412889773,
+  "rowsUpdatedAt": 1412889753,
+  "viewLastModified": 1769543605,
+  "viewCount": 815,
+  "downloadCount": 2481,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Risk Management",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Dept Number",
+      "fieldName": "dept_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 173
+    },
+    {
+      "name": "Number of Employees",
+      "fieldName": "number_of_employees",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 74
+    },
+    {
+      "name": "Health Costs for Department",
+      "fieldName": "health_costs_for_department",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 153
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:06.083Z"
+}

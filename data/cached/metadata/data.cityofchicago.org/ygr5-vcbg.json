@@ -1,0 +1,120 @@
+{
+  "id": "ygr5-vcbg",
+  "name": "Towed Vehicles",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 6981,
+  "rowCountSource": "cached",
+  "rowLabel": "Vehicle",
+  "hasRowIdentifier": false,
+  "createdAt": 1317369605,
+  "publicationDate": 1417447061,
+  "rowsUpdatedAt": 1792001789,
+  "viewLastModified": 1507821835,
+  "viewCount": 185194,
+  "downloadCount": 66057,
+  "category": "Transportation",
+  "tags": [
+    "vehicles",
+    "streets",
+    "towing"
+  ],
+  "attribution": "Chicago Police Department",
+  "attributionLink": "http://www.chicagopolice.org/",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Last 90 days",
+      "Frequency": "Data are updated multiple times per hour",
+      "Data Owner": "Chicago Police Department"
+    }
+  },
+  "columns": [
+    {
+      "name": "Tow Date",
+      "fieldName": "tow_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6981
+    },
+    {
+      "name": "Make",
+      "fieldName": "make",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6981
+    },
+    {
+      "name": "Style",
+      "fieldName": "style",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6981
+    },
+    {
+      "name": "Model",
+      "fieldName": "model",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 5860,
+      "cardinality": 6981
+    },
+    {
+      "name": "Color",
+      "fieldName": "color",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 19,
+      "cardinality": 6981
+    },
+    {
+      "name": "Plate",
+      "fieldName": "plate",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 679,
+      "cardinality": 6981
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 679,
+      "cardinality": 6981
+    },
+    {
+      "name": "Towed to Address",
+      "fieldName": "towed_to_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6981
+    },
+    {
+      "name": "Tow Facility Phone",
+      "fieldName": "tow_facility_phone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 6981
+    },
+    {
+      "name": "Inventory Number",
+      "fieldName": "inventory_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6981
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:26:21.131Z"
+}

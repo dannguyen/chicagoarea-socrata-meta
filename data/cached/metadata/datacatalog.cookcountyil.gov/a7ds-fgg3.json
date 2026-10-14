@@ -1,0 +1,116 @@
+{
+  "id": "a7ds-fgg3",
+  "name": "Heights Crematory Cremated Remains",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 533,
+  "rowCountSource": "cached",
+  "rowLabel": "decedent",
+  "hasRowIdentifier": false,
+  "createdAt": 1749057755,
+  "publicationDate": 1749065299,
+  "rowsUpdatedAt": 1791915760,
+  "viewLastModified": 1791915759,
+  "viewCount": 1826,
+  "downloadCount": 2169,
+  "category": "Health & Human Services",
+  "tags": [],
+  "attribution": "Medical Examiner's Office",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Medical Examiner's Office"
+    },
+    "Source Details": {
+      "Source System": "Heights Crematory records"
+    },
+    "Metadata": {
+      "Update Frequency": "As Needed"
+    },
+    "Publishing Details": {
+      "Data change frequency": "As needed",
+      "Publishing frequency": "As needed"
+    }
+  },
+  "columns": [
+    {
+      "name": "Case Number",
+      "fieldName": "case_number",
+      "dataTypeName": "text",
+      "description": "unique ID assigned by Cook County Medical Examiner's Office",
+      "nullCount": 0,
+      "cardinality": 533
+    },
+    {
+      "name": "Decedent",
+      "fieldName": "decedent",
+      "dataTypeName": "text",
+      "description": "name of deceased person",
+      "nullCount": 0,
+      "cardinality": 533
+    },
+    {
+      "name": "Age",
+      "fieldName": "age",
+      "dataTypeName": "number",
+      "description": "age of decedent at time of death in years",
+      "nullCount": 89,
+      "cardinality": 533
+    },
+    {
+      "name": "Sex",
+      "fieldName": "sex",
+      "dataTypeName": "text",
+      "description": "sex of decedent (M = male, F = female)",
+      "nullCount": 38,
+      "cardinality": 533
+    },
+    {
+      "name": "Race",
+      "fieldName": "race",
+      "dataTypeName": "text",
+      "description": "race of decedent",
+      "nullCount": 90,
+      "cardinality": 533
+    },
+    {
+      "name": "Latino",
+      "fieldName": "latino",
+      "dataTypeName": "checkbox",
+      "description": "marker indicating whether decedent was Latino",
+      "nullCount": 371,
+      "cardinality": 533
+    },
+    {
+      "name": "Date of Death",
+      "fieldName": "date_of_death",
+      "dataTypeName": "calendar_date",
+      "description": "decedent's date of death",
+      "nullCount": 63,
+      "cardinality": 533
+    },
+    {
+      "name": "Place of Death",
+      "fieldName": "place_of_death",
+      "dataTypeName": "text",
+      "description": "decedent's location upon death",
+      "nullCount": 71,
+      "cardinality": 533
+    },
+    {
+      "name": "Alternate Spellings",
+      "fieldName": "alternate_spellings",
+      "dataTypeName": "text",
+      "description": "potential alternate spellings of decedent names based on Heights Crematory records",
+      "nullCount": 529,
+      "cardinality": 533
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:57.443Z"
+}

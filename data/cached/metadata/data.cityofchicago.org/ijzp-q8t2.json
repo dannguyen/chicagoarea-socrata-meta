@@ -1,0 +1,288 @@
+{
+  "id": "ijzp-q8t2",
+  "name": "Crimes - 2001 to Present",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 8636476,
+  "rowCountSource": "cached",
+  "rowLabel": "Reported Crime",
+  "hasRowIdentifier": true,
+  "createdAt": 1317405571,
+  "publicationDate": 1694750301,
+  "rowsUpdatedAt": 1791977749,
+  "viewLastModified": 1788892356,
+  "viewCount": 1329717,
+  "downloadCount": 926639,
+  "category": "Public Safety",
+  "tags": [
+    "crime",
+    "police"
+  ],
+  "attribution": "Chicago Police Department",
+  "attributionLink": "https://www.chicagopolice.org/data-statistics/",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2001 to present, minus the most recent seven days",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"ijzp-q8t2\"",
+      "Frequency": "Data are updated daily.",
+      "Data Owner": "Police"
+    }
+  },
+  "columns": [
+    {
+      "name": "ID",
+      "fieldName": "id",
+      "dataTypeName": "number",
+      "description": "Unique identifier for the record.",
+      "nullCount": 0,
+      "cardinality": 8636476
+    },
+    {
+      "name": "Case Number",
+      "fieldName": "case_number",
+      "dataTypeName": "text",
+      "description": "The Chicago Police Department RD Number (Records Division Number), which is unique to the incident. ",
+      "nullCount": 0,
+      "cardinality": 8636476
+    },
+    {
+      "name": "Date",
+      "fieldName": "date",
+      "dataTypeName": "calendar_date",
+      "description": "Date when the incident occurred. this is sometimes a best estimate. ",
+      "nullCount": 0,
+      "cardinality": 8636476
+    },
+    {
+      "name": "Block",
+      "fieldName": "block",
+      "dataTypeName": "text",
+      "description": "The partially redacted address where the incident occurred, placing it on the same block as the actual address. ",
+      "nullCount": 0,
+      "cardinality": 8636476
+    },
+    {
+      "name": "IUCR",
+      "fieldName": "iucr",
+      "dataTypeName": "text",
+      "description": "The Illinois Uniform Crime Reporting code. This is directly linked to the Primary Type and Description. See the list of IUCR codes at https://data.cityofchicago.org/d/c7ck-438e.",
+      "nullCount": 0,
+      "cardinality": 8636476
+    },
+    {
+      "name": "Primary Type",
+      "fieldName": "primary_type",
+      "dataTypeName": "text",
+      "description": "The primary description of the IUCR code.",
+      "nullCount": 0,
+      "cardinality": 8636476
+    },
+    {
+      "name": "Description",
+      "fieldName": "description",
+      "dataTypeName": "text",
+      "description": "The secondary description of the IUCR code, a subcategory of the primary description.",
+      "nullCount": 0,
+      "cardinality": 8636476
+    },
+    {
+      "name": "Location Description",
+      "fieldName": "location_description",
+      "dataTypeName": "text",
+      "description": "Description of the location where the incident occurred.",
+      "nullCount": 16641,
+      "cardinality": 8636476
+    },
+    {
+      "name": "Arrest",
+      "fieldName": "arrest",
+      "dataTypeName": "checkbox",
+      "description": "Indicates whether an arrest was made.",
+      "nullCount": 0,
+      "cardinality": 8636476
+    },
+    {
+      "name": "Domestic",
+      "fieldName": "domestic",
+      "dataTypeName": "checkbox",
+      "description": "Indicates whether the incident was domestic-related as defined by the Illinois Domestic Violence Act.",
+      "nullCount": 0,
+      "cardinality": 8636476
+    },
+    {
+      "name": "Beat",
+      "fieldName": "beat",
+      "dataTypeName": "text",
+      "description": "Indicates the beat where the incident occurred.  A beat is the smallest police geographic area – each beat has a dedicated police beat car.  Three to five beats make up a police sector, and three sectors make up a police district.  The Chicago Police Department has 22 police districts.  \n\nSee the beats at https://data.cityofchicago.org/d/aerh-rz74.\n",
+      "nullCount": 0,
+      "cardinality": 8636476
+    },
+    {
+      "name": "District",
+      "fieldName": "district",
+      "dataTypeName": "text",
+      "description": "Indicates the police district where the incident occurred.  See the districts at https://data.cityofchicago.org/d/fthy-xz3r.",
+      "nullCount": 47,
+      "cardinality": 8636476
+    },
+    {
+      "name": "Ward",
+      "fieldName": "ward",
+      "dataTypeName": "number",
+      "description": "The ward (City Council district) where the incident occurred.  See the wards at https://data.cityofchicago.org/d/sp34-6z76.",
+      "nullCount": 614811,
+      "cardinality": 8636476
+    },
+    {
+      "name": "Community Area",
+      "fieldName": "community_area",
+      "dataTypeName": "text",
+      "description": "Indicates the community area where the incident occurred.  Chicago has 77 community areas. \n\nSee the community areas at https://data.cityofchicago.org/d/cauq-8yn6.\n",
+      "nullCount": 613722,
+      "cardinality": 8636476
+    },
+    {
+      "name": "FBI Code",
+      "fieldName": "fbi_code",
+      "dataTypeName": "text",
+      "description": "Indicates the crime classification as outlined in the FBI's National Incident-Based Reporting System (NIBRS).See the Chicago Police Department listing of these classifications at https://gis.chicagopolice.org/pages/crime_details.",
+      "nullCount": 0,
+      "cardinality": 8635779
+    },
+    {
+      "name": "X Coordinate",
+      "fieldName": "x_coordinate",
+      "dataTypeName": "number",
+      "description": "The x coordinate of the location where the incident occurred in State Plane Illinois East NAD 1983 projection.  This location is shifted from the actual location for partial redaction but falls on the same block.",
+      "nullCount": 99997,
+      "cardinality": 8636476
+    },
+    {
+      "name": "Y Coordinate",
+      "fieldName": "y_coordinate",
+      "dataTypeName": "number",
+      "description": "The y coordinate of the location where the incident occurred in State Plane Illinois East NAD 1983 projection. This location is shifted from the actual location for partial redaction but falls on the same block.",
+      "nullCount": 99997,
+      "cardinality": 8636476
+    },
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": "Year the incident occurred.",
+      "nullCount": 0,
+      "cardinality": 8636476
+    },
+    {
+      "name": "Updated On",
+      "fieldName": "updated_on",
+      "dataTypeName": "calendar_date",
+      "description": "Date and time the record was last updated.",
+      "nullCount": 0,
+      "cardinality": 8636476
+    },
+    {
+      "name": "Latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": "The latitude of the location where the incident occurred. This location is shifted from the actual location for partial redaction but falls on the same block.",
+      "nullCount": 99997,
+      "cardinality": 8636476
+    },
+    {
+      "name": "Longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": "The longitude of the location where the incident occurred. This location is shifted from the actual location for partial redaction but falls on the same block.",
+      "nullCount": 99997,
+      "cardinality": 8636476
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": "The location where the incident occurred in a format that allows for creation of maps and other geographic operations on this data portal. This location is shifted from the actual location for partial redaction but falls on the same block.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Police Districts",
+      "fieldName": ":@computed_region_d9mm_jgwp",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Police Beats",
+      "fieldName": ":@computed_region_d3ds_rm58",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards 2023-",
+      "fieldName": ":@computed_region_8hcu_yrd4",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Wards 2023-' (8hcu-yrd4) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:26:21.253Z"
+}

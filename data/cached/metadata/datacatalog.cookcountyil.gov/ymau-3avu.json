@@ -1,0 +1,80 @@
+{
+  "id": "ymau-3avu",
+  "name": "Procurement - Buying Plan - Fiscal Year 2018",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 194,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1513026105,
+  "publicationDate": 1514486896,
+  "rowsUpdatedAt": 1514486880,
+  "viewLastModified": 1769545774,
+  "viewCount": 3489,
+  "downloadCount": 2274,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Office of the Chief Procurement Officer",
+  "attributionLink": "https://www.cookcountyil.gov/procurement",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "BP #",
+      "fieldName": "bp",
+      "dataTypeName": "text",
+      "description": "Identification Number",
+      "nullCount": 0,
+      "cardinality": 194
+    },
+    {
+      "name": "Department",
+      "fieldName": "department",
+      "dataTypeName": "text",
+      "description": "Department Name",
+      "nullCount": 0,
+      "cardinality": 24
+    },
+    {
+      "name": "Estimated Amount",
+      "fieldName": "estimated_amount",
+      "dataTypeName": "text",
+      "description": "Projected Payment Amount",
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "Description",
+      "fieldName": "description",
+      "dataTypeName": "text",
+      "description": "Task or Project Description for Contract",
+      "nullCount": 0,
+      "cardinality": 190
+    },
+    {
+      "name": "Anticipated Advertising Date (Quarterly)",
+      "fieldName": "anticipated_advertising_date_quarterly",
+      "dataTypeName": "text",
+      "description": "Advertising Quarter for Bid",
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "M/WBE Subcontracting Opportunities (By Trades)",
+      "fieldName": "m_wbe_subcontracting_opportunities_by_trades",
+      "dataTypeName": "text",
+      "description": "Minority/Women Business Enterprises Compliance by Trade",
+      "nullCount": 0,
+      "cardinality": 11
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:54.118Z"
+}

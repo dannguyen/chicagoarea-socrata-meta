@@ -1,0 +1,114 @@
+{
+  "id": "2ndd-7vjz",
+  "name": "IDPH End Stage Renal Disease Facility Directory",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 337,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1737773308,
+  "publicationDate": 1737773413,
+  "rowsUpdatedAt": 1777391628,
+  "viewLastModified": 1777391627,
+  "viewCount": 1849,
+  "downloadCount": 516,
+  "category": "Health and Human Services",
+  "tags": [
+    "esrd",
+    "dialysis",
+    "kidney",
+    "renal",
+    "end stage renal disease",
+    "healthcare facilities",
+    "treatment facilities",
+    "hfsrb",
+    "idph",
+    "health care regulation",
+    "licensed facilities",
+    "illinois"
+  ],
+  "attribution": "IDPH",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "IDPH"
+    }
+  },
+  "columns": [
+    {
+      "name": "Facility Name",
+      "fieldName": "facility_name",
+      "dataTypeName": "text",
+      "description": "Legal name of the licensed ESRD treatment facility as registered with HFSRB. May include the corporate parent's name followed by \" - DBA \" and the public-facing name; use the DBA Name column for the trade name only.",
+      "nullCount": 0,
+      "cardinality": 337
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": "Street address of the facility's licensed location, including suite or unit number where applicable.",
+      "nullCount": 0,
+      "cardinality": 337
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": "City in which the facility is physically located.",
+      "nullCount": 0,
+      "cardinality": 337
+    },
+    {
+      "name": "County",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": "Illinois county in which the facility is physically located.",
+      "nullCount": 0,
+      "cardinality": 337
+    },
+    {
+      "name": "Zip",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": "5-digit U.S. Postal Service ZIP code of the facility's address. Stored as text to preserve any leading zeros.",
+      "nullCount": 0,
+      "cardinality": 337
+    },
+    {
+      "name": "Contact Name",
+      "fieldName": "contact_name",
+      "dataTypeName": "text",
+      "description": "Name of the facility's primary administrative or licensing contact on file with HFSRB.",
+      "nullCount": 0,
+      "cardinality": 337
+    },
+    {
+      "name": "Phone",
+      "fieldName": "phone",
+      "dataTypeName": "text",
+      "description": "Primary telephone number for the facility, in (XXX) XXX-XXXX format.",
+      "nullCount": 0,
+      "cardinality": 337
+    },
+    {
+      "name": "Medicare Number",
+      "fieldName": "medicare_number",
+      "dataTypeName": "text",
+      "description": "HFSRB facility identifier in the format 14-XXXX, where 14 is the Illinois state prefix. This is not the full CMS Certification Number (CCN); to derive the CCN, concatenate \"14\" with the four-digit suffix (e.g., 14-2867 → CCN 142867).",
+      "nullCount": 0,
+      "cardinality": 337
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:32.065Z"
+}

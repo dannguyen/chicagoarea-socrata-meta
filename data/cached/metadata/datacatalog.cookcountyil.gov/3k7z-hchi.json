@@ -1,0 +1,184 @@
+{
+  "id": "3k7z-hchi",
+  "name": "Intake",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 528111,
+  "rowCountSource": "cached",
+  "rowLabel": "Case Participant",
+  "hasRowIdentifier": false,
+  "createdAt": 1518554666,
+  "publicationDate": 1575317720,
+  "rowsUpdatedAt": 1775141400,
+  "viewLastModified": 1775141031,
+  "viewCount": 12747,
+  "downloadCount": 3866,
+  "category": "Legal & Judicial",
+  "tags": [
+    "state's attorney case-level",
+    "state's attorney"
+  ],
+  "attribution": "Cook County State's Attorney's Office",
+  "attributionLink": "https://www.cookcountystatesattorney.org/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County State's Attorney's Office"
+    },
+    "Metadata": {
+      "Update Frequency": "As Needed"
+    },
+    "Detailed Descriptive": {
+      "Geographic coverage": "Countywide",
+      "Geographic unit": "Other"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Streaming",
+      "Publishing frequency": "Quarterly"
+    }
+  },
+  "columns": [
+    {
+      "name": "CASE_ID",
+      "fieldName": "case_id",
+      "dataTypeName": "number",
+      "description": "Internal unique identifier for each case ",
+      "nullCount": 0,
+      "cardinality": 528111
+    },
+    {
+      "name": "CASE_PARTICIPANT_ID",
+      "fieldName": "case_participant_id",
+      "dataTypeName": "number",
+      "description": "Internal unique identifier for each defendant associated with a case ",
+      "nullCount": 0,
+      "cardinality": 528111
+    },
+    {
+      "name": "RECEIVED_DATE",
+      "fieldName": "received_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date when Felony Review Unit received the case ",
+      "nullCount": 0,
+      "cardinality": 528111
+    },
+    {
+      "name": "OFFENSE_CATEGORY",
+      "fieldName": "offense_category",
+      "dataTypeName": "text",
+      "description": "Broad offense category before specific charges are filed on a case ",
+      "nullCount": 0,
+      "cardinality": 528111
+    },
+    {
+      "name": "PARTICIPANT_STATUS",
+      "fieldName": "participant_status",
+      "dataTypeName": "text",
+      "description": "Status of a case brought against a person. This status does not necessarily come from Felony Review. ",
+      "nullCount": 29579,
+      "cardinality": 528111
+    },
+    {
+      "name": "AGE_AT_INCIDENT",
+      "fieldName": "age_at_incident",
+      "dataTypeName": "number",
+      "description": "Age of defendant at date of incident, as recorded by law enforcement or self-reported by defendant",
+      "nullCount": 16420,
+      "cardinality": 528111
+    },
+    {
+      "name": "RACE",
+      "fieldName": "race",
+      "dataTypeName": "text",
+      "description": "Race of defendant reported by law enforcement or self-reported",
+      "nullCount": 20000,
+      "cardinality": 528111
+    },
+    {
+      "name": "GENDER",
+      "fieldName": "gender",
+      "dataTypeName": "text",
+      "description": "Gender of defendant reported by law enforcement or self-reported",
+      "nullCount": 17103,
+      "cardinality": 528111
+    },
+    {
+      "name": "INCIDENT_CITY",
+      "fieldName": "incident_city",
+      "dataTypeName": "text",
+      "description": "The city where the offense took place",
+      "nullCount": 22676,
+      "cardinality": 528111
+    },
+    {
+      "name": "INCIDENT_BEGIN_DATE",
+      "fieldName": "incident_begin_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date offense occurred/began",
+      "nullCount": 11870,
+      "cardinality": 528111
+    },
+    {
+      "name": "INCIDENT_END_DATE",
+      "fieldName": "incident_end_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date offense ended",
+      "nullCount": 487366,
+      "cardinality": 528111
+    },
+    {
+      "name": "LAW_ENFORCEMENT_AGENCY",
+      "fieldName": "law_enforcement_agency",
+      "dataTypeName": "text",
+      "description": "Law Enforcement agency associated with the arrest ",
+      "nullCount": 3675,
+      "cardinality": 528111
+    },
+    {
+      "name": "LAW_ENFORCEMENT_UNIT",
+      "fieldName": "unit",
+      "dataTypeName": "text",
+      "description": "Law Enforcement Unit within Chicago Police Department associated with the arrest ",
+      "nullCount": 345677,
+      "cardinality": 528111
+    },
+    {
+      "name": "ARREST_DATE",
+      "fieldName": "arrest_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date and time of arrest ",
+      "nullCount": 54589,
+      "cardinality": 528111
+    },
+    {
+      "name": "FELONY_REVIEW_DATE",
+      "fieldName": "felony_review_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date Felony Review result was reached ",
+      "nullCount": 204935,
+      "cardinality": 528111
+    },
+    {
+      "name": "FELONY_REVIEW_RESULT",
+      "fieldName": "felony_review_result",
+      "dataTypeName": "text",
+      "description": "Result of the Felony Review process",
+      "nullCount": 204935,
+      "cardinality": 528111
+    },
+    {
+      "name": "UPDATE_OFFENSE_CATEGORY",
+      "fieldName": "update_offense_category",
+      "dataTypeName": "text",
+      "description": "Offense category for the case updated based upon the primary charge ",
+      "nullCount": 0,
+      "cardinality": 528111
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:50.424Z"
+}

@@ -1,0 +1,76 @@
+{
+  "id": "n379-5uzu",
+  "name": "FOIA Request Log - Chicago Public Library",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 416,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1271875688,
+  "publicationDate": 1467060983,
+  "rowsUpdatedAt": 1744998939,
+  "viewLastModified": 1744998938,
+  "viewCount": 7764,
+  "downloadCount": 48600,
+  "category": "FOIA",
+  "tags": [],
+  "attribution": "Chicago Public Library",
+  "attributionLink": "http://www.chipublib.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "May 2010 - present",
+      "Frequency": "Data is updated as needed",
+      "Data Owner": "Chicago Public Library"
+    }
+  },
+  "columns": [
+    {
+      "name": "REQUESTOR NAME",
+      "fieldName": "requestor_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 285
+    },
+    {
+      "name": "ORGANIZATION",
+      "fieldName": "organization",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 316,
+      "cardinality": 71
+    },
+    {
+      "name": "DESCRIPTION OF REQUEST",
+      "fieldName": "description_of_request",
+      "dataTypeName": "text",
+      "description": "I am respectfully writing briefly in accordance with the Freedom of Information Act to request the following public information.\n1. A full copy of any/all records, documents, reports and information the (CPL) does to assist the incarcerated (in any way) with rehabilitation, reform, education, mental health, counseling/family counseling, life skills, legal books, publications, City of Chicago resources and through any programs (the (CPL) offers to assist community /citizens from Chicago . 730 ILCS 5/3-11.\n2.  A full copy of any/all records, documents, reports and information the (CPL) does and or will do to assist the formerly incarcerated (in any way) with programs. Resources, involving reintegration, life skills, job training, entrepreneurship, motivational speaking, volunteering, summits/seminars, education, counseling/family counseling, low income housing community development community services and through the programs the (CPL) offers to assist community, public, citizens, and/or parolees/releases. 730 ILCS 5/3-14.\n3. A full copy of any/all records, documents, reports and information the (CPL) did and/or plans to do to assist the approved reparations package that aims to benefit (police torture victim) and their families, from the (first chapter) of police torture practiced in Chicago 1972-1991, and that which was recently approved by the Hon. Chicago City Council.\nA.  Also, full copy of information the (CPL) plans to do with regards  to assisting the (second chapter) of police tortured practiced in Chicago (SIC) (by police) 1992 – 2005 and before videotaping interrogations was implemented July 18/05. Please see: People v. Mitchell, 820 N.E. 2d 1052 (Ill. App. 1st Dist., 2004), and Lopez v. City of Chicago, 464 F. 3d 711 (7th CIR 2006). \nB. Also, full copy of any/all newspaper publications/articles published on all (torture case) matters from approximately 1972 through the present date of request—including CPD, and any/all newspaper articles including Edward Mitchell/ CPD/ Courts from approx. – July 31/99 through this present date of this request and any/all newspaper articles including Joseph Lopez/CPD? Courts from approx. July 20, 2000 through this present dater of this request. This request concentrates on all Chicago based newspapers such as Sun-Times, Tribune, Defender, Chgo. Law Bulletin, Final Call, etc.\nC.  Full copy of any/all newspaper articles publications (SIC) involving (ILL. Torture Inquiry and Relief Commission) from approx. Aug. 2009 through this present date of request.\nThis request under (FOIA is and (SIC) accordance with general provisions, Law, Human Rights, Community Services, 730 ILCS 5/3-11-1A 6, 730 5/3-14-3 and directly related to requester, torture matters, public body and proper legal needs.\n",
+      "nullCount": 15,
+      "cardinality": 387
+    },
+    {
+      "name": "DATE RECEIVED",
+      "fieldName": "date_received",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 357
+    },
+    {
+      "name": "DUE DATE",
+      "fieldName": "due_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 9,
+      "cardinality": 354
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:01.449Z"
+}

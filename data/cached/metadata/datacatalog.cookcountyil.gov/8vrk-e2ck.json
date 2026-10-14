@@ -1,0 +1,108 @@
+{
+  "id": "8vrk-e2ck",
+  "name": "Cook County Clerk - Tax code Rates",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 3615,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1410453542,
+  "publicationDate": 1412894959,
+  "rowsUpdatedAt": 1412894947,
+  "viewLastModified": 1769544865,
+  "viewCount": 11372,
+  "downloadCount": 4214,
+  "category": "Property & Taxation",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Clerk",
+  "attributionLink": "http://www.cookcountyclerk.com",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Update Frequency": "Yearly"
+    }
+  },
+  "columns": [
+    {
+      "name": "Tax code",
+      "fieldName": "tax_code",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3615
+    },
+    {
+      "name": "Tax code Rate 2006",
+      "fieldName": "tax_code_rate_2006",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 698,
+      "cardinality": 1382
+    },
+    {
+      "name": "Tax code Rate 2007",
+      "fieldName": "tax_code_rate_2007",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 586,
+      "cardinality": 1397
+    },
+    {
+      "name": "Tax code Rate 2008",
+      "fieldName": "tax_code_rate_2008",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 542,
+      "cardinality": 1412
+    },
+    {
+      "name": "Tax code Rate 2009",
+      "fieldName": "tax_code_rate_2009",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 649,
+      "cardinality": 1434
+    },
+    {
+      "name": "Tax code Rate 2010",
+      "fieldName": "tax_code_rate_2010",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 533,
+      "cardinality": 1448
+    },
+    {
+      "name": "Tax code Rate 2011",
+      "fieldName": "tax_code_rate_2011",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 473,
+      "cardinality": 1488
+    },
+    {
+      "name": "Tax code Rate 2012",
+      "fieldName": "tax_code_rate_2012",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 390,
+      "cardinality": 1493
+    },
+    {
+      "name": "Tax code Rate 2013",
+      "fieldName": "tax_code_rate_2013",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 283,
+      "cardinality": 1509
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:50.580Z"
+}

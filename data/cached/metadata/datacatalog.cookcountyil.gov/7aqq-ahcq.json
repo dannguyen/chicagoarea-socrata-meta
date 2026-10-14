@@ -1,0 +1,85 @@
+{
+  "id": "7aqq-ahcq",
+  "name": "Freedom Of Information Act (FOIA) Log - Offices Under the President",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2881,
+  "rowCountSource": "cached",
+  "rowLabel": "Request",
+  "hasRowIdentifier": false,
+  "createdAt": 1487364915,
+  "publicationDate": 1533332866,
+  "rowsUpdatedAt": 1612893877,
+  "viewLastModified": 1769543563,
+  "viewCount": 2769,
+  "downloadCount": 23560,
+  "category": "Finance & Operations",
+  "tags": [
+    "public information request",
+    "foia"
+  ],
+  "attribution": "Office of the President",
+  "attributionLink": "https://www.cookcountyil.gov/agency/office-president-0",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Detailed Descriptive": {
+      "Program link": "https://www.cookcountyil.gov/service/freedom-information-act-offices-under-president",
+      "Temporal coverage": "January 2016 - Present",
+      "Ordinance Link": "https://www.municode.com/library/il/cook_county/codes/code_of_ordinances?nodeId=PTIGEOR_CH2AD_ARTIINGE_S2-5OPGOPL",
+      "Ordinance": "Sec. 2-5. - Open government plan (j)",
+      "Ordinance Text": "Each County Agency shall publish every FOIA request in an open format on the Website, unless a request is subject to valid privacy, security, or privilege limitations. If a request is subject to limitation, there shall be a redacted version of the request released that discloses the nature of the request, but not the specifics of the request. Each FOIA request shall be listed in conjunction with the status of the request and whether such request has been fulfilled."
+    },
+    "Publishing Details": {
+      "Data change frequency": "Daily",
+      "Publishing frequency": "Not updated (historical only)"
+    }
+  },
+  "columns": [
+    {
+      "name": "Requester Name",
+      "fieldName": "requester_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1249
+    },
+    {
+      "name": "Organization",
+      "fieldName": "organization",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 691
+    },
+    {
+      "name": "Description",
+      "fieldName": "description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 874
+    },
+    {
+      "name": "Date Received",
+      "fieldName": "date_received",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 517
+    },
+    {
+      "name": "Status",
+      "fieldName": "status",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:55.016Z"
+}

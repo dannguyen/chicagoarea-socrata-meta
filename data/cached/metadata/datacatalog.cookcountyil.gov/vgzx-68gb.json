@@ -1,0 +1,145 @@
+{
+  "id": "vgzx-68gb",
+  "name": "Assessor - Property Tax-Exempt Parcels",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 465734,
+  "rowCountSource": "cached",
+  "rowLabel": "Parcel",
+  "hasRowIdentifier": true,
+  "createdAt": 1689258693,
+  "publicationDate": 1733333720,
+  "rowsUpdatedAt": 1790870338,
+  "viewLastModified": 1783621425,
+  "viewCount": 10584,
+  "downloadCount": 4675,
+  "category": "Property & Taxation",
+  "tags": [
+    "cook county assessor",
+    "property tax"
+  ],
+  "attribution": "Cook County Assessor's Office",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Data Department"
+    },
+    "Source Details": {
+      "Source System": "iasWorld"
+    },
+    "Detailed Descriptive": {
+      "Temporal coverage": "2022-Present",
+      "Geographic coverage": "Countywide",
+      "Geographic unit": "Parcel"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Bi-weekly",
+      "Publishing frequency": "Bi-weekly"
+    }
+  },
+  "columns": [
+    {
+      "name": "pin",
+      "fieldName": "pin",
+      "dataTypeName": "text",
+      "description": "Parcel Identification Number (PIN)",
+      "nullCount": 0,
+      "cardinality": 465734
+    },
+    {
+      "name": "tax_year",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": "Tax Year",
+      "nullCount": 0,
+      "cardinality": 465734
+    },
+    {
+      "name": "township_name",
+      "fieldName": "township_name",
+      "dataTypeName": "text",
+      "description": "Township name",
+      "nullCount": 0,
+      "cardinality": 465734
+    },
+    {
+      "name": "township_code",
+      "fieldName": "township_code",
+      "dataTypeName": "text",
+      "description": "Township code",
+      "nullCount": 0,
+      "cardinality": 465734
+    },
+    {
+      "name": "owner_num",
+      "fieldName": "owner_num",
+      "dataTypeName": "text",
+      "description": "Owner number",
+      "nullCount": 0,
+      "cardinality": 465734
+    },
+    {
+      "name": "owner_name",
+      "fieldName": "owner_name",
+      "dataTypeName": "text",
+      "description": "Owner name",
+      "nullCount": 0,
+      "cardinality": 465734
+    },
+    {
+      "name": "class",
+      "fieldName": "class",
+      "dataTypeName": "text",
+      "description": "Class",
+      "nullCount": 0,
+      "cardinality": 465734
+    },
+    {
+      "name": "property_address",
+      "fieldName": "property_address",
+      "dataTypeName": "text",
+      "description": "Property street address",
+      "nullCount": 14552,
+      "cardinality": 465734
+    },
+    {
+      "name": "property_city",
+      "fieldName": "property_city",
+      "dataTypeName": "text",
+      "description": "Property city",
+      "nullCount": 91,
+      "cardinality": 465734
+    },
+    {
+      "name": "longitude",
+      "fieldName": "lon",
+      "dataTypeName": "number",
+      "description": "Parcel centroid longitude",
+      "nullCount": 1083,
+      "cardinality": 465734
+    },
+    {
+      "name": "latitude",
+      "fieldName": "lat",
+      "dataTypeName": "number",
+      "description": "Parcel centroid latitude",
+      "nullCount": 1083,
+      "cardinality": 465734
+    },
+    {
+      "name": "row_id",
+      "fieldName": "row_id",
+      "dataTypeName": "text",
+      "description": "Unique row key for API",
+      "nullCount": 0,
+      "cardinality": 465734
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:50.766Z"
+}

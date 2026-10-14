@@ -1,0 +1,104 @@
+{
+  "id": "ht96-cigt",
+  "name": "33rd Ward Alderman Applicants - 2013",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 15,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1376582920,
+  "publicationDate": 1376595730,
+  "rowsUpdatedAt": 1376595583,
+  "viewLastModified": 1376595730,
+  "viewCount": 1361,
+  "downloadCount": 3557,
+  "category": "Administration & Finance",
+  "tags": [
+    "city council",
+    "elections"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "July 2013",
+      "Frequency": "",
+      "Data Owner": "City of Chicago"
+    }
+  },
+  "columns": [
+    {
+      "name": "FULL NAME",
+      "fieldName": "full_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "LAST NAME",
+      "fieldName": "last_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "FIRST NAME",
+      "fieldName": "first_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "MIDDLE NAME",
+      "fieldName": "middle_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 14
+    },
+    {
+      "name": "SUFFIX",
+      "fieldName": "suffix",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 15,
+      "cardinality": 0
+    },
+    {
+      "name": "MET REQUIREMENTS",
+      "fieldName": "met_requirements",
+      "dataTypeName": "text",
+      "description": "Whether applicants meet the requirements for preliminary review.",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "APPOINTED",
+      "fieldName": "appointed",
+      "dataTypeName": "text",
+      "description": "Y for the applicant selected by the mayor.",
+      "nullCount": 14,
+      "cardinality": 1
+    },
+    {
+      "name": "APPLICATION",
+      "fieldName": "application",
+      "dataTypeName": "url",
+      "description": "Link to the application in PDF format.",
+      "nullCount": 0,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:17.991Z"
+}

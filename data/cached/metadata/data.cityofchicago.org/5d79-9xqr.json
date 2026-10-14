@@ -1,0 +1,143 @@
+{
+  "id": "5d79-9xqr",
+  "name": "Lobbyist Data - Gifts",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 784,
+  "rowCountSource": "cached",
+  "rowLabel": "Gift",
+  "hasRowIdentifier": false,
+  "createdAt": 1429913106,
+  "publicationDate": 1445378111,
+  "rowsUpdatedAt": 1791473993,
+  "viewLastModified": 1445637237,
+  "viewCount": 3859,
+  "downloadCount": 7330,
+  "category": "Ethics",
+  "tags": [
+    "ethics",
+    "lobbyists"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2012 - Current",
+      "Frequency": "Data are updated daily. Lobbyist reporting is quarterly.",
+      "Data Owner": "Board of Ethics"
+    }
+  },
+  "columns": [
+    {
+      "name": "GIFT_ID",
+      "fieldName": "gift_id",
+      "dataTypeName": "number",
+      "description": "A unique identifier for the gift record.",
+      "nullCount": 0,
+      "cardinality": 784
+    },
+    {
+      "name": "PERIOD_START",
+      "fieldName": "period_start",
+      "dataTypeName": "calendar_date",
+      "description": "Start of the reporting period for which this record was created.",
+      "nullCount": 0,
+      "cardinality": 784
+    },
+    {
+      "name": "PERIOD_END",
+      "fieldName": "period_end",
+      "dataTypeName": "calendar_date",
+      "description": "End of the reporting period for which this record was created.",
+      "nullCount": 0,
+      "cardinality": 784
+    },
+    {
+      "name": "GIFT",
+      "fieldName": "gift",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 784
+    },
+    {
+      "name": "RECIPIENT_FIRST_NAME",
+      "fieldName": "recipient_first_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 784
+    },
+    {
+      "name": "RECIPIENT_LAST_NAME",
+      "fieldName": "recipient_last_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 784
+    },
+    {
+      "name": "RECIPIENT_TITLE",
+      "fieldName": "recipient_title",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 784
+    },
+    {
+      "name": "VALUE",
+      "fieldName": "value",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 784
+    },
+    {
+      "name": "DEPARTMENT",
+      "fieldName": "department",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 784
+    },
+    {
+      "name": "LOBBYIST_ID",
+      "fieldName": "lobbyist_id",
+      "dataTypeName": "number",
+      "description": "A unique identifier for the lobbyist record. This ID can be used to link records in other datasets that contain an ID column with the same name.",
+      "nullCount": 0,
+      "cardinality": 784
+    },
+    {
+      "name": "LOBBYIST_FIRSTNAME",
+      "fieldName": "lobbyist_firstname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 784
+    },
+    {
+      "name": "LOBBYIST_LASTNAME",
+      "fieldName": "lobbyist_lastname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 784
+    },
+    {
+      "name": "CREATED_DATE",
+      "fieldName": "created_date",
+      "dataTypeName": "calendar_date",
+      "description": "The date the record was created.",
+      "nullCount": 0,
+      "cardinality": 784
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:06.698Z"
+}

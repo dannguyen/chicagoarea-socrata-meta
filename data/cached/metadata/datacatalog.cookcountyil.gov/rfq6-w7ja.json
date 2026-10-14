@@ -1,0 +1,122 @@
+{
+  "id": "rfq6-w7ja",
+  "name": "Department of Revenue - Registered Businesses",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 4657,
+  "rowCountSource": "cached",
+  "rowLabel": "business",
+  "hasRowIdentifier": false,
+  "createdAt": 1429817934,
+  "publicationDate": 1688429333,
+  "rowsUpdatedAt": 1785852932,
+  "viewLastModified": 1785852929,
+  "viewCount": 861,
+  "downloadCount": 248,
+  "category": "Finance & Operations",
+  "tags": [
+    "revenue",
+    "home rule",
+    "tax",
+    "dor"
+  ],
+  "attribution": "Cook County Department of Revenue",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Bureau of Technology Data Services"
+    },
+    "Metadata": {
+      "Update Frequency": "As Needed"
+    },
+    "Detailed Descriptive": {
+      "Geographic coverage": "Countywide",
+      "Geographic unit": "Latitude/longitude"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Daily",
+      "Publishing frequency": "Monthly"
+    }
+  },
+  "columns": [
+    {
+      "name": " Registration/Account #",
+      "fieldName": "registration_account",
+      "dataTypeName": "number",
+      "description": "unique registration number issued by the Cook County Department of Revenue",
+      "nullCount": 0,
+      "cardinality": 4657
+    },
+    {
+      "name": "Company",
+      "fieldName": "company",
+      "dataTypeName": "text",
+      "description": "name of registered business",
+      "nullCount": 36,
+      "cardinality": 4657
+    },
+    {
+      "name": "Tax Type",
+      "fieldName": "tax_type",
+      "dataTypeName": "text",
+      "description": "tax that the business is subject to",
+      "nullCount": 0,
+      "cardinality": 4657
+    },
+    {
+      "name": "Address Line 1",
+      "fieldName": "address_line_1",
+      "dataTypeName": "text",
+      "description": "street address of registered business",
+      "nullCount": 50,
+      "cardinality": 4657
+    },
+    {
+      "name": "Address Line 2",
+      "fieldName": "address_line_2",
+      "dataTypeName": "text",
+      "description": "second line for street address of registered business",
+      "nullCount": 4613,
+      "cardinality": 4657
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": "city where registered business is located",
+      "nullCount": 50,
+      "cardinality": 4657
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": "state where registered business is located",
+      "nullCount": 50,
+      "cardinality": 4657
+    },
+    {
+      "name": "Zip code",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": "zip code of registered business",
+      "nullCount": 50,
+      "cardinality": 4657
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": "point (latitude and longitude) location of registered business",
+      "nullCount": 101,
+      "cardinality": 4657
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:05.512Z"
+}

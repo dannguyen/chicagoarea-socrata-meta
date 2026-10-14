@@ -1,0 +1,843 @@
+{
+  "id": "yryy-42yb",
+  "name": "HWY2015",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 555644,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1708036120,
+  "publicationDate": 1708098856,
+  "rowsUpdatedAt": 1708098438,
+  "viewLastModified": 1736794038,
+  "viewCount": 51,
+  "downloadCount": 22,
+  "category": "Transportation",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "aadt",
+      "fieldName": "aadt",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1370
+    },
+    {
+      "name": "aadt_est",
+      "fieldName": "aadt_est",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 536470,
+      "cardinality": 1
+    },
+    {
+      "name": "aadt_yr",
+      "fieldName": "aadt_yr",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "acc_cntl",
+      "fieldName": "acc_cntl",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "beg_sta",
+      "fieldName": "beg_sta",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4154
+    },
+    {
+      "name": "blt",
+      "fieldName": "blt",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 11
+    },
+    {
+      "name": "ch",
+      "fieldName": "ch",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 424
+    },
+    {
+      "name": "cntytwp",
+      "fieldName": "cntytwp",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1720
+    },
+    {
+      "name": "co_adj",
+      "fieldName": "co_adj",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 99
+    },
+    {
+      "name": "cong",
+      "fieldName": "cong",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 18
+    },
+    {
+      "name": "cong_adj",
+      "fieldName": "cong_adj",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 17
+    },
+    {
+      "name": "county",
+      "fieldName": "county",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 102
+    },
+    {
+      "name": "county_hwy",
+      "fieldName": "county_hwy",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 424
+    },
+    {
+      "name": "county_nam",
+      "fieldName": "county_nam",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 102
+    },
+    {
+      "name": "crs_low",
+      "fieldName": "crs_low",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 80
+    },
+    {
+      "name": "crs_opp",
+      "fieldName": "crs_opp",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 60
+    },
+    {
+      "name": "crs_with",
+      "fieldName": "crs_with",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 80
+    },
+    {
+      "name": "crs_yr",
+      "fieldName": "crs_yr",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 18
+    },
+    {
+      "name": "dtress_opp",
+      "fieldName": "dtress_opp",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 541570,
+      "cardinality": 512
+    },
+    {
+      "name": "dtress_wth",
+      "fieldName": "dtress_wth",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 450607,
+      "cardinality": 4560
+    },
+    {
+      "name": "end_sta",
+      "fieldName": "end_sta",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4174
+    },
+    {
+      "name": "fault_low",
+      "fieldName": "fault_low",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 49
+    },
+    {
+      "name": "fault_opp",
+      "fieldName": "fault_opp",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 21
+    },
+    {
+      "name": "fault_with",
+      "fieldName": "fault_with",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 48
+    },
+    {
+      "name": "fcname",
+      "fieldName": "fcname",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "func_class",
+      "fieldName": "func_class",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "geodb_oid",
+      "fieldName": "geodb_oid",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 555644
+    },
+    {
+      "name": "hcv",
+      "fieldName": "hcv",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 739
+    },
+    {
+      "name": "hcv_mu_yr",
+      "fieldName": "hcv_mu_yr",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 13
+    },
+    {
+      "name": "hpms_sect",
+      "fieldName": "hpms_sect",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 543129,
+      "cardinality": 2547
+    },
+    {
+      "name": "i_shd1_typ",
+      "fieldName": "i_shd1_typ",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "i_shd1_wth",
+      "fieldName": "i_shd1_wth",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24
+    },
+    {
+      "name": "i_shd2_typ",
+      "fieldName": "i_shd2_typ",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "i_shd2_wth",
+      "fieldName": "i_shd2_wth",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11
+    },
+    {
+      "name": "inventory",
+      "fieldName": "inventory",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 214521
+    },
+    {
+      "name": "iri_low",
+      "fieldName": "iri_low",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 549
+    },
+    {
+      "name": "iri_opp",
+      "fieldName": "iri_opp",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 188
+    },
+    {
+      "name": "iri_with",
+      "fieldName": "iri_with",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 550
+    },
+    {
+      "name": "jur_1",
+      "fieldName": "jur_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 9
+    },
+    {
+      "name": "jur_2",
+      "fieldName": "jur_2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 10
+    },
+    {
+      "name": "jur_type",
+      "fieldName": "jur_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 9
+    },
+    {
+      "name": "key_rt_apn",
+      "fieldName": "key_rt_apn",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 214282,
+      "cardinality": 2395
+    },
+    {
+      "name": "key_rt_app",
+      "fieldName": "key_rt_app",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "key_rt_nbr",
+      "fieldName": "key_rt_nbr",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9297
+    },
+    {
+      "name": "key_rt_seg",
+      "fieldName": "key_rt_seg",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 553688,
+      "cardinality": 32
+    },
+    {
+      "name": "key_rt_suf",
+      "fieldName": "key_rt_suf",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 468907,
+      "cardinality": 26
+    },
+    {
+      "name": "key_rt_typ",
+      "fieldName": "key_rt_typ",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 34,
+      "cardinality": 9
+    },
+    {
+      "name": "lanes",
+      "fieldName": "lanes",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "line",
+      "fieldName": "line",
+      "dataTypeName": "line",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "ln_spc",
+      "fieldName": "ln_spc",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 11
+    },
+    {
+      "name": "ln_spc_nbr",
+      "fieldName": "ln_spc_nbr",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "ln_spc_wth",
+      "fieldName": "ln_spc_wth",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 28
+    },
+    {
+      "name": "ln_wth",
+      "fieldName": "ln_wth",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 48
+    },
+    {
+      "name": "lns",
+      "fieldName": "lns",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "maint_type",
+      "fieldName": "maint_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 9
+    },
+    {
+      "name": "marked_rt",
+      "fieldName": "marked_rt",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 482924,
+      "cardinality": 204
+    },
+    {
+      "name": "marked_rt2",
+      "fieldName": "marked_rt2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 546883,
+      "cardinality": 118
+    },
+    {
+      "name": "marked_rt3",
+      "fieldName": "marked_rt3",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 554739,
+      "cardinality": 28
+    },
+    {
+      "name": "marked_rt4",
+      "fieldName": "marked_rt4",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 555590,
+      "cardinality": 4
+    },
+    {
+      "name": "med_typ",
+      "fieldName": "med_typ",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "med_wth",
+      "fieldName": "med_wth",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 155
+    },
+    {
+      "name": "mnt_1",
+      "fieldName": "mnt_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 7
+    },
+    {
+      "name": "mnt_2",
+      "fieldName": "mnt_2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 10
+    },
+    {
+      "name": "mnt_dist",
+      "fieldName": "mnt_dist",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "mpo",
+      "fieldName": "mpo",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 17
+    },
+    {
+      "name": "mu_est",
+      "fieldName": "mu_est",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 550475,
+      "cardinality": 1
+    },
+    {
+      "name": "mu_vol",
+      "fieldName": "mu_vol",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 320
+    },
+    {
+      "name": "muni",
+      "fieldName": "muni",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1299
+    },
+    {
+      "name": "muni_name",
+      "fieldName": "muni_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 218026,
+      "cardinality": 1297
+    },
+    {
+      "name": "nhs",
+      "fieldName": "nhs",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "non_attain",
+      "fieldName": "non_attain",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "o_shd1_typ",
+      "fieldName": "o_shd1_typ",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "o_shd1_wth",
+      "fieldName": "o_shd1_wth",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 31
+    },
+    {
+      "name": "o_shd2_typ",
+      "fieldName": "o_shd2_typ",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "o_shd2_wth",
+      "fieldName": "o_shd2_wth",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "objectid",
+      "fieldName": "objectid",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 555644
+    },
+    {
+      "name": "op_1_2_way",
+      "fieldName": "op_1_2_way",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "pl_agy",
+      "fieldName": "pl_agy",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 13
+    },
+    {
+      "name": "prk_lt",
+      "fieldName": "prk_lt",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "prk_rt",
+      "fieldName": "prk_rt",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "rep",
+      "fieldName": "rep",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 118
+    },
+    {
+      "name": "rep_adj",
+      "fieldName": "rep_adj",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 39297,
+      "cardinality": 60
+    },
+    {
+      "name": "road_name",
+      "fieldName": "road_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 47656,
+      "cardinality": 106081
+    },
+    {
+      "name": "rut_low",
+      "fieldName": "rut_low",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 76
+    },
+    {
+      "name": "rut_opp",
+      "fieldName": "rut_opp",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 39
+    },
+    {
+      "name": "rut_with",
+      "fieldName": "rut_with",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 76
+    },
+    {
+      "name": "seg_length",
+      "fieldName": "seg_length",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 482
+    },
+    {
+      "name": "sp_lim",
+      "fieldName": "sp_lim",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 31,
+      "cardinality": 16
+    },
+    {
+      "name": "spec_sys",
+      "fieldName": "spec_sys",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "su_est",
+      "fieldName": "su_est",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 542722,
+      "cardinality": 1
+    },
+    {
+      "name": "su_vol",
+      "fieldName": "su_vol",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 252
+    },
+    {
+      "name": "surf_typ",
+      "fieldName": "surf_typ",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 38
+    },
+    {
+      "name": "surf_wth",
+      "fieldName": "surf_wth",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 129
+    },
+    {
+      "name": "surf_yr",
+      "fieldName": "surf_yr",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 319446,
+      "cardinality": 126
+    },
+    {
+      "name": "toll",
+      "fieldName": "toll",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "township_n",
+      "fieldName": "township_n",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 5118,
+      "cardinality": 1509
+    },
+    {
+      "name": "trk_rt",
+      "fieldName": "trk_rt",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "twp",
+      "fieldName": "twp",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 195
+    },
+    {
+      "name": "twp_adj",
+      "fieldName": "twp_adj",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 59
+    },
+    {
+      "name": "urb_loc",
+      "fieldName": "urb_loc",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 555644,
+      "cardinality": 0
+    },
+    {
+      "name": "urban",
+      "fieldName": "urban",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 88
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:37.675Z"
+}

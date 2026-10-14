@@ -1,0 +1,80 @@
+{
+  "id": "bcsd-6qnf",
+  "name": "Capital Planning Projects - 2012 1st Quarter",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 76,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1328648931,
+  "publicationDate": 1412890004,
+  "rowsUpdatedAt": 1412889992,
+  "viewLastModified": 1769546327,
+  "viewCount": 1270,
+  "downloadCount": 3999,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Bureau of Economic Development",
+  "attributionLink": "http://www.cookcountyil.gov/economicdevelopment",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Project",
+      "fieldName": "project",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 76
+    },
+    {
+      "name": "Company",
+      "fieldName": "company",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 14
+    },
+    {
+      "name": "Category",
+      "fieldName": "category",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 5
+    },
+    {
+      "name": "Description",
+      "fieldName": "description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 25,
+      "cardinality": 51
+    },
+    {
+      "name": "Start Date",
+      "fieldName": "start_date",
+      "dataTypeName": "date",
+      "description": null,
+      "nullCount": 15,
+      "cardinality": 41
+    },
+    {
+      "name": "End Date",
+      "fieldName": "end_date",
+      "dataTypeName": "date",
+      "description": null,
+      "nullCount": 15,
+      "cardinality": 46
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:01.227Z"
+}

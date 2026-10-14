@@ -1,0 +1,123 @@
+{
+  "id": "j6wf-834c",
+  "name": "Transportation Network Providers - Drivers",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 12186731,
+  "rowCountSource": "cached",
+  "rowLabel": "Driver",
+  "hasRowIdentifier": false,
+  "createdAt": 1538172298,
+  "publicationDate": 1748551873,
+  "rowsUpdatedAt": 1790192991,
+  "viewLastModified": 1774469216,
+  "viewCount": 28130,
+  "downloadCount": 6510,
+  "category": "Transportation",
+  "tags": [
+    "transportation",
+    "tnp",
+    "transportation network provider",
+    "rideshare",
+    "drivers"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.cityofchicago.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2015 to present",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"j6wf-834c\"",
+      "Frequency": "Data are updated monthly",
+      "Data Owner": "Chicago Department of Business Affairs & Consumer Protection"
+    }
+  },
+  "columns": [
+    {
+      "name": "MONTH_REPORTED",
+      "fieldName": "month_reported",
+      "dataTypeName": "text",
+      "description": "The month in which the driver was reported. If a driver is reported in multiple months, which is common, he or she will have multiple records -- one for each month.",
+      "nullCount": 0,
+      "cardinality": 12186731
+    },
+    {
+      "name": "DRIVER_START_MONTH",
+      "fieldName": "driver_start_month",
+      "dataTypeName": "text",
+      "description": "The month in which the driver was reported to have started. If different companies reported different dates, the earliest one is used.",
+      "nullCount": 318,
+      "cardinality": 12186731
+    },
+    {
+      "name": "CITY",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": "The driver's city of residence.",
+      "nullCount": 1465697,
+      "cardinality": 12186731
+    },
+    {
+      "name": "STATE",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": "The state of the driver's driver's license.",
+      "nullCount": 407,
+      "cardinality": 12186731
+    },
+    {
+      "name": "ZIP",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": "The driver's ZIP Code of residence.",
+      "nullCount": 1465697,
+      "cardinality": 12186731
+    },
+    {
+      "name": "NUMBER_OF_TRIPS",
+      "fieldName": "number_of_trips",
+      "dataTypeName": "number",
+      "description": "Number of trips provided in this month. Due to the complexities of matching, errors are possible in both directions. Values over 999 are converted to null as suspected error values that interfere with easy data visualization.",
+      "nullCount": 3349,
+      "cardinality": 12186731
+    },
+    {
+      "name": "MULTIPLE_TNPS",
+      "fieldName": "multiple_tnps",
+      "dataTypeName": "checkbox",
+      "description": "Whether the driver was reported by multiple TNPs in this month. Matching is imperfect so some driver records that should have been combined may be separate.",
+      "nullCount": 0,
+      "cardinality": 12186731
+    },
+    {
+      "name": "BIRTH_YEAR",
+      "fieldName": "birth_year",
+      "dataTypeName": "number",
+      "description": "The year the driver was born. Years that would result in ages below 21 or above 125 have been nulled out as presumed errors.",
+      "nullCount": 1554543,
+      "cardinality": 12186731
+    },
+    {
+      "name": "AGE",
+      "fieldName": "age",
+      "dataTypeName": "number",
+      "description": "Calculated as the difference between the year portion of MONTH_REPORTED and BIRTH_YEAR. Therefore, it will be one year higher than the driver's true age in some cases. Ages below 21 and above 125 have been nulled out as presumed errors.",
+      "nullCount": 1554543,
+      "cardinality": 12186731
+    },
+    {
+      "name": "EMPLOYMENT_CLASSIFICATION",
+      "fieldName": "employment_classification",
+      "dataTypeName": "text",
+      "description": "Employee or Independent Contractor. In the event of different TNPs reporting different values for the same driver, Employee takes priority over Independent Contractor. This data element was not collected before October 2020.",
+      "nullCount": 6907993,
+      "cardinality": 12186731
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:07.683Z"
+}

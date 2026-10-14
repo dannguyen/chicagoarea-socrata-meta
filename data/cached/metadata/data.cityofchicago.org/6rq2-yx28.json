@@ -1,0 +1,184 @@
+{
+  "id": "6rq2-yx28",
+  "name": "Array of Things Locations",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 111,
+  "rowCountSource": "cached",
+  "rowLabel": "Node",
+  "hasRowIdentifier": false,
+  "createdAt": 1473697320,
+  "publicationDate": 1526574892,
+  "rowsUpdatedAt": 1544225624,
+  "viewLastModified": 1544225621,
+  "viewCount": 5789,
+  "downloadCount": 4643,
+  "category": "Environment & Sustainable Development",
+  "tags": [
+    "array of things",
+    "sensors",
+    "iot"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Current",
+      "Frequency": "Data are updated as needed",
+      "Data Owner": "City of Chicago"
+    }
+  },
+  "columns": [
+    {
+      "name": "ID",
+      "fieldName": "id",
+      "dataTypeName": "text",
+      "description": "A unique identifier for all nodes.",
+      "nullCount": 0,
+      "cardinality": 111
+    },
+    {
+      "name": "Node Sensor Number",
+      "fieldName": "node_sensor_number",
+      "dataTypeName": "text",
+      "description": "The unique identifier for the node after it has been installed or identified for installation. This represents the physical device so could change if the physical node has changed, even if the location is the same.",
+      "nullCount": 12,
+      "cardinality": 99
+    },
+    {
+      "name": "Name",
+      "fieldName": "name",
+      "dataTypeName": "text",
+      "description": "Description of where the node is located.",
+      "nullCount": 0,
+      "cardinality": 111
+    },
+    {
+      "name": "North-South Street",
+      "fieldName": "north_south_street",
+      "dataTypeName": "text",
+      "description": "The street segment which runs north-south.",
+      "nullCount": 0,
+      "cardinality": 56
+    },
+    {
+      "name": "East-West Street",
+      "fieldName": "east_west_street",
+      "dataTypeName": "text",
+      "description": "The street segment which runs east-west.",
+      "nullCount": 0,
+      "cardinality": 94
+    },
+    {
+      "name": "Intersection Details",
+      "fieldName": "intersection_details",
+      "dataTypeName": "text",
+      "description": "The installed location at the intersection, e.g., NWX (north-west of the intersection).",
+      "nullCount": 76,
+      "cardinality": 5
+    },
+    {
+      "name": "Location Type",
+      "fieldName": "location_type",
+      "dataTypeName": "text",
+      "description": "Further description of where the node is located or planned to be located.",
+      "nullCount": 69,
+      "cardinality": 8
+    },
+    {
+      "name": "Category",
+      "fieldName": "category",
+      "dataTypeName": "text",
+      "description": "The primary use-case the node will be used to research. It may represent other use-cases.",
+      "nullCount": 6,
+      "cardinality": 19
+    },
+    {
+      "name": "Notes",
+      "fieldName": "notes",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 98,
+      "cardinality": 9
+    },
+    {
+      "name": "Status",
+      "fieldName": "status",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 2
+    },
+    {
+      "name": "Latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 110
+    },
+    {
+      "name": "Longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 109
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:03.548Z"
+}

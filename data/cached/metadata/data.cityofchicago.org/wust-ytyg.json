@@ -1,0 +1,138 @@
+{
+  "id": "wust-ytyg",
+  "name": "CDPH Mental Health Resources - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 208,
+  "rowCountSource": "cached",
+  "rowLabel": "Clinic",
+  "hasRowIdentifier": false,
+  "createdAt": 1689623741,
+  "publicationDate": 1689887757,
+  "rowsUpdatedAt": 1726173979,
+  "viewLastModified": 1751565264,
+  "viewCount": 2536,
+  "downloadCount": 4078,
+  "category": "Health & Human Services",
+  "tags": [
+    "mental health",
+    "public health",
+    "health",
+    "clinics",
+    "facilities",
+    "historical"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "September 2024",
+      "Data Owner": "Department of Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "Organization",
+      "fieldName": "organization",
+      "dataTypeName": "text",
+      "description": "Organization or Agency",
+      "nullCount": 0,
+      "cardinality": 206
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": "Facility Address",
+      "nullCount": 0,
+      "cardinality": 202
+    },
+    {
+      "name": "ZIP",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": "Facility ZIP Code",
+      "nullCount": 0,
+      "cardinality": 51
+    },
+    {
+      "name": "Main Phone",
+      "fieldName": "main_phone",
+      "dataTypeName": "text",
+      "description": "Primary Facility Phone #",
+      "nullCount": 0,
+      "cardinality": 142
+    },
+    {
+      "name": "Hours",
+      "fieldName": "hours",
+      "dataTypeName": "text",
+      "description": "Facility Hours",
+      "nullCount": 0,
+      "cardinality": 118
+    },
+    {
+      "name": "Payment",
+      "fieldName": "payment",
+      "dataTypeName": "text",
+      "description": "Types of Payment Accepted",
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Age Range Served",
+      "fieldName": "age_range_served",
+      "dataTypeName": "text",
+      "description": "Ages Served by Site/Facility",
+      "nullCount": 0,
+      "cardinality": 45
+    },
+    {
+      "name": "Other Languages",
+      "fieldName": "other_languages",
+      "dataTypeName": "text",
+      "description": "Availability of Non-English Languages for Offered Services",
+      "nullCount": 0,
+      "cardinality": 24
+    },
+    {
+      "name": "Behavioral Services Types",
+      "fieldName": "behavioral_services_types",
+      "dataTypeName": "text",
+      "description": "Types of Behavioral Health Services Offered",
+      "nullCount": 0,
+      "cardinality": 111
+    },
+    {
+      "name": "Crisis Services",
+      "fieldName": "crisis_services",
+      "dataTypeName": "checkbox",
+      "description": "Availability of Crisis Services",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Grief Services - Availability",
+      "fieldName": "grief_services_availability",
+      "dataTypeName": "checkbox",
+      "description": "Availability of Grief/Bereavement Services",
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": "The location of the clinic in a format that allows for creation of maps and other geographic operations on this data portal.",
+      "nullCount": 0,
+      "cardinality": 197
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:10.691Z"
+}

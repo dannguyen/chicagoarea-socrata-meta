@@ -1,0 +1,190 @@
+{
+  "id": "3723-97qp",
+  "name": "Assessor - Parcel Addresses",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 50672124,
+  "rowCountSource": "cached",
+  "rowLabel": "Parcel",
+  "hasRowIdentifier": true,
+  "createdAt": 1682951167,
+  "publicationDate": 1774278286,
+  "rowsUpdatedAt": 1790857417,
+  "viewLastModified": 1783621390,
+  "viewCount": 42553,
+  "downloadCount": 28917,
+  "category": "Property & Taxation",
+  "tags": [
+    "cook county assessor",
+    "property tax"
+  ],
+  "attribution": "Cook County Assessor's Office",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Data Department"
+    },
+    "Detailed Descriptive": {
+      "Temporal coverage": "1999-Present",
+      "Geographic coverage": "Countywide",
+      "Geographic unit": "Parcel"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Bi-weekly",
+      "Publishing frequency": "Bi-weekly"
+    }
+  },
+  "columns": [
+    {
+      "name": "pin",
+      "fieldName": "pin",
+      "dataTypeName": "text",
+      "description": "Parcel Identification Number (PIN)",
+      "nullCount": 0,
+      "cardinality": 50672124
+    },
+    {
+      "name": "pin10",
+      "fieldName": "pin10",
+      "dataTypeName": "text",
+      "description": "Parcel Identification Number (10-digit)",
+      "nullCount": 0,
+      "cardinality": 50672124
+    },
+    {
+      "name": "tax_year",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": "Tax year",
+      "nullCount": 0,
+      "cardinality": 50672124
+    },
+    {
+      "name": "property_address",
+      "fieldName": "prop_address_full",
+      "dataTypeName": "text",
+      "description": "Property street address",
+      "nullCount": 136027,
+      "cardinality": 50672124
+    },
+    {
+      "name": "property_city",
+      "fieldName": "prop_address_city_name",
+      "dataTypeName": "text",
+      "description": "Property city",
+      "nullCount": 4502,
+      "cardinality": 50672124
+    },
+    {
+      "name": "property_state",
+      "fieldName": "prop_address_state",
+      "dataTypeName": "text",
+      "description": "Property state",
+      "nullCount": 84521,
+      "cardinality": 50672124
+    },
+    {
+      "name": "property_zip",
+      "fieldName": "prop_address_zipcode_1",
+      "dataTypeName": "text",
+      "description": "Property zip code",
+      "nullCount": 1406028,
+      "cardinality": 50672124
+    },
+    {
+      "name": "mailing_name",
+      "fieldName": "mail_address_name",
+      "dataTypeName": "text",
+      "description": "Taxpayer mailing name",
+      "nullCount": 2656370,
+      "cardinality": 50672124
+    },
+    {
+      "name": "mailing_address",
+      "fieldName": "mail_address_full",
+      "dataTypeName": "text",
+      "description": "Taxpayer mailing street address",
+      "nullCount": 2657242,
+      "cardinality": 50672124
+    },
+    {
+      "name": "mailing_city",
+      "fieldName": "mail_address_city_name",
+      "dataTypeName": "text",
+      "description": "Taxpayer mailing city",
+      "nullCount": 2656776,
+      "cardinality": 50672124
+    },
+    {
+      "name": "mailing_state",
+      "fieldName": "mail_address_state",
+      "dataTypeName": "text",
+      "description": "Taxpayer mailing state",
+      "nullCount": 2656257,
+      "cardinality": 50672124
+    },
+    {
+      "name": "mailing_zip",
+      "fieldName": "mail_address_zipcode_1",
+      "dataTypeName": "text",
+      "description": "Taxpayer mailing zip code",
+      "nullCount": 2912408,
+      "cardinality": 50672124
+    },
+    {
+      "name": "owner_name",
+      "fieldName": "owner_address_name",
+      "dataTypeName": "text",
+      "description": "Owner mailing name",
+      "nullCount": 9963,
+      "cardinality": 50672124
+    },
+    {
+      "name": "owner_address",
+      "fieldName": "owner_address_full",
+      "dataTypeName": "text",
+      "description": "Owner mailing street address",
+      "nullCount": 2166952,
+      "cardinality": 50672124
+    },
+    {
+      "name": "owner_city",
+      "fieldName": "owner_address_city_name",
+      "dataTypeName": "text",
+      "description": "Owner mailing city",
+      "nullCount": 2162198,
+      "cardinality": 50672124
+    },
+    {
+      "name": "owner_state",
+      "fieldName": "owner_address_state",
+      "dataTypeName": "text",
+      "description": "Owner mailing state",
+      "nullCount": 2161725,
+      "cardinality": 50672124
+    },
+    {
+      "name": "owner_zip",
+      "fieldName": "owner_address_zipcode_1",
+      "dataTypeName": "text",
+      "description": "Owner mailing zip code",
+      "nullCount": 2424769,
+      "cardinality": 50672124
+    },
+    {
+      "name": "row_id",
+      "fieldName": "row_id",
+      "dataTypeName": "text",
+      "description": "Unique row key for API",
+      "nullCount": 0,
+      "cardinality": 50672124
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:46.048Z"
+}

@@ -1,0 +1,154 @@
+{
+  "id": "yski-9fq7",
+  "name": "UnincorporatedZonebyParcel",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 31183,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1419352818,
+  "publicationDate": null,
+  "rowsUpdatedAt": 1419352818,
+  "viewLastModified": 1769542899,
+  "viewCount": 1276,
+  "downloadCount": 1943,
+  "category": "Boundaries & Districts",
+  "tags": [
+    "zone",
+    "zoning",
+    "unincorporated",
+    "building and zoning",
+    "zoning board of appeals",
+    "gis",
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Building and Zoning",
+  "attributionLink": "http://www.cookcountyil.gov/building-and-zoning",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Update Frequency": "As Needed"
+    }
+  },
+  "columns": [
+    {
+      "name": "the_geom",
+      "fieldName": "the_geom",
+      "dataTypeName": "multipolygon",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "AgencyID",
+      "fieldName": "agencyid",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "AgencyDesc",
+      "fieldName": "agencydesc",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 31
+    },
+    {
+      "name": "ZoneID",
+      "fieldName": "zoneid",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 24
+    },
+    {
+      "name": "ZoneDesc",
+      "fieldName": "zonedesc",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "ZonePIN14",
+      "fieldName": "zonepin14",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 31097
+    },
+    {
+      "name": "ZoneNotes",
+      "fieldName": "zonenotes",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "ZoneLabel",
+      "fieldName": "zonelabel",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "ZoneDate",
+      "fieldName": "zonedate",
+      "dataTypeName": "date",
+      "description": null,
+      "nullCount": 31173,
+      "cardinality": 7
+    },
+    {
+      "name": "ZoneOrdina",
+      "fieldName": "zoneordina",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "ZoneEditor",
+      "fieldName": "zoneeditor",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "ZoneLegacy",
+      "fieldName": "zonelegacy",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "SHAPE_area",
+      "fieldName": "shape_area",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 31085
+    },
+    {
+      "name": "SHAPE_len",
+      "fieldName": "shape_len",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 31089
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:01.220Z"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "4s8s-adbr",
+  "name": "Chicago Microlending Institute (CMI) Microloans - Summary by Ethnicity and Gender",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 43,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1423158250,
+  "publicationDate": 1456500244,
+  "rowsUpdatedAt": 1456441774,
+  "viewLastModified": 1456500244,
+  "viewCount": 3032,
+  "downloadCount": 6375,
+  "category": "Community & Economic Development",
+  "tags": [
+    "community & economic development",
+    "small business",
+    "business",
+    "loans",
+    "business loans",
+    "microloans",
+    "microlenders",
+    "capital access centers",
+    "finance"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Current as of Q1 2016",
+      "Frequency": "Quarterly",
+      "Data Owner": "Business Affairs & Consumer Protection"
+    }
+  },
+  "columns": [
+    {
+      "name": "Loan Year",
+      "fieldName": "loan_year",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Borrower Ethnicity",
+      "fieldName": "borrower_ethnicity",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Borrower Gender",
+      "fieldName": "borrower_gender",
+      "dataTypeName": "text",
+      "description": "A value of \"Both\" indicates a co-owned business with at least one male and at least one female owner.",
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Number of Loans",
+      "fieldName": "number_of_loans",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 15
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:08.366Z"
+}

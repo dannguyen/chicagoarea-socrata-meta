@@ -1,0 +1,91 @@
+{
+  "id": "guu5-6q3h",
+  "name": "Procurement - Buying Plan - Fiscal Year 2021",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 231,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1615921521,
+  "publicationDate": 1616447186,
+  "rowsUpdatedAt": 1616447186,
+  "viewLastModified": 1769544589,
+  "viewCount": 4589,
+  "downloadCount": 1796,
+  "category": "Finance & Operations",
+  "tags": [
+    "procurement",
+    "buying plan",
+    "forecasted",
+    "contract",
+    "opportunities"
+  ],
+  "attribution": "Office of the Chief Procurement Officer",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Office of the Chief Procurement Officer"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Bi-annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "Contract Category",
+      "fieldName": "contract_category",
+      "dataTypeName": "text",
+      "description": "High Level Commodity Category",
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "Department",
+      "fieldName": "department",
+      "dataTypeName": "text",
+      "description": "Using Department",
+      "nullCount": 0,
+      "cardinality": 25
+    },
+    {
+      "name": "Estimated Amount",
+      "fieldName": "estimated_amount",
+      "dataTypeName": "text",
+      "description": "Estimated Range for the opportunity",
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Project Description",
+      "fieldName": "project_description",
+      "dataTypeName": "text",
+      "description": "Description of the opportunity",
+      "nullCount": 0,
+      "cardinality": 219
+    },
+    {
+      "name": "Anticipated Advertise Date",
+      "fieldName": "anticipated_advertise_date",
+      "dataTypeName": "text",
+      "description": "Advertise Range for the opportunity",
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Procurement Agency",
+      "fieldName": "agency",
+      "dataTypeName": "text",
+      "description": "Advertising Agency",
+      "nullCount": 0,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:53.137Z"
+}

@@ -1,0 +1,378 @@
+{
+  "id": "7pny-nedm",
+  "name": "Board of Review Appeal Decision History",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 6933428,
+  "rowCountSource": "query",
+  "rowLabel": "appeal",
+  "hasRowIdentifier": true,
+  "createdAt": 1652900967,
+  "publicationDate": 1685061121,
+  "rowsUpdatedAt": 1781036009,
+  "viewLastModified": 1781035848,
+  "viewCount": 17138,
+  "downloadCount": 6811,
+  "category": "Property & Taxation",
+  "tags": [
+    "bor",
+    "property tax",
+    "assessment"
+  ],
+  "attribution": "Cook County Board of Review",
+  "attributionLink": "https://www.cookcountyboardofreview.com/",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Bureau of Technology Geographic Information Systems"
+    },
+    "Metadata": {
+      "Update Frequency": "As Needed"
+    },
+    "Detailed Descriptive": {
+      "Temporal coverage": "2010-Present",
+      "Geographic coverage": "Countywide",
+      "Geographic unit": "Parcel"
+    },
+    "Publishing Details": {
+      "Data change frequency": "As needed",
+      "Publishing frequency": "As needed"
+    }
+  },
+  "columns": [
+    {
+      "name": "pin",
+      "fieldName": "pin",
+      "dataTypeName": "text",
+      "description": "14-digit Parcel Identification Number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "township_code",
+      "fieldName": "township_code",
+      "dataTypeName": "number",
+      "description": "Township code",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "tax_year",
+      "fieldName": "tax_year",
+      "dataTypeName": "number",
+      "description": "Tax year",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "AppealTrk",
+      "fieldName": "appealtrk",
+      "dataTypeName": "number",
+      "description": "First part of the Complaint number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "AppealSeq",
+      "fieldName": "appealseq",
+      "dataTypeName": "number",
+      "description": "Second part of the Complaint number",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "TaxCode",
+      "fieldName": "taxcode",
+      "dataTypeName": "number",
+      "description": "tax code",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Vol",
+      "fieldName": "vol",
+      "dataTypeName": "number",
+      "description": "volume number (legacy administrative designation to group properties geographically)",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Class",
+      "fieldName": "class",
+      "dataTypeName": "number",
+      "description": "property class",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "AppealType",
+      "fieldName": "appealtype",
+      "dataTypeName": "text",
+      "description": "Appeal type code",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "AppealTypeDescription",
+      "fieldName": "appealtypedescription",
+      "dataTypeName": "text",
+      "description": "Appeal type description",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Assessor_LandValue",
+      "fieldName": "assessor_landvalue",
+      "dataTypeName": "number",
+      "description": "Assessor certified land value",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Assessor_ImprovementValue",
+      "fieldName": "assessor_improvementvalue",
+      "dataTypeName": "number",
+      "description": "Assessor certified improvement value",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Assessor_TotalValue",
+      "fieldName": "assessor_totalvalue",
+      "dataTypeName": "number",
+      "description": "Assessor certified total value",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "BOR_LandValue",
+      "fieldName": "bor_landvalue",
+      "dataTypeName": "number",
+      "description": "Board of Review certified land value",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "BOR_ImprovementValue",
+      "fieldName": "bor_improvementvalue",
+      "dataTypeName": "number",
+      "description": "Board of Review certified improvement value",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "BOR_TotalValue",
+      "fieldName": "bor_totalvalue",
+      "dataTypeName": "number",
+      "description": "Board of Review certified total value",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Result",
+      "fieldName": "result",
+      "dataTypeName": "text",
+      "description": "Board of Review appeal result",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "ChangeReason",
+      "fieldName": "changereason",
+      "dataTypeName": "text",
+      "description": "Reason for Change. This is only populated starting with 2015.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "ChangeReasonDescription",
+      "fieldName": "changereasondescription",
+      "dataTypeName": "text",
+      "description": "Reason for Change. This is only populated starting with 2015.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "NoChangeReason",
+      "fieldName": "nochangereason",
+      "dataTypeName": "text",
+      "description": "Reason for No Change. This is only populated starting with 2015.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "NoChangeReasonDescription",
+      "fieldName": "nochangereasondescription",
+      "dataTypeName": "text",
+      "description": "Reason for No Change. This is only populated starting with 2015.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "MajorClass",
+      "fieldName": "majorclass",
+      "dataTypeName": "text",
+      "description": "Property major class description",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Appellant",
+      "fieldName": "appellant",
+      "dataTypeName": "text",
+      "description": "Appellant name",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Appellant_Address",
+      "fieldName": "appellant_address",
+      "dataTypeName": "text",
+      "description": "Appellant street address",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Appellant_City",
+      "fieldName": "appellant_city",
+      "dataTypeName": "text",
+      "description": "Appellant city",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Appellant_State",
+      "fieldName": "appellant_state",
+      "dataTypeName": "text",
+      "description": "Appellant state",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Appellant_Zip",
+      "fieldName": "appellant_zip",
+      "dataTypeName": "number",
+      "description": "Appellant zip code",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "AttorneyCode",
+      "fieldName": "attorneycode",
+      "dataTypeName": "text",
+      "description": "Attorney code; whether an attorney was used. Values are Individual/Pro Se, Exempt, or Attorney",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Attorney ID",
+      "fieldName": "attny",
+      "dataTypeName": "number",
+      "description": "Attorney ID. This can be used to join to the Attorney list dataset",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Attorney_FirstName",
+      "fieldName": "attorney_firstname",
+      "dataTypeName": "text",
+      "description": "Attorney first name",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Attorney_LastName",
+      "fieldName": "attorney_lastname",
+      "dataTypeName": "text",
+      "description": "Attorney last name",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Attorney_FirmName",
+      "fieldName": "attorney_firmname",
+      "dataTypeName": "text",
+      "description": "Attorney firm name",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "AppealID",
+      "fieldName": "appealid",
+      "dataTypeName": "text",
+      "description": "Appeal ID. This matches the \"Complaint\" value on the Board of Review Decision Search",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "PIN10",
+      "fieldName": "pin10",
+      "dataTypeName": "text",
+      "description": "Parcel Identification Number (10-digit)",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "long",
+      "fieldName": "long",
+      "dataTypeName": "number",
+      "description": "Parcel centroid longitude",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "lat",
+      "fieldName": "lat",
+      "dataTypeName": "number",
+      "description": "Parcel centroid latitude",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "xcoord_crs_3435",
+      "fieldName": "xcoord_crs_3435",
+      "dataTypeName": "number",
+      "description": "Parcel centroid X coordinate (CRS 3435)",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "ycoord_crs_3435",
+      "fieldName": "ycoord_crs_3435",
+      "dataTypeName": "number",
+      "description": "Parcel centroid Y coordinate (CRS 3435)",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "PIN_dash",
+      "fieldName": "pin_dash",
+      "dataTypeName": "text",
+      "description": "14-digit Parcel Identification Number with dashes",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "centroid_geom",
+      "fieldName": "centroid_geom",
+      "dataTypeName": "point",
+      "description": "Parcel Centroid geometry",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "rowid",
+      "fieldName": "rowid",
+      "dataTypeName": "text",
+      "description": "Row ID. This is a combination of tax year, PIN, AppealTrk, and AppealSeq",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:49.438Z"
+}

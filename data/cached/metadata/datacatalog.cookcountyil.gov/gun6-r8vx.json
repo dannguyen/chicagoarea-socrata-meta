@@ -1,0 +1,130 @@
+{
+  "id": "gun6-r8vx",
+  "name": "Public Health Birth Data: Infant Mortality",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1457,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1754512861,
+  "publicationDate": 1754685141,
+  "rowsUpdatedAt": 1764693573,
+  "viewLastModified": 1769544552,
+  "viewCount": 826,
+  "downloadCount": 838,
+  "category": "Health & Human Services",
+  "tags": [
+    "ccdph",
+    "reproductive health",
+    "pregnancy"
+  ],
+  "attribution": "Cook County Department of Public Health",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Department of Public Health"
+    },
+    "Metadata": {
+      "Update Frequency": "Yearly"
+    },
+    "Detailed Descriptive": {
+      "Temporal coverage": "2015-2023",
+      "Data notes": "Source data does not differentiate between gender and sex assigned at birth. For clarity and brevity, metadata descriptions reflect gendered language with the understanding that these descriptions may not accurately reflect all cases.",
+      "Geographic coverage": "Cook County without City of Chicago"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Annually",
+      "Publishing frequency": "Annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": "Year of the birth",
+      "nullCount": 0,
+      "cardinality": 1457
+    },
+    {
+      "name": "Place",
+      "fieldName": "place",
+      "dataTypeName": "text",
+      "description": "CCDPH jurisdiction refers to all Cook County municipalities except Chicago, Evanston, Skokie, Oak Park, Forest View, Burbank, and (incorporated) Stickney. See the attached district map for more information.",
+      "nullCount": 0,
+      "cardinality": 1457
+    },
+    {
+      "name": "Age Group",
+      "fieldName": "age_group",
+      "dataTypeName": "text",
+      "description": "Age group of mother",
+      "nullCount": 0,
+      "cardinality": 1457
+    },
+    {
+      "name": "Race and Ethnicity",
+      "fieldName": "race_eth",
+      "dataTypeName": "text",
+      "description": "Race and ethnicity of mother. \"NH\" refers to \"non-Hispanic\". \"PI\" refers to \"Pacific Islander\".",
+      "nullCount": 0,
+      "cardinality": 1457
+    },
+    {
+      "name": "Count of Neonatal Mortality",
+      "fieldName": "count_neonatal",
+      "dataTypeName": "text",
+      "description": "Total number of deaths of infants less than 28 days old",
+      "nullCount": 0,
+      "cardinality": 1457
+    },
+    {
+      "name": "Rate of Neonatal Mortality",
+      "fieldName": "rate_neonatal",
+      "dataTypeName": "text",
+      "description": "Number of deaths of infants less than 28 days older per 1,000 live births",
+      "nullCount": 0,
+      "cardinality": 1457
+    },
+    {
+      "name": "Count of Post Neonatal Mortality",
+      "fieldName": "count_post_neonatal",
+      "dataTypeName": "text",
+      "description": "Total number of deaths of infants between 28 and 364 days old",
+      "nullCount": 0,
+      "cardinality": 1457
+    },
+    {
+      "name": "Rate of Post Neonatal Mortality",
+      "fieldName": "rate_post_neonatal",
+      "dataTypeName": "text",
+      "description": "Number of deaths of infants between 28 to 364 days old per 1,000 live births",
+      "nullCount": 0,
+      "cardinality": 1457
+    },
+    {
+      "name": "Count of Infant Mortality",
+      "fieldName": "count_infant_mortality",
+      "dataTypeName": "text",
+      "description": "Total number of deaths of infants less than one year old",
+      "nullCount": 0,
+      "cardinality": 1457
+    },
+    {
+      "name": "Rate of Infant Mortality",
+      "fieldName": "rate_infant_mortality",
+      "dataTypeName": "text",
+      "description": "Number of deaths of infants less than one year older per 1,000 live births",
+      "nullCount": 0,
+      "cardinality": 1457
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:05.864Z"
+}

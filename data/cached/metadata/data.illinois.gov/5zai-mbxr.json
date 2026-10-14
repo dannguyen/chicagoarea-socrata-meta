@@ -1,0 +1,1382 @@
+{
+  "id": "5zai-mbxr",
+  "name": "IDOT Bridges",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 34219,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709229645,
+  "publicationDate": 1709233100,
+  "rowsUpdatedAt": 1709232968,
+  "viewLastModified": 1736794035,
+  "viewCount": 144,
+  "downloadCount": 88,
+  "category": "Transportation",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Transportation"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "SN",
+      "fieldName": "sn",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 34219
+    },
+    {
+      "name": "SN_KEY",
+      "fieldName": "sn_key",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 34219
+    },
+    {
+      "name": "SN_LABEL",
+      "fieldName": "sn_label",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5197
+    },
+    {
+      "name": "INV_CO",
+      "fieldName": "inv_co",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 102
+    },
+    {
+      "name": "INVENTORY",
+      "fieldName": "inventory",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 14039
+    },
+    {
+      "name": "BEG_STA",
+      "fieldName": "beg_sta",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3108
+    },
+    {
+      "name": "END_STA",
+      "fieldName": "end_sta",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3087
+    },
+    {
+      "name": "AADT",
+      "fieldName": "aadt",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1023
+    },
+    {
+      "name": "AADT_YR",
+      "fieldName": "aadt_yr",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 27
+    },
+    {
+      "name": "AASHTO_LTH",
+      "fieldName": "aashto_lth",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 971
+    },
+    {
+      "name": "ADT_FUT",
+      "fieldName": "adt_fut",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2542
+    },
+    {
+      "name": "ADT_YR_FUT",
+      "fieldName": "adt_yr_fut",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 39
+    },
+    {
+      "name": "ALIG_ADQ",
+      "fieldName": "alig_adq",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 891,
+      "cardinality": 10
+    },
+    {
+      "name": "BLT",
+      "fieldName": "blt",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4395,
+      "cardinality": 134
+    },
+    {
+      "name": "BLT_BY",
+      "fieldName": "blt_by",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4395,
+      "cardinality": 10
+    },
+    {
+      "name": "BOR_ST",
+      "fieldName": "bor_st",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 34140,
+      "cardinality": 5
+    },
+    {
+      "name": "BOR_ST_NBR",
+      "fieldName": "bor_st_nbr",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 34137,
+      "cardinality": 64
+    },
+    {
+      "name": "BOR_ST_RSP",
+      "fieldName": "bor_st_rsp",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "BR_RL_COND",
+      "fieldName": "br_rl_cond",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 891,
+      "cardinality": 4
+    },
+    {
+      "name": "BYPASS_LEN",
+      "fieldName": "bypass_len",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 74
+    },
+    {
+      "name": "CARRIED",
+      "fieldName": "carried",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12434
+    },
+    {
+      "name": "CHNL_COND",
+      "fieldName": "chnl_cond",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 891,
+      "cardinality": 11
+    },
+    {
+      "name": "CRIT_FAC",
+      "fieldName": "crit_fac",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 34219,
+      "cardinality": 0
+    },
+    {
+      "name": "CROSSED",
+      "fieldName": "crossed",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 12,
+      "cardinality": 8955
+    },
+    {
+      "name": "CULV_CELLS",
+      "fieldName": "culv_cells",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "CULV_COND",
+      "fieldName": "culv_cond",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 891,
+      "cardinality": 10
+    },
+    {
+      "name": "CULV_FILL",
+      "fieldName": "culv_fill",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 336
+    },
+    {
+      "name": "CULV_HGHT",
+      "fieldName": "culv_hght",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 276
+    },
+    {
+      "name": "CULV_OP_AR",
+      "fieldName": "culv_op_ar",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1009
+    },
+    {
+      "name": "CULV_WIDTH",
+      "fieldName": "culv_width",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 322
+    },
+    {
+      "name": "DECK_COND",
+      "fieldName": "deck_cond",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 891,
+      "cardinality": 11
+    },
+    {
+      "name": "DECK_GEO",
+      "fieldName": "deck_geo",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 891,
+      "cardinality": 11
+    },
+    {
+      "name": "DECK_PROT",
+      "fieldName": "deck_prot",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 891,
+      "cardinality": 10
+    },
+    {
+      "name": "DECK_ST_TH",
+      "fieldName": "deck_st_th",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 206
+    },
+    {
+      "name": "DECK_ST_TY",
+      "fieldName": "deck_st_ty",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3486,
+      "cardinality": 14
+    },
+    {
+      "name": "DECK_THICK",
+      "fieldName": "deck_thick",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 351
+    },
+    {
+      "name": "DECK_WTH",
+      "fieldName": "deck_wth",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1013
+    },
+    {
+      "name": "DES_LOAD",
+      "fieldName": "des_load",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 5140,
+      "cardinality": 19
+    },
+    {
+      "name": "FC",
+      "fieldName": "fc",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "FL_BASE_EL",
+      "fieldName": "fl_base_el",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 326
+    },
+    {
+      "name": "FL_BASE_Q",
+      "fieldName": "fl_base_q",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 350
+    },
+    {
+      "name": "FL_DES_EL",
+      "fieldName": "fl_des_el",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 416
+    },
+    {
+      "name": "FL_DES_FRQ",
+      "fieldName": "fl_des_frq",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "FL_DES_OP",
+      "fieldName": "fl_des_op",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 356
+    },
+    {
+      "name": "FL_DES_Q",
+      "fieldName": "fl_des_q",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 351
+    },
+    {
+      "name": "FLARED",
+      "fieldName": "flared",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4399,
+      "cardinality": 2
+    },
+    {
+      "name": "FR_APP_MAT",
+      "fieldName": "fr_app_mat",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 33231,
+      "cardinality": 9
+    },
+    {
+      "name": "FR_APP_TYP",
+      "fieldName": "fr_app_typ",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 33231,
+      "cardinality": 20
+    },
+    {
+      "name": "FR_CR_DATE",
+      "fieldName": "fr_cr_date",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 33740,
+      "cardinality": 310
+    },
+    {
+      "name": "FR_CR_RAT",
+      "fieldName": "fr_cr_rat",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 33743,
+      "cardinality": 10
+    },
+    {
+      "name": "FR_CR_TYP",
+      "fieldName": "fr_cr_typ",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 33740,
+      "cardinality": 23
+    },
+    {
+      "name": "FR_INS_INT",
+      "fieldName": "fr_ins_int",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 293,
+      "cardinality": 4
+    },
+    {
+      "name": "FUNC_OBSL",
+      "fieldName": "func_obsl",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 1120,
+      "cardinality": 2
+    },
+    {
+      "name": "GRDRL",
+      "fieldName": "grdrl",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 891,
+      "cardinality": 4
+    },
+    {
+      "name": "GRDRL_NW",
+      "fieldName": "grdrl_nw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 9554,
+      "cardinality": 10
+    },
+    {
+      "name": "GRDRL_SE",
+      "fieldName": "grdrl_se",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 9540,
+      "cardinality": 10
+    },
+    {
+      "name": "GRDRL_TERM",
+      "fieldName": "grdrl_term",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 891,
+      "cardinality": 4
+    },
+    {
+      "name": "GRDRL_TRAN",
+      "fieldName": "grdrl_tran",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 891,
+      "cardinality": 4
+    },
+    {
+      "name": "H_CLR_NW",
+      "fieldName": "h_clr_nw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 302
+    },
+    {
+      "name": "H_CLR_SE",
+      "fieldName": "h_clr_se",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 846
+    },
+    {
+      "name": "H2O_ADQ",
+      "fieldName": "h2o_adq",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 891,
+      "cardinality": 10
+    },
+    {
+      "name": "H2O_CAT",
+      "fieldName": "h2o_cat",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 32495,
+      "cardinality": 70
+    },
+    {
+      "name": "H2O_COND",
+      "fieldName": "h2o_cond",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 32504,
+      "cardinality": 8
+    },
+    {
+      "name": "H2O_DATE",
+      "fieldName": "h2o_date",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 32483,
+      "cardinality": 818
+    },
+    {
+      "name": "H2O_METH",
+      "fieldName": "h2o_meth",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 32495,
+      "cardinality": 37
+    },
+    {
+      "name": "HBRRP_ELIG",
+      "fieldName": "hbrrp_elig",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "HBRRP_MAP",
+      "fieldName": "hbrrp_map",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 34219,
+      "cardinality": 0
+    },
+    {
+      "name": "HIST",
+      "fieldName": "hist",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "INS_REG_DT",
+      "fieldName": "ins_reg_dt",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 891,
+      "cardinality": 1564
+    },
+    {
+      "name": "INSP_INT",
+      "fieldName": "insp_int",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 293,
+      "cardinality": 13
+    },
+    {
+      "name": "INV_RT_LD",
+      "fieldName": "inv_rt_ld",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 5933,
+      "cardinality": 100
+    },
+    {
+      "name": "INV_RT_TYP",
+      "fieldName": "inv_rt_typ",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 5933,
+      "cardinality": 6
+    },
+    {
+      "name": "LENGTH",
+      "fieldName": "length",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2846
+    },
+    {
+      "name": "LNS",
+      "fieldName": "lns",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 19
+    },
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 21,
+      "cardinality": 30938
+    },
+    {
+      "name": "MED_TYP",
+      "fieldName": "med_typ",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4196,
+      "cardinality": 8
+    },
+    {
+      "name": "MED_WTH",
+      "fieldName": "med_wth",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 64
+    },
+    {
+      "name": "MEM_TYPE",
+      "fieldName": "mem_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 891,
+      "cardinality": 8
+    },
+    {
+      "name": "MNT_1",
+      "fieldName": "mnt_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "MNT_2",
+      "fieldName": "mnt_2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 18
+    },
+    {
+      "name": "MNT_CO",
+      "fieldName": "mnt_co",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 102
+    },
+    {
+      "name": "MNT_SUB_OV",
+      "fieldName": "mnt_sub_ov",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 25061,
+      "cardinality": 659
+    },
+    {
+      "name": "MNT_SUB_UN",
+      "fieldName": "mnt_sub_un",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 33604,
+      "cardinality": 164
+    },
+    {
+      "name": "MNT_TS_OV",
+      "fieldName": "mnt_ts_ov",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 25061,
+      "cardinality": 114
+    },
+    {
+      "name": "MNT_TS_UN",
+      "fieldName": "mnt_ts_un",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 33604,
+      "cardinality": 50
+    },
+    {
+      "name": "MNT_TWP",
+      "fieldName": "mnt_twp",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 4006,
+      "cardinality": 73
+    },
+    {
+      "name": "MUNI",
+      "fieldName": "muni",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 851
+    },
+    {
+      "name": "NAME",
+      "fieldName": "name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 22618,
+      "cardinality": 9985
+    },
+    {
+      "name": "NAV_CTL",
+      "fieldName": "nav_ctl",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 396,
+      "cardinality": 3
+    },
+    {
+      "name": "NAV_H_UCL",
+      "fieldName": "nav_h_ucl",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 124
+    },
+    {
+      "name": "NAV_V_UCL",
+      "fieldName": "nav_v_ucl",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 57
+    },
+    {
+      "name": "NHS",
+      "fieldName": "nhs",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "NR_APP_MAT",
+      "fieldName": "nr_app_mat",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 33197,
+      "cardinality": 9
+    },
+    {
+      "name": "NR_APP_TYP",
+      "fieldName": "nr_app_typ",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 33197,
+      "cardinality": 19
+    },
+    {
+      "name": "ON_",
+      "fieldName": "on_",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "OP_1_2_WAY",
+      "fieldName": "op_1_2_way",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "OPR_RT_LD",
+      "fieldName": "opr_rt_ld",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 5933,
+      "cardinality": 100
+    },
+    {
+      "name": "OPR_RT_TYP",
+      "fieldName": "opr_rt_typ",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 5933,
+      "cardinality": 6
+    },
+    {
+      "name": "OWNER",
+      "fieldName": "owner",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 49
+    },
+    {
+      "name": "PAINT_DATE",
+      "fieldName": "paint_date",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 28877,
+      "cardinality": 74
+    },
+    {
+      "name": "PAINT_SUFX",
+      "fieldName": "paint_sufx",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 34219,
+      "cardinality": 0
+    },
+    {
+      "name": "PAINT_TYPE",
+      "fieldName": "paint_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 29202,
+      "cardinality": 257
+    },
+    {
+      "name": "PARALLEL",
+      "fieldName": "parallel",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3287,
+      "cardinality": 3
+    },
+    {
+      "name": "PERMIT_RT",
+      "fieldName": "permit_rt",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 34219,
+      "cardinality": 0
+    },
+    {
+      "name": "PST_LEV",
+      "fieldName": "pst_lev",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "PST_OTAT",
+      "fieldName": "pst_otat",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 34209,
+      "cardinality": 1
+    },
+    {
+      "name": "PST_SGL",
+      "fieldName": "pst_sgl",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 32714,
+      "cardinality": 38
+    },
+    {
+      "name": "PST_TYP_1",
+      "fieldName": "pst_typ_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 33120,
+      "cardinality": 37
+    },
+    {
+      "name": "PST_TYP_2",
+      "fieldName": "pst_typ_2",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 33109,
+      "cardinality": 38
+    },
+    {
+      "name": "RAT_DATE",
+      "fieldName": "rat_date",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 10262,
+      "cardinality": 4770
+    },
+    {
+      "name": "RATED_BY",
+      "fieldName": "rated_by",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 5933,
+      "cardinality": 4
+    },
+    {
+      "name": "RD_WTH",
+      "fieldName": "rd_wth",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 808
+    },
+    {
+      "name": "RD_WTH_APP",
+      "fieldName": "rd_wth_app",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 642
+    },
+    {
+      "name": "RD_WTH_MAX",
+      "fieldName": "rd_wth_max",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 649
+    },
+    {
+      "name": "RECON_YR",
+      "fieldName": "recon_yr",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 4395,
+      "cardinality": 85
+    },
+    {
+      "name": "REPLACD_BY",
+      "fieldName": "replacd_by",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 782
+    },
+    {
+      "name": "REPLACES",
+      "fieldName": "replaces",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 8166
+    },
+    {
+      "name": "RPST_OTAT",
+      "fieldName": "rpst_otat",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 34218,
+      "cardinality": 1
+    },
+    {
+      "name": "RPST_SGL",
+      "fieldName": "rpst_sgl",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 31556,
+      "cardinality": 27
+    },
+    {
+      "name": "RPST_TYP_1",
+      "fieldName": "rpst_typ_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 33175,
+      "cardinality": 31
+    },
+    {
+      "name": "RPST_TYP_2",
+      "fieldName": "rpst_typ_2",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 33156,
+      "cardinality": 35
+    },
+    {
+      "name": "RPT_AGY",
+      "fieldName": "rpt_agy",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "RRX_1",
+      "fieldName": "rrx_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 33000,
+      "cardinality": 1076
+    },
+    {
+      "name": "RRX_2",
+      "fieldName": "rrx_2",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 34185,
+      "cardinality": 28
+    },
+    {
+      "name": "RRX_L_UCL",
+      "fieldName": "rrx_l_ucl",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 249
+    },
+    {
+      "name": "RRX_V_UCL",
+      "fieldName": "rrx_v_ucl",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 160
+    },
+    {
+      "name": "SCOUR_DATE",
+      "fieldName": "scour_date",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 11483,
+      "cardinality": 2895
+    },
+    {
+      "name": "SCOUR_METH",
+      "fieldName": "scour_meth",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 11483,
+      "cardinality": 4
+    },
+    {
+      "name": "SCOUR_RAT",
+      "fieldName": "scour_rat",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 11483,
+      "cardinality": 9
+    },
+    {
+      "name": "SDWLK_NW",
+      "fieldName": "sdwlk_nw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 138
+    },
+    {
+      "name": "SDWLK_SE",
+      "fieldName": "sdwlk_se",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 137
+    },
+    {
+      "name": "SIDE_UNDER",
+      "fieldName": "side_under",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 11117,
+      "cardinality": 5
+    },
+    {
+      "name": "SKEW_ANGL",
+      "fieldName": "skew_angl",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1337
+    },
+    {
+      "name": "SKEW_DIR",
+      "fieldName": "skew_dir",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 4089,
+      "cardinality": 3
+    },
+    {
+      "name": "SP_INS_INT",
+      "fieldName": "sp_ins_int",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 34219,
+      "cardinality": 0
+    },
+    {
+      "name": "SP_INSP_DT",
+      "fieldName": "sp_insp_dt",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 34219,
+      "cardinality": 0
+    },
+    {
+      "name": "SPEC_SYS",
+      "fieldName": "spec_sys",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "SPN_APP_NO",
+      "fieldName": "spn_app_no",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 40
+    },
+    {
+      "name": "SPN_MN_MAT",
+      "fieldName": "spn_mn_mat",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 46,
+      "cardinality": 12
+    },
+    {
+      "name": "SPN_MN_NBR",
+      "fieldName": "spn_mn_nbr",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 43
+    },
+    {
+      "name": "SPN_MN_TYP",
+      "fieldName": "spn_mn_typ",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 47,
+      "cardinality": 50
+    },
+    {
+      "name": "STAT",
+      "fieldName": "stat",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "STAT_DATE",
+      "fieldName": "stat_date",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 48
+    },
+    {
+      "name": "STRUC_COND",
+      "fieldName": "struc_cond",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 891,
+      "cardinality": 10
+    },
+    {
+      "name": "STRUC_DEF",
+      "fieldName": "struc_def",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 1120,
+      "cardinality": 2
+    },
+    {
+      "name": "SUB_COND",
+      "fieldName": "sub_cond",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 891,
+      "cardinality": 11
+    },
+    {
+      "name": "SUFF_MISS",
+      "fieldName": "suff_miss",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 24688,
+      "cardinality": 1
+    },
+    {
+      "name": "SUFF_RATE",
+      "fieldName": "suff_rate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 861
+    },
+    {
+      "name": "SUPR_COND",
+      "fieldName": "supr_cond",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 891,
+      "cardinality": 11
+    },
+    {
+      "name": "SVC_ON",
+      "fieldName": "svc_on",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 7,
+      "cardinality": 9
+    },
+    {
+      "name": "SVC_UND",
+      "fieldName": "svc_und",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 10,
+      "cardinality": 10
+    },
+    {
+      "name": "TOLL",
+      "fieldName": "toll",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 3087,
+      "cardinality": 6
+    },
+    {
+      "name": "TRK_PCT",
+      "fieldName": "trk_pct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 71
+    },
+    {
+      "name": "TRK_RT",
+      "fieldName": "trk_rt",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "TWP",
+      "fieldName": "twp",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 74
+    },
+    {
+      "name": "UCL_RATE",
+      "fieldName": "ucl_rate",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 891,
+      "cardinality": 10
+    },
+    {
+      "name": "URBAN",
+      "fieldName": "urban",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 84
+    },
+    {
+      "name": "UTIL_ATT",
+      "fieldName": "util_att",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 891,
+      "cardinality": 218
+    },
+    {
+      "name": "VRT_10_NW",
+      "fieldName": "vrt_10_nw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 128
+    },
+    {
+      "name": "VRT_10_SE",
+      "fieldName": "vrt_10_se",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 179
+    },
+    {
+      "name": "VRT_MN_NW",
+      "fieldName": "vrt_mn_nw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 119
+    },
+    {
+      "name": "VRT_MN_SE",
+      "fieldName": "vrt_mn_se",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 183
+    },
+    {
+      "name": "WAT_DRN_AR",
+      "fieldName": "wat_drn_ar",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1802
+    },
+    {
+      "name": "WEAR_SURF",
+      "fieldName": "wear_surf",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 891,
+      "cardinality": 15
+    },
+    {
+      "name": "A1",
+      "fieldName": "a1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 355
+    },
+    {
+      "name": "A2",
+      "fieldName": "a2",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 355
+    },
+    {
+      "name": "POINT_X",
+      "fieldName": "point_x",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20623
+    },
+    {
+      "name": "POINT_Y",
+      "fieldName": "point_y",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 32654
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:34.510Z"
+}

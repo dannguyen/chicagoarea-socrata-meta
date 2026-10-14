@@ -1,0 +1,99 @@
+{
+  "id": "3mg2-a24n",
+  "name": "Performance Metrics - Public Health - Lead Inspections Performed",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 17,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1311263283,
+  "publicationDate": 1334607180,
+  "rowsUpdatedAt": 1334607179,
+  "viewLastModified": 1497298826,
+  "viewCount": 2949,
+  "downloadCount": 6478,
+  "category": "Administration & Finance",
+  "tags": [
+    "performance metrics",
+    "service delivery",
+    "cdph",
+    "health",
+    "lead"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "September 2010 - present",
+      "Frequency": "Data is updated monthly",
+      "Data Owner": "Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "Date",
+      "fieldName": "date",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 17
+    },
+    {
+      "name": "Total Number of Initial Lead Inspections Completed Per Month",
+      "fieldName": "total_number_of_initial_lead_inspections_completed_per_month",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 16
+    },
+    {
+      "name": "Monthly Target",
+      "fieldName": "monthly_target",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Cumulative Lead Inspections Completed",
+      "fieldName": "cumulative_lead_inspections_completed",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 17
+    },
+    {
+      "name": "Cumulative Target",
+      "fieldName": "cumulative_target",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 16
+    },
+    {
+      "name": "Months Target Was Achieved",
+      "fieldName": "months_target_was_achieved",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 17,
+      "cardinality": 0
+    },
+    {
+      "name": "Months Target Was Not Achieved",
+      "fieldName": "months_target_was_not_achieved",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 17,
+      "cardinality": 0
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:08.694Z"
+}

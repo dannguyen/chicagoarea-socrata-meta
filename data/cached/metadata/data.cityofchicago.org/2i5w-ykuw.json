@@ -1,0 +1,176 @@
+{
+  "id": "2i5w-ykuw",
+  "name": "E-Scooter Trips",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 19967864,
+  "rowCountSource": "cached",
+  "rowLabel": "Trip",
+  "hasRowIdentifier": true,
+  "createdAt": 1682439503,
+  "publicationDate": 1682442011,
+  "rowsUpdatedAt": 1779484022,
+  "viewLastModified": 1779742985,
+  "viewCount": 10684,
+  "downloadCount": 5332,
+  "category": "Transportation",
+  "tags": [
+    "scooter",
+    "transportation",
+    "e-scooter"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "Starting May 2022",
+      "Frequency": "Data are updated twice a year",
+      "Data Owner": "Department of Transportation"
+    }
+  },
+  "columns": [
+    {
+      "name": "Trip ID",
+      "fieldName": "trip_id",
+      "dataTypeName": "text",
+      "description": "A unique ID for each trip.",
+      "nullCount": 0,
+      "cardinality": 19967864
+    },
+    {
+      "name": "Start Time",
+      "fieldName": "start_time",
+      "dataTypeName": "calendar_date",
+      "description": "When the trip started, rounded to the nearest hour.",
+      "nullCount": 0,
+      "cardinality": 19967864
+    },
+    {
+      "name": "End Time",
+      "fieldName": "end_time",
+      "dataTypeName": "calendar_date",
+      "description": "When the trip ended, rounded to the nearest hour.",
+      "nullCount": 0,
+      "cardinality": 19967864
+    },
+    {
+      "name": "Trip Distance",
+      "fieldName": "trip_distance",
+      "dataTypeName": "number",
+      "description": "Trip distance in meters. (Divide by 1609 for miles.)",
+      "nullCount": 0,
+      "cardinality": 19967864
+    },
+    {
+      "name": "Trip Duration",
+      "fieldName": "trip_duration",
+      "dataTypeName": "number",
+      "description": "Trip time in seconds.",
+      "nullCount": 0,
+      "cardinality": 19967864
+    },
+    {
+      "name": "Vendor",
+      "fieldName": "vendor",
+      "dataTypeName": "text",
+      "description": "The vendor of the scooter",
+      "nullCount": 0,
+      "cardinality": 19967864
+    },
+    {
+      "name": "Start Community Area Number",
+      "fieldName": "start_community_area_number",
+      "dataTypeName": "number",
+      "description": "The Community Area number where the trip started.",
+      "nullCount": 17728,
+      "cardinality": 19967864
+    },
+    {
+      "name": "End Community Area Number",
+      "fieldName": "end_community_area_number",
+      "dataTypeName": "number",
+      "description": "The Community Area number where the trip ended.",
+      "nullCount": 23766,
+      "cardinality": 19967864
+    },
+    {
+      "name": "Start Community Area Name",
+      "fieldName": "start_community_area_name",
+      "dataTypeName": "text",
+      "description": "The Community Area name where the trip started.",
+      "nullCount": 17728,
+      "cardinality": 19967864
+    },
+    {
+      "name": "End Community Area Name",
+      "fieldName": "end_community_area_name",
+      "dataTypeName": "text",
+      "description": "The Community Area name where the trip ended.",
+      "nullCount": 23766,
+      "cardinality": 19967864
+    },
+    {
+      "name": "Start Centroid Latitude",
+      "fieldName": "start_centroid_latitude",
+      "dataTypeName": "number",
+      "description": "The latitude of the center of the trip start Community Area. This column will be blank for locations outside Chicago.",
+      "nullCount": 17728,
+      "cardinality": 19967864
+    },
+    {
+      "name": "Start Centroid Longitude",
+      "fieldName": "start_centroid_longitude",
+      "dataTypeName": "number",
+      "description": "The longitude of the center of the trip start Community Area. This column will be blank for locations outside Chicago.",
+      "nullCount": 17728,
+      "cardinality": 19967864
+    },
+    {
+      "name": "Start Centroid Location",
+      "fieldName": "start_centroid_location",
+      "dataTypeName": "point",
+      "description": "The location of the center of the trip start Community Area. This column will be blank for locations outside Chicago.",
+      "nullCount": 17728,
+      "cardinality": 19967864
+    },
+    {
+      "name": "End Centroid Latitude",
+      "fieldName": "end_centroid_latitude",
+      "dataTypeName": "number",
+      "description": "The latitude of the center of the trip end Community Area. This column will be blank for locations outside Chicago.",
+      "nullCount": 23766,
+      "cardinality": 19967864
+    },
+    {
+      "name": "End Centroid Longitude",
+      "fieldName": "end_centroid_longitude",
+      "dataTypeName": "number",
+      "description": "The longitude of the center of the trip end Community Area. This column will be blank for locations outside Chicago.",
+      "nullCount": 23766,
+      "cardinality": 19967864
+    },
+    {
+      "name": "End Centroid Location",
+      "fieldName": "end_centroid_location",
+      "dataTypeName": "point",
+      "description": "The location of the center of the trip end Community Area. This column will be blank for locations outside Chicago.",
+      "nullCount": 23766,
+      "cardinality": 19967864
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:38:05.456Z"
+}

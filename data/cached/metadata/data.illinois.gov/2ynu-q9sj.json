@@ -1,0 +1,126 @@
+{
+  "id": "2ynu-q9sj",
+  "name": "Illinois Tuberculosis Cases By County, 1990-1999",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 108,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709058315,
+  "publicationDate": 1709144449,
+  "rowsUpdatedAt": 1709144443,
+  "viewLastModified": 1736793964,
+  "viewCount": 27,
+  "downloadCount": 107,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "_1990",
+      "fieldName": "_1990",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 20
+    },
+    {
+      "name": "_1991",
+      "fieldName": "_1991",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 20
+    },
+    {
+      "name": "_1992",
+      "fieldName": "_1992",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 22
+    },
+    {
+      "name": "_1993",
+      "fieldName": "_1993",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 20
+    },
+    {
+      "name": "_1994",
+      "fieldName": "_1994",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 18
+    },
+    {
+      "name": "_1995",
+      "fieldName": "_1995",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 19
+    },
+    {
+      "name": "_1996",
+      "fieldName": "_1996",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 19
+    },
+    {
+      "name": "_1997",
+      "fieldName": "_1997",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 19
+    },
+    {
+      "name": "_1998",
+      "fieldName": "_1998",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 18
+    },
+    {
+      "name": "_1999",
+      "fieldName": "_1999",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 19
+    },
+    {
+      "name": "county",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 108
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:42.133Z"
+}

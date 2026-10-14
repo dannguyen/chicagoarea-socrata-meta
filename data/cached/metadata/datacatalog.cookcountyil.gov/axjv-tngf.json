@@ -1,0 +1,133 @@
+{
+  "id": "axjv-tngf",
+  "name": "Fiscal Year 2018 Preliminary Budget - Special Purpose Fund Outlook",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 34,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1498598356,
+  "publicationDate": 1498750598,
+  "rowsUpdatedAt": 1498598590,
+  "viewLastModified": 1769545626,
+  "viewCount": 594,
+  "downloadCount": 2452,
+  "category": "Finance & Operations",
+  "tags": [
+    "fy2018",
+    "2018 budget",
+    "fy2018 preliminary budget",
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Budget and Management Services",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Department of Budget and Management Services"
+    },
+    "Metadata": {
+      "Update Frequency": "Yearly"
+    },
+    "Publishing Details": {
+      "Publishing frequency": "Annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "Fund Number",
+      "fieldName": "fund_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 34
+    },
+    {
+      "name": "Description",
+      "fieldName": "description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 34
+    },
+    {
+      "name": "FY16 Ending Fund Balance",
+      "fieldName": "fy16_ending_fund_balance",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 33
+    },
+    {
+      "name": "FY17 Revised Revenue Projection",
+      "fieldName": "fy17_revised_revenue_projection",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 34
+    },
+    {
+      "name": "FY17 Estimated Total Resources",
+      "fieldName": "fy17_estimated_total_resources",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 34
+    },
+    {
+      "name": "FY17 Projected Expenditures",
+      "fieldName": "fy17_projected_expenditures",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 33
+    },
+    {
+      "name": "FY17 Projected Ending Fund Balance",
+      "fieldName": "fy17_projected_ending_fund_balance",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 34
+    },
+    {
+      "name": "FY18 Revenue Estimate",
+      "fieldName": "fy18_revenue_estimate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 32
+    },
+    {
+      "name": "FY18 Total Resources",
+      "fieldName": "fy18_total_resources",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 34
+    },
+    {
+      "name": "FY18 Executive Estimated Expenditures",
+      "fieldName": "fy18_executive_estimated_expenditures",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 33
+    },
+    {
+      "name": "FY18 Ending Fund Balance Estimate",
+      "fieldName": "fy18_ending_fund_balance_estimate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 32
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:09.116Z"
+}

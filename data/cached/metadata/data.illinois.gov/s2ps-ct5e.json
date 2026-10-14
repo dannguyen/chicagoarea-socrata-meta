@@ -1,0 +1,238 @@
+{
+  "id": "s2ps-ct5e",
+  "name": "City Of Urbana: Police Arrests",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 216554,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1757557718,
+  "publicationDate": 1757627907,
+  "rowsUpdatedAt": 1757627637,
+  "viewLastModified": 1760122054,
+  "viewCount": 217,
+  "downloadCount": 23,
+  "category": "Local Government",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "City of Urbana"
+    },
+    "Data Management": {
+      "Maintainer": "Mac Patel",
+      "Maintainer Email": "mac.patel@urbanail.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "arrest_code",
+      "fieldName": "arrest_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 216554
+    },
+    {
+      "name": "incident_number",
+      "fieldName": "incident_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 216554
+    },
+    {
+      "name": "date_of_arrest",
+      "fieldName": "date_of_arrest",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 216554
+    },
+    {
+      "name": "year_of_arrest",
+      "fieldName": "year_of_arrest",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 216554
+    },
+    {
+      "name": "month_of_arrest",
+      "fieldName": "month_of_arrest",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 216554
+    },
+    {
+      "name": "arrest_type_description",
+      "fieldName": "arrest_type_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 34873,
+      "cardinality": 216554
+    },
+    {
+      "name": "crime_code",
+      "fieldName": "crime_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 216554
+    },
+    {
+      "name": "crime_code_description",
+      "fieldName": "crime_code_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 216554
+    },
+    {
+      "name": "crime_category_code",
+      "fieldName": "crime_category_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 61,
+      "cardinality": 216554
+    },
+    {
+      "name": "crime_category_description",
+      "fieldName": "crime_category_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 61,
+      "cardinality": 216554
+    },
+    {
+      "name": "conspiracy_code",
+      "fieldName": "conspiracy_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 216283,
+      "cardinality": 216554
+    },
+    {
+      "name": "statute",
+      "fieldName": "statute",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 216554
+    },
+    {
+      "name": "violation",
+      "fieldName": "violation",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 216554
+    },
+    {
+      "name": "disposition_code",
+      "fieldName": "disposition_code",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 216554
+    },
+    {
+      "name": "disposition_description",
+      "fieldName": "disposition_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 216554
+    },
+    {
+      "name": "age_at_arrest",
+      "fieldName": "age_at_arrest",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 216554
+    },
+    {
+      "name": "arrestee_sex",
+      "fieldName": "arrestee_sex",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 685,
+      "cardinality": 216554
+    },
+    {
+      "name": "arrestee_race",
+      "fieldName": "arrestee_race",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 685,
+      "cardinality": 216554
+    },
+    {
+      "name": "arrestee_employment_description",
+      "fieldName": "arrestee_employment",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 46232,
+      "cardinality": 216554
+    },
+    {
+      "name": "arrestee_residency_description",
+      "fieldName": "arrestee_residency_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 41346,
+      "cardinality": 216554
+    },
+    {
+      "name": "arrestee_home_city",
+      "fieldName": "arrestee_home_city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 26675,
+      "cardinality": 216554
+    },
+    {
+      "name": "arrestee_home_state",
+      "fieldName": "arrestee_home_state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 26907,
+      "cardinality": 216554
+    },
+    {
+      "name": "arrestee_home_zip",
+      "fieldName": "arrestee_home_zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 8021,
+      "cardinality": 216554
+    },
+    {
+      "name": "arrest_resolution",
+      "fieldName": "arrest_resolution",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 216554
+    },
+    {
+      "name": "mapped_address",
+      "fieldName": "mapped_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 23494,
+      "cardinality": 216554
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:33.762Z"
+}

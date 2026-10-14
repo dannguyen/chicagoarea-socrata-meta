@@ -1,0 +1,138 @@
+{
+  "id": "93st-4bxh",
+  "name": "Assessor [Archived 05-11-2022] - Sales",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1950885,
+  "rowCountSource": "cached",
+  "rowLabel": "Deed",
+  "hasRowIdentifier": false,
+  "createdAt": 1609880702,
+  "publicationDate": 1611167174,
+  "rowsUpdatedAt": 1611167173,
+  "viewLastModified": 1769543011,
+  "viewCount": 9007,
+  "downloadCount": 10891,
+  "category": "Property & Taxation",
+  "tags": [
+    "cook county assessor",
+    "property tax",
+    "archive"
+  ],
+  "attribution": "Cook County Assessor's Office",
+  "attributionLink": "https://www.cookcountyassessor.com/",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Assessor's Data Science Department"
+    },
+    "Metadata": {
+      "Update Frequency": "Yearly"
+    },
+    "Detailed Descriptive": {
+      "Data notes": "Code that produced this data is found: https://gitlab.com/ccao-data-science---modeling/processes/etl_open_data",
+      "Geographic coverage": "Countywide",
+      "Geographic unit": "Parcel"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Not updated (historical only)",
+      "Publishing frequency": "Annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "PIN",
+      "fieldName": "pin",
+      "dataTypeName": "text",
+      "description": "14-character property identification code",
+      "nullCount": 0,
+      "cardinality": 1021886
+    },
+    {
+      "name": "Recorded date",
+      "fieldName": "sale_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date the sale was recorded at the Cook County Recorded of Deeds",
+      "nullCount": 0,
+      "cardinality": 6668
+    },
+    {
+      "name": "Executed date",
+      "fieldName": "executed_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date deed was executed. This field is incomplete due to limited data sharing between the CCAO and CCRD.",
+      "nullCount": 1173501,
+      "cardinality": 4879
+    },
+    {
+      "name": "Sale price",
+      "fieldName": "sale_price",
+      "dataTypeName": "number",
+      "description": "Total sale amount on the deed. This sometimes includes personal property.",
+      "nullCount": 0,
+      "cardinality": 90460
+    },
+    {
+      "name": "Arms' length",
+      "fieldName": "valid_sale",
+      "dataTypeName": "number",
+      "description": "Indicator for whether the CCAO believes this is an arms' length transaction (No, Yes, Unkown; 0, 1, 9)",
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Validation comments",
+      "fieldName": "validation_comments",
+      "dataTypeName": "text",
+      "description": "Analyst comments on sales validation",
+      "nullCount": 8141,
+      "cardinality": 3038
+    },
+    {
+      "name": "Deed number",
+      "fieldName": "doc_no",
+      "dataTypeName": "number",
+      "description": "Deed number",
+      "nullCount": 0,
+      "cardinality": 1950403
+    },
+    {
+      "name": "Deed type",
+      "fieldName": "deed_type",
+      "dataTypeName": "text",
+      "description": "Deed type",
+      "nullCount": 270614,
+      "cardinality": 5
+    },
+    {
+      "name": "Seller name",
+      "fieldName": "seller_name",
+      "dataTypeName": "text",
+      "description": "Seller listed on deed. This field is incomplete due to limited data sharing between the CCAO and CCRD.",
+      "nullCount": 1173376,
+      "cardinality": 568863
+    },
+    {
+      "name": "Buyer name",
+      "fieldName": "buyer_name",
+      "dataTypeName": "text",
+      "description": "Buyer listed on deed. This field is incomplete due to limited data sharing between the CCAO and CCRD.",
+      "nullCount": 1173480,
+      "cardinality": 611075
+    },
+    {
+      "name": "Year",
+      "fieldName": "tax_year",
+      "dataTypeName": "number",
+      "description": "Year of recorded date",
+      "nullCount": 0,
+      "cardinality": 24
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:51.035Z"
+}

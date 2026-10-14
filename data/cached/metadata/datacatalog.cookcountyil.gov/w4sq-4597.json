@@ -1,0 +1,111 @@
+{
+  "id": "w4sq-4597",
+  "name": "Polling Place Locations - 2016 November 8 Presidential General Election",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1599,
+  "rowCountSource": "cached",
+  "rowLabel": "precinct",
+  "hasRowIdentifier": false,
+  "createdAt": 1478627902,
+  "publicationDate": 1686674189,
+  "rowsUpdatedAt": 1478628172,
+  "viewLastModified": 1769548192,
+  "viewCount": 762,
+  "downloadCount": 4604,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Clerk",
+  "attributionLink": "http://www.cookcountyclerk.com",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Clerk"
+    },
+    "Metadata": {
+      "Update Frequency": "As Needed"
+    },
+    "Detailed Descriptive": {
+      "Geographic coverage": "Cook County without City of Chicago",
+      "Geographic unit": "Street Address"
+    },
+    "Publishing Details": {
+      "Data change frequency": "As needed",
+      "Publishing frequency": "Not updated (historical only)"
+    }
+  },
+  "columns": [
+    {
+      "name": "Location Name",
+      "fieldName": "location_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 982
+    },
+    {
+      "name": "Accessible",
+      "fieldName": "accessible",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Precinct",
+      "fieldName": "precinct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1599
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1030
+    },
+    {
+      "name": "Township",
+      "fieldName": "township",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 127
+    },
+    {
+      "name": "Ward",
+      "fieldName": "ward",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1517,
+      "cardinality": 9
+    },
+    {
+      "name": "Precinct Number",
+      "fieldName": "precinct_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 123
+    },
+    {
+      "name": "location_1",
+      "fieldName": "location_1",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:06.807Z"
+}

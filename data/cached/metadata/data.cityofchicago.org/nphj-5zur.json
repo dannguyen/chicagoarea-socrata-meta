@@ -1,0 +1,227 @@
+{
+  "id": "nphj-5zur",
+  "name": "811 Chicago Utility Hit Tickets",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 63668,
+  "rowCountSource": "query",
+  "rowLabel": "Hit Ticket",
+  "hasRowIdentifier": false,
+  "createdAt": 1651008963,
+  "publicationDate": 1663263751,
+  "rowsUpdatedAt": 1791962577,
+  "viewLastModified": 1663351466,
+  "viewCount": 2454,
+  "downloadCount": 3811,
+  "category": "Transportation",
+  "tags": [
+    "hit ticket",
+    "dig ticket",
+    "transportation",
+    "utilities",
+    "excavation",
+    "811"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "1/1/2020 - Present",
+      "Frequency": "Data are updated daily",
+      "Data Owner": "Department of Transportation"
+    }
+  },
+  "columns": [
+    {
+      "name": "Hit Report No",
+      "fieldName": "hit_report_no",
+      "dataTypeName": "number",
+      "description": "The identifier given to each hit report. Users can look up the hit report using this number on the 811 Chicago website. While this number is unique to the hit report, it is repeated in this data set because there can be multiple combinations of Utility Name, Site ID, and Hit Report Status for a hit report.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Hit Date",
+      "fieldName": "hit_date",
+      "dataTypeName": "calendar_date",
+      "description": "The date and time the individual or entity reporting the hit stated the hit occurred. ",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Hit Report Status",
+      "fieldName": "hit_report_status",
+      "dataTypeName": "text",
+      "description": "The “status” is based on an action in the workflow. There are six potential statuses: “Canceled,” or the hit report was canceled and is no longer valid; “Complete,” or the 811 investigation workflow was completed; “Duplicate,” or the damage has already been reported on a different hit ticket (please note, 811 Chicago may not identify all duplicate damages); “AutoAppr,” or the hit report was processed without 811 Chicago reviewing the report (e.g., submitted by a user with elevated permissions); “Approved,” or 811 Chicago processed the hit report (though, as explained in this data set’s description, the information in the hit report will not be verified until the investigation); “Rejected,” or 811 Chicago reviewed the hit report but did not process it.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Notice Type",
+      "fieldName": "notice_type",
+      "dataTypeName": "text",
+      "description": "This field is a flag for utility owners (who are notified of a potential damage to their facility via electronic transmission of the hit ticket data) that signifies the iteration of the ticket. As it relates to hit tickets, the notice type could be one of three types: “Initial ticket,” or the first iteration of the hit ticket; “Cancellation notice,” or 811 Chicago has canceled the ticket because it is incorrect; “Update ticket,” or 811 Chicago has updated information on the ticket and is retransmitting it. Notice type is a more robust field for “dig tickets.” Please see the “Dig Ticket Notification” dataset.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Related Dig Ticket #",
+      "fieldName": "related_dig_ticket",
+      "dataTypeName": "number",
+      "description": "Any individual or entity excavating in Chicago city limits is required to obtain a “dig ticket” from 811 Chicago prior to breaking ground. For more information on dig tickets, please visit the 811 Chicago site and the “Dig Ticket Notification” dataset. 811 Chicago asks individuals or entities reporting a potential utility damage if there is a dig ticket associated with the excavation activity. 811 Chicago will record that information in this field. A null value in the field does not necessarily mean there is no associated dig ticket.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Street Number",
+      "fieldName": "street_number",
+      "dataTypeName": "number",
+      "description": "The beginning of the address range of the location where the damage occurred. If the “street number” and street number high” fields are different, the individual or entity reporting the damage stated the damage facility spans two or more addresses; if the street number” and \"street number high” fields are the same, or the field is null, the damage was reported at a single address. Of note, hit tickets (and dig tickets) are processed by block and side of the street. For example, a hit ticket with an odd street address indicates the southside of an east / west street, or the eastside of a north / south street. The address range on the hit ticket cannot exceed the first and last address of the block.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Street Number High",
+      "fieldName": "street_number_high",
+      "dataTypeName": "number",
+      "description": "The end of the address range of the location where the damage occurred.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Direction",
+      "fieldName": "direction",
+      "dataTypeName": "text",
+      "description": "The direction portion of the street address where the damage occurred.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Street Name",
+      "fieldName": "street_name",
+      "dataTypeName": "text",
+      "description": "The street where the damage occurred.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Suffix",
+      "fieldName": "suffix",
+      "dataTypeName": "text",
+      "description": "The suffix portion of the street name where the damage occurred  ",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Street Address",
+      "fieldName": "street_address",
+      "dataTypeName": "text",
+      "description": "The full street address, using the low street number if there is a range.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Facility Hit",
+      "fieldName": "facility_hit",
+      "dataTypeName": "text",
+      "description": "The type of facility that was damaged as described by the individual or entity reporting the hit. The accuracy and reliability of data in this field is subject to the reporter’s perception. Cells with the value “Unknown” means the individual or entity reporting the hit was unable to determine what type of facility was damaged.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Facility Owner",
+      "fieldName": "facility_owner",
+      "dataTypeName": "text",
+      "description": "The name of the organization which owns the facility that was damaged as described by the individual or entity reporting the hit. The accuracy and reliability of data in this field is subject to the reporter’s perception. Cells with a null value mean the individual or entity reporting the hit was unable to determine who owned the damaged facility. ",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Reported By Name",
+      "fieldName": "reported_by_name",
+      "dataTypeName": "text",
+      "description": "The name of the individual or entity which reported the damage to 811 Chicago. ",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Hit By Name",
+      "fieldName": "hit_by_name",
+      "dataTypeName": "text",
+      "description": "The name of the individual or entity which damaged the facility according to the individual or entity that reported the damage. The accuracy and reliability of data in this field is subject to the reporter’s perception. Cells with a null value mean the individual or entity reporting the hit was unable to determine who damaged the facility. Please note, the inclusion of an individual or entity in this field did not necessarily mean that entity caused the damage or that a violation of MCC § 10-21 occurred. 811 Chicago’s investigation will determine who caused the damage. 811 Chicago may not update the hit report if the “hit by” field is deemed incorrect. ",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Utility Name",
+      "fieldName": "utility_name",
+      "dataTypeName": "text",
+      "description": "The name of the utility company(s) to which the hit ticket was transmitted. Hit reports may be sent to more than one utility depending on the facility that was damaged. For example, Peoples Gas has three “sites” (see “Site ID” field description) in the 811 Chicago database. Depending on the location of the damage, 811 Chicago may transmit the ticket to all three of their sites. If a “unknown” (see “Facility Hit” and “Facility Owner” field descriptions) facility is damaged, 811 Chicago may transmit the ticket to some or all facility owners determined to have utilities in the area of the damage in hopes of identifying the facility. Once 811 Chicago transmits the ticket, the utility owner processes the ticket according to their business rules.  ",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Site ID",
+      "fieldName": "site_id",
+      "dataTypeName": "number",
+      "description": "The unique site number associated with each utility owner’s shapefile stored in the 811 Chicago database. ",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": "The location of the Street Address column in a format that allows for mapping and other geographic analysis on this portal.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Boundaries - ZIP Codes' (rpca-8um6) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Community Areas' (vrxf-vc4k) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Zip Codes' (6mkv-f3dw) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Census Tracts' (bdys-3d7i) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Wards' (43wa-7qmu) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:11.215Z"
+}

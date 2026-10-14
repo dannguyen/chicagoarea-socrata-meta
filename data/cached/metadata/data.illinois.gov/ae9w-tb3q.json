@@ -1,0 +1,91 @@
+{
+  "id": "ae9w-tb3q",
+  "name": "Residential Meth Labs in Illinois: 2001 to 2015",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2768,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1708440890,
+  "publicationDate": 1708441009,
+  "rowsUpdatedAt": 1708441003,
+  "viewLastModified": 1736793999,
+  "viewCount": 39,
+  "downloadCount": 83,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Data Management": {
+      "Maintainer": "Toxicology Program",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "ID#",
+      "fieldName": "id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2754
+    },
+    {
+      "name": "INVESTIGATION DATE",
+      "fieldName": "investigation_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1864
+    },
+    {
+      "name": "ADDRESS",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 2622
+    },
+    {
+      "name": "CITY",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 538
+    },
+    {
+      "name": "ZIP",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2009
+    },
+    {
+      "name": "COUNTY",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 100
+    },
+    {
+      "name": "REMEDIATION DATE, IF KNOWN",
+      "fieldName": "remediation_date_if_known",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 2741,
+      "cardinality": 24
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:39.398Z"
+}

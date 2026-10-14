@@ -1,0 +1,118 @@
+{
+  "id": "tgk5-u9s7",
+  "name": "IDPH STD Illinois By County By Sex",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1000,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709064509,
+  "publicationDate": 1709145312,
+  "rowsUpdatedAt": 1709145306,
+  "viewLastModified": 1736194094,
+  "viewCount": 32,
+  "downloadCount": 20,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "chlamydia_female_count",
+      "fieldName": "chlamydia_female_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 331
+    },
+    {
+      "name": "chlamydia_male_count",
+      "fieldName": "chlamydia_male_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 217
+    },
+    {
+      "name": "county_jurisdiction",
+      "fieldName": "county_jurisdiction",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 104
+    },
+    {
+      "name": "countyfips",
+      "fieldName": "countyfips",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 20,
+      "cardinality": 102
+    },
+    {
+      "name": "early_syphilis_female_count",
+      "fieldName": "early_syphilis_female_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 39
+    },
+    {
+      "name": "early_syphilis_male_count",
+      "fieldName": "early_syphilis_male_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "gonorrhea_female_count",
+      "fieldName": "gonorrhea_female_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 212
+    },
+    {
+      "name": "gonorrhea_male_count",
+      "fieldName": "gonorrhea_male_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 181
+    },
+    {
+      "name": "sort",
+      "fieldName": "sort",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 104
+    },
+    {
+      "name": "year",
+      "fieldName": "year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:40.964Z"
+}

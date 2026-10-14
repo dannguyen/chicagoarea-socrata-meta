@@ -1,0 +1,331 @@
+{
+  "id": "xq83-jr8c",
+  "name": "Chicago Energy Benchmarking",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 28329,
+  "rowCountSource": "cached",
+  "rowLabel": "Properties or Campuses",
+  "hasRowIdentifier": true,
+  "createdAt": 1449183754,
+  "publicationDate": 1622048986,
+  "rowsUpdatedAt": 1738777097,
+  "viewLastModified": 1738777093,
+  "viewCount": 36814,
+  "downloadCount": 25097,
+  "category": "Environment & Sustainable Development",
+  "tags": [
+    "buildings",
+    "energy",
+    "sustainability",
+    "benchmarks",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2014-2023",
+      "Frequency": "Annual",
+      "Data Owner": "City of Chicago Sustainability Program"
+    }
+  },
+  "columns": [
+    {
+      "name": "Data Year",
+      "fieldName": "data_year",
+      "dataTypeName": "number",
+      "description": "Calendar year (January-December) represented by each data record.",
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "ID",
+      "fieldName": "id",
+      "dataTypeName": "number",
+      "description": "A six-digit unique identifier assigned to each property covered by the Chicago Energy Benchmarking Ordinance for tracking and identification purposes.",
+      "nullCount": 0,
+      "cardinality": 3852
+    },
+    {
+      "name": "Property Name",
+      "fieldName": "property_name",
+      "dataTypeName": "text",
+      "description": "Official or common property name.",
+      "nullCount": 2963,
+      "cardinality": 7043
+    },
+    {
+      "name": "Reporting Status",
+      "fieldName": "reporting_status",
+      "dataTypeName": "text",
+      "description": "Whether the building submitted its report for the Data Year shown. Buildings that did not do so were not listed at all for Data Years through 2017 so all records prior to 2018 will have a value of Submitted. \"Temporarily Exempt\" means that the building received a one-year, temporary exemption from reporting. \"Not Submitted\"  means that the building did not receive an exemption or submit a report, and is out of compliance. This status could also mean that a report was submitted, but was missing required information, such as whole-building energy use. \"Submitted\" means the building submitted a report and is in compliance for the Data Year shown. ",
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": "Property street address.",
+      "nullCount": 0,
+      "cardinality": 7725
+    },
+    {
+      "name": "ZIP Code",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": "Property ZIP code.",
+      "nullCount": 1321,
+      "cardinality": 108
+    },
+    {
+      "name": "Chicago Energy Rating",
+      "fieldName": "chicago_energy_rating",
+      "dataTypeName": "number",
+      "description": "The zero-to-four-star Chicago Energy Rating assigned to the building in the shown Data Year. A building with zero stars did not submit a report, or did submit a report but was missing required information. All other buildings receive between one and four stars, with four stars reflecting the highest performance. Every building receives a Chicago Energy Rating Placard with this rating, which must be posted in a prominent location at the building. The rating must also be shared at the time of listing the building for sale or for lease. For more information, visit: www.ChicagoEnergyRating.org  This column was added for the 2018 Data Year. It is blank for previous years.",
+      "nullCount": 8923,
+      "cardinality": 8
+    },
+    {
+      "name": "Exempt From Chicago Energy Rating",
+      "fieldName": "exempt_from_chicago_energy_rating",
+      "dataTypeName": "checkbox",
+      "description": "Shows whether the building is subject to the Chicago Energy Rating Ordinance. Some properties are required to submit energy benchmarking reports but are not subject to the requirements of the Chicago Energy Rating program. These buildings do not receive a Chicago Energy Rating, typically due to technical reasons.  This column was added for the 2018 Data Year. It is blank for previous years.",
+      "nullCount": 10363,
+      "cardinality": 2
+    },
+    {
+      "name": "Community Area",
+      "fieldName": "community_area",
+      "dataTypeName": "text",
+      "description": "The Chicago community area where the property is located.",
+      "nullCount": 308,
+      "cardinality": 157
+    },
+    {
+      "name": "Primary Property Type",
+      "fieldName": "primary_property_type",
+      "dataTypeName": "text",
+      "description": "The primary use of a property (e.g. office, retail store). Primary use is defined as a function that accounts for more than 50% of a property. This is the Property Type - EPA Calculated field from Portfolio Manager.",
+      "nullCount": 4254,
+      "cardinality": 62
+    },
+    {
+      "name": "Gross Floor Area - Buildings (sq ft)",
+      "fieldName": "gross_floor_area_buildings_sq_ft",
+      "dataTypeName": "number",
+      "description": "Total interior floor space in square feet between the outside surfaces of a building’s enclosing walls, with the exception of any interior space used for parking. This includes tenant space, common areas, stairwells, basements, and storage, but does not include any interior parking areas. This is the Property Gross Floor Area - EPA Calculated (Buildings) field from Portfolio Manager.",
+      "nullCount": 2225,
+      "cardinality": 5852
+    },
+    {
+      "name": "Year Built",
+      "fieldName": "year_built",
+      "dataTypeName": "number",
+      "description": "Year in which a property was constructed or underwent a complete renovation.",
+      "nullCount": 5032,
+      "cardinality": 154
+    },
+    {
+      "name": "# of Buildings",
+      "fieldName": "of_buildings",
+      "dataTypeName": "number",
+      "description": "Number of buildings included in the property's report. In cases where a property is reporting as a campus, multiple buildings may be included in one report.",
+      "nullCount": 4454,
+      "cardinality": 37
+    },
+    {
+      "name": "Water Use (kGal)",
+      "fieldName": "water_use_kgal",
+      "dataTypeName": "number",
+      "description": "Water use for the data year in thousands of gallons. This column was added for the 2018 Data Year. It is blank for previous years. This information is collected by the City of Chicago from the Chicago Department of Water and is not reported by building owners to the City of Chicago. In some cases, data are not available for some buildings.",
+      "nullCount": 24280,
+      "cardinality": 3524
+    },
+    {
+      "name": "ENERGY STAR Score",
+      "fieldName": "energy_star_score",
+      "dataTypeName": "number",
+      "description": "1-100 rating that assesses a property’s overall energy performance, based on national data to control for differences among climate, building uses, and operations. A score of 50 represents the national median.",
+      "nullCount": 8692,
+      "cardinality": 100
+    },
+    {
+      "name": "Electricity Use (kBtu)",
+      "fieldName": "electricity_use_kbtu",
+      "dataTypeName": "number",
+      "description": "The annual amount of electricity consumed by the property on-site, including electricity purchased from the grid and generated by onsite renewable systems, measured in thousands of British thermal units (kBtu).",
+      "nullCount": 5316,
+      "cardinality": 22856
+    },
+    {
+      "name": "Natural Gas Use (kBtu)",
+      "fieldName": "natural_gas_use_kbtu",
+      "dataTypeName": "number",
+      "description": "The annual amount of utility-supplied natural gas consumed by the property, measured in thousands of British thermal units (kBtu).",
+      "nullCount": 6794,
+      "cardinality": 20956
+    },
+    {
+      "name": "District Steam Use (kBtu)",
+      "fieldName": "district_steam_use_kbtu",
+      "dataTypeName": "number",
+      "description": "The annual amount of district steam consumed by the property on-site, measured in thousands of British thermal units (kBtu).",
+      "nullCount": 22569,
+      "cardinality": 595
+    },
+    {
+      "name": "District Chilled Water Use (kBtu)",
+      "fieldName": "district_chilled_water_use_kbtu",
+      "dataTypeName": "number",
+      "description": "The annual amount of district chilled water consumed by the property on-site, measured in thousands of British thermal units (kBtu).",
+      "nullCount": 22407,
+      "cardinality": 820
+    },
+    {
+      "name": "All Other Fuel Use (kBtu)",
+      "fieldName": "all_other_fuel_use_kbtu",
+      "dataTypeName": "number",
+      "description": "The annual amount of fuel use other than electricity, natural gas, district chilled water, or district steam consumed by the property on-site, measured in thousands of British thermal units (kBtu).",
+      "nullCount": 28247,
+      "cardinality": 69
+    },
+    {
+      "name": "Site EUI (kBtu/sq ft)",
+      "fieldName": "site_eui_kbtu_sq_ft",
+      "dataTypeName": "number",
+      "description": "Site Energy Use Intensity (EUI) is a property's Site Energy Use divided by its gross floor area. Site Energy Use is the annual amount of all the energy consumed by the property on-site, as reported on utility bills. Site EUI is  measured in thousands of British thermal units (kBtu) per square foot.",
+      "nullCount": 5459,
+      "cardinality": 2761
+    },
+    {
+      "name": "Source EUI (kBtu/sq ft)",
+      "fieldName": "source_eui_kbtu_sq_ft",
+      "dataTypeName": "number",
+      "description": "Source Energy Use Intensity (EUI) is a property's Source Energy Use divided by its gross floor area. Source Energy Use is the annual energy used to operate the property, including losses from generation, transmission, & distribution. Source EUI is  measured in thousands of British thermal units (kBtu) per square foot.",
+      "nullCount": 6318,
+      "cardinality": 4069
+    },
+    {
+      "name": "Weather Normalized Site EUI (kBtu/sq ft)",
+      "fieldName": "weather_normalized_site_eui_kbtu_sq_ft",
+      "dataTypeName": "number",
+      "description": "Weather Normalized (WN) Site Energy Use Intensity (EUI) is a property's WN Site Energy divided by its gross floor area (in square feet). WN Site Energy is the Site Energy Use the property would have consumed during 30-year average weather conditions. WN Site EUI is measured in measured in thousands of British thermal units (kBtu) per square foot.",
+      "nullCount": 6569,
+      "cardinality": 2748
+    },
+    {
+      "name": "Weather Normalized Source EUI (kBtu/sq ft)",
+      "fieldName": "weather_normalized_source_eui_kbtu_sq_ft",
+      "dataTypeName": "number",
+      "description": "Weather Normalized (WN) Source Energy Use Intensity (EUI) is a property's WN Source Energy divided by its gross floor area. WN Source Energy is the Source Energy Use the property would have consumed during 30-year average weather conditions. WN Source EUI is measured in measured in thousands of British thermal units (kBtu) per square foot.",
+      "nullCount": 7929,
+      "cardinality": 3933
+    },
+    {
+      "name": "Total GHG Emissions (Metric Tons CO2e)",
+      "fieldName": "total_ghg_emissions_metric_tons_co2e",
+      "dataTypeName": "number",
+      "description": "The total amount of greenhouse gas emissions, including carbon dioxide, methane, and nitrous oxide gases released into the atmosphere as a result of energy consumption at the property, measured in metric tons of carbon dioxide equivalent.",
+      "nullCount": 6615,
+      "cardinality": 15534
+    },
+    {
+      "name": "GHG Intensity (kg CO2e/sq ft)",
+      "fieldName": "ghg_intensity_kg_co2e_sq_ft",
+      "dataTypeName": "number",
+      "description": "Total Greenhouse Gas Emissions divided by property's gross floor area, measured in kilograms of carbon dioxide equivalent per square foot.",
+      "nullCount": 6620,
+      "cardinality": 777
+    },
+    {
+      "name": "Latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": "Property latitude.",
+      "nullCount": 15,
+      "cardinality": 10818
+    },
+    {
+      "name": "Longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": "Property longitude.",
+      "nullCount": 15,
+      "cardinality": 10907
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": "Property location in a data type recognized by the data portal software for mapping and other purposes.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Row_ID",
+      "fieldName": "row_id",
+      "dataTypeName": "text",
+      "description": "A unique ID for the row, made up of the combination of the Data Year and ID.",
+      "nullCount": 0,
+      "cardinality": 28329
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:06.627Z"
+}

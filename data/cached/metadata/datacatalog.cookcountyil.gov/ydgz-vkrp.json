@@ -1,0 +1,125 @@
+{
+  "id": "ydgz-vkrp",
+  "name": "Treasurer - Scavenger Tax Sale",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 5609,
+  "rowCountSource": "cached",
+  "rowLabel": "Row",
+  "hasRowIdentifier": false,
+  "createdAt": 1480996063,
+  "publicationDate": 1685490108,
+  "rowsUpdatedAt": 1481049924,
+  "viewLastModified": 1769543025,
+  "viewCount": 27882,
+  "downloadCount": 15731,
+  "category": "Property & Taxation",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Treasurer",
+  "attributionLink": "http://www.cookcountytreasurer.com",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Detailed Descriptive": {
+      "Geographic coverage": "Countywide",
+      "Geographic unit": "Parcel"
+    }
+  },
+  "columns": [
+    {
+      "name": "Tax Sale Year",
+      "fieldName": "tax_sale_year",
+      "dataTypeName": "number",
+      "description": "The year the tax sale occurred.",
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "PIN",
+      "fieldName": "pin",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5378
+    },
+    {
+      "name": "From Year",
+      "fieldName": "from_year",
+      "dataTypeName": "number",
+      "description": "The first year of taxes being sold.",
+      "nullCount": 0,
+      "cardinality": 25
+    },
+    {
+      "name": "To Year",
+      "fieldName": "to_year",
+      "dataTypeName": "number",
+      "description": "The last year of taxes being sold.",
+      "nullCount": 0,
+      "cardinality": 26
+    },
+    {
+      "name": "Total Amount Paid",
+      "fieldName": "total_amount_paid",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 298
+    },
+    {
+      "name": "Sold at Sale",
+      "fieldName": "sold_at_sale",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "VOL",
+      "fieldName": "vol",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 544
+    },
+    {
+      "name": "Township Name",
+      "fieldName": "township",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 38
+    },
+    {
+      "name": "Buyer Number",
+      "fieldName": "buyer",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 596
+    },
+    {
+      "name": "Buyer Name",
+      "fieldName": "buyer_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 550
+    },
+    {
+      "name": "location_1",
+      "fieldName": "location_1",
+      "dataTypeName": "location",
+      "description": "Parcel Centroid",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:48.640Z"
+}

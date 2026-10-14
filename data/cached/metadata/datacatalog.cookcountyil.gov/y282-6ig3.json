@@ -1,0 +1,249 @@
+{
+  "id": "y282-6ig3",
+  "name": "Assessor - Appeals",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2667766,
+  "rowCountSource": "cached",
+  "rowLabel": "Parcel",
+  "hasRowIdentifier": true,
+  "createdAt": 1679866997,
+  "publicationDate": 1766177052,
+  "rowsUpdatedAt": 1790853227,
+  "viewLastModified": 1783621379,
+  "viewCount": 16985,
+  "downloadCount": 6626,
+  "category": "Property & Taxation",
+  "tags": [
+    "cook county assessor",
+    "property tax"
+  ],
+  "attribution": "Cook County Assessor's Office",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Data Department"
+    },
+    "Source Details": {
+      "Source System": "iasWorld"
+    },
+    "Detailed Descriptive": {
+      "Temporal coverage": "1999-Present",
+      "Geographic coverage": "Countywide",
+      "Geographic unit": "Parcel"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Bi-weekly",
+      "Publishing frequency": "Bi-weekly"
+    }
+  },
+  "columns": [
+    {
+      "name": "pin",
+      "fieldName": "pin",
+      "dataTypeName": "text",
+      "description": "Parcel Identification Number (PIN)",
+      "nullCount": 0,
+      "cardinality": 2667766
+    },
+    {
+      "name": "tax_year",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": "Tax year",
+      "nullCount": 0,
+      "cardinality": 2667766
+    },
+    {
+      "name": "class",
+      "fieldName": "class",
+      "dataTypeName": "text",
+      "description": "Property class",
+      "nullCount": 0,
+      "cardinality": 2667766
+    },
+    {
+      "name": "township_code",
+      "fieldName": "township_code",
+      "dataTypeName": "text",
+      "description": "Township code",
+      "nullCount": 35,
+      "cardinality": 2667766
+    },
+    {
+      "name": "case_no",
+      "fieldName": "case_no",
+      "dataTypeName": "text",
+      "description": "Case number",
+      "nullCount": 0,
+      "cardinality": 2667766
+    },
+    {
+      "name": "hearing_type",
+      "fieldName": "hearing_type",
+      "dataTypeName": "text",
+      "description": "Appeal hearing type - Current year appeal or Current appeal & certificate of error",
+      "nullCount": 0,
+      "cardinality": 2667766
+    },
+    {
+      "name": "subkey",
+      "fieldName": "subkey",
+      "dataTypeName": "number",
+      "description": "Unique number to allow multiple hearings per level",
+      "nullCount": 0,
+      "cardinality": 2667766
+    },
+    {
+      "name": "appeal_type",
+      "fieldName": "appeal_type",
+      "dataTypeName": "text",
+      "description": "Appeal type",
+      "nullCount": 102403,
+      "cardinality": 2667766
+    },
+    {
+      "name": "status",
+      "fieldName": "status",
+      "dataTypeName": "text",
+      "description": "Appeal status - Open, Closed, Pending, or Closed Pending Ceritifcate of Error. Only available for 2021 and later.",
+      "nullCount": 807452,
+      "cardinality": 2667766
+    },
+    {
+      "name": "mailed_bldg",
+      "fieldName": "mailed_bldg",
+      "dataTypeName": "number",
+      "description": "Assessor mailed building value",
+      "nullCount": 41,
+      "cardinality": 2667766
+    },
+    {
+      "name": "mailed_land",
+      "fieldName": "mailed_land",
+      "dataTypeName": "number",
+      "description": "Assessor mailed land value",
+      "nullCount": 41,
+      "cardinality": 2667766
+    },
+    {
+      "name": "mailed_tot",
+      "fieldName": "mailed_tot",
+      "dataTypeName": "number",
+      "description": "Assessor mailed total value",
+      "nullCount": 41,
+      "cardinality": 2667766
+    },
+    {
+      "name": "certified_bldg",
+      "fieldName": "certified_bldg",
+      "dataTypeName": "number",
+      "description": "Assessor certified building value",
+      "nullCount": 39064,
+      "cardinality": 2667766
+    },
+    {
+      "name": "certified_land",
+      "fieldName": "certified_land",
+      "dataTypeName": "number",
+      "description": "Assessor certified land value",
+      "nullCount": 39064,
+      "cardinality": 2667766
+    },
+    {
+      "name": "certified_tot",
+      "fieldName": "certified_tot",
+      "dataTypeName": "number",
+      "description": "Assessor certified total value",
+      "nullCount": 39064,
+      "cardinality": 2667766
+    },
+    {
+      "name": "change",
+      "fieldName": "change",
+      "dataTypeName": "text",
+      "description": "Change: result of appeal",
+      "nullCount": 27401,
+      "cardinality": 2667766
+    },
+    {
+      "name": "reason_code1",
+      "fieldName": "reason_code1",
+      "dataTypeName": "text",
+      "description": "Reason code for change or no change",
+      "nullCount": 26925,
+      "cardinality": 2667766
+    },
+    {
+      "name": "reason_desc1",
+      "fieldName": "reason_desc1",
+      "dataTypeName": "text",
+      "description": "Reason description for change or no change",
+      "nullCount": 29615,
+      "cardinality": 2667766
+    },
+    {
+      "name": "reason_code2",
+      "fieldName": "reason_code2",
+      "dataTypeName": "text",
+      "description": "Reason code for change or no change",
+      "nullCount": 2520616,
+      "cardinality": 2667766
+    },
+    {
+      "name": "reason_desc2",
+      "fieldName": "reason_desc2",
+      "dataTypeName": "text",
+      "description": "Reason description for change or no change",
+      "nullCount": 2521603,
+      "cardinality": 2667766
+    },
+    {
+      "name": "reason_code3",
+      "fieldName": "reason_code3",
+      "dataTypeName": "text",
+      "description": "Reason code for change or no change",
+      "nullCount": 2654111,
+      "cardinality": 2667766
+    },
+    {
+      "name": "reason_desc3",
+      "fieldName": "reason_desc3",
+      "dataTypeName": "text",
+      "description": "Reason description for change or no change",
+      "nullCount": 2654675,
+      "cardinality": 2667766
+    },
+    {
+      "name": "agent_code",
+      "fieldName": "agent_code",
+      "dataTypeName": "text",
+      "description": "Agent code assigned by assessor to anonymize appeal for review. Only available for 2021 and later.",
+      "nullCount": 1143909,
+      "cardinality": 2667766
+    },
+    {
+      "name": "agent_name",
+      "fieldName": "agent_name",
+      "dataTypeName": "text",
+      "description": "Agent name, typically taxpayer or attorney filing appeal. Only available for 2021 and later.",
+      "nullCount": 1144201,
+      "cardinality": 2667766
+    },
+    {
+      "name": "row_id",
+      "fieldName": "row_id",
+      "dataTypeName": "text",
+      "description": "Unique row key for API",
+      "nullCount": 0,
+      "cardinality": 2667766
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:49.402Z"
+}

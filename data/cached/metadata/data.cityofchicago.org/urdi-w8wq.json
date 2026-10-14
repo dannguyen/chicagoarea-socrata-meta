@@ -1,0 +1,99 @@
+{
+  "id": "urdi-w8wq",
+  "name": "COVID-19 Wastewater Detection - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 2214,
+  "rowCountSource": "cached",
+  "rowLabel": "Sample",
+  "hasRowIdentifier": true,
+  "createdAt": 1674167366,
+  "publicationDate": 1675119727,
+  "rowsUpdatedAt": 1743027795,
+  "viewLastModified": 1788212776,
+  "viewCount": 8753,
+  "downloadCount": 1453,
+  "category": "Health & Human Services",
+  "tags": [
+    "covid-19",
+    "health",
+    "public health",
+    "sanitation",
+    "testing",
+    "historical"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://chicago.gov/coronavirus",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2/15/2022 to 1/9/2025",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"urdi-w8wq\"",
+      "Data Owner": "Department of Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "Sewershed",
+      "fieldName": "sewershed",
+      "dataTypeName": "text",
+      "description": "Sewershed site sampled",
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "Sewershed_ID",
+      "fieldName": "sewershed_id",
+      "dataTypeName": "text",
+      "description": "A unique identifier for the sewershed.",
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "sample_collect_date",
+      "fieldName": "sample_collect_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date the sample was collected",
+      "nullCount": 0,
+      "cardinality": 629
+    },
+    {
+      "name": "n1_copies_L",
+      "fieldName": "n1_copies_l",
+      "dataTypeName": "number",
+      "description": "n1_copies_l\tSARS-CoV-2 N1 gene copies per 1 liter of wastewater (GC/L)",
+      "nullCount": 0,
+      "cardinality": 1803
+    },
+    {
+      "name": "pmmov_copies_L",
+      "fieldName": "pmmov_copies_l",
+      "dataTypeName": "number",
+      "description": "The Pepper Mild Mottle Virus (PMMoV) gene copies per 1 liter of wastewater (GC/L)",
+      "nullCount": 6,
+      "cardinality": 2178
+    },
+    {
+      "name": "Normalized_N1",
+      "fieldName": "normalized_n1",
+      "dataTypeName": "number",
+      "description": "Calculated as dividing n1_copies_l to pmmov_copies_l. This normalization, also called as human fecal normalization, is SARS-CoV-2 virus concentration divided by the human fecal marker (PMMoV) concentration. The human fecal normalization approach indicates whether the proportion of individuals at the site who are shedding has changed.",
+      "nullCount": 11,
+      "cardinality": 2157
+    },
+    {
+      "name": "Record_ID",
+      "fieldName": "record_id",
+      "dataTypeName": "text",
+      "description": "A unique ID for the record.",
+      "nullCount": 0,
+      "cardinality": 2214
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:38:05.931Z"
+}

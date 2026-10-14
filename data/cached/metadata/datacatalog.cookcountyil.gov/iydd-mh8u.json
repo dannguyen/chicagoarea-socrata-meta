@@ -1,0 +1,64 @@
+{
+  "id": "iydd-mh8u",
+  "name": "Treasurer - 2010 Annual Tax Sale Forfeited PINS",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 33043,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1346939990,
+  "publicationDate": 1412896667,
+  "rowsUpdatedAt": 1412896658,
+  "viewLastModified": 1769548245,
+  "viewCount": 2378,
+  "downloadCount": 3339,
+  "category": "Property & Taxation",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Treasurer's Office",
+  "attributionLink": "http://www.cookcountytreasurer.com/",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "PIN",
+      "fieldName": "pin",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 32648
+    },
+    {
+      "name": "TaxType",
+      "fieldName": "taxtype",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "TaxYear",
+      "fieldName": "taxyear",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "ZipCode",
+      "fieldName": "zipcode",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 166
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:56.005Z"
+}

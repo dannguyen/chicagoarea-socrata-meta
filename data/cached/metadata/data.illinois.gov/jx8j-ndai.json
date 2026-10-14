@@ -1,0 +1,67 @@
+{
+  "id": "jx8j-ndai",
+  "name": "Approved Water Well And Closed Loop Well Grouts",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 66,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709064797,
+  "publicationDate": 1709145063,
+  "rowsUpdatedAt": 1709145057,
+  "viewLastModified": 1727117448,
+  "viewCount": 27,
+  "downloadCount": 98,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "company",
+      "fieldName": "company",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 16
+    },
+    {
+      "name": "materials",
+      "fieldName": "materials",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 29
+    },
+    {
+      "name": "product_name",
+      "fieldName": "product_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 66
+    },
+    {
+      "name": "specified_use_s",
+      "fieldName": "specified_use_s",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 16
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:41.621Z"
+}

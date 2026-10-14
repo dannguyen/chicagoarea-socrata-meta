@@ -1,0 +1,317 @@
+{
+  "id": "g5zk-9ycw",
+  "name": "Public Health Statistics - General fertility rates in Chicago, by year, 1999-2009 - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 78,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1325102328,
+  "publicationDate": 1349464862,
+  "rowsUpdatedAt": 1349464033,
+  "viewLastModified": 1788213055,
+  "viewCount": 4592,
+  "downloadCount": 6099,
+  "category": "Health & Human Services",
+  "tags": [
+    "historical"
+  ],
+  "attribution": "Illinois Department of Public Health",
+  "attributionLink": null,
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "1999-2009",
+      "Data Owner": "Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "Community Area Number",
+      "fieldName": "community_area_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 78
+    },
+    {
+      "name": "Community Area Name",
+      "fieldName": "community_area_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 78
+    },
+    {
+      "name": "Fertility Rate 1999",
+      "fieldName": "fertility_rate_1999",
+      "dataTypeName": "number",
+      "description": "Rate of live births per 1000 females aged 15-44 years in 1999",
+      "nullCount": 0,
+      "cardinality": 75
+    },
+    {
+      "name": "Fertility Rate 1999 Lower CI",
+      "fieldName": "fertility_rate_1999_lower_ci",
+      "dataTypeName": "number",
+      "description": "Fertility rate lower confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 73
+    },
+    {
+      "name": "Fertility Rate 1999 Upper CI",
+      "fieldName": "fertility_rate_1999_upper_ci",
+      "dataTypeName": "number",
+      "description": "Fertility rate upper confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 76
+    },
+    {
+      "name": "Fertility Rate 2000",
+      "fieldName": "fertility_rate_2000",
+      "dataTypeName": "number",
+      "description": "Rate of live births per 1000 females aged 15-44 years in 2000",
+      "nullCount": 0,
+      "cardinality": 75
+    },
+    {
+      "name": "Fertility Rate 2000 Lower CI",
+      "fieldName": "fertility_rate_2000_lower_ci",
+      "dataTypeName": "number",
+      "description": "Fertility rate lower confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 75
+    },
+    {
+      "name": "Fertility Rate 2000 Upper CI",
+      "fieldName": "fertility_rate_2000_upper_ci",
+      "dataTypeName": "number",
+      "description": "Fertility rate upper confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 76
+    },
+    {
+      "name": "Fertility Rate 2001",
+      "fieldName": "fertility_rate_2001",
+      "dataTypeName": "number",
+      "description": "Rate of live births per 1000 females aged 15-44 years in 2001",
+      "nullCount": 0,
+      "cardinality": 72
+    },
+    {
+      "name": "Fertility Rate 2001 Lower CI",
+      "fieldName": "fertility_rate_2001_lower_ci",
+      "dataTypeName": "number",
+      "description": "Fertility rate lower confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 75
+    },
+    {
+      "name": "Fertility Rate 2001 Upper CI",
+      "fieldName": "fertility_rate_2001_upper_ci",
+      "dataTypeName": "number",
+      "description": "Fertility rate upper confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 74
+    },
+    {
+      "name": "Fertility Rate 2002",
+      "fieldName": "fertility_rate_2002",
+      "dataTypeName": "number",
+      "description": "Rate of live births per 1000 females aged 15-44 years in 2002",
+      "nullCount": 0,
+      "cardinality": 73
+    },
+    {
+      "name": "Fertility Rate 2002 Lower CI",
+      "fieldName": "fertility_rate_2002_lower_ci",
+      "dataTypeName": "number",
+      "description": "Fertility rate lower confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 73
+    },
+    {
+      "name": "Fertility Rate 2002 Upper CI",
+      "fieldName": "fertility_rate_2002_upper_ci",
+      "dataTypeName": "number",
+      "description": "Fertility rate upper confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 73
+    },
+    {
+      "name": "Fertility Rate 2003",
+      "fieldName": "fertility_rate_2003",
+      "dataTypeName": "number",
+      "description": "Rate of live births per 1000 females aged 15-44 years in 2003",
+      "nullCount": 0,
+      "cardinality": 71
+    },
+    {
+      "name": "Fertility Rate 2003 Lower CI",
+      "fieldName": "fertility_rate_2003_lower_ci",
+      "dataTypeName": "number",
+      "description": "Fertility rate lower confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 75
+    },
+    {
+      "name": "Fertility Rate 2003 Upper CI",
+      "fieldName": "fertility_rate_2003_upper_ci",
+      "dataTypeName": "number",
+      "description": "Fertility rate upper confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": "Fertility Rate 2004",
+      "fieldName": "fertility_rate_2004",
+      "dataTypeName": "number",
+      "description": "Rate of live births per 1000 females aged 15-44 years in 2004",
+      "nullCount": 0,
+      "cardinality": 72
+    },
+    {
+      "name": "Fertility Rate 2004 Lower CI",
+      "fieldName": "fertility_rate_2004_lower_ci",
+      "dataTypeName": "number",
+      "description": "Fertility rate lower confidence interval(CI)",
+      "nullCount": 0,
+      "cardinality": 73
+    },
+    {
+      "name": "Fertility Rate 2004 Upper CI",
+      "fieldName": "fertility_rate_2004_upper_ci",
+      "dataTypeName": "number",
+      "description": "Fertility rate upper confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 73
+    },
+    {
+      "name": "Fertility Rate 2005",
+      "fieldName": "fertility_rate_2005",
+      "dataTypeName": "number",
+      "description": "Rate of live births per 1000 females aged 15-44 years in 2005",
+      "nullCount": 0,
+      "cardinality": 73
+    },
+    {
+      "name": "Fertility Rate 2005 Lower CI",
+      "fieldName": "fertility_rate_2005_lower_ci",
+      "dataTypeName": "number",
+      "description": "Fertility rate lower confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 74
+    },
+    {
+      "name": "Fertility Rate 2005 Upper CI",
+      "fieldName": "fertility_rate_2005_upper_ci",
+      "dataTypeName": "number",
+      "description": "Fertility rate upper confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 71
+    },
+    {
+      "name": "Fertility Rate 2006",
+      "fieldName": "fertility_rate_2006",
+      "dataTypeName": "number",
+      "description": "Rate of live births per 1000 females aged 15-44 years in 2006",
+      "nullCount": 0,
+      "cardinality": 72
+    },
+    {
+      "name": "Fertility Rate 2006 Lower CI",
+      "fieldName": "fertility_rate_2006_lower_ci",
+      "dataTypeName": "number",
+      "description": "Fertility rate lower confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 72
+    },
+    {
+      "name": "Fertility Rate 2006 Upper CI",
+      "fieldName": "fertility_rate_2006_upper_ci",
+      "dataTypeName": "number",
+      "description": "Fertility rate upper confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 73
+    },
+    {
+      "name": "Fertility Rate 2007",
+      "fieldName": "fertility_rate_2007",
+      "dataTypeName": "number",
+      "description": "Rate of live births per 1000 females aged 15-44 years in 2007",
+      "nullCount": 0,
+      "cardinality": 74
+    },
+    {
+      "name": "Fertility Rate 2007 Lower CI",
+      "fieldName": "fertility_rate_2007_lower_ci",
+      "dataTypeName": "number",
+      "description": "Fertility rate lower confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 74
+    },
+    {
+      "name": "Fertility Rate 2007 Upper CI",
+      "fieldName": "fertility_rate_2007_upper_ci",
+      "dataTypeName": "number",
+      "description": "Fertility rate upper confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 74
+    },
+    {
+      "name": "Fertility Rate 2008",
+      "fieldName": "fertility_rate_2008",
+      "dataTypeName": "number",
+      "description": "Rate of live births per 1000 females aged 15-44 years in 2008",
+      "nullCount": 0,
+      "cardinality": 75
+    },
+    {
+      "name": "Fertility Rate 2008 Lower CI",
+      "fieldName": "fertility_rate_2008_lower_ci",
+      "dataTypeName": "number",
+      "description": "Fertility rate lower confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 72
+    },
+    {
+      "name": "Fertility Rate 2008 Upper CI",
+      "fieldName": "fertility_rate_2008_upper_ci",
+      "dataTypeName": "number",
+      "description": "Fertility rate upper confidence interval",
+      "nullCount": 0,
+      "cardinality": 72
+    },
+    {
+      "name": "Fertility Rate 2009",
+      "fieldName": "fertility_rate_2009",
+      "dataTypeName": "number",
+      "description": "Rate of live births per 1000 females aged 15-44 years in 2009",
+      "nullCount": 0,
+      "cardinality": 72
+    },
+    {
+      "name": "Fertility Rate 2009 Lower CI",
+      "fieldName": "fertility_rate_2009_lower_ci",
+      "dataTypeName": "number",
+      "description": "Fertility rate lower confidence interval (CI)",
+      "nullCount": 0,
+      "cardinality": 73
+    },
+    {
+      "name": "Fertility Rate 2009 Upper CI",
+      "fieldName": "fertility_rate_2009_upper_ci",
+      "dataTypeName": "number",
+      "description": "Fertility rate upper confidence interval",
+      "nullCount": 0,
+      "cardinality": 73
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:05.423Z"
+}

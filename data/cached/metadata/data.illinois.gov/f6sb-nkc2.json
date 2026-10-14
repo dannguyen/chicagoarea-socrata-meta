@@ -1,0 +1,115 @@
+{
+  "id": "f6sb-nkc2",
+  "name": "Illinois Criminal Justice Information Authority Active Grants Beginning SFY16",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 3673,
+  "rowCountSource": "cached",
+  "rowLabel": "Grant",
+  "hasRowIdentifier": false,
+  "createdAt": 1736873686,
+  "publicationDate": 1736874129,
+  "rowsUpdatedAt": 1784668395,
+  "viewLastModified": 1784668394,
+  "viewCount": 15593,
+  "downloadCount": 67,
+  "category": "Public Safety",
+  "tags": [
+    "authority",
+    "corrections",
+    "courts",
+    "criminal",
+    "grants",
+    "icjia",
+    "illinois",
+    "illinois criminal justice information authority",
+    "justice",
+    "law enforcement",
+    "prosecution",
+    "victim services"
+  ],
+  "attribution": "Illinois Criminal Justice Information Authority",
+  "attributionLink": null,
+  "licenseId": "CC0_10",
+  "license": "Creative Commons 1.0 Universal (Public Domain Dedication)",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Criminal Justice Information Authority"
+    },
+    "Data Management": {
+      "Maintainer": "Jude Lemrow",
+      "Maintainer Email": "jude.lemrow@illinois.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "Grantor Agency",
+      "fieldName": "grantor_agency",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3673
+    },
+    {
+      "name": "Grantee",
+      "fieldName": "grantee",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3673
+    },
+    {
+      "name": "Description of Purpose of Award",
+      "fieldName": "description_of_purpose_of",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 47,
+      "cardinality": 3673
+    },
+    {
+      "name": "Grant Amount",
+      "fieldName": "grant_amount",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3673
+    },
+    {
+      "name": "Start Date",
+      "fieldName": "start_date",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3673
+    },
+    {
+      "name": "Completion Date",
+      "fieldName": "completion_date",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3673
+    },
+    {
+      "name": "Duration (days) (optional)",
+      "fieldName": "duration_days_optional",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3673
+    },
+    {
+      "name": "Zip",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 560,
+      "cardinality": 3673
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:29.004Z"
+}

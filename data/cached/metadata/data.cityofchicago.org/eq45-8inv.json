@@ -1,0 +1,155 @@
+{
+  "id": "eq45-8inv",
+  "name": "Divvy Bicycle Stations - Historical",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 231810153,
+  "rowCountSource": "cached",
+  "rowLabel": "Bike Station Snapshot",
+  "hasRowIdentifier": true,
+  "createdAt": 1461763601,
+  "publicationDate": 1464881681,
+  "rowsUpdatedAt": 1662872186,
+  "viewLastModified": 1774468690,
+  "viewCount": 20807,
+  "downloadCount": 7672,
+  "category": "Transportation",
+  "tags": [
+    "divvy",
+    "bike share",
+    "transportation",
+    "sensors",
+    "iot",
+    "historical"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2013 to 9/10/2022, except for 7/7/2019 - 12/9/2019 and 2/28/2022 - 4/20/2022",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"eq45-8inv\"",
+      "Data Owner": "Transportation"
+    }
+  },
+  "columns": [
+    {
+      "name": "ID",
+      "fieldName": "id",
+      "dataTypeName": "number",
+      "description": "A unique station identifier. NOTE: Extremely long IDs may not display correctly on this page but should be correct if this dataset is exported or accessed through the API.",
+      "nullCount": 0,
+      "cardinality": 1415
+    },
+    {
+      "name": "Timestamp",
+      "fieldName": "timestamp",
+      "dataTypeName": "calendar_date",
+      "description": "The date and time the record was recorded.",
+      "nullCount": 0,
+      "cardinality": 446560
+    },
+    {
+      "name": "Station Name",
+      "fieldName": "station_name",
+      "dataTypeName": "text",
+      "description": "The name of the station.",
+      "nullCount": 0,
+      "cardinality": 1651
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": "The street address of the station. This value is not available after 7/7/2019.",
+      "nullCount": 85807412,
+      "cardinality": 718
+    },
+    {
+      "name": "Total Docks",
+      "fieldName": "total_docks",
+      "dataTypeName": "number",
+      "description": "Total docks in the station.  Each dock can accommodate one bicycle.",
+      "nullCount": 0,
+      "cardinality": 54
+    },
+    {
+      "name": "Docks in Service",
+      "fieldName": "docks_in_service",
+      "dataTypeName": "number",
+      "description": "Excludes docks taken out of service.  Calculated as the number of docks reported as containing available bicycles or available to receive returned bicycles.",
+      "nullCount": 1,
+      "cardinality": 71
+    },
+    {
+      "name": "Available Docks",
+      "fieldName": "available_docks",
+      "dataTypeName": "number",
+      "description": "Number of docks available to receive a returned bicycle.",
+      "nullCount": 1,
+      "cardinality": 89
+    },
+    {
+      "name": "Available Bikes",
+      "fieldName": "available_bikes",
+      "dataTypeName": "number",
+      "description": "Number of bicycles available to be rented.",
+      "nullCount": 1,
+      "cardinality": 56
+    },
+    {
+      "name": "Percent Full",
+      "fieldName": "percent_full",
+      "dataTypeName": "number",
+      "description": "Percentage of the docks in service containing an available bike. N/A (denominator is zero) values are indicated by either blank or -1.",
+      "nullCount": 2919,
+      "cardinality": 154
+    },
+    {
+      "name": "Status",
+      "fieldName": "status",
+      "dataTypeName": "text",
+      "description": "The status of the station.  Stations \"In Service\" are available for use.",
+      "nullCount": 1,
+      "cardinality": 6
+    },
+    {
+      "name": "Latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": "The latitude of the station.",
+      "nullCount": 0,
+      "cardinality": 1733
+    },
+    {
+      "name": "Longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": "The longitude of the station.",
+      "nullCount": 0,
+      "cardinality": 1734
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": "The location of the station in a format that allows for creating maps in this data portal and performing some types of geographic analysis.",
+      "nullCount": 0,
+      "cardinality": 1912
+    },
+    {
+      "name": "Record",
+      "fieldName": "record",
+      "dataTypeName": "text",
+      "description": "A combination of ID (indicating station) and Timestamp (indicating when the record was recorded) to uniquely identify the record",
+      "nullCount": 0,
+      "cardinality": 1415
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:37:48.084Z"
+}

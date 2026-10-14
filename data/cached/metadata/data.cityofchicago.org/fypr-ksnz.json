@@ -1,0 +1,216 @@
+{
+  "id": "fypr-ksnz",
+  "name": "DOE Environmental Complaints",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 66067,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1348495886,
+  "publicationDate": 1743195827,
+  "rowsUpdatedAt": 1791965696,
+  "viewLastModified": 1788553757,
+  "viewCount": 27161,
+  "downloadCount": 117345,
+  "category": "Environment & Sustainable Development",
+  "tags": [
+    "environmental complaints",
+    "environmental health"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.chicago.gov",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "1993-Current",
+      "Changes and Other Historical Information Useful to Understanding This Dataset": "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"fypr-ksnz\"",
+      "Frequency": "Data are updated daily",
+      "Data Owner": "Department of Environment"
+    }
+  },
+  "columns": [
+    {
+      "name": "COMPLAINT ID",
+      "fieldName": "complaint_id",
+      "dataTypeName": "text",
+      "description": "The unique identifier of the complaint incident. For Historic Department of Environment records, this ID is prefixed with \"DOECOMP\".",
+      "nullCount": 0,
+      "cardinality": 66067
+    },
+    {
+      "name": "COMPLAINT TYPE",
+      "fieldName": "complaint_type",
+      "dataTypeName": "text",
+      "description": "Specifies the type of complaint work order. ",
+      "nullCount": 0,
+      "cardinality": 66067
+    },
+    {
+      "name": "ADDRESS",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": "Full site address.",
+      "nullCount": 0,
+      "cardinality": 66067
+    },
+    {
+      "name": "STREET NUMBER FROM",
+      "fieldName": "street_number_from",
+      "dataTypeName": "number",
+      "description": "The numerical portion of the address. For ranged address, this is the lower number of the range. ",
+      "nullCount": 0,
+      "cardinality": 66067
+    },
+    {
+      "name": "STREET NUMBER TO",
+      "fieldName": "street_number_to",
+      "dataTypeName": "number",
+      "description": "The upper number of a ranged address. This value is blank if the address is not a ranged address.",
+      "nullCount": 63915,
+      "cardinality": 66067
+    },
+    {
+      "name": "DIRECTION",
+      "fieldName": "direction",
+      "dataTypeName": "text",
+      "description": "The direction (N,S,E,W) portion of the address.",
+      "nullCount": 0,
+      "cardinality": 66067
+    },
+    {
+      "name": "STREET NAME",
+      "fieldName": "street_name",
+      "dataTypeName": "text",
+      "description": "The name of the street",
+      "nullCount": 0,
+      "cardinality": 66067
+    },
+    {
+      "name": "STREET TYPE",
+      "fieldName": "street_type",
+      "dataTypeName": "text",
+      "description": "The street suffix (e.g. ST = Street, AVE= Avenue, BLVD=Boulevard)",
+      "nullCount": 957,
+      "cardinality": 66067
+    },
+    {
+      "name": "INSPECTOR",
+      "fieldName": "inspector",
+      "dataTypeName": "text",
+      "description": "The inspector badge number or employee ID of the inspector or engineer who conducted the inspection.",
+      "nullCount": 80,
+      "cardinality": 66067
+    },
+    {
+      "name": "COMPLAINT DATE",
+      "fieldName": "complaint_date",
+      "dataTypeName": "calendar_date",
+      "description": "The date the complaint was received by the department. ",
+      "nullCount": 12259,
+      "cardinality": 66067
+    },
+    {
+      "name": "COMPLAINT DETAIL",
+      "fieldName": "complaint_detail",
+      "dataTypeName": "text",
+      "description": "Brief description of the nature of the complaint.  ",
+      "nullCount": 8889,
+      "cardinality": 66067
+    },
+    {
+      "name": "DATA SOURCE",
+      "fieldName": "data_source",
+      "dataTypeName": "text",
+      "description": "The city department that collected the data.  ",
+      "nullCount": 0,
+      "cardinality": 66067
+    },
+    {
+      "name": "RESOLUTION",
+      "fieldName": "resolution",
+      "dataTypeName": "text",
+      "description": "How the complaint was resolved.",
+      "nullCount": 40506,
+      "cardinality": 66067
+    },
+    {
+      "name": "RESOLVED DATE",
+      "fieldName": "resolved_date",
+      "dataTypeName": "calendar_date",
+      "description": "The date when the complaint was resolved.",
+      "nullCount": 40516,
+      "cardinality": 66067
+    },
+    {
+      "name": "LATITUDE",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": "Latitude coordinate of the facility (low end if an address range).",
+      "nullCount": 360,
+      "cardinality": 66067
+    },
+    {
+      "name": "LONGITUDE",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": "Longitude coordinate of the facility (low end if an address range).",
+      "nullCount": 360,
+      "cardinality": 66067
+    },
+    {
+      "name": "LOCATION",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": "The location of the facility in a format that allows for creation of maps and other geographic operations on this data portal.",
+      "nullCount": 360,
+      "cardinality": 66067
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:31:07.770Z"
+}

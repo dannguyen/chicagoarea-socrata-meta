@@ -1,0 +1,104 @@
+{
+  "id": "3qf7-xrf4",
+  "name": "Cook County Clerk - Polling Place Locations - 2014 November 4 Gubernatorial Election",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1673,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": true,
+  "createdAt": 1413562697,
+  "publicationDate": 1685651938,
+  "rowsUpdatedAt": 1414439157,
+  "viewLastModified": 1769546935,
+  "viewCount": 1717,
+  "downloadCount": 7911,
+  "category": "Finance & Operations",
+  "tags": [
+    "elections",
+    "voting",
+    "vote",
+    "polling locations",
+    "inactive"
+  ],
+  "attribution": "Cook County Clerk",
+  "attributionLink": "http://www.cookcountyclerk.com/elections/pollinglocations/Pages/default.aspx",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Update Frequency": "No updates"
+    }
+  },
+  "columns": [
+    {
+      "name": "Precinct",
+      "fieldName": "precinct",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1673
+    },
+    {
+      "name": "Polling Place ID",
+      "fieldName": "polling_place_id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1063
+    },
+    {
+      "name": "Polling Place Location Name",
+      "fieldName": "polling_place_location_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1012
+    },
+    {
+      "name": "Accessible",
+      "fieldName": "accessible",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1062
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 127
+    },
+    {
+      "name": "Zip",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 119
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:57.884Z"
+}

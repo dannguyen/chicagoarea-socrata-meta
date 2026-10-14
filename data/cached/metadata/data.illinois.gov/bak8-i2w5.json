@@ -1,0 +1,282 @@
+{
+  "id": "bak8-i2w5",
+  "name": "Asbestos Training Course Provider List",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 31,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1735945350,
+  "publicationDate": 1741190372,
+  "rowsUpdatedAt": 1788357184,
+  "viewLastModified": 1788357183,
+  "viewCount": 3308,
+  "downloadCount": 387,
+  "category": "Health and Human Services",
+  "tags": [
+    "asbestos",
+    "training",
+    "course"
+  ],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "Asbestos Program",
+      "Maintainer Email": "dph.asbestos@illinois.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "IDNo",
+      "fieldName": "idno",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 31
+    },
+    {
+      "name": "COURSE PROVIDER",
+      "fieldName": "course_provider",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 31
+    },
+    {
+      "name": "CONTACT PERSON",
+      "fieldName": "contact_person",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 31
+    },
+    {
+      "name": "ADDRESS",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 31
+    },
+    {
+      "name": "CITY",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 31
+    },
+    {
+      "name": "STATE",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 31
+    },
+    {
+      "name": "ZIP",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 31
+    },
+    {
+      "name": "PHONE",
+      "fieldName": "phone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 31
+    },
+    {
+      "name": "FAX",
+      "fieldName": "fax",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 31
+    },
+    {
+      "name": "WEB SITE",
+      "fieldName": "web_site",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 9,
+      "cardinality": 31
+    },
+    {
+      "name": "WORKER INITIAL APPROVAL",
+      "fieldName": "worker_initial_approval",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 13,
+      "cardinality": 31
+    },
+    {
+      "name": "WORKER INITIAL EXPIRE",
+      "fieldName": "worker_initial_expire",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 8,
+      "cardinality": 31
+    },
+    {
+      "name": "CONTRACTOR SUPERVISOR INITIAL APPROVAL",
+      "fieldName": "contractor_supervisor_initial",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 15,
+      "cardinality": 31
+    },
+    {
+      "name": "CONTRACT0R SUPERVISOR INITIAL EXPIRE",
+      "fieldName": "contract0r_supervisor_initial",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 10,
+      "cardinality": 31
+    },
+    {
+      "name": "INSPECTOR INITIAL APPROVAL",
+      "fieldName": "inspector_initial_approval",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 24,
+      "cardinality": 31
+    },
+    {
+      "name": "INSPECTOR INITIAL EXPIRE",
+      "fieldName": "inspector_initial_expire",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 20,
+      "cardinality": 31
+    },
+    {
+      "name": "MANAGEMENT PLANNER INITIAL APPROVAL",
+      "fieldName": "management_planner_initial",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 27,
+      "cardinality": 31
+    },
+    {
+      "name": "MANAGEMENT PLANNER INITIAL EXPIRE",
+      "fieldName": "management_planner_initial_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 25,
+      "cardinality": 31
+    },
+    {
+      "name": "PROJECT DESIGNER INITIAL APPROVAL",
+      "fieldName": "project_designer_initial",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 29,
+      "cardinality": 31
+    },
+    {
+      "name": "PROJECT DESIGNER INITIAL EXPIRE",
+      "fieldName": "project_designer_initial_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 25,
+      "cardinality": 31
+    },
+    {
+      "name": "WORKER REFRESHER APPROVAL",
+      "fieldName": "worker_refresher_approval",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 12,
+      "cardinality": 31
+    },
+    {
+      "name": "WORKER REFRESHER EXPIRE",
+      "fieldName": "worker_refresher_expire",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 31
+    },
+    {
+      "name": "CONTRACTOR SUPERVISOR REFRESHER APPROVAL",
+      "fieldName": "contractor_supervisor",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 15,
+      "cardinality": 31
+    },
+    {
+      "name": "CONTRACTOR SUPEVISOR REFRESHER EXPIRE",
+      "fieldName": "contractor_supevisor_refresher",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 7,
+      "cardinality": 31
+    },
+    {
+      "name": "INSPECTOR REFRESHER APPROVAL",
+      "fieldName": "inspector_refresher_approval",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 24,
+      "cardinality": 31
+    },
+    {
+      "name": "INSPECTOR REFRESHER EXPIRE",
+      "fieldName": "inspector_refresher_expire",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 17,
+      "cardinality": 31
+    },
+    {
+      "name": "MANAGEMENT PLANNER REFRESHER APPROVAL",
+      "fieldName": "management_planner_refresher",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 24,
+      "cardinality": 31
+    },
+    {
+      "name": "MANAGEMENT PLANNER REFREHSER EXPIRE",
+      "fieldName": "management_planner_refrehser",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 21,
+      "cardinality": 31
+    },
+    {
+      "name": "PROJECT DESIGNER REFRESHER APPROVAL",
+      "fieldName": "project_designer_refresher",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 27,
+      "cardinality": 31
+    },
+    {
+      "name": "PROJECT DESIGNER EXPIRE",
+      "fieldName": "project_designer_expire",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 24,
+      "cardinality": 31
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:31.862Z"
+}

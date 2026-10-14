@@ -1,0 +1,56 @@
+{
+  "id": "j73g-3xp8",
+  "name": "Human Resources--2010 New Hires and Terminations",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 12,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1315851134,
+  "publicationDate": 1414428275,
+  "rowsUpdatedAt": 1414428270,
+  "viewLastModified": 1769544761,
+  "viewCount": 1055,
+  "downloadCount": 2814,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Human Resources",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Month/Year",
+      "fieldName": "month_year",
+      "dataTypeName": "text",
+      "description": "The calendar year and corresponding month that an employee started their term of service in an department under the authority of the Cook County Board President. ",
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "New Hires",
+      "fieldName": "new_hires",
+      "dataTypeName": "number",
+      "description": "Amount of new employees beginning their employment in a department under the authority of the Cook County Board President.",
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "Terminations",
+      "fieldName": "terminations",
+      "dataTypeName": "number",
+      "description": "Amount of employees ending their term of service in a department under the authority of the Cook County Board President. ",
+      "nullCount": 0,
+      "cardinality": 12
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:03.344Z"
+}

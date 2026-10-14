@@ -1,0 +1,80 @@
+{
+  "id": "zde5-qbvv",
+  "name": "Human Resources--2010 Employees, Union vs Non-Union Positiong, by Pay Period",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 12,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1315852082,
+  "publicationDate": 1412888708,
+  "rowsUpdatedAt": 1412888661,
+  "viewLastModified": 1769548074,
+  "viewCount": 1251,
+  "downloadCount": 2106,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Human Resources",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Pay Period End Date",
+      "fieldName": "pay_period_end_date",
+      "dataTypeName": "date",
+      "description": "The last day of a pay period for Cook County",
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "Total Employees UTP",
+      "fieldName": "total_employees_utp",
+      "dataTypeName": "number",
+      "description": "Total amount of employees Under the authority of the County Board President that were paid in that pay period",
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "Amount Union",
+      "fieldName": "amount_union",
+      "dataTypeName": "number",
+      "description": "Amount of employees paid that were covered by a collective bargaining agreement.",
+      "nullCount": 0,
+      "cardinality": 11
+    },
+    {
+      "name": "Amount Non-Union",
+      "fieldName": "amount_non_union",
+      "dataTypeName": "number",
+      "description": "Employees paid in that period not covered by a collective bargaining agreement.",
+      "nullCount": 0,
+      "cardinality": 11
+    },
+    {
+      "name": "Percent Union ",
+      "fieldName": "percent_union",
+      "dataTypeName": "number",
+      "description": "Percentage of the entire amount of employees Under the Office of the President of the County Board represented by a collective bargaining agreement.",
+      "nullCount": 0,
+      "cardinality": 11
+    },
+    {
+      "name": "Percent Non-Union",
+      "fieldName": "percent_non_union",
+      "dataTypeName": "number",
+      "description": "Percentage of the entire amount of employees under the Office of the County Board President not represented by a collective bargaining agreement.",
+      "nullCount": 0,
+      "cardinality": 11
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:01.561Z"
+}

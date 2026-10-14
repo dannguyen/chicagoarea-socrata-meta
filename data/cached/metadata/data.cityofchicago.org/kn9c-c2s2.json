@@ -1,0 +1,113 @@
+{
+  "id": "kn9c-c2s2",
+  "name": "Census Data - Selected socioeconomic indicators in Chicago, 2008 – 2012",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 78,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1325774885,
+  "publicationDate": 1410555416,
+  "rowsUpdatedAt": 1410555218,
+  "viewLastModified": 1788212473,
+  "viewCount": 366570,
+  "downloadCount": 75478,
+  "category": "Health & Human Services",
+  "tags": [
+    "income",
+    "education",
+    "poverty",
+    "unemployment"
+  ],
+  "attribution": "U.S. Census Bureau",
+  "attributionLink": "http://factfinder2.census.gov/",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2008 - 2012",
+      "Frequency": "Updated as new data becomes available",
+      "Data Owner": "Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "Community Area Number",
+      "fieldName": "ca",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 77
+    },
+    {
+      "name": "COMMUNITY AREA NAME",
+      "fieldName": "community_area_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 78
+    },
+    {
+      "name": "PERCENT OF HOUSING CROWDED",
+      "fieldName": "percent_of_housing_crowded",
+      "dataTypeName": "number",
+      "description": "Percent occupied housing units with more than one person per room",
+      "nullCount": 0,
+      "cardinality": 56
+    },
+    {
+      "name": "PERCENT HOUSEHOLDS BELOW POVERTY",
+      "fieldName": "percent_households_below_poverty",
+      "dataTypeName": "number",
+      "description": "Percent of households living below the federal poverty level\n",
+      "nullCount": 0,
+      "cardinality": 68
+    },
+    {
+      "name": "PERCENT AGED 16+ UNEMPLOYED",
+      "fieldName": "percent_aged_16_unemployed",
+      "dataTypeName": "number",
+      "description": "Percent of persons over the age of 16 years that are unemployed",
+      "nullCount": 0,
+      "cardinality": 67
+    },
+    {
+      "name": "PERCENT AGED 25+ WITHOUT HIGH SCHOOL DIPLOMA",
+      "fieldName": "percent_aged_25_without_high_school_diploma",
+      "dataTypeName": "number",
+      "description": "Percent of persons over the age of 25 years without a high school education",
+      "nullCount": 0,
+      "cardinality": 70
+    },
+    {
+      "name": "PERCENT AGED UNDER 18 OR OVER 64",
+      "fieldName": "percent_aged_under_18_or_over_64",
+      "dataTypeName": "number",
+      "description": "Percent of the population under 18 or over 64 years of age (i.e., dependency)",
+      "nullCount": 0,
+      "cardinality": 67
+    },
+    {
+      "name": "PER CAPITA INCOME ",
+      "fieldName": "per_capita_income_",
+      "dataTypeName": "number",
+      "description": "Community Area Per capita income is estimated as the sum of tract-level aggregate incomes divided by the total population\n\n",
+      "nullCount": 0,
+      "cardinality": 78
+    },
+    {
+      "name": "HARDSHIP INDEX",
+      "fieldName": "hardship_index",
+      "dataTypeName": "number",
+      "description": "Score that incorporates each of the six selected socioeconomic indicators (see dataset description)\n\n",
+      "nullCount": 1,
+      "cardinality": 77
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:26:20.196Z"
+}

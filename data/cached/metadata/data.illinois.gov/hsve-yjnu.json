@@ -1,0 +1,166 @@
+{
+  "id": "hsve-yjnu",
+  "name": "IDPH Births, by County, by Characteristics,  2009",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 104,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709064682,
+  "publicationDate": 1709146355,
+  "rowsUpdatedAt": 1709146350,
+  "viewLastModified": 1736793978,
+  "viewCount": 72,
+  "downloadCount": 92,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "adequate_prenatal_care_kotelchuck_",
+      "fieldName": "adequate_prenatal_care",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 97
+    },
+    {
+      "name": "adequate_prenatal_care_kotelchuck_rate",
+      "fieldName": "adequate_prenatal_care_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 23,
+      "cardinality": 66
+    },
+    {
+      "name": "cesarean_section",
+      "fieldName": "cesarean_section",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 89
+    },
+    {
+      "name": "cesarean_section_rate",
+      "fieldName": "cesarean_section_rate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 14,
+      "cardinality": 71
+    },
+    {
+      "name": "county",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 104
+    },
+    {
+      "name": "low_birth_weight",
+      "fieldName": "low_birth_weight",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 64
+    },
+    {
+      "name": "low_birth_weight_rate",
+      "fieldName": "low_birth_weight_rate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 22,
+      "cardinality": 45
+    },
+    {
+      "name": "not_h_s_graduateage_20_",
+      "fieldName": "not_h_s_graduateage_20_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 70
+    },
+    {
+      "name": "not_h_s_graduateage_20_rate",
+      "fieldName": "not_h_s_graduateage_20_rate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 21,
+      "cardinality": 67
+    },
+    {
+      "name": "preterm",
+      "fieldName": "preterm",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 66
+    },
+    {
+      "name": "preterm_rate",
+      "fieldName": "preterm_rate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 20,
+      "cardinality": 50
+    },
+    {
+      "name": "total_births",
+      "fieldName": "total_births",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 96
+    },
+    {
+      "name": "unmarried_mother",
+      "fieldName": "unmarried_mother",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 92
+    },
+    {
+      "name": "unmarried_mother_rate",
+      "fieldName": "unmarried_mother_rate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 14,
+      "cardinality": 84
+    },
+    {
+      "name": "very_low_birth_weight",
+      "fieldName": "very_low_birth_weight",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 33
+    },
+    {
+      "name": "very_low_birth_weight_rate",
+      "fieldName": "very_low_birth_weight_rate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 79,
+      "cardinality": 10
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:36.250Z"
+}

@@ -1,0 +1,242 @@
+{
+  "id": "t84e-297e",
+  "name": "Budget Management - Daily Appropriations Report",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 30290,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1316560402,
+  "publicationDate": 1316560582,
+  "rowsUpdatedAt": 1316560575,
+  "viewLastModified": 1769542860,
+  "viewCount": 1954,
+  "downloadCount": 3264,
+  "category": "Finance & Operations",
+  "tags": [
+    "budget management",
+    "daily appropriations report",
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Budget and Management Services",
+  "attributionLink": "http://home.cookcountyil.gov/budget/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Date",
+      "fieldName": "date",
+      "dataTypeName": "date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Report Grouping",
+      "fieldName": "report_grouping",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "GL Period",
+      "fieldName": "gl_period",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 79
+    },
+    {
+      "name": "Fund",
+      "fieldName": "fund",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 79
+    },
+    {
+      "name": "Fund Description",
+      "fieldName": "fund_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 8,
+      "cardinality": 25
+    },
+    {
+      "name": "Bureau Chief",
+      "fieldName": "bureau_chief",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 26
+    },
+    {
+      "name": "Department Number",
+      "fieldName": "department_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 406
+    },
+    {
+      "name": "Department Description",
+      "fieldName": "department_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 396
+    },
+    {
+      "name": "Business Unit Number",
+      "fieldName": "business_unit_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3622
+    },
+    {
+      "name": "Business Unit Description",
+      "fieldName": "business_unit_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2363
+    },
+    {
+      "name": "Activity Code",
+      "fieldName": "activity_code",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 13,
+      "cardinality": 155
+    },
+    {
+      "name": "Activity Description",
+      "fieldName": "activity_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 13,
+      "cardinality": 155
+    },
+    {
+      "name": "Account Number",
+      "fieldName": "account_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 22198,
+      "cardinality": 450
+    },
+    {
+      "name": "Account Description",
+      "fieldName": "account_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 450
+    },
+    {
+      "name": "Old Account Number",
+      "fieldName": "old_account_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 274,
+      "cardinality": 152
+    },
+    {
+      "name": "Approved & Adopted Budget",
+      "fieldName": "approved_adopted_budget",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11066
+    },
+    {
+      "name": "Adjusted Budget",
+      "fieldName": "adjusted_budget",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12986
+    },
+    {
+      "name": "Expenditures",
+      "fieldName": "expenditures",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20904
+    },
+    {
+      "name": "Encumbrances",
+      "fieldName": "encumbrances",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 793
+    },
+    {
+      "name": "Total Expenditures and Encumbrances",
+      "fieldName": "total_expenditures_and_encumbrances",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20964
+    },
+    {
+      "name": "Percent of Adjusted Budget",
+      "fieldName": "percent_of_adjusted_budget_1",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9448
+    },
+    {
+      "name": "Budget Remaining",
+      "fieldName": "budget_remaining",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20811
+    },
+    {
+      "name": "Pre Encumbrances",
+      "fieldName": "pre_encumbrances",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 624
+    },
+    {
+      "name": "Total Expenditures, Encumbrances and Pre Encumbrances",
+      "fieldName": "total_expenditures_encumbrances_and_pre_encumbrances",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 21050
+    },
+    {
+      "name": "Percent (%) of Adjusted Budget",
+      "fieldName": "percent_of_adjusted_budget",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9428
+    },
+    {
+      "name": " Budget Remaining",
+      "fieldName": "_budget_remaining",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20855
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:57.224Z"
+}

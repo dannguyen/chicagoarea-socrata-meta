@@ -1,0 +1,206 @@
+{
+  "id": "we8h-apcf",
+  "name": "Mural Registry",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 490,
+  "rowCountSource": "cached",
+  "rowLabel": "Exterior Mural",
+  "hasRowIdentifier": true,
+  "createdAt": 1549398415,
+  "publicationDate": 1740782715,
+  "rowsUpdatedAt": 1789585238,
+  "viewLastModified": 1789585237,
+  "viewCount": 12092,
+  "downloadCount": 20935,
+  "category": "Historic Preservation",
+  "tags": [
+    "public art"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "https://www.chicago.gov/city/en/depts/dca/supp_info/mural_registry.html",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "April 2019 - current",
+      "Frequency": "Data are updated monthly",
+      "Data Owner": "Cultural Affairs & Special Events"
+    }
+  },
+  "columns": [
+    {
+      "name": "Mural Registration ID",
+      "fieldName": "mural_registration_id",
+      "dataTypeName": "text",
+      "description": "Unique number assigned to each mural registered with the City of Chicago",
+      "nullCount": 0,
+      "cardinality": 490
+    },
+    {
+      "name": "Artist Credit",
+      "fieldName": "artist_credit",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 490
+    },
+    {
+      "name": "Artwork Title",
+      "fieldName": "artwork_title",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 18,
+      "cardinality": 490
+    },
+    {
+      "name": "Media",
+      "fieldName": "media",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 159,
+      "cardinality": 490
+    },
+    {
+      "name": "Year Installed",
+      "fieldName": "year_installed",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 490
+    },
+    {
+      "name": "Year Restored",
+      "fieldName": "year_restored",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 472,
+      "cardinality": 490
+    },
+    {
+      "name": "Location Description",
+      "fieldName": "location_description",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 109,
+      "cardinality": 490
+    },
+    {
+      "name": "Street Address",
+      "fieldName": "street_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 490
+    },
+    {
+      "name": "Zip",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 490
+    },
+    {
+      "name": "Ward",
+      "fieldName": "ward",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 490
+    },
+    {
+      "name": "Affiliated (or Commissioning) Organization",
+      "fieldName": "affiliated_or_commissioning",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 205,
+      "cardinality": 490
+    },
+    {
+      "name": "Description of Artwork",
+      "fieldName": "description_of_artwork",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 122,
+      "cardinality": 490
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": "community_areas",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 37,
+      "cardinality": 490
+    },
+    {
+      "name": "Latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 490
+    },
+    {
+      "name": "Longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 490
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 490
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Boundaries - ZIP Codes' (rpca-8um6) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas 2",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Community Areas' (vrxf-vc4k) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Zip Codes' (6mkv-f3dw) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Census Tracts' (bdys-3d7i) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards 2023-",
+      "fieldName": ":@computed_region_8hcu_yrd4",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Wards 2023-' (8hcu-yrd4) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:38:04.863Z"
+}

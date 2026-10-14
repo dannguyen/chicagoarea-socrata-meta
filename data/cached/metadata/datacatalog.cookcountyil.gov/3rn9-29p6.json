@@ -1,0 +1,80 @@
+{
+  "id": "3rn9-29p6",
+  "name": "General Fund Expenditures By Category 1996 To 2012",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 17,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1312683467,
+  "publicationDate": 1412895157,
+  "rowsUpdatedAt": 1412895149,
+  "viewLastModified": 1769547832,
+  "viewCount": 837,
+  "downloadCount": 2534,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Budget and Management Services",
+  "attributionLink": "http://home.cookcountyil.gov/budget/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 17
+    },
+    {
+      "name": " Public Safety ",
+      "fieldName": "public_safety",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 17
+    },
+    {
+      "name": " Health Care ",
+      "fieldName": "health_care",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 17
+    },
+    {
+      "name": " General Government ",
+      "fieldName": "general_government",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 17
+    },
+    {
+      "name": " Property & Taxation ",
+      "fieldName": "property_taxation",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 17
+    },
+    {
+      "name": " Fixed Charges ",
+      "fieldName": "fixed_charges",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 17
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:05.669Z"
+}

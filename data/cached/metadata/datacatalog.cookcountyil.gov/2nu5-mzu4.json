@@ -1,0 +1,135 @@
+{
+  "id": "2nu5-mzu4",
+  "name": "Temporary Rock Crusher Permits",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 44,
+  "rowCountSource": "cached",
+  "rowLabel": "permit",
+  "hasRowIdentifier": false,
+  "createdAt": 1779991076,
+  "publicationDate": 1779991079,
+  "rowsUpdatedAt": 1791802823,
+  "viewLastModified": 1791802822,
+  "viewCount": 269,
+  "downloadCount": 380,
+  "category": "Environment",
+  "tags": [
+    "trc",
+    "des",
+    "reprocessing",
+    "construction",
+    "demolition"
+  ],
+  "attribution": "Department of Environment & Sustainability",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Bureau of Technology Data Services"
+    },
+    "Metadata": {
+      "Update Frequency": "As Needed"
+    },
+    "Detailed Descriptive": {
+      "Temporal coverage": "2025-present",
+      "Ordinance Link": "https://library.municode.com/il/cook_county/codes/code_of_ordinances?nodeId=PTIGEOR_CH30EN_ARTIIIAI_DIV2AIPO_SDIISMPAMA_S30-392TEREACPE",
+      "Ordinance": "Sec. 30-392",
+      "Geographic coverage": "Cook County without City of Chicago",
+      "Ordinance Text": "A temporary reprocessing activities permit shall be required for the reprocessing, storage, transport and/or final usage of materials generated from construction and/or demolition.",
+      "Geographic unit": "Street Address"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Streaming",
+      "Publishing frequency": "Weekly"
+    }
+  },
+  "columns": [
+    {
+      "name": "Facility Name",
+      "fieldName": "facility_name",
+      "dataTypeName": "text",
+      "description": "name of the site where temporary reprocessing activity is taking place",
+      "nullCount": 0,
+      "cardinality": 44
+    },
+    {
+      "name": "Facility Type",
+      "fieldName": "facility_type",
+      "dataTypeName": "text",
+      "description": "type of facility or site where temporary reprocessing activity is taking place",
+      "nullCount": 0,
+      "cardinality": 44
+    },
+    {
+      "name": "Permit Expiration Date",
+      "fieldName": "date_permit_expires",
+      "dataTypeName": "calendar_date",
+      "description": "date that temporary reprocessing activity permit expires",
+      "nullCount": 0,
+      "cardinality": 44
+    },
+    {
+      "name": "Anticipated Start Date",
+      "fieldName": "anticipated_start_date",
+      "dataTypeName": "calendar_date",
+      "description": "expected start date of temporary reprocessing activity",
+      "nullCount": 0,
+      "cardinality": 44
+    },
+    {
+      "name": "Anticipated End Date",
+      "fieldName": "anticipated_end_date",
+      "dataTypeName": "calendar_date",
+      "description": "expected end date of temporary reprocessing activity",
+      "nullCount": 0,
+      "cardinality": 44
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": "address of site where temporary reprocessing activity is taking place",
+      "nullCount": 0,
+      "cardinality": 44
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": "city where temporary reprocessing activity is taking place",
+      "nullCount": 0,
+      "cardinality": 44
+    },
+    {
+      "name": "Zip",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": "zip code where temporary reprocessing activity is taking place",
+      "nullCount": 0,
+      "cardinality": 44
+    },
+    {
+      "name": "Anticipated Work Days",
+      "fieldName": "anticipated_work_days",
+      "dataTypeName": "text",
+      "description": "days of the week that reprocessing activity is expected to occur",
+      "nullCount": 0,
+      "cardinality": 44
+    },
+    {
+      "name": "Operator Organization Name",
+      "fieldName": "operator_organization_name",
+      "dataTypeName": "text",
+      "description": "name of organization operating reprocessing equipment at site",
+      "nullCount": 0,
+      "cardinality": 44
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:12.547Z"
+}

@@ -1,0 +1,719 @@
+{
+  "id": "9xs2-f89t",
+  "name": "Chicago Public Schools - Progress Report Cards (2011-2012)",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 566,
+  "rowCountSource": "cached",
+  "rowLabel": "School",
+  "hasRowIdentifier": false,
+  "createdAt": 1321041264,
+  "publicationDate": 1536961134,
+  "rowsUpdatedAt": 1536960246,
+  "viewLastModified": 1536961134,
+  "viewCount": 232948,
+  "downloadCount": 53538,
+  "category": "Education",
+  "tags": [
+    "report cards",
+    "cps"
+  ],
+  "attribution": "Chicago Public Schools",
+  "attributionLink": "http://www.cps.edu",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "2011 - 2012 School Year",
+      "Frequency": "Data is updated annually",
+      "Data Owner": "Chicago Public Schools"
+    }
+  },
+  "columns": [
+    {
+      "name": "School ID",
+      "fieldName": "school_id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 566
+    },
+    {
+      "name": "Name of School",
+      "fieldName": "name_of_school",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 566
+    },
+    {
+      "name": "Elementary, Middle, or High School",
+      "fieldName": "elementary_or_high_school",
+      "dataTypeName": "text",
+      "description": "ES indicates elementary school; MS indicates middle school; and HS indicates high school",
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Street Address",
+      "fieldName": "street_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 550
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "ZIP Code",
+      "fieldName": "zip_code",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 51
+    },
+    {
+      "name": "Phone Number",
+      "fieldName": "phone_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 564
+    },
+    {
+      "name": "Link ",
+      "fieldName": "link_",
+      "dataTypeName": "url",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": null
+    },
+    {
+      "name": "Network Manager",
+      "fieldName": "network_manager",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "Collaborative Name",
+      "fieldName": "collaborative_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Adequate Yearly Progress Made? ",
+      "fieldName": "adequate_yearly_progress_made_",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Track Schedule",
+      "fieldName": "track_schedule",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "CPS Performance Policy Status",
+      "fieldName": "cps_performance_policy_status",
+      "dataTypeName": "text",
+      "description": "This refl ects whether or not your school is on probation \nthis year. More information on the CPS Performance \nPolicy may be found online at www.cps.edu.\nN/A: Not applicable\nNDA: No data available",
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "CPS Performance Policy Level",
+      "fieldName": "cps_performance_policy_level",
+      "dataTypeName": "text",
+      "description": "Level 1 indicates the highest performing schools. \nLevel 2 indicates a middle-performing school that \nneeds improvement.\nLevel 3 indicates the lowest performing schools.\nNDA indicates no data available.",
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Healthy Schools Certified?",
+      "fieldName": "healthy_schools_certified_",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Safety Icon ",
+      "fieldName": "safety_icon_",
+      "dataTypeName": "text",
+      "description": "Student Perception/Safety category from 5 Essentials survey",
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Safety Score",
+      "fieldName": "safety_score",
+      "dataTypeName": "number",
+      "description": "Student Perception/Safety score from 5 Essentials survey. These scores range from 1 to 99. For more information on these scores,   \n please see the My Voice, My School survey available at \n www.ccsrsurvey.uchicago.edu/2011.",
+      "nullCount": 53,
+      "cardinality": 85
+    },
+    {
+      "name": "Family Involvement Icon",
+      "fieldName": "family_involvement_icon",
+      "dataTypeName": "text",
+      "description": "Involved Families category from 5 Essentials survey",
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Family Involvement Score",
+      "fieldName": "family_involvement_score",
+      "dataTypeName": "text",
+      "description": "Involved Families score from 5 Essentials survey. These scores range from 1 to 99. For more information on these scores,   \n please see the My Voice, My School survey available at \n www.ccsrsurvey.uchicago.edu/2011.",
+      "nullCount": 0,
+      "cardinality": 72
+    },
+    {
+      "name": "Environment Icon ",
+      "fieldName": "environment_icon_",
+      "dataTypeName": "text",
+      "description": "upportive Environment category from 5 Essentials survey. ",
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Environment Score",
+      "fieldName": "environment_score",
+      "dataTypeName": "number",
+      "description": "Supportive Environment score from 5 Essentials survey. These scores range from 1 to 99. For more information on these scores,   \n please see the My Voice, My School survey available at \n www.ccsrsurvey.uchicago.edu/2011.",
+      "nullCount": 53,
+      "cardinality": 79
+    },
+    {
+      "name": "Instruction Icon ",
+      "fieldName": "instruction_icon_",
+      "dataTypeName": "text",
+      "description": "Ambitious Instruction category from 5 Essentials survey",
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Instruction Score",
+      "fieldName": "instruction_score",
+      "dataTypeName": "number",
+      "description": "Ambitious Instruction score from 5 Essentials survey. These scores range from 1 to 99. For more information on these scores,   \n please see the My Voice, My School survey available at \n www.ccsrsurvey.uchicago.edu/2011.",
+      "nullCount": 53,
+      "cardinality": 82
+    },
+    {
+      "name": "Leaders Icon ",
+      "fieldName": "leaders_icon_",
+      "dataTypeName": "text",
+      "description": "Effective Leaders category from 5 Essentials survey",
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Leaders Score ",
+      "fieldName": "leaders_score_",
+      "dataTypeName": "text",
+      "description": "Effective Leaders score from 5 Essentials survey. These scores range from 1 to 99. For more information on these scores,   \n please see the My Voice, My School survey available at \n www.ccsrsurvey.uchicago.edu/2011.",
+      "nullCount": 0,
+      "cardinality": 79
+    },
+    {
+      "name": "Teachers Icon ",
+      "fieldName": "teachers_icon_",
+      "dataTypeName": "text",
+      "description": "Collaborative Teachers category from 5 Essentials survey",
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Teachers Score",
+      "fieldName": "teachers_score",
+      "dataTypeName": "text",
+      "description": "Collaborative Teachers score from 5 Essentials survey. These scores range from 1 to 99. For more information on these scores,   \n please see the My Voice, My School survey available at \n www.ccsrsurvey.uchicago.edu/2011.",
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": "Parent Engagement Icon ",
+      "fieldName": "parent_engagement_icon_",
+      "dataTypeName": "text",
+      "description": "Parent Perception/Engagement category from parent survey",
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Parent Engagement Score",
+      "fieldName": "parent_engagement_score",
+      "dataTypeName": "text",
+      "description": "Parent Perception/Engagement score from parent survey. These scores range from 30 to 70. For more information on these scores,   \n please see the parent survey information available at www.cps.edu.",
+      "nullCount": 0,
+      "cardinality": 32
+    },
+    {
+      "name": "Parent Environment Icon",
+      "fieldName": "parent_environment_icon",
+      "dataTypeName": "text",
+      "description": "Parent Perception/Environment category from parent survey",
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Parent Environment Score",
+      "fieldName": "parent_environment_score",
+      "dataTypeName": "text",
+      "description": "Parent Perception/Environment score from parent survey. These scores range from 30 to 70. For more information on these scores,   \n please see the parent survey information available at www.cps.edu.",
+      "nullCount": 0,
+      "cardinality": 33
+    },
+    {
+      "name": "Average Student Attendance",
+      "fieldName": "average_student_attendance",
+      "dataTypeName": "number",
+      "description": "Average daily student attendance %",
+      "nullCount": 1,
+      "cardinality": 148
+    },
+    {
+      "name": "Rate of Misconducts (per 100 students) ",
+      "fieldName": "rate_of_misconducts_per_100_students_",
+      "dataTypeName": "number",
+      "description": "# of misconducts per 100 students",
+      "nullCount": 0,
+      "cardinality": 323
+    },
+    {
+      "name": "Average Teacher Attendance",
+      "fieldName": "average_teacher_attendance",
+      "dataTypeName": "number",
+      "description": "Average daily teacher attendance %",
+      "nullCount": 0,
+      "cardinality": 55
+    },
+    {
+      "name": "Individualized Education Program Compliance Rate ",
+      "fieldName": "individualized_education_program_compliance_rate_",
+      "dataTypeName": "number",
+      "description": "% of  Individualized Education Programs (IEPs) and 504 plans completed by due date",
+      "nullCount": 0,
+      "cardinality": 69
+    },
+    {
+      "name": "Pk-2 Literacy %",
+      "fieldName": "pk_2_literacy",
+      "dataTypeName": "text",
+      "description": "% of students at benchmark on DIBELS or IDEL, tests that help teachers measure literacy skills development \nin younger students (grades K-2); given in most, but not all, CPS schools; IDEL is \ngiven to students who are learning to read in Spanish.",
+      "nullCount": 0,
+      "cardinality": 292
+    },
+    {
+      "name": "Pk-2 Math %",
+      "fieldName": "pk_2_math_",
+      "dataTypeName": "text",
+      "description": "% of students at benchmark on mClass. \nmClass is a test that helps teachers measure math skills in younger students \n(grades K-2); given in some, but not all, CPS schools.",
+      "nullCount": 0,
+      "cardinality": 264
+    },
+    {
+      "name": "Gr3-5 Grade Level Math %",
+      "fieldName": "gr3_5_grade_level_math",
+      "dataTypeName": "text",
+      "description": "% of students at grade level, math, grades 3-5",
+      "nullCount": 0,
+      "cardinality": 314
+    },
+    {
+      "name": "Gr3-5 Grade Level Read % ",
+      "fieldName": "gr3_5_grade_level_read_",
+      "dataTypeName": "text",
+      "description": "% of students at grade level, reading, grades 3-5",
+      "nullCount": 0,
+      "cardinality": 313
+    },
+    {
+      "name": "Gr3-5 Keep Pace Read %",
+      "fieldName": "gr3_5_keep_pace_read_",
+      "dataTypeName": "text",
+      "description": "% of students meeting growth targets, reading, grades 3-5",
+      "nullCount": 0,
+      "cardinality": 256
+    },
+    {
+      "name": "Gr3-5 Keep Pace Math %",
+      "fieldName": "gr3_5_keep_pace_math",
+      "dataTypeName": "text",
+      "description": "% of students meeting growth targets, math, grades 3-5",
+      "nullCount": 0,
+      "cardinality": 274
+    },
+    {
+      "name": "Gr6-8 Grade Level Math %",
+      "fieldName": "gr6_8_grade_level_math",
+      "dataTypeName": "text",
+      "description": "% of students at grade level, math, grades 6-8",
+      "nullCount": 0,
+      "cardinality": 313
+    },
+    {
+      "name": "Gr6-8 Grade Level Read %",
+      "fieldName": "gr6_8_grade_level_read",
+      "dataTypeName": "text",
+      "description": "% of students at grade level, reading, grades 6-8",
+      "nullCount": 0,
+      "cardinality": 313
+    },
+    {
+      "name": "Gr6-8 Keep Pace Math%",
+      "fieldName": "gr6_8_keep_pace_math",
+      "dataTypeName": "text",
+      "description": "% of students meeting growth targets, math, grades 6-8",
+      "nullCount": 0,
+      "cardinality": 287
+    },
+    {
+      "name": "Gr6-8 Keep Pace Read %",
+      "fieldName": "gr6_8_keep_pace_read",
+      "dataTypeName": "text",
+      "description": "% of students meeting growth targets, reading, grades 6-8",
+      "nullCount": 0,
+      "cardinality": 256
+    },
+    {
+      "name": "Gr-8 Explore Math %",
+      "fieldName": "gr_8_explore_math",
+      "dataTypeName": "text",
+      "description": "% of students at college readiness benchmark, math",
+      "nullCount": 0,
+      "cardinality": 223
+    },
+    {
+      "name": "Gr-8 Explore Read %",
+      "fieldName": "gr_8_explore_read",
+      "dataTypeName": "text",
+      "description": " % of students at college readiness benchmark, reading ",
+      "nullCount": 0,
+      "cardinality": 262
+    },
+    {
+      "name": "ISAT Exceeding Math %",
+      "fieldName": "isat_exceeding_math_",
+      "dataTypeName": "number",
+      "description": "% of students exceeding on ISAT, math",
+      "nullCount": 90,
+      "cardinality": 287
+    },
+    {
+      "name": "ISAT Exceeding Reading % ",
+      "fieldName": "isat_exceeding_reading_",
+      "dataTypeName": "number",
+      "description": "% of students exceeding on ISAT, reading",
+      "nullCount": 90,
+      "cardinality": 253
+    },
+    {
+      "name": "ISAT Value Add Math",
+      "fieldName": "isat_value_add_math",
+      "dataTypeName": "number",
+      "description": " ISAT value-add value, math",
+      "nullCount": 98,
+      "cardinality": 56
+    },
+    {
+      "name": "ISAT Value Add Read",
+      "fieldName": "isat_value_add_read",
+      "dataTypeName": "number",
+      "description": " ISAT value-add value, reading",
+      "nullCount": 98,
+      "cardinality": 59
+    },
+    {
+      "name": "ISAT Value Add Color Math",
+      "fieldName": "isat_value_add_color_math",
+      "dataTypeName": "text",
+      "description": "ISAT value-add color, math",
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "ISAT Value Add Color Read",
+      "fieldName": "isat_value_add_color_read",
+      "dataTypeName": "text",
+      "description": "ISAT value-add color, reading",
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Students Taking  Algebra %",
+      "fieldName": "students_taking_algebra",
+      "dataTypeName": "text",
+      "description": "% of students taking algebra",
+      "nullCount": 0,
+      "cardinality": 133
+    },
+    {
+      "name": "Students Passing  Algebra %",
+      "fieldName": "students_passing_algebra",
+      "dataTypeName": "text",
+      "description": "% of students passing algebra",
+      "nullCount": 0,
+      "cardinality": 94
+    },
+    {
+      "name": "9th Grade EXPLORE (2009) ",
+      "fieldName": "_th_grade_explore_2009_",
+      "dataTypeName": "text",
+      "description": "Average EXPLORE score, 9th graders tested in fall 2009. Test taken in 8th and 9th grades and provides baseline information \nabout students’ college readiness; helps prepare students for their high school \ncoursework and their post-high school choices.",
+      "nullCount": 0,
+      "cardinality": 45
+    },
+    {
+      "name": "9th Grade EXPLORE (2010) ",
+      "fieldName": "_th_grade_explore_2010_",
+      "dataTypeName": "text",
+      "description": "Average EXPLORE score, 9th graders tested in fall 2010. Test taken in 8th and 9th grades and provides baseline information \nabout students’ college readiness; helps prepare students for their high school \ncoursework and their post-high school choices.",
+      "nullCount": 0,
+      "cardinality": 51
+    },
+    {
+      "name": "10th Grade PLAN (2009) ",
+      "fieldName": "_th_grade_plan_2009_",
+      "dataTypeName": "text",
+      "description": "Average PLAN score, 10th graders tested fall 2009; serves as the midpoint check of academic \nprogress in high school; similar to ACT",
+      "nullCount": 0,
+      "cardinality": 45
+    },
+    {
+      "name": "10th Grade PLAN (2010) ",
+      "fieldName": "_th_grade_plan_2010_",
+      "dataTypeName": "text",
+      "description": "Average PLAN score, 10th graders tested fall 2010; serves as the midpoint check of academic \nprogress in high school; similar to ACT",
+      "nullCount": 0,
+      "cardinality": 49
+    },
+    {
+      "name": "Net Change EXPLORE and PLAN",
+      "fieldName": "net_change_explore_and_plan",
+      "dataTypeName": "text",
+      "description": "Difference between Grade 9 Explore (2009) and Grade 10 Plan (2010)",
+      "nullCount": 0,
+      "cardinality": 16
+    },
+    {
+      "name": "11th Grade Average ACT (2011) ",
+      "fieldName": "_th_grade_average_act_2011_",
+      "dataTypeName": "text",
+      "description": "Average ACT score, 11th graders who tested in fall 2011; measures high school students’ general \neducational development and their ability to complete college level work; \nadministered as part of the Prairie State Achievement Exam (PSAE).",
+      "nullCount": 0,
+      "cardinality": 53
+    },
+    {
+      "name": "Net Change PLAN and ACT",
+      "fieldName": "net_change_plan_and_act",
+      "dataTypeName": "text",
+      "description": "Difference between Grade 10 Plan (2009) and Grade 11 ACT (2011)",
+      "nullCount": 0,
+      "cardinality": 30
+    },
+    {
+      "name": "College Eligibility %",
+      "fieldName": "college_eligibility_",
+      "dataTypeName": "text",
+      "description": "% of graduates eligible for a selective four-year college",
+      "nullCount": 0,
+      "cardinality": 78
+    },
+    {
+      "name": "Graduation Rate %",
+      "fieldName": "graduation_rate_",
+      "dataTypeName": "text",
+      "description": "% of students who have graduated within five years",
+      "nullCount": 0,
+      "cardinality": 75
+    },
+    {
+      "name": "College Enrollment Rate %",
+      "fieldName": "college_enrollment_rate",
+      "dataTypeName": "text",
+      "description": "% of students enrolled in college",
+      "nullCount": 0,
+      "cardinality": 70
+    },
+    {
+      "name": "College Enrollment (number of students) ",
+      "fieldName": "college_enrollment_number_of_students_",
+      "dataTypeName": "number",
+      "description": "Number of students enrolled in college",
+      "nullCount": 0,
+      "cardinality": 434
+    },
+    {
+      "name": "General Services Route ",
+      "fieldName": "general_services_route_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 20
+    },
+    {
+      "name": "Freshman on Track Rate %",
+      "fieldName": "freshman_on_track_rate",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 79
+    },
+    {
+      "name": "RCDTS Code",
+      "fieldName": "rcdts_code",
+      "dataTypeName": "number",
+      "description": "Illinois State Board of Education Region County District Type Schools Codes (ISBE RCDTS codes)",
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "X_COORDINATE",
+      "fieldName": "x_coordinate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 550
+    },
+    {
+      "name": "Y_COORDINATE",
+      "fieldName": "y_coordinate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 550
+    },
+    {
+      "name": "Latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 549
+    },
+    {
+      "name": "Longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 550
+    },
+    {
+      "name": "Community Area Number",
+      "fieldName": "community_area_number",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": "Community Area Name",
+      "fieldName": "community_area_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 77
+    },
+    {
+      "name": "Ward",
+      "fieldName": "ward",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "Police District",
+      "fieldName": "police_district",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 23
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:26:20.736Z"
+}

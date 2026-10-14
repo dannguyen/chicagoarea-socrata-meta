@@ -1,0 +1,657 @@
+{
+  "id": "csik-bsws",
+  "name": "Assessor - Commercial Valuation Data",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 109409,
+  "rowCountSource": "cached",
+  "rowLabel": "Commercial Assessment Unit",
+  "hasRowIdentifier": false,
+  "createdAt": 1687377589,
+  "publicationDate": 1767053372,
+  "rowsUpdatedAt": 1767053313,
+  "viewLastModified": 1769544905,
+  "viewCount": 22911,
+  "downloadCount": 6697,
+  "category": "Property & Taxation",
+  "tags": [
+    "cook county assessor",
+    "property tax"
+  ],
+  "attribution": "Cook County Assessor's Office",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Data Department"
+    },
+    "Source Details": {
+      "Source System": "iasWorld, Various 3rd-Party Data, CCAO Commercial Valuations Department"
+    },
+    "Detailed Descriptive": {
+      "Temporal coverage": "2021-Present",
+      "Geographic coverage": "Countywide",
+      "Geographic unit": "Other"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Annually",
+      "Publishing frequency": "Annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "keypin",
+      "fieldName": "keypin",
+      "dataTypeName": "text",
+      "description": "Parcel identification number (PIN). Primary PIN used for valuing properties associated with multiple PINs.",
+      "nullCount": 0,
+      "cardinality": 109409
+    },
+    {
+      "name": "pins",
+      "fieldName": "pins",
+      "dataTypeName": "text",
+      "description": "All PINs associated with primary PIN that should be valued collectively",
+      "nullCount": 3783,
+      "cardinality": 109409
+    },
+    {
+      "name": "year",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": "Year",
+      "nullCount": 0,
+      "cardinality": 109409
+    },
+    {
+      "name": "township",
+      "fieldName": "township",
+      "dataTypeName": "text",
+      "description": "Township name",
+      "nullCount": 1181,
+      "cardinality": 109409
+    },
+    {
+      "name": "modelgroup",
+      "fieldName": "sheet",
+      "dataTypeName": "text",
+      "description": "Sheet from associated excel workbook that contains row on assessor's website",
+      "nullCount": 0,
+      "cardinality": 109409
+    },
+    {
+      "name": "class(es)",
+      "fieldName": "class_es",
+      "dataTypeName": "text",
+      "description": "Class of key PIN or classes of key PIN and some or all associated PINs",
+      "nullCount": 8589,
+      "cardinality": 109409
+    },
+    {
+      "name": "studiounits",
+      "fieldName": "studiounits",
+      "dataTypeName": "number",
+      "description": "Number of studio apartments",
+      "nullCount": 87493,
+      "cardinality": 109409
+    },
+    {
+      "name": "1brunits",
+      "fieldName": "_1brunits",
+      "dataTypeName": "number",
+      "description": "Number of 1 bedroom apartments",
+      "nullCount": 85168,
+      "cardinality": 109409
+    },
+    {
+      "name": "2brunits",
+      "fieldName": "_2brunits",
+      "dataTypeName": "number",
+      "description": "Number of 2 bedroom apartments",
+      "nullCount": 85646,
+      "cardinality": 109409
+    },
+    {
+      "name": "3brunits",
+      "fieldName": "_3brunits",
+      "dataTypeName": "number",
+      "description": "Number of 3 bedroom apartments",
+      "nullCount": 87367,
+      "cardinality": 109409
+    },
+    {
+      "name": "4brunits",
+      "fieldName": "_4brunits",
+      "dataTypeName": "number",
+      "description": "Number of 4 bedroom apartments",
+      "nullCount": 99119,
+      "cardinality": 109409
+    },
+    {
+      "name": "tot_units",
+      "fieldName": "tot_units",
+      "dataTypeName": "number",
+      "description": "Total number of units (can include hotel rooms, nursing home rooms, residential apartments, commercial units etc.)",
+      "nullCount": 92235,
+      "cardinality": 109409
+    },
+    {
+      "name": "address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": "Address for keypin",
+      "nullCount": 1522,
+      "cardinality": 109409
+    },
+    {
+      "name": "adj_rent/sf",
+      "fieldName": "adj_rent_sf",
+      "dataTypeName": "number",
+      "description": "Adjusted rent per square foot",
+      "nullCount": 31259,
+      "cardinality": 109409
+    },
+    {
+      "name": "aprx_comm_sf",
+      "fieldName": "aprx_comm_sf",
+      "dataTypeName": "number",
+      "description": "Approximate commercial square footage for key PIN and all associated PINs",
+      "nullCount": 85676,
+      "cardinality": 109409
+    },
+    {
+      "name": "apt",
+      "fieldName": "apt",
+      "dataTypeName": "number",
+      "description": "Total number of apartments",
+      "nullCount": 107389,
+      "cardinality": 109409
+    },
+    {
+      "name": "avgdailyrate",
+      "fieldName": "avgdailyrate",
+      "dataTypeName": "number",
+      "description": "Average daily rate (hotel specific)",
+      "nullCount": 108556,
+      "cardinality": 109409
+    },
+    {
+      "name": "bldgsf",
+      "fieldName": "bldgsf",
+      "dataTypeName": "number",
+      "description": "Building square footage for key PIN and all associated PINs",
+      "nullCount": 5268,
+      "cardinality": 109409
+    },
+    {
+      "name": "gross_building_area",
+      "fieldName": "gross_building_area",
+      "dataTypeName": "number",
+      "description": "Gross building area",
+      "nullCount": 109126,
+      "cardinality": 109409
+    },
+    {
+      "name": "caprate",
+      "fieldName": "caprate",
+      "dataTypeName": "number",
+      "description": "Capitalization rate",
+      "nullCount": 4654,
+      "cardinality": 109409
+    },
+    {
+      "name": "carwash",
+      "fieldName": "carwash",
+      "dataTypeName": "text",
+      "description": "Car wash at location (gas station/convenience store specific) - A = \"Yes\", B = \"No\"",
+      "nullCount": 108704,
+      "cardinality": 109409
+    },
+    {
+      "name": "category",
+      "fieldName": "category",
+      "dataTypeName": "number",
+      "description": "Hotel category (hotel specific)",
+      "nullCount": 108762,
+      "cardinality": 109409
+    },
+    {
+      "name": "ceilingheight",
+      "fieldName": "ceilingheight",
+      "dataTypeName": "text",
+      "description": "Ceiling height",
+      "nullCount": 103126,
+      "cardinality": 109409
+    },
+    {
+      "name": "cost/day/bed",
+      "fieldName": "cost_day_bed",
+      "dataTypeName": "number",
+      "description": "Cost per day per bed (nursing home specific)",
+      "nullCount": 109395,
+      "cardinality": 109409
+    },
+    {
+      "name": "costapproach/sf",
+      "fieldName": "costapproach_sf",
+      "dataTypeName": "number",
+      "description": "Cost approach value per square foot",
+      "nullCount": 105624,
+      "cardinality": 109409
+    },
+    {
+      "name": "covidadjvacancy",
+      "fieldName": "covidadjvacancy",
+      "dataTypeName": "number",
+      "description": "Covid adjusted vacancy",
+      "nullCount": 108721,
+      "cardinality": 109409
+    },
+    {
+      "name": "ebitda%",
+      "fieldName": "ebitda",
+      "dataTypeName": "number",
+      "description": "Earnings before interest taxes depreciation and amortization %",
+      "nullCount": 109039,
+      "cardinality": 109409
+    },
+    {
+      "name": "egi",
+      "fieldName": "egi",
+      "dataTypeName": "number",
+      "description": "Effective gross income",
+      "nullCount": 51758,
+      "cardinality": 109409
+    },
+    {
+      "name": "excesslandarea",
+      "fieldName": "excesslandarea",
+      "dataTypeName": "number",
+      "description": "Excess land area (land area above 4:1 land to building)",
+      "nullCount": 65993,
+      "cardinality": 109409
+    },
+    {
+      "name": "excesslandval",
+      "fieldName": "excesslandval",
+      "dataTypeName": "number",
+      "description": "Value of excess land area",
+      "nullCount": 42981,
+      "cardinality": 109409
+    },
+    {
+      "name": "exp",
+      "fieldName": "exp",
+      "dataTypeName": "number",
+      "description": "Expenses",
+      "nullCount": 5239,
+      "cardinality": 109409
+    },
+    {
+      "name": "f/r",
+      "fieldName": "f_r",
+      "dataTypeName": "text",
+      "description": "Fast food operation / rental space (gas station/convenience store specific)",
+      "nullCount": 108704,
+      "cardinality": 109409
+    },
+    {
+      "name": "finalmarketvalue",
+      "fieldName": "finalmarketvalue",
+      "dataTypeName": "number",
+      "description": "Final market value",
+      "nullCount": 14446,
+      "cardinality": 109409
+    },
+    {
+      "name": "finalmarketvalue/bed",
+      "fieldName": "finalmarketvalue_bed",
+      "dataTypeName": "number",
+      "description": "Final market value per bed (nursing home specific)",
+      "nullCount": 109077,
+      "cardinality": 109409
+    },
+    {
+      "name": "finalmarketvalue/key",
+      "fieldName": "finalmarketvalue_key",
+      "dataTypeName": "number",
+      "description": "Final market value per key (529 class specific)",
+      "nullCount": 108556,
+      "cardinality": 109409
+    },
+    {
+      "name": "finalmarketvalue/sf",
+      "fieldName": "finalmarketvalue_sf",
+      "dataTypeName": "number",
+      "description": "Final market value per square foot",
+      "nullCount": 30120,
+      "cardinality": 109409
+    },
+    {
+      "name": "finalmarketvalue/unit",
+      "fieldName": "finalmarketvalue_unit",
+      "dataTypeName": "number",
+      "description": "Final market value per unit (multifamily specific)",
+      "nullCount": 86457,
+      "cardinality": 109409
+    },
+    {
+      "name": "idphlicense#",
+      "fieldName": "idphlicense",
+      "dataTypeName": "number",
+      "description": "Illinois department of health license number",
+      "nullCount": 109098,
+      "cardinality": 109409
+    },
+    {
+      "name": "incomemarketvalue",
+      "fieldName": "incomemarketvalue",
+      "dataTypeName": "number",
+      "description": "Value derived from income approach",
+      "nullCount": 85419,
+      "cardinality": 109409
+    },
+    {
+      "name": "incomemarketvalue/sf",
+      "fieldName": "incomemarketvalue_sf",
+      "dataTypeName": "number",
+      "description": "Value per square foot derived from income approach",
+      "nullCount": 92945,
+      "cardinality": 109409
+    },
+    {
+      "name": "investmentrating",
+      "fieldName": "investmentrating",
+      "dataTypeName": "text",
+      "description": "Invesment rating",
+      "nullCount": 9271,
+      "cardinality": 109409
+    },
+    {
+      "name": "land:bldg",
+      "fieldName": "land_bldg",
+      "dataTypeName": "number",
+      "description": "Land square footage to building square footage ratio for key PIN and all associated PINs",
+      "nullCount": 93785,
+      "cardinality": 109409
+    },
+    {
+      "name": "landsf",
+      "fieldName": "landsf",
+      "dataTypeName": "number",
+      "description": "Land square footage for key PIN and all associated PINs",
+      "nullCount": 6859,
+      "cardinality": 109409
+    },
+    {
+      "name": "model",
+      "fieldName": "model",
+      "dataTypeName": "text",
+      "description": "Commercial valuation modeling group",
+      "nullCount": 108172,
+      "cardinality": 109409
+    },
+    {
+      "name": "nbhd",
+      "fieldName": "nbhd",
+      "dataTypeName": "number",
+      "description": "Assessor neighborhood number",
+      "nullCount": 106203,
+      "cardinality": 109409
+    },
+    {
+      "name": "netrentablesf",
+      "fieldName": "netrentablesf",
+      "dataTypeName": "number",
+      "description": "Net rentable square footage",
+      "nullCount": 92910,
+      "cardinality": 109409
+    },
+    {
+      "name": "noi",
+      "fieldName": "noi",
+      "dataTypeName": "number",
+      "description": "Net operating income",
+      "nullCount": 4405,
+      "cardinality": 109409
+    },
+    {
+      "name": "oiltankvalue/atypicaloby",
+      "fieldName": "oiltankvalue_atypicaloby",
+      "dataTypeName": "number",
+      "description": "Oil tank value / atypical outbuilding",
+      "nullCount": 109370,
+      "cardinality": 109409
+    },
+    {
+      "name": "owner",
+      "fieldName": "owner",
+      "dataTypeName": "number",
+      "description": "Owner name",
+      "nullCount": 108704,
+      "cardinality": 109409
+    },
+    {
+      "name": "parking",
+      "fieldName": "parking",
+      "dataTypeName": "number",
+      "description": "Number of parking spaces",
+      "nullCount": 109407,
+      "cardinality": 109409
+    },
+    {
+      "name": "parkingsf",
+      "fieldName": "parkingsf",
+      "dataTypeName": "number",
+      "description": "Parking square footage",
+      "nullCount": 109401,
+      "cardinality": 109409
+    },
+    {
+      "name": "pctownerinterest",
+      "fieldName": "pctownerinterest",
+      "dataTypeName": "number",
+      "description": "Percent owner interest (condominium specific)",
+      "nullCount": 106040,
+      "cardinality": 109409
+    },
+    {
+      "name": "permit/partial/demovalue",
+      "fieldName": "permit_partial_demovalue",
+      "dataTypeName": "text",
+      "description": "Partial value due to uncompleted new construction or demolition",
+      "nullCount": 108396,
+      "cardinality": 109409
+    },
+    {
+      "name": "permit/partial/demovalue_reason",
+      "fieldName": "permit_partial_demovalue_reason",
+      "dataTypeName": "text",
+      "description": "Reason for partial value due to uncompleted new construction or demolition",
+      "nullCount": 108445,
+      "cardinality": 109409
+    },
+    {
+      "name": "pgi",
+      "fieldName": "pgi",
+      "dataTypeName": "number",
+      "description": "Potential gross income",
+      "nullCount": 25805,
+      "cardinality": 109409
+    },
+    {
+      "name": "property_name/description",
+      "fieldName": "property_name_description",
+      "dataTypeName": "text",
+      "description": "Property name/description",
+      "nullCount": 101619,
+      "cardinality": 109409
+    },
+    {
+      "name": "property_type/use",
+      "fieldName": "property_type_use",
+      "dataTypeName": "text",
+      "description": "Property type/use (2023 and before)",
+      "nullCount": 33210,
+      "cardinality": 109409
+    },
+    {
+      "name": "reportedoccupancy",
+      "fieldName": "reportedoccupancy",
+      "dataTypeName": "number",
+      "description": "Reported occupancy",
+      "nullCount": 108559,
+      "cardinality": 109409
+    },
+    {
+      "name": "revenuebed/day",
+      "fieldName": "revenuebed_day",
+      "dataTypeName": "number",
+      "description": "Revenue per bed per day (nursing home specific)",
+      "nullCount": 109091,
+      "cardinality": 109409
+    },
+    {
+      "name": "revpar",
+      "fieldName": "revpar",
+      "dataTypeName": "number",
+      "description": "Revenue per available room (hotel specific)",
+      "nullCount": 108556,
+      "cardinality": 109409
+    },
+    {
+      "name": "roomrev%",
+      "fieldName": "roomrev",
+      "dataTypeName": "number",
+      "description": "Percentage of revenue from room rentals (hotel specific)",
+      "nullCount": 109383,
+      "cardinality": 109409
+    },
+    {
+      "name": "salecompmarketvalue/sf",
+      "fieldName": "salecompmarketvalue_sf",
+      "dataTypeName": "number",
+      "description": "Value per square foot derived from comparables approach",
+      "nullCount": 75458,
+      "cardinality": 109409
+    },
+    {
+      "name": "sap",
+      "fieldName": "sap",
+      "dataTypeName": "number",
+      "description": "In affordable housing special assessment program",
+      "nullCount": 109393,
+      "cardinality": 109409
+    },
+    {
+      "name": "sapdeduction",
+      "fieldName": "sapdeduction",
+      "dataTypeName": "number",
+      "description": "Reduction from affordable housing special assessment program",
+      "nullCount": 109378,
+      "cardinality": 109409
+    },
+    {
+      "name": "saptier",
+      "fieldName": "saptier",
+      "dataTypeName": "number",
+      "description": "Tier of affordable housing special assessment program",
+      "nullCount": 109386,
+      "cardinality": 109409
+    },
+    {
+      "name": "stories",
+      "fieldName": "stories",
+      "dataTypeName": "number",
+      "description": "Number of stories",
+      "nullCount": 102344,
+      "cardinality": 109409
+    },
+    {
+      "name": "subclass2",
+      "fieldName": "subclass2",
+      "dataTypeName": "text",
+      "description": "Property type/use (2024 and later)",
+      "nullCount": 93579,
+      "cardinality": 109409
+    },
+    {
+      "name": "taxdist",
+      "fieldName": "taxdist",
+      "dataTypeName": "text",
+      "description": "Taxing district",
+      "nullCount": 50631,
+      "cardinality": 109409
+    },
+    {
+      "name": "taxpayer",
+      "fieldName": "taxpayer",
+      "dataTypeName": "text",
+      "description": "Owner",
+      "nullCount": 90300,
+      "cardinality": 109409
+    },
+    {
+      "name": "totalrevreported",
+      "fieldName": "totalrevreported",
+      "dataTypeName": "number",
+      "description": "Total revenue reported",
+      "nullCount": 109279,
+      "cardinality": 109409
+    },
+    {
+      "name": "totalexp",
+      "fieldName": "totalexp",
+      "dataTypeName": "number",
+      "description": "Total expenses as a value",
+      "nullCount": 77936,
+      "cardinality": 109409
+    },
+    {
+      "name": "totallandval",
+      "fieldName": "totallandval",
+      "dataTypeName": "number",
+      "description": "Total land value",
+      "nullCount": 106040,
+      "cardinality": 109409
+    },
+    {
+      "name": "totalrev",
+      "fieldName": "totalrev",
+      "dataTypeName": "number",
+      "description": "Total revenue",
+      "nullCount": 108900,
+      "cardinality": 109409
+    },
+    {
+      "name": "townregion",
+      "fieldName": "townregion",
+      "dataTypeName": "text",
+      "description": "Township region",
+      "nullCount": 105796,
+      "cardinality": 109409
+    },
+    {
+      "name": "vacancy",
+      "fieldName": "vacancy",
+      "dataTypeName": "number",
+      "description": "Vacancy",
+      "nullCount": 5841,
+      "cardinality": 109409
+    },
+    {
+      "name": "yearbuilt",
+      "fieldName": "yearbuilt",
+      "dataTypeName": "number",
+      "description": "Year built",
+      "nullCount": 9616,
+      "cardinality": 109409
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:48.799Z"
+}

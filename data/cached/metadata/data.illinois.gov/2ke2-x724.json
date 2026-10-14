@@ -1,0 +1,146 @@
+{
+  "id": "2ke2-x724",
+  "name": "State Employee Pay hired after 1.1.2011",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 371765,
+  "rowCountSource": "cached",
+  "rowLabel": "Employee",
+  "hasRowIdentifier": false,
+  "createdAt": 1727195300,
+  "publicationDate": 1727195794,
+  "rowsUpdatedAt": 1791977412,
+  "viewLastModified": 1736439229,
+  "viewCount": 14664,
+  "downloadCount": 573,
+  "category": "Government and Public Employees",
+  "tags": [
+    "hr",
+    "itap",
+    "payroll",
+    "labor"
+  ],
+  "attribution": "DoIT EAS",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Innovation and Technology"
+    },
+    "Data Management": {
+      "Maintainer Email": "CMS.ITAP.Support@illinois.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 371765
+    },
+    {
+      "name": "Agency",
+      "fieldName": "agency",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 371765
+    },
+    {
+      "name": "Agency Division",
+      "fieldName": "agency_division",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 384,
+      "cardinality": 371765
+    },
+    {
+      "name": "Employee Name",
+      "fieldName": "employee_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 371765
+    },
+    {
+      "name": "Position Title",
+      "fieldName": "position_title",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 171,
+      "cardinality": 371765
+    },
+    {
+      "name": "Period Pay Rate",
+      "fieldName": "period_pay_rate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 371765
+    },
+    {
+      "name": "YTD Gross",
+      "fieldName": "ytd_gross",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 371765
+    },
+    {
+      "name": "Work County",
+      "fieldName": "work_county",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 371765
+    },
+    {
+      "name": "Rutan Exempt",
+      "fieldName": "rutan_exempt",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 371765
+    },
+    {
+      "name": "Collective or Merit",
+      "fieldName": "collective_or_merit",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 371765
+    },
+    {
+      "name": "4(d) Exempt",
+      "fieldName": "_4_d_exempt",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 371765
+    },
+    {
+      "name": "Employment Status",
+      "fieldName": "employment_status",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 10,
+      "cardinality": 371765
+    },
+    {
+      "name": "Military Veteran",
+      "fieldName": "military_veteran",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 371765
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:29.245Z"
+}

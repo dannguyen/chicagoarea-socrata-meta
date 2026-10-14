@@ -1,0 +1,296 @@
+{
+  "id": "mn47-ukcw",
+  "name": "Facilities Management - Work Orders - 2011 August",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 15,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1315516089,
+  "publicationDate": 1412890867,
+  "rowsUpdatedAt": 1412890773,
+  "viewLastModified": 1769547288,
+  "viewCount": 2702,
+  "downloadCount": 2095,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Department of Facilities Management",
+  "attributionLink": "http://www.cookcountygov.com/portal/server.pt/community/facilities_management/294/facilities_management",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Facility",
+      "fieldName": "facility",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "Asbeston Open",
+      "fieldName": "asbeston_open",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "Asbestos Close",
+      "fieldName": "asbestos_close",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 14
+    },
+    {
+      "name": "Bricklayer Open",
+      "fieldName": "bricklayer_open",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "Bricklayer Close",
+      "fieldName": "bricklayer_close",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 11
+    },
+    {
+      "name": "Carpenter Open",
+      "fieldName": "carpenter_open",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 14
+    },
+    {
+      "name": "Carpenter Close",
+      "fieldName": "carpenter_close",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 14
+    },
+    {
+      "name": "Elec.Tech Open",
+      "fieldName": "elec_tech_open",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "Elec.Tech Close",
+      "fieldName": "elec_tech_close",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 14
+    },
+    {
+      "name": "Electrician Open",
+      "fieldName": "electrician_open",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 13
+    },
+    {
+      "name": "Electrician Close",
+      "fieldName": "electrician_close",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 14
+    },
+    {
+      "name": "Engineer Open",
+      "fieldName": "engineer_open",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 11
+    },
+    {
+      "name": "Engineer Close",
+      "fieldName": "engineer_close",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 14
+    },
+    {
+      "name": "Glazier Open",
+      "fieldName": "glazier_open",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 10
+    },
+    {
+      "name": "Glazier Close",
+      "fieldName": "glazier_close",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 11
+    },
+    {
+      "name": "Ironworker Open",
+      "fieldName": "ironworker_open",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "Ironworker Close",
+      "fieldName": "ironworker_close",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 14
+    },
+    {
+      "name": "Laborer Open",
+      "fieldName": "laborer_open",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "Laborer Close",
+      "fieldName": "laborer_close",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 14
+    },
+    {
+      "name": "Machinist Open",
+      "fieldName": "machinist_open",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "Machinist Close",
+      "fieldName": "machinist_close",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 14
+    },
+    {
+      "name": "Painter Open",
+      "fieldName": "painter_open",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "Painter Close",
+      "fieldName": "painter_close",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 14
+    },
+    {
+      "name": "Plasterer Open",
+      "fieldName": "plasterer_open",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Plasterer Close",
+      "fieldName": "plasterer_close",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 8
+    },
+    {
+      "name": "Plumber Open",
+      "fieldName": "plumber_open",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 15
+    },
+    {
+      "name": "Plumber Close",
+      "fieldName": "plumber_close",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 14
+    },
+    {
+      "name": "Sign Open",
+      "fieldName": "sign_open",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Sign Close",
+      "fieldName": "sign_close",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 13
+    },
+    {
+      "name": "Steamfitter Open",
+      "fieldName": "steamfitter_open",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "Steamfitter Close",
+      "fieldName": "steamfitter_close",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 12
+    },
+    {
+      "name": "Tinsmith Open",
+      "fieldName": "tinsmith_open",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "Tinsmith Close",
+      "fieldName": "tinsmith_close",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 11
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:55.269Z"
+}

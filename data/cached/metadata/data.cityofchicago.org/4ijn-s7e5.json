@@ -1,0 +1,215 @@
+{
+  "id": "4ijn-s7e5",
+  "name": "Food Inspections",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 316998,
+  "rowCountSource": "cached",
+  "rowLabel": "Food Inspection",
+  "hasRowIdentifier": true,
+  "createdAt": 1312839871,
+  "publicationDate": 1733402523,
+  "rowsUpdatedAt": 1791969471,
+  "viewLastModified": 1733402523,
+  "viewCount": 755629,
+  "downloadCount": 226194,
+  "category": "Health & Human Services",
+  "tags": [
+    "food",
+    "inspections"
+  ],
+  "attribution": "City of Chicago",
+  "attributionLink": "http://www.cityofchicago.org",
+  "licenseId": "SEE_TERMS_OF_USE",
+  "license": "See Terms of Use",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Time Period": "January 2010 to present",
+      "Frequency": "Updated daily",
+      "Data Owner": "Public Health"
+    }
+  },
+  "columns": [
+    {
+      "name": "Inspection ID",
+      "fieldName": "inspection_id",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 316998
+    },
+    {
+      "name": "DBA Name",
+      "fieldName": "dba_name",
+      "dataTypeName": "text",
+      "description": "Doing Business As",
+      "nullCount": 0,
+      "cardinality": 316998
+    },
+    {
+      "name": "AKA Name",
+      "fieldName": "aka_name",
+      "dataTypeName": "text",
+      "description": "Also Known As",
+      "nullCount": 2426,
+      "cardinality": 316998
+    },
+    {
+      "name": "License #",
+      "fieldName": "license_",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 19,
+      "cardinality": 316998
+    },
+    {
+      "name": "Facility Type",
+      "fieldName": "facility_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 5354,
+      "cardinality": 316998
+    },
+    {
+      "name": "Risk",
+      "fieldName": "risk",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 87,
+      "cardinality": 316998
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 316998
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 182,
+      "cardinality": 316998
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 76,
+      "cardinality": 316998
+    },
+    {
+      "name": "Zip",
+      "fieldName": "zip",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 42,
+      "cardinality": 316998
+    },
+    {
+      "name": "Inspection Date",
+      "fieldName": "inspection_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 316998
+    },
+    {
+      "name": "Inspection Type",
+      "fieldName": "inspection_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 1,
+      "cardinality": 316998
+    },
+    {
+      "name": "Results",
+      "fieldName": "results",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 316998
+    },
+    {
+      "name": "Violations",
+      "fieldName": "violations",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 89420,
+      "cardinality": 316998
+    },
+    {
+      "name": "Latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1061,
+      "cardinality": 316998
+    },
+    {
+      "name": "Longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 1061,
+      "cardinality": 316998
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "location",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Historical Wards 2003-2015",
+      "fieldName": ":@computed_region_awaf_s7ux",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T18:26:19.356Z"
+}

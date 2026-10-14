@@ -1,0 +1,786 @@
+{
+  "id": "r5wk-nc2x",
+  "name": "Public Health - Suburban Cook County - Selected Causes of Death",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 47700,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1583789827,
+  "publicationDate": 1601391984,
+  "rowsUpdatedAt": 1601391916,
+  "viewLastModified": 1769546954,
+  "viewCount": 5059,
+  "downloadCount": 2426,
+  "category": "Health & Human Services",
+  "tags": [
+    "suburban cook county",
+    "vital statistics",
+    "causes of death",
+    "mortality",
+    "death",
+    "death rate",
+    "age-adjusted mortality rate",
+    "age-adjusted death rate",
+    "crude mortality rate",
+    "crude death rate",
+    "suburban cook county selected causes of death",
+    "fy2020"
+  ],
+  "attribution": "Cook County Department of Public Health, Epidemiology Unit",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Department of Public Health, Epidemiology Unit"
+    },
+    "Metadata": {
+      "Update Frequency": "Yearly"
+    }
+  },
+  "columns": [
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "text",
+      "description": "Year(s) of Death",
+      "nullCount": 0,
+      "cardinality": 18
+    },
+    {
+      "name": "Place",
+      "fieldName": "place",
+      "dataTypeName": "text",
+      "description": "Decedent's Place of Residence",
+      "nullCount": 0,
+      "cardinality": 130
+    },
+    {
+      "name": "Gender",
+      "fieldName": "newsex",
+      "dataTypeName": "text",
+      "description": "Decedent's Gender",
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Race/Ethnicity",
+      "fieldName": "newrace",
+      "dataTypeName": "text",
+      "description": "Decedent's Race/Ethnicity",
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Age Group",
+      "fieldName": "agegroup",
+      "dataTypeName": "text",
+      "description": "Deceden't age group at time of death",
+      "nullCount": 0,
+      "cardinality": 12
+    },
+    {
+      "name": "Total Deaths",
+      "fieldName": "death_n",
+      "dataTypeName": "number",
+      "description": "All Causes number of deaths, ICD 10 code(s): ALL",
+      "nullCount": 10116,
+      "cardinality": 1992
+    },
+    {
+      "name": "All Cause CDR",
+      "fieldName": "death_cr",
+      "dataTypeName": "number",
+      "description": "All Causes crude death rate per 100,000 population, ICD 10 code(s): ALL",
+      "nullCount": 19894,
+      "cardinality": 14171
+    },
+    {
+      "name": "All Cause AADR",
+      "fieldName": "death_aar",
+      "dataTypeName": "number",
+      "description": "All Causes age-adjusted death rate per 100,000 population, ICD 10 code(s): ALL",
+      "nullCount": 44405,
+      "cardinality": 2710
+    },
+    {
+      "name": "Cancer Deaths",
+      "fieldName": "cancer_n",
+      "dataTypeName": "number",
+      "description": "All Cancers number of deaths, ICD 10 code(s): C00-C97",
+      "nullCount": 10296,
+      "cardinality": 975
+    },
+    {
+      "name": "Cancer CDR",
+      "fieldName": "cancer_cr",
+      "dataTypeName": "number",
+      "description": "All Cancers crude death rate per 100,000 population, ICD 10 code(s): C00-C97",
+      "nullCount": 20111,
+      "cardinality": 5650
+    },
+    {
+      "name": "Cancer AADR",
+      "fieldName": "cancer_aar",
+      "dataTypeName": "number",
+      "description": "All Cancers age-adjusted death rate per 100,000 population, ICD 10 code(s): C00-C97",
+      "nullCount": 45170,
+      "cardinality": 1465
+    },
+    {
+      "name": "Colorectal Cancer Deaths",
+      "fieldName": "coloca_n",
+      "dataTypeName": "number",
+      "description": "Colorectal Cancer number of deaths, ICD 10 code(s): C18-C21",
+      "nullCount": 11277,
+      "cardinality": 248
+    },
+    {
+      "name": "Colorectal Cancer Deaths CDR",
+      "fieldName": "coloca_cr",
+      "dataTypeName": "number",
+      "description": "Colorectal Cancer crude death rate per 100,000 population, ICD 10 code(s): C18-C21",
+      "nullCount": 14916,
+      "cardinality": 943
+    },
+    {
+      "name": "Colorectal Cancer Deaths AADR",
+      "fieldName": "coloca_aar",
+      "dataTypeName": "number",
+      "description": "Colorectal Cancer age-adjusted death rate per 100,000 population, ICD 10 code(s): C18-C21",
+      "nullCount": 46483,
+      "cardinality": 247
+    },
+    {
+      "name": "Lung Cancer Deaths",
+      "fieldName": "lungca_n",
+      "dataTypeName": "number",
+      "description": "Bronchus and Lung Cancer number of deaths, ICD 10 code(s): C34",
+      "nullCount": 10985,
+      "cardinality": 436
+    },
+    {
+      "name": "Lung Cancer CDR",
+      "fieldName": "lungca_cr",
+      "dataTypeName": "number",
+      "description": "Bronchus and Lung Cancer crude death rate per 100,000 population, ICD 10 code(s): C34",
+      "nullCount": 17085,
+      "cardinality": 2146
+    },
+    {
+      "name": "Lung Cancer AADR",
+      "fieldName": "lungca_aar",
+      "dataTypeName": "number",
+      "description": "Bronchus and Lung Cancer age-adjusted death rate per 100,000 population, ICD 10 code(s): C34",
+      "nullCount": 46440,
+      "cardinality": 510
+    },
+    {
+      "name": "Breast Cancer Deaths",
+      "fieldName": "breastca_n",
+      "dataTypeName": "number",
+      "description": "Breast Cancer (female) number of deaths, ICD 10 code(s): C50, Females Only",
+      "nullCount": 42139,
+      "cardinality": 166
+    },
+    {
+      "name": "Breast Cancer CDR",
+      "fieldName": "breastca_cr",
+      "dataTypeName": "number",
+      "description": "Breast Cancer (female) crude death rate per 100,000 population, ICD 10 code(s): C50, Females Only",
+      "nullCount": 43532,
+      "cardinality": 467
+    },
+    {
+      "name": "Breast Cancer AADR",
+      "fieldName": "breastca_aar",
+      "dataTypeName": "number",
+      "description": "Breast Cancer (female) age-adjusted death rate per 100,000 population, ICD 10 code(s): C50, Females Only",
+      "nullCount": 47441,
+      "cardinality": 130
+    },
+    {
+      "name": "Prostate Cancer Deaths",
+      "fieldName": "prostateca_n",
+      "dataTypeName": "number",
+      "description": "Prostate Cancer number of deaths, ICD 10 code(s): C61",
+      "nullCount": 42027,
+      "cardinality": 129
+    },
+    {
+      "name": "Prostate Cancer CDR",
+      "fieldName": "prostateca_cr",
+      "dataTypeName": "number",
+      "description": "Prostate Cancer crude death rate per 100,000 population, ICD 10 code(s): C61",
+      "nullCount": 42906,
+      "cardinality": 354
+    },
+    {
+      "name": "Prostate Cancer AADR",
+      "fieldName": "prostateca_aar",
+      "dataTypeName": "number",
+      "description": "Prostate Cancer age-adjusted death rate per 100,000 population, ICD 10 code(s): C61",
+      "nullCount": 47422,
+      "cardinality": 143
+    },
+    {
+      "name": "Cervical Cancer Deaths",
+      "fieldName": "cervicalca_n",
+      "dataTypeName": "number",
+      "description": "Cervical Cancer number of deaths, ICD 10 code(s): C53",
+      "nullCount": 41678,
+      "cardinality": 32
+    },
+    {
+      "name": "Cervical Cancer CDR",
+      "fieldName": "cervicalca_cr",
+      "dataTypeName": "number",
+      "description": "Cervical Cancer crude death rate per 100,000 population, ICD 10 code(s): C53",
+      "nullCount": 41937,
+      "cardinality": 16
+    },
+    {
+      "name": "Cervical Cancer AADR",
+      "fieldName": "cervicalca_aar",
+      "dataTypeName": "number",
+      "description": "Cervical Cancer age-adjusted death rate per 100,000 population, ICD 10 code(s): C53",
+      "nullCount": 47542,
+      "cardinality": 15
+    },
+    {
+      "name": "CVD Deaths",
+      "fieldName": "cardiovas_n",
+      "dataTypeName": "number",
+      "description": "All Cardiovascular Diseases number of deaths, ICD 10 code(s): I00-I78",
+      "nullCount": 9437,
+      "cardinality": 1217
+    },
+    {
+      "name": "CVD CDR",
+      "fieldName": "cardiovas_cr",
+      "dataTypeName": "number",
+      "description": "All Cardiovascular Diseases crude death rate per 100,000 population, ICD 10 code(s): I00-I78",
+      "nullCount": 18304,
+      "cardinality": 7354
+    },
+    {
+      "name": "CVD AADR",
+      "fieldName": "cardiovas_aar",
+      "dataTypeName": "number",
+      "description": "All Cardiovascular Diseases age-adjusted death rate per 100,000 population, ICD 10 code(s): I00-I78",
+      "nullCount": 44955,
+      "cardinality": 1863
+    },
+    {
+      "name": "Cerebrovascular (Stroke) Deaths",
+      "fieldName": "cerebrovas_n",
+      "dataTypeName": "number",
+      "description": "Cerebrovascular Disease (Stroke) number of deaths, ICD 10 code(s): I60-I69",
+      "nullCount": 11218,
+      "cardinality": 466
+    },
+    {
+      "name": "Cerebrovascular (Stroke) CDR",
+      "fieldName": "cerebrovas_cr",
+      "dataTypeName": "number",
+      "description": "Cerebrovascular Disease (Stroke) crude death rate per 100,000 population, ICD 10 code(s): I60-I69",
+      "nullCount": 17103,
+      "cardinality": 2018
+    },
+    {
+      "name": "Cerebrovascular (Stroke) AADR",
+      "fieldName": "cerebrovas_aar",
+      "dataTypeName": "number",
+      "description": "Cerebrovascular Disease (Stroke) age-adjusted death rate per 100,000 population, ICD 10 code(s): I60-I69",
+      "nullCount": 46410,
+      "cardinality": 432
+    },
+    {
+      "name": "Heart Disease Deaths",
+      "fieldName": "heartdis_n",
+      "dataTypeName": "number",
+      "description": "Heart Disease number of deaths, ICD 10 code(s): I00-I09, I11, I13, I20-I51",
+      "nullCount": 9859,
+      "cardinality": 1055
+    },
+    {
+      "name": "Heart Disease CDR",
+      "fieldName": "heartdis_cr",
+      "dataTypeName": "number",
+      "description": "Heart Disease crude death rate per 100,000 population, ICD 10 code(s): I00-I09, I11, I13, I20-I51",
+      "nullCount": 18801,
+      "cardinality": 6134
+    },
+    {
+      "name": "Heart Disease AADR",
+      "fieldName": "heartdis_aar",
+      "dataTypeName": "number",
+      "description": "Heart Disease age-adjusted death rate per 100,000 population, ICD 10 code(s): I00-I09, I11, I13, I20-I51",
+      "nullCount": 45166,
+      "cardinality": 1683
+    },
+    {
+      "name": "Hypertension Deaths",
+      "fieldName": "hypertension_n",
+      "dataTypeName": "number",
+      "description": "Hypertension number of deaths, ICD 10 code(s): I10, I12, I15",
+      "nullCount": 7759,
+      "cardinality": 132
+    },
+    {
+      "name": "Hypertension CDR",
+      "fieldName": "hypertension_cr",
+      "dataTypeName": "number",
+      "description": "Hypertension crude death rate per 100,000 population, ICD 10 code(s): I10, I12, I15",
+      "nullCount": 9363,
+      "cardinality": 329
+    },
+    {
+      "name": "Hypertension AADR",
+      "fieldName": "hypertension_aar",
+      "dataTypeName": "number",
+      "description": "Hypertension age-adjusted death rate per 100,000 population, ICD 10 code(s): I10, I12, I15",
+      "nullCount": 46062,
+      "cardinality": 106
+    },
+    {
+      "name": "Diabetes Deaths",
+      "fieldName": "diabetes_n",
+      "dataTypeName": "number",
+      "description": "Diabetes (any cause) number of deaths, ICD 10 code(s): E10-E14 (any cause of death)",
+      "nullCount": 11271,
+      "cardinality": 500
+    },
+    {
+      "name": "Diabetes CDR",
+      "fieldName": "diabetes_cr",
+      "dataTypeName": "number",
+      "description": "Diabetes (any cause) crude death rate per 100,000 population, ICD 10 code(s): E10-E14 (any cause of death)",
+      "nullCount": 18235,
+      "cardinality": 2620
+    },
+    {
+      "name": "Diabetes AADR",
+      "fieldName": "diabetes_aar",
+      "dataTypeName": "number",
+      "description": "Diabetes (any cause) age-adjusted death rate per 100,000 population, ICD 10 code(s): E10-E14 (any cause of death)",
+      "nullCount": 46231,
+      "cardinality": 665
+    },
+    {
+      "name": "CLRD Deaths",
+      "fieldName": "chrlowresp_n",
+      "dataTypeName": "number",
+      "description": "Chronic Lower Respiratory Disease number of deaths, ICD 10 code(s): J40-J47",
+      "nullCount": 10976,
+      "cardinality": 376
+    },
+    {
+      "name": "CLRD CDR",
+      "fieldName": "chrlowresp_cr",
+      "dataTypeName": "number",
+      "description": "Chronic Lower Respiratory Disease crude death rate per 100,000 population, ICD 10 code(s): J40-J47",
+      "nullCount": 15538,
+      "cardinality": 1725
+    },
+    {
+      "name": "CLRD AADR",
+      "fieldName": "chrlowresp_aar",
+      "dataTypeName": "number",
+      "description": "Chronic Lower Respiratory Disease age-adjusted death rate per 100,000 population, ICD 10 code(s): J40-J47",
+      "nullCount": 46490,
+      "cardinality": 299
+    },
+    {
+      "name": "Alzheimer's Deaths",
+      "fieldName": "alzheimers_n",
+      "dataTypeName": "number",
+      "description": "Alzheimer's Disease number of deaths, ICD 10 code(s): G303",
+      "nullCount": 7921,
+      "cardinality": 324
+    },
+    {
+      "name": "Alzheimer's CDR",
+      "fieldName": "alzheimers_cr",
+      "dataTypeName": "number",
+      "description": "Alzheimer's Disease crude death rate per 100,000 population, ICD 10 code(s): G303",
+      "nullCount": 10908,
+      "cardinality": 1157
+    },
+    {
+      "name": "Alzheimer's AADR",
+      "fieldName": "alzheimers_aar",
+      "dataTypeName": "number",
+      "description": "Alzheimer's Disease age-adjusted death rate per 100,000 population, ICD 10 code(s): G303",
+      "nullCount": 46315,
+      "cardinality": 208
+    },
+    {
+      "name": "Asthma Deaths",
+      "fieldName": "asthma_n",
+      "dataTypeName": "number",
+      "description": "Asthma number of deaths, ICD 10 code(s): J45-46",
+      "nullCount": 4339,
+      "cardinality": 35
+    },
+    {
+      "name": "Asthma CDR",
+      "fieldName": "asthma_cr",
+      "dataTypeName": "number",
+      "description": "Asthma crude death rate per 100,000 population, ICD 10 code(s): J45-46",
+      "nullCount": 4737,
+      "cardinality": 12
+    },
+    {
+      "name": "Asthma AADR",
+      "fieldName": "asthma_aar",
+      "dataTypeName": "number",
+      "description": "Asthma age-adjusted death rate per 100,000 population, ICD 10 code(s): J45-46",
+      "nullCount": 45326,
+      "cardinality": 14
+    },
+    {
+      "name": "Chronic Liver Disease Deaths",
+      "fieldName": "chrliver_n",
+      "dataTypeName": "number",
+      "description": "Chronic Liver Disease and Cirrhosis number of deaths, ICD 10 code(s): K70, K73-K74",
+      "nullCount": 9628,
+      "cardinality": 144
+    },
+    {
+      "name": "Chronic Liver Disease CDR",
+      "fieldName": "chrliver_cr",
+      "dataTypeName": "number",
+      "description": "Chronic Liver Disease and Cirrhosis crude death rate per 100,000 population, ICD 10 code(s): K70, K73-K74",
+      "nullCount": 11920,
+      "cardinality": 314
+    },
+    {
+      "name": "Chronic Liver Disease AADR",
+      "fieldName": "chrliver_aar",
+      "dataTypeName": "number",
+      "description": "Chronic Liver Disease and Cirrhosis age-adjusted death rate per 100,000 population, ICD 10 code(s): K70, K73-K74",
+      "nullCount": 46278,
+      "cardinality": 144
+    },
+    {
+      "name": "Nephritis Deaths",
+      "fieldName": "nephritis_n",
+      "dataTypeName": "number",
+      "description": "Nephritis, Nephrosis, and Nephrotic Syndrome number of deaths, ICD 10 code(s): N00-N07, N17-N19, N25-N27",
+      "nullCount": 11118,
+      "cardinality": 249
+    },
+    {
+      "name": "Nephritis Deaths CDR",
+      "fieldName": "nephritis_cr",
+      "dataTypeName": "number",
+      "description": "Nephritis, Nephrosis, and Nephrotic Syndrome crude death rate per 100,000 population, ICD 10 code(s): N00-N07, N17-N19, N25-N27",
+      "nullCount": 14604,
+      "cardinality": 1001
+    },
+    {
+      "name": "Nephritis Deaths AADR",
+      "fieldName": "nephritis_aar",
+      "dataTypeName": "number",
+      "description": "Nephritis, Nephrosis, and Nephrotic Syndrome age-adjusted death rate per 100,000 population, ICD 10 code(s): N00-N07, N17-N19, N25-N27",
+      "nullCount": 46483,
+      "cardinality": 270
+    },
+    {
+      "name": "Parkinson's Deaths",
+      "fieldName": "parkinsons_n",
+      "dataTypeName": "number",
+      "description": "Parkinson's Disease number of deaths, ICD 10 code(s): G20-21",
+      "nullCount": 6719,
+      "cardinality": 159
+    },
+    {
+      "name": "Parkinson's CDR",
+      "fieldName": "parkinsons_cr",
+      "dataTypeName": "number",
+      "description": "Parkinson's Disease crude death rate per 100,000 population, ICD 10 code(s): G20-21",
+      "nullCount": 8320,
+      "cardinality": 516
+    },
+    {
+      "name": "Parkinson's AADR",
+      "fieldName": "parkinsons_aar",
+      "dataTypeName": "number",
+      "description": "Parkinson's Disease age-adjusted death rate per 100,000 population, ICD 10 code(s): G20-21",
+      "nullCount": 46042,
+      "cardinality": 112
+    },
+    {
+      "name": "Drug Overdose Deaths",
+      "fieldName": "drugs_n",
+      "dataTypeName": "number",
+      "description": "Drug Overdose number of deaths, ICD 10 code(s): D52.1, D59.0, D59.2, D61.1, D64.2, E06.4, E16.0, E23.1, E24.2, E27.3,E66.1, F11.0-F11.5,F11.7-F11.9, F12.0-F12.5, F12.7-F12.9, F13.0-F13.5,F13.7-F13.9, F14.0-F14.5,F14.7-F14.9, F15.0-F15",
+      "nullCount": 9260,
+      "cardinality": 150
+    },
+    {
+      "name": "Drug Overdose CDR",
+      "fieldName": "drugs_cr",
+      "dataTypeName": "number",
+      "description": "Drug Overdose crude death rate per 100,000 population, ICD 10 code(s): D52.1, D59.0, D59.2, D61.1, D64.2, E06.4, E16.0, E23.1, E24.2, E27.3,E66.1, F11.0-F11.5,F11.7-F11.9, F12.0-F12.5, F12.7-F12.9, F13.0-F13.5,F13.7-F13.9, F14.0-F14.5,F14.7-F14.9, F15.0-F15",
+      "nullCount": 11553,
+      "cardinality": 352
+    },
+    {
+      "name": "Drug Overdose AADR",
+      "fieldName": "drugs_aar",
+      "dataTypeName": "number",
+      "description": "Drug Overdose age-adjusted death rate per 100,000 population, ICD 10 code(s): D52.1, D59.0, D59.2, D61.1, D64.2, E06.4, E16.0, E23.1, E24.2, E27.3,E66.1, F11.0-F11.5,F11.7-F11.9, F12.0-F12.5, F12.7-F12.9, F13.0-F13.5,F13.7-F13.9, F14.0-F14.5,F14.7-F14.9, F15.0-F15",
+      "nullCount": 46201,
+      "cardinality": 217
+    },
+    {
+      "name": "Opioid Overdose Deaths",
+      "fieldName": "opioid_n",
+      "dataTypeName": "number",
+      "description": "Opioid-related Drug Overdose number of deaths, ICD 10 code(s): T40.0-T40.4, T40.6",
+      "nullCount": 4800,
+      "cardinality": 114
+    },
+    {
+      "name": "Opioid Overdose CDR",
+      "fieldName": "opioid_cr",
+      "dataTypeName": "number",
+      "description": "Opioid-related Drug Overdose crude death rate per 100,000 population, ICD 10 code(s): T40.0-T40.4, T40.6",
+      "nullCount": 5982,
+      "cardinality": 258
+    },
+    {
+      "name": "Opioid Overdose AADR",
+      "fieldName": "opioid_aar",
+      "dataTypeName": "number",
+      "description": "Opioid-related Drug Overdose age-adjusted death rate per 100,000 population, ICD 10 code(s): T40.0-T40.4, T40.6",
+      "nullCount": 45246,
+      "cardinality": 155
+    },
+    {
+      "name": "Homicide Deaths",
+      "fieldName": "homicide_n",
+      "dataTypeName": "number",
+      "description": "Homicide number of deaths, ICD 10 code(s): X85-Y09, U01-U02, Y87.1",
+      "nullCount": 7804,
+      "cardinality": 114
+    },
+    {
+      "name": "Homicide CDR",
+      "fieldName": "homicide_cr",
+      "dataTypeName": "number",
+      "description": "Homicide crude death rate per 100,000 population, ICD 10 code(s): X85-Y09, U01-U02, Y87.1",
+      "nullCount": 9242,
+      "cardinality": 318
+    },
+    {
+      "name": "Homicide AADR",
+      "fieldName": "homicide_aar",
+      "dataTypeName": "number",
+      "description": "Homicide age-adjusted death rate per 100,000 population, ICD 10 code(s): X85-Y09, U01-U02, Y87.1",
+      "nullCount": 45882,
+      "cardinality": 191
+    },
+    {
+      "name": "Firearms Deaths",
+      "fieldName": "firearms_n",
+      "dataTypeName": "number",
+      "description": "Firearm number of deaths, ICD 10 code(s): U01.4, W32-W34, X72-X74, X93-X95, Y22-Y24, Y35.0",
+      "nullCount": 8558,
+      "cardinality": 117
+    },
+    {
+      "name": "Firearms CDR",
+      "fieldName": "firearms_cr",
+      "dataTypeName": "number",
+      "description": "Firearm crude death rate per 100,000 population, ICD 10 code(s): U01.4, W32-W34, X72-X74, X93-X95, Y22-Y24, Y35.0",
+      "nullCount": 10437,
+      "cardinality": 359
+    },
+    {
+      "name": "Firearms AADR",
+      "fieldName": "firearms_aar",
+      "dataTypeName": "number",
+      "description": "Firearm age-adjusted death rate per 100,000 population, ICD 10 code(s): U01.4, W32-W34, X72-X74, X93-X95, Y22-Y24, Y35.0",
+      "nullCount": 46076,
+      "cardinality": 206
+    },
+    {
+      "name": "Motor Vehicle Accidents Deaths",
+      "fieldName": "motveh_n",
+      "dataTypeName": "number",
+      "description": "Motor Vehicle Accident number of deaths, ICD 10 code(s): V02-V04, V09.0, V09.2, V12-V14, V19.0-V19.2, V19.4-V19.6, V20-V79, V80.3-V80.5, V81.0-V81.1, V82.0-V82.1, V83-V86, V87.0-V87.8, V88.0-V88.8, V89.0, V89.2",
+      "nullCount": 10545,
+      "cardinality": 124
+    },
+    {
+      "name": "Motor Vehicle Accidents CDR",
+      "fieldName": "motveh_cr",
+      "dataTypeName": "number",
+      "description": "Motor Vehicle Accident crude death rate per 100,000 population, ICD 10 code(s): V02-V04, V09.0, V09.2, V12-V14, V19.0-V19.2, V19.4-V19.6, V20-V79, V80.3-V80.5, V81.0-V81.1, V82.0-V82.1, V83-V86, V87.0-V87.8, V88.0-V88.8, V89.0, V89.2",
+      "nullCount": 12652,
+      "cardinality": 193
+    },
+    {
+      "name": "Motor Vehicle Accidents AADR",
+      "fieldName": "motveh_aar",
+      "dataTypeName": "number",
+      "description": "Motor Vehicle Accident age-adjusted death rate per 100,000 population, ICD 10 code(s): V02-V04, V09.0, V09.2, V12-V14, V19.0-V19.2, V19.4-V19.6, V20-V79, V80.3-V80.5, V81.0-V81.1, V82.0-V82.1, V83-V86, V87.0-V87.8, V88.0-V88.8, V89.0, V89.2",
+      "nullCount": 46210,
+      "cardinality": 154
+    },
+    {
+      "name": "Suicide Deaths",
+      "fieldName": "suicide_n",
+      "dataTypeName": "number",
+      "description": "Suicide number of deaths, ICD 10 code(s): X60-X84, U03, Y87.0",
+      "nullCount": 9902,
+      "cardinality": 133
+    },
+    {
+      "name": "Suicide CDR",
+      "fieldName": "suicide_cr",
+      "dataTypeName": "number",
+      "description": "Suicide crude death rate per 100,000 population, ICD 10 code(s): X60-X84, U03, Y87.0",
+      "nullCount": 12069,
+      "cardinality": 259
+    },
+    {
+      "name": "Suicide AADR",
+      "fieldName": "suicide_aar",
+      "dataTypeName": "number",
+      "description": "Suicide age-adjusted death rate per 100,000 population, ICD 10 code(s): X60-X84, U03, Y87.0",
+      "nullCount": 46247,
+      "cardinality": 180
+    },
+    {
+      "name": "Congenital Anomalies  Deaths",
+      "fieldName": "conganom_n",
+      "dataTypeName": "number",
+      "description": "Congenital Anomalies number of deaths, ICD 10 code(s): Q00-Q99",
+      "nullCount": 6718,
+      "cardinality": 65
+    },
+    {
+      "name": "Congenital Anomalies  CDR",
+      "fieldName": "conganom_cr",
+      "dataTypeName": "number",
+      "description": "Congenital Anomalies crude death rate per 100,000 population, ICD 10 code(s): Q00-Q99",
+      "nullCount": 7665,
+      "cardinality": 72
+    },
+    {
+      "name": "Congenital Anomalies  AADR",
+      "fieldName": "conganom_aar",
+      "dataTypeName": "number",
+      "description": "Congenital Anomalies age-adjusted death rate per 100,000 population, ICD 10 code(s): Q00-Q99",
+      "nullCount": 45866,
+      "cardinality": 31
+    },
+    {
+      "name": "Perinatal Deaths",
+      "fieldName": "perinatal_n",
+      "dataTypeName": "number",
+      "description": "Perinatal Disease number of deaths, ICD 10 code(s): P00-P96",
+      "nullCount": 4119,
+      "cardinality": 94
+    },
+    {
+      "name": "Perinatal CDR",
+      "fieldName": "perinatal_cr",
+      "dataTypeName": "number",
+      "description": "Perinatal Disease crude death rate per 100,000 population, ICD 10 code(s): P00-P96",
+      "nullCount": 5306,
+      "cardinality": 356
+    },
+    {
+      "name": "Perinatal AADR",
+      "fieldName": "perinatal_aar",
+      "dataTypeName": "number",
+      "description": "Perinatal Disease age-adjusted death rate per 100,000 population, ICD 10 code(s): P00-P96",
+      "nullCount": 46027,
+      "cardinality": 96
+    },
+    {
+      "name": "HIV Deaths",
+      "fieldName": "hiv_n",
+      "dataTypeName": "number",
+      "description": "HIV Disease number of deaths, ICD 10 code(s): B20-B24",
+      "nullCount": 4086,
+      "cardinality": 43
+    },
+    {
+      "name": "HIV CDR",
+      "fieldName": "hiv_cr",
+      "dataTypeName": "number",
+      "description": "HIV Disease crude death rate per 100,000 population, ICD 10 code(s): B20-B24",
+      "nullCount": 4645,
+      "cardinality": 50
+    },
+    {
+      "name": "HIV AADR",
+      "fieldName": "hiv_aar",
+      "dataTypeName": "number",
+      "description": "HIV Disease age-adjusted death rate per 100,000 population, ICD 10 code(s): B20-B24",
+      "nullCount": 45339,
+      "cardinality": 47
+    },
+    {
+      "name": "Pneumonia/Flu Deaths",
+      "fieldName": "pneum_n",
+      "dataTypeName": "number",
+      "description": "Pneumonia and Influenza number of deaths, ICD 10 code(s): J10-J18",
+      "nullCount": 10723,
+      "cardinality": 295
+    },
+    {
+      "name": "Pneumonia/Flu CDR",
+      "fieldName": "pneum_cr",
+      "dataTypeName": "number",
+      "description": "Pneumonia and Influenza crude death rate per 100,000 population, ICD 10 code(s): J10-J18",
+      "nullCount": 13901,
+      "cardinality": 965
+    },
+    {
+      "name": "Pneumonia/Flu AADR",
+      "fieldName": "pneum_aar",
+      "dataTypeName": "number",
+      "description": "Pneumonia and Influenza age-adjusted death rate per 100,000 population, ICD 10 code(s): J10-J18",
+      "nullCount": 46417,
+      "cardinality": 210
+    },
+    {
+      "name": "Septicemia Deaths",
+      "fieldName": "sep_n",
+      "dataTypeName": "number",
+      "description": "Septicemia number of deaths, ICD 10 code(s): A40-A41",
+      "nullCount": 11122,
+      "cardinality": 214
+    },
+    {
+      "name": "Septicemia CDR",
+      "fieldName": "sep_cr",
+      "dataTypeName": "number",
+      "description": "Septicemia crude death rate per 100,000 population, ICD 10 code(s): A40-A41",
+      "nullCount": 14157,
+      "cardinality": 771
+    },
+    {
+      "name": "Septicemia AADR",
+      "fieldName": "sep_aar",
+      "dataTypeName": "number",
+      "description": "Septicemia age-adjusted death rate per 100,000 population, ICD 10 code(s): A40-A41",
+      "nullCount": 46404,
+      "cardinality": 224
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:52.907Z"
+}

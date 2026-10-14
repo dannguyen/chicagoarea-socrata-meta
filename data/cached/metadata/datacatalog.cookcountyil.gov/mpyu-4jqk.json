@@ -1,0 +1,675 @@
+{
+  "id": "mpyu-4jqk",
+  "name": "2010 U.S. Census Mail Return Rates and Demographics by Tract",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1318,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1565989709,
+  "publicationDate": 1565991654,
+  "rowsUpdatedAt": 1565991653,
+  "viewLastModified": 1769547994,
+  "viewCount": 4599,
+  "downloadCount": 2673,
+  "category": "Economic Development",
+  "tags": [
+    "census",
+    "demographics",
+    "cook county",
+    "tracts",
+    "inactive"
+  ],
+  "attribution": "Cook County GIS Department",
+  "attributionLink": "https://hub-cookcountyil.opendata.arcgis.com/",
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County GIS Department"
+    },
+    "Metadata": {
+      "Update Frequency": "No updates"
+    },
+    "Detailed Descriptive": {
+      "Geographic coverage": "Countywide",
+      "Geographic unit": "Census tract"
+    },
+    "Publishing Details": {
+      "Data change frequency": "As needed",
+      "Publishing frequency": "As needed"
+    }
+  },
+  "columns": [
+    {
+      "name": "State FIPS Code",
+      "fieldName": "statefp",
+      "dataTypeName": "number",
+      "description": "Numeric 2 digit code defined in US Federal Information Processing Publication 5-2 to identify US States",
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "County FIPS Code",
+      "fieldName": "countyfp",
+      "dataTypeName": "number",
+      "description": "Numeric 3 digit code defined in US Federal Information Processing Publication 5-2 to identify US Counties",
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Census Tract Code",
+      "fieldName": "tractce",
+      "dataTypeName": "number",
+      "description": "Numeric 6 Character unique code identifier.",
+      "nullCount": 0,
+      "cardinality": 1318
+    },
+    {
+      "name": "American FactFinder Geographic Identifer",
+      "fieldName": "affgeoid",
+      "dataTypeName": "text",
+      "description": "Combined geographic identifier that specifies a single geography (Summary level code + variant code + component code + US + State FIPS + County FIPS + TractCE).",
+      "nullCount": 0,
+      "cardinality": 1318
+    },
+    {
+      "name": "Geographic Identifer",
+      "fieldName": "geoid",
+      "dataTypeName": "number",
+      "description": "Combined geographic identifier that specifies a single geography (State FIPS + County FIPS + TractCE).",
+      "nullCount": 0,
+      "cardinality": 1318
+    },
+    {
+      "name": "Total Forms Mailed",
+      "fieldName": "totalformsmailed",
+      "dataTypeName": "number",
+      "description": "Calculated Total Forms Mailed (Mail Return Count divided by the Mail Return Rate)",
+      "nullCount": 4,
+      "cardinality": 1312
+    },
+    {
+      "name": "Mail Return Rate",
+      "fieldName": "mailreturnrate",
+      "dataTypeName": "number",
+      "description": "Percentage of valid census forms returned to U.S. Census Bureau",
+      "nullCount": 4,
+      "cardinality": 336
+    },
+    {
+      "name": "Mail Return Count",
+      "fieldName": "mailreturncount",
+      "dataTypeName": "number",
+      "description": "Number of valid census forms returned to the US Census Bureau.",
+      "nullCount": 4,
+      "cardinality": 1006
+    },
+    {
+      "name": "Total Population",
+      "fieldName": "totalpop",
+      "dataTypeName": "number",
+      "description": "Total Individual Population",
+      "nullCount": 0,
+      "cardinality": 1188
+    },
+    {
+      "name": "Total Population under age 18",
+      "fieldName": "totalpop_under18",
+      "dataTypeName": "number",
+      "description": "Total Individual Population under age 18. This field based on combined totals from SocialExplorer.com",
+      "nullCount": 0,
+      "cardinality": 938
+    },
+    {
+      "name": "Percent Population under age 18",
+      "fieldName": "pertpop_und18",
+      "dataTypeName": "number",
+      "description": "Calculated Percent population under age 18 ( Total Population under age 18 divided by Total Population, multiplied by 100).",
+      "nullCount": 0,
+      "cardinality": 324
+    },
+    {
+      "name": "Total Population Age 18 through 64",
+      "fieldName": "totalpop_18to64",
+      "dataTypeName": "number",
+      "description": "Total Population Age 18 through 64. This field based on combined totals from SocialExplorer.com",
+      "nullCount": 0,
+      "cardinality": 1139
+    },
+    {
+      "name": "Percent Population Age 18 through 64",
+      "fieldName": "pertpop_18to64",
+      "dataTypeName": "number",
+      "description": "Calculated Percent population age 18 through 64 ( Total Population age 18 through 64 divided by Total Population, multiplied by 100).",
+      "nullCount": 0,
+      "cardinality": 343
+    },
+    {
+      "name": "Total Population age 65 and over",
+      "fieldName": "totalpop_65andover",
+      "dataTypeName": "number",
+      "description": "Total Population age 65 and over. This field based on combined totals from SocialExplorer.com",
+      "nullCount": 0,
+      "cardinality": 787
+    },
+    {
+      "name": "Percent Population age 65 and over",
+      "fieldName": "pertpop_65andover",
+      "dataTypeName": "number",
+      "description": "Calculated Percent population age 65 and over ( Total Population age 65 and over divided by Total Population, multiplied by 100).",
+      "nullCount": 0,
+      "cardinality": 272
+    },
+    {
+      "name": "Total Population non Hispanic",
+      "fieldName": "totalpop_nonhisp",
+      "dataTypeName": "number",
+      "description": "Total Population non Hispanic",
+      "nullCount": 0,
+      "cardinality": 1167
+    },
+    {
+      "name": "Percent Population non Hispanic",
+      "fieldName": "pertpop_nonhisp",
+      "dataTypeName": "number",
+      "description": "Calculated Percent population non Hispanic ( Total Population non Hispanic divided by Total Population, multiplied by 100).",
+      "nullCount": 0,
+      "cardinality": 536
+    },
+    {
+      "name": "Total Population Hispanic",
+      "fieldName": "totalpop_hisp",
+      "dataTypeName": "number",
+      "description": "Total Population Hispanic",
+      "nullCount": 0,
+      "cardinality": 902
+    },
+    {
+      "name": "Percent Population Hispanic",
+      "fieldName": "pertpop_hisp",
+      "dataTypeName": "number",
+      "description": "Calculated Percent population Hispanic ( Total Population Hispanic divided by Total Population, multiplied by 100).",
+      "nullCount": 0,
+      "cardinality": 535
+    },
+    {
+      "name": "Total Population White",
+      "fieldName": "total_white",
+      "dataTypeName": "number",
+      "description": "Total Population White. This field based on combined totals (Hispanic and non Hispanic) from SocialExplorer.com",
+      "nullCount": 0,
+      "cardinality": 1103
+    },
+    {
+      "name": "Percent Population White",
+      "fieldName": "pertpop_white",
+      "dataTypeName": "number",
+      "description": "Calculated Percent population White ( Total Population White divided by Total Population, multiplied by 100).",
+      "nullCount": 0,
+      "cardinality": 661
+    },
+    {
+      "name": "Total Population Black",
+      "fieldName": "total_blk",
+      "dataTypeName": "number",
+      "description": "Total Population Black. This field based on combined totals (Hispanic and non Hispanic) from SocialExplorer.com",
+      "nullCount": 0,
+      "cardinality": 814
+    },
+    {
+      "name": "Percent Population Black",
+      "fieldName": "pertpop_blk",
+      "dataTypeName": "number",
+      "description": "Calculated Percent population Black ( Total Population Black divided by Total Population, multiplied by 100).",
+      "nullCount": 0,
+      "cardinality": 465
+    },
+    {
+      "name": "Total Population Asian",
+      "fieldName": "total_asian",
+      "dataTypeName": "number",
+      "description": "Total Population Asian. This field based on combined totals (Hispanic and non Hispanic) from SocialExplorer.com",
+      "nullCount": 0,
+      "cardinality": 528
+    },
+    {
+      "name": "Percent Population Asian",
+      "fieldName": "pertpop_asian",
+      "dataTypeName": "number",
+      "description": "Calculated Percent population Asian ( Total Population Asian divided by Total Population, multiplied by 100).",
+      "nullCount": 0,
+      "cardinality": 260
+    },
+    {
+      "name": "Total Population Native American",
+      "fieldName": "total_nativeam",
+      "dataTypeName": "number",
+      "description": "Total Population Native American. This field based on combined totals (Hispanic and non Hispanic) from SocialExplorer.com",
+      "nullCount": 0,
+      "cardinality": 102
+    },
+    {
+      "name": "Percent Population Native American",
+      "fieldName": "pertpop_nativeam",
+      "dataTypeName": "number",
+      "description": "Calculated Percent population Native American ( Total Population Native American divided by Total Population, multiplied by 100).",
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Total Population Hawaiian and Pacific Islander Decent",
+      "fieldName": "total_pacific",
+      "dataTypeName": "number",
+      "description": "Total Population Hawaiian and Pacific Islander Decent. This field based on combined totals (Hispanic and non Hispanic) from SocialExplorer.com",
+      "nullCount": 0,
+      "cardinality": 37
+    },
+    {
+      "name": "Percent Population Hawaiian and Pacific Islander Decent",
+      "fieldName": "pertpop_pacific",
+      "dataTypeName": "number",
+      "description": "Calculated Percent population Hawaiian and Pacific Islander Decent ( Total Population Hawaiian and Pacific Islander Decent divided by Total Population, multiplied by 100).",
+      "nullCount": 0,
+      "cardinality": 4
+    },
+    {
+      "name": "Total Population Other Race",
+      "fieldName": "total_otherrace",
+      "dataTypeName": "number",
+      "description": "Total Population Other Race. This field based on combined totals (Hispanic and non Hispanic) from SocialExplorer.com",
+      "nullCount": 0,
+      "cardinality": 590
+    },
+    {
+      "name": "Percent Population Other Race",
+      "fieldName": "pertpop_othrace",
+      "dataTypeName": "number",
+      "description": "Calculated Percent population Other Race ( Total Population Other Race divided by Total Population, multiplied by 100).",
+      "nullCount": 0,
+      "cardinality": 331
+    },
+    {
+      "name": "Total Population 2 or More Races",
+      "fieldName": "total_2ormore",
+      "dataTypeName": "number",
+      "description": "Total Population 2 or More Races. This field based on combined totals (Hispanic and non Hispanic) from SocialExplorer.com",
+      "nullCount": 0,
+      "cardinality": 307
+    },
+    {
+      "name": "Percent Population 2 or More Races",
+      "fieldName": "pertpop_2ormore",
+      "dataTypeName": "number",
+      "description": "Calculated Percent population 2 or More Races ( Total Population 2 or More Races divided by Total Population, multiplied by 100).",
+      "nullCount": 0,
+      "cardinality": 95
+    },
+    {
+      "name": "Total Population over 25",
+      "fieldName": "totalpopover25",
+      "dataTypeName": "number",
+      "description": "Total Population over 25",
+      "nullCount": 0,
+      "cardinality": 1139
+    },
+    {
+      "name": "Population over age 25 - Education level less than High School",
+      "fieldName": "popov25_lesshsch",
+      "dataTypeName": "number",
+      "description": "Population over age 25 - Education level less than High School",
+      "nullCount": 0,
+      "cardinality": 698
+    },
+    {
+      "name": "Percent Population over age 25 - Education level less than High School",
+      "fieldName": "perpopov25_lesshs",
+      "dataTypeName": "number",
+      "description": "Calculated Percent population over age 25 - Education level less than High School ( Total Population over age 25 - Education level less than High School divided by Total Population over 25, multiplied by 100).",
+      "nullCount": 0,
+      "cardinality": 393
+    },
+    {
+      "name": "Population over age 25 - High School or High School Equivalency",
+      "fieldName": "popov_hsoreqorabove",
+      "dataTypeName": "number",
+      "description": "Population over age 25 - High School or High School Equivilency. This field based on combined totals (High School or Equivilent and some college) from SocialExplorer.com",
+      "nullCount": 0,
+      "cardinality": 1047
+    },
+    {
+      "name": "Percent Population over age 25 - High School or High School Equivalency",
+      "fieldName": "perpopov25_hseqorabove",
+      "dataTypeName": "number",
+      "description": "Calculated Percent population over age 25 - High School or High School Equivilency ( Total Population over over age 25 - High School or High School Equivilency divided by Total Population  over 25, multiplied by 100).",
+      "nullCount": 0,
+      "cardinality": 564
+    },
+    {
+      "name": "Population over age 25 - with Bachelor Degree",
+      "fieldName": "popov25_bachdegree",
+      "dataTypeName": "number",
+      "description": "Population over age 25 - with Bachelor Degree",
+      "nullCount": 0,
+      "cardinality": 855
+    },
+    {
+      "name": "Percent Population over age 25 - with Bachelor Degree",
+      "fieldName": "perpopov25_bachdeg",
+      "dataTypeName": "number",
+      "description": "Calculated Percent population over age 25 - with Bachelor Degree ( Total Population over age 25 - with Bachelor Degree divided by Total Population  over 25, multiplied by 100).",
+      "nullCount": 0,
+      "cardinality": 448
+    },
+    {
+      "name": "Population over age 25 - with Graduate Degree",
+      "fieldName": "popov25_graddegree",
+      "dataTypeName": "number",
+      "description": "Population over age 25 - with Graduate Degree. This field based on combined totals (Master's, Professional, Doctorate Degrees) from SocialExplorer.com",
+      "nullCount": 0,
+      "cardinality": 710
+    },
+    {
+      "name": "Percent Population over age 25 - with Graduate Degree",
+      "fieldName": "perpopov25_graddeg",
+      "dataTypeName": "number",
+      "description": "Calculated Percent population over age 25 - with Graduate Degree ( Total Population over age 25 - with Graduate Degree divided by Total Population  over 25, multiplied by 100).",
+      "nullCount": 0,
+      "cardinality": 381
+    },
+    {
+      "name": "Total Population over age 16",
+      "fieldName": "totalpop_16over",
+      "dataTypeName": "number",
+      "description": "Total Population over age 16",
+      "nullCount": 0,
+      "cardinality": 1178
+    },
+    {
+      "name": "Population over age 16 - All Labor",
+      "fieldName": "pop16andover_labor",
+      "dataTypeName": "number",
+      "description": "Population over age 16 - All Labor - Includes civilian and military",
+      "nullCount": 0,
+      "cardinality": 1096
+    },
+    {
+      "name": "Percent Population over  age 16 - All Labor",
+      "fieldName": "pct_pop16over_labor",
+      "dataTypeName": "number",
+      "description": "Calculated Percent population  over  age 16 - All Labor ( Total Population  over  age 16 - All Labor divided by Total Population over age 16, multiplied by 100).",
+      "nullCount": 0,
+      "cardinality": 405
+    },
+    {
+      "name": "Population in Labor Force",
+      "fieldName": "popinlaborforce",
+      "dataTypeName": "number",
+      "description": "Population in Labor Force",
+      "nullCount": 0,
+      "cardinality": 1100
+    },
+    {
+      "name": "Population over age 16 - Unemployed",
+      "fieldName": "pop16andover_unemployed",
+      "dataTypeName": "number",
+      "description": "Population of individuals over age 16 who are unemployed",
+      "nullCount": 0,
+      "cardinality": 435
+    },
+    {
+      "name": "Percent Population over age 16 - Unemployed",
+      "fieldName": "perpop16andoverunemployed",
+      "dataTypeName": "number",
+      "description": "Calculated Percent population  over  age 16 - Unemployed ( Total Population  over  age 16 - Unemployed divided by Total Population over age 16, multiplied by 100).",
+      "nullCount": 0,
+      "cardinality": 1311
+    },
+    {
+      "name": "Unemployment Rate",
+      "fieldName": "unemployment_rate",
+      "dataTypeName": "number",
+      "description": "Calculated Unemployment Rate ( Population of individuals over age 16 who are unemployed divided by the population of the labor force)",
+      "nullCount": 0,
+      "cardinality": 970
+    },
+    {
+      "name": "Population out of Labor Force",
+      "fieldName": "popout_oflaborforce",
+      "dataTypeName": "number",
+      "description": "Population of Individuals that are out of the labor force",
+      "nullCount": 0,
+      "cardinality": 944
+    },
+    {
+      "name": "Average Household Income",
+      "fieldName": "avghouseholdinc",
+      "dataTypeName": "number",
+      "description": "The average income per household",
+      "nullCount": 3,
+      "cardinality": 1315
+    },
+    {
+      "name": "Population over age 5 years",
+      "fieldName": "poplanguage",
+      "dataTypeName": "number",
+      "description": "Population of individuals over age 5 years",
+      "nullCount": 0,
+      "cardinality": 1185
+    },
+    {
+      "name": "Population English Speaking Only",
+      "fieldName": "pop_engonly",
+      "dataTypeName": "number",
+      "description": "Population of individuals that speak primarily English",
+      "nullCount": 0,
+      "cardinality": 1136
+    },
+    {
+      "name": "Percent Population English Speaking Only",
+      "fieldName": "pctengonly",
+      "dataTypeName": "number",
+      "description": "Calculated percent population of individuals that speak primarily English ( Population of individuals that speak primarily English divided by Total Population of individuals over age 5 years, multiplied by 100).",
+      "nullCount": 0,
+      "cardinality": 96
+    },
+    {
+      "name": "Population Spanish Primary Language",
+      "fieldName": "pop_spanish",
+      "dataTypeName": "number",
+      "description": "Population of individuals in which Spanish is the primary language. Combined individuals that speak English \"very well\" and individuals that speak English less than \"very well\"",
+      "nullCount": 0,
+      "cardinality": 806
+    },
+    {
+      "name": "Percent Spanish Primary Language",
+      "fieldName": "pct_spanprim",
+      "dataTypeName": "number",
+      "description": "Calculated percent population of individuals in which Spanish is the primary language ( Population of individuals in which Spanish is the primary language divided by Total Population of individuals over age 5 years, multiplied by 100).",
+      "nullCount": 0,
+      "cardinality": 477
+    },
+    {
+      "name": "Population French Primary Language",
+      "fieldName": "pop_french",
+      "dataTypeName": "number",
+      "description": "Population of individuals in which French is the primary language (French Haitian or Cajun). Combined individuals that speak English \"very well\" and individuals that speak English less than \"very well\"",
+      "nullCount": 0,
+      "cardinality": 126
+    },
+    {
+      "name": "Percent French Primary Language",
+      "fieldName": "pct_frenchprim",
+      "dataTypeName": "number",
+      "description": "Calculated percent population of individuals in which French is the primary language ( Population of individuals in which French is the primary language divided by Total Population of individuals over age 5 years, multiplied by 100).",
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "Population Germanic Primary Language",
+      "fieldName": "pop_germanic",
+      "dataTypeName": "number",
+      "description": "Population of individuals in which a Germanic language is the primary language ( German or Other West Germanic Languages ). Combined individuals that speak English \"very well\" and individuals that speak English less than \"very well\"",
+      "nullCount": 0,
+      "cardinality": 98
+    },
+    {
+      "name": "Percent Germanic Primary Language",
+      "fieldName": "pct_germanprim",
+      "dataTypeName": "number",
+      "description": "Calculated percent population of individuals in which a Germanic language is the primary language ( Population of individuals in which a Germanic language is the primary language divided by Total Population of individuals over age 5 years, multiplied by 100).",
+      "nullCount": 0,
+      "cardinality": 34
+    },
+    {
+      "name": "Population Slavic Primary Language",
+      "fieldName": "pop_slavic",
+      "dataTypeName": "number",
+      "description": "Population of individuals in which a Slavic language is the primary language ( Russian, Polish, or Other Slavic Languages ). Combined individuals that speak English \"very well\" and individuals that speak English less than \"very well\"",
+      "nullCount": 0,
+      "cardinality": 423
+    },
+    {
+      "name": "Percent Slavic Primary Language",
+      "fieldName": "pct_slavicprim",
+      "dataTypeName": "number",
+      "description": "Calculated percent population of individuals in which a Slavic language is the primary language ( Population of individuals in which a Slavic language is the primary language divided by Total Population of individuals over age 5 years, multiplied by 100).",
+      "nullCount": 0,
+      "cardinality": 202
+    },
+    {
+      "name": "Population Indo-European Language",
+      "fieldName": "pop_indoeu",
+      "dataTypeName": "number",
+      "description": "Population of individuals in which another Indo-European language is the primary language. Combined individuals that speak English \"very well\" and individuals that speak English less than \"very well\"",
+      "nullCount": 0,
+      "cardinality": 374
+    },
+    {
+      "name": "Percent Ind-European Primary Language",
+      "fieldName": "pct_indeuprim",
+      "dataTypeName": "number",
+      "description": "Calculated percent population of individuals in which a Indo-European language is the primary language ( Population of individuals in which a Indo-European language is the primary language divided by Total Population of individuals over age 5 years, multiplied by 100).",
+      "nullCount": 0,
+      "cardinality": 167
+    },
+    {
+      "name": "Population Korean Primary Language",
+      "fieldName": "pop_korean",
+      "dataTypeName": "number",
+      "description": "Population of individuals in which Korean is the primary language. Combined individuals that speak English \"very well\" and individuals that speak English less than \"very well\"",
+      "nullCount": 0,
+      "cardinality": 155
+    },
+    {
+      "name": "Percent Korean Primary Language",
+      "fieldName": "pct_korprim",
+      "dataTypeName": "number",
+      "description": "Calculated percent population of individuals in which Korean is the primary language ( Population of individuals in which Korean is the primary language divided by Total Population of individuals over age 5 years, multiplied by 100).",
+      "nullCount": 0,
+      "cardinality": 59
+    },
+    {
+      "name": "Population Chinese Primary Language",
+      "fieldName": "pop_chinese",
+      "dataTypeName": "number",
+      "description": "Population of individuals in which Chinese is the primary language  (Including Mandarin, Cantonese). Combined individuals that speak English \"very well\" and individuals that speak English less than \"very well\"",
+      "nullCount": 0,
+      "cardinality": 205
+    },
+    {
+      "name": "Percent Chinese Primary Language",
+      "fieldName": "pct_chineseprim",
+      "dataTypeName": "number",
+      "description": "Calculated percent population of individuals in which Chinese is the primary language ( Population of individuals in which Chinese is the primary language divided by Total Population of individuals over age 5 years, multiplied by 100).",
+      "nullCount": 0,
+      "cardinality": 33
+    },
+    {
+      "name": "Population Vietnamese Primary Language",
+      "fieldName": "pop_vietnamese",
+      "dataTypeName": "number",
+      "description": "Population of individuals in which Vietnamese is the primary language. Combined individuals that speak English \"very well\" and individuals that speak English less than \"very well\"",
+      "nullCount": 0,
+      "cardinality": 100
+    },
+    {
+      "name": "Percent Vietnamese Primary Language",
+      "fieldName": "pct_vietprim",
+      "dataTypeName": "number",
+      "description": "Calculated percent population of individuals in which Vietnamese is the primary language ( Population of individuals in which Vietnamese is the primary language divided by Total Population of individuals over age 5 years, multiplied by 100).",
+      "nullCount": 0,
+      "cardinality": 11
+    },
+    {
+      "name": "Population Tagalog Primary Language",
+      "fieldName": "pop_tagalog",
+      "dataTypeName": "number",
+      "description": "Population of individuals in which Tagalog is the primary language (Including Filipino).  Combined individuals that speak English \"very well\" and individuals that speak English less than \"very well\"",
+      "nullCount": 0,
+      "cardinality": 199
+    },
+    {
+      "name": "Percent Tagalog Primary Language",
+      "fieldName": "pct_tagalogprim",
+      "dataTypeName": "number",
+      "description": "Calculated percent population of individuals in which Tagalog is the primary language ( Population of individuals in which Tagalog is the primary language divided by Total Population of individuals over age 5 years, multiplied by 100).",
+      "nullCount": 0,
+      "cardinality": 13
+    },
+    {
+      "name": "Population Asian Other Language",
+      "fieldName": "pop_asiaoth",
+      "dataTypeName": "number",
+      "description": "Population of individuals in which another Asian language is the primary language ( Including other Pacific Island languages).  Combined individuals that speak English \"very well\" and individuals that speak English less than \"very well\"",
+      "nullCount": 0,
+      "cardinality": 203
+    },
+    {
+      "name": "Percent Asian Other Primary Language",
+      "fieldName": "pct_asiaothprim",
+      "dataTypeName": "number",
+      "description": "Calculated percent population of individuals in which another Asian language is the primary language ( Population of individuals in which another Asian language is the primary language divided by Total Population of individuals over age 5 years, multiplied by 100).",
+      "nullCount": 0,
+      "cardinality": 79
+    },
+    {
+      "name": "Population Arabic Primary Language",
+      "fieldName": "pop_arabic",
+      "dataTypeName": "number",
+      "description": "Population of individuals in which an Arabic language is the primary language.  Combined individuals that speak English \"very well\" and individuals that speak English less than \"very well\"",
+      "nullCount": 0,
+      "cardinality": 199
+    },
+    {
+      "name": "Percent Arabic Primary Language",
+      "fieldName": "pct_arabicprim",
+      "dataTypeName": "number",
+      "description": "Calculated percent population of individuals in which an Arabic language is the primary language ( Population of individuals in which an Arabic language is the primary language divided by Total Population of individuals over age 5 years, multiplied by 100).",
+      "nullCount": 0,
+      "cardinality": 89
+    },
+    {
+      "name": "Population Other Primary Language",
+      "fieldName": "pop_otherlan",
+      "dataTypeName": "number",
+      "description": "Population of individuals in which another language is the primary language ( Other and Unspecified languages ).  Combined individuals that speak English \"very well\" and individuals that speak English less than \"very well\"",
+      "nullCount": 0,
+      "cardinality": 180
+    },
+    {
+      "name": "Percent Other Primary Language",
+      "fieldName": "pct_othlanprim",
+      "dataTypeName": "number",
+      "description": "Calculated percent population of individuals in which another language is the primary language ( Population of individuals in which another language is the primary language divided by Total Population of individuals over age 5 years, multiplied by 100).",
+      "nullCount": 0,
+      "cardinality": 85
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:53.050Z"
+}

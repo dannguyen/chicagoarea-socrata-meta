@@ -1,0 +1,166 @@
+{
+  "id": "8z4a-ix8q",
+  "name": "IDPH Assisted Living and Shared Housing Licensed Establishments Listing",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 495,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1708036695,
+  "publicationDate": 1708096321,
+  "rowsUpdatedAt": 1708096316,
+  "viewLastModified": 1736793994,
+  "viewCount": 1340,
+  "downloadCount": 705,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "Est Name",
+      "fieldName": "est_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 487
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 492
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 236
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 169,
+      "cardinality": 1
+    },
+    {
+      "name": "Zip",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 264
+    },
+    {
+      "name": "Phone",
+      "fieldName": "phone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 458
+    },
+    {
+      "name": "License Number",
+      "fieldName": "license_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 495
+    },
+    {
+      "name": "Issued",
+      "fieldName": "issued",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 285
+    },
+    {
+      "name": "Expires",
+      "fieldName": "expires",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 287
+    },
+    {
+      "name": "AZ",
+      "fieldName": "az",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 200,
+      "cardinality": 59
+    },
+    {
+      "name": "Reg",
+      "fieldName": "reg",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 152,
+      "cardinality": 85
+    },
+    {
+      "name": "FL",
+      "fieldName": "fl",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 439,
+      "cardinality": 35
+    },
+    {
+      "name": "Total",
+      "fieldName": "total",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 114
+    },
+    {
+      "name": "Alzheimer",
+      "fieldName": "alzheimer",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "Adult Day",
+      "fieldName": "adult_day",
+      "dataTypeName": "checkbox",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "County",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 77
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:32.382Z"
+}

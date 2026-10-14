@@ -1,0 +1,97 @@
+{
+  "id": "w4ue-xy9r",
+  "name": "Illinois Lead Program Exam Dates",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 84,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1736540070,
+  "publicationDate": 1736540462,
+  "rowsUpdatedAt": 1736540456,
+  "viewLastModified": 1736540462,
+  "viewCount": 78,
+  "downloadCount": 12,
+  "category": "Health and Human Services",
+  "tags": [
+    "lead",
+    "exam"
+  ],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "DPH Lead",
+      "Maintainer Email": "dph.lead@illinois.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "Exam Location",
+      "fieldName": "exam_location",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Exam Date",
+      "fieldName": "exam_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 59
+    },
+    {
+      "name": "Exam Time",
+      "fieldName": "exam_time",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Lead Program Contact",
+      "fieldName": "lead_program_contact",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 84
+    },
+    {
+      "name": "Class Space",
+      "fieldName": "class_space",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 84,
+      "cardinality": 0
+    },
+    {
+      "name": "Notes",
+      "fieldName": "notes",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "Location 1",
+      "fieldName": "location_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:35.815Z"
+}

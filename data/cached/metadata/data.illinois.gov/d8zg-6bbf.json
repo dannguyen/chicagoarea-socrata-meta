@@ -1,0 +1,130 @@
+{
+  "id": "d8zg-6bbf",
+  "name": "Certified Transcript of Payroll - Report 4 - Gender and Journey-Apprentice",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 214479,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1767046474,
+  "publicationDate": 1767046993,
+  "rowsUpdatedAt": 1791561633,
+  "viewLastModified": 1769708726,
+  "viewCount": 57,
+  "downloadCount": 84,
+  "category": "Business and Workforce",
+  "tags": [
+    "prevailing wage",
+    "certified transcript of payroll",
+    "820 ilcs 130/3.1"
+  ],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": "ODBL",
+  "license": "Open Data Commons Open Database License",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Labor"
+    },
+    "Data Management": {
+      "Maintainer": "IDOL",
+      "Maintainer Email": "kimberly.a.flesch@illinois.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": "The calendar year during which the prevailing wage work was performed.",
+      "nullCount": 0,
+      "cardinality": 214479
+    },
+    {
+      "name": "Quarter",
+      "fieldName": "quarter",
+      "dataTypeName": "number",
+      "description": "The quarter of the reporting year (Q1, Q2, Q3, or Q4) during which the prevailing wage work was performed.",
+      "nullCount": 0,
+      "cardinality": 214479
+    },
+    {
+      "name": "Project County",
+      "fieldName": "project_county",
+      "dataTypeName": "text",
+      "description": "The Illinois county where the public works project is located. Used to identify regional trends in prevailing wage activity.",
+      "nullCount": 0,
+      "cardinality": 214479
+    },
+    {
+      "name": "Project Number",
+      "fieldName": "project_number",
+      "dataTypeName": "text",
+      "description": "The project name or number as reported by the contractor. This number is used for tracking and referencing project-specific wage and employment data.",
+      "nullCount": 0,
+      "cardinality": 214479
+    },
+    {
+      "name": "Company Name",
+      "fieldName": "company_name",
+      "dataTypeName": "text",
+      "description": "The name of the contractor reporting prevailing wage information for the project.",
+      "nullCount": 0,
+      "cardinality": 214479
+    },
+    {
+      "name": "Percent Male Apprentice",
+      "fieldName": "percent_male_apprentice",
+      "dataTypeName": "text",
+      "description": "Percentage of male apprentices (workers undergoing structured training in a skilled trade).",
+      "nullCount": 0,
+      "cardinality": 214479
+    },
+    {
+      "name": "Percent Male Journeyworker",
+      "fieldName": "percent_male_journeyworker",
+      "dataTypeName": "text",
+      "description": "Percentage of male journeyworkers (fully qualified skilled tradespeople who have completed apprenticeships).",
+      "nullCount": 0,
+      "cardinality": 214479
+    },
+    {
+      "name": "Percent Male Neither",
+      "fieldName": "percent_male_neither",
+      "dataTypeName": "text",
+      "description": "Percentage of male employees who are classified as neither journeyworkers nor apprentices in skilled trade positions.",
+      "nullCount": 0,
+      "cardinality": 214479
+    },
+    {
+      "name": "Percent Female Apprentice",
+      "fieldName": "percent_female_apprentice",
+      "dataTypeName": "text",
+      "description": "Percentage of female apprentices (workers undergoing structured training in a skilled trade).",
+      "nullCount": 0,
+      "cardinality": 214479
+    },
+    {
+      "name": "Percent Female Journeyworker",
+      "fieldName": "percent_female_journeyworker",
+      "dataTypeName": "text",
+      "description": "Percentage of female journeyworkers (fully qualified skilled tradespeople who have completed apprenticeships).",
+      "nullCount": 0,
+      "cardinality": 214479
+    },
+    {
+      "name": "Percent Female Neither",
+      "fieldName": "percent_female_neither",
+      "dataTypeName": "text",
+      "description": "Percentage of female employees who are classified as neither journeyworkers nor apprentices in skilled trade positions.",
+      "nullCount": 0,
+      "cardinality": 214479
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:35.901Z"
+}

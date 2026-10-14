@@ -1,0 +1,62 @@
+{
+  "id": "qzps-jvpw",
+  "name": "IDOT Designated Truck Route List",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 354,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1718289331,
+  "publicationDate": 1718289431,
+  "rowsUpdatedAt": 1718289425,
+  "viewLastModified": 1736794036,
+  "viewCount": 357,
+  "downloadCount": 38,
+  "category": "Transportation",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Transportation"
+    },
+    "Data Management": {
+      "Maintainer": "Michael Olson",
+      "Maintainer Email": "michael.olson@illinois.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "CLASS",
+      "fieldName": "class",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 2
+    },
+    {
+      "name": "ROUTE",
+      "fieldName": "route",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 233
+    },
+    {
+      "name": "LOCATION FROM - TO",
+      "fieldName": "location_from_to",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 346
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:33.455Z"
+}

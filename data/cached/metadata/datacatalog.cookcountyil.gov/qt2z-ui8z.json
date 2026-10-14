@@ -1,0 +1,48 @@
+{
+  "id": "qt2z-ui8z",
+  "name": "Office of the President -- Commission on Women's Issues--2011 Summary of Activity, by Month",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 7,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1315415040,
+  "publicationDate": 1412890687,
+  "rowsUpdatedAt": 1412890682,
+  "viewLastModified": 1769545175,
+  "viewCount": 634,
+  "downloadCount": 2227,
+  "category": "Finance & Operations",
+  "tags": [
+    "inactive"
+  ],
+  "attribution": "Cook County Commission on Women's Issues",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Month",
+      "fieldName": "month",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 7
+    },
+    {
+      "name": "Outreach & Workshops",
+      "fieldName": "outreach_workshops",
+      "dataTypeName": "number",
+      "description": "The number of special events sponsored by the Commission on Womens' Issues in 2011",
+      "nullCount": 0,
+      "cardinality": 3
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:08.929Z"
+}

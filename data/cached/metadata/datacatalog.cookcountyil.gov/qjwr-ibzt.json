@@ -1,0 +1,131 @@
+{
+  "id": "qjwr-ibzt",
+  "name": "Public Health Birth Data: Characteristics of Delivery",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 22628,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1754513022,
+  "publicationDate": 1755798169,
+  "rowsUpdatedAt": 1755030646,
+  "viewLastModified": 1769543308,
+  "viewCount": 1389,
+  "downloadCount": 778,
+  "category": "Health & Human Services",
+  "tags": [
+    "ccdph",
+    "reproductive health",
+    "pregnancy",
+    "c-section"
+  ],
+  "attribution": "Cook County Department of Public Health",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Department of Public Health"
+    },
+    "Metadata": {
+      "Update Frequency": "Yearly"
+    },
+    "Detailed Descriptive": {
+      "Temporal coverage": "2015-2023",
+      "Data notes": "Source data does not differentiate between gender and sex assigned at birth. For clarity and brevity, metadata descriptions reflect gendered language with the understanding that these descriptions may not accurately reflect all cases.",
+      "Geographic coverage": "Cook County without City of Chicago"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Annually",
+      "Publishing frequency": "Annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": "Year of the birth",
+      "nullCount": 0,
+      "cardinality": 9
+    },
+    {
+      "name": "Place",
+      "fieldName": "place",
+      "dataTypeName": "text",
+      "description": "CCDPH jurisdiction refers to all Cook County municipalities except Chicago, Evanston, Skokie, Oak Park, Forest View, Burbank, and (incorporated) Stickney. See the attached district map for more information.",
+      "nullCount": 0,
+      "cardinality": 146
+    },
+    {
+      "name": "Age Group",
+      "fieldName": "age_group",
+      "dataTypeName": "text",
+      "description": "Age group of mother",
+      "nullCount": 0,
+      "cardinality": 11
+    },
+    {
+      "name": "Race and Ethnicity",
+      "fieldName": "race_eth",
+      "dataTypeName": "text",
+      "description": "Race and ethnicity of mother. \"NH\" refers to \"non-Hispanic\".",
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Count of Hospital Delivery",
+      "fieldName": "count_hospital",
+      "dataTypeName": "text",
+      "description": "Total number of births delivered in a hospital",
+      "nullCount": 0,
+      "cardinality": 1233
+    },
+    {
+      "name": "Rate of Hospital Delivery",
+      "fieldName": "rate_hospital",
+      "dataTypeName": "text",
+      "description": "Number of births delivered in a hospital per 100 live births",
+      "nullCount": 0,
+      "cardinality": 68
+    },
+    {
+      "name": "Count of Midwife Delivery",
+      "fieldName": "count_midwife",
+      "dataTypeName": "text",
+      "description": "Total number of births attended by a midwife",
+      "nullCount": 0,
+      "cardinality": 312
+    },
+    {
+      "name": "Rate of Midwife Delivery",
+      "fieldName": "rate_midwife",
+      "dataTypeName": "text",
+      "description": "Number of births attended by a midwife per 100 live births",
+      "nullCount": 0,
+      "cardinality": 137
+    },
+    {
+      "name": "Count of Caesarean Section Delivery",
+      "fieldName": "count_caesarean",
+      "dataTypeName": "text",
+      "description": "Total number of births delivered via caesarean section",
+      "nullCount": 0,
+      "cardinality": 758
+    },
+    {
+      "name": "Rate of Caesarean Section Delivery",
+      "fieldName": "rate_caesarean",
+      "dataTypeName": "text",
+      "description": "Number of births delivered via caesarean section per 100 live births",
+      "nullCount": 0,
+      "cardinality": 442
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:59.963Z"
+}

@@ -1,0 +1,120 @@
+{
+  "id": "79iq-26tb",
+  "name": "IDPH Ambulatory Surgical Treatment Center Directory",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 154,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1737774982,
+  "publicationDate": 1777390021,
+  "rowsUpdatedAt": 1777659709,
+  "viewLastModified": 1777659708,
+  "viewCount": 5464,
+  "downloadCount": 1129,
+  "category": "Health and Human Services",
+  "tags": [
+    "ambulatory surgical treatment center",
+    "astc",
+    "healthcare facilities",
+    "surgery centers",
+    "outpatient surgery",
+    "healthcare licensing",
+    "idph",
+    "health facilities directory",
+    "illinois healthcare",
+    "certificate of need"
+  ],
+  "attribution": "IDPH",
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "IDPH"
+    }
+  },
+  "columns": [
+    {
+      "name": "Facility Name",
+      "fieldName": "facility_name",
+      "dataTypeName": "text",
+      "description": "\t Legal name of the facility as registered with the Illinois Department of Public Health, including any \"DBA\" designation.",
+      "nullCount": 0,
+      "cardinality": 154
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": "Physical street address of the facility, including suite or floor where applicable.",
+      "nullCount": 0,
+      "cardinality": 154
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": "Municipality where the facility is physically located.",
+      "nullCount": 0,
+      "cardinality": 154
+    },
+    {
+      "name": "County",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": "Illinois county where the facility is physically located.",
+      "nullCount": 0,
+      "cardinality": 154
+    },
+    {
+      "name": "Zip",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": "Five-digit U.S. Postal Service ZIP Code for the facility's physical location.",
+      "nullCount": 0,
+      "cardinality": 154
+    },
+    {
+      "name": "Contact Name",
+      "fieldName": "contact_name",
+      "dataTypeName": "text",
+      "description": "Name and credentials of the facility's designated administrative contact on file with IDPH.",
+      "nullCount": 0,
+      "cardinality": 154
+    },
+    {
+      "name": "Phone",
+      "fieldName": "phone",
+      "dataTypeName": "text",
+      "description": "Primary contact telephone number for the facility.",
+      "nullCount": 0,
+      "cardinality": 154
+    },
+    {
+      "name": "License Number",
+      "fieldName": "license_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 154
+    },
+    {
+      "name": "Exp. Date",
+      "fieldName": "exp_date",
+      "dataTypeName": "calendar_date",
+      "description": "Date on which the facility's current operating license expires and renewal is required.",
+      "nullCount": 0,
+      "cardinality": 154
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:31.095Z"
+}

@@ -1,0 +1,194 @@
+{
+  "id": "xh8f-2yzn",
+  "name": "Public Health Birth Data: Pregnancy Health and Risk Factors",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 35226,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1754512003,
+  "publicationDate": 1764694377,
+  "rowsUpdatedAt": 1764694361,
+  "viewLastModified": 1769542760,
+  "viewCount": 646,
+  "downloadCount": 1220,
+  "category": "Health & Human Services",
+  "tags": [
+    "ccdph",
+    "reproductive health",
+    "pregnancy"
+  ],
+  "attribution": "Cook County Department of Public Health",
+  "attributionLink": null,
+  "licenseId": "PUBLIC_DOMAIN",
+  "license": "Public Domain",
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Cook County Department of Public Health"
+    },
+    "Metadata": {
+      "Update Frequency": "Yearly"
+    },
+    "Detailed Descriptive": {
+      "Temporal coverage": "2015-2023",
+      "Data notes": "Source data does not differentiate between gender and sex assigned at birth. For clarity and brevity, metadata descriptions reflect gendered language with the understanding that these descriptions may not accurately reflect all cases.",
+      "Geographic coverage": "Cook County without City of Chicago"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Annually",
+      "Publishing frequency": "Annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "Year",
+      "fieldName": "year",
+      "dataTypeName": "number",
+      "description": "Year of the birth",
+      "nullCount": 0,
+      "cardinality": 35226
+    },
+    {
+      "name": "Place",
+      "fieldName": "place",
+      "dataTypeName": "text",
+      "description": "CCDPH jurisdiction refers to all Cook County municipalities except Chicago, Evanston, Skokie, Oak Park, Forest View, Burbank, and (incorporated) Stickney. See the attached district map for more information.",
+      "nullCount": 0,
+      "cardinality": 35226
+    },
+    {
+      "name": "Age Group",
+      "fieldName": "age_group",
+      "dataTypeName": "text",
+      "description": "Age group of mother",
+      "nullCount": 0,
+      "cardinality": 35226
+    },
+    {
+      "name": "Race and Ethnicity",
+      "fieldName": "race_eth",
+      "dataTypeName": "text",
+      "description": "Race and ethnicity of mother. \"NH\" refers to \"non-Hispanic\". \"PI\" refers to \"Pacific Islander\".",
+      "nullCount": 0,
+      "cardinality": 35226
+    },
+    {
+      "name": "Count of Alcohol Consumption",
+      "fieldName": "count_alcohol",
+      "dataTypeName": "text",
+      "description": "Total number of births to mothers who consumed alcohol during pregnancy",
+      "nullCount": 0,
+      "cardinality": 35226
+    },
+    {
+      "name": "Rate of Alcohol Consumption",
+      "fieldName": "rate_alcohol",
+      "dataTypeName": "text",
+      "description": "Number of births to mothers who consumed alcohol during pregnancy per 100 live births",
+      "nullCount": 0,
+      "cardinality": 35226
+    },
+    {
+      "name": "Count of Diabetes",
+      "fieldName": "count_diabetes",
+      "dataTypeName": "text",
+      "description": "Total number of births to mothers diagnosed with diabetes during pregnancy",
+      "nullCount": 0,
+      "cardinality": 35226
+    },
+    {
+      "name": "Rate of Diabetes",
+      "fieldName": "rate_diabetes",
+      "dataTypeName": "text",
+      "description": "Number of births to mothers with diabetes or gestational diabetes per 100 live births",
+      "nullCount": 0,
+      "cardinality": 35226
+    },
+    {
+      "name": "Count of Hypertension",
+      "fieldName": "count_hypertension",
+      "dataTypeName": "text",
+      "description": "Total number of births to mothers diagnosed with hypertension, preeclampsia, or eclampsia during pregnancy",
+      "nullCount": 0,
+      "cardinality": 35226
+    },
+    {
+      "name": "Rate of Hypertension",
+      "fieldName": "rate_hypertension",
+      "dataTypeName": "text",
+      "description": "Number of births to mothers with hypertension, preeclampsia, or eclampsia per 100 live births",
+      "nullCount": 0,
+      "cardinality": 35226
+    },
+    {
+      "name": "Count of Smoking",
+      "fieldName": "count_smoking",
+      "dataTypeName": "text",
+      "description": "Total number of births to mothers who smoked one or more cigarettes during pregnancy",
+      "nullCount": 0,
+      "cardinality": 35226
+    },
+    {
+      "name": "Rate of Smoking",
+      "fieldName": "rate_smoking",
+      "dataTypeName": "text",
+      "description": "Number of births to mothers who smoked one or more cigarettes during pregnancy per 100 live births",
+      "nullCount": 0,
+      "cardinality": 35226
+    },
+    {
+      "name": "Count of Low Weight Gain",
+      "fieldName": "count_low_gain",
+      "dataTypeName": "text",
+      "description": "Total number of births where the mother gained less than 25 pounds during pregnancy",
+      "nullCount": 0,
+      "cardinality": 35226
+    },
+    {
+      "name": "Rate of Low Weight Gain",
+      "fieldName": "rate_low_gain",
+      "dataTypeName": "text",
+      "description": "Number of births with maternal weight gain less than 25 Ibs per 100 live births",
+      "nullCount": 0,
+      "cardinality": 35226
+    },
+    {
+      "name": "Count of Inadequate Prenatal Care",
+      "fieldName": "count_inadequate_prenatal",
+      "dataTypeName": "text",
+      "description": "Total number of births to mothers who received inadequate prenatal care based on timing or number of visits",
+      "nullCount": 0,
+      "cardinality": 35226
+    },
+    {
+      "name": "Rate of Inadequate Prenatal Care",
+      "fieldName": "rate_inadequate_prenatal",
+      "dataTypeName": "text",
+      "description": "Number of births to mothers with prenatal care beginning after third month of pregnancy or no prenatal care received per 100 live births",
+      "nullCount": 0,
+      "cardinality": 35226
+    },
+    {
+      "name": "Count of Other Risks",
+      "fieldName": "count_other_risk",
+      "dataTypeName": "text",
+      "description": "Total number of births to mothers with one or more medical risk factors (including HIV-positive, diabetes, high blood pressure) during pregnancy",
+      "nullCount": 0,
+      "cardinality": 35226
+    },
+    {
+      "name": "Rate of Other Risks",
+      "fieldName": "rate_other_risk",
+      "dataTypeName": "text",
+      "description": "Number of births to mothers with one or more medical risk factors (including HIV-positive, diabetes, high blood pressure) per 100 live births",
+      "nullCount": 0,
+      "cardinality": 35226
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:08.494Z"
+}

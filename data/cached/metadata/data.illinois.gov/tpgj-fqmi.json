@@ -1,0 +1,78 @@
+{
+  "id": "tpgj-fqmi",
+  "name": "IDPH FDD Body Art Establishments List 110513",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 580,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709064652,
+  "publicationDate": 1709144106,
+  "rowsUpdatedAt": 1709144100,
+  "viewLastModified": 1736793990,
+  "viewCount": 68,
+  "downloadCount": 17,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "body_art_establishment",
+      "fieldName": "body_art_establishment",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 563
+    },
+    {
+      "name": "body_art_establishment_id",
+      "fieldName": "body_art_establishment_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 580
+    },
+    {
+      "name": "location",
+      "fieldName": "location",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 578
+    },
+    {
+      "name": "registration",
+      "fieldName": "registration",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "zip_code",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 102,
+      "cardinality": 246
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:36.054Z"
+}

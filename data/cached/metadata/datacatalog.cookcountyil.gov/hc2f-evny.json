@@ -1,0 +1,146 @@
+{
+  "id": "hc2f-evny",
+  "name": "Medical Examiner - Burial Locations",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 542,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": true,
+  "createdAt": 1406908309,
+  "publicationDate": 1569602894,
+  "rowsUpdatedAt": 1761250239,
+  "viewLastModified": 1769546025,
+  "viewCount": 35194,
+  "downloadCount": 18712,
+  "category": "Health & Human Services",
+  "tags": [],
+  "attribution": "Cook County Medical Examiner",
+  "attributionLink": "http://www.cookcountyil.gov/medical-examiner/",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Update Frequency": "As Needed"
+    }
+  },
+  "columns": [
+    {
+      "name": "Case",
+      "fieldName": "case",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 542
+    },
+    {
+      "name": "Name",
+      "fieldName": "name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 542
+    },
+    {
+      "name": "Age",
+      "fieldName": "age",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 542
+    },
+    {
+      "name": "Sex",
+      "fieldName": "sex",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 542
+    },
+    {
+      "name": "Race",
+      "fieldName": "race",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 542
+    },
+    {
+      "name": "Date of Death",
+      "fieldName": "date_of_death",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 542
+    },
+    {
+      "name": "Burial Date",
+      "fieldName": "burial_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 542
+    },
+    {
+      "name": "Cemetery",
+      "fieldName": "cemetery",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 542
+    },
+    {
+      "name": "Cemetery Address",
+      "fieldName": "cemetery_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 542
+    },
+    {
+      "name": "Grave",
+      "fieldName": "grave",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 258,
+      "cardinality": 542
+    },
+    {
+      "name": "Lot",
+      "fieldName": "lot",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 258,
+      "cardinality": 542
+    },
+    {
+      "name": "Block",
+      "fieldName": "block",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 259,
+      "cardinality": 542
+    },
+    {
+      "name": "Longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 292,
+      "cardinality": 542
+    },
+    {
+      "name": "Latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 292,
+      "cardinality": 542
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:46.285Z"
+}

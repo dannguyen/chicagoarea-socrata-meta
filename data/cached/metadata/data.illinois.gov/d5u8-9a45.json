@@ -1,0 +1,83 @@
+{
+  "id": "d5u8-9a45",
+  "name": "CITY STREETS DIRECTORY",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 1000,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709065144,
+  "publicationDate": 1709140933,
+  "rowsUpdatedAt": 1709140928,
+  "viewLastModified": 1736794037,
+  "viewCount": 117,
+  "downloadCount": 84,
+  "category": "Transportation",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 4,
+      "cardinality": 22
+    },
+    {
+      "name": "location_1",
+      "fieldName": "location_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 32
+    },
+    {
+      "name": "notes",
+      "fieldName": "notes",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 983,
+      "cardinality": 2
+    },
+    {
+      "name": "number",
+      "fieldName": "number",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 61,
+      "cardinality": 317
+    },
+    {
+      "name": "parcel",
+      "fieldName": "parcel",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 996
+    },
+    {
+      "name": "ward",
+      "fieldName": "ward",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 734,
+      "cardinality": 1
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:35.077Z"
+}

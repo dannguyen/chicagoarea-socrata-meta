@@ -1,0 +1,145 @@
+{
+  "id": "kt5u-9dcu",
+  "name": "IDPH Asbestos Licensed Contractors",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 148,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1741786378,
+  "publicationDate": 1741786787,
+  "rowsUpdatedAt": 1788362649,
+  "viewLastModified": 1788362649,
+  "viewCount": 7456,
+  "downloadCount": 867,
+  "category": "Health and Human Services",
+  "tags": [
+    "asbestos",
+    "licensed contractors"
+  ],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "Asbestos Program",
+      "Maintainer Email": "dph.asbestos@illinois.gov"
+    }
+  },
+  "columns": [
+    {
+      "name": "Contractor_ID_Numb",
+      "fieldName": "contractor_id_numb",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 148
+    },
+    {
+      "name": "Contractor_Name",
+      "fieldName": "contractor_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 148
+    },
+    {
+      "name": "Address",
+      "fieldName": "address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 148
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 148
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 148
+    },
+    {
+      "name": "Zip",
+      "fieldName": "zip",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 148
+    },
+    {
+      "name": "Contact_Person",
+      "fieldName": "contact_person",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 17,
+      "cardinality": 148
+    },
+    {
+      "name": "COUNTY",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 30,
+      "cardinality": 148
+    },
+    {
+      "name": "RESREMOVAL",
+      "fieldName": "resremoval",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 42,
+      "cardinality": 148
+    },
+    {
+      "name": "Cert_Expiration_Date",
+      "fieldName": "cert_expiration_date",
+      "dataTypeName": "calendar_date",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 148
+    },
+    {
+      "name": "Phone",
+      "fieldName": "phone",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 148
+    },
+    {
+      "name": "Fax",
+      "fieldName": "fax",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 34,
+      "cardinality": 148
+    },
+    {
+      "name": "email",
+      "fieldName": "email",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 10,
+      "cardinality": 148
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:30.478Z"
+}

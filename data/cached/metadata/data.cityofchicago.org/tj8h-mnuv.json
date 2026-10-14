@@ -1,0 +1,673 @@
+{
+  "id": "tj8h-mnuv",
+  "name": "Chicago Public Schools - Elementary School Progress Report (2013-2014)",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 483,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1385069800,
+  "publicationDate": 1589568408,
+  "rowsUpdatedAt": 1589568391,
+  "viewLastModified": 1589568408,
+  "viewCount": 8157,
+  "downloadCount": 5937,
+  "category": "Education",
+  "tags": [
+    "cps",
+    "education",
+    "report cards"
+  ],
+  "attribution": "Chicago Public Schools",
+  "attributionLink": "http://www.cps.edu",
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Metadata": {
+      "Last Updated Date via Automated Load": "",
+      "Time Period": "Academic Year 2013-2014",
+      "Frequency": "Updated as necessary",
+      "Data Owner": "Chicago Public Schools"
+    }
+  },
+  "columns": [
+    {
+      "name": "School ID",
+      "fieldName": "school_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 483
+    },
+    {
+      "name": "Name of School",
+      "fieldName": "name_of_school",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 483
+    },
+    {
+      "name": "Street Address",
+      "fieldName": "street_address",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 472
+    },
+    {
+      "name": "City",
+      "fieldName": "city",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "State",
+      "fieldName": "state",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 1
+    },
+    {
+      "name": "ZIP Code",
+      "fieldName": "zip_code",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 50
+    },
+    {
+      "name": "Phone Number",
+      "fieldName": "phone_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 478
+    },
+    {
+      "name": "Website",
+      "fieldName": "website",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 312
+    },
+    {
+      "name": "Blue Ribbon Award",
+      "fieldName": "blue_ribbon_award",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 480,
+      "cardinality": 2
+    },
+    {
+      "name": "CPS Performance Policy Level",
+      "fieldName": "cps_performance_policy_level",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 8,
+      "cardinality": 4
+    },
+    {
+      "name": "CPS Performance Policy Status",
+      "fieldName": "cps_performance_policy_status",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 8,
+      "cardinality": 3
+    },
+    {
+      "name": "Probation Length",
+      "fieldName": "probation_length",
+      "dataTypeName": "number",
+      "description": "The number of years a school has been placed on probation. The value is only present if \"CPS Performance Policy Status\" is listed as \"ON PROBATION\".",
+      "nullCount": 325,
+      "cardinality": 13
+    },
+    {
+      "name": "My Voice, My School Overall Rating",
+      "fieldName": "my_voice_my_school_overall_rating",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Student Response Rate",
+      "fieldName": "student_response_rate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 224
+    },
+    {
+      "name": "Teacher Response Rate",
+      "fieldName": "teacher_response_rate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 197
+    },
+    {
+      "name": "Involved Family",
+      "fieldName": "involved_family",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Supportive Environment",
+      "fieldName": "supportive_environment",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Ambitious Instruction",
+      "fieldName": "ambitious_instruction",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Effective Leaders",
+      "fieldName": "effective_leaders",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Collaborative Teachers",
+      "fieldName": "collaborative_teachers",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Safe",
+      "fieldName": "safe",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "School Community",
+      "fieldName": "school_community",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 6
+    },
+    {
+      "name": "Parent-Teacher Partnership",
+      "fieldName": "parent_teacher_partnership",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 6
+    },
+    {
+      "name": "Quality of Facilities",
+      "fieldName": "quality_of_facilities",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 5,
+      "cardinality": 6
+    },
+    {
+      "name": "Healthy Schools Certification",
+      "fieldName": "healthy_schools_certification",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 3
+    },
+    {
+      "name": "Creative Schools Certification",
+      "fieldName": "creative_schools_certification",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "NWEA Reading Growth Percentile All Grades",
+      "fieldName": "nwea_reading_growth_percentile_all_grades",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 41,
+      "cardinality": 92
+    },
+    {
+      "name": "NWEA Reading Growth Percentile Grade 3",
+      "fieldName": "nwea_reading_growth_percentile_grade_3",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 58,
+      "cardinality": 94
+    },
+    {
+      "name": "NWEA Reading Growth Percentile Grade 4",
+      "fieldName": "nwea_reading_growth_percentile_grade_4",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 63,
+      "cardinality": 96
+    },
+    {
+      "name": "NWEA Reading Growth Percentile Grade 5",
+      "fieldName": "nwea_reading_growth_percentile_grade_5",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 63,
+      "cardinality": 96
+    },
+    {
+      "name": "NWEA Reading Growth Percentile Grade 6",
+      "fieldName": "nwea_reading_growth_percentile_grade_6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 72,
+      "cardinality": 95
+    },
+    {
+      "name": "NWEA Reading Growth Percentile Grade 7",
+      "fieldName": "nwea_reading_growth_percentile_grade_7",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 83,
+      "cardinality": 95
+    },
+    {
+      "name": "NWEA Reading Growth Percentile Grade 8",
+      "fieldName": "nwea_reading_growth_percentile_grade_8",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 87,
+      "cardinality": 96
+    },
+    {
+      "name": "NWEA Math Growth Percentile All Grades",
+      "fieldName": "nwea_math_growth_percentile_all_grades",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 40,
+      "cardinality": 94
+    },
+    {
+      "name": "NWEA Math Growth Percentile Grade 3",
+      "fieldName": "nwea_math_growth_percentile_grade_3",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 58,
+      "cardinality": 93
+    },
+    {
+      "name": "NWEA Math Growth Percentile Grade 4",
+      "fieldName": "nwea_math_growth_percentile_grade_4",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 61,
+      "cardinality": 93
+    },
+    {
+      "name": "NWEA Math Growth Percentile Grade 5",
+      "fieldName": "nwea_math_growth_percentile_grade_5",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 60,
+      "cardinality": 96
+    },
+    {
+      "name": "NWEA Math Growth Percentile Grade 6",
+      "fieldName": "nwea_math_growth_percentile_grade_6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 71,
+      "cardinality": 94
+    },
+    {
+      "name": "NWEA Math Growth Percentile Grade 7",
+      "fieldName": "nwea_math_growth_percentile_grade_7",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 84,
+      "cardinality": 94
+    },
+    {
+      "name": "NWEA Math Growth Percentile Grade 8",
+      "fieldName": "nwea_math_growth_percentile_grade_8",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 87,
+      "cardinality": 88
+    },
+    {
+      "name": "NWEA Reading Attainment Percentile All Grades",
+      "fieldName": "nwea_reading_attainment_percentile_all_grades",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 36,
+      "cardinality": 96
+    },
+    {
+      "name": "NWEA Reading Attainment Percentile Grade 2",
+      "fieldName": "nwea_reading_attainment_percentile_grade_2",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 66,
+      "cardinality": 97
+    },
+    {
+      "name": "NWEA Reading Attainment Percentile Grade 3",
+      "fieldName": "nwea_reading_attainment_percentile_grade_3",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 57,
+      "cardinality": 93
+    },
+    {
+      "name": "NWEA Reading Attainment Percentile Grade 4",
+      "fieldName": "nwea_reading_attainment_percentile_grade_4",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 62,
+      "cardinality": 97
+    },
+    {
+      "name": "NWEA Reading Attainment Percentile Grade 5",
+      "fieldName": "nwea_reading_attainment_percentile_grade_5",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 62,
+      "cardinality": 92
+    },
+    {
+      "name": "NWEA Reading Attainment Percentile Grade 6",
+      "fieldName": "nwea_reading_attainment_percentile_grade_6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 72,
+      "cardinality": 93
+    },
+    {
+      "name": "NWEA Reading Attainment Percentile Grade 7",
+      "fieldName": "nwea_reading_attainment_percentile_grade_7",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 83,
+      "cardinality": 96
+    },
+    {
+      "name": "NWEA Reading Attainment Percentile Grade 8",
+      "fieldName": "nwea_reading_attainment_percentile_grade_8",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 87,
+      "cardinality": 95
+    },
+    {
+      "name": "NWEA Math Attainment Percentile All Grades",
+      "fieldName": "nwea_math_attainment_percentile_all_grades",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 35,
+      "cardinality": 96
+    },
+    {
+      "name": "NWEA Math Attainment Percentile Grade 2",
+      "fieldName": "nwea_math_attainment_percentile_grade_2",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 67,
+      "cardinality": 98
+    },
+    {
+      "name": "NWEA Math Attainment Percentile Grade 3",
+      "fieldName": "nwea_math_attainment_percentile_grade_3",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 58,
+      "cardinality": 98
+    },
+    {
+      "name": "NWEA Math Attainment Percentile Grade 4",
+      "fieldName": "nwea_math_attainment_percentile_grade_4",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 61,
+      "cardinality": 99
+    },
+    {
+      "name": "NWEA Math Attainment Percentile Grade 5",
+      "fieldName": "nwea_math_attainment_percentile_grade_5",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 60,
+      "cardinality": 98
+    },
+    {
+      "name": "NWEA Math Attainment Percentile Grade 6",
+      "fieldName": "nwea_math_attainment_percentile_grade_6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 71,
+      "cardinality": 95
+    },
+    {
+      "name": "NWEA Math Attainment Percentile Grade 7",
+      "fieldName": "nwea_math_attainment_percentile_grade_7",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 84,
+      "cardinality": 96
+    },
+    {
+      "name": "NWEA Math Attainment Percentile Grade 8",
+      "fieldName": "nwea_math_attainment_percentile_grade_8",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 87,
+      "cardinality": 96
+    },
+    {
+      "name": "Suspensions Per 100 students 2013",
+      "fieldName": "suspensions_per_100_students_2013",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 66,
+      "cardinality": 220
+    },
+    {
+      "name": "Suspensions Per 100 students 2012",
+      "fieldName": "suspensions_per_100_students_2012",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 75,
+      "cardinality": 215
+    },
+    {
+      "name": "Percentage Misconducts Resulting in Suspension 2013",
+      "fieldName": "percentage_misconducts_resulting_in_suspension_2013",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 87,
+      "cardinality": 301
+    },
+    {
+      "name": "Percentage Misconducts Resulting in Suspension 2012",
+      "fieldName": "percentage_misconducts_resulting_in_suspension_2012",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 111,
+      "cardinality": 288
+    },
+    {
+      "name": "Average Length of Suspensions 2013",
+      "fieldName": "average_length_of_suspensions_2013",
+      "dataTypeName": "number",
+      "description": "Average length of suspension measured in days for 2012-2013.",
+      "nullCount": 87,
+      "cardinality": 35
+    },
+    {
+      "name": "Average Length of Suspension 2012",
+      "fieldName": "average_length_of_suspension_2012",
+      "dataTypeName": "number",
+      "description": "Average length of suspensions measured in days for 2011-2012.",
+      "nullCount": 111,
+      "cardinality": 45
+    },
+    {
+      "name": "Student Attendance Percentage 2013",
+      "fieldName": "student_attendance_percentage_2013",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 6,
+      "cardinality": 97
+    },
+    {
+      "name": "Student Attendance Percentage 2012",
+      "fieldName": "student_attendance_percentage_2012",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 12,
+      "cardinality": 80
+    },
+    {
+      "name": "Teacher Attendance Percentage 2013",
+      "fieldName": "teacher_attendance_percentage_2013",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 59,
+      "cardinality": 56
+    },
+    {
+      "name": "Teacher Attendance Percentage 2012",
+      "fieldName": "teacher_attendance_percentage_2012",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 60,
+      "cardinality": 54
+    },
+    {
+      "name": "Grade 3-8 On-Track Percentage 2013",
+      "fieldName": "grade_3_8_on_track_percentage_2013",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 59,
+      "cardinality": 279
+    },
+    {
+      "name": "One-Year Drop Out Rate Percentage 2013",
+      "fieldName": "one_year_drop_out_rate_percentage_2013",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 482,
+      "cardinality": 1
+    },
+    {
+      "name": "One-Year Drop Out Rate Percentage 2012",
+      "fieldName": "one_year_drop_out_rate_percentage_2012",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 483,
+      "cardinality": 0
+    },
+    {
+      "name": "X Coordinate",
+      "fieldName": "x_coordinate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 471
+    },
+    {
+      "name": "Y Coordinate",
+      "fieldName": "y_coordinate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 471
+    },
+    {
+      "name": "Latitude",
+      "fieldName": "latitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 470
+    },
+    {
+      "name": "Longitude",
+      "fieldName": "longitude",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 471
+    },
+    {
+      "name": "Location",
+      "fieldName": "location",
+      "dataTypeName": "point",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 471
+    },
+    {
+      "name": "Boundaries - ZIP Codes",
+      "fieldName": ":@computed_region_rpca_8um6",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Community Areas",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Zip Codes",
+      "fieldName": ":@computed_region_6mkv_f3dw",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Census Tracts",
+      "fieldName": ":@computed_region_bdys_3d7i",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    },
+    {
+      "name": "Wards",
+      "fieldName": ":@computed_region_43wa_7qmu",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": null,
+      "cardinality": null
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:01.031Z"
+}

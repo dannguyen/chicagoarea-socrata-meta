@@ -1,0 +1,81 @@
+{
+  "id": "cje7-b75j",
+  "name": "Budget - FY18 Year End Expense Projection",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 85,
+  "rowCountSource": "cached",
+  "rowLabel": "",
+  "hasRowIdentifier": false,
+  "createdAt": 1529600230,
+  "publicationDate": 1529951577,
+  "rowsUpdatedAt": 1529600869,
+  "viewLastModified": 1769545759,
+  "viewCount": 773,
+  "downloadCount": 1036,
+  "category": "Finance & Operations",
+  "tags": [
+    "budget",
+    "inactive"
+  ],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {},
+  "columns": [
+    {
+      "name": "Department",
+      "fieldName": "department",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 85
+    },
+    {
+      "name": "2018 Approved & Adopted",
+      "fieldName": "_2018_approved_adopted",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 70
+    },
+    {
+      "name": "2018 Adjusted Appropriation",
+      "fieldName": "_2018_adjusted_appropriation",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 85
+    },
+    {
+      "name": "Dec. - May Expenditures & Encumbrances",
+      "fieldName": "dec_may_expenditures_encumbrances",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 85
+    },
+    {
+      "name": "June - Nov Estimated Expenditures",
+      "fieldName": "june_nov_estimated_expenditures",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 85
+    },
+    {
+      "name": "Total 2018 Estimated Expenditures",
+      "fieldName": "total_2018_estimated_expenditures",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 85
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:31:06.705Z"
+}

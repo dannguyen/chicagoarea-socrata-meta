@@ -1,0 +1,109 @@
+{
+  "id": "ce4m-t955",
+  "name": "Procurement - Buying Plan - Fiscal Year 2025",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 181,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1747932681,
+  "publicationDate": 1747943109,
+  "rowsUpdatedAt": 1747943093,
+  "viewLastModified": 1769543449,
+  "viewCount": 6031,
+  "downloadCount": 2818,
+  "category": "Finance & Operations",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Department": {
+      "Publishing Department": "Office of the Chief Procurement Officer"
+    },
+    "Publishing Details": {
+      "Data change frequency": "Bi-annually"
+    }
+  },
+  "columns": [
+    {
+      "name": "Buying Plan Number",
+      "fieldName": "buying_plan_number",
+      "dataTypeName": "text",
+      "description": "buying plan ID",
+      "nullCount": 0,
+      "cardinality": 179
+    },
+    {
+      "name": "Contract Commodity Category",
+      "fieldName": "contract_commodity_category",
+      "dataTypeName": "text",
+      "description": "category that project is aligned to",
+      "nullCount": 0,
+      "cardinality": 8
+    },
+    {
+      "name": "Department",
+      "fieldName": "department",
+      "dataTypeName": "text",
+      "description": "department sponsoring the project",
+      "nullCount": 0,
+      "cardinality": 22
+    },
+    {
+      "name": "Current Contract Number",
+      "fieldName": "current_contract_number",
+      "dataTypeName": "text",
+      "description": "unique contract number if applicable (some plans do not yet have contract numbers assigned)",
+      "nullCount": 3,
+      "cardinality": 66
+    },
+    {
+      "name": "Project Description",
+      "fieldName": "project_description",
+      "dataTypeName": "text",
+      "description": "description of the work to be solicited",
+      "nullCount": 0,
+      "cardinality": 180
+    },
+    {
+      "name": "Estimated Total Contract Amount",
+      "fieldName": "estimated_total_contract",
+      "dataTypeName": "text",
+      "description": "estimated dollar amount range the County expects to spend on the contract",
+      "nullCount": 1,
+      "cardinality": 8
+    },
+    {
+      "name": "Estimated Contract Term",
+      "fieldName": "estimated_contract_term",
+      "dataTypeName": "text",
+      "description": "estimated amount of time the County expects the contract to last",
+      "nullCount": 0,
+      "cardinality": 6
+    },
+    {
+      "name": "Anticipated Advertise Date",
+      "fieldName": "anticipated_advertise_date",
+      "dataTypeName": "text",
+      "description": "date range that the County expects to advertise for the project",
+      "nullCount": 0,
+      "cardinality": 5
+    },
+    {
+      "name": "Proposed Procurement Method",
+      "fieldName": "proposed_procurement_method",
+      "dataTypeName": "text",
+      "description": "procurement method suggested for the project",
+      "nullCount": 2,
+      "cardinality": 3
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:52.154Z"
+}

@@ -1,0 +1,110 @@
+{
+  "id": "wkcf-b7uy",
+  "name": "IDPH STD Illinois By Age Group",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 221,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709229665,
+  "publicationDate": 1709232512,
+  "rowsUpdatedAt": 1709232506,
+  "viewLastModified": 1736793986,
+  "viewCount": 28,
+  "downloadCount": 16,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "age_group",
+      "fieldName": "age_group",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 13
+    },
+    {
+      "name": "chlamydia_count",
+      "fieldName": "chlamydia_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 204
+    },
+    {
+      "name": "chlamydia_rate",
+      "fieldName": "chlamydia_rate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 17,
+      "cardinality": 192
+    },
+    {
+      "name": "early_syphilis_count",
+      "fieldName": "early_syphilis_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 127
+    },
+    {
+      "name": "early_syphilis_rate",
+      "fieldName": "early_syphilis_rate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 17,
+      "cardinality": 119
+    },
+    {
+      "name": "gonorrhea_count",
+      "fieldName": "gonorrhea_count",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 193
+    },
+    {
+      "name": "gonorrhea_rate",
+      "fieldName": "gonorrhea_rate",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 17,
+      "cardinality": 188
+    },
+    {
+      "name": "sort",
+      "fieldName": "sort",
+      "dataTypeName": "number",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 13
+    },
+    {
+      "name": "year",
+      "fieldName": "year",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 17
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:42.346Z"
+}

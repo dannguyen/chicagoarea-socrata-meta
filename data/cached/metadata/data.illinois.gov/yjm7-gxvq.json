@@ -1,0 +1,118 @@
+{
+  "id": "yjm7-gxvq",
+  "name": "IDPH Public and Private Beaches",
+  "assetType": "dataset",
+  "viewType": "tabular",
+  "displayType": "table",
+  "rowCount": 189,
+  "rowCountSource": "cached",
+  "rowLabel": null,
+  "hasRowIdentifier": false,
+  "createdAt": 1709064520,
+  "publicationDate": 1709144370,
+  "rowsUpdatedAt": 1709144364,
+  "viewLastModified": 1736793972,
+  "viewCount": 42,
+  "downloadCount": 18,
+  "category": "Health and Human Services",
+  "tags": [],
+  "attribution": null,
+  "attributionLink": null,
+  "licenseId": null,
+  "license": null,
+  "provenance": "official",
+  "publicationStage": "published",
+  "newBackend": true,
+  "customFields": {
+    "Organizations": {
+      "Organization": "Department of Public Health"
+    },
+    "Data Management": {
+      "Maintainer": "",
+      "Maintainer Email": ""
+    }
+  },
+  "columns": [
+    {
+      "name": "beach_name",
+      "fieldName": "beach_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 0,
+      "cardinality": 189
+    },
+    {
+      "name": "county",
+      "fieldName": "county",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 2,
+      "cardinality": 56
+    },
+    {
+      "name": "epa_prawn_beach_id",
+      "fieldName": "epa_prawn_beach_id",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 147,
+      "cardinality": 42
+    },
+    {
+      "name": "epa_storet_number",
+      "fieldName": "epa_storet_number",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 160,
+      "cardinality": 29
+    },
+    {
+      "name": "location_1",
+      "fieldName": "location_1",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 188,
+      "cardinality": 1
+    },
+    {
+      "name": "ownership_type",
+      "fieldName": "ownership_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 21,
+      "cardinality": 5
+    },
+    {
+      "name": "site_type",
+      "fieldName": "site_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 3,
+      "cardinality": 3
+    },
+    {
+      "name": "site_url",
+      "fieldName": "site_url",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 186,
+      "cardinality": 3
+    },
+    {
+      "name": "waterbody_name",
+      "fieldName": "waterbody_name",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 99,
+      "cardinality": 29
+    },
+    {
+      "name": "waterbody_type",
+      "fieldName": "waterbody_type",
+      "dataTypeName": "text",
+      "description": null,
+      "nullCount": 9,
+      "cardinality": 5
+    }
+  ],
+  "fetchedAt": "2026-10-14T17:30:39.018Z"
+}
